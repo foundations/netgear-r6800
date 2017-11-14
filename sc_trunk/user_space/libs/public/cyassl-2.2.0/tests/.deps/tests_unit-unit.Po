@@ -1,0 +1,88 @@
+tests/tests_unit-unit.o tests/tests_unit-unit.o: tests/unit.c \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/stdio.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/features.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_config.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_arch_features.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/sys/cdefs.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/gcc/stddef.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/types.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/wordsize.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/kernel_types.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/typesizes.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/pthreadtypes.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/sched.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_stdio.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/wchar.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/wchar.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_mutex.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/pthread.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/sched.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/time.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/time.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_clk_tck.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/signal.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/sigset.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/initspin.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/sigthread.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_pthread.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/gcc/stdarg.h \
+  /home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/stdio_lim.h \
+  tests/unit.h
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/stdio.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/features.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_config.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_arch_features.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/sys/cdefs.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/gcc/stddef.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/types.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/wordsize.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/kernel_types.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/typesizes.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/pthreadtypes.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/sched.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_stdio.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/wchar.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/wchar.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_mutex.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/pthread.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/sched.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/time.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/time.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_clk_tck.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/signal.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/sigset.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/initspin.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/sigthread.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/uClibc_pthread.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/gcc/stdarg.h:
+
+/home/mike/Downloads/project/RU/JWNR3200/rtl819x/toolchain/rsdk-1.3.6-5281-EB-2.6.30-0.9.30/include/bits/stdio_lim.h:
+
+tests/unit.h:

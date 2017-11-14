@@ -1,0 +1,82 @@
+diff -aNru bftpd/bftpd.fw.conf bftpd_modify/bftpd.fw.conf
+--- bftpd/bftpd.fw.conf	2017-01-10 17:17:21.626939168 +0800
++++ bftpd_modify/bftpd.fw.conf	2017-01-10 15:46:36.875692666 +0800
+@@ -135,7 +135,7 @@
+ 
+   #ROOTDIR specifies the root directory of the client. It defaults to %h
+   #(user's home directory). %u is replaced by the user name.
+-  ROOTDIR="/mnt"
++  ROOTDIR="/tmp"
+ 
+   #Umask for the files or directories users create.
+   UMASK="022"
+@@ -153,7 +153,7 @@
+   HELLO_STRING="bftpd %v at %i ready."
+ 
+   #The server automatically chdirs to the directory given here after login.
+-  AUTO_CHDIR="/mnt"
++  AUTO_CHDIR="/tmp"
+ 
+   #Authentication type, values: PAM, PASSWD
+   AUTH="PASSWD"
+diff -aNru bftpd/dirlist.c bftpd_modify/dirlist.c
+--- bftpd/dirlist.c	2017-01-10 17:17:21.627940669 +0800
++++ bftpd_modify/dirlist.c	2017-01-10 15:46:36.875692666 +0800
+@@ -115,12 +115,15 @@
+     }
+ #ifdef S_ISLNK
+ 	if (S_ISLNK(statbuf.st_mode)) {
+-		strcpy(perm, "lrwxrwxrwx");
++		strcpy(perm, "drwxrwxrwx");
++#if 0
+                 memset(temp, '\0', sizeof(temp));
+                 readlink(name, temp, sizeof(temp) - 2);
+                 temp[MAXCMD] = '\0';
+ 		// temp[readlink(name, temp, sizeof(temp) - 1)] = '\0';
+ 		sprintf(linktarget, " -> %s", temp);
++#endif
++		linktarget[0] = '\0';
+ 	} else {
+ #endif
+ 		strcpy(perm, "----------");
+@@ -195,7 +198,15 @@
+ 	else
+ 		snprintf(buf, sizeof(buf), "%s%s/", local_cwd+1, name);
+ 	if(local_cwd)
+-		free(local_cwd);
++	{
++
++            	//ONLY /shares is allowed! RETURN, NOT show
++		if (strcmp(local_cwd, "/") == 0 && strcmp(name, "shares") != 0)
++		{
++			free(local_cwd);
++			return;
++		}
++	}
+ 	if(!is_readable(buf))
+ 		return;
+ #endif
+diff -aNru bftpd/login.c bftpd_modify/login.c
+--- bftpd/login.c	2017-01-10 17:17:21.642940029 +0800
++++ bftpd_modify/login.c	2017-01-10 17:12:42.226691527 +0800
+@@ -383,9 +383,9 @@
+                   return -1;
+ 			   }
+                if (password && *password == 0) /* for all directory are readable and writable */
+-                   home_directory = strdup("/mnt");
++                   home_directory = strdup("/tmp");
+                else if ( is_file_readable ) /* for guest account, it can see readable files */
+-                   home_directory = strdup("/mnt");
++                   home_directory = strdup("/tmp");
+                else if ( anon_ok && ! change_uid )
+                    home_directory = "/";
+ #else
+@@ -842,7 +842,7 @@
+ 	if (ftp_request_from_readysharecloud())
+ 	{
+ 		SC_CFPRINTF("ftp request from readysharecloud!\n");
+-		return strdup("/mnt"); 
++		return strdup("/tmp"); 
+ 	}
+ #endif
+

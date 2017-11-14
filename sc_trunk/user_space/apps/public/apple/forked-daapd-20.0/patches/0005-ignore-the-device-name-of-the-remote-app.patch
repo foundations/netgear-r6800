@@ -1,0 +1,40 @@
+From 1cdaa1a62b857984328a31850b8ee34108740e4a Mon Sep 17 00:00:00 2001
+From: Josn Wang <josn.wang@dniserver.dnish.net>
+Date: Tue, 22 Apr 2014 01:18:27 +0800
+Subject: [PATCH] ignore the device name of the remote app
+
+Signed-off-by: Josn Wang <josn.wang@dniserver.dnish.net>
+---
+ src/remote_pairing.c |    9 +++++++++
+ 1 files changed, 9 insertions(+), 0 deletions(-)
+
+diff --git a/src/remote_pairing.c b/src/remote_pairing.c
+index 90a1f16..bba8a84 100644
+--- a/src/remote_pairing.c
++++ b/src/remote_pairing.c
+@@ -364,6 +364,14 @@ add_remote_pin_data(char *devname, char *pin)
+ 
+   for (ri = remote_list; ri; ri = ri->next)
+     {
++      if (ri->pin)
++	free(ri->pin);
++      ri->pin = pin;
++    }
++
++#if 0
++  for (ri = remote_list; ri; ri = ri->next)
++    {
+       if (strcmp(ri->pi.name, devname) == 0)
+ 	break;
+     }
+@@ -381,6 +389,7 @@ add_remote_pin_data(char *devname, char *pin)
+     free(ri->pin);
+ 
+   ri->pin = pin;
++#endif
+ 
+   return 0;
+ }
+-- 
+1.5.6
+

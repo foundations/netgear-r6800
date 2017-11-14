@@ -1,0 +1,16 @@
+util.lo: util.c config.h global.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libid3tag-0.15.1b/../..//library/include/zlib.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libid3tag-0.15.1b/../..//library/include/zconf.h \
+ id3tag.h util.h
+
+config.h:
+
+global.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libid3tag-0.15.1b/../..//library/include/zlib.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libid3tag-0.15.1b/../..//library/include/zconf.h:
+
+id3tag.h:
+
+util.h:

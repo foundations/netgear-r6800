@@ -1,0 +1,97 @@
+.TH REAIM 8
+.SH NAME
+reaim \- Compact transparent proxy server
+.SH SYNOPSIS
+.B reaim [-h|--help]
+.br
+.SH "DESCRIPTION"
+.BR ReAIM
+is a compact transparent proxy designed to be run on or behind a Linux
+IPTables based firewall. When run behind a simple address-translating
+firewall, the current AIM client software does not allow direct-connections
+between users to work. AIM requires direct-connections for file and image
+transfers.
+.PP
+This proxy is designed to transparently intercept AIM client messages and
+pass them through a configurable filter/rewrite chain. This allows selective
+modification of the source address provided in direct-connection setup packets,
+and so remote users can be told to use the global internet routable address,
+rather than the actual IP address of the client on the local network.
+.PP
+The current version supports AIM messaging, file sharing and MSN file
+transfer.
+.SH OPTIONS
+See reaim --help
+.SH SETTING UP THE PROXY
+.PP
+.SS Basic Requirements
+The proxy is designed to transparently proxy and massage AIM and MSN
+messages. To do this, -and still be able to know the original destination-,
+I use a Linux 2.4.x kernel on the firewall, built with iptables.
+.PP
+Linux 2.4.x with ipchains -does not work-, as the original destination
+is not available. Rumour has it that Linux 2.2.x with ipchains provides
+a mechanism to retrieve the original destination, but I haven't checked
+into this yet.
+.PP
+I have put together a basic script to setup firewalling, with a fair
+amount of hand-holding checks along the way. It's available in CVS, and
+will be included in the fifth release.
+.SS Local LAN (eth1) Interface
+The proxy expects to receive redirected AIM and MSN messages on ports 5190
+and 1863 respectively.
+.PP
+ iptables -t nat -A PREROUTING -i eth0 -p tcp \\
+.br
+         --dport 5190 -j REDIRECT --to-ports 5190
+.br
+ iptables -t nat -A PREROUTING -i eth0 -p tcp \\
+.br
+         --dport 1863 -j REDIRECT --to-ports 1863
+.PP
+If you have the firewall port restricted, you also need to allow the
+redirected connections to be received.
+.PP
+ iptables -A INPUT -i eth0 -p tcp --dport 5190 -j ACCEPT
+.br
+ iptables -A INPUT -i eth0 -p tcp --dport 1863 -j ACCEPT
+.SS External Network (ppp0) Interface
+The proxy will massage the redirected AIM and MSN messages, and AIM Share,
+so that direct connections appear to be from the external IP address,
+ports 4443, 1864 and 5566 respectively. Note that the AIM ports can be
+changed in the client, and if so, this proxy will not currently work.
+Note also that in versions 0.6 and later, a port range 40000-40099 should
+be open, as this range is used for some AIM transfers.
+.PP
+So, the very basic setup, in addition to your current ruleset, is to
+permit connections to these ports.
+.PP
+ iptables -A INPUT -i ppp0 -p tcp --dport 4443 -j ACCEPT
+.br
+ iptables -A INPUT -i ppp0 -p tcp --dport 5566 -j ACCEPT
+.br
+ iptables -A INPUT -i ppp0 -p tcp --dport 1864 -j ACCEPT
+.br
+ iptables -A INPUT -i ppp0 -p tcp --dport 40000:40099 -j ACCEPT
+.SH TROUBLESHOOTING
+.PP
+1. Start up with 'reaim -d' and check for obvious error messages.
+.br
+2. Check that there are no [FATAL] lines showing listenning socket errors.  This shows that reaim is listenning for connections.
+.br
+3. Connect to AIM from a machine inside your lan.  This should have [CONN_BH] and [CONN_NB] lines creating and establishing connections.  This shows your firewall is redirecting correctly.
+.br
+4. If reaim takes 100% cpu during step 3, it is likely you have redirected reaim back to itself.  Check you can 'telnet login.oscar.aol.com 5190' from the firewall without reaim running.
+.br
+5. With reaim running, try a direct connect to a friend who is not behind a firewall.  If this fails, check the incoming firewall rules are allowing connections as shown above.
+.br
+6. Try a file transfer, instead of a direct connect.
+.br
+7. Report a possible bug.
+.br
+.SH SEE ALSO
+.BR iptables(8)
+.SH AUTHOR
+This manual page was converted from Mark P. Cooke
+<mark-c@users.sourceforge.net>'s html file, for the Debian GNU/Linux system
+(but may be used by others).

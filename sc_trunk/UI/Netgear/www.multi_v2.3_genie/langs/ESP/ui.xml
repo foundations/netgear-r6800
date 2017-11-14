@@ -1,0 +1,5912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>Añadir cliente WPS</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>Una nueva y sencilla manera de conectar el router inalámbrico a través de una configuración protegida de WiFi (WPS)</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>Los clientes inalámbricos deben ser compatibles con la función WPS para utilizar este asistente y añadir el cliente a su router inalámbrico WPS activo.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>Compruebe el manual de usuario y el paquete de su cliente inalámbrico para ver si admite la función WPS.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>Si su cliente inalámbrico no admite la función WPS, deberá configurarlo de forma manual para que tenga la misma SSID y configuración de seguridad inalámbrica.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation> Siguiente </translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation>Configuración inalámbrica avanzada</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>Nombre (SSID)</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>Región</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>Canal</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>Punto de acceso inalámbrico</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>Emitir nombre</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>Seguridad</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>Configuración de WPS</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>Configurado</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>PIN del router</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>Sin configurar</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>Desactivar el PIN del router</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>Conservar la configuración inalámbrica actual</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>Aplicar</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Cancelar</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>Configuración de copia de seguridad</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>Guardar una copia de la configuración actual</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>Restaurar una configuración guardada a partir de un archivo</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>Volver a la configuración predeterminada </translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation> Copia de seguridad </translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>Restaurar</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>Borrar</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>Si carga la configuración predeterminada, borrará la configuración actual.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>¿Desea continuar?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation> Sí </translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation> No </translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>Configuración básica</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>¿Necesita su conexión a Internet un nombre de usuario?</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>&lt;b&gt;Nombre de la cuenta&lt;/b&gt; &amp;nbsp;(si corresponde)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>&lt;b&gt;Nombre del dominio&lt;/b&gt; &amp;nbsp;(si corresponde)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>Dirección IP</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>Obtener dinámicamente del ISP</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>Utilizar una dirección IP estática</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Connection</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>Máscara de subred IP</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>Puerta de enlace</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>Dirección del servidor de nombre de dominio (DNS) </translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>Obtener automáticamente a partir del ISP</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>Utilizar estos servidores DNS</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>DNS principal</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>DNS secundario</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>Router</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>Dirección MAC</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>Utilizar la dirección predeterminada</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>Utilizar la dirección MAC del ordenador</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>Utilizar esta dirección MAC</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>Prueba</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>Proveedor de servicios de Internet</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Iniciar sesión</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>Contraseña</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>&lt;B&gt;Nombre del servicio&lt;/B&gt; (si corresponde)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>Modo de conexión</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>Siempre encendido</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>Marcar a petición</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>Conectar de forma manual</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;B&gt;Tiempo de espera de inactividad&lt;/B&gt; (en minutos)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>Obtener dinámicamente del ISP</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>Utilizar una dirección IP estática</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>Dirección MAC del router</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>Utilizar la dirección predeterminada</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>Utilizar la dirección MAC del ordenador</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>Utilizar esta dirección MAC</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>Proveedor de servicios de Internet</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>Mi dirección IP</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>Dirección del servidor</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>Nombre o ID de la conexión</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>Utilizar estos servidores DNS</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>Comprobando la conexión a Internet </translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>El sitio web de NETGEAR aparecerá automáticamente en pantalla si la conexión a Internet se realiza correctamente.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>Cerrar ventana</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>Tiempo de conexión</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>Conectando al servidor</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>Negociación</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>Autenticación</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>Obteniendo dirección IP</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>If connection fails, check your Login, Password, and other data.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>Bloquear sitios</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>Bloqueo por palabra clave</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>Nunca</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>Según programa</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>Siempre</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>Introduzca aquí la palabra clave o el nombre del dominio.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>Bloquear los sitios que contengan estas palabras claves o nombres de dominios:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>Permitir dirección IP segura para visitar sitios bloqueados</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>Dirección IP segura</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>Añadir palabra clave</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>Eliminar palabra clave</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>Borrar lista</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>Bloquear servicios</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>Bloqueo de servicios</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>Tabla de servicio</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>Tipo de servicio</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>Puerto</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>Añadir</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>Editar</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>Eliminar</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>Configuración de bloqueo de servicios</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>Protocolo</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>Puerto de inicio</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>Puerto de destino</translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>Tipo de servicio/Usuario definido</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>Filtrar servicios de:</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>Solo esta dirección IP:</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>Intervalo de dirección IP</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>hasta</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>Todas las direcciones IP</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>No existe ninguna conexión a Internet</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>El router no dispone de conexión a Internet, por lo que no es posible descargar el archivo de idioma indicado del sitio web de NETGEAR. Si no ha configurado el puerto de Internet del router, ejecute el CD de instalación. De lo contrario, conecte el router a Internet manualmente y pruebe esta función de nuevo.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>OK </translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Asistente de actualización de firmware</translation>
+</message>
+<message>
+<tag_code>170</tag_code>
+<translation>El router está buscando una versión actualizada de firmware en el servidor de NETGEAR. &lt;br&gt; &lt;br&gt; Este proceso puede durar alrededor de </translation>
+</message>
+<message>
+<tag_code>171</tag_code>
+<translation> segundos. Espere...</translation>
+</message>
+<message>
+<tag_code>172</tag_code>
+<translation>Buscar firmware actualizado al conectarse </translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Comprobación de la versión de firmware</translation>
+</message>
+<message>
+<tag_code>174</tag_code>
+<translation>No hay disponible ninguna nueva versión de firmware</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Atrás</translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>El router está descargando la nueva versión. Espere...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>Actualizando el firmware del router. Espere</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>Nota: La actualización de firmware dura aproximadamente </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation>La actualización de firmware dura aproximadamente  minutos.&lt;br&gt;No apague el dispositivo ni pulse el botón de reinicio</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>Cargar</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>Espere...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>Actualización del idioma de la interfaz</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>Descargar y actualizar el idioma de mesa, por favor, espere un minuto aproximado ...</translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>Remota</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>Desconocido</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Devices</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>Nombre de la carpeta</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>Dispositivos vinculados</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>Dispositivos con cables</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>Nombre del dispositivo</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>Dispositivos inalámbricos (los intrusos inalámbricos también figuran aquí)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>Actualizar</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>Diagnóstico</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>Hacer ping a una dirección IP</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>Realizar una búsqueda DNS</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>Nombre de Internet</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>Dirección IP</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>Servidor:</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>Mostrar la tabla de encaminamiento</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>Reiniciar el router</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>Hacer ping</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>Buscar</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>Mostrar</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>Reiniciar</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>Diagnóstico: hacer ping</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>Resultados del ping</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>Diagnóstico: tabla de encaminamiento</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>Destino</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>Máscara</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>Métrica</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>Activas</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation>DNS dinámica</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>Utilizar un servicio de DNS dinámico</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>Proveedor de servicios</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>Nombre del host</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>Nombre de usuario</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>Mostrar estado</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>Aviso</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>Error en la autenticación del sistema.</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>Póngase en contacto con el administrador del sistema para obtener la información correcta.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>Error</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>Esta página volverá automáticamente a la anterior en pocos segundos...</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>Correo electrónico</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>Activar la notificación por correo electrónico</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>Enviar avisos y registros por correo electrónico</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>Su servidor de correo saliente</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>Enviar a esta dirección de correo electrónico</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>Mi servidor de correo requiere autenticación</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>Enviar aviso inmediatamente</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>Si alguien intenta visitar un sitio bloqueado.</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>Enviar registros según esta programación</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>Si el registro está completo</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>Cada hora</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>Diaria</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>Semanal</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>Ninguno</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>Día</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>Domingo</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>Lunes</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>Martes</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>Miércoles</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>Jueves</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>Viernes</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>Sábado</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>Hora</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>Conexión segura (uso de SSL)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>AM</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>PM</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>Reenvío de puertos/Activación de puertos</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>Seleccione el tipo de servicio</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>Reenvío de puertos</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>Activación de puertos</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>Dirección IP del servidor</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>Noticias</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>Puerto de inicio</translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>Puerto de destino</translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>  Edit Service  </translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>Eliminar servicio</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>Añadir servicio</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>Puertos - Servicios personalizados</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+<translation>Puerto de inicio</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>Puerto de destino</translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>Registros</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>Hora actual:</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>Incluir en el registro</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>Intento de acceso a sitios permitidos</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>Intento de acceso a sitios o servicios bloqueados</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>Conexiones a la interfaz web del router</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>Funcionamiento del router (arranque, obtención de la hora, etc.)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>Exploraciones de puertos y ataques DoS conocidos</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>Reenvío de puertos/Activación de puertos</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>Acceso inalámbrico</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>Borrar registro</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>Enviar registro</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>Desactivar activación de puertos</translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(en minutos)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>Tiempo de espera de activación de puertos</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>Tabla de puertos de activación</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>Activar</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>Conexión entrante</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>Usuario del servicio</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>Añadir servicio</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>Editar servicio</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>Servicio</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>Todos</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>Dirección única</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>Activación de puertos</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>Se requiere conexión entrante.</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>Gestión remoto</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>Activar gestión remota</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>Dirección de gestión remota</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>Permitir acceso remoto a</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>Solo este ordenador</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>Intervalo de direcciones</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>De</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>hasta</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>Todos</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>Número de puerto</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>Reglas del cortafuegos</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>Servicios de salida</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>Acción</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>Registro</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>Predeterminadas</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>PERMITIR siempre</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>Servicios de entrada</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IPAddress</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>BLOQUEAR siempre</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>Cerrar puertos de IM</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>Abrir puertos de IM (los puertos de IM están abiertos de forma predeterminada)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>Mover</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>Programación</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>Días de bloqueo</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>Todos los días</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>Hora de bloqueo:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(utilizar reloj de 24 horas)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>Todo el día</translation>
+</message>
+<message>
+<tag_code>360</tag_code>
+<translation>IP inicial</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>Hora</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>Minuto</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>Finalización</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>Zona horaria</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) Línea internacional de cambio de fecha (oeste)</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) Islas Midway, Samoa</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) Hawái</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) Alaska</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) Hora del Pacífico (EE.UU. y Canadá); Tijuana</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) Arizona, Chihuahua, La Paz, Mazatlán</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) Hora de las Montañas Rocosas (EE.UU. y Canadá)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) América Central, Hora central (EE.UU. y Canadá)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) Guadalajara, Ciudad de México, Monterrey, Saskatchewan</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) Bogotá, Lima, Quito</translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00) Hora oriental (EE.UU. y Canadá)</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) Indiana (Este)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) Hora del Atlántico (Canadá), Caracas, La Paz, Santiago</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) Newfoundland</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) Brasilia, Buenos Aires, Georgetown, Groenlandia</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) Atlántico medio</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) Azores, Cabo Verde</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) Casablanca, Monrovia</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) Tiempo medio de Greenwich: Dublín, Edimburgo, Lisboa, Londres</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) Ámsterdam, Berlín, Berna, Roma, Estocolmo, Viena</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) Belgrado, Bratislava, Budapest, Liubliana, Praga</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) Bruselas, Copenhague, Madrid, París</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) Sarajevo, Skopje, Varsovia, Zagreb, África central occidental</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) Atenas, Beirut, Estambul, Minsk</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) Bucarest, El Cairo, Harare, Pretoria</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) Helsinki, Kiev, Riga, Sofía, Tallin, Vilna, Jerusalén</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riad</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riad, Teherán</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT +04:00) Moscú, San Petersburgo, Volgogrado</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) Abu Dabi, Muscat, Bakú, Tiflis, Yereván, Kabul</translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) Ekaterimburgo, Islamabad, Karachi, Taskent</translation>
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) Chennai, Calcuta, Bombay, Nueva Delhi ,Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) Almaty,  Astaná, Dacca, Sri Jayawardenepura, Rangún ,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) Bangkok, Yakarta, Hanoi,Novosibirsk </translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) Pekín, Chongqing, Hong Kong, Urumqi ,Krasnoyarsk</translation>
+</message>
+<message>
+
+<tag_code>414</tag_code>
+<translation>(GMT+08:00) Ulán Bator, Kuala Lumpur, Singapur, Perth, Taipei</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) Tokio, Osaka, Sapporo, Seúl,  Adelaida, Darwin ,Irkutsk</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) Brisbane, Canberra, Melbourne, Sídney</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00) Yakutsk</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) Guam, Puerto Moresby, Hobart</translation>
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00) Vladivostok</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) Magadán, Islas Salomón, Nueva Caledonia</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) Fiyi, Auckland, Wellington, Islas Marshall</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) Nukualofa</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>Ajustar automáticamente para el horario de verano</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>Hora actual:</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>Servicios</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>Actualización importante</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>Para evitar un conflicto con su proveedor de servicios de Internet, se ha actualizado la dirección IP de su router a </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>A continuación, debe actualizar en los datos de configuración del router las direcciones IP de cada servicio relevante, p. ej., reenvío de puertos y reservas de direcciones IP.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>Cerrar ventana</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>Con el objetivo de ofrecer una interfaz de usuario mejorada, este Router utiliza ampliamente JavaScript.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>Active JavaScript en su navegador, o utilice un navegador diferente.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>Desea cambiar de</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>(el idioma actual) a</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>Configuración</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>Dirección RIP</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>Ambas</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>Solo entrada</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>Solo salida</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>Versión de RIP</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>Desactivado</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>Apagado</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>Encendido</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>Utilizar router como servidor DHCP</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>Reserva de emisión</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>Tabla de reserva de dirección</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>Elija la dirección de reserva que desea eliminar.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>Elija la dirección de reserva que desea modificar.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>Gracias por utilizar la utilidad de configuración en línea del router NETGEAR. </translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>Adiós</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Asistente de configuración</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>Añadir cliente WPS</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>Configuración inalámbrica(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>Configuración inalámbrica(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>Red invitada</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>Almacenamiento USB</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>Configuración avanzada</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>Filtrado de contenidos</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>Mantenimiento</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>Estado del router</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>Establecer contraseña</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>Actualización del router</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+
+<translation>AVANZADO</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>Función de repetición inalámbrica</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>Rutas estáticas</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>Medidor de tráfico</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>Configuración USB</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>Asistencia técnica en línea</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+<translation>Información en línea</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>Documentación</translation>
+</message>
+<message>
+<tag_code>490</tag_code>
+<translation>Salir</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>Asistente de configuración</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>Configuración básica</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Configuración inalámbrica</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>Bloquear sitios</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>Configuración de copia de seguridad</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>Actualización del router</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation>DNS dinámica</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>Rutas estáticas</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>Añadir cliente WPS</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>Gestión remoto</translation>
+</message>
+<message>
+<tag_code>503</tag_code>
+<translation>Seleccione el idioma</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>Ene</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>Feb</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>Mar</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>Abr</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>Mayo</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>Jun</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>Jul</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>Ago</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>Sep</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>Oct</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>Nov</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>Dic</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>Modo del dispositivo</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>Nombre del dispositivo</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>Modo del dispositivo</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>Router (módem + router)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>Módem (solo módem)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>Configuración ADSL</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>Estado del módem</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>Seleccione el país y el idioma</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>País</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>Idioma</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>Versión de firmware</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>Módem</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>Versión del firmware ADSL</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>Velocidad de la conexión del flujo de bajada</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>Velocidad de la conexión del flujo de subida</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>Mediante cable</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Conexión inalámbrica</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>Nombre</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>Modo</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>Estadísticas</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>No se ha detectado ninguna conexión a Internet. El router no puede buscar una versión actualizada de firmware en el servidor de NETGEAR. Después de configurar su conexión a Internet, vaya a la página Actualización del router para buscar una versión de firmware actualizada.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>No se ha detectado conexión a Internet.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the @model_name#.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>Reintentar</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401 No autorizado</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>Póngase en contacto con el administrador del sistema para obtener la información correcta.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>Contraseña anterior</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>Repetir nueva contraseña</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS - Reglas de prioridad</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>Prioridad</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>Directiva QoS para</translation>
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>Categoría de prioridad</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>Aplicaciones</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>Juegos en línea</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>Puerto Ethernet LAN </translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN messenger</translation>
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>IP Phone</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>Vonage IP Phone</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>Añadir una aplicación</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>El más alto</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>Alto</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>Normal</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>Bajo</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>Intervalo del puerto especificado</translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Tipo de conexión</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>Añadir un juego</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>Lista de dispositivos MAC</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>Puerto LAN</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>Lista de reglas de prioridad QoS</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>Directiva QoS</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>Descripción</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>Añadir regla de prioridad</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>Conectar la configuración WMM (Wi-Fi multimedia) </translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>Activar el acceso a Internet mediante el servicio QoS</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>Activar el control de ancho de banda</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>Ancho de banda ascendente:</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>máximo</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>Kbps</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>Mbps</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>Comprobar automáticamente el ancho de banda ascendente de Internet</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation>Comprobar</translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>Configurar regla QoS</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation>Asistente de comprobación del ancho de banda ascendente</translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>Detectando el ancho de banda ascendente Espere</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Router Rebooting</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>En curso</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>Espere...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>Quitar este dispositivo USB de forma segura</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>Intervalo de sondeo</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(segundos)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>Configurar intervalo</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>Detener</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>Tiempo de actividad del sistema</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>Estado</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>TxPkts</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>RxPkts</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>Conflictos</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Tx B/s</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Rx B/s</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>Tiempo de actividad</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>Versión de hardware</translation>
+</message>
+<message>
+
+
+<tag_code>677</tag_code>
+<translation>Idioma de configuracion</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>Servidor de nombre de dominio</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>Aislamiento inalámbrico</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>Configuración protegida de Wi-Fi</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>Permitir a los invitados acceder a mi red local</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Repeating</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>Dirección MAC de la estación base</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>Repeater</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>Estado de la conexión</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Máscara de subred</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Puerta de enlace predeterminada</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>Concesión obtenida</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>La concesión caduca</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>Lanzar</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>Renovar</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>Tiempo de conexión</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>Conectar</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>Desconectar</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>PERMITIR según programa o bloquear</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>BLOQUEAR siempre</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>BLOQUEAR según programa o bloquear</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>Enviar al servidor LAN</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>Añadir servicio</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>Tipo</translation>
+</message>
+<message>
+<tag_code>732</tag_code>
+<translation>Upload Language file:</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>Cargar</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>Nombre de la ruta</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>Privada</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>Seleccione el elemento que desea eliminar.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>Seleccione el elemento que desea modificar.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>Actualizando configuración</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>Espere mientras se actualiza el lenguaje de la interfaz de usuario</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>Advertencia: La versión de firmware que está intentando cargar es anterior a la instalada.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;¿Desea continuar?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>Versión actual</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>Versión cargada</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>Error en la actualización de firmware. Compruebe el archivo.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>Actualización de versión de firmware</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>Para aprovecharse de la función que incluye el router</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>No volver a mostrar este mensaje</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Comprobar si hay nueva versión de la Internet</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>Buscar una nueva versión al conectarse</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>Seleccione de su disco duro el archivo de actualización:</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>Esta página volverá automáticamente a la anterior en pocos segundos...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>Activar UPnP </translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>Intervalo de emisión</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>Tiempo de vida de la emisión</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(en saltos)</translation>
+</message>
+<message>
+
+
+<tag_code>761</tag_code>
+<translation>Tabla de puertos UPnP</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>Interno Puerto</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>Ext. Puerto</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>Almacenamiento USB (Configuración avanzada)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>Nombre de red/nombre del dispositivo</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>Grupo de trabajo</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>Método de acceso</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>Enlace</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>Conexión de red</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>a través de Internet</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>Disponible</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>Carpetas de red disponibles</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+<translation>Nombre del volumen</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>Espacio total</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>Espacio libre</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>Nombre de elemento compartido</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>Acceso de lectura</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>Acceso de escritura</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>Crear carpeta de red</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>Quitar este dispositivo USB de forma segura</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>Dispositivos aprobados para la unidad USB</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>Permitir solo dispositivos aprobados</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Approved</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>Capacidad</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>Almacenamiento USB (Configuración básica)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>Modificar carpeta de red</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>Dispositivo USB</translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>Sistema de archivos</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>Carpeta</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>All: sin contraseña</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>admin</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>Buscar</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>Buscar carpeta</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>Habilitar todos los dispositivos USB conectados al puerto USB</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>Dispositivos aprobados</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>Confirmar contraseña</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>Borrar</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>Conectando con el servidor Netgear</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>Espere...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>Conecte el puerto de Internet y vuelva a intentarlo</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>Se ha encontrado una nueva versión de firmware. ¿Desea instalar la nueva versión?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>Nueva versión de firmware</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>Notas de la versión</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>Este proceso puede tardar uno o dos minutos. Espere...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>No hay disponible ninguna nueva versión de firmware</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>Esta página volverá automáticamente a la anterior en pocos segundos...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>Hay un nuevo archivo de texto de la interfaz disponible:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>¿Desea descargar y utilizar este nuevo archivo de texto de la interfaz?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>Desactivar la protección frente a los ataques Dos y de tipo Port Scan</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>Servidor DMZ predeterminado</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>Responder a ping en el puerto de Internet</translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>Tamaño de la MTU</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(en bytes)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>Filtrado NAT </translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>Seguro</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>Abrir</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>Desactivar SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>Desactivar proxy IGMP</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation>Configuración inalámbrica avanzada</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>Local</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>Dirección MAC</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>Realizar copia de seguridad</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>Ya dispone de una conexión a Internet válida.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>¿Desea continuar con el asistente de configuración?</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>Detectando tipo de conexión del puerto de Internet</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>Espere...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>IP dinámica (DHCP) detectada</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>IP estática (fija) detectada</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>PPPoE detectada</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>PPTP detectada</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>IP estática (fija) detectada</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>o</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>¿Dispone de una dirección IP fija o estática asignada por su proveedor de servicios de Internet?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>No estoy seguro</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>Dinámica</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>Direcciones IP estáticas (fijas)</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>Detectando tipo de conexión del puerto de Internet</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>Compruebe las conexiones del puerto WAN de Internet y del módem de cable o DSL.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>Obtener automáticamente a partir del ISP</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>Utilizar estos servidores DNS</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>El asistente de configuración detecta el tipo de conexión a Internet del que dispone.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>¿Desea que el asistente de configuración intente detectar el tipo de conexión?</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>No. Deseo configurar el router personalmente.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>Lista de acceso por tarjeta inalámbrica</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>Activar el control de acceso</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>Lista de acceso por tarjeta inalámbrica</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>Tarjetas inalámbricas disponibles</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>Entrada para tarjeta inalámbrica</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>Modificar la tarjeta inalámbrica</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>Aceptar</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation>Configuración inalámbrica avanzada</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>Activar radio del router inalámbrico</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>Longitud de fragmentación (256-2346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>Umbral CTS/RTS (1-2347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>Modo de preámbulo</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>Preámbulo largo</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>Preámbulo corto</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>Conservar la configuración inalámbrica actual</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>Configurar la lista de acceso</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>Activar función de repetición inalámbrica</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>Desactivar asociación de cliente inalámbrica</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>MAC inalámbrica de este router:</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>Repetidor inalámbrico</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>Estación base inalámbrica</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>Red inalámbrica </translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>Intervalo de baliza (en ms)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>Activar emisión de la SSID</translation>
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>Activar el aislamiento inalámbrico</translation>
+</message>
+<message>
+<tag_code>909</tag_code>
+<translation>Activar coexistencia de 20/40 MHz</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>--- Seleccione la región ---</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>África</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>Asia</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>Australia</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>Canadá</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>Europa</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>Israel</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>Japón</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>Corea</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>México</translation>
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>Oriente Medio</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>Sudamérica</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>Estados Unidos</translation>
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>Hasta 54 Mbps</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>Hasta 145 Mbps</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>Hasta 300 Mbps</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>Opciones de seguridad</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>Hasta 450 Mbps</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>Hasta 173 Mbps</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>Hasta 400 Mbps</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>Hasta 867 Mbps</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>WPA/WPA2 Enterprise</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>Cifrado de seguridad (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>Tipo de autenticación</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>Automático</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>Clave compartida</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>Nivel de cifrado</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>Clave</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>Contraseña</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>generar</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(8-63 caracteres o 64 dígitos hexadecimales)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>Modo de cifrado</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>Intervalo de actualización de clave de grupo</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>Segundos</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>Configuración de red invitada</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>Perfiles de red</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>Activar la red invitada</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>Permitir a los invitados verse entre sí y acceder a mi red local</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>Activar el aislamiento inalámbrico</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>Nombre de red inalámbrica para invitados (SSID)</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>Cifrado de seguridad (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>Clave de cifrado de seguridad (WEP)</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>Permitir a los invitados acceder a mi red local</translation>
+
+</message>
+<message>
+<tag_code>971</tag_code>
+<translation>(8-63 caracteres o 64 dígitos hexadecimales)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>Seleccione un método de configuración</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+
+<translation>Pulsar botón (recomendado)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>Puede pulsar el botón del router o pulsar el botón de la parte inferior (botón de función).</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN Number(Personal Identification Number)</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>El procedimiento WPS ha sido cancelado por el usuario.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>Error al ańadir un cliente inalámbrico a la red.</translation>
+</message>
+<message>
+<tag_code>978</tag_code>
+<translation>Haga clic en OK para volver a la página Configuración protegida de Wi-Fi...</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>Riesgo de seguridad: Se ha detectado más de un cliente con el botón pulsado.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>El PIN del cliente no es correcto.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>Haga clic en OK para volver a la página Configuración protegida de Wi-Fi...</translation>
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>El procedimiento WPS ha agotado el tiempo de espera.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>Compruebe si el cliente es compatible con la función WPS.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+<translation>Finalizado correctamente</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>El cliente inalámbrico</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>se ha ańadido correctamente a la red.</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>Nota: La configuración inalámbrica ha cambiado.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>Haga clic en OK (Aceptar) para comprobar la nueva configuración inalámbrica...</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>Conectando con el nuevo cliente inalámbrico</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>Haga clic en el botón de hardware o software en el cliente para iniciar el proceso WPS...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>Autenticación del cliente en curso...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>Recopilando la información del cliente...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>Enviando datos de configuración al cliente...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>El PIN del cliente es</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>Haga clic en el botón de software en el cliente para iniciar el proceso WPS...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>El PIN del cliente es</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>Enviando datos de configuración al cliente...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>Este es el PIN de seguridad del cliente WPS. Durante la conexión, los adaptadores compatibles con WPS ofrecen un PIN de seguridad aleatorio.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>Introducir PIN del cliente:</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>El límite mensual del medidor de tráfico (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>se ha alcanzado.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>El contador del medidor de tráfico es </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation>antes de que se alcance el límite mensual</translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>Medidor de tráfico de Internet</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>Activar medidor de tráfico</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>Control de volumen de tráfico </translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>Sin límite</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>Solo descarga</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>Ambas direcciones</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>Límite mensual</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>MBytes</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>Redondear volumen de datos para cada conexión de</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>Control de tiempo de conexión</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>Horas</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>Contador de tráfico</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>Reiniciar el contador de tráfico a las</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>AM</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>PM</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>El </translation>
+
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>1º</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>2º</translation>
+
+
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>3º</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>4º</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>5º</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>6º</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>7º</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>8º</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>9º</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>10º</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>11º</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>12º</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>13º</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>14º</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>15º</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>16º</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>17º</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>18º</translation>
+</message>
+<message>
+<tag_code>1050</tag_code>
+<translation>19º</translation>
+</message>
+<message>
+<tag_code>1051</tag_code>
+<translation>20º</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>21º</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>22º</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>23º</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>24º</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>25º</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>26º</translation>
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>27º</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>28º</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>Último</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>de cada mes</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>Control de tráfico</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>Mostrar mensaje de advertencia</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>MBytes/Minutos restantes para límite mensual</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>Cuando se alcance el límite mensual</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>E indicador de Internet debe parpadear de color verde</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>desconectar y desactivar la conexión a Internet</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>Estadísticas del tráfico de Internet</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>Reiniciar contador </translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>Estado del tráfico</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>Periodo</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>Cantidad utilizada</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>Hoy</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>Ayer</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>Esta semana</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>Este mes</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>El mes pasado</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>Fecha/Hora de inicio</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>Fecha/Hora actual</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>Volumen de tráfico restante</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>Horas</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> minutos.</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>Periodo</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>Volumen de tráfico (MBytes)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>Carga/Promedio</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>Descarga/Promedio</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>Total/Promedio</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>Encender el indicador de Internet en blanco/ámbar intermitente</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>Activar el PIN del router</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>Activar el PIN del router (desactivado porque se ha detectado un ataque)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>Para evitar poner en peligro la seguridad del PIN, desactivar automáticamente el PIN tras</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>intentos fallidos de conexión con PIN hasta que se reinicie el router.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>En el modo de desactivación automática, el indicador WPS del router seguirá parpadeando lentamente</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>Comenzar bloqueo</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>Finalizar bloqueo</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>Gracias por adquirir el router inalámbrico JWNR3200T de NETGEAR. Utilice regularmente el asistente de actualización de firmware para sacar provecho de las mejoras y las nuevas ventajas que ofrece NETGEAR.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>, utilice un adaptador inalámbrico con este logotipo.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>Eliminar todas</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>Buscando actualizaciones de firmware</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>Utilizar comodines</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>Estado de la conexión</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>Tipo de servicio</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Oray dynamic DNS resolve service request</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>Dirección IP de inicio</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>Dirección IP de destino</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>Dirección MAC 1 del repetidor</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>Dirección MAC 2 del repetidor</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>Dirección MAC 3 del repetidor</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>Dirección MAC 4 del repetidor</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>Velocidad máxima de descarga (0 significa sin límites)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>Velocidad máxima de carga (0 significa sin límites)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>Número máximo de tareas de descarga</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>Permite al sistema administrar NETGEAR Downloader automáticamente</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>Configuración básica de NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>Gestor de descargas</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>¿Qué carpeta o ruta desea guardar?</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>Tipo de descarga</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>Ruta de descarga FTP/HTTP</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>Ubicación del archivo BitTorrent</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>Tamaño de archivo (B)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>Descargar</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>Seleccionar todo</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation> No. </translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>Eliminar</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>Dirección IP del servidor RADIUS (RADIUS server IP Address)</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>Puerto del servidor RADIUS:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>Equipo</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>Dispositivo de almacenamiento USB</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>Ruta de almacenamiento</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>Nombre de archivo</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>Tabla de información de descargas</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>Archivos descargados</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>Eliminar historial</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>Pausa</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>Reanudar</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>Velocidad de descarga</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>Restablecer</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>¿Desea extraer todos los dispositivos?</translation>
+
+</message>
+<message>
+<tag_code>2055</tag_code>
+<translation>Secreto compartido del servidor RADIUS:</translation>
+<variable>RADIUS server Shared Secret:</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Compruebe que los cables se han conectado correctamente. Consulte la guía de instalación para obtener información.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Compruebe que el módem de banda ancha se ha reiniciado correctamente. Si el módem dispone de batería auxiliar, extráigala y vuelva a introducirla para reiniciar el módem.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(la contraseña predeterminada es "password")</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(Formato AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(Este aparece en la etiqueta de producto del router).</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*= información necesaria</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  El módem no se ha reiniciado durante la instalación del cableado.</translation>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  El cable Ethernet amarillo no se ha introducido por completo o se ha insertado en el lugar equivocado.</translation>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>Una dirección MAC es un número exclusivo.  Puede consultar la dirección MAC del equipo o del router en la etiqueta del producto.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>Hay disponible una actualización del firmware del router.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>Administración</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>Inicio AVANZADO</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>Configuración avanzada</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>Avanzadas</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Después de comprobar el cable Ethernet, haga clic en &lt;b&gt;Volver a intentarlo&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Servidor DNS alternativo</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Respuesta</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Aplicando la configuración de conexión a Internet</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>¿Seguro que desea cambiar la contraseña de administrador sin la opción de recuperación?</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+<translation>Servidor de autenticación</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Atrás</translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>Básica</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>Se ha detectado una conexión BigPond a Internet.</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Busque el archivo de copia de seguridad de la configuración del router que guardó anteriormente y haga clic en &lt;b&gt;Siguiente&lt;/b&gt; para continuar.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Verificando la conexión a Internet, espere...</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Haga clic aquí</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>Hay una impresora incompatible con el equipo.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>Configurar la conexión a Internet requiere experiencia en gestión de redes. ¿Está seguro/a de que desea hacerlo?</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Configurando la conexión a Internet</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>¡Enhorabuena!</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Nombre o ID de la conexión</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Continuar</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>El asistente NETGEAR Genie se detendrá.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>Puerta de enlace predeterminada</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Detectando la conexión a Internet</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>¿Sabe si su proveedor de servicios de Internet (ISP) le ha asignado una dirección IP fija (estática)? Se trata de un servicio especial &lt;b&gt;poco común&lt;/b&gt;. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>Es necesario especificar la dirección DNS</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>¿Desea que el asistente NETGEAR Genie le ayude a establecerla?</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>¿Desea que el asistente NETGEAR Genie vuelva a intentarlo?</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>Error de descarga</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Activar recuperación de contraseña</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>activado</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>Introducir elemento de búsqueda</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Introduzca la dirección IP fija que le haya asignado su proveedor de servicios de Internet y haga clic en &lt;b&gt;Siguiente&lt;b&gt; para continuar.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Introduzca la dirección MAC aquí.</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Vuelva a introducir la información solicitada.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Introduzca la información solicitada a continuación.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>Introduzca el número de serie del router</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>ERROR</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Error</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>El nombre del archivo no puede dejarse en blanco.</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>Actualización de firmware</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>Actualización de versión de firmware</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Configuración de una IP fija de Internet</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>Dirección IP de la puerta de enlace</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>IR</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>buena</translation>
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>Ayuda y servicio técnico</translation>
+</message>
+<message>
+<tag_code>3058</tag_code>
+<translation>Centro de ayuda</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>Inicio</translation>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>He solucionado el problema con el cable Ethernet.</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>No lo sé. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>He guardado la configuración del router en un archivo y deseo restaurar el router con dicha configuración.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Ya he reiniciado el router y han transcurrido 2 minutos.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Prefiero configurar la conexión a Internet yo mismo</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Tiempo de espera de inactividad&lt;/B&gt; (en minutos)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>Si no activa la recuperación de contraseña y la olvida, la única forma de recuperarla será restaurar la configuración predeterminada del dispositivo.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Si se ha conectado antes al servicio de Internet con un equipo u otro router, el asistente NETGEAR Genie puede utilizar la misma dirección MAC que utilizó anteriormente.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Actualización importante</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>¿En qué ciudad nació su padre?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>¿En qué ciudad nació su madre?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>¿En qué ciudad nació?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>¿En qué año (AAAA) se graduó en la universidad?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Nombre de usuario o contraseña de ISP incorrectos</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>Idioma del instalador</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>Configuración (WAN) del proveedor de Internet</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>Configuración de Internet</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>Dirección IP del servidor de autenticación no válida</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>Dirección IP de la puerta de enlace incorrecta. Introdúzcala de nuevo.</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>Tiempo de inactividad incorrecto. Introduzca un numeral correcto.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>Mi dirección IP incorrecta. Introdúzcala de nuevo o déjela en blanco.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>Dirección IP incorrecta. Introdúzcala de nuevo.</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>Dirección MAC incorrecta.</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>Contraseña incorrecta.</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>Dirección DNS principal incorrecta. Introdúzcala de nuevo.\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>Dirección DNS secundaria incorrecta. Introdúzcala de nuevo.\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>Máscara de subred incorrecta. Introdúzcala de nuevo.\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>Dirección IP</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>“Se ha detectado una conexión L2TP a Internet”;</translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>Última vez que se recuperó la contraseña</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>Leyenda</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>Volver a iniciar sesión</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>Es necesario iniciar sesión para gestionar la siguiente configuración del router:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Asegúrese de que el cable está bien conectado al puerto del módem de banda ancha y al puerto de Internet del router.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Mi dirección IP</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>Mi WiFi</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problema de conexión de red</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>clave de red (contraseña) exclusivos.</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>clave de red (contraseña) exclusivos.</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation> Siguiente </translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>No hay ningún cable Ethernet conectado al puerto de Internet del router.</translation>
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>No hay ninguna unidad USB</translation>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>No, mi ISP no me facilitó una dirección IP fija (estática).</translation>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>No, prefiero configurar la conexión a Internet yo mismo.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>No, prefiero configurar la conexión a Internet yo mismo.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Ninguna de las respuestas anteriores.</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>DESACTIVADO</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>N.º de dispositivos</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>N.º de dispositivos</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>Apagado</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>Otras WiFi</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>Controles paternos</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Contraseña</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>Asigne el archivo correcto. El formato del archivo es *.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>Responda a las dos preguntas de seguridad que aparecen a continuación y haga clic en &lt;b&gt;Continuar&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>Introduzca tiempo de inactividad .\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>Responda a cada pregunta.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Revise los siguientes puntos:</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>Seleccione una pregunta.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>Seleccione el idioma del instalador</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Espere...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>Se ha detectado una conexión PPPoE DSL a Internet.</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>Se ha detectado una conexión PPTP a Internet.</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Servidor DNS preferido</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Imprimir</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Se ha producido un problema al detectar la conexión a Internet: dirección IP</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Se ha producido un problema al detectar la conexión a Internet: dirección MAC</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Se ha producido un problema al detectar la conexión a Internet.</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>PREPARADO</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Restaurar configuración del router</translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Restableciendo la configuración del router</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>Contraseña de administrador del router</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>Nombre de usuario de administrador del router</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>Preguntas frecuentes del router</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Versión de firmware del router</translation>
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>Información del router</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>Inicio de sesión del router</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>Recuperación de la contraseña del router</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>BUSCAR EN LA AYUDA</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>Buscar en la asistencia técnica de NETGEAR</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Pregunta de seguridad 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Pregunta de seguridad 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Seleccione una pregunta</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Seleccione una opción y haga clic en &lt;b&gt;Siguiente&lt;/b&gt; para continuar.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>Seleccione una opción primero.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>Seleccione una de las opciones que aparecen a continuación y haga clic en &lt;b&gt;Siguiente&lt;/b&gt; para continuar:</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Dirección del servidor</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>Mostrar/ocultar el centro de ayuda</translation>
+</message>
+<message>
+<tag_code>3149</tag_code>
+<translation>Máscara de subred</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Conectarse a Internet</translation>
+</message>
+<message>
+<tag_code>3151</tag_code>
+<translation>La información proporcionada no coincide con la almacenada en el router. Vuelve a introducirla.</translation>
+</message>
+<message>
+<tag_code>3152</tag_code>
+<translation>La dirección IP debe pertenecer a la misma subred que la dirección IP.\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>Las etiquetas no pueden tener más de 63 caracteres.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>La dirección IP LAN y la dirección IP WAN no deben estar en la misma subred.\n</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>El router no se puede conectar a Internet con la configuración actual.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Esto puede deberse a las siguiente razones:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Este proceso puede tardar uno o dos minutos. Espere...</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Este proceso puede tardar uno o dos minutos. Espere...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>El router viene configurado con el siguiente nombre de red inalámbrica (SSID) y</translation>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Esta página volverá automáticamente a la anterior en pocos segundos...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Para evitar un conflicto con su proveedor de servicios de Internet, se ha actualizado la dirección IP de su router a </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>para obtenerla.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Para resolver este problema, asegúrese de que el cable Ethernet amarillo se ha conectado correctamente al puerto del módem de banda ancha y al puerto de Internet del router.</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Para resolver este problema, reinicie el módem (apáguelo y vuelva a encenderlo). Para reiniciar un módem con batería auxiliar, puede que tenga que retirar y colocar de nuevo la batería. Después del reinicio, espere 2 minutos hasta que el módem se haya iniciado completamente.</translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Volver a intentarlo</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>Desinstalar</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>El nombre de usuario no puede dejarse en blanco.</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Nombre de usuario</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>Advertencia:\n Si restaura los ajustes desde un archivo de configuración, \nborrará la configuración actual. ¿Desea continuar?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>Aviso</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Podemos ayudarle a recuperar la contraseña de administrador del router. Rellene la información que se indica a continuación y haga clic en &lt;b&gt;Continuar&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+
+<translation>¿Cuál es el nombre de la primera empresa en la que trabajó?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>¿Cómo se llama su mejor amigo/a?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>¿Cómo se llama su padre?</translation>
+</message>
+<message>
+
+
+
+<tag_code>3175</tag_code>
+<translation>¿Cómo se llama su abuelo?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>¿Cómo se llama su abuela?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>¿Cómo se llama su madre?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>¿Cuál es el nombre de su hermano mayor?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>¿Cuál es el nombre de su hermana mayor?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>¿Cómo se llama su hermano pequeño?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>¿Cómo se llama su hermana pequeña?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>¿Cómo se llama el primer jefe que tuvo?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>¿Cuál fue el primer producto NETGEAR que adquirió?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>¿Cuál es el nombre del primer colegio al que asistió?</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>Canal WiFi</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>Aislamiento inalámbrico</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Nombre de red inalámbrica (SSID)</translation>
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>Configuración inalámbrica</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Conexión inalámbrica</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation> Sí </translation>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Sí. Mi ISP me ha asignado una dirección IP fija (estática).</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>Ya ha iniciado sesión desde otro dispositivo. Sólo puede haber una sesión iniciada al mismo tiempo. Si inicia sesión desde este dispositivo, se cerrará la otra sesión. ¿Desea continuar?</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Aún no se ha establecido la conexión a Internet.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>La conexión a Internet se ha establecido correctamente.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>Ya puede iniciar sesión en el router con el nombre de usuario \"admin\" y la contraseña recuperada.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>Se ha recuperado correctamente la contraseña de administrador.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>El router viene configurado con seguridad inalámbrica WPA2-PSK para proteger su red frente a accesos no deseados. Para conectarse a la red inalámbrica, debe introducir la clave de red (contraseña). Esta configuración predeterminada es exclusiva para este dispositivo, como un número de serie.  Si desea modificarla, puede hacerlo posteriormente en la pantalla Configuración inalámbrica de la interfaz web del router.</translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>La seguridad inalámbrica está desactivada en el router. NETGEAR le recomienda encarecidamente</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>activar la seguridad inalámbrica para proteger la red.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>Asistente de WPS</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>Configuración WAN</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>Configuración LAN</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>Configuración QoS</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>No conectado</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>Sistema desprotegido</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>Servidor DHCP</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>Puerto de Internet</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>ReadySHARE Printer</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>Actualización de sistema disponible, Haga click para obtenerla.</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Detectar automáticamente</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>Este proceso puede tardar hasta seis minutos. Espere…</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Haga clic en Siguiente para continuar.</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>Everquest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tourment</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>NO COMPATIBLE</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>Número de serie</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>Buscar actualizaciones</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>Qué es</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>No se ha podido iniciar la sesión. Vuelva a introducir la contraseña de administración correcta del router NETGEAR.</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>Conecte este dispositivo de forma inalámbrica al router NETGEAR e inténtelo de nuevo.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation>FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>Estado de FastLane</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation>Activar FastLane</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation>Ancho de banda reservado para direcciones IP de confianza</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>Botón para conexión Wi-Fi y FastLane</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>Activar dirección IP segura</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>Impresión de ReadySHARE</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>Uso compartido de la impresora para equipos con Windows y Mac con una impresora USB</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>¿Cómo funciona?</translation>
+</message>
+<message>
+<tag_code>3236</tag_code>
+<translation>Paso 1: conecte el cable USB al puerto USB del router con un cable de impresora USB.</translation>
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>Paso 2: instale el software del controlador de la impresora USB en cada uno de los equipos que van a compartir la impresora.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>Si no dispone del controlador, póngase en contacto con el fabricante de la impresora para localizar y descargar la versión más reciente del software del controlador de la impresora.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>Paso 3: descargue la utilidad NETGEAR USB Control Center (disponible en &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;) en cada uno de los equipos que compartirán la impresora. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>Siga las instrucciones mostradas en la utilidad para conectarse a la impresora desde su equipo e imprimir.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>Asistencia en línea</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>Salir</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>Se denegó el acceso al recurso; su cliente no ha proporcionado la autenticación correcta.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>Paso a través de VPN</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>Paso a través de IPSec</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>Paso a través de PPTP</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>Paso a través de L2TP</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>Error: no se puede obtener acceso al archivo</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>Error: espacio insuficiente</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>Error: causa desconocida</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>Descargando</translation>
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>Activar indicador LED de la placa de NETGEAR</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>Puerto de intranet</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>Perfil</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>Emisión de la SSID</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>Dirección IP interna</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>Puerto de inicio externo</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>Puerto de destino externo</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>Puerto de inicio interno</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>Puerto de destino interno</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>Usar el mismo intervalo de puertos para el puerto interno</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>O seleccionar de los dispositivos conectados actualmente</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>Nombre del servicio</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>Desactivar señal inalámbrica según programación</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>La señal inalámbrica está programada para desactivarse durante el siguiente periodo:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>Patrón de repetición</translation>
+</message>
+<message>
+<tag_code>3317</tag_code>
+<translation>Añadir nuevo periodo</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>Periodo de desactivación de señal inalámbrica</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>Seleccionar días</translation>
+</message>
+<message>
+<tag_code>3320</tag_code>
+<translation>Mon</translation>
+</message>
+<message>
+<tag_code>3321</tag_code>
+<translation>Tue</translation>
+</message>
+<message>
+<tag_code>3322</tag_code>
+<translation>Wed</translation>
+</message>
+<message>
+<tag_code>3323</tag_code>
+<translation>Thu</translation>
+</message>
+<message>
+<tag_code>3324</tag_code>
+<translation>Fri</translation>
+</message>
+<message>
+<tag_code>3325</tag_code>
+<translation>Sat</translation>
+</message>
+<message>
+<tag_code>3326</tag_code>
+<translation>Sun</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Send an email notification when a downloading task is finished</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Configure Email</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Upper limit per task. Once set, each download or upload task can use a speed less than or equal to the value you set here.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Enable Auto Status Refresh</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>The downloading task status will be refreshed automatically according to specified rate</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Refresh rate</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Times/Minute</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP Protection/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Enable IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>IP-MAC binding protects your router from ARP attacks. With this function enabled, your router uses the IP-MAC binding table as the static ARP table. You can add, remove, or edit the IP-MAC binding pairs in the table. WARNING! Devices that are not registered in this table will NOT have internet access. Ensure that at least one LAN device's IP and MAC address pair is registered in this table.</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>BitTorrent Link</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>ReadySHARE Mobile Connect</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>Configuración de banda ancha</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>User Ethernet connection first and if fail use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Always use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>Configuración de banda ancha móvil</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>Número de acceso</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>Tipo de PDP</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>Conectar automáticamente al iniciar</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>Volver a conectar automáticamente al perder la conexión</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>Conectando</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>Detectando módem</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>El módem no es compatible</translation>
+
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>Inicializando el módem</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>Sin cobertura de red</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>Conectando</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>Conectado</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>Inactivo</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>Inicializando</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>No conectado</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Always use Ethernet connection</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>Utilizar siempre la conexión de banda ancha móvil</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Detecting Mobile Broadband Modem</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Conectando a la red</translation>
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>No se ha detectado ninguna tarjeta SIM</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>El módem USB no es compatible</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>Introduzca la configuración del proveedor de servicios.</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Please select the Internet Service Provider and then click Next.</translation>
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>Si su proveedor de servicios de banda ancha móvil no se encuentra en la lista desplegable, seleccione otro.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Introduzca los parámetros de configuración. Si no los conoce, póngase en contacto con el proveedor de servicios.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>Activar restablecimiento automático de la conexión a Internet a las</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>Modo AP</translation>
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>Activar modo AP</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>Obtener dirección IP de forma dinámica</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>Obtener dirección de servidor DNS de forma dinámica</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>El modo de repetidor inalámbrico permite a este dispositivo funcionar como un repetidor inalámbrico independiente en su red existente.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>Permitir configuración de IP fija en este dispositivo (no recomendado)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>Siga estas instrucciones para obtener la configuración y el rendimiento óptimos:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;Paso 1:&lt;/b&gt; Asegúrese de que el &lt;b&gt;puerto de Internet&lt;/b&gt; de este dispositivo está conectado a &lt;b&gt;uno de los puertos LAN&lt;/b&gt; del router existente mediante un cable.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;Paso 2:&lt;/b&gt; Si su router existente cuenta con función inalámbrica, apáguela o desactívela para evitar que se produzcan interferencias con este nuevo repetidor. Si lo prefiere, también puede utilizar la función inalámbrica en un canal diferente.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>Cuando haya terminado, haga clic en Aplicar para continuar.</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;Nota:&lt;/b&gt; Tras hacer clic en Aplicar, el dispositivo cambiará a la nueva dirección IP asignada por el router existente, por lo que esta página web podría no estar disponible. Cierre y reinicie el navegador web y vaya de nuevo a la dirección http://www.routerlogin.net/.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>Modo de funcionamiento</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>Repetidor</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Operator Name</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Signal Strength</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>3G/4G setup is done!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>USB Mobile Broadband Modem Settings</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>3G/4G Connection Mode</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Connection Protocol</translation>
+</message>
+<message>
+<tag_code>3502</tag_code>
+<translation>(temporalmente)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>Activar NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>Servidor de medios (Configuración)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>Activar servidor de medios</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>Nombre del servidor de medios</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>Búsqueda de contenidos</translation>
+</message>
+<message>
+<tag_code>3604</tag_code>
+<translation>Automático (cuando se añaden nuevos archivos)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>Volver a buscar en archivos multimedia</translation>
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>Servidor de medios</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>Activar el servidor iTunes (sólo música)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>Introduzca el código de acceso mostrado en la aplicación Remote</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>Permitir control</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>Esta acción estará desactivada mientras no pulse el botón de encendido y apagado.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>Configuración de VLAN/IPTV</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>Activar etiqueta de VLAN</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>ID de VLAN</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>Número de puerto del servidor de correo saliente</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>Ordenar por IP interna</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(Especifique los puertos y los intervalos de puertos separados por comas, ejemplo: 30, 50 - 60, 65500 - 65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>Intervalo de puertos externos</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>Intervalo de puertos internos</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>Control de acceso</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>Puede utilizar el control de acceso para permitir o bloquear el acceso de otros equipos o dispositivos electrónicos a su red. </translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>Activar control de acceso</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>Regla de acceso:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation>una regla general. También puede permitir o bloquear dispositivos concretos.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>Permitir que todos los dispositivos nuevos se conecten</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>Bloquear la conexión para todos los dispositivos nuevos</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>Ver lista de los dispositivos con acceso permitido que no están actualmente conectados a la red </translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>Ver lista de los dispositivos con acceso bloqueado que no están actualmente conectados a la red </translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>Permitir</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>Bloquear</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>Bloqueado</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>Permitido</translation>
+</message>
+ <message>
+<tag_code>3913</tag_code>
+<translation>El modo Punto de Acceso permite añadir un segundo router a la red para usarlo como Punto de Acceso inalámbrico.</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+<translation>Activar modo Punto de Acceso</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>Se ajustará la configuración inalámbrica del dispositivo como Punto de Acceso:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>Nombre de red inalámbrica (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>Contraseña de la red inalámbrica:</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>Para cambiarla, vaya a Configuración->Configuración inalámbrica. El equipo tiene que volver a conectarse utilizando la nueva configuración y regresar a esta página.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>NETGEAR recomienda el uso de una configuración inalámbrica distinta a la existente para evitar interferencias o que se apague o desconecte la señal inalámbrica del router.</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>Si desea añadir el router a la red en el modo Punto de Acceso:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>Conecte uno de los extremos del cable Ethernet al puerto de Internet del router y el otro extremo al puerto LAN del router existente.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>Seleccione la configuración de la dirección IP del Punto de Acceso</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>Punto de Acceso inalámbrico</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>Obtener de forma dinámica del router existente.</translation>
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>Utilizar dirección IP fija (no recomendado).</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>¿Tiene una cuenta de DDNS de NETGEAR o una cuenta de DDNS que no sea IP?</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>Introduzca la siguiente información para el registro.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>Correo electrónico</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>Contraseña (6~32 caracteres)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>Registrarse</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>Al enviar este formulario acepto los</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>términos del servicio</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>y me comprometo a crear solo una cuenta gratuita.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>¿Ha olvidado su contraseña?</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>Haga clic aquí</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>Para gestionar su cuenta de DDNS.</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>El DDNS de NETGEAR de este router está configurado actualmente como:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>Cuenta/Correo electrónico:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>Si desea cambiar la configuración, haga clic en</translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation>para restablecer la configuración en primer lugar.</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>Servicio VPN</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>Activar servicio VPN</translation>
+</message>
+<message>
+<tag_code>4002</tag_code>
+<translation>Para configurar el cliente VPN en sus dispositivos cliente:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>Configuraciones avanzadas</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>Tipo de servicio</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>Puerto del servicio</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>Los clientes utilizarán esta conexión VPN para acceder</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>Todos los sitios de la red doméstica e Internet</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>Solo la red doméstica</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>Paso 1: Seleccione la casilla Activar servicio VPN y haga clic en el botón Aplicar.</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>Paso 2. Descargue la utilidad del cliente de</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>e instálela en los dispositivos en los que desea ejecutar el cliente VPN.</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>Actualmente los clientes IOS y Android no son compatibles.</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>Paso 3. Haga clic abajo en el botón para descargar los archivos de configuración para sus clientes VPN</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>Paso 4. Descomprima los archivos de configuración que acaba de descargar y cópielos en la carpeta en la que está instalado el cliente VPN en sus dispositivos. Para un dispositivo cliente con un sistema Windows de 64 bits, el cliente VPN está instalado en "C:\Program files\OpenVPN\config\" de forma predeterminada.</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>Passo 5: para um dispositivo cliente com Windows, você precisa modificar o nome da interface VPN para "NETGEAR-VPN". A interface VPN geralmente tem um Nome de Dispositivo como "TAP-Windows Adapter"</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation>Paso 6: Debe tener instalada la utilidad del cliente y el usuario que la ejecute debe tener privilegios de administrador.</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>Paso 7: Para obtener ayuda sobre cómo conectarse con los clientes OpenVPN, consulte</translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>Nota: si desea realizar cambios en la sección de configuración avanzada, hágalo antes de descargar los archivos de configuración del paso 3.</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>ReadySHARE Vault le permite realizar una copia de seguridad de sus archivos en un equipo Windows.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>Sådan sikkerhedskopierer du en Windows-pc over på en harddisk i routeren:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. Installer programmet genie på PC'erne ved at downloade softwaren fra  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. Installer ReadySHARE Vault på PC'erne ved at downloade softwaren fra  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. Start ReadySHARE Vault. Brug Instrumentbrættet eller fanen Sikkerhedskopier til at konfigurere og køre din sikkerhedskopi.</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>Tipo de conexión a Internet</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>Detec. autom.</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>Configuración autom</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>Túnel 6to4</translation>
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>Paso a través</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>Fijo</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>Router de retransmisión 6to4 remoto</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>Dirección IP estática</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>Longitud de prefijo/dirección IPv6</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>Dirección IPv6 del router en WAN</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>Clase de usuario (si es necesaria)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>Dirección IPv6 del router en LAN</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>Asignación de direcciones IP</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>Usar servidor DHCP</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>Usar esta ID de interfaz</translation>
+</message>
+<message>
+=======
+<tag_code>4200</tag_code>
+<translation>Vaya a &lt;a  style=\"text-decoration:underline;color:#0000ff;\" href=\"setup.cgi?next_file=AccessControl.htm\"&gt;Control de acceso&lt;/a&gt; para permitir o bloquear dispositivos.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>Encendido</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>Apagado</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>Regla general</translation>
+</message>
+<message>
+>>>>>>> .r4136
+<tag_code>4300</tag_code>
+<translation>Facebook Wi-Fi es una aplicación para pequeñas empresas. La aplicación convierte el router en una zona Wi-Fi y permite a los usuarios registrarse e indicar que les gusta su página de Facebook antes de utilizar la web de forma gratuita.</translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>Consulte el procedimiento de configuración</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>&lt;b&gt;Activar Facebook Wi-Fi&lt;/b&gt; permite que este dispositivo admita la función Wi-Fi Facebook.</translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>Esto solo se aplica a la red invitada Wi-Fi, por lo que debe estar activada en el router para que funcione.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>Haga clic en &lt;b&gt;Configurar&lt;/b&gt; para vincular el router con su página de Facebook existente.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>Configurar</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(Para activar el botón \"Configurar\", seleccione la opción \"Activar Facebook Wi-Fi\" y haga clic en el botón \"Aplicar\")</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>Modo QoS:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>Reglas de QoS</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>Añadir reglas</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS por servicio</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS por dispositivo</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>Cola 1: más alto</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>Cola 2: alto</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>Cola 3: normal</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>Cola 4: bajo</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>Prueba de velocidad</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Anterior</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Descargar las siguientes aplicaciones para el router:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>aplicación Genie. Un panel personal que le permite supervisar, controlar y reparar la red doméstica.</translation>
+</message>
+<message>
+
+<tag_code>4403</tag_code>
+<translation>Aplicación ReadySHARE Vault (solo para equipos Windows). Permite la copia de seguridad automática y continua de un equipo Windows en una unidad USB conectada al router.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Descargando…</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Una vez completada la descarga, instale la aplicación Genie.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Haga clic en el botón Siguiente después de instalar la aplicación Genie para finalizar la configuración del router.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Una vez completada la descarga, instale la aplicación ReadySHARE Vault.</translation>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Haga clic en el botón Siguiente después de instalar la aplicación ReadySHARE Vault para finalizar la configuración del router.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Procesando la solicitud...</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Tras la instalación, haga clic en Siguiente.</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>El sistema instalará</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Para empezar la instalación, haga clic en Ejecutar</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Configuración del control del indicador</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Apagar todos los indicadores excepto el indicador de alimentación</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Activar el parpadeo en los indicadores de Internet, LAN, USB y de actividad inalámbrica cuando se detecta tráfico de datos</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Desactivar el parpadeo en los indicadores de Internet, LAN, USB y de actividad inalámbrica cuando se detecta tráfico de datos</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>No disponible</translation>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Actualizar estado</translation>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>En Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>En otros sistemas distintos a Windows</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) Kamchatka</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>Configuración del control del indicador</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>Activar el parpadeo en los indicadores de Internet, LAN, USB y de actividad inalámbrica cuando se detecta tráfico de datos</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>Desactivar el parpadeo en los indicadores de Internet, LAN, USB y de actividad inalámbrica cuando se detecta tráfico de datos</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>Apagar todos los indicadores excepto el indicador de alimentación</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>Política de privacidad</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (permite obtener acceso al dispositivo de almacenamiento ReadySHARE desde cualquier lugar)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>Hasta 289 Mbps</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>Hasta 600 Mbps</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>Hasta 1300 Mbps</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>La función ReadyCLOUD le ofrece acceso remoto a través de Internet a un dispositivo de almacenamiento USB conectado al puerto USB de su router.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>Cómo configurar ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>Paso 1: necesita una cuenta de ReadyCLOUD. Si no tiene una, </translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation> y seleccione "Crear cuenta".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation> Paso 2: vaya a la página de ReadySHARE de la interfaz gráfica de usuario del router </translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation>, seleccione la opción de ReadyCLOUD y escriba su nombre de usuario y contraseña de ReadyCLOUD para registrar su router con ReadyCLOUD.</translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>Paso 3: vuelva a iniciar sesión en </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation> con su cuenta de ReadyCLOUD. Aparece el dispositivo USB que está conectado al router.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation> Puede utilizar una aplicación remota adicional para establecer una conexión segura entre su equipo o dispositivo móvil y el dispositivo USB del router.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>Inicie sesión en esta aplicación remota y podrá acceder al dispositivo USB desde cualquier lugar. </translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation> para descargar la aplicación remota.</translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>Registro realizado correctamente</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>Anulación de registro realizada correctamente</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>Error en el registro</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>Error en la anulación de registro</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation> Para configurar o modificar su cuenta de usuario de ReadyCLOUD, visite </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>ReadyCLOUD está registrado con un usuario</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>Haga clic en &lt;b&gt;Anular registro&lt;/b&gt; para iniciar sesión en ReadyCLOUD con otro usuario</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>Anular registro</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>Nota:</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;Nota:&lt;/b&gt; La conexión de Internet entre el router y el servicio de ReadyCLOUD seguirá activa hasta que anule el registro.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Activar Implicit BEAMFORMING: dispara la velocidad, fiabilidad y rango de la conexión WiFi en todos los dispositivos móviles</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Protección con contraseña de administración</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Advertencia: Le recomendamos que active la protección con contraseña de administración para proteger los datos de ReadySHARE. Si todavía no ha cambiado la contraseña de administración predeterminada, también le recomendamos que la cambie para mantener protegida la red.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Configuración de la cuenta de administrador</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>La contraseña de administración está siendo utilizada para iniciar sesión en la interfaz web del router. Cámbiela para mantener protegida la red.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Nueva contraseña</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Confirmar nueva contraseña</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Nombre de usuario del administrador:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Nueva contraseña de administración:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Configuración del administrador del router:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>Activar Smart Connect - permite al router elegir de forma inteligente la mejor banda WiFi de 2,4 GHz o de 5 GHz, en función de sus conexiones WiFi. Smart Connect necesita que las redes de 2,4 GHz y de 5 GHz utilicen el mismo nombre de red WiFi (SSID), las mismas opciones de seguridad y la misma contraseña.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>Activar AIRTIME FAIRNESS: evita que se produzcan retrasos en la red cuando se conectan dispositivos más lentos</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(desactivado porque Smart Connect está activado)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>Para smartphones</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>Descarga de paquete de configuración OpenVPN</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>Instrucciones para la configuración del cliente OpenVPN</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>Tipo de servicio de modo TUN</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>Puerto del servicio de modo TUN</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>Tipo de servicio de modo TAP</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>Puerto del servicio de modo TAP</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>Por grupo de puente</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>Por grupo de etiqueta de VLAN</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>Utilizar otro modo de funcionamiento</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>Activar el modo Bridge de red</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>Configurar parámetros inalámbricos para el modo Bridge de red</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>Obtener dirección IP de forma dinámica</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>Obtener dirección de servidor DNS de forma dinámica</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>Elija una red inalámbrica:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>Configuración VLAN/Bridge</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>Dispositivos de cliente VPN</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>Dirección IP remota</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>Dirección IP local</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>Click here to change the Device Name</translation>
+<variable>Haga clic aquí para cambiar el nombre del dispositivo</variable>
+</message>
+</tag_msg>

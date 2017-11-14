@@ -1,0 +1,6473 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>Добавить WPS клиента</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>Новый и удобный способ соединения с беспроводным маршрутизатором с помощью безопасной настройки WiFi Protected Setup (WPS)</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>Беспроводной клиент должен поддерживать функцию WPS, чтобы использовать данный Мастер установки для добавления клиента к беспроводному маршрутизатору со включенным WPS.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>Проверьте руководство пользователя и коробку беспроводного устройства, чтобы убедиться, что функция WPS подерживается.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>Если беспроводной клиент не поддерживает функцию WPS, потребуется настроить его вручную для установки тех же SSID и параметров Wi-Fi беспроводной сети, что и на маршрутизаторе.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation> Далее </translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation>Дополнительные настройки Wi-Fi</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>Имя (SSID)</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>Регион</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>Канал</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>Беспроводная точка доступа</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>Трансляция имени</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>Безопасность</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>Настройки WPS</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>Настроено</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>PIN-код маршрутизатора</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>Не настроено</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>Отключить PIN-код маршрутизатора</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>Сохранить существующие настройки Wi-Fi</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>Применить</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Отмена</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>Резервное копирование настроек</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>Сохранение копии текущих настроек в файл</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>Загрузка сохраненных настроек из файла</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>Сброс настроек в заводские настройки по умолчанию</translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation>Сохранить</translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>Загрузить</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>Сбросить</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>Сброс настроек удалит все текущие настройки.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>Вы действительно хотите это сделать?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation> Да </translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation> Нет </translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>Основные настройки</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>Требуется ли при подключении к Интернету ввести имя пользователя и пароль?</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>Имя устройства(если необходимо)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>Имя домена(если необходимо)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>Интернет</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP-адрес</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>Получить автоматически от провайдера</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>Использовать статический IP-адрес</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Режим подключения</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP-маска подсети</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>Шлюз</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>IP-адрес DNS-сервера (сервера доменных имен)</translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>Получить автоматически от провайдера</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>Использовать следующие адреса DNS-серверов</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Предпочитаемый DNS-сервер</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Альтернативный DNS-сервер</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>Маршрутизатор</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>MAC-адрес</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>Использовать адрес по умолчанию</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>Использовать MAC-адрес компьютера</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>Использовать этот MAC-адрес</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>Проверка</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>Тип подключения</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Вход в систему</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>Пароль</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>Имя службы(если необходимо)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>Режим подключения</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>Всегда включено</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>Подключение по требованию</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>Подключение вручную</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;B&gt;Время бездействия перед отключением&lt;/B&gt; (в минутах)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>Получить автоматически от провайдера</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>Использовать статический IP-адрес</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>MAC-адрес маршрутизатора</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>Использовать адрес по умолчанию</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>Использовать MAC-адрес компьютера</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>Использовать этот MAC-адрес</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>Тип подключения</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>Мой IP-адрес</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>Адрес сервера</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>ID/Имя подключения</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>Использовать следующие адреса DNS-серверов</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>Проверка Интернет-подключения</translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>Данная страница автоматически отобразит веб-сайт NETGEAR при обнаружении успешного подключения к Интернету.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>Закрыть окно</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>Время подключения</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>Подключение к серверу</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>Согласование</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>Аутентификация</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>Получение IP-адреса</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>При неудачном подключении проверьте имя пользователя, пароль и другие данные.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>Блокировка сайтов</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>Блокировать ключевые слова</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>Никогда</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>По расписанию</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>Всегда</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>Введите ключевые слова или доменные имена.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>Блокировать сайты, содержащие эти ключевые слова или имена доменов:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>Разрешить доверенному IP-адресу посещать заблокированные сайты</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>Доверенный IP-адрес</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>Добавить слово</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>Удалить слово</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>Очистить список</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>Блокировка служб</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>Блокировка служб</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>Таблица служб</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>Тип службы</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>Порт</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>Добавить</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>Редактировать</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>Удалить</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>Настройка блокировки служб</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>Протокол</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>Начальный порт</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>Конечный порт</translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>Тип службы / определяется пользователем</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>Службы фильтрации для</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>только этого IP-адреса:</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>В диапазоне IP-адресов</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>до</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>всех IP-адресов</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>Нет подключения к Интернету</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>Маршрутизатор не подключен к Интернету, он не может загрузить файл указанного языка с веб-сайта NETGEAR. Если вы не настроили интернет-порт маршрутизатора, воспользуйтесь для этого установочным компакт-диском или же вручную подключите маршрутизатор к Интернету и снова попытайтесь использовать эту функцию.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>OK</translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Мастер обновления микропрограммного обеспечения</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Проверка версии микрокода</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Назад </translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>Сейчас маршрутизатор производит загрузку новой версии. Подождите...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>Происходит обновление микропрограммного обеспечения маршрутизатора. Подождите</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>Примечание. Обновление микропрограммного обеспечения займет около </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation> минут. &lt;br&gt;Не отключайте электропитание и не нажимайте кнопку сброса.</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>Загрузить</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>Подождите...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>Обновление языка интерфейса пользователя</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>Загрузка и обновление языковой таблицы, пожалуйста, подождите приблизительно одну минуту...</translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>Удаленный</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>Неизвестно</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Устройство</translation>
+</message>
+<message>
+<tag_code>187</tag_code>
+<translation>All</translation>
+</message>
+<message>
+<tag_code>188</tag_code>
+<translation>Selected USB device</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>Имя папки</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>Подключенные устройства</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>Проводные устройства</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>Имя устройства</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>Беспроводные устройства (здесь указываются также беспроводные &quot;злоумышленники&quot;)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>Обновить</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>Диагностика</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>Эхо-запрос IP-адреса</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>Выполнение DNS-поиска</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>Имя в Интернете</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>IP-адрес</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>Сервер :</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>Отображение таблицы маршрутизации</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>Перезагрузка маршрутизатора</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>Эхо-запрос</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>Поиск</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>Отображение</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>Перезагрузка</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>Диагностика - эхо-запрос</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>Результаты эхо-запроса</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>Диагностика - таблица маршрутизации</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>Место назначения</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>Маска</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>Метрика</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>Активный</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation>Динамический DNS</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>Использовать службу динамического DNS</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>Поставщик услуг</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>Имя хоста</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>Имя пользователя</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>Показать состояние</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>Предупреждение</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>Сбой аутентификации системы.</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>Свяжитесь с системным администратором для получения правильной информации.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>Ошибка</translation>
+</message>
+<message>
+<tag_code>229</tag_code>
+<translation>Выберите пользовательскую службу для удаления.</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>Эта страница автоматически вернется на предыдущую страницу через несколько секунд...</translation>
+</message>
+<message>
+<tag_code>231</tag_code>
+<translation>Выберите службу для правки.</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>Электронная почта</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>Включить уведомление по электронной почте</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>Отправка оповещений и журналов по электронной почте</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>Сервер исходящей почты</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>Отправить на этот адрес электронной почты</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>Мой сервер электронной почты требует пройти аутентификацию</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>Немедленная отправка оповещения</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>Если кто-либо пытается посетить заблокированный сайт.</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>Отправить журнал в соответствии с этим расписанием</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>Если журнал заполнен</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>Ежечасно</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>Ежедневно</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>Еженедельно</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>Отсутствует</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>День</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>Воскресенье</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>Понедельник</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>Вторник</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>Среда</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>Четверг</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>Пятница</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>Суббота</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>Время</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>Безопасное подключение (используйте протокол SSL)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>до полудня</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>после полудня</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>Переадресация портов / инициирование портов</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>Выберите тип службы</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>Переадресация порта</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>Инициирование порта</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>IP-адрес сервера</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>Новости</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>Начальный порт</translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>Конечный порт</translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>Редактировать службу</translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>Удалить службу</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>Добавить службу</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>Порты - собственные службы</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+<translation>Начальный порт</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>Конечный порт</translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>Журналы</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>Текущее время</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>Включить в журнал</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>Попытка доступа к разрешенным веб-сайтам</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>Попытка доступа к заблокированным веб-сайтам и службам</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>Подключения к веб-интерфейсу данного маршрутизатора</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>Операции маршрутизатора (запуск, определение времени и т.д.)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>Известные атаки DoS и сканирование портов</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>Переадресация портов / инициирование портов</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>Беспроводной доступ</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>Очистить журнал</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>Отправить журнал</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>Отключить инициирование порта</translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(в минутах)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>Время ожидания при инициировании порта</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>Таблица карты портов для инициирования портов</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>Включить</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>Входящее соединение</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>Пользователь службы</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>Добавить службу</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>Редактировать службу</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>Служба</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>Любой</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>Одиночный адрес</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>Инициирование порта</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>Требуемое входящее соединение</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>Удаленное управление</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>Включить удаленное управление</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>Адрес для удаленного управления</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>Разрешить удаленное управление</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>Только даннному компьютеру</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>Диапазон адресов</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>От</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>до</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>Всем</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>Номер порта</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>Правила брандмауэра</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>Исходящие службы</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>Действие</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>Журнал</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>По умолчанию</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>РАЗРЕШИТЬ всегда</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>Входящие службы</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IP-адрес</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>БЛОКИРОВАТЬ всегда</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>Закрыть порты МОС</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>Открыть порты МОС (порты МОС по умолчанию открыты)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>Переместить</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>Расписание</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>Дни блокировки</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>Каждый день</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>Время дня для блокировки:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(использовать 24-часовой формат)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>Весь день</translation>
+</message>
+<message>
+<tag_code>360</tag_code>
+<translation>Начало</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>Часов</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>Минут</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>Конец</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>Часовой пояс</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) Западная часть часового пояса Международной линии перемены даты</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) о. Мидуэй, Самоа</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) Гавайи</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) Аляска</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) Тихоокеанское время (США и Канада); Тихуана</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) Аризона, Чихуахуа, Ла Пас, Мазатлан</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) Горное время (США и Канада)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) Центральная Америка, Центральное время (США и Канада)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) Гвадалахара, Мехико, Монтеррей, Саскачеван</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) Богота, Лима, Кито </translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00) Восточное время (США и Канада)</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) Индиана (восток)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) Атлантическое время (Канада), Каракас, Ла-Пас,Сантьяго</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) Ньюфаундленд</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) Бразилия, Буэнос-Айрес, Джорджтаун,Гренландия</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) Средняя Атлантика</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) Азорские острова, острова Зеленого Мыса</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) Касабланка, Монровия</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) Время по Гринвичу: Дублин, Эдинбург, Лиссабон, Лондон</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) Амстердам, Берлин, Берн, Рим, Стокгольм, Вена</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) Белград, Братислава, Будапешт, Любляна, Прага</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) Брюссель, Копенгаген, Мадрид, Париж</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) Сараево, Скопье, Варшава, Загреб, Западная Центральная Африка</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) Афины, Бейрут, Стамбул, Минск</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) Бухарест, Хараре, Претория, Каир</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) Хельсинки, Киев, Рига, София, Таллин, Вильнюс, Иерусалим</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) Багдад, Кувейт, Найроби, Эр-Рияд</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03:00) Багдад, Кувейт, Найроби, Эр-Рияд, Тегеран</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT+04:00) Москва, Санкт- Петербург, Волгоград</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) Абу-Даби, Мускат, Баку, Тбилиси, Ереван, Кабул</translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) Екатеринбург, Исламабад, Карачи, Ташкент</translation>
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) Мадрас, Калькутта, Мумбай, Нью-Дели, Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) Алма-Ата,  Астана, Дхака, Шри Джаяварденепура, Рангун,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) Бангкок, Джакарта, Ханой, Новосибирск</translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) Пекин, Чунцин, Гонконг, Урумчи ,Красноярск</translation>
+</message>
+<message>
+<tag_code>414</tag_code>
+<translation>(GMT+08:00)  Улан-Батор, Куала-Лумпур, Сингапур, Петр, Тайпей</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) Токио, Осака, Саппоро, Сеул, Аделаида, Дарвин ,Иркутск</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) Брисбейн, Канберра, Мельбурн, Сидней</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00)  Якутск</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) Гуам, Порт Моресби, Хобарт</translation>
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00) Владивосток</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) Магадан, Соломоновы острова., о-в Новая Каледония</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) Фиджи, Окленд, Веллингтон, Маршалловы о-ва</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) Нукуалофа</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>Автоматическая настройка для светлого времени суток</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>Текущее время</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>Службы</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>Важное обновление</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>Для предотвращения конфликта с Интернет-провайдером IP-адрес маршрутизатора был обновлен на </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>Теперь необходимо обновить IP-адреса в настройках  каждой соответствующей службы маршрутизатора, например переадресации порта и резервирования IP-адреса.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>Закрыть окно</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>Для предоставления расширенного пользовательского интерфейса данный маршрутизатор в значительной степени использует JavaScript.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>Включите JavaScript в браузере или используйте другой браузер.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>Вы хотите переключиться с</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>( текущий язык ) на</translation>
+</message>
+<message>
+<tag_code>446</tag_code>
+<translation>Страна</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>Настройка</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>Направление RIP</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>Оба</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>Только входящее</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>Только исходящее</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>Версия RIP</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>Отключено</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>Откл.</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>Вкл.</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>Использовать маршрутизатор в качестве DHCP-сервера</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>Резервирование адреса</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>Таблица резервирования адреса</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>Выберите резервный адрес для удаления.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>Выберите резервный адрес для правки.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>Благодарим за использование программы по настройке маршрутизатора NETGEAR на базе веб-браузера.</translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>До свидания</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Мастер установки</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>Добавить WPS клиента</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>Настройки Wi-Fi(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>Настройки Wi-Fi(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>Гостевая сеть</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>USB-накопитель</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>Дополнительные настройки</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>Фильтрация содержимого</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>Обслуживание</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>Состояние маршрутизатора</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>Установка пароля</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>Обновление маршрутизатора</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+<translation>РАСШИРЕННЫЙ</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>Функция ретрансляции Wi-Fi</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>Статические маршруты</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>Счетчик трафика</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>Настройки USB-порта</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>Интернет-поддержка</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+<translation>База знаний</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>Документация</translation>
+</message>
+<message>
+<tag_code>490</tag_code>
+<translation>Выход</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>Мастер установки</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>Основные настройки</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Настройки Wi-Fi</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>Блокировка сайтов</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>Резервное копирование настроек</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>Обновление маршрутизатора</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation>Динамический DNS</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>Статические маршруты</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>Добавить WPS клиента</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>Удаленное управление</translation>
+</message>
+<message>
+<tag_code>503</tag_code>
+<translation>Выбрать язык</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>Янв</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>Фев</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>Мар</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>Апр</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>Май</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>Июн</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>Июл</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>Авг</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>Сен</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>Окт</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>Ноя</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>Дек</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>Режим устройства</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>Имя устройства</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>Режим устройства</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>Маршрутизатор (модем + маршрутизатор)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>Модем (только модем)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>Настройки ADSL</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>Состояние модема</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>Выберите страну и язык</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>Страна</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>Язык</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>Версия микропрограммного обеспечения</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>Модем</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>Версия микропрограммного обеспечения ADSL</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>Скорость нисходящего потока</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>Скорость восходящего потока</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>Проводные</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Wi-Fi сеть</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>Имя</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>Режим</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>Статистика</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>Подключение к Интернету не обнаружено, маршрутизатор не может проверить наличие обновления микрокода на сервере NETGEAR. После установки подключения к Интернету перейдите на страницу &quot;Обновление маршрутизатора&quot;, чтобы проверить наличие обновлений микропрограммного обеспечения.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>Подключение к Интернету не обнаружено.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the WNR2000.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>Повторить попытку</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401 Не санкционировано</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>Свяжитесь с системным администратором для получения правильной информации.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>Старый пароль</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>Повторить новый пароль</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS - Приоритетные правила</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>Приоритет</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>Политика QoS для</translation>
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>Категория приоритета</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>Приложения</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>Онлайн игры</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>Ethernet-порт локальной сети</translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN Messenger</translation>
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>IP Phone</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>Vonage IP Phone</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>Добавить новое приложение</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>Наивысший</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>Высокий</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>Обычный</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>Низкий</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>Заданный диапазон портов</translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Тип соединения</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>Добавить новую игру</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>Список MAC-устройств</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>Порт локальной сети</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>Список правил присвоения приоритетов</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>Политика QoS</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>Описание</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>Добавить правило</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>Активировать настройки WMM (Wi-Fi мультимедиа)</translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>Активировать QoS при доступе к Интернету</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>Включить управление пропускной способностью</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>Пропускная способность восходящего канала</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>Максимум</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>Кбит/с</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>Мбит/с</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>Автоматическая проверка пропускной способности восходящего канала</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation> Проверить </translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>Настроить правила</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation>Мастер проверки полосы пропускания восходящего канала</translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>Попытка определения полосы пропускания восходящего канала. Подождите</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Выполняется перезагрузка маршрутизатора, подождите …</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>Выполнение</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>Подождите...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>Безопасно отключить USB-устройство</translation>
+</message>
+<message>
+<tag_code>636</tag_code>
+<translation>Selected USB device</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>Интервал опроса</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(сек.)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>Установить интервал</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>Остановить</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>Время работы системы</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>Состояние</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>Передача, пакет/с</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>Прием, пакет/с</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>Коллизии</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Передача, байт/с</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Прием, байт/с</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>Время работы</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>Аппаратная версия устройства</translation>
+</message>
+<message>
+<tag_code>677</tag_code>
+<translation>Версия языка интерфейса пользователя:</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>Сервер доменных имен</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>Изоляция беспроводной сети</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>Безопасная настройка Wi-Fi</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>Разрешить доступ гостей в локальную сеть</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Беспроводная ретрансляция</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>MAC-адрес базовой станции</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>IP-адрес ретранслятора</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>Статус подключения</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Маска подсети</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Шлюз по умолчанию</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>Аренда получена</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>Аренда истекла</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>Сбросить</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>Обновить</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>Время подключения</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>Подключить</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>Отключить</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>РАЗРЕШИТЬ по расписанию, в другое время БЛОКИРОВАТЬ</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>БЛОКИРОВАТЬ всегда</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>БЛОКИРОВАТЬ по расписанию, в другое время РАЗРЕШИТЬ</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>Отправить на сервер LAN</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>Добавить службу</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>Тип</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>Загрузить</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>Имя маршрута</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>Частный</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>Выберите элемент для удаления.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>Выберите элемент для правки.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>Обновление параметров</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>Подождите, язык интерфейса пользователя будет изменен</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>Внимание, загружаемое микропрограммное обеспечение обладает более старой версией, чем текущее.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;Продолжить?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>Текущая версия</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>Загруженная версия</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>Не удалось выполнить обновление ПО. Проверьте файл.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>Обновление микрокода</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>750</tag_code>
+<translation>Благодарим за покупку устройства от компании NETGEAR</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>Чтобы воспользоваться преимуществом технологии Wireless-N, предлагаемой маршрутизатором</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>Больше не отображать это сообщение</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Проверить новую версию в Интернете</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>Проверять наличие новой версии при входе в систему</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>Найдите и выберите файл обновления на жестком диске:</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>Эта страница автоматически вернется на предыдущую страницу через несколько секунд...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>Включить UPnP</translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>Период объявления</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>Время действия объявления (TTL)</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(в сегментах сети)</translation>
+</message>
+<message>
+<tag_code>761</tag_code>
+<translation>Таблица соответствия портов UPnP</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>Внутр. Порт</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>Внеш. Порт</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>USB-накопитель (Дополнительные настройки)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>Сетевое имя/имя устройства</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>Рабочая группа</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>Метод доступа</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>Ссылка</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>Сетевое соединение</translation>
+</message>
+<message>
+<tag_code>770</tag_code>
+<translation>Отключить</translation>
+</message>
+<message>
+<tag_code>774</tag_code>
+<translation>Http (через Интернет)</translation>
+</message>
+<message>
+<tag_code>775</tag_code>
+<translation>@wan_http_url#</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>через Интернет</translation>
+</message>
+<message>
+<tag_code>780</tag_code>
+<translation>@wan_ftp_url#</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>Доступные USB-устройства</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>Доступные сетевые папки</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+<translation>Имя тома</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>Общий объем</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>Свободно</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>Имя общего ресурса</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>Доступ на чтение</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>Доступ на запись</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>Создать сетевую папку</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>Безопасно отключить USB-устройство</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>Доверенные USB-накопители</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>Разрешены только доверенные устройства</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Доверенные USB-устройства</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>Емкость</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>USB-накопитель (Основные настройки)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>Редактировать сетевую папку</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>USB-устройство </translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>Файловая система</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>Папка</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>Для всех – без пароля</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>admin</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>Обзор</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>Просмотр папок</translation>
+</message>
+<message>
+<tag_code>806</tag_code>
+<translation>Включите JavaScript в браузере или используйте другой браузер.</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>Включить любое USB-устройство, подключенное к USB-порту</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>Доверенные устройства</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>Подтвердите пароль</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>Очистить</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>Попытка подключения к серверу NETGEAR</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>Подождите...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>Выполните подключение к Интернет-порту и повторите попытку</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>Обнаружена новая версия микропрограммного обеспечения. Загрузить новую версию сейчас?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>Новая версия микрокода</translation>
+</message>
+<message>
+<tag_code>827</tag_code>
+<translation>Текущая версия языка интерфейса пользователя</translation>
+</message>
+<message>
+<tag_code>828</tag_code>
+<translation>Новая версия языка интерфейса пользователя</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>Перечень изменений</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>Этот процесс может занять одну-две минуты; подождите...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Новая версия микрокода отсутствует.</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>Эта страница автоматически вернется на предыдущую страницу через несколько секунд...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>Имеется новый текстовый файл интерфейса пользователя:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>Загрузить и использовать этот новый текстовый файл интерфейса пользователя?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>Отключить защиту от сканирования портов и атак DoS</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>DMZ-сервер по умолчанию</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>Отвечать на эхо-запрос Интернет-порта</translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>Размер MTU</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(в байтах)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>Фильтрация NAT</translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>Защищенная</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>Открытая</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>Отключить SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>Отключить IGMP-прокси</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation>Дополнительные настройки Wi-Fi</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>Локальный</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>MAC-адрес</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>Резервное копирование</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>У вас уже имеется действующее подключение к Интернету.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>Все равно продолжить работу с мастером установки?</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>Определение типа соединения на интернет-порте</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>Подождите...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Обнаруженный тип подключения: динамический IP-адрес</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>Обнаруженный тип подключения: фиксированный IP-адрес</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>Обнаруженный тип подключения: PPPoE</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>Обнаруженный тип подключения: PPTP</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>Обнаруженный тип подключения: фиксированный IP-адрес</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>или</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>IP адрес, назначенный поставщиком услуг Интернета, фиксированный или статичный?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>Не уверен</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>Динамический</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>Фиксированный IP-адрес</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>Определение типа соединения на интернет-порте</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>Проверьте правильное подключение к Интернет-порту маршрутизатора провода от вашего провайдера или кабельного/DSL-модема.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>Получить автоматически от провайдера</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>Использовать следующие адреса DNS-серверов</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Мастер установки поможет определить тип подключения к Интернету.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Хотите ли вы, чтобы мастер установки сейчас попытался определить тип вашего подключения?</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Нет. Я хочу настроить маршрутизатор самостоятельно.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>Список доступа беспроводных устройств</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>Включить контроль доступа</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>Настройка доступа беспроводных устройств</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>Доступные беспроводные устройства</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>Добавить запись для беспроводного устройства</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>Редактирование записи для беспроводного устройства</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>Примите</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation>Дополнительные настройки Wi-Fi</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>Включить Wi-Fi сеть</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>Длина фрагментации (256-2346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>Пороговое значение CTS/RTS (1-2347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>Режим заголовка</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>Длинный заголовок</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>Короткий заголовок</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>Сохранить существующие настройки Wi-Fi</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>Настройка списка</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>Включить функцию беспроводной ретрансляции</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>Отключить ассоциацию с беспроводными устройствами</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>MAC-адрес беспроводного интерфейса данного маршрутизатора:</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>Беспроводной ретранслятор</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>Беспроводная базовая станция</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>Wi-Fi сеть </translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>Интервал маяка (в мс)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>Включить широковещание SSID</translation>
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>Включить изоляцию между беспроводными устройствами</translation>
+</message>
+<message>
+<tag_code>909</tag_code>
+<translation>Включить совместное использование частот 20/40 МГц</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>--- Выберите регион ---</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>Африка</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>Азия</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>Австралия</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>Канада</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>Европа</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>Израиль</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>Япония</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>Корея</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>Мексика</translation>
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>Ближний Восток</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>Южная Америка</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>США</translation>
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>До 54 Мбит/с</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>До 145 Мбит/с</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>До 300 Мбит/с</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>Параметры безопасности</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>До 450 Мбит/с</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>До 173 Мбит/с</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>До 400 Мбит/с</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>До 867 Мбит/с</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>WPA/WPA2 Enterprise</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>Защитное шифрование (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>Тип аутентификации</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>Автоматически</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>Общий ключ</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>Стойкость шифрования</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>Ключ</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>Фраза-пароль</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>Создать</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(от 8 до 63 символов или 64 шестнадцатеричных цифры)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>Режим шифрования</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>Интервал обновления группы ключей</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>Секунды</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>Настройки гостевой сети</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>Сетевые профили</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>Включить гостевую сеть</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>Разрешить гостям видеть друг друга и предоставить доступ к моей локальной сети</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>Включить изоляцию между беспроводными устройствами</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>Имя (SSID) гостевой беспроводной сети</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>Защитное шифрование (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>Ключ защитного шифрования (WEP)</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>Разрешить доступ гостей в локальную сеть</translation>
+</message>
+<message>
+<tag_code>971</tag_code>
+<translation>(от 8 до 63 символов или 64 шестнадцатеричных цифры)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>Выберите способ настройки</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+<translation>Кнопка (рекомендуемый)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>Можно либо физически нажать кнопку Push'N'Connect на маршрутизаторе, либо щелкнуть по программной кнопке внизу.</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN-код</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>Процедура WPS отменена пользователем.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>Не удается добавить беспроводного клиента в сеть в течение нескольких</translation>
+</message>
+<message>
+<tag_code>978</tag_code>
+<translation>Щелкните &lt;b&gt;OK&lt;/b&gt; для возврата к странице Wi-Fi Protected Setup...</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>Угроза безопасности: обнаружено более одного клиента с нажатой кнопкой.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>Неверный PIN-код клиента.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>Щелкните &lt;b&gt;OK&lt;/b&gt; для возврата к странице Wi-Fi Protected Setup...</translation>
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>Тайм-аут WPS-процедуры.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>Проверьте, поддерживает ли клиент функцию WPS.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+<translation>Успешно</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>Беспроводной клиент</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>добавлен к сети</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>Примечание: настройки Wi-Fi изменены.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>Щелкните &lt;b&gt;OK&lt;/b&gt; для проверки новых параметров Wi-Fi сети…</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>Соединение с новым беспроводным клиентом</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>Нажмите программную или аппаратную кнопку на устройстве-клиенте, чтобы начать процесс WPS...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>Проверка подлинности клиента...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>Сбор сведений о клиенте...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>Пересылка клиенту данных конфигурации...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>PIN-код клиента:</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>Нажмите программную кнопку на устройстве-клиенте, чтобы начать процесс WPS...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>PIN-код клиента:</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>Пересылка клиенту данных конфигурации...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>Это PIN-код безопасности для клиента WPS. Во время подключения адаптеры, поддерживающие WPS, предоставляют случайно сгенерированный PIN-код безопасности.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>Введите PIN-код клиента:</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>Месячное ограничение счетчика трафика (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>достигнуто.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>Показания вашего счетчик трафика составляют </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation>до достижения месячного ограничения.</translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>Счетчик Интернет-трафика</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>Включить счетчик трафика</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>Контроль объема трафика</translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>Не ограничено</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>Только загрузка</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>Оба направления</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>Месячное ограничение</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>МБайт</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>Округление объема данных для каждого подключения до</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>Контроль времени соединения</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>Часы</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>Счетчик трафика</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>Сбросить счетчик трафика в</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>до полудня</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>после полудня</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>на</translation>
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>1-й</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>2-й</translation>
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>3-й</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>4-й</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>5-й</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>6-й</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>7-й</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>8-й</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>9-й</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>10-й</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>11-й</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>12-й</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>13-й</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>14-й</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>15-й</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>16-й</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>17-й</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>18-й</translation>
+</message>
+<message>
+<tag_code>1050</tag_code>
+<translation>19-й</translation>
+</message>
+<message>
+<tag_code>1051</tag_code>
+<translation>20-й</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>21-й</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>22-й</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>23-й</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>24-й</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>25-й</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>26-й</translation>
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>27-й</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>28-й</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>Прошедший</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>день каждого месяца</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>Контроль трафика</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>Отображать предупреждения</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>МБайт/мин. до достижения месячного ограничения</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>При достижении месячного ограничения</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>Переключение индикатора «Интернет» в режим мигания зеленым цветом</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>разорвать соединение с Интернетом</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>Статистика Интернет-трафика</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>Сбросить счетчик сейчас</translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>Состояние трафика</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>Период подсчета</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>Потрачено</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>Сегодня</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>Вчера</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>За неделю</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>За текущий месяц</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>За прошедший месяц</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>Дата и время начала</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>Текущие дата и время</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>Объем оставшегося трафика</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>Часы</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> минут.</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>Период</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>Объем трафика (МБайт)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>Отдача/среднее значение</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>Загрузка/среднее значение</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>Всего/среднее значение</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>Переключение индикатора интернет-соединения в режим мигания белым и желтым цветом</translation>
+</message>
+<message>
+<tag_code>1152</tag_code>
+<translation>WiFi Only</translation>
+</message>
+<message>
+<tag_code>1153</tag_code>
+<translation>WiFi and Mobile Broadband</translation>
+</message>
+<message>
+<tag_code>1167</tag_code>
+<translation>Италия</translation>
+</message>
+<message>
+<tag_code>1168</tag_code>
+<translation>Австрия</translation>
+</message>
+<message>
+<tag_code>1169</tag_code>
+<translation>UK</translation>
+</message>
+<message>
+<tag_code>1170</tag_code>
+<translation>Denmark</translation>
+</message>
+<message>
+<tag_code>1171</tag_code>
+<translation>Швеция</translation>
+</message>
+<message>
+<tag_code>1173</tag_code>
+<translation>Ireland</translation>
+</message>
+<message>
+<tag_code>1174</tag_code>
+<translation>Гонконг</translation>
+</message>
+<message>
+<tag_code>1175</tag_code>
+<translation>Vietnam</translation>
+</message>
+<message>
+<tag_code>1176</tag_code>
+<translation>Индонезия</translation>
+</message>
+<message>
+<tag_code>1177</tag_code>
+<translation>США</translation>
+</message>
+<message>
+<tag_code>1178</tag_code>
+<translation>Определенный пользователем</translation>
+</message>
+<message>
+<tag_code>1179</tag_code>
+<translation>Австралия</translation>
+</message>
+<message>
+<tag_code>1208</tag_code>
+<translation>Использовать внутреннюю антенну</translation>
+</message>
+<message>
+<tag_code>1214</tag_code>
+<translation>Кнопка настройки беспроводной связи</translation>
+</message>
+<message>
+<tag_code>1226</tag_code>
+<translation>APN Auto Lookup</translation>
+</message>
+<message>
+<tag_code>1228</tag_code>
+<translation>has detected Mobile Broadband settings for you, do you want to use these settings?</translation>
+</message>
+<message>
+<tag_code>1231</tag_code>
+<translation>Имя провайдера:</translation>
+</message>
+<message>
+<tag_code>1232</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>Включить PIN-код роутера</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>Включить PIN роутера (отключен, поскольку обнаружена атака)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>Для предотвращения рассекречивания PIN-кода автоматически отключить его после</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>неудачных подключений по PIN-коду до перезапуска роутера.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>В режиме автоматического отключения светодиодный индикатор WPS на роутере мигает с небольшой частотой</translation>
+</message>
+<message>
+<tag_code>1745</tag_code>
+<translation>Режим сети</translation>
+</message>
+<message>
+<tag_code>1796</tag_code>
+<translation>Режим интернет-соединения</translation>
+</message>
+<message>
+<tag_code>1800</tag_code>
+<translation>Метод определения необходимости в резервировании</translation>
+</message>
+<message>
+<tag_code>1801</tag_code>
+<translation>DNS-поиск с использованием сервера DNS внутри WAN</translation>
+</message>
+<message>
+<tag_code>1802</tag_code>
+<translation>Отправить эхо-запрос на этот IP-адрес</translation>
+</message>
+<message>
+<tag_code>1803</tag_code>
+<translation>Интервал повтора равен</translation>
+</message>
+<message>
+<tag_code>1804</tag_code>
+<translation>(в секундах)</translation>
+</message>
+<message>
+<tag_code>1805</tag_code>
+<translation>Резервирование после</translation>
+</message>
+<message>
+<tag_code>1806</tag_code>
+<translation>Включить определение физического подключения</translation>
+</message>
+<message>
+<tag_code>1846</tag_code>
+<translation>Perform a DNS lookup by a hostname</translation>
+</message>
+<message>
+<tag_code>1937</tag_code>
+<translation>NOT Allow Roaming</translation>
+</message>
+<message>
+<tag_code>1941</tag_code>
+<translation>(в интервалах)</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>Начать блокировку</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>Завершить блокировку</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>Благодарим за приобретение беспроводного маршрутизатора NETGEAR JWNR3200 Периодически запускайте мастер обновления микрокода, чтобы воспользоваться преимуществом улучшений и функциональных добавлений NETGEAR, предлагаемых для этого продукта.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>, используйте беспроводной адаптер с данным логотипом.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>Удалить все</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>Проверка наличия обновлений программного обеспечения</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>Использовать групповые символы</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>Состояние связи:</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>Тип службы:</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Peanuthull Dynamic DNS Service Registration</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>Начальный IP-адрес</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>Конечный IP-Адрес</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>MAC-адрес 1 ретранслятора</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>MAC-адрес 2 ретранслятора</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>MAC-адрес 3 ретранслятора</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>MAC-адрес 4 ретранслятора</translation>
+</message>
+<message>
+<tag_code>2021</tag_code>
+<translation>Использовать групповые символы</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>Макс. скорость загрузки для каждой задачи (0 - без ограничений)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>Макс. скорость передачи для каждой задачи (0 - без ограничений)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>Максимальное количество одновременных задач загрузки</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>Разрешенное макс. количество одновременных задач загрузки, независимо от типа службы (FTP/HTTP, или BT)</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>Основные настройки NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>Диспетчер загрузок</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>Какой каталог или путь требуется сохранить?</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>Тип загрузки</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>Путь загрузки FTP / HTTP</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>Местоположение файла BitTorrent</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>Размер файла (Б)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>Загрузить</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>Выбрать все</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation> № </translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>Удалить</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>IP-адрес RADIUS-сервера:</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>Порт RADIUS-сервера:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>ПК</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>USB-устройство хранения данных</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>Сохранить путь</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>Имя файла</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>Таблица сведений о загрузке</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>Загруженные файлы</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>Удалить историю</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>Пауза</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>Resume</translation>
+</message>
+<message>
+<tag_code>2050</tag_code>
+<translation>Download Link:</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>Скорость загрузки</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>Сброс</translation>
+</message>
+<message>
+<tag_code>2053</tag_code>
+<translation>Internet Address</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>Демонтировать все устройства?</translation>
+</message>
+<message>
+<tag_code>2055</tag_code>
+<translation>Общий секретный ключ RADIUS-сервера:</translation>
+<variable>RADIUS server Shared Secret:</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Проверьте правильность подключения кабелей. См. инструкции в Руководстве по установке маршрутизатора.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Убедитесь, что питание широкополосного модема было выключено и снова включено в соответствии с инструкциями. В случае модема с аварийным батарейным питанием извлеките и снова установите батарею для перезапуска модема.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(в качестве пароля по умолчанию используется слово "password")</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(формат AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(Серийный номер указан на товарной этикетке маршрутизатора.)</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>* - обязательное для заполнения поле</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1. На этапе подключения кабеля Питание не было выполнено выключение и повторное включение питания модема.</translation>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2. Желтый кабель Ethernet подключен ненадежно или подключен не к тому разъему.</translation>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>MAC-адрес – это уникальный номер.  MAC-адрес компьютера или маршрутизатора указан на этикетке продукта.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>Доступно обновление микрокода маршрутизатора.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>Администрирование</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>Состояние маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>Дополнительные настройки</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>РАСШИРЕННЫЙ</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>После проверки кабеля Ethernet нажмите &lt;b&gt;Повторить попытку&lt;&#47;b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Альтернативный сервер DNS</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Ответ</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Применение настроек подключения к Интернету</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>Вы действительно хотите изменить пароль администратора без возможности восстановления?</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+<translation>Сервер аутентификации</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Назад </translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>БАЗОВЫЙ РЕЖИМ</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>Обнаружено подключение к Интернету с использованием BigPond</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Перейдите к файлу резервного копирования настроек маршрутизатора (сохраненному ранее) и нажмите &lt;b&gt;Далее&lt;&#47;b&gt; для продолжения процедуры.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Проверка подключения к Интернету; подождите ...</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Нажмите здесь,</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>Компьютер не обеспечивает поддержку принтера.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>Настройка подключения к Интернету требует знаний в области сетевых технологий. Вы уверены?</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Настройка подключения к Интернету</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Поздравляем!</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>ID/Имя подключения</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Продолжить</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>Выполнение текущего NETGEAR Genie остановлено.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>Шлюз по умолчанию</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Обнаружение подключения к Интернету</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Ваш интернет-провайдер (ISP) назначил вам фиксированный (статический) IP-адрес?; Это &lt;b&gt;очень редкая&lt;&#47;b&gt; специальная опция. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>Необходимо указать адрес DNS</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Использовать NETGEAR Genie?</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Повторить попытку использования NETGEAR Genie?</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>Ошибка загрузки!</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Включить восстановление пароля</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>ВКЛЮЧЕНО</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>Ввести строку поиска</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Введите фиксированный IP-адрес, назначенный интернет-провайдером, затем нажмите &lt;b&gt;Далее&lt;&#47;b&gt; для продолжения процедуры.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Введите MAC-адрес в это поле:</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Введите необходимые сведения еще раз.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Введите необходимые сведения ниже.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>Введите серийный номер маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>ОШИБКА</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Ошибка</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>Введите имя файла!</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>Обновление микрокода</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>Обновление микрокода</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Настройки фиксированного IP-адреса в Интернет</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>IP-адрес шлюза</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>ПЕРЕЙТИ</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>РАБОТАЕТ</translation>
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>Справка и поддержка</translation>
+</message>
+<message>
+<tag_code>3058</tag_code>
+<translation>Центр справки</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>Состояние</translation>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Я исправил неполадку с кабелем Ethernet.</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Я не знаю. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Я сохранил настройки маршрутизатора в файле и хочу восстановить эти настройки на маршрутизаторе.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Я отключил и снова подключил питание модема и подождал 2 минуты.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Я хочу настроить подключение к Интернету самостоятельно</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>Время бездействия перед отключением (в минутах)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>Если восстановление пароля не включено и вы забыли новый пароль, для его восстановления необходимо восстановить заводские настройки маршрутизатора, используемые по умолчанию.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Если вы ранее подключались к Интернету с использованием компьютера или другого маршрутизатора, NETGEAR Genie может использовать MAC-адрес этого устройства.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Важное обновление</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>В каком городе родился ваш отец?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>В каком городе родилась ваша мать?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>В каком городе вы родились?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>В каком году (ГГГГ) вы окончили институт?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Неверное имя пользователя и/или пароль интернет-провайдера</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>Язык программы установки</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>Настройки Интернет-порта</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>Настройка Интернета</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>Интернет</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>Недействительный IP-адрес сервера аутентификации.</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>Недопустимый IP-адрес шлюза. Повторите попытку!</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>Недопустимое время ожидания перед отключением. Введите верное значение.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>Недопустимый Мой IP-адрес. Повторите попытку или оставьте поле незаполненным.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>Недопустимый MAC-адрес</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>Недопустимый пароль</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>Недопустимый предпочитаемый DNS-адрес. Повторите попытку!\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>Недопустимый альтернативный DNS-адрес. Повторите попытку!\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>Недопустимая маска сети. Повторите попытку!\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>IP-адрес</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>Обнаружено подключение к Интернету по протоколу L2TP</translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>Время последнего восстановления пароля</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>Комментарий</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>Повторите вход в систему</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>Для управления следующими настройками маршрутизатора требуется выполнить вход:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Убедитесь, что кабель надежно подключен к порту широкополосного модема и порту сети Интернет маршрутизатора.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Мой IP-адрес</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>Мой WiFi</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Проблема при подключении к сети</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>сетевого ключа (пароля)</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>Сетевой ключ (пароль)</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation> Далее </translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Кабель Ethernet не подключен к порту сети Интернет на маршрутизаторе</translation>
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>Нет USB-накопителя</translation>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Нет, я не получил фиксированный (статический) IP-адрес от интернет-провайдера.</translation>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Нет, я хочу настроить подключение к Интернету самостоятельно.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>Нет. Я хочу настроить подключение к Интернету самостоятельно.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Ничего из перечисленного.</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>НЕ ВКЛЮЧЕНО</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>Кол-во устройств</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>Кол-во устройств</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>ОТКЛ.</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>WiFi других пользователей</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>Родительск. контроль</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Пароль</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>Назначьте правильный файл. Формат файла –*.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>Введите ответы на два контрольных вопроса, представленных ниже, и нажмите &lt;b&gt;Продолжить&lt;&#47;b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>Введите продолжительность паузы.\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>Введите ответ для каждого вопроса.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Проверьте выполнение следующих шагов:</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>Выберите вопрос.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>Выберите язык программы установки</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Подождите...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>Обнаружено подключение к Интернету по протоколу PPPoE</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>Обнаружено подключение к Интернету по протоколу PPTP</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Предпочтительный сервер DNS</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Распечатать</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Обнаружена проблема при подключении к Интернету – IP-адрес</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Обнаружена проблема при подключении к Интернету – MAC-адрес</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Обнаружена проблема при подключении к Интернету</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>ГОТОВО</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Восстановление настроек маршрутизатора </translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Восстановление настроек маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>Пароль администратора маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>Имя пользователя администратора маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>Часто задаваемые вопросы о маршрутизаторе</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Версия микрокода маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>Информация о маршрутизаторе</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>Вход в систему маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>Восстановление пароля маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>ПОИСК ПО СПРАВКЕ</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>Поиск поддержки NETGEAR</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Контрольный вопрос №1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Контрольный вопрос №2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Выберите вопрос</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Выберите опцию и нажмите &lt;b&gt;Далее&lt;&#47;b&gt; для продолжения процедуры.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>Сначала выберите опцию.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>Выберите одну из опций, представленных ниже, и нажмите &lt;b&gt;Далее&lt;&#47;b&gt; для продолжения процедуры:</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Адрес сервера</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>Показать/Скрыть центр справки</translation>
+</message>
+<message>
+<tag_code>3149</tag_code>
+<translation>Маска подсети</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Перейти в Интернет</translation>
+</message>
+<message>
+<tag_code>3151</tag_code>
+<translation>Введенная информация не совпадает с информацией, сохраненной на маршрутизаторе. Повторите попытку ввода.</translation>
+</message>
+<message>
+<tag_code>3152</tag_code>
+<translation>IP-адрес и IP-адрес шлюза должны находиться в одной подсети!\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>Этикетки могут содержать не более 63 символов.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>IP-адреса локальной сети и Интернет-порта не должны находиться в одной подсети!\n</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Маршрутизатор не может подключиться к Интернету с текущими настройками.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Наиболее вероятные причины:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Этот процесс может занять несколько минут; подождите ...</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Этот процесс может занять одну-две минуты; подождите...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Данный маршрутизатор предварительно настроен для использования уникального имени Wi-Fi сети (SSID) и </translation>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Эта страница автоматически вернется на предыдущую страницу через несколько секунд...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Для предотвращения конфликта с Интернет-провайдером IP-адрес маршрутизатора был обновлен на </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>чтобы получить обновление.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Чтобы решить эту проблему, убедитесь, что желтый кабель Ethernet надежно подключен к порту широкополосного модема и порту сети Интернет маршрутизатора.</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Чтобы решить эту проблему, выключите и снова включите питание модема. Чтобы выключить и снова включить питание модема, имеющего резервную батарею, необходимо извлечь и снова установить батарею. После выключения и повторного включения необходимо подождать 2 минуты до полного запуска модема.</translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Повторить попытку</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>Удаление</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>Имя пользователя не может быть пустым!</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Имя пользователя</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>Предупреждение!\nПри восстановлении параметров с помощью файла настройки все текущие параметры будут удалены.\nПродолжить?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>ПРЕДУПРЕЖДЕНИЕ</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Мы можем помочь вам восстановить пароль администратора маршрутизатора. Введите необходимую информацию ниже и нажмите &lt;b&gt;Продолжить&lt;&#47;b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Как зовут вашего первого работодателя?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Как зовут вашего лучшего друга?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Какое отчество у вашего отца?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Как зовут вашего дедушку?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Как зовут вашу бабушку?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Какое отчество у вашей матери?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Как зовут вашего старшего брата?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Как зовут вашу старшую сестру?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Как зовут вашего младшего брата?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Как зовут вашу младшую сестру?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Как звали вашего первого начальника?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Как назывался первый продукт NETGEAR, который вы приобрели?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Как называлась первая школа, в которой вы учились?</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>Канал WiFi</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>Изоляция беспроводной сети</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Имя беспроводной сети (SSID)</translation>
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>Настройка Wi-Fi сети</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Wi-Fi сеть</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation> Да </translation>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Да. Мой интернет-провайдер назначил мне фиксированный (статический) IP-адрес.</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>Вы выполнили вход с другого устройства. Одновременно можно выполнить вход только с одного устройства. При входе с данного устройства будет выполнен выход для другого устройства. Продолжить?</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Соединение с Интернетом еще не установлено.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Соединение с Интернетом установлено.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>Теперь вы можете войти в систему при помощи имени пользователя "admin" и восстановленного пароля.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>Вы успешно восстановили пароль администратора.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Ваш маршрутизатор предварительно настроен для использования системы безопасности беспроводного соединения WPA2-PSK, которая позволяет защитить сеть от несанкционированного доступа. Чтобы подключиться к беспроводной сети, необходимо ввести сетевой ключ (пароль). Эти предварительные настройки являются уникальными для данного устройства (так же, как и серийный номер).? При необходимости можно изменить их позже на экране Настройки беспров. сети в веб-интерфейсе маршрутизатора.</translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>На этом маршрутизаторе не включена система безопасности беспроводной сети. NETGEAR настоятельно рекомендует</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>включить защиту, чтобы обезопасить свою сеть.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>Мастер WPS</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>Параметры Интернет-порта</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>Параметры локальной сети</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>Параметры QoS</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>Не подключен</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>Нет безопасности</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>DHCP-сервер</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>Интернет-порт</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>ReadySHARE Printer</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>Доступно обновление версии микрокода. Загрузить</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Автообнаружение</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>Процесс может занять до 6 минут, подождите...</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>После этого нажмите "Далее".</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>Everquest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tourment</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>НЕ ПОДДЕРЖИВАЕТСЯ</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>Серийный номер</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>Обновить</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>Что это</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>Не удалось войти в систему. Введите правильный пароль администратора для маршрутизатора NETGEAR.</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>Подключите устройство по беспроводному соединению к маршрутизатору NETGEAR и повторите попытку.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation>FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>Состояние "FastLane"</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation> Включить "FastLane"</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation> Полоса пропускания, зарезервированная для доверенных IP-адресов</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>Кнопка "WiFi-подключение и "FastLane""</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>Включить доверенный IP-адрес</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>Печать ReadySHARE</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>Общий доступ к печати для Windows PC и компьютеров Mac при помощи принтера с интерфейсом USB</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>Как это работает?</translation>
+</message>
+<message>
+<tag_code>3236</tag_code>
+<translation>Шаг 1: Подключите USB-принтер к порту USB маршрутизатора соответствующим кабелем.</translation>
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>Шаг 2: Установите программный драйвер USB-принтера на каждый компьютер, который будет использовать этот принтер.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>Если у вас нет драйвера, свяжитесь с компанией-производителем принтера, чтобы найти и загрузить новейший драйвер.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>Шаг 3: На каждый компьютер, который будет использовать этот принтер, загрузите утилиту NETGEAR USB Control Center с адреса &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>Следуйте указаниям утилиты, чтобы подключиться к принтеру с компьютера и выполнить печать.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>Онлайн-поддержка</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>Выход</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>Доступ к ресурсу отклонен; клиент не прошел аутентификацию.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>Транзитная пересылка через VPN</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>Транзитная пересылка через IPSec</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>Транзитная пересылка через PPTP</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>Транзитная пересылка через L2TP</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>Сбой – невозможно получить файл</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>Сбой – недостаточно пространства на диске</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>Сбой – неизвестная причина</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>Загружается</translation>
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>Включить индикатор для значка NETGEAR</translation>
+</message>
+<message>
+<tag_code>3258</tag_code>
+<translation>Subnet Mask</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>Интранет-порт</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>Профиль</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>Широковещание SSID</translation>
+</message>
+<message>
+<tag_code>3263</tag_code>
+<translation>отложено</translation>
+</message>
+<message>
+<tag_code>3264</tag_code>
+<translation>Выберите город и имя вашего провайдера:</translation>
+</message>
+<message>
+<tag_code>3265</tag_code>
+<translation>Город:</translation>
+</message>
+<message>
+<tag_code>3266</tag_code>
+<translation>Имя провайдера:</translation>
+</message>
+<message>
+<tag_code>3267</tag_code>
+<translation>ручную настройку:</translation>
+</message>
+<message>
+<tag_code>3268</tag_code>
+<translation>Если вашего провайдера нет в списке, выберите </translation>
+</message>
+<message>
+<tag_code>3269</tag_code>
+<translation>Укажите, требует ли ваш провайдер ввода логина и пароля для доступа в интернет? Выберите «Да», если вам приходится каждый раз при включении компьютера запускать дополнительное подключение для доступа в интернет вручную. Выберите «Нет», если подключение осуществляется сразу же и ваш провайдер не использует логин и пароль для авторизации пользователей.</translation>
+</message>
+<message>
+<tag_code>3270</tag_code>
+<translation>Вы выбрали «Да». Это означает, что для подключения пользователей ваш провайдер использует т.н. VPN-подключение, которое подразделяется на несколько типов: PPPoE, PPTP или L2TP. Для продолжения установки, вам необходимо знать конкретный тип подключения в вашей сети. Если вы его не знаете, вы можете либо позвонить в службу технической поддержки вашего провайдера, либо на ПК, напрямую подключенному к провайдеру с работающим интернетом, зайти в состояние подключения к интернету и перейти к вкладке «Подробно» (или «Сведения»), где будет указан тип вашего VPN.</translation>
+</message>
+<message>
+<tag_code>3271</tag_code>
+<translation>Укажите тип вашего VPN-подключения:</translation>
+</message>
+<message>
+<tag_code>3272</tag_code>
+<translation>Вы выбрали «Нет». Это означает, что ваш провайдер либо предоставляет настройки в автоматическом режиме (т.н. режиме DHCP), либо использует статические настройки (фиксированный адрес), которые необходимо задавать вручную пользователю. Вам необходимо выбрать один из режимов в зависимости от того, выдаются ли вам настройки автоматически или вам их необходимо прописывать согласно договору с провайдером.</translation>
+</message>
+<message>
+<tag_code>3273</tag_code>
+<translation>Имя службы обычно является необязательным к заполнению.</translation>
+</message>
+<message>
+<tag_code>3274</tag_code>
+<translation>Укажите, предоставляет ли ваш провайдер кроме доступа в интернет доступ к локальным ресурсам (например, ftp серверам, локальным торрент трекерам, DC++ хабам, телевиденью IPTV и пр.)? При выборе «Да» в качестве ответа маршрутизатор будет использовать схему двойного доступа, характерного только для России (т.н. dual-access). В противном случае весь трафик будет передаваться только через VPN-подключение.</translation>
+</message>
+<message>
+<tag_code>3275</tag_code>
+<translation>Внутренний IP-адрес сети провайдера</translation>
+</message>
+<message>
+<tag_code>3276</tag_code>
+<translation>Внимание! Вы используете фиксированный (статический) IP-адрес для вашего внутреннего интерфейса доступа к локальным ресурсам провайдера. Для того чтобы доступ к ресурсам работал корректно, вам необходимо по завершению текущей настройки указать статические маршруты. Для их настройки перейдите в меню «Статические маршруты» и следуйте соответствующим указаниям в справке. Используйте IP-адрес шлюза, который предоставил вам провайдер, в качестве шлюза назначения для каждого из добавленных маршрутов.</translation>
+</message>
+<message>
+<tag_code>3277</tag_code>
+<translation>Вы завершили процедуру ручной настойки маршрутизатора. Пожалуйста, проверьте ваши настройки еще раз. В случае ошибки вы можете вернуться на соответствующий этап с помощью кнопки «Назад» и исправить допущенные недочеты.</translation>
+</message>
+<message>
+<tag_code>3278</tag_code>
+<translation>Щелкните по кнопке «Проверить подключение» для того, чтобы маршрутизатор попытался подключиться к интернету.</translation>
+</message>
+<message>
+<tag_code>3279</tag_code>
+<translation>Маршрутизатору не удалось подключиться к интернету. Причиной могут быть неверно введенные настройки подключения или проблемы на стороне провайдера. Вы можете вернуться к предыдущим шагам с помощью кнопки «Назад» или начать настройку заново, нажав на кнопку «Начать заново».</translation>
+</message>
+<message>
+<tag_code>3280</tag_code>
+<translation>Начать заново</translation>
+</message>
+<message>
+<tag_code>3281</tag_code>
+<translation>Поздравляем! Вы успешно подключены к интернету!</translation>
+</message>
+<message>
+<tag_code>3282</tag_code>
+<translation>Проверить подключение</translation>
+</message>
+<message>
+<tag_code>3283</tag_code>
+<translation>Если ваш провайдер использует фиксированный IP-адрес или адреса DNS-серверов для подключения по PPPoE, вам необходимо ввести эти настройки в соответствующие поля. В большинстве случаев, когда провайдер не предоставил вам эти настройки, вам необходимо оставить значения по умолчанию («Автоматические получить от провайдера») и перейти к следующему этапу настройки.</translation>
+</message>
+<message>
+<tag_code>3284</tag_code>
+<translation>MAC-адрес маршрутизатора</translation>
+</message>
+<message>
+<tag_code>3285</tag_code>
+<translation>Использовать по умолчанию</translation>
+</message>
+<message>
+<tag_code>3286</tag_code>
+<translation>Тип VPN-подключения</translation>
+</message>
+<message>
+<tag_code>3287</tag_code>
+<translation>IP-адрес PPPoE-подключения</translation>
+</message>
+<message>
+<tag_code>3288</tag_code>
+<translation>Укажите, предоставляет ли ваш провайдер кроме доступа в интернет доступ к локальным ресурсам (например, ftp серверам, локальным торрент трекерам, DC++ хабам, телевиденью IPTV и пр.)? При выборе «Да» в качестве ответа маршрутизатор будет использовать схему двойного доступа, характерного только для России (т.н. dual-access). В противном случае весь трафик будет передаваться только через VPN-подключение.</translation>
+</message>
+<message>
+<tag_code>3289</tag_code>
+<translation>Пожалуйста, введите настройки вашего подключения (вы можете обнаружить их в договоре на оказание услуг доступа в Интернет):</translation>
+</message>
+<message>
+<tag_code>3290</tag_code>
+<translation>Ваш интернет провайдер использует привязку к MAC-адресу компьютера в целях безопасности. Если вы настраиваете маршрутизатор с компьютера, оставьте выбранную по умолчанию опцию «Использовать MAC-адрес компьютера». В противном случае введите нужный MAC-адрес вручную.</translation>
+</message>
+<message>
+<tag_code>3291</tag_code>
+<translation>Маршрутизатору не удалось подключиться к интернету. Причиной могут быть неправильно введенные настройки, проблемы на стороне провайдера, изменение настроек подключения провайдером (несовпадающие с хранящимися в памяти маршрутизатора) или же неверно выбранный тип подключения на начальном этапе мастера (если ваш провайдер поддерживает несколько типов подключения сразу). Для того чтобы попробовать настроить маршрутизатор заново, нажмите «Ручная настройка». Для выхода из мастера настройки нажмите «Настроить позже».</translation>
+</message>
+<message>
+<tag_code>3292</tag_code>
+<translation>Ручная настройка</translation>
+</message>
+<message>
+<tag_code>3293</tag_code>
+<translation>Настроить позже</translation>
+</message>
+<message>
+<tag_code>3294</tag_code>
+<translation>Выберите город и имя вашего провайдера:</translation>
+</message>
+<message>
+<tag_code>3295</tag_code>
+<translation>Ваш интернет провайдер использует статический (фиксированный) IP-адрес. Пожалуйста, укажите нижеследующие настройки:</translation>
+</message>
+<message>
+<tag_code>3296</tag_code>
+<translation>Ваш интернет провайдер использует статический (фиксированный) IP-адрес для доступа к локальным ресурсам сети. Пожалуйста, укажите нижеследующие настройки (адреса DNS-серверов необязательны для ввода в случае, если провайдер не предоставил данную информацию):</translation>
+</message>
+<message>
+<tag_code>3297</tag_code>
+<translation>Ваш интернет провайдер использует статический (фиксированный) IP-адрес для доступа к локальным ресурсам сети. Пожалуйста, укажите IP-адрес и маску подсети, указанные в вашем договоре с провайдером. IP-адрес шлюза необходимо будет вести отдельно при настройке статических маршрутов.</translation>
+</message>
+<message>
+<tag_code>3298</tag_code>
+<translation>Пожалуйста, выберите один …</translation>
+</message>
+<message>
+<tag_code>3299</tag_code>
+<translation>Ваш интернет провайдер может использовать статический (фиксированный) или динамический (получаемый автоматически) IP-адрес для доступа к локальным ресурсам сети. Укажите, получаются ли настройки для локального интерфейса автоматически или их необходимо вводить вручную (в последнем случае провайдер должен был вам их представить).</translation>
+</message>
+<message>
+<tag_code>3300</tag_code>
+<translation>Укажите IP-адреса DNS-серверов только в том случае, если провайдер предоставил их вам.</translation>
+</message>
+<message>
+<tag_code>3301</tag_code>
+<translation>Некоторые интернет провайдеры использует привязку к MAC-адресу компьютера в целях безопасности. Укажите, должен ли маршрутизатор использовать свой MAC-адрес по умолчанию, MAC-адрес компьютера, с которого вы сейчас производите настройку, или MAC-адрес, заданный вручную.</translation>
+</message>
+<message>
+<tag_code>3302</tag_code>
+<translation>Перенаправить IPTV-поток для приставки на:</translation>
+</message>
+<message>
+<tag_code>3303</tag_code>
+<translation>Сбой</translation>
+</message>
+<message>
+<tag_code>3304</tag_code>
+<translation>Завершить настройку</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>IP-адрес сервера</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>Внешний начальный порт</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>Внешний конечный порт</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>Внутренний начальный порт</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>Внутренний конечный порт</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>Использовать тот же диапазон портов для внутреннего порта</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>Или выбрать из текущих подключенных устройств</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>Имя службы</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>Выключать Wi-Fi сеть по расписанию</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>Wi-Fi сеть запрограммирована на отключение согласно следующему расписанию:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>Период повтора</translation>
+</message>
+<message>
+<tag_code>3317</tag_code>
+<translation>Добавить новый период</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>Когда отключать Wi-Fi сеть</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>Выберите дни</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Послать уведомление по эл. почте после выполнения задачи загрузки.</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Настроить эл. почту</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Верхний предел для каждой задачи. Если он установлен, каждая задача загрузки или передачи может использовать скорость, меньшую или равную установленному здесь значению.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Включить автоматическое обновление состояния</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>Состояние задачи загрузки будет обновляться автоматически, в соответствии с указанной частотой</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Частота обновления</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Раз в минуту</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP защитa/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Включить IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>Функция IP-MAC Binding позволяет ограничивать доступ в Интернет устройствам, подключенным к вашей локальной сети. Также, защищает от подмены IP-адреса пользователем. Это осуществляется путем привязки опреденного MAC-адреса к IP-адресу. В таблице Вы можете добавлять, удалять или редактировать список устройств. ВНИМАНИЕ! При активации функции IP-MAC Binding - устройства, которые не занесены в таблицу не будет иметь доступ в Интернет (только доступ в локальную сеть).</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>Соединение с BitTorrent</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>Мобильное соединение с ReadySHARE</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>Параметры широкополосной связи</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>В первую очередь использовать Ethernet-соединение. Если оно не работает, используйте мобильное 3G-/4G-соединение.</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Всегда использовать 3G/4G-подключение</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>Настройки мобильной беспроводной сети</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>Номер доступа</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>Тип PDP</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>Подключаться автоматически при запуске</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>Автоматически восстанавливать соединение при разрыве</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>Подключение</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>Обнаружение модема</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>Modem Not Supported</translation>
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>модема Инициализация</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>NO Network Coverage</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>Подключение</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>подключено</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>Бездействие</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>Инициализация</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>Не подключен</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Всегда использовать проводное соединение</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>Всегда использовать мобильное широкополосное соединение</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Определение мобильного USB-модема</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Подключение к сети</translation>
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>No SIM Card Detected</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>USB-модем не поддерживается</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>Введите конфигурацию поставщика услуг</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Выберите Интернет-провайдер и нажмите Далее.</translation>
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>Если ваш интернет-провайдер мобильной широкополосной сети не указан в раскрывающемся списке, выберите другого провайдера.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Введите параметры конфигурации. Если вы не знаете этих параметров, свяжитесь со своим поставщиком услуг.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>Включить автоматический сброс интернет-соединения в</translation>
+</message>
+<message>
+<tag_code>3403</tag_code>
+<translation>Италия</translation>
+</message>
+<message>
+<tag_code>3404</tag_code>
+<translation>Австрия</translation>
+</message>
+<message>
+<tag_code>3405</tag_code>
+<translation>UK</translation>
+</message>
+<message>
+<tag_code>3406</tag_code>
+<translation>Denmark</translation>
+</message>
+<message>
+<tag_code>3407</tag_code>
+<translation>Швеция</translation>
+</message>
+<message>
+<tag_code>3408</tag_code>
+<translation>Австралия</translation>
+</message>
+<message>
+<tag_code>3409</tag_code>
+<translation>Ireland</translation>
+</message>
+<message>
+<tag_code>3410</tag_code>
+<translation>Гонконг</translation>
+</message>
+<message>
+<tag_code>3411</tag_code>
+<translation>Vietnam</translation>
+</message>
+<message>
+<tag_code>3412</tag_code>
+<translation>Индонезия</translation>
+</message>
+<message>
+<tag_code>3413</tag_code>
+<translation>США</translation>
+</message>
+<message>
+<tag_code>3414</tag_code>
+<translation>Определенный пользователем</translation>
+</message>
+<message>
+<tag_code>3415</tag_code>
+<translation>Remember PIN</translation>
+</message>
+<message>
+<tag_code>3416</tag_code>
+<translation>PUK Code</translation>
+</message>
+<message>
+<tag_code>3417</tag_code>
+<translation>PIN2 Code</translation>
+</message>
+<message>
+<tag_code>3418</tag_code>
+<translation>PUK2 Code</translation>
+</message>
+<message>
+<tag_code>3419</tag_code>
+<translation>Режим сети</translation>
+</message>
+<message>
+<tag_code>3420</tag_code>
+<translation>Использовать внутреннюю антенну</translation>
+</message>
+<message>
+<tag_code>3421</tag_code>
+<translation>Idle Timeout (minutes)</translation>
+</message>
+<message>
+<tag_code>3422</tag_code>
+<translation>(in minutes)</translation>
+</message>
+<message>
+<tag_code>3423</tag_code>
+<translation>APN Auto Lookup</translation>
+</message>
+<message>
+<tag_code>3424</tag_code>
+<translation>has detected Mobile Broadband settings for you, do you want to use these settings?</translation>
+</message>
+<message>
+<tag_code>3425</tag_code>
+<translation>Имя провайдера</translation>
+</message>
+<message>
+<tag_code>3426</tag_code>
+<translation>manually setup</translation>
+</message>
+<message>
+<tag_code>3427</tag_code>
+<translation>Режим интернет-соединения</translation>
+</message>
+<message>
+<tag_code>3428</tag_code>
+<translation>Метод определения необходимости в резервировании</translation>
+</message>
+<message>
+<tag_code>3429</tag_code>
+<translation>DNS-поиск с использованием сервера DNS внутри WAN</translation>
+</message>
+<message>
+<tag_code>3430</tag_code>
+<translation>Perform a DNS lookup by a hostname</translation>
+</message>
+<message>
+<tag_code>3431</tag_code>
+<translation>Отправить эхо-запрос на этот IP-адрес</translation>
+</message>
+<message>
+<tag_code>3432</tag_code>
+<translation>Интервал повтора равен</translation>
+</message>
+<message>
+<tag_code>3433</tag_code>
+<translation>(в секундах)</translation>
+</message>
+<message>
+<tag_code>3434</tag_code>
+<translation>Резервирование после</translation>
+</message>
+<message>
+<tag_code>3435</tag_code>
+<translation>(в интервалах)</translation>
+</message>
+<message>
+<tag_code>3436</tag_code>
+<translation>Возобновить после</translation>
+</message>
+<message>
+<tag_code>3437</tag_code>
+<translation>Включить определение физического подключения</translation>
+</message>
+<message>
+<tag_code>3438</tag_code>
+<translation>China</translation>
+</message>
+<message>
+<tag_code>3439</tag_code>
+<translation>Russia</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>Режим точки доступа</translation>
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>Включить режим точки доступа</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>Получить динамический IP-адрес</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>Получить адрес DNS-сервера динамически</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>Режим беспроводной точки доступа позволяет этому устройству работать в качестве автономной точки доступа в существующей сети.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>Включить фиксированные настройки IP-адреса данного устройства (не рекомендуется)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>Следуйте данным инструкциям, чтобы получить оптимальные настройки и производительность:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;Шаг 1. &lt;/b&gt;Убедитесь, что &lt;b&gt;интернет-порт&lt;/b&gt; этого устройства подключен с помощью кабеля к &lt;b&gt;одному из портов LAN&lt;/b&gt; на имеющемся маршрутизаторе.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;Шаг 2. &lt;/b&gt;Если имеющийся у вас маршрутизатор поддерживает беспроводную связь, выключите его, чтобы он не мог создать помех, воздействующих на эту новую точку доступа. Либо по крайней мере переключите его на другой беспроводной канал.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>После этого нажмите кнопку "Применить", чтобы продолжить процедуру</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;Примечание. &lt;/b&gt;После нажатия кнопки "Применить" данное устройство будет использовать новый IP-адрес, назначенный имеющимся маршрутизатором, поэтому данная веб-страница может быть недоступна. Перезапустите веб-браузер и еще раз откройте веб-страницу http://www.routerlogin.net.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>Режим работы</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>Точка доступа</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Имя оператора</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Уровень сигнала</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>Настройка 3G/4G завершена!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>Настройки мобильного широкополосного USB-модема</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>Режим 3G-/4G-соединения</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Протокол подключени</translation>
+</message>
+<message>
+<tag_code>3476</tag_code>
+<translation>Настроить мобильное широкополосное соединение</translation>
+</message>
+<message>
+<tag_code>3477</tag_code>
+<translation>Этот роутер также может быть подключен к мобильной сети 3G или 4G. При наличии мобильного 3G или 4G USB-модема можно воспользоваться кнопкой "Настроить мобильное широкополосное соединение", представленной ниже, чтобы запустить программу мастера.</translation>
+</message>
+<message>
+<tag_code>3478</tag_code>
+<translation>Нет, Я хочу продолжить настройку мобильного широкополосного 3G-/4G-соединения.</translation>
+</message>
+<message>
+<tag_code>3479</tag_code>
+<translation>Установка драйвера…</translation>
+</message>
+<message>
+<tag_code>3480</tag_code>
+<translation>NETGEAR genie выполняет установку драйвера адаптера. Это может занять минуту или две. Подождите…</translation>
+</message>
+<message>
+<tag_code>3481</tag_code>
+<translation>Проблема 3G-/4G-соединения</translation>
+</message>
+<message>
+<tag_code>3482</tag_code>
+<translation>Pоутеру не удается установить 3G-/4G-соединение.</translation>
+</message>
+<message>
+<tag_code>3483</tag_code>
+<translation>Сообщение об ошибке:</translation>
+</message>
+<message>
+<tag_code>3484</tag_code>
+<translation>Мобильный широкополосный модем не поддерживается. Можно попытаться использовать другое устройство.</translation>
+</message>
+<message>
+<tag_code>3485</tag_code>
+<translation>Нет. Подключиться к Интернету с использованием Ethernet-соединения.</translation>
+</message>
+<message>
+<tag_code>3486</tag_code>
+<translation>Широкополосный USB-адаптер не обнаружен. Проверьте USB-соединение.</translation>
+</message>
+<message>
+<tag_code>3487</tag_code>
+<translation>Pоутер не может установить соединение с Интернетом. Обратитесь к провайдеру мобильного широкополосного доступа в Интернет, чтобы проверить соответствующие настройки.</translation>
+</message>
+<message>
+<tag_code>3488</tag_code>
+<translation>Настройка Ethernet завершена!</translation>
+</message>
+<message>
+<tag_code>3490</tag_code>
+<translation>Страница управления модемом</translation>
+</message>
+<message>
+<tag_code>3491</tag_code>
+<translation>Сбой аутентификации</translation>
+</message>
+<message>
+<tag_code>3492</tag_code>
+<translation>Я хочу продолжить настройку мобильного широкополосного 3G-/4G-соединения.</translation>
+</message>
+<message>
+<tag_code>3502</tag_code>
+<translation>(Временно)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>"Включить NETGEAR Downloader"</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>Медиасервер (настройки)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>Включить медиасервер</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>Имя медиасервера</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>Сканировать содержимое</translation>
+</message>
+<message>
+<tag_code>3604</tag_code>
+<translation>Автоматически (при добавлении новых файлов)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>Повторное сканирование медиафайлов</translation>
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>Медиа-сервер</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>Включить сервер iTunes (только музыка)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>Введите код доступа, отображаемый в Remote App</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>Разрешить управление</translation>
+</message>
+<message>
+<tag_code>3610</tag_code>
+<translation>Authentication Failure</translation>
+</message>
+<message>
+<tag_code>3611</tag_code>
+<translation>Registration Failure</translation>
+</message>
+<message>
+<tag_code>3612</tag_code>
+<translation>В сети</translation>
+</message>
+<message>
+<tag_code>3613</tag_code>
+<translation>Standard Service</translation>
+</message>
+<message>
+<tag_code>3614</tag_code>
+<translation>Professional Service</translation>
+</message>
+<message>
+<tag_code>3615</tag_code>
+<translation>Не в сети</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>Эта операция отключена до тех пор, пока не будет нажата кнопка включения/выключения беспроводной связи.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>Настройка VLAN/IPTV</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>Включить тег VLAN</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>Идентификатор VLAN</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>Номер порта сервера исходящей почты</translation>
+</message>
+<message>
+<tag_code>3719</tag_code>
+<translation>Вставьте ссылку в это поле</translation>
+</message>
+<message>
+<tag_code>3720</tag_code>
+<translation>Имя пользователя (необязательно)</translation>
+</message>
+<message>
+<tag_code>3721</tag_code>
+<translation>Пароль (необязательно)</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>Определить по внутреннему IP-адресу</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(Пожалуйста определите порты и диапазоны портов. Разделяйте значения запятыми. Пример: 30, 50 - 60, 65500 - 65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>Внешний диапазон портов</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>Внутренний диапазон портов</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>Контроль доступа</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>Контроль доступа можно использовать, чтобы разрешать или блокировать доступ к сети для компьютеров и электронных устройств.</translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>Включить контроль доступа</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>Правило доступа:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation>это общее правило. Можно также разрешать или блокировать для отдельных устройств.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>Разрешить подключение всех новых устройств</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>Блокировать подключение всех новых устройств</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>Просмотреть список разрешенных устройств, в настоящий момент не подключенных к сети</translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>Просмотреть список блокированных устройств, в настоящий момент не подключенных к сети</translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>Разрешить</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>Блокировать</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>Заблокирован</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>Разрешен</translation>
+</message>
+<message>
+<tag_code>3913</tag_code>
+<translation>Режим точки доступа позволяет добавить в сеть дополнительный роутер в качестве беспроводной точки доступа.</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+<translation>Включить режим точки доступа</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>Ниже приведены настройки беспроводной сети устройства, используемого в качестве точки доступа:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>Имя беспроводной сети (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>Пароль беспроводной сети (ключ):</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>Чтобы изменить настройки, откройте страницу Установка -> Настройка беспроводной сети (компьютер должен выполнить повторное подключение с использованием новых настроек); затем вернитесь на эту страницу.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>NETGEAR не рекомендует использовать настройки имеющейся беспроводной сети, чтобы избежать помех (в противном случае требуется отключить беспроводной сигнал имеющегося роутера).</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>Чтобы добавить данный роутер в сеть в режиме точки доступа, выполните следующие действия:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>Подключите один конец кабеля Ethernet к интернет-порту данного роутера, а другой конец – к порту LAN имеющегося роутера.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>Установите настройки IP-адреса для данной точки доступа</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>Беспроводная точка доступа</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>Получить динамический IP-адрес от имеющегося роутера.</translation>
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>Использовать фиксированный IP-адрес (не рекомендуется).</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>Имеется ли у вас учетная запись NETGEAR DDNS или No-IP DDNS?</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>Для регистрации введите следующие сведения.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>Адрес эл. Почты</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>Пароль (от 6 до 32 символов)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>Регистрация</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>Передавая на рассмотрение эту форму, я принимаю</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>условия предоставления услуг</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>и соглашаюсь создать только одну бесплатную учетную запись.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>Забыли пароль?</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>нажать здесь</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>Для управления своей учетной записью DDNS.</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>NETGEAR DDNS на этом роутере настроен на:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>Учетная запись/Адрес эл. почты:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>Для изменения настроек сначала сбросьте их, нажав на</translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation>.</translation>
+</message>
+<message>
+<tag_code>3941</tag_code>
+<translation>Запустите тест скорости с веб-сайта</translation>
+</message>
+<message>
+<tag_code>3942</tag_code>
+<translation>и проверьте пропускную способность канала в Интернет</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>Служба VPN</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>Включить службу VPN</translation>
+</message>
+<message>
+<tag_code>4002</tag_code>
+<translation>Для настройки клиента VPN на клиентских устройствах:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>Дополнительные настройки</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>Тип службы</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>Служебный порт</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>Клиенты будут использовать это подключение VPN для получения доступа</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>Все сайты в Интернете и домашней сети</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>Только домашняя сеть</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>Авто</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>Шаг 1. Установите флажок «Включить службу VPN» и нажмите кнопку «Применить».</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>Шаг 2. Загрузите клиентскую утилиту со страницы</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>и установите ее на устройствах, на которых будет выполняться клиент VPN.</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>В настоящее время клиенты IOS и Android не поддерживаются.</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>Шаг 3. Нажмите ниже соответствующую кнопку для загрузки файлов конфигурации для ваших клиентов VPN.</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>Шаг 4. Распакуйте файлы конфигурации, которые были только что загружены, и скопируйте их в папки на ваших устройствах, в которых установлен клиент VPN. На клиентском устройстве с 64-разрядной операционной системой Windows клиент VPN по умолчанию устанавливается в папку "C:\Program files\OpenVPN\config\"</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>Шаг 5. Для клиента Windows имя интерфейса VPN требуется изменить на "NETGEAR-VPN". Интерфейс VPN обычно имеет имя устройства "TAP-Windows Adapter".</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation>Шаг 6. Клиентскую утилиту должен установить и запустить пользователь с административными правами.	
+</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>Шаг 7. Получить справку по использованию клиентов OpenVPN можно на веб-странице</translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>Примечание. Если требуется внести какие-либо изменения в раздел "Advanced Configurations", выполните эти изменения до загрузки файлов конфигурации в шаге 3.</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>ReadySHARE Vault позволяет создавать резервные копии файлов на вашем ПК с Windows.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>Для выполнения резервного копирования ПК с Windows на жестком диске в роутере выполните следующие действия:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. Установите приложение genie на каждом ПК, загрузив соответствующее ПО с веб-страницы  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. Установите ReadySHARE Vault на каждом ПК, загрузив соответствующее ПО с веб-страницы  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. Запустите ReadySHARE Vault. Для настройки и запуска резервного копирования используйте Dashboard или вкладку "Резервное копирование".</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>Тип интернет-соединения</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>Автообнаружение</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>Автоматическая настройка</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>Туннель 6-4</translation>
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>Туннелирование</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>Фиксированный</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>Удаленный маршрутизатор пересылки 6-4</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>Авто</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>Статический IP-адрес</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>IPv6-адрес/длина префикса</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>IPv6-адрес маршрутизатора в WAN</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>Класс пользователя (если необходим)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>IPv6-адрес маршрутизатора в LAN</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>Назначение IP-адресов</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>Использовать сервер DHCP</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>Использовать этот ID интерфейса</translation>
+</message>
+<message>
+<tag_code>4200</tag_code>
+<translation>Чтобы разрешить или блокировать доступ устройств, перейдите в раздел &lt;a  style=text-decoration:underline;color:#0000ff; id=url_ac onclick=goto_formframe('AccessControl.htm&amp;todo=cfg_init')&gt;Контроль доступа&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>Включено</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>Выключено</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>Общее правило</translation>
+</message>
+<message>
+<tag_code>4300</tag_code>
+<translation>Facebook Wi-Fi — это приложение для предприятий малого бизнеса. Приложение превращает роутер в точку доступа Wi-Fi, что позволяет посетителям заходить на вашу страницу в Facebook и ставить отметки Нравится перед использованием бесплатного доступа к Интернету.</translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>Откройте и прочитайте описание процедуры установки</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>Опция &lt;b&gt;Включить Facebook Wi-Fi&lt;/b&gt; позволит этому устройству поддерживать функцию Facebook Wi-Fi.</translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>Это возможно только с гостевым доступом к сети Wi-Fi, поэтому для работы приложения необходимо включить гостевой доступ на роутере.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>Нажмите &lt;b&gt;Настроить&lt;/b&gt;, чтобы связать роутер с существующей страницей Facebook.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>Настроить</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(Чтобы включить кнопку \"Настроить\", установите флажок рядом с опцией \"Включить Facebook Wi-Fi\" и нажмите кнопку \"Применить\")</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>Режим QoS:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>Правила QoS</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>Добавить правила</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS для службы</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS для устройства</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>Очередь 1. Максимальный</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>Очередь 2. Высокий</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>Очередь 3. Нормальный</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>Очередь 4. Низкий</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>SpeedTest</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Назад</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Загрузить следующие приложения роутера:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>приложение Genie. С помощью персональной инструментальной панели можно наблюдать за домашней сетью, управлять ею и устранять неполадки сети.</translation>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>Приложение ReadySHARE Vault (только для компьютеров под управлением Windows). Включает непрерывное автоматическое резервное копирование данных с компьютера под управлением Windows на USB-накопитель, подключенный к роутеру.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Выполняется загрузка…</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Установить приложение Genie после завершения загрузки.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Нажмите кнопку 'Далее' после установки приложения Genie, чтобы выполнить настройку роутера.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Установить приложение ReadySHARE Vault после завершения загрузки.</translation>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Нажмите кнопку 'Далее' после установки приложения ReadySHARE Vault, чтобы выполнить настройку роутера.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Выполняется обработка вашего запроса…</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>По завершении установки нажмите Далее.</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Система будет установлена</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Для начала установки нажмите кнопку Выполнить</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Параметры управления индикатором</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Отключить все индикаторы кроме индикатора питания</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Включить режим мигания индикатора Интернет, индикатора LAN, индикатора беспроводной связи и индикатора USB при обнаружении передачи данных</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Отключить режим мигания индикатора Интернет, индикатора LAN, индикатора беспроводной связи и индикатора USB при обнаружении передачи данных</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Недоступен</translation>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Обновление состояния</translation>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>Для Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>Для систем, отличных от Windows</translation>
+</message>
+<message>
+<tag_code>4502</tag_code>
+<translation>Байт</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) Камчатка</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>Параметры управления индикатором</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>Включить режим мигания индикатора Интернет, индикатора LAN, индикатора беспроводной связи и индикатора USB при обнаружении передачи данных</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>Отключить режим мигания индикатора Интернет, индикатора LAN, индикатора беспроводной связи и индикатора USB при обнаружении передачи данных</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>Отключить все индикаторы кроме индикатора питания</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>Политика конфиденциальности</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (Предоставляет доступ к устройству хранения данных ReadySHARE из любой точки сети)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>До 289 Мбит/с</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>До 600 Мбит/с</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>До 1300 Мбит/с</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>Функция ReadyCLOUD предоставляет удаленный доступ через Интернет к USB-накопителю, подключенному к USB-порту вашего роутера.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>Инструкции по настройке ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>Шаг 1. Вам необходимо иметь учетную запись ReadyCLOUD. Если у вас нет учетной записи, то для ее создания </translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation> и выберите "Создать учетную запись".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation> Шаг 2. Перейдите на страницу ReadySHARE интерфейса роутера </translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation>, выберите вариант ReadyCLOUD и введите свое имя пользователя и пароль для ReadyCLOUD, чтобы зарегистрировать роутер под своей учетной записью ReadyCLOUD.</translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>Шаг 3. Снова войдите на веб-сайт </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation> под своей учетной записью ReadyCLOUD. Отображается USB-устройство, подключенное к вашему роутеру.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation>Можно использовать дополнительное приложение для безопасного удаленного подключения к USB-устройству роутера с вашего компьютера или мобильного устройства.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>Войдите в это приложение, чтобы получить доступ к USB-устройству из любой точки сети. </translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation>, чтобы получить приложение для удаленного доступа.</translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>Регистрация успешно завершена</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>Отмена регистрации успешно завершена</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>Ошибка при регистрации</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>Ошибка при отмене регистрации</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation>Сведения по установке или изменению учетной записи пользователя ReadyCLOUD можно найти на веб-сайте </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>Этот роутер зарегистрирован для пользователя ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>Нажмите&lt;b&gt;Отменить регистрацию&lt;/b&gt;, чтобы зарегистрировать ReadyCLOUD для другого пользователя</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>Отменить регистрацию</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>Примечание:</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;Примечание.&lt;/b&gt; Ваш роутер будет поддерживать непрерывное подключение к ReadyCLOUD до отмены регистрации.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Активировать функцию BEAMFORMING — повышает скорость, радиус действия и надежность WiFi для всех мобильных устройств</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Защита пароля администратора</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Предупреждение. Для обеспечения безопасности ваших данных, хранящихся в системе ReadySHARE, настоятельно рекомендуется включить функцию защиты пароля администратора. Если вы не изменяли пароль по умолчанию, рекомендуется изменить его для обеспечения безопасности вашей сети.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Настройки учетной записи администратора</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Пароль администратора используется для входа в веб-интерфейс роутера. Для обеспечения безопасности сети измените пароль администратора.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Новый пароль</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Подтвердите новый пароль</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Имя администратора:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Новый пароль администратора:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Настройки учетной записи администратора роутера:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>Включить Smart Connect — разрешить роутеру самостоятельно выбирать наилучший диапазон для соединений WiFi (2,4 ГГц или 5 ГГц). Smart Connect требует использования одинакового имени (SSID), параметров системы безопасности и пароля для сетей 2,4 ГГц и 5 ГГц.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>Активировать функцию AIRTIME FAIRNESS — предотвращает задержки в сети при подключении медленных устройств</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(функция отключена, поскольку включена функция Smart Connect)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>Для смартфона</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>Загрузка конфигурационного пакета OpenVPN</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>Инструкции по настройке клиента OpenVPN</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>Режим TUN — тип службы</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>Режим TUN — порт службы</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>Режим TAP — тип службы</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>Режим TAP — порт службы</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>По группам мостов</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>По группам тегов VLAN</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>использовать другой рабочий режим</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>Включить режим моста</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>настроить параметры беспроводной сети в режиме моста</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>Получить динамический IP-адрес</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>Получить адрес DNS-сервера динамически</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>Выберите беспроводную сеть:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>Параметры VLAN / моста</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>Устройства клиента VPN</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>Удаленный IP-адрес</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>Локальный IP-адрес</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>Нажмите здесь, чтобы изменить имя устройства</translation>
+<variable>Click here to change the Device Name</variable>
+</message>
+</tag_msg>

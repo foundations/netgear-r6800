@@ -1,0 +1,95 @@
+diff -aNru bftpd/commands.c bftpd_ok/commands.c
+--- bftpd/commands.c	2016-09-21 22:03:00.933705579 +0800
++++ bftpd_ok/commands.c	2016-09-21 22:15:45.030566000 +0800
+@@ -57,6 +57,11 @@
+ #define SC_BUILD 1 
+ #ifdef USB
+ #include "ftp_usb_api.h"
++
++extern int adminpwd_lan_protect ;
++extern int adminpwd_wan_protect ;
++extern int is_remote ;
++
+ #endif
+ 
+ #ifdef HAVE_ZLIB_H
+@@ -264,10 +269,16 @@
+ 	FTP server MUST NOT ask for the password and the FTP server MUST
+ 	respond with code 230 'User logged in, proceed'. */
+ 	if (all_file_readable_writable()){
+-        state = STATE_USER;
+-        bftpd_login("");
++        	state = STATE_USER;
++		if(((adminpwd_lan_protect == 1) && (is_remote==0))
++                ||((adminpwd_wan_protect == 1) && (is_remote==1)))
++		{
++			control_printf(SL_SUCCESS, "331 Password please.");
++		}
++		else
++        		bftpd_login("");
+ 		/* bftpd_login(""); */
+-    }
++	}
+ 	else {
+ 	/* if there is any shared folder that has 'Admin' access control, 
+ 	the login authentication is required and a guest user cannot see
+@@ -317,6 +328,12 @@
+ 	}
+ #endif
+ #endif
++	/* It is a temp measure to fix issue that chrome can't response "331 password please" correctly*/
++	if (password && (strcmp(password, "chrome@example.com") == 0)) {
++		control_printf(SL_FAILURE, "530 Login incorrect.");
++                state = STATE_CONNECTED;
++	}
++
+ 	if (bftpd_login(password)) {
+ 		bftpd_log("Login as user '%s' failed.\n", user);
+ 		control_printf(SL_FAILURE, "530 Login incorrect.");
+diff -aNru bftpd/login.c bftpd_ok/login.c
+--- bftpd/login.c	2016-09-21 22:03:00.994707431 +0800
++++ bftpd_ok/login.c	2016-09-21 22:32:57.256697323 +0800
+@@ -242,6 +242,9 @@
+ #define NOT_ADMIN_USER				0
+ #define ADMIN_WITH_WRONG_PASS		1
+ #define	ADMIN_WITH_CORRECT_PASS		2
++
++int parse_str(FILE *my_file, char *user, char *group, char *home_dir, char *password);
++
+ int check_admin_user_pass(char *my_filename, char *my_username, char *my_password)
+ {
+    FILE *my_file;
+@@ -253,6 +256,7 @@
+    if (! my_file)
+       return NOT_ADMIN_USER;
+ 
++#if 0
+    return_value = fscanf(my_file, "%32s %32s %32s %32s", user, password, group, home_dir);
+    if (! strcmp(user, my_username) )
+       found_user = 1;
+@@ -263,7 +267,14 @@
+        if (! strcmp(user, my_username) )
+           found_user = 1;
+    }
+-
++#else
++	while ( (! found_user) && ( return_value != EOF) )
++	{
++		return_value = parse_str(my_file, user, group, home_dir, password);
++		if (! strcmp(user, my_username) )
++			found_user = 1;
++	}
++#endif
+    fclose(my_file);
+    if(password[0] == '\1')
+       password[0]='\0';
+@@ -356,7 +367,8 @@
+             {
+                 if(strcmp(user, "admin") != 0 )    
+                 {
+-                    control_printf(SL_FAILURE, "530 Login incorrect.");
++		    control_printf(SL_SUCCESS, "331 Password please.");
++                    //control_printf(SL_FAILURE, "530 Login incorrect.");
+                     return -1;   
+                 }                
+             }         

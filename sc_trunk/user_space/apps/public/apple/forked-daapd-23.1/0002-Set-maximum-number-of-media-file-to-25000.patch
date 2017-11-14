@@ -1,0 +1,51 @@
+From 5957c5c1e86a57adcb67ecf5a8e2675b9340c775 Mon Sep 17 00:00:00 2001
+From: root <root@localhost.localdomain>
+Date: Fri, 19 Jun 2015 15:17:52 +0800
+Subject: [PATCH 2/6] Set maximum number of media file to 25000
+
+---
+ src/filescanner.c |    7 +++++++
+ 1 files changed, 7 insertions(+), 0 deletions(-)
+
+diff --git a/src/filescanner.c b/src/filescanner.c
+index 0c5cbd3..4eaf933 100644
+--- a/src/filescanner.c
++++ b/src/filescanner.c
+@@ -97,6 +97,7 @@ struct filescanner_command
+ #define F_SCAN_RESCAN  (1 << 1)
+ #define F_SCAN_FAST    (1 << 2)
+ #define F_SCAN_MOVED   (1 << 3)
++#define MAX_NUM_MEDIA_FILE   25000
+ 
+ enum file_type {
+   FILE_UNKNOWN = 0,
+@@ -640,6 +641,7 @@ fixup_tags(struct media_file_info *mfi)
+     sort_tag_create(&mfi->composer_sort, mfi->composer);
+ }
+ 
++int static number_of_media_file = 0;
+ 
+ void
+ filescanner_process_media(char *path, time_t mtime, off_t size, int type, struct media_file_info *external_mfi)
+@@ -651,6 +653,9 @@ filescanner_process_media(char *path, time_t mtime, off_t size, int type, struct
+   char virtual_path[PATH_MAX];
+   int ret;
+ 
++  if (number_of_media_file >= MAX_NUM_MEDIA_FILE)
++    return;
++
+   filename = strrchr(path, '/');
+   if ((!filename) || (strlen(filename) == 1))
+     filename = path;
+@@ -758,6 +763,8 @@ filescanner_process_media(char *path, time_t mtime, off_t size, int type, struct
+ 
+   fixup_tags(mfi);
+ 
++  number_of_media_file++;
++
+   if (type & F_SCAN_TYPE_URL)
+     {
+       snprintf(virtual_path, PATH_MAX, "/http:/%s", mfi->title);
+-- 
+1.6.5.2
+

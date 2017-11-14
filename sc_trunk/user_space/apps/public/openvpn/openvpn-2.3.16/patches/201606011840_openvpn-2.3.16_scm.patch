@@ -1,0 +1,3124 @@
+diff -aNru src/config.h openvpn-2.3.16_modify/config.h
+--- src/config.h	2016-06-01 00:19:06.330948108 +0800
++++ openvpn-2.3.16_modify/config.h	2016-06-01 21:54:20.737613000 +0800
+@@ -170,7 +170,7 @@
+ 
+ /* Define to 1 if you have the declaration of `SO_MARK', and to 0 if you
+    don't. */
+-#define HAVE_DECL_SO_MARK 1
++#define HAVE_DECL_SO_MARK 0
+ 
+ /* Define to 1 if you have the declaration of `TUNSETPERSIST', and to 0 if you
+    don't. */
+@@ -462,7 +462,7 @@
+ #define HAVE_STRING_H 1
+ 
+ /* Define to 1 if you have the <stropts.h> header file. */
+-/* #undef HAVE_STROPTS_H */
++#define HAVE_STROPTS_H 1
+ 
+ /* Define to 1 if you have the `syslog' function. */
+ #define HAVE_SYSLOG 1
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-ca openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-ca
+--- src/easy-rsa/EasyRSA-2.2.2/build-ca	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-ca	2016-05-31 21:53:37.496700000 +0800
+@@ -0,0 +1,8 @@
++#!/bin/sh
++
++#
++# Build a root certificate
++#
++
++export EASY_RSA="${EASY_RSA:-.}"
++"/usr/sbin/pkitool" --batch --initca $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-dh openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-dh
+--- src/easy-rsa/EasyRSA-2.2.2/build-dh	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-dh	2016-05-31 21:53:37.499700000 +0800
+@@ -0,0 +1,13 @@
++#!/bin/sh
++
++. /usr/etc/openvpn/vars
++
++# Build Diffie-Hellman parameters for the server side
++# of an SSL/TLS connection.
++
++if [ -d $KEY_DIR ] && [ $KEY_SIZE ]; then
++    $OPENSSL dhparam -out ${KEY_DIR}/dh${KEY_SIZE}.pem ${KEY_SIZE}
++else
++    echo 'Please source the vars script first (i.e. "source ./vars")'
++    echo 'Make sure you have edited it to reflect your configuration.'
++fi
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-inter openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-inter
+--- src/easy-rsa/EasyRSA-2.2.2/build-inter	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-inter	2016-05-31 21:53:37.502699000 +0800
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++# Make an intermediate CA certificate/private key pair using a locally generated
++# root certificate.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"$EASY_RSA/pkitool" --interact --inter $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-key openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key
+--- src/easy-rsa/EasyRSA-2.2.2/build-key	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key	2016-05-31 21:53:37.498702000 +0800
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++# Make a certificate/private key pair using a locally generated
++# root certificate.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"/usr/sbin/pkitool" --batch $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-key-pass openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key-pass
+--- src/easy-rsa/EasyRSA-2.2.2/build-key-pass	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key-pass	2016-05-31 21:53:37.500699000 +0800
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++# Similar to build-key, but protect the private key
++# with a password.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"$EASY_RSA/pkitool" --interact --pass $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-key-pkcs12 openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key-pkcs12
+--- src/easy-rsa/EasyRSA-2.2.2/build-key-pkcs12	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key-pkcs12	2016-05-31 21:53:37.498702000 +0800
+@@ -0,0 +1,8 @@
++#!/bin/sh
++
++# Make a certificate/private key pair using a locally generated
++# root certificate and convert it to a PKCS #12 file including the
++# the CA certificate as well.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"$EASY_RSA/pkitool" --interact --pkcs12 $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-key-server openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key-server
+--- src/easy-rsa/EasyRSA-2.2.2/build-key-server	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-key-server	2016-05-31 21:53:37.500699000 +0800
+@@ -0,0 +1,10 @@
++#!/bin/sh
++
++# Make a certificate/private key pair using a locally generated
++# root certificate.
++#
++# Explicitly set nsCertType to server using the "server"
++# extension in the openssl.cnf file.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"/usr/sbin/pkitool" --batch --server $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-req openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-req
+--- src/easy-rsa/EasyRSA-2.2.2/build-req	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-req	2016-05-31 21:53:37.497710000 +0800
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++# Build a certificate signing request and private key.  Use this
++# when your root certificate and key is not available locally.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"$EASY_RSA/pkitool" --interact --csr $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-req-pass openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-req-pass
+--- src/easy-rsa/EasyRSA-2.2.2/build-req-pass	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/build-req-pass	2016-05-31 21:53:37.499700000 +0800
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++# Like build-req, but protect your private key
++# with a password.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"$EASY_RSA/pkitool" --interact --csr --pass $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/clean-all openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/clean-all
+--- src/easy-rsa/EasyRSA-2.2.2/clean-all	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/clean-all	2016-05-31 21:53:37.499700000 +0800
+@@ -0,0 +1,17 @@
++#!/bin/sh
++
++. /usr/etc/openvpn/vars
++# Initialize the $KEY_DIR directory.
++# Note that this script does a
++# rm -rf on $KEY_DIR so be careful!
++
++if [ "$KEY_DIR" ]; then
++    rm -rf "$KEY_DIR"
++    mkdir "$KEY_DIR" && \
++        chmod go-rwx "$KEY_DIR" && \
++        touch "$KEY_DIR/index.txt" && \
++        echo 01 >"$KEY_DIR/serial"
++else
++    echo 'Please source the vars script first (i.e. "source ./vars")'
++    echo 'Make sure you have edited it to reflect your configuration.'
++fi
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/inherit-inter openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/inherit-inter
+--- src/easy-rsa/EasyRSA-2.2.2/inherit-inter	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/inherit-inter	2016-05-31 21:53:37.496700000 +0800
+@@ -0,0 +1,39 @@
++#!/bin/sh
++
++# Build a new PKI which is rooted on an intermediate certificate generated
++# by ./build-inter or ./pkitool --inter from a parent PKI.  The new PKI should
++# have independent vars settings, and must use a different KEY_DIR directory
++# from the parent.  This tool can be used to generate arbitrary depth
++# certificate chains.
++#
++# To build an intermediate CA, follow the same steps for a regular PKI but
++# replace ./build-key or ./pkitool --initca with this script.
++
++# The EXPORT_CA file will contain the CA certificate chain and should be
++# referenced by the OpenVPN "ca" directive in config files.  The ca.crt file
++# will only contain the local intermediate CA -- it's needed by the easy-rsa
++# scripts but not by OpenVPN directly.
++EXPORT_CA="export-ca.crt"
++
++if [ $# -ne 2 ]; then
++    echo "usage: $0 <parent-key-dir> <common-name>"
++    echo "parent-key-dir: the KEY_DIR directory of the parent PKI"
++    echo "common-name: the common name of the intermediate certificate in the parent PKI"
++    exit 1;
++fi
++
++if [ "$KEY_DIR" ]; then
++    cp "$1/$2.crt" "$KEY_DIR/ca.crt"
++    cp "$1/$2.key" "$KEY_DIR/ca.key"
++
++    if [ -e "$1/$EXPORT_CA" ]; then
++        PARENT_CA="$1/$EXPORT_CA"
++    else
++        PARENT_CA="$1/ca.crt"
++    fi
++    cp "$PARENT_CA" "$KEY_DIR/$EXPORT_CA"
++    cat "$KEY_DIR/ca.crt" >> "$KEY_DIR/$EXPORT_CA"
++else
++    echo 'Please source the vars script first (i.e. "source ./vars")'
++    echo 'Make sure you have edited it to reflect your configuration.'
++fi
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/ca.crt openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/ca.crt
+--- src/easy-rsa/EasyRSA-2.2.2/keys/ca.crt	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/ca.crt	2016-05-31 21:53:37.491951000 +0800
+@@ -0,0 +1,26 @@
++-----BEGIN CERTIFICATE-----
++MIIEXjCCA0agAwIBAgIJAPGBCiw3GchBMA0GCSqGSIb3DQEBBAUAMHwxCzAJBgNV
++BAYTAkNOMQswCQYDVQQIEwJTSDELMAkGA1UEBxMCUEQxEDAOBgNVBAoTB09wZW5W
++UE4xEDAOBgNVBAsTB3NlY3Rpb24xCzAJBgNVBAMTAkNBMSIwIAYJKoZIhvcNAQkB
++FhN5ZWtleGluMDkxOUAxMjYuY29tMB4XDTE0MDUwOTA5MDkwMloXDTI0MDUwNjA5
++MDkwMlowfDELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAlNIMQswCQYDVQQHEwJQRDEQ
++MA4GA1UEChMHT3BlblZQTjEQMA4GA1UECxMHc2VjdGlvbjELMAkGA1UEAxMCQ0Ex
++IjAgBgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEyNi5jb20wggEiMA0GCSqGSIb3
++DQEBAQUAA4IBDwAwggEKAoIBAQCwZiqM4N/5kLvlNEM8UjdknFNZW6J6YIPYem2S
++gvWTbCbF/qqk0UV9LvJq/+ZbbWcjTLi/PM+kJCzJ9QqScUhJaXZfjSW8jsXHNLm+
++TRaHvZ/ZeNzhMXk0nmSsmz6Ea3melRhlahAY9wQI696ABt64kHVPIOdsTwkKPVc2
++r0EfF3xBe7izrzmMdHTuxdq8r9s/D+RZ88jrzY+CtBgoJve7gi12QaAFg6bag3Zh
++T58CFObDT5mTbzth5eR2K5BTnOpBSbCRTHMazkYoYd2GZ79/7rDyoYg5h5VGh9AA
++Fj+efTrOSAypRj7Hrz6t7lC+FxkZCGallWc1HXM4rZj7iR8TAgMBAAGjgeIwgd8w
++HQYDVR0OBBYEFPmJV/3htpVkdcKg+lim1iUGG0PsMIGvBgNVHSMEgacwgaSAFPmJ
++V/3htpVkdcKg+lim1iUGG0PsoYGApH4wfDELMAkGA1UEBhMCQ04xCzAJBgNVBAgT
++AlNIMQswCQYDVQQHEwJQRDEQMA4GA1UEChMHT3BlblZQTjEQMA4GA1UECxMHc2Vj
++dGlvbjELMAkGA1UEAxMCQ0ExIjAgBgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEy
++Ni5jb22CCQDxgQosNxnIQTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IB
++AQCMLNTGb5sgb0PuPGlW+0mXAY/DkVEkF0noOuNOLTClg3ASW5mGrsdds0VQJBIX
++XmCUofc53ealHqiNg8TH+vy8f8bnrWj1DXiGxw+Sf+lcLDVblS0ynXGWbzsXOnar
++4H8HOSoJXF2sz4Xht0KIlyxkrazf2YkCupiaiUZaBku+fkJaqxXrBAifhmA14DxG
++ctDAmr5eFMpLGCDyT+G6qbVzY2aUAIpmB/2T3uhsjR0OB/RdjiqC1p4sZtlvaiqP
++a3g7ZjQBQWtEfNf0kDG30+WxcGxGGvfK6DQL1pefGGfBjU2nzW4rFUfG4HB0+Prc
++U8KxevA+tiRKjUjt8/wJepgm
++-----END CERTIFICATE-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/ca.key openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/ca.key
+--- src/easy-rsa/EasyRSA-2.2.2/keys/ca.key	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/ca.key	2016-05-31 21:53:37.492948000 +0800
+@@ -0,0 +1,27 @@
++-----BEGIN RSA PRIVATE KEY-----
++MIIEogIBAAKCAQEAsGYqjODf+ZC75TRDPFI3ZJxTWVuiemCD2HptkoL1k2wmxf6q
++pNFFfS7yav/mW21nI0y4vzzPpCQsyfUKknFISWl2X40lvI7FxzS5vk0Wh72f2Xjc
++4TF5NJ5krJs+hGt5npUYZWoQGPcECOvegAbeuJB1TyDnbE8JCj1XNq9BHxd8QXu4
++s685jHR07sXavK/bPw/kWfPI682PgrQYKCb3u4ItdkGgBYOm2oN2YU+fAhTmw0+Z
++k287YeXkdiuQU5zqQUmwkUxzGs5GKGHdhme/f+6w8qGIOYeVRofQABY/nn06zkgM
++qUY+x68+re5QvhcZGQhmpZVnNR1zOK2Y+4kfEwIDAQABAoIBACLZHCDWsAiqiiQe
++rgW1rFHI/EJT8wZAGOvkS8885ezo2cQVqnqDCTpQ0v1GbqizNUPo/TpydgbUSrDf
++IuaJUKGIHyWDSeg1QGc5SFSLAB9y26hn0yL91hcKD5N12+TnIpCsnbQzPtjfu8FT
++b5JVSRynFTW7p1xjRMLsGVWpS7Era1XoPpK6j2cpP3KYKTqzR0o9Tdf2A0mmfB2x
++kgSz39wiTpeXStkrTACDohmhVz/s6SBRQltaMJvSGBuemz9HyAoUJUJIvhtYrYZY
++o4BzspbFIQdqcZ3MmCaa821U/4mEK0JgPZSWF0M0cmuzckzPHjLfEteXy9zhpoXr
++mtaE06ECgYEA5su25VLXPrC5x54nx8OawB0lWoYsHxgdjT0Qo7Y2LiSGJ2D91ZIN
++Pen8DC7BwXhKTMmxQhmFvh1aCrbBvcyA9pCkR3w6OqinmSASTwo5fFMrgr4hXnGj
++bb/gtqM5QJ8dit5H6XpRnun69eoxPgV8BybPcXcGCeutyGl/lHldqkMCgYEAw6mz
++aoDVaCYVEReZoPH+Yxh+FRAcJe2sdFGWaRH8FiFuYD/lwwv86/Vriuqcjx0TpECi
++nn0LjxAsd6jv7MnXnEHGlS/sOp6BiPdXpY7r51cVATsOT2JVVejIoiBelyPXQi/g
++gGqJsg0gHQYjfzC3zMzs5aCO3G7gPwkcpFmucvECgYA39VipDYbmyk6hGbWnd8PD
++pM1zv2hfOaegoRexufI1CeIFFj01VS4kvuC/y25rDFFngNeboTiOOeulAV7EOBtk
++rPlH49TyeAX62I3X4DDD9h5smtDYZ1EqwQUpAzZUdr/g9bgV4fR8RVr12QyLbyT9
++TumpJyStrxj5qKqoQyz0pQKBgHrmRCD4rZNOoFrtFP2IIz6Baui2Bsg4IuOpP63d
++sxb/hsIEQMCj7gkUTamjNhWasPSx+LNOXg1NnnDG93UnTzwCAMdCo8IqP7kVi8Md
++I8Za54GvY4yvemSM5EEZzfBnfdVAF2byBG2HWw2ABpnksv58Fa0ijbmeF1Lg2VHO
++VwoxAoGAfOo71JfNvSjWg1lsMIyGkrAvPRROy1WihI5d5dPwiP66+H96vOzmyWZc
++Fpb2l49FL/4jWw2LZOPxnF9lIrbaqIJS0eoXY3+lyX0ec1fdDXeDoXqF1iUZVGKm
++kdfOt2vKdWnNuWLQVm9wFhJdiIAhiE/iODxbEbwZt/kR/JSHU9Y=
++-----END RSA PRIVATE KEY-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/client.crt openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/client.crt
+--- src/easy-rsa/EasyRSA-2.2.2/keys/client.crt	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/client.crt	2016-05-31 21:53:37.491951000 +0800
+@@ -0,0 +1,92 @@
++Certificate:
++    Data:
++        Version: 3 (0x2)
++        Serial Number: 2 (0x2)
++        Signature Algorithm: md5WithRSAEncryption
++        Issuer: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=CA/emailAddress=yekexin0919@126.com
++        Validity
++            Not Before: May  9 10:27:47 2014 GMT
++            Not After : May  6 10:27:47 2024 GMT
++        Subject: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=client/emailAddress=yekexin0919@126.com
++        Subject Public Key Info:
++            Public Key Algorithm: rsaEncryption
++            RSA Public Key: (2048 bit)
++                Modulus (2048 bit):
++                    00:ba:c0:88:7a:f8:ae:e2:f9:ed:a5:58:58:1e:d9:
++                    0e:bb:ab:79:09:76:16:21:c6:55:14:5f:0a:d6:e5:
++                    cb:5d:2b:70:0e:fa:aa:28:03:d4:82:f4:10:2b:a0:
++                    a6:be:5c:ae:78:3e:bc:ab:64:64:84:47:29:ad:b9:
++                    11:52:79:a1:0d:ec:bd:3b:3f:0e:9a:7c:12:9b:81:
++                    17:e1:d2:de:1d:a7:4f:12:e6:25:c0:c8:6d:fc:c5:
++                    9d:fa:0a:90:65:d4:dd:d7:92:82:0d:d0:e0:5d:9c:
++                    10:f1:ab:ee:f5:99:d2:72:da:68:2e:f5:67:ac:3e:
++                    8a:9f:49:4d:62:4e:74:81:25:7e:31:e5:2d:a9:92:
++                    ae:81:15:91:c6:9b:24:15:a6:93:74:0a:91:f5:78:
++                    a2:fa:41:dc:6a:c1:6f:6b:ba:c2:87:77:be:a1:a5:
++                    f7:cd:22:fb:94:16:78:12:9d:87:a2:d4:77:a2:3e:
++                    ce:56:6f:e4:a6:c0:79:85:d0:1a:90:de:fe:07:a4:
++                    01:0c:28:c9:af:36:26:a6:d3:1b:d2:d0:67:ba:1a:
++                    fb:9e:8f:1d:a8:e5:a9:f2:6c:b7:af:39:02:10:48:
++                    fc:1b:d5:b5:61:07:a4:03:80:58:66:48:53:ed:58:
++                    71:18:de:94:05:9a:ad:40:bf:d2:0f:ce:e2:6f:d0:
++                    01:cb
++                Exponent: 65537 (0x10001)
++        X509v3 extensions:
++            X509v3 Basic Constraints: 
++                CA:FALSE
++            Netscape Comment: 
++                Easy-RSA Generated Certificate
++            X509v3 Subject Key Identifier: 
++                F4:F2:8C:C5:89:06:83:DF:53:BB:71:AD:20:77:40:05:6C:1B:AC:3C
++            X509v3 Authority Key Identifier: 
++                keyid:F9:89:57:FD:E1:B6:95:64:75:C2:A0:FA:58:A6:D6:25:06:1B:43:EC
++                DirName:/C=CN/ST=SH/L=PD/O=OpenVPN/OU=section/CN=CA/emailAddress=yekexin0919@126.com
++                serial:F1:81:0A:2C:37:19:C8:41
++
++            X509v3 Extended Key Usage: 
++                TLS Web Client Authentication
++            X509v3 Key Usage: 
++                Digital Signature
++    Signature Algorithm: md5WithRSAEncryption
++        7c:77:4d:eb:7f:31:35:2b:93:86:81:1c:66:25:f6:72:5c:35:
++        0b:10:b4:47:7d:ad:d6:15:14:7f:2a:1c:65:58:7e:c9:e0:86:
++        57:39:01:ff:25:e1:73:a5:19:72:28:7a:2d:15:c5:2e:a8:fb:
++        df:9d:e3:a2:95:76:e6:cd:70:68:b8:58:54:0c:c8:c8:09:7c:
++        32:50:ac:3c:f4:98:da:85:53:3a:00:09:b5:1e:f0:8f:34:5f:
++        29:27:43:42:98:a5:d4:e1:93:17:42:f3:43:b8:0a:78:50:5c:
++        4e:49:be:8d:a0:a7:a9:5b:2e:fd:3d:24:fd:01:31:e1:cc:a3:
++        83:13:21:f3:e2:bf:5d:b9:50:f7:ea:d2:11:6d:f8:d8:8e:ac:
++        5c:1d:5c:06:7b:af:f8:75:f3:ca:f8:6e:96:20:fe:93:ce:17:
++        a6:90:30:8e:90:ae:0a:7b:eb:9b:00:ec:36:cf:0d:cc:de:07:
++        a5:d5:fe:75:12:08:25:be:6a:c4:e8:f3:38:3d:d4:c9:d2:28:
++        8e:6b:7c:fa:4d:c7:28:06:1f:c5:ce:ec:ca:38:3e:fb:e1:80:
++        f4:cf:eb:8a:ce:c6:f9:5e:6f:a4:56:95:28:20:ae:02:85:47:
++        34:4d:c8:62:d5:c5:f5:5d:94:4e:12:f7:2c:4e:97:36:e2:b7:
++        6e:67:8b:ec
++-----BEGIN CERTIFICATE-----
++MIIEqzCCA5OgAwIBAgIBAjANBgkqhkiG9w0BAQQFADB8MQswCQYDVQQGEwJDTjEL
++MAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQKEwdPcGVuVlBOMRAwDgYD
++VQQLEwdzZWN0aW9uMQswCQYDVQQDEwJDQTEiMCAGCSqGSIb3DQEJARYTeWVrZXhp
++bjA5MTlAMTI2LmNvbTAeFw0xNDA1MDkxMDI3NDdaFw0yNDA1MDYxMDI3NDdaMIGA
++MQswCQYDVQQGEwJDTjELMAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQK
++EwdPcGVuVlBOMRAwDgYDVQQLEwdzZWN0aW9uMQ8wDQYDVQQDEwZjbGllbnQxIjAg
++BgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEyNi5jb20wggEiMA0GCSqGSIb3DQEB
++AQUAA4IBDwAwggEKAoIBAQC6wIh6+K7i+e2lWFge2Q67q3kJdhYhxlUUXwrW5ctd
++K3AO+qooA9SC9BAroKa+XK54PryrZGSERymtuRFSeaEN7L07Pw6afBKbgRfh0t4d
++p08S5iXAyG38xZ36CpBl1N3XkoIN0OBdnBDxq+71mdJy2mgu9WesPoqfSU1iTnSB
++JX4x5S2pkq6BFZHGmyQVppN0CpH1eKL6QdxqwW9rusKHd76hpffNIvuUFngSnYei
++1HeiPs5Wb+SmwHmF0BqQ3v4HpAEMKMmvNiam0xvS0Ge6Gvuejx2o5anybLevOQIQ
++SPwb1bVhB6QDgFhmSFPtWHEY3pQFmq1Av9IPzuJv0AHLAgMBAAGjggExMIIBLTAJ
++BgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2Vy
++dGlmaWNhdGUwHQYDVR0OBBYEFPTyjMWJBoPfU7txrSB3QAVsG6w8MIGvBgNVHSME
++gacwgaSAFPmJV/3htpVkdcKg+lim1iUGG0PsoYGApH4wfDELMAkGA1UEBhMCQ04x
++CzAJBgNVBAgTAlNIMQswCQYDVQQHEwJQRDEQMA4GA1UEChMHT3BlblZQTjEQMA4G
++A1UECxMHc2VjdGlvbjELMAkGA1UEAxMCQ0ExIjAgBgkqhkiG9w0BCQEWE3lla2V4
++aW4wOTE5QDEyNi5jb22CCQDxgQosNxnIQTATBgNVHSUEDDAKBggrBgEFBQcDAjAL
++BgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEEBQADggEBAHx3Tet/MTUrk4aBHGYl9nJc
++NQsQtEd9rdYVFH8qHGVYfsnghlc5Af8l4XOlGXIoei0VxS6o+9+d46KVdubNcGi4
++WFQMyMgJfDJQrDz0mNqFUzoACbUe8I80XyknQ0KYpdThkxdC80O4CnhQXE5Jvo2g
++p6lbLv09JP0BMeHMo4MTIfPiv125UPfq0hFt+NiOrFwdXAZ7r/h188r4bpYg/pPO
++F6aQMI6Qrgp765sA7DbPDczeB6XV/nUSCCW+asTo8zg91MnSKI5rfPpNxygGH8XO
++7Mo4PvvhgPTP64rOxvleb6RWlSggrgKFRzRNyGLVxfVdlE4S9yxOlzbit25ni+w=
++-----END CERTIFICATE-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/client.csr openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/client.csr
+--- src/easy-rsa/EasyRSA-2.2.2/keys/client.csr	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/client.csr	2016-05-31 21:53:37.491951000 +0800
+@@ -0,0 +1,17 @@
++-----BEGIN CERTIFICATE REQUEST-----
++MIICxjCCAa4CAQAwgYAxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJTSDELMAkGA1UE
++BxMCUEQxEDAOBgNVBAoTB09wZW5WUE4xEDAOBgNVBAsTB3NlY3Rpb24xDzANBgNV
++BAMTBmNsaWVudDEiMCAGCSqGSIb3DQEJARYTeWVrZXhpbjA5MTlAMTI2LmNvbTCC
++ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrAiHr4ruL57aVYWB7ZDrur
++eQl2FiHGVRRfCtbly10rcA76qigD1IL0ECugpr5crng+vKtkZIRHKa25EVJ5oQ3s
++vTs/Dpp8EpuBF+HS3h2nTxLmJcDIbfzFnfoKkGXU3deSgg3Q4F2cEPGr7vWZ0nLa
++aC71Z6w+ip9JTWJOdIElfjHlLamSroEVkcabJBWmk3QKkfV4ovpB3GrBb2u6wod3
++vqGl980i+5QWeBKdh6LUd6I+zlZv5KbAeYXQGpDe/gekAQwoya82JqbTG9LQZ7oa
+++56PHajlqfJst685AhBI/BvVtWEHpAOAWGZIU+1YcRjelAWarUC/0g/O4m/QAcsC
++AwEAAaAAMA0GCSqGSIb3DQEBBAUAA4IBAQA/bsdOPEFXgq83Z1XDYefZ8fyybyMs
++HGf/JNhKvuG0Bio6eKjQDR/Xo2Py5y0DDsY/nNhH8ziBoZxV4s8qHNvKJ7i7U/Zc
++FXAjk0zrjmMvoFOjDpiyhaVoJZL+O3JYpzfjDXkubS52AGMUvciISUrffrPWvIvo
++EPolSU2wYQTUIzQllnrY+dWqPtNuwqdydWvv1lGXlWw8rdIXsAC29+GbBq2FAH88
++Vz4RRu2Dw7Oetd3McPS485LjwfQwjMDowfJv97oneAkeYpAy+Z2/f9duG45XsUyu
++cYkJ1xlabhxKAcsoI5z5jCHIZiHPvddN/vy8/ryeQ/cZXkhmd/h7akZp
++-----END CERTIFICATE REQUEST-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/client.key openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/client.key
+--- src/easy-rsa/EasyRSA-2.2.2/keys/client.key	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/client.key	2016-05-31 21:53:37.491951000 +0800
+@@ -0,0 +1,27 @@
++-----BEGIN RSA PRIVATE KEY-----
++MIIEowIBAAKCAQEAusCIeviu4vntpVhYHtkOu6t5CXYWIcZVFF8K1uXLXStwDvqq
++KAPUgvQQK6CmvlyueD68q2RkhEcprbkRUnmhDey9Oz8OmnwSm4EX4dLeHadPEuYl
++wMht/MWd+gqQZdTd15KCDdDgXZwQ8avu9ZnSctpoLvVnrD6Kn0lNYk50gSV+MeUt
++qZKugRWRxpskFaaTdAqR9Xii+kHcasFva7rCh3e+oaX3zSL7lBZ4Ep2HotR3oj7O
++Vm/kpsB5hdAakN7+B6QBDCjJrzYmptMb0tBnuhr7no8dqOWp8my3rzkCEEj8G9W1
++YQekA4BYZkhT7VhxGN6UBZqtQL/SD87ib9ABywIDAQABAoIBAQCawo7XiVo0knVT
++vmBYP/wrnbASHR++IYPD+/cZmxjqPuMAJs33lyT22JbF8L39pwSWdTcYuXtq+yYY
++5vLp7A2BYpx2iozpjMRGxbYq1/pljI7E1KCYoAA1pvaBjVuYZ8znpmvMUzp7mKeZ
++/qdqNGzn7QLFV2zwmmt6EN7mBqoZkrLqiXtK8OMyGfnqHvjHi7hvjqAHdYH7fg/C
++DHw1KYNevuQbs8vCxo12801TEbmFfbPKisXCpTkl54It0h8gbqOCL+1FFamGqOm4
++QBG9DC92F+e72xwGB5okOrLqAFJ7VVjJMoSHfIR7/qrCAmyl8W7XroE3VY9NeR1X
++tn541baRAoGBAO0SPTmwHtWD5NxKdYY2Zmorm3XCCS9kfkYGVgJivD4US2sgPcDT
++Gl6u44xi9IgNNPlZyIdw2IOJ5+3ugCi9aXtpRC8b2k54y732AFuUcSmMHKeJLSO2
++nD7yhq5I6fOLpHim5SfU/lpB4ksUY9OZyjT2r2AesvAS5pJLvD0y6ox/AoGBAMmp
++w9lxn0w0oIbbVLFT5Jy7244XrIi0/yTF72OP8r13IaQWeRU0h2jldZIf3nyHa23q
++fzGc04lL1ClB5iMLLQOb/ej5clvksn0frjq6Y6vdnmfmpbZnSDhKZiiZ1TvsA7N1
++VsGYcBC6ULADnJOraxEvyB6nSSYenxjnBVVJn1S1AoGAcpDI47L4A6j8lXSqPNTX
++Q2GVfB/r/morF74CHJ8IZ1u5YqivDxs1eCI+Nt6vW3w+aG36GXHwQAkJ+xKx/n4i
++lpA1ciqcoiWAGGnknF0tHq3mPxRsqwCZm1XqvhjgbmDCd8f3n/svfACw0iWlZGHC
++tTutXt8XDCumH3bYHh8X+BMCgYBRAFOef7kQjwL7qBW4tI3bNsnVpUS0FJ93Udn6
++D9PcroFgu3YfQl4xkBlNfGeNdYd9OvekIe4F8+NgPwwFf3OxQ3MVpTx+FLps79C3
++3i4y1m3OJiLhxVKI6blnDYNM8lv6NWOHl4dL8MqAKLM3zV7QJHUpeuAy45HcGs9V
++lqDdEQKBgFgy7drJUhcnahXizSiP/tbK30DnzYt/gGSpBbayJjjToXfTYRSN1pc5
++rEkFVgeuriQwNFZg9X4u3R94/C886enjKjbirNw/+XpZUOhn2xemebk0e0AeZlXL
++dUNPf9t7Zf/fW8rMMhDT9dykzZdaoK9TAzAC/UIDf1e+iy6tenJ4
++-----END RSA PRIVATE KEY-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem
+--- src/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem	2016-05-31 21:53:37.490691000 +0800
+@@ -0,0 +1,5 @@
++-----BEGIN DH PARAMETERS-----
++MIGHAoGBANMsIkBQRNdz3MLR9Nmd+9DcQN1bh6n9Tyjr4HpHWqZIJv967AtCaWK4
++t9P+HNbSYeKfpp6fU7swcFLqblvUIxw1fG1T4XHQKTC+ZbFKD6uiLsYySNFWU7gQ
++x760U1mZQ4qXodNb4SEzPv9QMLZF/Vkmx3wGLQWJRDcLd/UzN/ITAgEC
++-----END DH PARAMETERS-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/dh2048.pem openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/dh2048.pem
+--- src/easy-rsa/EasyRSA-2.2.2/keys/dh2048.pem	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/dh2048.pem	2016-05-31 21:53:37.491951000 +0800
+@@ -0,0 +1,8 @@
++-----BEGIN DH PARAMETERS-----
++MIIBCAKCAQEArmhQFlVTzpkfi+l4VM5YpcT+pNiRtHOOrcwV793ep0/J748QsCEf
++mEN3ZZkI95bHIXC3b1SkU9dMruXCvP4ufCPJ7i/HZM2e7Ba5w/P9SM6bb9hIIHOd
++GEuBkcHfDR0X3s+BspUWq6cxr9PSSm25XpowIpHj+OCethHFSZFH/ZyDAKLXm5oo
++xukVQSRYP0RcGzmACYHabmGWhGiEONSUDiwS2YVIcU8ceMpQeQqoJ1Vz2nbKQlDz
++sRm9zlDecb6oHsyQ/J5m8a1LRsm/s2DEb9DSAi1+i5o2c065Wut87W+LU8hQCmE+
++f5H4ZM+HijYZ4lbH4c36zFhtzHLLTBLeuwIBAg==
++-----END DH PARAMETERS-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/server.crt openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/server.crt
+--- src/easy-rsa/EasyRSA-2.2.2/keys/server.crt	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/server.crt	2016-05-31 21:53:37.492948000 +0800
+@@ -0,0 +1,95 @@
++Certificate:
++    Data:
++        Version: 3 (0x2)
++        Serial Number: 1 (0x1)
++        Signature Algorithm: md5WithRSAEncryption
++        Issuer: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=CA/emailAddress=yekexin0919@126.com
++        Validity
++            Not Before: May  9 09:10:01 2014 GMT
++            Not After : May  6 09:10:01 2024 GMT
++        Subject: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=server/emailAddress=yekexin0919@126.com
++        Subject Public Key Info:
++            Public Key Algorithm: rsaEncryption
++            RSA Public Key: (2048 bit)
++                Modulus (2048 bit):
++                    00:ac:6f:21:3a:9c:36:c5:cb:ef:3c:ed:90:d5:ec:
++                    15:f3:98:78:40:1c:c8:31:2e:71:37:cc:a6:5d:67:
++                    90:97:71:6a:d9:f0:46:ac:bd:04:f7:be:10:53:fa:
++                    e7:9b:59:fb:e9:13:82:33:cc:b7:1b:04:32:05:82:
++                    ef:16:c1:c4:7a:1a:d6:94:e5:2e:d5:49:0c:8c:70:
++                    9c:46:f8:a1:2b:b6:5d:de:69:7c:74:cc:ed:32:97:
++                    6b:84:15:e7:6b:65:04:03:72:71:5e:16:82:b4:ae:
++                    8a:f7:50:0e:0b:43:ad:8c:bc:1c:1a:59:4d:f7:fa:
++                    81:25:2b:ef:9c:11:95:d2:d0:8b:f7:ca:d4:67:7e:
++                    de:54:4d:21:4a:a2:e0:f6:52:03:78:20:ec:14:eb:
++                    a5:11:7c:c6:8f:10:6a:02:09:16:1e:e5:c6:dc:96:
++                    04:85:d3:82:4c:3c:e9:f7:6a:82:f3:e1:99:75:e7:
++                    6f:5a:45:b9:cd:ea:bb:42:e4:e4:f8:0d:bf:d4:57:
++                    b1:e2:c3:ac:69:0f:e1:ef:a3:00:5a:09:96:4e:51:
++                    a7:df:f1:c8:94:02:f3:2c:66:be:9d:c2:dc:59:26:
++                    db:b4:d9:9e:1d:c7:6c:c8:ca:82:48:1a:7d:d5:49:
++                    8b:37:38:34:b1:33:5b:20:23:2d:41:d8:f2:f2:cc:
++                    38:47
++                Exponent: 65537 (0x10001)
++        X509v3 extensions:
++            X509v3 Basic Constraints: 
++                CA:FALSE
++            Netscape Cert Type: 
++                SSL Server
++            Netscape Comment: 
++                Easy-RSA Generated Server Certificate
++            X509v3 Subject Key Identifier: 
++                CF:F9:8E:AD:0F:1E:3D:A7:A4:87:21:14:BD:97:AD:1B:B8:60:F2:7D
++            X509v3 Authority Key Identifier: 
++                keyid:F9:89:57:FD:E1:B6:95:64:75:C2:A0:FA:58:A6:D6:25:06:1B:43:EC
++                DirName:/C=CN/ST=SH/L=PD/O=OpenVPN/OU=section/CN=CA/emailAddress=yekexin0919@126.com
++                serial:F1:81:0A:2C:37:19:C8:41
++
++            X509v3 Extended Key Usage: 
++                TLS Web Server Authentication
++            X509v3 Key Usage: 
++                Digital Signature, Key Encipherment
++    Signature Algorithm: md5WithRSAEncryption
++        a1:4b:6a:6f:fc:49:95:8d:76:ff:72:9b:5d:76:77:8b:21:d2:
++        49:f1:00:ab:1a:42:ec:df:f4:de:1b:3d:cb:0d:ac:4e:6a:b6:
++        e4:d0:d4:55:aa:32:ca:e8:87:e6:bd:51:04:ee:63:28:6d:3d:
++        78:3c:00:af:05:10:11:e6:e4:88:7d:69:61:a7:d8:0c:04:9a:
++        c7:09:a3:5e:30:57:68:f2:7d:94:19:53:67:c7:ff:c9:ed:d7:
++        7a:b3:9b:00:3a:29:6d:e8:17:1d:0e:2f:8b:f4:68:a8:bc:4f:
++        ac:98:70:a9:d1:4e:80:f3:c2:84:06:33:e5:a1:bb:4a:9f:6a:
++        7f:25:9d:16:f7:96:26:fa:46:70:aa:5a:e2:ff:15:5f:94:6d:
++        85:c8:21:5d:e6:d0:e7:d4:4f:e1:8e:9c:c0:f8:c9:da:7b:dc:
++        a0:12:64:bc:75:34:8b:cd:65:67:b4:10:27:6f:52:3a:22:e1:
++        73:ae:9b:67:60:88:c6:0a:e4:d2:fb:68:be:ce:10:04:f2:e4:
++        73:8f:4c:81:36:d4:2f:10:c7:06:0c:45:f5:7f:c1:1b:d7:4f:
++        6d:6d:70:cb:23:9b:31:de:4c:68:e9:26:26:a9:a9:e6:82:44:
++        04:bd:6e:85:34:eb:85:72:d4:2f:78:d1:71:ad:79:7f:f2:97:
++        85:61:58:11
++-----BEGIN CERTIFICATE-----
++MIIExTCCA62gAwIBAgIBATANBgkqhkiG9w0BAQQFADB8MQswCQYDVQQGEwJDTjEL
++MAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQKEwdPcGVuVlBOMRAwDgYD
++VQQLEwdzZWN0aW9uMQswCQYDVQQDEwJDQTEiMCAGCSqGSIb3DQEJARYTeWVrZXhp
++bjA5MTlAMTI2LmNvbTAeFw0xNDA1MDkwOTEwMDFaFw0yNDA1MDYwOTEwMDFaMIGA
++MQswCQYDVQQGEwJDTjELMAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQK
++EwdPcGVuVlBOMRAwDgYDVQQLEwdzZWN0aW9uMQ8wDQYDVQQDEwZzZXJ2ZXIxIjAg
++BgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEyNi5jb20wggEiMA0GCSqGSIb3DQEB
++AQUAA4IBDwAwggEKAoIBAQCsbyE6nDbFy+887ZDV7BXzmHhAHMgxLnE3zKZdZ5CX
++cWrZ8EasvQT3vhBT+uebWfvpE4IzzLcbBDIFgu8WwcR6GtaU5S7VSQyMcJxG+KEr
++tl3eaXx0zO0yl2uEFedrZQQDcnFeFoK0ror3UA4LQ62MvBwaWU33+oElK++cEZXS
++0Iv3ytRnft5UTSFKouD2UgN4IOwU66URfMaPEGoCCRYe5cbclgSF04JMPOn3aoLz
++4Zl1529aRbnN6rtC5OT4Db/UV7Hiw6xpD+HvowBaCZZOUaff8ciUAvMsZr6dwtxZ
++Jtu02Z4dx2zIyoJIGn3VSYs3ODSxM1sgIy1B2PLyzDhHAgMBAAGjggFLMIIBRzAJ
++BgNVHRMEAjAAMBEGCWCGSAGG+EIBAQQEAwIGQDA0BglghkgBhvhCAQ0EJxYlRWFz
++eS1SU0EgR2VuZXJhdGVkIFNlcnZlciBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUz/mO
++rQ8ePaekhyEUvZetG7hg8n0wga8GA1UdIwSBpzCBpIAU+YlX/eG2lWR1wqD6WKbW
++JQYbQ+yhgYCkfjB8MQswCQYDVQQGEwJDTjELMAkGA1UECBMCU0gxCzAJBgNVBAcT
++AlBEMRAwDgYDVQQKEwdPcGVuVlBOMRAwDgYDVQQLEwdzZWN0aW9uMQswCQYDVQQD
++EwJDQTEiMCAGCSqGSIb3DQEJARYTeWVrZXhpbjA5MTlAMTI2LmNvbYIJAPGBCiw3
++GchBMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIFoDANBgkqhkiG9w0B
++AQQFAAOCAQEAoUtqb/xJlY12/3KbXXZ3iyHSSfEAqxpC7N/03hs9yw2sTmq25NDU
++VaoyyuiH5r1RBO5jKG09eDwArwUQEebkiH1pYafYDASaxwmjXjBXaPJ9lBlTZ8f/
++ye3XerObADopbegXHQ4vi/RoqLxPrJhwqdFOgPPChAYz5aG7Sp9qfyWdFveWJvpG
++cKpa4v8VX5RthcghXebQ59RP4Y6cwPjJ2nvcoBJkvHU0i81lZ7QQJ29SOiLhc66b
++Z2CIxgrk0vtovs4QBPLkc49MgTbULxDHBgxF9X/BG9dPbW1wyyObMd5MaOkmJqmp
++5oJEBL1uhTTrhXLUL3jRca15f/KXhWFYEQ==
++-----END CERTIFICATE-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/server.csr openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/server.csr
+--- src/easy-rsa/EasyRSA-2.2.2/keys/server.csr	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/server.csr	2016-05-31 21:53:37.492948000 +0800
+@@ -0,0 +1,17 @@
++-----BEGIN CERTIFICATE REQUEST-----
++MIICxjCCAa4CAQAwgYAxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJTSDELMAkGA1UE
++BxMCUEQxEDAOBgNVBAoTB09wZW5WUE4xEDAOBgNVBAsTB3NlY3Rpb24xDzANBgNV
++BAMTBnNlcnZlcjEiMCAGCSqGSIb3DQEJARYTeWVrZXhpbjA5MTlAMTI2LmNvbTCC
++ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKxvITqcNsXL7zztkNXsFfOY
++eEAcyDEucTfMpl1nkJdxatnwRqy9BPe+EFP655tZ++kTgjPMtxsEMgWC7xbBxHoa
++1pTlLtVJDIxwnEb4oSu2Xd5pfHTM7TKXa4QV52tlBANycV4WgrSuivdQDgtDrYy8
++HBpZTff6gSUr75wRldLQi/fK1Gd+3lRNIUqi4PZSA3gg7BTrpRF8xo8QagIJFh7l
++xtyWBIXTgkw86fdqgvPhmXXnb1pFuc3qu0Lk5PgNv9RXseLDrGkP4e+jAFoJlk5R
++p9/xyJQC8yxmvp3C3Fkm27TZnh3HbMjKgkgafdVJizc4NLEzWyAjLUHY8vLMOEcC
++AwEAAaAAMA0GCSqGSIb3DQEBBAUAA4IBAQBkkwxdesf6nnEPSglQPoLs5CEEwJrE
++jsxrm3tEUMQEXLWRjmb1dA1QZEKNb8gyy8oBpt0sJAzWWIxEgYpNncaX1CRcqkud
++3szLDzHsyu6x6j0aYlk6BfeeT2XGpVhaJgnx0e8AD3+tRGF4eirflYWACYvwaKg/
++uuRpOd8x1TBwyzi51P/la63xBWdSqRpQtGQpa5HwS2HNEWC4fFxd6+w7IdsgY8Yf
++OC8BuEq9H8z/elx17Ev9vhOTiV/SBf1hGLDNWhbiwR2yQDRUjorr3mLa3fxNjcU+
++Vu1ZDKU7XwcpMFMk4NgTk08/QoN3tWy69MZKsZyu6UlXPgINh8Mulaol
++-----END CERTIFICATE REQUEST-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/server.key openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/server.key
+--- src/easy-rsa/EasyRSA-2.2.2/keys/server.key	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/keys/server.key	2016-05-31 21:53:37.492948000 +0800
+@@ -0,0 +1,27 @@
++-----BEGIN RSA PRIVATE KEY-----
++MIIEowIBAAKCAQEArG8hOpw2xcvvPO2Q1ewV85h4QBzIMS5xN8ymXWeQl3Fq2fBG
++rL0E974QU/rnm1n76ROCM8y3GwQyBYLvFsHEehrWlOUu1UkMjHCcRvihK7Zd3ml8
++dMztMpdrhBXna2UEA3JxXhaCtK6K91AOC0OtjLwcGllN9/qBJSvvnBGV0tCL98rU
++Z37eVE0hSqLg9lIDeCDsFOulEXzGjxBqAgkWHuXG3JYEhdOCTDzp92qC8+GZdedv
++WkW5zeq7QuTk+A2/1Fex4sOsaQ/h76MAWgmWTlGn3/HIlALzLGa+ncLcWSbbtNme
++HcdsyMqCSBp91UmLNzg0sTNbICMtQdjy8sw4RwIDAQABAoIBAEweGmsG/l6+MXOR
++4zerqd0IVzzl97FOMQhSvLXKu9c+Z86g9HHYVtMOAaMwxQCc7kjrJbS8D7BLX9Fz
++BRvkmVjVdBfyO4RHZNSx+SqTIoJrVHCT3C6rL6H/maSLDscnpmfnIwhHo5ci3ZFi
++s3BhhcD0YOt4tKRc3pmMFY+ta5fNYgXlNiLqKyWBbMyWqR40iJrKnAu88M4m2YV9
++LJpumcd+jQPiUvuV8sWD2ZbS6vH7q7ni1wyHhzTj+G9Wjac9s2stYuoruaE9pAty
++0Z0HrqIKlRMdWrnT2yrsYk3ZeUBY9cYjF09m73ztx9eWI8FRtRAnQT0Erkb5Unqe
++Xyr5rXECgYEA2NjtJHa66XK6fO65qDlA5CcGKdFqYgrIXUOyVrMbZW7Szz43uvWd
++5lWfaG215F7aqcR/fsXm+Bric6RyRvs0oRC/AB+9eDSG2Qqjc4sgacqmRFW82XTk
++1fljVU1/pZclt0OSe1SZRhIA6+YpOwt61qQC4Kvv8TkJbcuNH3LeWX0CgYEAy5FX
++u00p18DYKBodc2G2pL9H5hTGFYhu7qmn22v+1ms584JFGHhcs2Hk9detj18mNgdA
++49MxSwgB1/ycBXyda1pN+RseYYnmD6nGATnvrAez5EJiiv5+yfEFmFWyoUz78Cc4
++5NtIdcoVqfHBcm+SFjKlU2qaKEOqAhzliMRuJBMCgYAicBD5QYHdoULMpH0HolAT
++676m1YM3ns7DQQUJj9hB+5+vGgpvvqIc+mwegY3pfsbrPzGgSH2t2VctVmhvrWVm
++TuqGcoP8mxrvTSk4KFg1dOGC6LrdLhtJgBmuamhjO+XZfPm+bGkLH8DVte/GWMRh
++Yhqy45tvi8dbkIARBoUZYQKBgCv/pRu5qOKWLuI0CsuGgiiHo22qbcn3rCpvhvVZ
++GUKU+HiWXoLUeQzYitlMHZpQcXzaAn97hTr3Zxac5cgV0ByE7zd5Ug649H3MLxzS
++vefL3mjmpE/wg8z4CEKNu0c70XRttdFZSAcVf6s0sqAeV0/u8GbgMqOjRFqijkYK
++Vtf7AoGBAKR79jefWOeWrDPzjdhvcMLSo3S751WUzxuybYB44DsbRHHZUoCoidir
++zo3phFUI8JB/pkzpy1FCTnyaHFKXO289udrHea/dBZqQPyKsgtcRiiG7vtxiqlb4
++Sb0mgjdAjuRXs6FzhQbUw67eH8XrA/1Zvx8Hml3rGil2qJTc+F/W
++-----END RSA PRIVATE KEY-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/list-crl openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/list-crl
+--- src/easy-rsa/EasyRSA-2.2.2/list-crl	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/list-crl	2016-05-31 21:53:37.500699000 +0800
+@@ -0,0 +1,13 @@
++#!/bin/sh
++
++# list revoked certificates
++
++CRL="${1:-crl.pem}"
++
++if [ "$KEY_DIR" ]; then
++    cd "$KEY_DIR" && \
++        $OPENSSL crl -text -noout -in "$CRL"
++else
++    echo 'Please source the vars script first (i.e. "source ./vars")'
++    echo 'Make sure you have edited it to reflect your configuration.'
++fi
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/openssl-0.9.6.cnf openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl-0.9.6.cnf
+--- src/easy-rsa/EasyRSA-2.2.2/openssl-0.9.6.cnf	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl-0.9.6.cnf	2016-05-31 21:53:37.501700000 +0800
+@@ -0,0 +1,266 @@
++# For use with easy-rsa version 2.0
++
++#
++# OpenSSL example configuration file.
++# This is mostly being used for generation of certificate requests.
++#
++
++# This definition stops the following lines choking if HOME isn't
++# defined.
++HOME			= .
++RANDFILE		= $ENV::HOME/.rnd
++
++# Extra OBJECT IDENTIFIER info:
++#oid_file		= $ENV::HOME/.oid
++oid_section		= new_oids
++
++# To use this configuration file with the "-extfile" option of the
++# "openssl x509" utility, name here the section containing the
++# X.509v3 extensions to use:
++# extensions		= 
++# (Alternatively, use a configuration file that has only
++# X.509v3 extensions in its main [= default] section.)
++
++[ new_oids ]
++
++# We can add new OIDs in here for use by 'ca' and 'req'.
++# Add a simple OID like this:
++# testoid1=1.2.3.4
++# Or use config file substitution like this:
++# testoid2=${testoid1}.5.6
++
++####################################################################
++[ ca ]
++default_ca	= CA_default		# The default ca section
++
++####################################################################
++[ CA_default ]
++
++dir		= $ENV::KEY_DIR		# Where everything is kept
++certs		= $dir			# Where the issued certs are kept
++crl_dir		= $dir			# Where the issued crl are kept
++database	= $dir/index.txt	# database index file.
++new_certs_dir	= $dir			# default place for new certs.
++
++certificate	= $dir/ca.crt	 	# The CA certificate
++serial		= $dir/serial 		# The current serial number
++crl		= $dir/crl.pem 		# The current CRL
++private_key	= $dir/ca.key	 	# The private key
++RANDFILE	= $dir/.rand		# private random number file
++
++x509_extensions	= usr_cert		# The extentions to add to the cert
++
++# Extensions to add to a CRL. Note: Netscape communicator chokes on V2 CRLs
++# so this is commented out by default to leave a V1 CRL.
++# crl_extensions	= crl_ext
++
++default_days	= 3650			# how long to certify for
++default_crl_days= 30			# how long before next CRL
++default_md	= sha256		# which md to use.
++preserve	= no			# keep passed DN ordering
++
++# A few difference way of specifying how similar the request should look
++# For type CA, the listed attributes must be the same, and the optional
++# and supplied fields are just that :-)
++policy		= policy_anything
++
++# For the CA policy
++[ policy_match ]
++countryName		= match
++stateOrProvinceName	= match
++organizationName	= match
++organizationalUnitName	= optional
++commonName		= supplied
++emailAddress		= optional
++
++# For the 'anything' policy
++# At this point in time, you must list all acceptable 'object'
++# types.
++[ policy_anything ]
++countryName		= optional
++stateOrProvinceName	= optional
++localityName		= optional
++organizationName	= optional
++organizationalUnitName	= optional
++commonName		= supplied
++emailAddress		= optional
++
++####################################################################
++[ req ]
++default_bits		= $ENV::KEY_SIZE
++default_keyfile 	= privkey.pem
++default_md		= sha256
++distinguished_name	= req_distinguished_name
++attributes		= req_attributes
++x509_extensions	= v3_ca	# The extentions to add to the self signed cert
++
++# Passwords for private keys if not present they will be prompted for
++# input_password = secret
++# output_password = secret
++
++# This sets a mask for permitted string types. There are several options. 
++# default: PrintableString, T61String, BMPString.
++# pkix	 : PrintableString, BMPString.
++# utf8only: only UTF8Strings.
++# nombstr : PrintableString, T61String (no BMPStrings or UTF8Strings).
++# MASK:XXXX a literal mask value.
++# WARNING: current versions of Netscape crash on BMPStrings or UTF8Strings
++# so use this option with caution!
++string_mask = nombstr
++
++# req_extensions = v3_req # The extensions to add to a certificate request
++
++[ req_distinguished_name ]
++countryName			= Country Name (2 letter code)
++countryName_default		= $ENV::KEY_COUNTRY
++countryName_min			= 2
++countryName_max			= 2
++
++stateOrProvinceName		= State or Province Name (full name)
++stateOrProvinceName_default	= $ENV::KEY_PROVINCE
++
++localityName			= Locality Name (eg, city)
++localityName_default		= $ENV::KEY_CITY
++
++0.organizationName		= Organization Name (eg, company)
++0.organizationName_default	= $ENV::KEY_ORG
++
++# we can do this but it is not needed normally :-)
++#1.organizationName		= Second Organization Name (eg, company)
++#1.organizationName_default	= World Wide Web Pty Ltd
++
++organizationalUnitName		= Organizational Unit Name (eg, section)
++#organizationalUnitName_default	=
++
++commonName			= Common Name (eg, your name or your server\'s hostname)
++commonName_max			= 64
++
++emailAddress			= Email Address
++emailAddress_default		= $ENV::KEY_EMAIL
++emailAddress_max		= 40
++
++# JY -- added for batch mode
++organizationalUnitName_default = $ENV::KEY_OU
++commonName_default = $ENV::KEY_CN
++
++# SET-ex3			= SET extension number 3
++
++[ req_attributes ]
++challengePassword		= A challenge password
++challengePassword_min		= 4
++challengePassword_max		= 20
++
++unstructuredName		= An optional company name
++
++[ usr_cert ]
++
++# These extensions are added when 'ca' signs a request.
++
++# This goes against PKIX guidelines but some CAs do it and some software
++# requires this to avoid interpreting an end user certificate as a CA.
++
++basicConstraints=CA:FALSE
++
++# Here are some examples of the usage of nsCertType. If it is omitted
++# the certificate can be used for anything *except* object signing.
++
++# This is OK for an SSL server.
++# nsCertType			= server
++
++# For an object signing certificate this would be used.
++# nsCertType = objsign
++
++# For normal client use this is typical
++# nsCertType = client, email
++
++# and for everything including object signing:
++# nsCertType = client, email, objsign
++
++# This is typical in keyUsage for a client certificate.
++# keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++# This will be displayed in Netscape's comment listbox.
++nsComment			= "Easy-RSA Generated Certificate"
++
++# PKIX recommendations harmless if included in all certificates.
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=clientAuth
++keyUsage = digitalSignature
++
++# This stuff is for subjectAltName and issuerAltname.
++# Import the email address.
++# subjectAltName=email:copy
++
++# Copy subject details
++# issuerAltName=issuer:copy
++
++#nsCaRevocationUrl		= http://www.domain.dom/ca-crl.pem
++#nsBaseUrl
++#nsRevocationUrl
++#nsRenewalUrl
++#nsCaPolicyUrl
++#nsSslServerName
++
++[ server ]
++
++# JY ADDED -- Make a cert with nsCertType set to "server"
++basicConstraints=CA:FALSE
++nsCertType			= server
++nsComment			= "Easy-RSA Generated Server Certificate"
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=serverAuth
++keyUsage = digitalSignature, keyEncipherment
++
++[ v3_req ]
++
++# Extensions to add to a certificate request
++
++basicConstraints = CA:FALSE
++keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++[ v3_ca ]
++
++
++# Extensions for a typical CA
++
++
++# PKIX recommendation.
++
++subjectKeyIdentifier=hash
++
++authorityKeyIdentifier=keyid:always,issuer:always
++
++# This is what PKIX recommends but some broken software chokes on critical
++# extensions.
++#basicConstraints = critical,CA:true
++# So we do this instead.
++basicConstraints = CA:true
++
++# Key usage: this is typical for a CA certificate. However since it will
++# prevent it being used as an test self-signed certificate it is best
++# left out by default.
++# keyUsage = cRLSign, keyCertSign
++
++# Some might want this also
++# nsCertType = sslCA, emailCA
++
++# Include email address in subject alt name: another PKIX recommendation
++# subjectAltName=email:copy
++# Copy issuer details
++# issuerAltName=issuer:copy
++
++# DER hex encoding of an extension: beware experts only!
++# obj=DER:02:03
++# Where 'obj' is a standard or added object
++# You can even override a supported extension:
++# basicConstraints= critical, DER:30:03:01:01:FF
++
++[ crl_ext ]
++
++# CRL extensions.
++# Only issuerAltName and authorityKeyIdentifier make any sense in a CRL.
++
++# issuerAltName=issuer:copy
++authorityKeyIdentifier=keyid:always,issuer:always
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/openssl-0.9.8.cnf openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl-0.9.8.cnf
+--- src/easy-rsa/EasyRSA-2.2.2/openssl-0.9.8.cnf	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl-0.9.8.cnf	2016-05-31 21:53:37.502699000 +0800
+@@ -0,0 +1,291 @@
++# For use with easy-rsa version 2.0
++
++#
++# OpenSSL example configuration file.
++# This is mostly being used for generation of certificate requests.
++#
++
++# This definition stops the following lines choking if HOME isn't
++# defined.
++HOME			= .
++RANDFILE		= $ENV::HOME/.rnd
++openssl_conf		= openssl_init
++
++[ openssl_init ]
++# Extra OBJECT IDENTIFIER info:
++#oid_file		= $ENV::HOME/.oid
++oid_section		= new_oids
++engines                 = engine_section
++
++# To use this configuration file with the "-extfile" option of the
++# "openssl x509" utility, name here the section containing the
++# X.509v3 extensions to use:
++# extensions		=
++# (Alternatively, use a configuration file that has only
++# X.509v3 extensions in its main [= default] section.)
++
++[ new_oids ]
++
++# We can add new OIDs in here for use by 'ca' and 'req'.
++# Add a simple OID like this:
++# testoid1=1.2.3.4
++# Or use config file substitution like this:
++# testoid2=${testoid1}.5.6
++
++####################################################################
++[ ca ]
++default_ca	= CA_default		# The default ca section
++
++####################################################################
++[ CA_default ]
++
++dir		= $ENV::KEY_DIR		# Where everything is kept
++certs		= $dir			# Where the issued certs are kept
++crl_dir		= $dir			# Where the issued crl are kept
++database	= $dir/index.txt	# database index file.
++new_certs_dir	= $dir			# default place for new certs.
++
++certificate	= $dir/ca.crt	 	# The CA certificate
++serial		= $dir/serial 		# The current serial number
++crl		= $dir/crl.pem 		# The current CRL
++private_key	= $dir/ca.key	 	# The private key
++RANDFILE	= $dir/.rand		# private random number file
++
++x509_extensions	= usr_cert		# The extentions to add to the cert
++
++# Extensions to add to a CRL. Note: Netscape communicator chokes on V2 CRLs
++# so this is commented out by default to leave a V1 CRL.
++# crl_extensions	= crl_ext
++
++default_days	= 3650			# how long to certify for
++default_crl_days= 30			# how long before next CRL
++default_md	= sha256		# which md to use.
++preserve	= no			# keep passed DN ordering
++
++# A few difference way of specifying how similar the request should look
++# For type CA, the listed attributes must be the same, and the optional
++# and supplied fields are just that :-)
++policy		= policy_anything
++
++# For the CA policy
++[ policy_match ]
++countryName		= match
++stateOrProvinceName	= match
++organizationName	= match
++organizationalUnitName	= optional
++commonName		= supplied
++name			= optional
++emailAddress		= optional
++
++# For the 'anything' policy
++# At this point in time, you must list all acceptable 'object'
++# types.
++[ policy_anything ]
++countryName		= optional
++stateOrProvinceName	= optional
++localityName		= optional
++organizationName	= optional
++organizationalUnitName	= optional
++commonName		= supplied
++name			= optional
++emailAddress		= optional
++
++####################################################################
++[ req ]
++default_bits		= $ENV::KEY_SIZE
++default_keyfile 	= privkey.pem
++default_md		= sha256
++distinguished_name	= req_distinguished_name
++attributes		= req_attributes
++x509_extensions	= v3_ca	# The extentions to add to the self signed cert
++
++# Passwords for private keys if not present they will be prompted for
++# input_password = secret
++# output_password = secret
++
++# This sets a mask for permitted string types. There are several options.
++# default: PrintableString, T61String, BMPString.
++# pkix	 : PrintableString, BMPString.
++# utf8only: only UTF8Strings.
++# nombstr : PrintableString, T61String (no BMPStrings or UTF8Strings).
++# MASK:XXXX a literal mask value.
++# WARNING: current versions of Netscape crash on BMPStrings or UTF8Strings
++# so use this option with caution!
++string_mask = nombstr
++
++# req_extensions = v3_req # The extensions to add to a certificate request
++
++[ req_distinguished_name ]
++countryName			= Country Name (2 letter code)
++countryName_default		= $ENV::KEY_COUNTRY
++countryName_min			= 2
++countryName_max			= 2
++
++stateOrProvinceName		= State or Province Name (full name)
++stateOrProvinceName_default	= $ENV::KEY_PROVINCE
++
++localityName			= Locality Name (eg, city)
++localityName_default		= $ENV::KEY_CITY
++
++0.organizationName		= Organization Name (eg, company)
++0.organizationName_default	= $ENV::KEY_ORG
++
++# we can do this but it is not needed normally :-)
++#1.organizationName		= Second Organization Name (eg, company)
++#1.organizationName_default	= World Wide Web Pty Ltd
++
++organizationalUnitName		= Organizational Unit Name (eg, section)
++#organizationalUnitName_default	=
++
++commonName			= Common Name (eg, your name or your server\'s hostname)
++commonName_max			= 64
++
++name				= Name
++name_max			= 64
++
++emailAddress			= Email Address
++emailAddress_default		= $ENV::KEY_EMAIL
++emailAddress_max		= 40
++
++# JY -- added for batch mode
++organizationalUnitName_default = $ENV::KEY_OU
++commonName_default = $ENV::KEY_CN
++name_default = $ENV::KEY_NAME
++
++# SET-ex3			= SET extension number 3
++
++[ req_attributes ]
++challengePassword		= A challenge password
++challengePassword_min		= 4
++challengePassword_max		= 20
++
++unstructuredName		= An optional company name
++
++[ usr_cert ]
++
++# These extensions are added when 'ca' signs a request.
++
++# This goes against PKIX guidelines but some CAs do it and some software
++# requires this to avoid interpreting an end user certificate as a CA.
++
++basicConstraints=CA:FALSE
++
++# Here are some examples of the usage of nsCertType. If it is omitted
++# the certificate can be used for anything *except* object signing.
++
++# This is OK for an SSL server.
++# nsCertType			= server
++
++# For an object signing certificate this would be used.
++# nsCertType = objsign
++
++# For normal client use this is typical
++# nsCertType = client, email
++
++# and for everything including object signing:
++# nsCertType = client, email, objsign
++
++# This is typical in keyUsage for a client certificate.
++# keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++# This will be displayed in Netscape's comment listbox.
++nsComment			= "Easy-RSA Generated Certificate"
++
++# PKIX recommendations harmless if included in all certificates.
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=clientAuth
++keyUsage = digitalSignature
++
++# This stuff is for subjectAltName and issuerAltname.
++# Import the email address.
++# subjectAltName=email:copy
++
++# Copy subject details
++# issuerAltName=issuer:copy
++
++#nsCaRevocationUrl		= http://www.domain.dom/ca-crl.pem
++#nsBaseUrl
++#nsRevocationUrl
++#nsRenewalUrl
++#nsCaPolicyUrl
++#nsSslServerName
++
++[ server ]
++
++# JY ADDED -- Make a cert with nsCertType set to "server"
++basicConstraints=CA:FALSE
++nsCertType			= server
++nsComment			= "Easy-RSA Generated Server Certificate"
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=serverAuth
++keyUsage = digitalSignature, keyEncipherment
++
++[ v3_req ]
++
++# Extensions to add to a certificate request
++
++basicConstraints = CA:FALSE
++keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++[ v3_ca ]
++
++
++# Extensions for a typical CA
++
++
++# PKIX recommendation.
++
++subjectKeyIdentifier=hash
++
++authorityKeyIdentifier=keyid:always,issuer:always
++
++# This is what PKIX recommends but some broken software chokes on critical
++# extensions.
++#basicConstraints = critical,CA:true
++# So we do this instead.
++basicConstraints = CA:true
++
++# Key usage: this is typical for a CA certificate. However since it will
++# prevent it being used as an test self-signed certificate it is best
++# left out by default.
++# keyUsage = cRLSign, keyCertSign
++
++# Some might want this also
++# nsCertType = sslCA, emailCA
++
++# Include email address in subject alt name: another PKIX recommendation
++# subjectAltName=email:copy
++# Copy issuer details
++# issuerAltName=issuer:copy
++
++# DER hex encoding of an extension: beware experts only!
++# obj=DER:02:03
++# Where 'obj' is a standard or added object
++# You can even override a supported extension:
++# basicConstraints= critical, DER:30:03:01:01:FF
++
++[ crl_ext ]
++
++# CRL extensions.
++# Only issuerAltName and authorityKeyIdentifier make any sense in a CRL.
++
++# issuerAltName=issuer:copy
++authorityKeyIdentifier=keyid:always,issuer:always
++
++[ engine_section ]
++#
++# If you are using PKCS#11
++# Install engine_pkcs11 of opensc (www.opensc.org)
++# And uncomment the following
++# verify that dynamic_path points to the correct location
++#
++#pkcs11 = pkcs11_section
++
++[ pkcs11_section ]
++engine_id = pkcs11
++dynamic_path = /usr/lib/engines/engine_pkcs11.so
++MODULE_PATH = $ENV::PKCS11_MODULE_PATH
++PIN = $ENV::PKCS11_PIN
++init = 0
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/openssl-1.0.0.cnf openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl-1.0.0.cnf
+--- src/easy-rsa/EasyRSA-2.2.2/openssl-1.0.0.cnf	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl-1.0.0.cnf	2016-05-31 21:53:37.497710000 +0800
+@@ -0,0 +1,286 @@
++# For use with easy-rsa version 2.0 and OpenSSL 1.0.0*
++
++# This definition stops the following lines choking if HOME isn't
++# defined.
++HOME			= .
++RANDFILE		= $ENV::HOME/.rnd
++openssl_conf		= openssl_init
++
++[ openssl_init ]
++# Extra OBJECT IDENTIFIER info:
++#oid_file		= $ENV::HOME/.oid
++oid_section		= new_oids
++engines			= engine_section
++
++# To use this configuration file with the "-extfile" option of the
++# "openssl x509" utility, name here the section containing the
++# X.509v3 extensions to use:
++# extensions		=
++# (Alternatively, use a configuration file that has only
++# X.509v3 extensions in its main [= default] section.)
++
++[ new_oids ]
++
++# We can add new OIDs in here for use by 'ca' and 'req'.
++# Add a simple OID like this:
++# testoid1=1.2.3.4
++# Or use config file substitution like this:
++# testoid2=${testoid1}.5.6
++
++####################################################################
++[ ca ]
++default_ca	= CA_default		# The default ca section
++
++####################################################################
++[ CA_default ]
++
++dir		= $ENV::KEY_DIR		# Where everything is kept
++certs		= $dir			# Where the issued certs are kept
++crl_dir		= $dir			# Where the issued crl are kept
++database	= $dir/index.txt	# database index file.
++new_certs_dir	= $dir			# default place for new certs.
++
++certificate	= $dir/ca.crt	 	# The CA certificate
++serial		= $dir/serial 		# The current serial number
++crl		= $dir/crl.pem 		# The current CRL
++private_key	= $dir/ca.key		# The private key
++RANDFILE	= $dir/.rand		# private random number file
++
++x509_extensions	= usr_cert		# The extentions to add to the cert
++
++# Extensions to add to a CRL. Note: Netscape communicator chokes on V2 CRLs
++# so this is commented out by default to leave a V1 CRL.
++# crl_extensions	= crl_ext
++
++default_days	= 3650			# how long to certify for
++default_crl_days= 30			# how long before next CRL
++default_md	= sha256		# use public key default MD
++preserve	= no			# keep passed DN ordering
++
++# A few difference way of specifying how similar the request should look
++# For type CA, the listed attributes must be the same, and the optional
++# and supplied fields are just that :-)
++policy		= policy_anything
++
++# For the CA policy
++[ policy_match ]
++countryName		= match
++stateOrProvinceName	= match
++organizationName	= match
++organizationalUnitName	= optional
++commonName		= supplied
++name			= optional
++emailAddress		= optional
++
++# For the 'anything' policy
++# At this point in time, you must list all acceptable 'object'
++# types.
++[ policy_anything ]
++countryName		= optional
++stateOrProvinceName	= optional
++localityName		= optional
++organizationName	= optional
++organizationalUnitName	= optional
++commonName		= supplied
++name			= optional
++emailAddress		= optional
++
++####################################################################
++[ req ]
++default_bits		= $ENV::KEY_SIZE
++default_keyfile 	= privkey.pem
++default_md		= sha256
++distinguished_name	= req_distinguished_name
++attributes		= req_attributes
++x509_extensions	= v3_ca	# The extentions to add to the self signed cert
++
++# Passwords for private keys if not present they will be prompted for
++# input_password = secret
++# output_password = secret
++
++# This sets a mask for permitted string types. There are several options.
++# default: PrintableString, T61String, BMPString.
++# pkix	 : PrintableString, BMPString (PKIX recommendation after 2004).
++# utf8only: only UTF8Strings (PKIX recommendation after 2004).
++# nombstr : PrintableString, T61String (no BMPStrings or UTF8Strings).
++# MASK:XXXX a literal mask value.
++string_mask = nombstr
++
++# req_extensions = v3_req # The extensions to add to a certificate request
++
++[ req_distinguished_name ]
++countryName			= Country Name (2 letter code)
++countryName_default		= $ENV::KEY_COUNTRY
++countryName_min			= 2
++countryName_max			= 2
++
++stateOrProvinceName		= State or Province Name (full name)
++stateOrProvinceName_default	= $ENV::KEY_PROVINCE
++
++localityName			= Locality Name (eg, city)
++localityName_default		= $ENV::KEY_CITY
++
++0.organizationName		= Organization Name (eg, company)
++0.organizationName_default	= $ENV::KEY_ORG
++
++# we can do this but it is not needed normally :-)
++#1.organizationName		= Second Organization Name (eg, company)
++#1.organizationName_default	= World Wide Web Pty Ltd
++
++organizationalUnitName		= Organizational Unit Name (eg, section)
++#organizationalUnitName_default	=
++
++commonName			= Common Name (eg, your name or your server\'s hostname)
++commonName_max			= 64
++
++name				= Name
++name_max			= 64
++
++emailAddress			= Email Address
++emailAddress_default		= $ENV::KEY_EMAIL
++emailAddress_max		= 40
++
++# JY -- added for batch mode
++organizationalUnitName_default = $ENV::KEY_OU
++commonName_default = $ENV::KEY_CN
++name_default = $ENV::KEY_NAME
++
++
++# SET-ex3			= SET extension number 3
++
++[ req_attributes ]
++challengePassword		= A challenge password
++challengePassword_min		= 4
++challengePassword_max		= 20
++
++unstructuredName		= An optional company name
++
++[ usr_cert ]
++
++# These extensions are added when 'ca' signs a request.
++
++# This goes against PKIX guidelines but some CAs do it and some software
++# requires this to avoid interpreting an end user certificate as a CA.
++
++basicConstraints=CA:FALSE
++
++# Here are some examples of the usage of nsCertType. If it is omitted
++# the certificate can be used for anything *except* object signing.
++
++# This is OK for an SSL server.
++# nsCertType			= server
++
++# For an object signing certificate this would be used.
++# nsCertType = objsign
++
++# For normal client use this is typical
++# nsCertType = client, email
++
++# and for everything including object signing:
++# nsCertType = client, email, objsign
++
++# This is typical in keyUsage for a client certificate.
++# keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++# This will be displayed in Netscape's comment listbox.
++nsComment			= "Easy-RSA Generated Certificate"
++
++# PKIX recommendations harmless if included in all certificates.
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=clientAuth
++keyUsage = digitalSignature
++
++
++# This stuff is for subjectAltName and issuerAltname.
++# Import the email address.
++# subjectAltName=email:copy
++
++# Copy subject details
++# issuerAltName=issuer:copy
++
++#nsCaRevocationUrl		= http://www.domain.dom/ca-crl.pem
++#nsBaseUrl
++#nsRevocationUrl
++#nsRenewalUrl
++#nsCaPolicyUrl
++#nsSslServerName
++
++[ server ]
++
++# JY ADDED -- Make a cert with nsCertType set to "server"
++basicConstraints=CA:FALSE
++nsCertType                     = server
++nsComment                      = "Easy-RSA Generated Server Certificate"
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=serverAuth
++keyUsage = digitalSignature, keyEncipherment
++
++[ v3_req ]
++
++# Extensions to add to a certificate request
++
++basicConstraints = CA:FALSE
++keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++[ v3_ca ]
++
++
++# Extensions for a typical CA
++
++
++# PKIX recommendation.
++
++subjectKeyIdentifier=hash
++
++authorityKeyIdentifier=keyid:always,issuer:always
++
++# This is what PKIX recommends but some broken software chokes on critical
++# extensions.
++#basicConstraints = critical,CA:true
++# So we do this instead.
++basicConstraints = CA:true
++
++# Key usage: this is typical for a CA certificate. However since it will
++# prevent it being used as an test self-signed certificate it is best
++# left out by default.
++# keyUsage = cRLSign, keyCertSign
++
++# Some might want this also
++# nsCertType = sslCA, emailCA
++
++# Include email address in subject alt name: another PKIX recommendation
++# subjectAltName=email:copy
++# Copy issuer details
++# issuerAltName=issuer:copy
++
++# DER hex encoding of an extension: beware experts only!
++# obj=DER:02:03
++# Where 'obj' is a standard or added object
++# You can even override a supported extension:
++# basicConstraints= critical, DER:30:03:01:01:FF
++
++[ crl_ext ]
++
++# CRL extensions.
++# Only issuerAltName and authorityKeyIdentifier make any sense in a CRL.
++
++# issuerAltName=issuer:copy
++authorityKeyIdentifier=keyid:always,issuer:always
++
++[ engine_section ]
++#
++# If you are using PKCS#11
++# Install engine_pkcs11 of opensc (www.opensc.org)
++# And uncomment the following
++# verify that dynamic_path points to the correct location
++#
++#pkcs11 = pkcs11_section
++
++[ pkcs11_section ]
++engine_id = pkcs11
++dynamic_path = /usr/lib/engines/engine_pkcs11.so
++MODULE_PATH = $ENV::PKCS11_MODULE_PATH
++PIN = $ENV::PKCS11_PIN
++init = 0
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/openssl.cnf openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl.cnf
+--- src/easy-rsa/EasyRSA-2.2.2/openssl.cnf	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/openssl.cnf	2016-05-31 21:53:37.498702000 +0800
+@@ -0,0 +1,266 @@
++# For use with easy-rsa version 2.0
++
++#
++# OpenSSL example configuration file.
++# This is mostly being used for generation of certificate requests.
++#
++
++# This definition stops the following lines choking if HOME isn't
++# defined.
++HOME			= .
++RANDFILE		= $ENV::HOME/.rnd
++
++# Extra OBJECT IDENTIFIER info:
++#oid_file		= $ENV::HOME/.oid
++oid_section		= new_oids
++
++# To use this configuration file with the "-extfile" option of the
++# "openssl x509" utility, name here the section containing the
++# X.509v3 extensions to use:
++# extensions		= 
++# (Alternatively, use a configuration file that has only
++# X.509v3 extensions in its main [= default] section.)
++
++[ new_oids ]
++
++# We can add new OIDs in here for use by 'ca' and 'req'.
++# Add a simple OID like this:
++# testoid1=1.2.3.4
++# Or use config file substitution like this:
++# testoid2=${testoid1}.5.6
++
++####################################################################
++[ ca ]
++default_ca	= CA_default		# The default ca section
++
++####################################################################
++[ CA_default ]
++
++dir		= $ENV::KEY_DIR		# Where everything is kept
++certs		= $dir			# Where the issued certs are kept
++crl_dir		= $dir			# Where the issued crl are kept
++database	= $dir/index.txt	# database index file.
++new_certs_dir	= $dir			# default place for new certs.
++
++certificate	= $dir/ca.crt	 	# The CA certificate
++serial		= $dir/serial 		# The current serial number
++crl		= $dir/crl.pem 		# The current CRL
++private_key	= $dir/ca.key	 	# The private key
++RANDFILE	= $dir/.rand		# private random number file
++
++x509_extensions	= usr_cert		# The extentions to add to the cert
++
++# Extensions to add to a CRL. Note: Netscape communicator chokes on V2 CRLs
++# so this is commented out by default to leave a V1 CRL.
++# crl_extensions	= crl_ext
++
++default_days	= 3650			# how long to certify for
++default_crl_days= 30			# how long before next CRL
++default_md	= md5			# which md to use.
++preserve	= no			# keep passed DN ordering
++
++# A few difference way of specifying how similar the request should look
++# For type CA, the listed attributes must be the same, and the optional
++# and supplied fields are just that :-)
++policy		= policy_anything
++
++# For the CA policy
++[ policy_match ]
++countryName		= match
++stateOrProvinceName	= match
++organizationName	= match
++organizationalUnitName	= optional
++commonName		= supplied
++emailAddress		= optional
++
++# For the 'anything' policy
++# At this point in time, you must list all acceptable 'object'
++# types.
++[ policy_anything ]
++countryName		= optional
++stateOrProvinceName	= optional
++localityName		= optional
++organizationName	= optional
++organizationalUnitName	= optional
++commonName		= supplied
++emailAddress		= optional
++
++####################################################################
++[ req ]
++default_bits		= $ENV::KEY_SIZE
++default_keyfile 	= privkey.pem
++default_md		= sha256
++distinguished_name	= req_distinguished_name
++attributes		= req_attributes
++x509_extensions	= v3_ca	# The extentions to add to the self signed cert
++
++# Passwords for private keys if not present they will be prompted for
++# input_password = secret
++# output_password = secret
++
++# This sets a mask for permitted string types. There are several options. 
++# default: PrintableString, T61String, BMPString.
++# pkix	 : PrintableString, BMPString.
++# utf8only: only UTF8Strings.
++# nombstr : PrintableString, T61String (no BMPStrings or UTF8Strings).
++# MASK:XXXX a literal mask value.
++# WARNING: current versions of Netscape crash on BMPStrings or UTF8Strings
++# so use this option with caution!
++string_mask = nombstr
++
++# req_extensions = v3_req # The extensions to add to a certificate request
++
++[ req_distinguished_name ]
++countryName			= Country Name (2 letter code)
++countryName_default		= $ENV::KEY_COUNTRY
++countryName_min			= 2
++countryName_max			= 2
++
++stateOrProvinceName		= State or Province Name (full name)
++stateOrProvinceName_default	= $ENV::KEY_PROVINCE
++
++localityName			= Locality Name (eg, city)
++localityName_default		= $ENV::KEY_CITY
++
++0.organizationName		= Organization Name (eg, company)
++0.organizationName_default	= $ENV::KEY_ORG
++
++# we can do this but it is not needed normally :-)
++#1.organizationName		= Second Organization Name (eg, company)
++#1.organizationName_default	= World Wide Web Pty Ltd
++
++organizationalUnitName		= Organizational Unit Name (eg, section)
++#organizationalUnitName_default	=
++
++commonName			= Common Name (eg, your name or your server\'s hostname)
++commonName_max			= 64
++
++emailAddress			= Email Address
++emailAddress_default		= $ENV::KEY_EMAIL
++emailAddress_max		= 40
++
++# JY -- added for batch mode
++organizationalUnitName_default = $ENV::KEY_OU
++commonName_default = $ENV::KEY_CN
++
++# SET-ex3			= SET extension number 3
++
++[ req_attributes ]
++challengePassword		= A challenge password
++challengePassword_min		= 4
++challengePassword_max		= 20
++
++unstructuredName		= An optional company name
++
++[ usr_cert ]
++
++# These extensions are added when 'ca' signs a request.
++
++# This goes against PKIX guidelines but some CAs do it and some software
++# requires this to avoid interpreting an end user certificate as a CA.
++
++basicConstraints=CA:FALSE
++
++# Here are some examples of the usage of nsCertType. If it is omitted
++# the certificate can be used for anything *except* object signing.
++
++# This is OK for an SSL server.
++# nsCertType			= server
++
++# For an object signing certificate this would be used.
++# nsCertType = objsign
++
++# For normal client use this is typical
++# nsCertType = client, email
++
++# and for everything including object signing:
++# nsCertType = client, email, objsign
++
++# This is typical in keyUsage for a client certificate.
++# keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++# This will be displayed in Netscape's comment listbox.
++nsComment			= "Easy-RSA Generated Certificate"
++
++# PKIX recommendations harmless if included in all certificates.
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=clientAuth
++keyUsage = digitalSignature
++
++# This stuff is for subjectAltName and issuerAltname.
++# Import the email address.
++# subjectAltName=email:copy
++
++# Copy subject details
++# issuerAltName=issuer:copy
++
++#nsCaRevocationUrl		= http://www.domain.dom/ca-crl.pem
++#nsBaseUrl
++#nsRevocationUrl
++#nsRenewalUrl
++#nsCaPolicyUrl
++#nsSslServerName
++
++[ server ]
++
++# JY ADDED -- Make a cert with nsCertType set to "server"
++basicConstraints=CA:FALSE
++nsCertType			= server
++nsComment			= "Easy-RSA Generated Server Certificate"
++subjectKeyIdentifier=hash
++authorityKeyIdentifier=keyid,issuer:always
++extendedKeyUsage=serverAuth
++keyUsage = digitalSignature, keyEncipherment
++
++[ v3_req ]
++
++# Extensions to add to a certificate request
++
++basicConstraints = CA:FALSE
++keyUsage = nonRepudiation, digitalSignature, keyEncipherment
++
++[ v3_ca ]
++
++
++# Extensions for a typical CA
++
++
++# PKIX recommendation.
++
++subjectKeyIdentifier=hash
++
++authorityKeyIdentifier=keyid:always,issuer:always
++
++# This is what PKIX recommends but some broken software chokes on critical
++# extensions.
++#basicConstraints = critical,CA:true
++# So we do this instead.
++basicConstraints = CA:true
++
++# Key usage: this is typical for a CA certificate. However since it will
++# prevent it being used as an test self-signed certificate it is best
++# left out by default.
++# keyUsage = cRLSign, keyCertSign
++
++# Some might want this also
++# nsCertType = sslCA, emailCA
++
++# Include email address in subject alt name: another PKIX recommendation
++# subjectAltName=email:copy
++# Copy issuer details
++# issuerAltName=issuer:copy
++
++# DER hex encoding of an extension: beware experts only!
++# obj=DER:02:03
++# Where 'obj' is a standard or added object
++# You can even override a supported extension:
++# basicConstraints= critical, DER:30:03:01:01:FF
++
++[ crl_ext ]
++
++# CRL extensions.
++# Only issuerAltName and authorityKeyIdentifier make any sense in a CRL.
++
++# issuerAltName=issuer:copy
++authorityKeyIdentifier=keyid:always,issuer:always
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/pkitool openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/pkitool
+--- src/easy-rsa/EasyRSA-2.2.2/pkitool	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/pkitool	2016-05-31 21:53:37.496700000 +0800
+@@ -0,0 +1,397 @@
++#!/bin/sh
++. /tmp/etc/openvpn/vars
++#  OpenVPN -- An application to securely tunnel IP networks
++#             over a single TCP/UDP port, with support for SSL/TLS-based
++#             session authentication and key exchange,
++#             packet encryption, packet authentication, and
++#             packet compression.
++#
++#  Copyright (C) 2002-2010 OpenVPN Technologies, Inc. <sales@openvpn.net>
++#
++#  This program is free software; you can redistribute it and/or modify
++#  it under the terms of the GNU General Public License version 2
++#  as published by the Free Software Foundation.
++#
++#  This program is distributed in the hope that it will be useful,
++#  but WITHOUT ANY WARRANTY; without even the implied warranty of
++#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++#  GNU General Public License for more details.
++#
++#  You should have received a copy of the GNU General Public License
++#  along with this program (see the file COPYING included with this
++#  distribution); if not, write to the Free Software Foundation, Inc.,
++#  59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++
++# pkitool is a front-end for the openssl tool.
++
++# Calling scripts can set the certificate organizational
++# unit with the KEY_OU environmental variable.
++
++# Calling scripts can also set the KEY_NAME environmental
++# variable to set the "name" X509 subject field.
++
++PROGNAME=pkitool
++VERSION=2.0
++DEBUG=0
++
++die()
++{
++    local m="$1"
++
++    echo "$m" >&2
++    exit 1
++}
++
++need_vars()
++{
++    cat <<EOM
++  Please edit the vars script to reflect your configuration,
++  then source it with "source ./vars".
++  Next, to start with a fresh PKI configuration and to delete any
++  previous certificates and keys, run "./clean-all".
++  Finally, you can run this tool ($PROGNAME) to build certificates/keys.
++EOM
++}
++
++usage()
++{
++    cat <<EOM
++$PROGNAME $VERSION
++Usage: $PROGNAME [options...] [common-name]
++
++Options:
++  --batch    : batch mode (default)
++  --keysize  : Set keysize
++      size   : size (default=1024)
++  --interact : interactive mode
++  --server   : build server cert
++  --initca   : build root CA
++  --inter    : build intermediate CA
++  --pass     : encrypt private key with password
++  --csr      : only generate a CSR, do not sign
++  --sign     : sign an existing CSR
++  --pkcs12   : generate a combined PKCS#12 file
++  --pkcs11   : generate certificate on PKCS#11 token
++      lib    : PKCS#11 library
++      slot   : PKCS#11 slot
++      id     : PKCS#11 object id (hex string)
++      label  : PKCS#11 object label
++
++Standalone options:
++  --pkcs11-slots   : list PKCS#11 slots
++      lib    : PKCS#11 library
++  --pkcs11-objects : list PKCS#11 token objects
++      lib    : PKCS#11 library
++      slot   : PKCS#11 slot
++  --pkcs11-init    : initialize PKCS#11 token DANGEROUS!!!
++      lib    : PKCS#11 library
++      slot   : PKCS#11 slot
++      label  : PKCS#11 token label
++
++Notes:
++EOM
++    need_vars
++    cat <<EOM
++  In order to use PKCS#11 interface you must have opensc-0.10.0 or higher.
++
++Generated files and corresponding OpenVPN directives:
++(Files will be placed in the \$KEY_DIR directory, defined in ./vars)
++  ca.crt     -> root certificate (--ca)
++  ca.key     -> root key, keep secure (not directly used by OpenVPN)
++  .crt files -> client/server certificates (--cert)
++  .key files -> private keys, keep secure (--key)
++  .csr files -> certificate signing request (not directly used by OpenVPN)
++  dh1024.pem or dh2048.pem -> Diffie Hellman parameters (--dh)
++
++Examples:
++  $PROGNAME --initca          -> Build root certificate
++  $PROGNAME --initca --pass   -> Build root certificate with password-protected key
++  $PROGNAME --server server1  -> Build "server1" certificate/key
++  $PROGNAME client1           -> Build "client1" certificate/key
++  $PROGNAME --pass client2    -> Build password-protected "client2" certificate/key
++  $PROGNAME --pkcs12 client3  -> Build "client3" certificate/key in PKCS#12 format
++  $PROGNAME --csr client4     -> Build "client4" CSR to be signed by another CA
++  $PROGNAME --sign client4    -> Sign "client4" CSR
++  $PROGNAME --inter interca   -> Build an intermediate key-signing certificate/key
++                               Also see ./inherit-inter script.
++  $PROGNAME --pkcs11 /usr/lib/pkcs11/lib1 0 010203 "client5 id" client5
++                              -> Build "client5" certificate/key in PKCS#11 token
++
++Typical usage for initial PKI setup.  Build myserver, client1, and client2 cert/keys.
++Protect client2 key with a password.  Build DH parms.  Generated files in ./keys :
++  [edit vars with your site-specific info]
++  source ./vars
++  ./clean-all
++  ./build-dh     -> takes a long time, consider backgrounding
++  ./$PROGNAME --initca
++  ./$PROGNAME --server myserver
++  ./$PROGNAME client1
++  ./$PROGNAME --pass client2
++
++Typical usage for adding client cert to existing PKI:
++  source ./vars
++  ./$PROGNAME client-new
++EOM
++}
++
++# Set tool defaults
++[ -n "$OPENSSL" ] || export OPENSSL="openssl"
++[ -n "$PKCS11TOOL" ] || export PKCS11TOOL="pkcs11-tool"
++[ -n "$GREP" ] || export GREP="grep"
++
++# Set defaults
++DO_REQ="1"
++REQ_EXT=""
++DO_CA="1"
++CA_EXT=""
++DO_P12="0"
++DO_P11="0"
++DO_ROOT="0"
++NODES_REQ="-nodes"
++NODES_P12=""
++BATCH="-batch"
++CA="ca"
++# must be set or errors of openssl.cnf
++PKCS11_MODULE_PATH="dummy"
++PKCS11_PIN="dummy"
++
++# Process options
++while [ $# -gt 0 ]; do
++    case "$1" in
++        --keysize  ) KEY_SIZE=$2
++                     shift;;
++        --server   ) REQ_EXT="$REQ_EXT -extensions server"
++                     CA_EXT="$CA_EXT -extensions server" ;;
++        --batch    ) BATCH="-batch" ;;
++        --interact ) BATCH="" ;;
++        --inter    ) CA_EXT="$CA_EXT -extensions v3_ca" ;;
++        --initca   ) DO_ROOT="1" ;;
++        --pass     ) NODES_REQ="" ;;
++        --csr      ) DO_CA="0" ;;
++        --sign     ) DO_REQ="0" ;;
++        --pkcs12   ) DO_P12="1" ;;
++        --pkcs11   ) DO_P11="1"
++                     PKCS11_MODULE_PATH="$2"
++                     PKCS11_SLOT="$3"
++                     PKCS11_ID="$4"
++                     PKCS11_LABEL="$5"
++                     shift 4;;
++
++        # standalone
++        --pkcs11-init)
++                     PKCS11_MODULE_PATH="$2"
++                     PKCS11_SLOT="$3"
++                     PKCS11_LABEL="$4"
++                     if [ -z "$PKCS11_LABEL" ]; then
++                       die "Please specify library name, slot and label"
++                     fi
++                     $PKCS11TOOL --module "$PKCS11_MODULE_PATH" --init-token --slot "$PKCS11_SLOT" \
++                             --label "$PKCS11_LABEL" &&
++                        $PKCS11TOOL --module "$PKCS11_MODULE_PATH" --init-pin --slot "$PKCS11_SLOT"
++                     exit $?;;
++        --pkcs11-slots)
++                     PKCS11_MODULE_PATH="$2"
++                     if [ -z "$PKCS11_MODULE_PATH" ]; then
++                       die "Please specify library name"
++                     fi
++                     $PKCS11TOOL --module "$PKCS11_MODULE_PATH" --list-slots
++                     exit 0;;
++        --pkcs11-objects)
++                     PKCS11_MODULE_PATH="$2"
++                     PKCS11_SLOT="$3"
++                     if [ -z "$PKCS11_SLOT" ]; then
++                       die "Please specify library name and slot"
++                     fi
++                     $PKCS11TOOL --module "$PKCS11_MODULE_PATH" --list-objects --login --slot "$PKCS11_SLOT"
++                     exit 0;;
++
++        --help|--usage)
++                    usage
++                    exit ;;
++        --version)
++                    echo "$PROGNAME $VERSION"
++                    exit ;;
++        # errors
++        --*        ) die "$PROGNAME: unknown option: $1" ;;
++        *          ) break ;;
++    esac
++    shift
++done
++
++if ! [ -z "$BATCH" ]; then
++        if $OPENSSL version | grep 0.9.6 > /dev/null; then
++                die "Batch mode is unsupported in openssl<0.9.7"
++        fi
++fi
++
++if [ $DO_P12 -eq 1 -a $DO_P11 -eq 1 ]; then
++        die "PKCS#11 and PKCS#12 cannot be specified together"
++fi
++
++if [ $DO_P11 -eq 1 ]; then
++        if ! grep "^pkcs11.*=" "$KEY_CONFIG" > /dev/null; then
++                die "Please edit $KEY_CONFIG and setup PKCS#11 engine"
++        fi
++fi
++
++# If we are generating pkcs12, only encrypt the final step
++if [ $DO_P12 -eq 1 ]; then
++    NODES_P12="$NODES_REQ"
++    NODES_REQ="-nodes"
++fi
++
++if [ $DO_P11 -eq 1 ]; then
++    if [ -z "$PKCS11_LABEL" ]; then
++        die "PKCS#11 arguments incomplete"
++    fi
++fi
++
++# If undefined, set default key expiration intervals
++#if [ -z "$KEY_EXPIRE" ]; then
++#    KEY_EXPIRE=19950
++#fi
++#if [ -z "$CA_EXPIRE" ]; then
++#    CA_EXPIRE=19950
++#fi
++#if [ $(date +%Y) = "1970" ]; then
++#        KEY_EXPIRE=19950
++#        CA_EXPIRE=19950
++#fi
++        KEY_EXPIRE=19950
++        CA_EXPIRE=19950
++# Set organizational unit to empty string if undefined
++if [ -z "$KEY_OU" ]; then
++    KEY_OU=""
++fi
++
++# Set X509 Name string to empty string if undefined
++if [ -z "$KEY_NAME" ]; then
++    KEY_NAME=""
++fi
++
++# Set KEY_CN, FN
++if [ $DO_ROOT -eq 1 ]; then
++    if [ -z "$KEY_CN" ]; then
++        if [ "$1" ]; then
++            KEY_CN="$1"
++        elif [ "$KEY_ORG" ]; then
++            KEY_CN="$KEY_ORG CA"
++        fi
++    fi
++    if [ $BATCH ] && [ "$KEY_CN" ]; then
++        echo "Using CA Common Name:" "$KEY_CN"
++    fi
++    FN="$KEY_CN"
++elif [ $BATCH ] && [ "$KEY_CN" ]; then
++    echo "Using Common Name:" "$KEY_CN"
++    FN="$KEY_CN"
++    if [ "$1" ]; then
++        FN="$1"
++    fi
++else
++    if [ $# -ne 1 ]; then
++        usage
++        exit 1
++    else
++        KEY_CN="$1"
++    fi
++    FN="$KEY_CN"
++fi
++
++export CA_EXPIRE KEY_EXPIRE KEY_OU KEY_NAME KEY_CN PKCS11_MODULE_PATH PKCS11_PIN
++
++# Show parameters (debugging)
++if [ $DEBUG -eq 1 ]; then
++    echo DO_REQ $DO_REQ
++    echo REQ_EXT $REQ_EXT
++    echo DO_CA $DO_CA
++    echo CA_EXT $CA_EXT
++    echo NODES_REQ $NODES_REQ
++    echo NODES_P12 $NODES_P12
++    echo DO_P12 $DO_P12
++    echo KEY_CN $KEY_CN
++    echo BATCH $BATCH
++    echo DO_ROOT $DO_ROOT
++    echo KEY_EXPIRE $KEY_EXPIRE
++    echo CA_EXPIRE $CA_EXPIRE
++    echo KEY_OU $KEY_OU
++    echo KEY_NAME $KEY_NAME
++    echo DO_P11 $DO_P11
++    echo PKCS11_MODULE_PATH $PKCS11_MODULE_PATH
++    echo PKCS11_SLOT $PKCS11_SLOT
++    echo PKCS11_ID $PKCS11_ID
++    echo PKCS11_LABEL $PKCS11_LABEL
++fi
++
++# Make sure ./vars was sourced beforehand
++if [ -d "$KEY_DIR" ] && [ "$KEY_CONFIG" ]; then
++    cd "$KEY_DIR"
++
++    # Make sure $KEY_CONFIG points to the correct version
++    # of openssl.cnf
++    if $GREP -i 'easy-rsa version 2\.[0-9]' "$KEY_CONFIG" >/dev/null; then
++        :
++    else
++        echo "$PROGNAME: KEY_CONFIG (set by the ./vars script) is pointing to the wrong"
++        echo "version of openssl.cnf: $KEY_CONFIG"
++        echo "The correct version should have a comment that says: easy-rsa version 2.x";
++        exit 1;
++    fi
++
++    # Build root CA
++    if [ $DO_ROOT -eq 1 ]; then
++        $OPENSSL req $BATCH -days $CA_EXPIRE $NODES_REQ -new -newkey rsa:$KEY_SIZE \
++            -x509 -keyout "$CA.key" -out "$CA.crt" -config "$KEY_CONFIG" && \
++            chmod 0600 "$CA.key"
++    else
++        # Make sure CA key/cert is available
++        if [ $DO_CA -eq 1 ] || [ $DO_P12 -eq 1 ]; then
++            if [ ! -r "$CA.crt" ] || [ ! -r "$CA.key" ]; then
++                echo "$PROGNAME: Need a readable $CA.crt and $CA.key in $KEY_DIR"
++                echo "Try $PROGNAME --initca to build a root certificate/key."
++                exit 1
++            fi
++        fi
++
++        # Generate key for PKCS#11 token
++        PKCS11_ARGS=
++        if [ $DO_P11 -eq 1 ]; then
++                stty -echo
++                echo -n "User PIN: "
++                read -r PKCS11_PIN
++                stty echo
++                export PKCS11_PIN
++
++                echo "Generating key pair on PKCS#11 token..."
++                $PKCS11TOOL --module "$PKCS11_MODULE_PATH" --keypairgen \
++                        --login --pin "$PKCS11_PIN" \
++                        --key-type rsa:1024 \
++                        --slot "$PKCS11_SLOT" --id "$PKCS11_ID" --label "$PKCS11_LABEL" || exit 1
++                PKCS11_ARGS="-engine pkcs11 -keyform engine -key $PKCS11_SLOT:$PKCS11_ID"
++        fi
++
++        # Build cert/key
++        ( [ $DO_REQ -eq 0 ] || $OPENSSL req $BATCH $NODES_REQ -new -newkey rsa:$KEY_SIZE \
++                -keyout "$FN.key" -out "$FN.csr" $REQ_EXT -config "$KEY_CONFIG" $PKCS11_ARGS ) && \
++            ( [ $DO_CA -eq 0 ]  || $OPENSSL ca $BATCH -days $KEY_EXPIRE -out "$FN.crt" \
++                -in "$FN.csr" $CA_EXT -config "$KEY_CONFIG" ) && \
++            ( [ $DO_P12 -eq 0 ] || $OPENSSL pkcs12 -export -inkey "$FN.key" \
++                -in "$FN.crt" -certfile "$CA.crt" -out "$FN.p12" $NODES_P12 ) && \
++            ( [ $DO_CA -eq 0 -o $DO_P11 -eq 1 ]  || chmod 0600 "$FN.key" ) && \
++            ( [ $DO_P12 -eq 0 ] || chmod 0600 "$FN.p12" )
++
++        # Load certificate into PKCS#11 token
++        if [ $DO_P11 -eq 1 ]; then
++                $OPENSSL x509 -in "$FN.crt" -inform PEM -out "$FN.crt.der" -outform DER && \
++                  $PKCS11TOOL --module "$PKCS11_MODULE_PATH" --write-object "$FN.crt.der" --type cert \
++                        --login --pin "$PKCS11_PIN" \
++                        --slot "$PKCS11_SLOT" --id "$PKCS11_ID" --label "$PKCS11_LABEL"
++                [ -e "$FN.crt.der" ]; rm "$FN.crt.der"
++        fi
++
++    fi
++
++# Need definitions
++else
++    need_vars
++fi
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/revoke-full openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/revoke-full
+--- src/easy-rsa/EasyRSA-2.2.2/revoke-full	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/revoke-full	2016-05-31 21:53:37.501700000 +0800
+@@ -0,0 +1,40 @@
++#!/bin/sh
++
++# revoke a certificate, regenerate CRL,
++# and verify revocation
++
++CRL="crl.pem"
++RT="revoke-test.pem"
++
++if [ $# -ne 1 ]; then
++    echo "usage: revoke-full <cert-name-base>";
++    exit 1
++fi
++
++if [ "$KEY_DIR" ]; then
++    cd "$KEY_DIR"
++    rm -f "$RT"
++
++    # set defaults
++    export KEY_CN=""
++    export KEY_OU=""
++    export KEY_NAME=""
++
++    # revoke key and generate a new CRL
++    $OPENSSL ca -revoke "$1.crt" -config "$KEY_CONFIG"
++
++    # generate a new CRL -- try to be compatible with
++    # intermediate PKIs
++    $OPENSSL ca -gencrl -out "$CRL" -config "$KEY_CONFIG"
++    if [ -e export-ca.crt ]; then
++        cat export-ca.crt "$CRL" >"$RT"
++    else
++        cat ca.crt "$CRL" >"$RT"
++    fi
++
++    # verify the revocation
++    $OPENSSL verify -CAfile "$RT" -crl_check "$1.crt"
++else
++    echo 'Please source the vars script first (i.e. "source ./vars")'
++    echo 'Make sure you have edited it to reflect your configuration.'
++fi
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/sign-req openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/sign-req
+--- src/easy-rsa/EasyRSA-2.2.2/sign-req	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/sign-req	2016-05-31 21:53:37.497710000 +0800
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++# Sign a certificate signing request (a .csr file)
++# with a local root certificate and key.
++
++export EASY_RSA="${EASY_RSA:-.}"
++"$EASY_RSA/pkitool" --interact --sign $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/vars openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/vars
+--- src/easy-rsa/EasyRSA-2.2.2/vars	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/vars	2016-05-31 21:53:37.502699000 +0800
+@@ -0,0 +1,80 @@
++# easy-rsa parameter settings
++
++# NOTE: If you installed from an RPM,
++# don't edit this file in place in
++# /usr/share/openvpn/easy-rsa --
++# instead, you should copy the whole
++# easy-rsa directory to another location
++# (such as /etc/openvpn) so that your
++# edits will not be wiped out by a future
++# OpenVPN package upgrade.
++
++# This variable should point to
++# the top level of the easy-rsa
++# tree.
++export EASY_RSA="/tmp/etc/openvpn"
++
++#
++# This variable should point to
++# the requested executables
++#
++export OPENSSL="openssl"
++export PKCS11TOOL="pkcs11-tool"
++export GREP="grep"
++
++
++# This variable should point to
++# the openssl.cnf file included
++# with easy-rsa.
++export KEY_CONFIG="$EASY_RSA/openssl.cnf"
++
++# Edit this variable to point to
++# your soon-to-be-created key
++# directory.
++#
++# WARNING: clean-all will do
++# a rm -rf on this directory
++# so make sure you define
++# it correctly!
++export KEY_DIR="$EASY_RSA/keys"
++
++# Issue rm -rf warning
++echo NOTE: If you run ./clean-all, I will be doing a rm -rf on $KEY_DIR
++
++# PKCS11 fixes
++export PKCS11_MODULE_PATH="dummy"
++export PKCS11_PIN="dummy"
++
++# Increase this to 2048 if you
++# are paranoid.  This will slow
++# down TLS negotiation performance
++# as well as the one-time DH parms
++# generation process.
++export KEY_SIZE=1024
++
++# In how many days should the root CA key expire?
++export CA_EXPIRE=3650
++
++# In how many days should certificates expire?
++export KEY_EXPIRE=3650
++
++# These are the default values for fields
++# which will be placed in the certificate.
++# Don't leave any of these fields blank.
++export KEY_COUNTRY="CN"
++export KEY_PROVINCE="SH"
++export KEY_CITY="PD"
++export KEY_ORG="OpenVPN"
++export KEY_EMAIL="yekexin0919@126.com"
++export KEY_OU="MyOrganizationalUnit"
++
++# X509 Subject Field
++export KEY_NAME="EasyRSA"
++
++# PKCS11 Smart Card
++# export PKCS11_MODULE_PATH="/usr/lib/changeme.so"
++# export PKCS11_PIN=1234
++
++# If you'd like to sign all keys with the same Common Name, uncomment the KEY_CN export below
++# You will also need to make sure your OpenVPN server config has the duplicate-cn option set
++# export KEY_CN="CommonName"
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/whichopensslcnf openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/whichopensslcnf
+--- src/easy-rsa/EasyRSA-2.2.2/whichopensslcnf	1970-01-01 08:00:00.000000000 +0800
++++ openvpn-2.3.16_modify/easy-rsa/EasyRSA-2.2.2/whichopensslcnf	2016-05-31 21:53:37.501700000 +0800
+@@ -0,0 +1,26 @@
++#!/bin/sh
++
++cnf="$1/openssl.cnf"
++
++if [ "$OPENSSL" ]; then
++    if $OPENSSL version | grep -E "0\.9\.6[[:alnum:]]?" > /dev/null; then
++        cnf="$1/openssl-0.9.6.cnf"
++    elif $OPENSSL version | grep -E "0\.9\.8[[:alnum:]]?" > /dev/null; then
++        cnf="$1/openssl-0.9.8.cnf"
++    elif $OPENSSL version | grep -E "1\.0\.[[:digit:]][[:alnum:]]?" > /dev/null; then
++        cnf="$1/openssl-1.0.0.cnf"
++    else
++        cnf="$1/openssl.cnf"
++    fi
++fi
++
++echo $cnf
++
++if [ ! -r $cnf ]; then
++    echo "**************************************************************" >&2
++    echo "  No $cnf file could be found" >&2
++    echo "  Further invocations will fail" >&2
++    echo "**************************************************************" >&2
++fi
++
++exit 0
+diff -aNru src/Makefile openvpn-2.3.16_modify/Makefile
+--- src/Makefile	2016-06-01 00:19:06.041951320 +0800
++++ openvpn-2.3.16_modify/Makefile	2016-06-01 21:53:13.781334000 +0800
+@@ -41,6 +41,11 @@
+ #
+ 
+ 
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++ 
++include $(BUILD_DIR)/Rules.mak
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+ am__make_running_with_option = \
+@@ -268,17 +273,17 @@
+ ACLOCAL = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing aclocal-1.13
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AR = ar
+-AS = as
++AR = $(CROSS)ar
++AS = $(CROSS)as
+ AUTOCONF = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoconf
+ AUTOHEADER = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoheader
+ AUTOMAKE = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing automake-1.13
+ AWK = gawk
+-CC = gcc
++CC = $(CROSS)gcc
+ CCDEPMODE = depmode=gcc3
+ CFLAGS = -g -O2 -std=gnu89
+ CMAKE = cmake
+-CPP = gcc -E
++CPP = $(CROSS)gcc -E
+ CPPFLAGS = 
+ CYGPATH_W = echo
+ DEFS = -DHAVE_CONFIG_H
+@@ -302,7 +307,7 @@
+ INSTALL_SCRIPT = ${INSTALL}
+ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+ IPROUTE = /sbin/ip
+-LD = /usr/bin/ld
++LD = $(CROSS)ld
+ LDFLAGS = 
+ LIBOBJS = 
+ LIBPAM_CFLAGS = 
+@@ -357,7 +362,7 @@
+ PLUGIN_AUTH_PAM_LIBS = -lpam
+ POLARSSL_CFLAGS = 
+ POLARSSL_LIBS = 
+-RANLIB = ranlib
++RANLIB = $(CROSS)ranlib
+ RC = 
+ ROUTE = /sbin/route
+ SED = /bin/sed
+@@ -365,7 +370,7 @@
+ SET_MAKE = 
+ SHELL = /bin/sh
+ SOCKETS_LIBS =  -lnsl -lresolv
+-STRIP = strip
++STRIP = $(CROSS)strip
+ SYSTEMD_ASK_PASSWORD = 
+ TAP_CFLAGS = 
+ TAP_WIN_COMPONENT_ID = tap0901
+@@ -381,8 +386,8 @@
+ abs_srcdir = /home/bernie/trunk/warehouse/app/src
+ abs_top_builddir = /home/bernie/trunk/warehouse/app/src
+ abs_top_srcdir = /home/bernie/trunk/warehouse/app/src
+-ac_ct_AR = ar
+-ac_ct_CC = gcc
++ac_ct_AR = $(CROSS)ar
++ac_ct_CC = $(CROSS)gcc
+ ac_ct_DUMPBIN = 
+ am__include = include
+ am__leading_dot = .
+@@ -490,16 +495,16 @@
+ 	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign Makefile'; \
+ 	$(am__cd) $(top_srcdir) && \
+ 	  $(AUTOMAKE) --foreign Makefile
+-.PRECIOUS: Makefile
+-Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
+-	@case '$?' in \
+-	  *config.status*) \
+-	    echo ' $(SHELL) ./config.status'; \
+-	    $(SHELL) ./config.status;; \
+-	  *) \
+-	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $@ $(am__depfiles_maybe)'; \
+-	    cd $(top_builddir) && $(SHELL) ./config.status $@ $(am__depfiles_maybe);; \
+-	esac;
++#.PRECIOUS: Makefile
++#Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
++#	@case '$?' in \
++#	  *config.status*) \
++#	    echo ' $(SHELL) ./config.status'; \
++#	    $(SHELL) ./config.status;; \
++#	  *) \
++#	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $@ $(am__depfiles_maybe)'; \
++#	    cd $(top_builddir) && $(SHELL) ./config.status $@ $(am__depfiles_maybe);; \
++#	esac;
+ 
+ $(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
+ 	$(SHELL) ./config.status --recheck
+@@ -510,9 +515,9 @@
+ 	$(am__cd) $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
+ $(am__aclocal_m4_deps):
+ 
+-config.h: stamp-h1
+-	@if test ! -f $@; then rm -f stamp-h1; else :; fi
+-	@if test ! -f $@; then $(MAKE) $(AM_MAKEFLAGS) stamp-h1; else :; fi
++#config.h: stamp-h1
++#	@if test ! -f $@; then rm -f stamp-h1; else :; fi
++#	@if test ! -f $@; then $(MAKE) $(AM_MAKEFLAGS) stamp-h1; else :; fi
+ 
+ stamp-h1: $(srcdir)/config.h.in $(top_builddir)/config.status
+ 	@rm -f stamp-h1
+@@ -875,7 +880,22 @@
+ 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
+ 	done
+ install: $(BUILT_SOURCES)
+-	$(MAKE) $(AM_MAKEFLAGS) install-recursive
++	#$(MAKE) $(AM_MAKEFLAGS) install-recursive
++	$(STRIP) src/openvpn/openvpn
++	cp src/openvpn/openvpn $(ROOT)/target/sbin
++	cp -af easy-rsa/EasyRSA-2.2.2/keys/*  $(ROOT)/target/usr/etc/openvpn/.
++	cp -af easy-rsa/EasyRSA-2.2.2/openssl.cnf $(ROOT)/target/usr/etc/openvpn/.
++	cp -af easy-rsa/EasyRSA-2.2.2/vars $(ROOT)/target/usr/etc/openvpn/.
++	cp -af easy-rsa/EasyRSA-2.2.2/clean-all $(ROOT)/target/usr/sbin/.
++	cp -af easy-rsa/EasyRSA-2.2.2/build-ca $(ROOT)/target/usr/sbin/.
++	cp -af easy-rsa/EasyRSA-2.2.2/build-key-server $(ROOT)/target/usr/sbin/.
++	cp -af easy-rsa/EasyRSA-2.2.2/build-key $(ROOT)/target/usr/sbin/.
++	cp -af easy-rsa/EasyRSA-2.2.2/build-dh $(ROOT)/target/usr/sbin/.
++	cp -af easy-rsa/EasyRSA-2.2.2/pkitool $(ROOT)/target/usr/sbin/.
++	cp -af easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem  $(ROOT)/target/usr/etc/openvpn/.
++#	cp -af easy-rsa/EasyRSA-2.2.2/keys/server ../../target/usr/etc/.
++#	cp -af easy-rsa/EasyRSA-2.2.2/keys/client ../../target/usr/etc/.
++
+ install-exec: install-exec-recursive
+ install-data: install-data-recursive
+ uninstall: uninstall-recursive
+diff -aNru src/src/compat/Makefile openvpn-2.3.16_modify/src/compat/Makefile
+--- src/src/compat/Makefile	2016-06-01 00:19:06.197048759 +0800
++++ openvpn-2.3.16_modify/src/compat/Makefile	2016-06-01 21:15:10.556592000 +0800
+@@ -24,6 +24,11 @@
+ #  Copyright (C) 2002-2017 OpenVPN Technologies, Inc. <sales@openvpn.net>
+ #  Copyright (C) 2006-2012 Alon Bar-Lev <alon.barlev@gmail.com>
+ #
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++ 
++include $(BUILD_DIR)/Rules.mak
+ 
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+@@ -180,17 +185,17 @@
+ ACLOCAL = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing aclocal-1.13
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AR = ar
+-AS = as
++AR = $(CROSS)ar
++AS = $(CROSS)as
+ AUTOCONF = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoconf
+ AUTOHEADER = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoheader
+ AUTOMAKE = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing automake-1.13
+ AWK = gawk
+-CC = gcc
++CC = $(CROSS)gcc
+ CCDEPMODE = depmode=gcc3
+ CFLAGS = -g -O2 -std=gnu89
+ CMAKE = cmake
+-CPP = gcc -E
++CPP = $(CROSS)gcc -E
+ CPPFLAGS = 
+ CYGPATH_W = echo
+ DEFS = -DHAVE_CONFIG_H
+@@ -214,7 +219,7 @@
+ INSTALL_SCRIPT = ${INSTALL}
+ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+ IPROUTE = /sbin/ip
+-LD = /usr/bin/ld
++LD = $(CROSS)ld
+ LDFLAGS = 
+ LIBOBJS = 
+ LIBPAM_CFLAGS = 
+@@ -269,7 +274,7 @@
+ PLUGIN_AUTH_PAM_LIBS = -lpam
+ POLARSSL_CFLAGS = 
+ POLARSSL_LIBS = 
+-RANLIB = ranlib
++RANLIB = $(CROSS)ranlib
+ RC = 
+ ROUTE = /sbin/route
+ SED = /bin/sed
+@@ -277,7 +282,7 @@
+ SET_MAKE = 
+ SHELL = /bin/sh
+ SOCKETS_LIBS =  -lnsl -lresolv
+-STRIP = strip
++STRIP = $(CROSS)strip
+ SYSTEMD_ASK_PASSWORD = 
+ TAP_CFLAGS = 
+ TAP_WIN_COMPONENT_ID = tap0901
+@@ -293,8 +298,8 @@
+ abs_srcdir = /home/bernie/trunk/warehouse/app/src/src/compat
+ abs_top_builddir = /home/bernie/trunk/warehouse/app/src
+ abs_top_srcdir = /home/bernie/trunk/warehouse/app/src
+-ac_ct_AR = ar
+-ac_ct_CC = gcc
++ac_ct_AR = $(CROSS)ar
++ac_ct_CC = $(CROSS)gcc
+ ac_ct_DUMPBIN = 
+ am__include = include
+ am__leading_dot = .
+diff -aNru src/src/Makefile openvpn-2.3.16_modify/src/Makefile
+--- src/src/Makefile	2016-06-01 00:19:06.181954226 +0800
++++ openvpn-2.3.16_modify/src/Makefile	2016-06-01 21:49:18.709805000 +0800
+@@ -24,6 +24,11 @@
+ #  Copyright (C) 2002-2017 OpenVPN Technologies, Inc. <sales@openvpn.net>
+ #  Copyright (C) 2006-2012 Alon Bar-Lev <alon.barlev@gmail.com>
+ #
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++
++include $(BUILD_DIR)/Rules.mak
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+ am__make_running_with_option = \
+@@ -188,17 +193,17 @@
+ ACLOCAL = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing aclocal-1.13
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AR = ar
+-AS = as
++AR = $(CROSS)ar
++AS = $(CROSS)as
+ AUTOCONF = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoconf
+ AUTOHEADER = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoheader
+ AUTOMAKE = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing automake-1.13
+ AWK = gawk
+-CC = gcc
++CC = $(CROSS)gcc
+ CCDEPMODE = depmode=gcc3
+ CFLAGS = -g -O2 -std=gnu89
+ CMAKE = cmake
+-CPP = gcc -E
++CPP = $(CROSS)gcc -E
+ CPPFLAGS = 
+ CYGPATH_W = echo
+ DEFS = -DHAVE_CONFIG_H
+@@ -222,7 +227,7 @@
+ INSTALL_SCRIPT = ${INSTALL}
+ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+ IPROUTE = /sbin/ip
+-LD = /usr/bin/ld
++LD = $(CROSS)ld
+ LDFLAGS = 
+ LIBOBJS = 
+ LIBPAM_CFLAGS = 
+@@ -277,7 +282,7 @@
+ PLUGIN_AUTH_PAM_LIBS = -lpam
+ POLARSSL_CFLAGS = 
+ POLARSSL_LIBS = 
+-RANLIB = ranlib
++RANLIB = $(CROSS)ranlib
+ RC = 
+ ROUTE = /sbin/route
+ SED = /bin/sed
+@@ -285,7 +290,7 @@
+ SET_MAKE = 
+ SHELL = /bin/sh
+ SOCKETS_LIBS =  -lnsl -lresolv
+-STRIP = strip
++STRIP = $(CROSS)strip
+ SYSTEMD_ASK_PASSWORD = 
+ TAP_CFLAGS = 
+ TAP_WIN_COMPONENT_ID = tap0901
+@@ -301,8 +306,8 @@
+ abs_srcdir = /home/bernie/trunk/warehouse/app/src/src
+ abs_top_builddir = /home/bernie/trunk/warehouse/app/src
+ abs_top_srcdir = /home/bernie/trunk/warehouse/app/src
+-ac_ct_AR = ar
+-ac_ct_CC = gcc
++ac_ct_AR = $(CROSS)ar
++ac_ct_CC = $(CROSS)gcc
+ ac_ct_DUMPBIN = 
+ am__include = include
+ am__leading_dot = .
+diff -aNru src/src/openvpn/forward.c openvpn-2.3.16_modify/src/openvpn/forward.c
+--- src/src/openvpn/forward.c	2016-05-10 14:02:33.000000000 +0800
++++ openvpn-2.3.16_modify/src/openvpn/forward.c	2016-06-01 21:56:55.862755000 +0800
+@@ -46,10 +46,113 @@
+ #include "occ-inline.h"
+ #include "ping-inline.h"
+ #include "mstats.h"
++#include "nvram.h"
++
++#include "../../../../../../../../../sc_trunk/shared/misc.h"
+ 
+ counter_type link_read_bytes_global;  /* GLOBAL */
+ counter_type link_write_bytes_global; /* GLOBAL */
+ 
++#define IPcountry_lookup "/tmp/IPcountry_lookup"
++#define Route_country_lookup "/tmp/Router_country_lookup"
++
++int
++route_country_lookup(void)
++{
++	char buff[256],debug[1024];
++	FILE *fp;
++
++	//sprintf(buff,"/usr/bin/geoiplookup -f /usr/share/GeoIP/GeoIP.dat %s >> /tmp/IPcountry_lookup",IPfrom);
++	sprintf(buff,"wget \"http://www.speedtest.net/api/country\" -O /tmp/Router_country_lookup");
++
++	sprintf(debug,"echo '##########%s(%d)buff=%s' > /dev/console",__func__,__LINE__,buff);
++	system(debug);
++
++	system(buff);
++	sleep(5);
++
++	fp = fopen(Route_country_lookup, "r");
++    if (fp)
++    {
++        fgets(buff, sizeof(buff), fp);
++		if(strcmp(buff,"") == 0){
++			sprintf(debug,"echo '[OpenVPN]route_country_lookup() failed' > /dev/console");
++			system(debug);
++		}
++			
++		//sprintf(debug,"echo '##########ip_country_lookup() %s' > /dev/console",buff);
++		//system(debug);
++        fclose(fp);
++    }else{
++    	sprintf(debug,"echo '[OpenVPN]route_country_lookup() connection failed' > /dev/console");
++		system(debug);
++    }
++
++	if(strstr(buff,"US") != 0){
++		//IP address from US
++		return 1;
++	}else if((strstr(buff,"EU") != 0) || (strstr(buff,"FR") != 0) || (strstr(buff,"GB") != 0) || (strstr(buff,"DE") != 0) || (strstr(buff,"IT") != 0)){
++		//IP address from Europe,France, UK, Germary
++		return 2;
++	}
++
++	//unlink(Route_country_lookup);
++
++	return 0;
++
++
++	
++}//allenwen Foxconn
++
++
++int
++ip_country_lookup(char *IPfrom)
++{
++	char buff[256],debug[1024];
++	FILE *fp;
++
++	//sprintf(buff,"/usr/bin/geoiplookup -f /usr/share/GeoIP/GeoIP.dat %s >> /tmp/IPcountry_lookup",IPfrom);
++	sprintf(buff,"wget \"http://www.speedtest.net/api/country?ip=%s\" -O /tmp/IPcountry_lookup",IPfrom);
++
++	sprintf(debug,"echo '##########%s(%d)buff=%s' > /dev/console",__func__,__LINE__,buff);
++	system(debug);
++
++	system(buff);
++	sleep(5);
++
++	fp = fopen(IPcountry_lookup, "r");
++    if (fp)
++    {
++        fgets(buff, sizeof(buff), fp);
++		if(strcmp(buff,"") == 0){
++			sprintf(debug,"echo '[OpenVPN]ip_country_lookup() failed' > /dev/console");
++			system(debug);
++		}
++			
++		//sprintf(debug,"echo '##########ip_country_lookup() %s' > /dev/console",buff);
++		//system(debug);
++        fclose(fp);
++    }else{
++    	sprintf(debug,"echo '[OpenVPN]ip_country_lookup() connection failed' > /dev/console");
++		system(debug);
++    }
++
++	if((strstr(buff,"US") != 0) || (strstr(buff,"CA") != 0)){
++		//IP address from US
++		return 1;
++	}else if((strstr(buff,"EU") != 0) || (strstr(buff,"FR") != 0) || (strstr(buff,"GB") != 0) || (strstr(buff,"DE") != 0) || (strstr(buff,"IT") != 0)){
++		//IP address from Europe,France, UK, Germary
++		return 2;
++	}
++
++	//unlink(IPcountry_lookup);
++
++	return 0;
++
++
++	
++}//allenwen Foxconn
++
+ /* show event wait debugging info */
+ 
+ #ifdef ENABLE_DEBUG
+@@ -505,6 +608,7 @@
+ static void
+ process_coarse_timers (struct context *c)
+ {
++	char c2addr[128] = "";
+ #ifdef ENABLE_CRYPTO
+   /* flush current packet-id to file once per 60
+      seconds if --replay-persist was specified */
+@@ -532,17 +636,29 @@
+   /* possibly exit due to --inactive */
+   check_inactivity_timeout (c);
+   if (c->sig->signal_received)
++  {/* For netgear openvpn log */
++	print_sockaddr_remote(&c->c2.from.dest, c2addr);
++	NETGEAR_SYSLOG("26 01[OpenVPN, connection drop]from remote IP address: %s", c2addr);
+     return;
++  }
+ 
+   /* restart if ping not received */
+   check_ping_restart (c);
+   if (c->sig->signal_received)
++  {/* For netgear openvpn log */
++	print_sockaddr_remote(&c->c2.from.dest, c2addr);
++	NETGEAR_SYSLOG("26 01[OpenVPN, connection drop]from remote IP address: %s", c2addr);
+     return;
++  }
+ 
+ #if P2MP
+   check_server_poll_timeout (c);
+   if (c->sig->signal_received)
++  {/* For netgear openvpn log */
++	print_sockaddr_remote(&c->c2.from.dest, c2addr);
++	NETGEAR_SYSLOG("26 01[OpenVPN, connection drop]from remote IP address: %s", c2addr);
+     return;
++  }
+ 
+   check_scheduled_exit (c);
+   if (c->sig->signal_received)
+diff -aNru src/src/openvpn/init.c openvpn-2.3.16_modify/src/openvpn/init.c
+--- src/src/openvpn/init.c	2016-05-10 14:02:33.000000000 +0800
++++ openvpn-2.3.16_modify/src/openvpn/init.c	2016-06-01 21:57:18.727373000 +0800
+@@ -48,6 +48,8 @@
+ 
+ #include "occ-inline.h"
+ 
++#include "../../../../../../../../../sc_trunk/shared/misc.h"
++
+ static struct context *static_context; /* GLOBAL */
+ 
+ /*
+@@ -2914,6 +2916,11 @@
+ static void
+ do_close_link_socket (struct context *c)
+ {
++	/* For netgear openvpn log */
++	char c2addr[128] = "";
++	print_sockaddr_remote(&c->c2.from.dest, c2addr);
++	NETGEAR_SYSLOG("26 01[OpenVPN, connection drop]from remote IP address: %s", c2addr);
++ 
+   if (c->c2.link_socket && c->c2.link_socket_owned)
+     {
+       link_socket_close (c->c2.link_socket);
+diff -aNru src/src/openvpn/Makefile openvpn-2.3.16_modify/src/openvpn/Makefile
+--- src/src/openvpn/Makefile	2016-06-01 00:19:06.211953582 +0800
++++ openvpn-2.3.16_modify/src/openvpn/Makefile	2016-06-01 21:25:18.617213000 +0800
+@@ -36,6 +36,11 @@
+ #
+ # Required to build Windows resource file
+ 
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++
++include $(BUILD_DIR)/Rules.mak
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+ am__make_running_with_option = \
+@@ -250,17 +255,17 @@
+ ACLOCAL = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing aclocal-1.13
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AR = ar
+-AS = as
++AR = $(CROSS)ar
++AS = $(CROSS)as
+ AUTOCONF = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoconf
+ AUTOHEADER = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoheader
+ AUTOMAKE = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing automake-1.13
+ AWK = gawk
+-CC = gcc
++CC = $(CROSS)gcc
+ CCDEPMODE = depmode=gcc3
+ CFLAGS = -g -O2 -std=gnu89
+ CMAKE = cmake
+-CPP = gcc -E
++CPP = $(CROSS)gcc -E
+ CPPFLAGS = 
+ CYGPATH_W = echo
+ DEFS = -DHAVE_CONFIG_H
+@@ -284,7 +289,7 @@
+ INSTALL_SCRIPT = ${INSTALL}
+ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+ IPROUTE = /sbin/ip
+-LD = /usr/bin/ld
++LD = $(CROSS)ld
+ LDFLAGS = 
+ LIBOBJS = 
+ LIBPAM_CFLAGS = 
+@@ -310,10 +315,11 @@
+ OPENSSL_SSL_CFLAGS =  
+ OPENSSL_SSL_LIBS = -lssl -lcrypto -ldl -lz  
+ OPTIONAL_CRYPTO_CFLAGS =     
+-OPTIONAL_CRYPTO_LIBS =  -lssl -lcrypto -ldl -lz   -lcrypto -ldl -lz  
++OPTIONAL_CRYPTO_LIBS = -L$(LIBS_DIR)/public/$(OPENSSL_USE) -lssl   -lcrypto
++OPTIONAL_NVRAM_LIBS = -L$(top_builddir)/../../../nvram -lscnvram  
+ OPTIONAL_DL_LIBS = -ldl
+ OPTIONAL_LZO_CFLAGS = 
+-OPTIONAL_LZO_LIBS = -llzo2
++OPTIONAL_LZO_LIBS =-L$(LIBS_DIR)/public/lzo -llzo2
+ OPTIONAL_PKCS11_HELPER_CFLAGS = 
+ OPTIONAL_PKCS11_HELPER_LIBS = 
+ OPTIONAL_SELINUX_LIBS = 
+@@ -339,7 +345,7 @@
+ PLUGIN_AUTH_PAM_LIBS = -lpam
+ POLARSSL_CFLAGS = 
+ POLARSSL_LIBS = 
+-RANLIB = ranlib
++RANLIB = $(CROSS)ranlib
+ RC = 
+ ROUTE = /sbin/route
+ SED = /bin/sed
+@@ -347,7 +353,7 @@
+ SET_MAKE = 
+ SHELL = /bin/sh
+ SOCKETS_LIBS =  -lnsl -lresolv
+-STRIP = strip
++STRIP = $(CROSS)strip
+ SYSTEMD_ASK_PASSWORD = 
+ TAP_CFLAGS = 
+ TAP_WIN_COMPONENT_ID = tap0901
+@@ -363,8 +369,8 @@
+ abs_srcdir = /home/bernie/trunk/warehouse/app/src/src/openvpn
+ abs_top_builddir = /home/bernie/trunk/warehouse/app/src
+ abs_top_srcdir = /home/bernie/trunk/warehouse/app/src
+-ac_ct_AR = ar
+-ac_ct_CC = gcc
++ac_ct_AR = $(CROSS)ar
++ac_ct_CC = $(CROSS)gcc
+ ac_ct_DUMPBIN = 
+ am__include = include
+ am__leading_dot = .
+@@ -428,7 +434,11 @@
+ 
+ INCLUDES = \
+ 	-I$(top_srcdir)/include \
+-	-I$(top_srcdir)/src/compat
++	-I$(top_srcdir)/src/compat\
++	-I $(LIBS_DIR)/public/$(OPENSSL_USE)/include\
++	-I $(LIBS_DIR)/public/lzo/lzo-2.06/include\
++	-I $(APPS_DIR)/public/nvram\
++	-I $(SHARED_DIR)
+ 
+ AM_CFLAGS = $(TAP_CFLAGS) $(OPTIONAL_CRYPTO_CFLAGS) \
+ 	$(OPTIONAL_LZO_CFLAGS) $(OPTIONAL_PKCS11_HELPER_CFLAGS) \
+@@ -462,7 +472,7 @@
+ 	cryptoapi.c $(am__append_2)
+ openvpn_LDADD = $(top_builddir)/src/compat/libcompat.la \
+ 	$(SOCKETS_LIBS) $(OPTIONAL_LZO_LIBS) \
+-	$(OPTIONAL_PKCS11_HELPER_LIBS) $(OPTIONAL_CRYPTO_LIBS) \
++	$(OPTIONAL_PKCS11_HELPER_LIBS) $(OPTIONAL_CRYPTO_LIBS) $(OPTIONAL_NVRAM_LIBS)\
+ 	$(OPTIONAL_SELINUX_LIBS) $(OPTIONAL_SYSTEMD_LIBS) \
+ 	$(OPTIONAL_DL_LIBS) $(am__append_3)
+ all: all-am
+@@ -481,16 +491,16 @@
+ 	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign src/openvpn/Makefile'; \
+ 	$(am__cd) $(top_srcdir) && \
+ 	  $(AUTOMAKE) --foreign src/openvpn/Makefile
+-.PRECIOUS: Makefile
+-Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
+-	@case '$?' in \
+-	  *config.status*) \
+-	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
+-	  *) \
+-	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe)'; \
+-	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe);; \
+-	esac;
+-$(top_srcdir)/build/ltrc.inc:
++#.PRECIOUS: Makefile
++#Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
++#	@case '$?' in \
++#	  *config.status*) \
++#	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
++#	  *) \
++#	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe)'; \
++#	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe);; \
++#	esac;
++#$(top_srcdir)/build/ltrc.inc:
+ 
+ $(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
+ 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+diff -aNru src/src/openvpn/socket.c openvpn-2.3.16_modify/src/openvpn/socket.c
+--- src/src/openvpn/socket.c	2016-05-10 14:02:33.000000000 +0800
++++ openvpn-2.3.16_modify/src/openvpn/socket.c	2016-06-01 21:34:32.212567000 +0800
+@@ -2241,6 +2241,40 @@
+ #ifndef IF_NAMESIZE
+ #define IF_NAMESIZE 16
+ #endif
++/* For netgear openvpn log */
++
++void print_sockaddr_remote(const struct openvpn_sockaddr *addr,
++		char *out)
++{
++	bool addr_is_defined;
++	addr_is_defined = addr_defined(addr);
++	if(!addr_is_defined)
++	{
++		strcpy(out, "[undef]");
++		return;
++	}
++	switch(addr->addr.sa.sa_family)
++	{
++		case AF_INET:
++		{
++			sprintf(out, "%s", inet_ntoa(addr->addr.in4.sin_addr));
++			break;
++		}
++		case AF_INET6:
++		{
++			char buf[INET6_ADDRSTRLEN] = "";
++			if(addr_is_defined)
++			{
++				getnameinfo(&addr->addr.sa, sizeof(struct sockaddr_in6), buf, sizeof(buf), NULL, 0, NI_NUMERICHOST);
++				strcpy(out, buf);
++			}
++			break;
++		}
++		default:
++			ASSERT(0);
++	}
++}
++
+ 
+ const char *
+ print_link_socket_actual_ex (const struct link_socket_actual *act,
+diff -aNru src/src/openvpn/socket.h openvpn-2.3.16_modify/src/openvpn/socket.h
+--- src/src/openvpn/socket.h	2016-05-10 14:02:33.000000000 +0800
++++ openvpn-2.3.16_modify/src/openvpn/socket.h	2016-06-01 21:35:01.975153000 +0800
+@@ -358,6 +358,8 @@
+ 
+ const char *print_link_socket_actual (const struct link_socket_actual *act,
+ 				      struct gc_arena *gc);
++/* For netgear openvpn log */
++void print_sockaddr_remote(const struct openvpn_sockaddr *addr, char *out);
+ 
+ 
+ #define IA_EMPTY_IF_UNDEF (1<<0)
+diff -aNru src/src/openvpn/ssl.c openvpn-2.3.16_modify/src/openvpn/ssl.c
+--- src/src/openvpn/ssl.c	2016-05-10 14:02:33.000000000 +0800
++++ openvpn-2.3.16_modify/src/openvpn/ssl.c	2016-06-01 21:36:35.227289000 +0800
+@@ -68,6 +68,8 @@
+ 
+ #include "memdbg.h"
+ 
++#include "../../../../../../../../../sc_trunk/shared/misc.h"
++
+ #ifndef ENABLE_OCC
+ static const char ssl_default_options_string[] = "V0 UNDEF";
+ #endif
+@@ -2143,6 +2145,20 @@
+       verify_final_auth_checks(multi, session);
+     }
+ 
++	char c2addr[128] = "";
++  /* For netgear openvpn log */
++  if (ks->authenticated)
++  {
++	print_sockaddr_remote(&ks->remote_addr.dest, c2addr);
++	NETGEAR_SYSLOG("26 00[OpenVPN, connection successfully]from remote IP address: %s", c2addr);
++  }
++  else
++  {
++  	print_sockaddr_remote(&ks->remote_addr.dest, c2addr);
++  	NETGEAR_SYSLOG("26 01[OpenVPN, connection failed]from remote IP address: %s", c2addr);
++  }
++
++
+ #ifdef ENABLE_OCC
+   /* check options consistency */
+   if (!session->opt->disable_occ &&
+@@ -2232,6 +2248,7 @@
+   bool active = false;
+   struct key_state *ks = &session->key[KS_PRIMARY]; 	   /* primary key */
+   struct key_state *ks_lame = &session->key[KS_LAME_DUCK]; /* retiring key */
++  char c2addr[128] = "";
+ 
+   /* Make sure we were initialized and that we're not in an error state */
+   ASSERT (ks->state != S_UNDEF);
+@@ -2602,6 +2619,9 @@
+ error:
+   tls_clear_error();
+   ks->state = S_ERROR;
++  /* For netgear openvpn log */
++  print_sockaddr_remote(&ks->remote_addr.dest, c2addr);
++  NETGEAR_SYSLOG("26 01[OpenVPN, connection failed]from remote IP address: %s", c2addr);
+   msg (D_TLS_ERRORS, "TLS Error: TLS handshake failed");
+   INCR_ERROR;
+   gc_free (&gc);
+diff -aNru src/src/plugins/auth-pam/Makefile openvpn-2.3.16_modify/src/plugins/auth-pam/Makefile
+--- src/src/plugins/auth-pam/Makefile	2016-06-01 00:19:06.256945781 +0800
++++ openvpn-2.3.16_modify/src/plugins/auth-pam/Makefile	2016-06-01 21:42:52.323632000 +0800
+@@ -20,6 +20,11 @@
+ #  Copyright (C) 2012      Alon Bar-Lev <alon.barlev@gmail.com>
+ #
+ 
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++ 
++include $(BUILD_DIR)/Rules.mak
+ 
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+@@ -220,7 +225,7 @@
+ AWK = gawk
+ CC = gcc
+ CCDEPMODE = depmode=gcc3
+-CFLAGS = -g -O2 -std=gnu89
++CFLAGS = -g -O2 -std=gnu89 -I $(LIBS_DIR)/public/$(OPENSSL_USE)/include 
+ CMAKE = cmake
+ CPP = gcc -E
+ CPPFLAGS = 
+diff -aNru src/src/plugins/down-root/Makefile openvpn-2.3.16_modify/src/plugins/down-root/Makefile
+--- src/src/plugins/down-root/Makefile	2016-06-01 00:19:06.270947741 +0800
++++ openvpn-2.3.16_modify/src/plugins/down-root/Makefile	2016-06-01 21:45:37.324765000 +0800
+@@ -20,6 +20,11 @@
+ #  Copyright (C) 2012      Alon Bar-Lev <alon.barlev@gmail.com>
+ #
+ 
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++ 
++include $(BUILD_DIR)/Rules.mak
+ 
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+@@ -219,7 +224,7 @@
+ AWK = gawk
+ CC = gcc
+ CCDEPMODE = depmode=gcc3
+-CFLAGS = -g -O2 -std=gnu89
++CFLAGS = -g -O2 -std=gnu89 -I $(LIBS_DIR)/public/$(OPENSSL_USE)/include 
+ CMAKE = cmake
+ CPP = gcc -E
+ CPPFLAGS = 
+diff -aNru src/src/plugins/Makefile openvpn-2.3.16_modify/src/plugins/Makefile
+--- src/src/plugins/Makefile	2016-06-01 00:19:06.243014572 +0800
++++ openvpn-2.3.16_modify/src/plugins/Makefile	2016-06-01 21:47:29.706760000 +0800
+@@ -24,6 +24,11 @@
+ #  Copyright (C) 2002-2017 OpenVPN Technologies, Inc. <sales@openvpn.net>
+ #  Copyright (C) 2006-2012 Alon Bar-Lev <alon.barlev@gmail.com>
+ #
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++
++include $(BUILD_DIR)/Rules.mak
+ 
+ am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
+ am__make_running_with_option = \
+@@ -188,17 +193,17 @@
+ ACLOCAL = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing aclocal-1.13
+ AMTAR = $${TAR-tar}
+ AM_DEFAULT_VERBOSITY = 1
+-AR = ar
+-AS = as
++AR = $(CROSS)ar
++AS = $(CROSS)as
+ AUTOCONF = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoconf
+ AUTOHEADER = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing autoheader
+ AUTOMAKE = ${SHELL} /home/bernie/trunk/warehouse/app/src/missing automake-1.13
+ AWK = gawk
+-CC = gcc
++CC = $(CROSS)gcc
+ CCDEPMODE = depmode=gcc3
+ CFLAGS = -g -O2 -std=gnu89
+ CMAKE = cmake
+-CPP = gcc -E
++CPP = $(CROSS)gcc -E
+ CPPFLAGS = 
+ CYGPATH_W = echo
+ DEFS = -DHAVE_CONFIG_H
+@@ -222,7 +227,7 @@
+ INSTALL_SCRIPT = ${INSTALL}
+ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+ IPROUTE = /sbin/ip
+-LD = /usr/bin/ld
++LD = $(CROSS)ld
+ LDFLAGS = 
+ LIBOBJS = 
+ LIBPAM_CFLAGS = 
+@@ -277,7 +282,7 @@
+ PLUGIN_AUTH_PAM_LIBS = -lpam
+ POLARSSL_CFLAGS = 
+ POLARSSL_LIBS = 
+-RANLIB = ranlib
++RANLIB = $(CROSS)ranlib
+ RC = 
+ ROUTE = /sbin/route
+ SED = /bin/sed
+@@ -285,7 +290,7 @@
+ SET_MAKE = 
+ SHELL = /bin/sh
+ SOCKETS_LIBS =  -lnsl -lresolv
+-STRIP = strip
++STRIP = $(CROSS)strip
+ SYSTEMD_ASK_PASSWORD = 
+ TAP_CFLAGS = 
+ TAP_WIN_COMPONENT_ID = tap0901
+@@ -301,8 +306,8 @@
+ abs_srcdir = /home/bernie/trunk/warehouse/app/src/src/plugins
+ abs_top_builddir = /home/bernie/trunk/warehouse/app/src
+ abs_top_srcdir = /home/bernie/trunk/warehouse/app/src
+-ac_ct_AR = ar
+-ac_ct_CC = gcc
++ac_ct_AR = $(CROSS)ar
++ac_ct_CC = $(CROSS)gcc
+ ac_ct_DUMPBIN = 
+ am__include = include
+ am__leading_dot = .

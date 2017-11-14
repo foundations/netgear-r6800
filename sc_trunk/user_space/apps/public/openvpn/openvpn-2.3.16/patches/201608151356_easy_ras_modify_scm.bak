@@ -1,0 +1,688 @@
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-ca src_ok/easy-rsa/EasyRSA-2.2.2/build-ca
+--- src/easy-rsa/EasyRSA-2.2.2/build-ca	2016-08-15 21:25:55.037701299 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/build-ca	2016-08-15 21:26:49.342950031 +0800
+@@ -5,4 +5,4 @@
+ #
+ 
+ export EASY_RSA="${EASY_RSA:-.}"
+-"/usr/sbin/pkitool" --batch --initca $*
++"/usr/sbin/pkitool" --interact --initca $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-dh src_ok/easy-rsa/EasyRSA-2.2.2/build-dh
+--- src/easy-rsa/EasyRSA-2.2.2/build-dh	2016-08-15 21:25:55.037701299 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/build-dh	2016-08-15 21:26:49.342950031 +0800
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ 
+-. /usr/etc/openvpn/vars
++#. /usr/etc/openvpn/vars
+ 
+ # Build Diffie-Hellman parameters for the server side
+ # of an SSL/TLS connection.
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-key src_ok/easy-rsa/EasyRSA-2.2.2/build-key
+--- src/easy-rsa/EasyRSA-2.2.2/build-key	2016-08-15 21:25:55.037701299 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/build-key	2016-08-15 21:26:49.342950031 +0800
+@@ -4,4 +4,4 @@
+ # root certificate.
+ 
+ export EASY_RSA="${EASY_RSA:-.}"
+-"/usr/sbin/pkitool" --batch $*
++"/usr/sbin/pkitool" --interact $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/build-key-server src_ok/easy-rsa/EasyRSA-2.2.2/build-key-server
+--- src/easy-rsa/EasyRSA-2.2.2/build-key-server	2016-08-15 21:25:55.038702123 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/build-key-server	2016-08-15 21:26:49.341949441 +0800
+@@ -7,4 +7,4 @@
+ # extension in the openssl.cnf file.
+ 
+ export EASY_RSA="${EASY_RSA:-.}"
+-"/usr/sbin/pkitool" --batch --server $*
++"/usr/sbin/pkitool" --interact --server $*
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/clean-all src_ok/easy-rsa/EasyRSA-2.2.2/clean-all
+--- src/easy-rsa/EasyRSA-2.2.2/clean-all	2016-08-15 21:25:55.038702123 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/clean-all	2016-08-15 21:26:49.342950031 +0800
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ 
+-. /usr/etc/openvpn/vars
++#. /usr/etc/openvpn/vars
+ # Initialize the $KEY_DIR directory.
+ # Note that this script does a
+ # rm -rf on $KEY_DIR so be careful!
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/ca.crt src_ok/easy-rsa/EasyRSA-2.2.2/keys/ca.crt
+--- src/easy-rsa/EasyRSA-2.2.2/keys/ca.crt	2016-08-15 21:25:55.038702123 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/ca.crt	2016-08-15 21:26:49.342950031 +0800
+@@ -1,26 +1,21 @@
+ -----BEGIN CERTIFICATE-----
+-MIIEXjCCA0agAwIBAgIJAPGBCiw3GchBMA0GCSqGSIb3DQEBBAUAMHwxCzAJBgNV
+-BAYTAkNOMQswCQYDVQQIEwJTSDELMAkGA1UEBxMCUEQxEDAOBgNVBAoTB09wZW5W
+-UE4xEDAOBgNVBAsTB3NlY3Rpb24xCzAJBgNVBAMTAkNBMSIwIAYJKoZIhvcNAQkB
+-FhN5ZWtleGluMDkxOUAxMjYuY29tMB4XDTE0MDUwOTA5MDkwMloXDTI0MDUwNjA5
+-MDkwMlowfDELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAlNIMQswCQYDVQQHEwJQRDEQ
+-MA4GA1UEChMHT3BlblZQTjEQMA4GA1UECxMHc2VjdGlvbjELMAkGA1UEAxMCQ0Ex
+-IjAgBgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEyNi5jb20wggEiMA0GCSqGSIb3
+-DQEBAQUAA4IBDwAwggEKAoIBAQCwZiqM4N/5kLvlNEM8UjdknFNZW6J6YIPYem2S
+-gvWTbCbF/qqk0UV9LvJq/+ZbbWcjTLi/PM+kJCzJ9QqScUhJaXZfjSW8jsXHNLm+
+-TRaHvZ/ZeNzhMXk0nmSsmz6Ea3melRhlahAY9wQI696ABt64kHVPIOdsTwkKPVc2
+-r0EfF3xBe7izrzmMdHTuxdq8r9s/D+RZ88jrzY+CtBgoJve7gi12QaAFg6bag3Zh
+-T58CFObDT5mTbzth5eR2K5BTnOpBSbCRTHMazkYoYd2GZ79/7rDyoYg5h5VGh9AA
+-Fj+efTrOSAypRj7Hrz6t7lC+FxkZCGallWc1HXM4rZj7iR8TAgMBAAGjgeIwgd8w
+-HQYDVR0OBBYEFPmJV/3htpVkdcKg+lim1iUGG0PsMIGvBgNVHSMEgacwgaSAFPmJ
+-V/3htpVkdcKg+lim1iUGG0PsoYGApH4wfDELMAkGA1UEBhMCQ04xCzAJBgNVBAgT
+-AlNIMQswCQYDVQQHEwJQRDEQMA4GA1UEChMHT3BlblZQTjEQMA4GA1UECxMHc2Vj
+-dGlvbjELMAkGA1UEAxMCQ0ExIjAgBgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEy
+-Ni5jb22CCQDxgQosNxnIQTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IB
+-AQCMLNTGb5sgb0PuPGlW+0mXAY/DkVEkF0noOuNOLTClg3ASW5mGrsdds0VQJBIX
+-XmCUofc53ealHqiNg8TH+vy8f8bnrWj1DXiGxw+Sf+lcLDVblS0ynXGWbzsXOnar
+-4H8HOSoJXF2sz4Xht0KIlyxkrazf2YkCupiaiUZaBku+fkJaqxXrBAifhmA14DxG
+-ctDAmr5eFMpLGCDyT+G6qbVzY2aUAIpmB/2T3uhsjR0OB/RdjiqC1p4sZtlvaiqP
+-a3g7ZjQBQWtEfNf0kDG30+WxcGxGGvfK6DQL1pefGGfBjU2nzW4rFUfG4HB0+Prc
+-U8KxevA+tiRKjUjt8/wJepgm
++MIIDYDCCAsmgAwIBAgIJAMoJPtbvRk+bMA0GCSqGSIb3DQEBBAUAMH4xCzAJBgNV
++BAYTAkNOMQswCQYDVQQIEwJKUzELMAkGA1UEBxMCU1oxEDAOBgNVBAoTB25ldGdl
++YXIxEDAOBgNVBAsTB25ldGdlYXIxEDAOBgNVBAMTB25ldGdlYXIxHzAdBgkqhkiG
++9w0BCQEWEG1haWxAbmV0Z2Vhci5jb20wHhcNMTYwODEyMDIxODUzWhcNMjYwODEw
++MDIxODUzWjB+MQswCQYDVQQGEwJDTjELMAkGA1UECBMCSlMxCzAJBgNVBAcTAlNa
++MRAwDgYDVQQKEwduZXRnZWFyMRAwDgYDVQQLEwduZXRnZWFyMRAwDgYDVQQDEwdu
++ZXRnZWFyMR8wHQYJKoZIhvcNAQkBFhBtYWlsQG5ldGdlYXIuY29tMIGfMA0GCSqG
++SIb3DQEBAQUAA4GNADCBiQKBgQDvXd0E8kCwIkqSvODIHNnluBzaZ9c+f9PywbKF
++mDxN9AYd9XfH//Rk5IF7vTtI9z5GIY8DuvlVtzE8foI0bvRuIXm1oeXB/QLyjKDA
+++ihHyVLySZb3UaHGILIGgonCioiHyfEB2aMUp7gdLSMqJ9ohHjLjfbT01o7HjBzr
++KvXjkQIDAQABo4HlMIHiMB0GA1UdDgQWBBTQy+xeFqXbxc3V2wq6W4VO2jfO9zCB
++sgYDVR0jBIGqMIGngBTQy+xeFqXbxc3V2wq6W4VO2jfO96GBg6SBgDB+MQswCQYD
++VQQGEwJDTjELMAkGA1UECBMCSlMxCzAJBgNVBAcTAlNaMRAwDgYDVQQKEwduZXRn
++ZWFyMRAwDgYDVQQLEwduZXRnZWFyMRAwDgYDVQQDEwduZXRnZWFyMR8wHQYJKoZI
++hvcNAQkBFhBtYWlsQG5ldGdlYXIuY29tggkAygk+1u9GT5swDAYDVR0TBAUwAwEB
++/zANBgkqhkiG9w0BAQQFAAOBgQDub7RFEbW/z6A6CpTWVt7kZmCW3Tk9faE0TvGT
++UMQPQ7/w+bc5JwDIe+tzqQFvGrWuQ5CmvvZ1QXCqhdmPqPSTVUMMQPPEKvX2dFVg
++LU/o0tKzaZiahsN1DxLQ76bm0F37aMPcL7fjqD33S+HMIx3nLGNDNIl5PfYcNPwf
++4qQK6A==
+ -----END CERTIFICATE-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/ca.key src_ok/easy-rsa/EasyRSA-2.2.2/keys/ca.key
+--- src/easy-rsa/EasyRSA-2.2.2/keys/ca.key	2016-08-15 21:25:55.038702123 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/ca.key	2016-08-15 21:26:49.341949441 +0800
+@@ -1,27 +1,16 @@
+------BEGIN RSA PRIVATE KEY-----
+-MIIEogIBAAKCAQEAsGYqjODf+ZC75TRDPFI3ZJxTWVuiemCD2HptkoL1k2wmxf6q
+-pNFFfS7yav/mW21nI0y4vzzPpCQsyfUKknFISWl2X40lvI7FxzS5vk0Wh72f2Xjc
+-4TF5NJ5krJs+hGt5npUYZWoQGPcECOvegAbeuJB1TyDnbE8JCj1XNq9BHxd8QXu4
+-s685jHR07sXavK/bPw/kWfPI682PgrQYKCb3u4ItdkGgBYOm2oN2YU+fAhTmw0+Z
+-k287YeXkdiuQU5zqQUmwkUxzGs5GKGHdhme/f+6w8qGIOYeVRofQABY/nn06zkgM
+-qUY+x68+re5QvhcZGQhmpZVnNR1zOK2Y+4kfEwIDAQABAoIBACLZHCDWsAiqiiQe
+-rgW1rFHI/EJT8wZAGOvkS8885ezo2cQVqnqDCTpQ0v1GbqizNUPo/TpydgbUSrDf
+-IuaJUKGIHyWDSeg1QGc5SFSLAB9y26hn0yL91hcKD5N12+TnIpCsnbQzPtjfu8FT
+-b5JVSRynFTW7p1xjRMLsGVWpS7Era1XoPpK6j2cpP3KYKTqzR0o9Tdf2A0mmfB2x
+-kgSz39wiTpeXStkrTACDohmhVz/s6SBRQltaMJvSGBuemz9HyAoUJUJIvhtYrYZY
+-o4BzspbFIQdqcZ3MmCaa821U/4mEK0JgPZSWF0M0cmuzckzPHjLfEteXy9zhpoXr
+-mtaE06ECgYEA5su25VLXPrC5x54nx8OawB0lWoYsHxgdjT0Qo7Y2LiSGJ2D91ZIN
+-Pen8DC7BwXhKTMmxQhmFvh1aCrbBvcyA9pCkR3w6OqinmSASTwo5fFMrgr4hXnGj
+-bb/gtqM5QJ8dit5H6XpRnun69eoxPgV8BybPcXcGCeutyGl/lHldqkMCgYEAw6mz
+-aoDVaCYVEReZoPH+Yxh+FRAcJe2sdFGWaRH8FiFuYD/lwwv86/Vriuqcjx0TpECi
+-nn0LjxAsd6jv7MnXnEHGlS/sOp6BiPdXpY7r51cVATsOT2JVVejIoiBelyPXQi/g
+-gGqJsg0gHQYjfzC3zMzs5aCO3G7gPwkcpFmucvECgYA39VipDYbmyk6hGbWnd8PD
+-pM1zv2hfOaegoRexufI1CeIFFj01VS4kvuC/y25rDFFngNeboTiOOeulAV7EOBtk
+-rPlH49TyeAX62I3X4DDD9h5smtDYZ1EqwQUpAzZUdr/g9bgV4fR8RVr12QyLbyT9
+-TumpJyStrxj5qKqoQyz0pQKBgHrmRCD4rZNOoFrtFP2IIz6Baui2Bsg4IuOpP63d
+-sxb/hsIEQMCj7gkUTamjNhWasPSx+LNOXg1NnnDG93UnTzwCAMdCo8IqP7kVi8Md
+-I8Za54GvY4yvemSM5EEZzfBnfdVAF2byBG2HWw2ABpnksv58Fa0ijbmeF1Lg2VHO
+-VwoxAoGAfOo71JfNvSjWg1lsMIyGkrAvPRROy1WihI5d5dPwiP66+H96vOzmyWZc
+-Fpb2l49FL/4jWw2LZOPxnF9lIrbaqIJS0eoXY3+lyX0ec1fdDXeDoXqF1iUZVGKm
+-kdfOt2vKdWnNuWLQVm9wFhJdiIAhiE/iODxbEbwZt/kR/JSHU9Y=
+------END RSA PRIVATE KEY-----
++-----BEGIN PRIVATE KEY-----
++MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAO9d3QTyQLAiSpK8
++4Mgc2eW4HNpn1z5/0/LBsoWYPE30Bh31d8f/9GTkgXu9O0j3PkYhjwO6+VW3MTx+
++gjRu9G4hebWh5cH9AvKMoMD6KEfJUvJJlvdRocYgsgaCicKKiIfJ8QHZoxSnuB0t
++Iyon2iEeMuN9tPTWjseMHOsq9eORAgMBAAECgYB7gHyHDs8dkbPUXivEVE6A3ivU
++7Hr8PkwHFrWbhF6pAd0eHAa/ZGqem9/LDmnGTfsNiEcX76Kx/SEkS0m28ACgyp6W
++ACB6DhBJx4Md5khE0xDV6d1L2J5dDT4DCOM0fSpVgflyZbyG0fkqeWkiJHtme1uu
++9mxkWHdir8e68RpHoQJBAPt9q4Htl+JM1v9VZhgu+odDUv5ptuNNUmH0X+QTyUD2
++vzea00IDhCuYm6se4fSCa7Z9HkC6Djt7/j0H1IDswb0CQQDzqIszvaP9l2Lqg8b7
++ygGKJyzc5BMBs7nWu3fmcUT6S/HvsWCcgc6L9hrvFcYm2q05Dq4KVgw57TIvtKk2
++yIRlAkEAqb42pmmBHGMUsh4n3KbIvcc5GzKrGFw2AJt6pWydZ9WjVpqPgHzzFqHY
++X/VmOSxWG0PzyWhK9udHwFWqnqIuWQJBAI1ahgcqSWzg2l26vUFtW59OQtSS7APc
++xD8y2sgxhha+4Ehx2t5w3+aKi+2P8DiyPDQRtB4C9WzVknvijxhdE5ECQHo7W35D
++r12FDUPh5rmnJZ+GYT0NhaHkRXi1VIegzeT1wUBZzy25TX53D2CdAgG8jekwUPKa
++PMzIIrI1QdfsowU=
++-----END PRIVATE KEY-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/client.crt src_ok/easy-rsa/EasyRSA-2.2.2/keys/client.crt
+--- src/easy-rsa/EasyRSA-2.2.2/keys/client.crt	2016-08-15 21:25:55.039701233 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/client.crt	2016-08-15 21:26:49.341949441 +0800
+@@ -2,34 +2,25 @@
+     Data:
+         Version: 3 (0x2)
+         Serial Number: 2 (0x2)
+-        Signature Algorithm: md5WithRSAEncryption
+-        Issuer: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=CA/emailAddress=yekexin0919@126.com
++    Signature Algorithm: md5WithRSAEncryption
++        Issuer: C=CN, ST=JS, L=SZ, O=netgear, OU=netgear, CN=netgear/emailAddress=mail@netgear.com
+         Validity
+-            Not Before: May  9 10:27:47 2014 GMT
+-            Not After : May  6 10:27:47 2024 GMT
+-        Subject: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=client/emailAddress=yekexin0919@126.com
++            Not Before: Aug 12 02:19:49 2016 GMT
++            Not After : Aug 10 02:19:49 2026 GMT
++        Subject: C=CN, ST=JS, L=SZ, O=netgear, OU=netgear, CN=netgear_user/emailAddress=mail@netgear.com
+         Subject Public Key Info:
+             Public Key Algorithm: rsaEncryption
+-            RSA Public Key: (2048 bit)
+-                Modulus (2048 bit):
+-                    00:ba:c0:88:7a:f8:ae:e2:f9:ed:a5:58:58:1e:d9:
+-                    0e:bb:ab:79:09:76:16:21:c6:55:14:5f:0a:d6:e5:
+-                    cb:5d:2b:70:0e:fa:aa:28:03:d4:82:f4:10:2b:a0:
+-                    a6:be:5c:ae:78:3e:bc:ab:64:64:84:47:29:ad:b9:
+-                    11:52:79:a1:0d:ec:bd:3b:3f:0e:9a:7c:12:9b:81:
+-                    17:e1:d2:de:1d:a7:4f:12:e6:25:c0:c8:6d:fc:c5:
+-                    9d:fa:0a:90:65:d4:dd:d7:92:82:0d:d0:e0:5d:9c:
+-                    10:f1:ab:ee:f5:99:d2:72:da:68:2e:f5:67:ac:3e:
+-                    8a:9f:49:4d:62:4e:74:81:25:7e:31:e5:2d:a9:92:
+-                    ae:81:15:91:c6:9b:24:15:a6:93:74:0a:91:f5:78:
+-                    a2:fa:41:dc:6a:c1:6f:6b:ba:c2:87:77:be:a1:a5:
+-                    f7:cd:22:fb:94:16:78:12:9d:87:a2:d4:77:a2:3e:
+-                    ce:56:6f:e4:a6:c0:79:85:d0:1a:90:de:fe:07:a4:
+-                    01:0c:28:c9:af:36:26:a6:d3:1b:d2:d0:67:ba:1a:
+-                    fb:9e:8f:1d:a8:e5:a9:f2:6c:b7:af:39:02:10:48:
+-                    fc:1b:d5:b5:61:07:a4:03:80:58:66:48:53:ed:58:
+-                    71:18:de:94:05:9a:ad:40:bf:d2:0f:ce:e2:6f:d0:
+-                    01:cb
++                Public-Key: (1024 bit)
++                Modulus:
++                    00:b0:e1:20:2b:d6:79:52:41:1a:6b:76:e9:ea:10:
++                    27:79:cb:76:cc:52:80:e3:5f:eb:bd:01:b3:2e:e0:
++                    b9:03:3d:68:52:9f:f7:ed:19:af:7a:13:b9:f3:5d:
++                    47:10:f5:6f:3f:85:d1:8e:f3:04:33:27:54:fb:3f:
++                    fa:34:c7:de:cb:3c:f8:c6:7b:47:1d:15:78:a8:69:
++                    a6:83:db:dc:c0:6d:12:46:d4:f9:c8:4d:c3:70:ad:
++                    d6:16:fa:6c:56:9f:85:b6:63:86:85:0c:9b:d0:c2:
++                    ba:0f:eb:b9:a9:ca:28:ef:04:5e:cb:ee:56:10:88:
++                    46:0f:82:88:26:76:64:bb:61
+                 Exponent: 65537 (0x10001)
+         X509v3 extensions:
+             X509v3 Basic Constraints: 
+@@ -37,56 +28,44 @@
+             Netscape Comment: 
+                 Easy-RSA Generated Certificate
+             X509v3 Subject Key Identifier: 
+-                F4:F2:8C:C5:89:06:83:DF:53:BB:71:AD:20:77:40:05:6C:1B:AC:3C
++                9F:5B:3C:1C:54:94:9E:B8:EA:E2:F9:58:61:93:61:93:29:FE:A1:D6
+             X509v3 Authority Key Identifier: 
+-                keyid:F9:89:57:FD:E1:B6:95:64:75:C2:A0:FA:58:A6:D6:25:06:1B:43:EC
+-                DirName:/C=CN/ST=SH/L=PD/O=OpenVPN/OU=section/CN=CA/emailAddress=yekexin0919@126.com
+-                serial:F1:81:0A:2C:37:19:C8:41
++                keyid:D0:CB:EC:5E:16:A5:DB:C5:CD:D5:DB:0A:BA:5B:85:4E:DA:37:CE:F7
++                DirName:/C=CN/ST=JS/L=SZ/O=netgear/OU=netgear/CN=netgear/emailAddress=mail@netgear.com
++                serial:CA:09:3E:D6:EF:46:4F:9B
+ 
+             X509v3 Extended Key Usage: 
+                 TLS Web Client Authentication
+             X509v3 Key Usage: 
+                 Digital Signature
+     Signature Algorithm: md5WithRSAEncryption
+-        7c:77:4d:eb:7f:31:35:2b:93:86:81:1c:66:25:f6:72:5c:35:
+-        0b:10:b4:47:7d:ad:d6:15:14:7f:2a:1c:65:58:7e:c9:e0:86:
+-        57:39:01:ff:25:e1:73:a5:19:72:28:7a:2d:15:c5:2e:a8:fb:
+-        df:9d:e3:a2:95:76:e6:cd:70:68:b8:58:54:0c:c8:c8:09:7c:
+-        32:50:ac:3c:f4:98:da:85:53:3a:00:09:b5:1e:f0:8f:34:5f:
+-        29:27:43:42:98:a5:d4:e1:93:17:42:f3:43:b8:0a:78:50:5c:
+-        4e:49:be:8d:a0:a7:a9:5b:2e:fd:3d:24:fd:01:31:e1:cc:a3:
+-        83:13:21:f3:e2:bf:5d:b9:50:f7:ea:d2:11:6d:f8:d8:8e:ac:
+-        5c:1d:5c:06:7b:af:f8:75:f3:ca:f8:6e:96:20:fe:93:ce:17:
+-        a6:90:30:8e:90:ae:0a:7b:eb:9b:00:ec:36:cf:0d:cc:de:07:
+-        a5:d5:fe:75:12:08:25:be:6a:c4:e8:f3:38:3d:d4:c9:d2:28:
+-        8e:6b:7c:fa:4d:c7:28:06:1f:c5:ce:ec:ca:38:3e:fb:e1:80:
+-        f4:cf:eb:8a:ce:c6:f9:5e:6f:a4:56:95:28:20:ae:02:85:47:
+-        34:4d:c8:62:d5:c5:f5:5d:94:4e:12:f7:2c:4e:97:36:e2:b7:
+-        6e:67:8b:ec
++         96:0c:9b:85:a4:a2:78:e3:84:81:29:88:3f:bd:49:de:c9:e0:
++         54:dc:f4:d2:4f:2b:3f:50:7d:88:a6:b9:aa:ab:f6:84:4b:01:
++         21:5a:0b:54:79:bd:a1:c5:e4:d6:b1:5e:dd:1c:c0:85:dd:a8:
++         eb:d1:60:c4:c7:84:9a:19:7d:a1:a2:7a:bf:69:e2:83:f9:25:
++         df:7e:04:c5:57:46:3a:47:0d:0f:90:0e:dc:1a:f8:e7:37:03:
++         5c:5b:55:1a:8a:92:d7:50:12:f1:d6:ff:bc:a1:58:2f:d1:0b:
++         c8:8d:b0:51:ac:77:80:0e:e1:2f:a6:3b:39:87:c2:67:ba:a0:
++         65:9a
+ -----BEGIN CERTIFICATE-----
+-MIIEqzCCA5OgAwIBAgIBAjANBgkqhkiG9w0BAQQFADB8MQswCQYDVQQGEwJDTjEL
+-MAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQKEwdPcGVuVlBOMRAwDgYD
+-VQQLEwdzZWN0aW9uMQswCQYDVQQDEwJDQTEiMCAGCSqGSIb3DQEJARYTeWVrZXhp
+-bjA5MTlAMTI2LmNvbTAeFw0xNDA1MDkxMDI3NDdaFw0yNDA1MDYxMDI3NDdaMIGA
+-MQswCQYDVQQGEwJDTjELMAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQK
+-EwdPcGVuVlBOMRAwDgYDVQQLEwdzZWN0aW9uMQ8wDQYDVQQDEwZjbGllbnQxIjAg
+-BgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEyNi5jb20wggEiMA0GCSqGSIb3DQEB
+-AQUAA4IBDwAwggEKAoIBAQC6wIh6+K7i+e2lWFge2Q67q3kJdhYhxlUUXwrW5ctd
+-K3AO+qooA9SC9BAroKa+XK54PryrZGSERymtuRFSeaEN7L07Pw6afBKbgRfh0t4d
+-p08S5iXAyG38xZ36CpBl1N3XkoIN0OBdnBDxq+71mdJy2mgu9WesPoqfSU1iTnSB
+-JX4x5S2pkq6BFZHGmyQVppN0CpH1eKL6QdxqwW9rusKHd76hpffNIvuUFngSnYei
+-1HeiPs5Wb+SmwHmF0BqQ3v4HpAEMKMmvNiam0xvS0Ge6Gvuejx2o5anybLevOQIQ
+-SPwb1bVhB6QDgFhmSFPtWHEY3pQFmq1Av9IPzuJv0AHLAgMBAAGjggExMIIBLTAJ
+-BgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2Vy
+-dGlmaWNhdGUwHQYDVR0OBBYEFPTyjMWJBoPfU7txrSB3QAVsG6w8MIGvBgNVHSME
+-gacwgaSAFPmJV/3htpVkdcKg+lim1iUGG0PsoYGApH4wfDELMAkGA1UEBhMCQ04x
+-CzAJBgNVBAgTAlNIMQswCQYDVQQHEwJQRDEQMA4GA1UEChMHT3BlblZQTjEQMA4G
+-A1UECxMHc2VjdGlvbjELMAkGA1UEAxMCQ0ExIjAgBgkqhkiG9w0BCQEWE3lla2V4
+-aW4wOTE5QDEyNi5jb22CCQDxgQosNxnIQTATBgNVHSUEDDAKBggrBgEFBQcDAjAL
+-BgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEEBQADggEBAHx3Tet/MTUrk4aBHGYl9nJc
+-NQsQtEd9rdYVFH8qHGVYfsnghlc5Af8l4XOlGXIoei0VxS6o+9+d46KVdubNcGi4
+-WFQMyMgJfDJQrDz0mNqFUzoACbUe8I80XyknQ0KYpdThkxdC80O4CnhQXE5Jvo2g
+-p6lbLv09JP0BMeHMo4MTIfPiv125UPfq0hFt+NiOrFwdXAZ7r/h188r4bpYg/pPO
+-F6aQMI6Qrgp765sA7DbPDczeB6XV/nUSCCW+asTo8zg91MnSKI5rfPpNxygGH8XO
+-7Mo4PvvhgPTP64rOxvleb6RWlSggrgKFRzRNyGLVxfVdlE4S9yxOlzbit25ni+w=
++MIIDrjCCAxegAwIBAgIBAjANBgkqhkiG9w0BAQQFADB+MQswCQYDVQQGEwJDTjEL
++MAkGA1UECBMCSlMxCzAJBgNVBAcTAlNaMRAwDgYDVQQKEwduZXRnZWFyMRAwDgYD
++VQQLEwduZXRnZWFyMRAwDgYDVQQDEwduZXRnZWFyMR8wHQYJKoZIhvcNAQkBFhBt
++YWlsQG5ldGdlYXIuY29tMB4XDTE2MDgxMjAyMTk0OVoXDTI2MDgxMDAyMTk0OVow
++gYMxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJKUzELMAkGA1UEBxMCU1oxEDAOBgNV
++BAoTB25ldGdlYXIxEDAOBgNVBAsTB25ldGdlYXIxFTATBgNVBAMUDG5ldGdlYXJf
++dXNlcjEfMB0GCSqGSIb3DQEJARYQbWFpbEBuZXRnZWFyLmNvbTCBnzANBgkqhkiG
++9w0BAQEFAAOBjQAwgYkCgYEAsOEgK9Z5UkEaa3bp6hAnect2zFKA41/rvQGzLuC5
++Az1oUp/37RmvehO5811HEPVvP4XRjvMEMydU+z/6NMfeyzz4xntHHRV4qGmmg9vc
++wG0SRtT5yE3DcK3WFvpsVp+FtmOGhQyb0MK6D+u5qcoo7wRey+5WEIhGD4KIJnZk
++u2ECAwEAAaOCATQwggEwMAkGA1UdEwQCMAAwLQYJYIZIAYb4QgENBCAWHkVhc3kt
++UlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUn1s8HFSUnrjq4vlY
++YZNhkyn+odYwgbIGA1UdIwSBqjCBp4AU0MvsXhal28XN1dsKuluFTto3zvehgYOk
++gYAwfjELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAkpTMQswCQYDVQQHEwJTWjEQMA4G
++A1UEChMHbmV0Z2VhcjEQMA4GA1UECxMHbmV0Z2VhcjEQMA4GA1UEAxMHbmV0Z2Vh
++cjEfMB0GCSqGSIb3DQEJARYQbWFpbEBuZXRnZWFyLmNvbYIJAMoJPtbvRk+bMBMG
++A1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQQFAAOB
++gQCWDJuFpKJ444SBKYg/vUneyeBU3PTSTys/UH2Iprmqq/aESwEhWgtUeb2hxeTW
++sV7dHMCF3ajr0WDEx4SaGX2honq/aeKD+SXffgTFV0Y6Rw0PkA7cGvjnNwNcW1Ua
++ipLXUBLx1v+8oVgv0QvIjbBRrHeADuEvpjs5h8JnuqBlmg==
+ -----END CERTIFICATE-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/client.csr src_ok/easy-rsa/EasyRSA-2.2.2/keys/client.csr
+--- src/easy-rsa/EasyRSA-2.2.2/keys/client.csr	2016-08-15 21:25:55.039701233 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/client.csr	2016-08-15 21:26:49.342950031 +0800
+@@ -1,17 +1,12 @@
+ -----BEGIN CERTIFICATE REQUEST-----
+-MIICxjCCAa4CAQAwgYAxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJTSDELMAkGA1UE
+-BxMCUEQxEDAOBgNVBAoTB09wZW5WUE4xEDAOBgNVBAsTB3NlY3Rpb24xDzANBgNV
+-BAMTBmNsaWVudDEiMCAGCSqGSIb3DQEJARYTeWVrZXhpbjA5MTlAMTI2LmNvbTCC
+-ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrAiHr4ruL57aVYWB7ZDrur
+-eQl2FiHGVRRfCtbly10rcA76qigD1IL0ECugpr5crng+vKtkZIRHKa25EVJ5oQ3s
+-vTs/Dpp8EpuBF+HS3h2nTxLmJcDIbfzFnfoKkGXU3deSgg3Q4F2cEPGr7vWZ0nLa
+-aC71Z6w+ip9JTWJOdIElfjHlLamSroEVkcabJBWmk3QKkfV4ovpB3GrBb2u6wod3
+-vqGl980i+5QWeBKdh6LUd6I+zlZv5KbAeYXQGpDe/gekAQwoya82JqbTG9LQZ7oa
+-+56PHajlqfJst685AhBI/BvVtWEHpAOAWGZIU+1YcRjelAWarUC/0g/O4m/QAcsC
+-AwEAAaAAMA0GCSqGSIb3DQEBBAUAA4IBAQA/bsdOPEFXgq83Z1XDYefZ8fyybyMs
+-HGf/JNhKvuG0Bio6eKjQDR/Xo2Py5y0DDsY/nNhH8ziBoZxV4s8qHNvKJ7i7U/Zc
+-FXAjk0zrjmMvoFOjDpiyhaVoJZL+O3JYpzfjDXkubS52AGMUvciISUrffrPWvIvo
+-EPolSU2wYQTUIzQllnrY+dWqPtNuwqdydWvv1lGXlWw8rdIXsAC29+GbBq2FAH88
+-Vz4RRu2Dw7Oetd3McPS485LjwfQwjMDowfJv97oneAkeYpAy+Z2/f9duG45XsUyu
+-cYkJ1xlabhxKAcsoI5z5jCHIZiHPvddN/vy8/ryeQ/cZXkhmd/h7akZp
++MIIBxDCCAS0CAQAwgYMxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJKUzELMAkGA1UE
++BxMCU1oxEDAOBgNVBAoTB25ldGdlYXIxEDAOBgNVBAsTB25ldGdlYXIxFTATBgNV
++BAMUDG5ldGdlYXJfdXNlcjEfMB0GCSqGSIb3DQEJARYQbWFpbEBuZXRnZWFyLmNv
++bTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsOEgK9Z5UkEaa3bp6hAnect2
++zFKA41/rvQGzLuC5Az1oUp/37RmvehO5811HEPVvP4XRjvMEMydU+z/6NMfeyzz4
++xntHHRV4qGmmg9vcwG0SRtT5yE3DcK3WFvpsVp+FtmOGhQyb0MK6D+u5qcoo7wRe
++y+5WEIhGD4KIJnZku2ECAwEAAaAAMA0GCSqGSIb3DQEBBAUAA4GBACV2cCHkGso7
++HbxbCCBpRcqG/kP7Ib5leDefCqElTrm2bfd3jPZt51N2cj6c5w7lXKOOJvquDE/K
++F3YESbhX2VFjsYlR/fanY1hE5gxSCO6NQEMDBMY5id0uuawVBUx76l77wRVrlL4u
++pt24l7r69RjZzEk7/CQeq983UqREg9n0
+ -----END CERTIFICATE REQUEST-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/client.key src_ok/easy-rsa/EasyRSA-2.2.2/keys/client.key
+--- src/easy-rsa/EasyRSA-2.2.2/keys/client.key	2016-08-15 21:25:55.039701233 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/client.key	2016-08-15 21:26:49.341949441 +0800
+@@ -1,27 +1,16 @@
+------BEGIN RSA PRIVATE KEY-----
+-MIIEowIBAAKCAQEAusCIeviu4vntpVhYHtkOu6t5CXYWIcZVFF8K1uXLXStwDvqq
+-KAPUgvQQK6CmvlyueD68q2RkhEcprbkRUnmhDey9Oz8OmnwSm4EX4dLeHadPEuYl
+-wMht/MWd+gqQZdTd15KCDdDgXZwQ8avu9ZnSctpoLvVnrD6Kn0lNYk50gSV+MeUt
+-qZKugRWRxpskFaaTdAqR9Xii+kHcasFva7rCh3e+oaX3zSL7lBZ4Ep2HotR3oj7O
+-Vm/kpsB5hdAakN7+B6QBDCjJrzYmptMb0tBnuhr7no8dqOWp8my3rzkCEEj8G9W1
+-YQekA4BYZkhT7VhxGN6UBZqtQL/SD87ib9ABywIDAQABAoIBAQCawo7XiVo0knVT
+-vmBYP/wrnbASHR++IYPD+/cZmxjqPuMAJs33lyT22JbF8L39pwSWdTcYuXtq+yYY
+-5vLp7A2BYpx2iozpjMRGxbYq1/pljI7E1KCYoAA1pvaBjVuYZ8znpmvMUzp7mKeZ
+-/qdqNGzn7QLFV2zwmmt6EN7mBqoZkrLqiXtK8OMyGfnqHvjHi7hvjqAHdYH7fg/C
+-DHw1KYNevuQbs8vCxo12801TEbmFfbPKisXCpTkl54It0h8gbqOCL+1FFamGqOm4
+-QBG9DC92F+e72xwGB5okOrLqAFJ7VVjJMoSHfIR7/qrCAmyl8W7XroE3VY9NeR1X
+-tn541baRAoGBAO0SPTmwHtWD5NxKdYY2Zmorm3XCCS9kfkYGVgJivD4US2sgPcDT
+-Gl6u44xi9IgNNPlZyIdw2IOJ5+3ugCi9aXtpRC8b2k54y732AFuUcSmMHKeJLSO2
+-nD7yhq5I6fOLpHim5SfU/lpB4ksUY9OZyjT2r2AesvAS5pJLvD0y6ox/AoGBAMmp
+-w9lxn0w0oIbbVLFT5Jy7244XrIi0/yTF72OP8r13IaQWeRU0h2jldZIf3nyHa23q
+-fzGc04lL1ClB5iMLLQOb/ej5clvksn0frjq6Y6vdnmfmpbZnSDhKZiiZ1TvsA7N1
+-VsGYcBC6ULADnJOraxEvyB6nSSYenxjnBVVJn1S1AoGAcpDI47L4A6j8lXSqPNTX
+-Q2GVfB/r/morF74CHJ8IZ1u5YqivDxs1eCI+Nt6vW3w+aG36GXHwQAkJ+xKx/n4i
+-lpA1ciqcoiWAGGnknF0tHq3mPxRsqwCZm1XqvhjgbmDCd8f3n/svfACw0iWlZGHC
+-tTutXt8XDCumH3bYHh8X+BMCgYBRAFOef7kQjwL7qBW4tI3bNsnVpUS0FJ93Udn6
+-D9PcroFgu3YfQl4xkBlNfGeNdYd9OvekIe4F8+NgPwwFf3OxQ3MVpTx+FLps79C3
+-3i4y1m3OJiLhxVKI6blnDYNM8lv6NWOHl4dL8MqAKLM3zV7QJHUpeuAy45HcGs9V
+-lqDdEQKBgFgy7drJUhcnahXizSiP/tbK30DnzYt/gGSpBbayJjjToXfTYRSN1pc5
+-rEkFVgeuriQwNFZg9X4u3R94/C886enjKjbirNw/+XpZUOhn2xemebk0e0AeZlXL
+-dUNPf9t7Zf/fW8rMMhDT9dykzZdaoK9TAzAC/UIDf1e+iy6tenJ4
+------END RSA PRIVATE KEY-----
++-----BEGIN PRIVATE KEY-----
++MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALDhICvWeVJBGmt2
++6eoQJ3nLdsxSgONf670Bsy7guQM9aFKf9+0Zr3oTufNdRxD1bz+F0Y7zBDMnVPs/
+++jTH3ss8+MZ7Rx0VeKhppoPb3MBtEkbU+chNw3Ct1hb6bFafhbZjhoUMm9DCug/r
++uanKKO8EXsvuVhCIRg+CiCZ2ZLthAgMBAAECgYAfybXAayEOmUioO4y6VgDiMKC/
++A6zKMDjrlNyg9h4J6QVQpBMod09D/zuR8xeMgq9lmSUaLa55iv4I0WykA6+URm7S
++wO77CqBdwla3lUn/8F9ImBvAAqUgW6kIqaYrnN4CxSaECMlj103xPlCPonKekOYh
++U3+L0WmoS3LvMFP2KQJBANxKqedaqAtkxvBFMrUWZM6s9B7LpilmH42FfxQMy8Xi
++FTWKxdCQm5Yn4OJ4A0sdGix5Wvuhcs3aV7mSoTovytsCQQDNjQEnKlEY9SNylp0u
++kLApWHpp7MAmbSl2tGU90YoAbGLRMEcNf71PTxikoCg8I5aEPj9P+Z6IhxFEegF9
++sUFzAkEAzbQWtYes9X60WbZ0JC72ERvllUAbN/s5qYAn6wQL4As+PNIJ57iw4GT6
++lN72TFSvlSn48JGQz3J8ijfGv7vTEwJBALgOlwW3Ar9SYtdsvnq/3L5pF9RZxwWh
++ogtFJZLhWq1eYG3oyPbxd1bZALwJHX4cb98izhaS8r5WE8Q5a7RdULkCQGfx5nwY
++O1mSfsc3suTNAy7XHJYaPM1hUxLCdxg8BoFRSlnFdiCTW6sJ5ZVEur8ETKInDS+2
++N+TMqOPS5G3vpto=
++-----END PRIVATE KEY-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem src_ok/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem
+--- src/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem	2016-08-15 21:25:55.039701233 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/dh1024.pem	2016-08-15 21:26:49.342950031 +0800
+@@ -1,5 +1,5 @@
+ -----BEGIN DH PARAMETERS-----
+-MIGHAoGBANMsIkBQRNdz3MLR9Nmd+9DcQN1bh6n9Tyjr4HpHWqZIJv967AtCaWK4
+-t9P+HNbSYeKfpp6fU7swcFLqblvUIxw1fG1T4XHQKTC+ZbFKD6uiLsYySNFWU7gQ
+-x760U1mZQ4qXodNb4SEzPv9QMLZF/Vkmx3wGLQWJRDcLd/UzN/ITAgEC
++MIGHAoGBALbrUFiPsS++KeDmAgssMNMA4ZGWu2Gwrusfa3wB7Ft5sKwy+LenZlzo
++oPiIA2XkDQxBvwQIk1lRnVPDWzLji58HhBaS9GvMsDl8FunNM5pqrEpPnxy5SL2Q
++k0/BxbUSf7xnHQ3R1Lq4wmVgUOnuWM2nPRZF+Lz5i+md6wlZhf7rAgEC
+ -----END DH PARAMETERS-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/server.crt src_ok/easy-rsa/EasyRSA-2.2.2/keys/server.crt
+--- src/easy-rsa/EasyRSA-2.2.2/keys/server.crt	2016-08-15 21:25:55.039701233 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/server.crt	2016-08-15 21:26:49.342950031 +0800
+@@ -2,34 +2,25 @@
+     Data:
+         Version: 3 (0x2)
+         Serial Number: 1 (0x1)
+-        Signature Algorithm: md5WithRSAEncryption
+-        Issuer: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=CA/emailAddress=yekexin0919@126.com
++    Signature Algorithm: md5WithRSAEncryption
++        Issuer: C=CN, ST=JS, L=SZ, O=netgear, OU=netgear, CN=netgear/emailAddress=mail@netgear.com
+         Validity
+-            Not Before: May  9 09:10:01 2014 GMT
+-            Not After : May  6 09:10:01 2024 GMT
+-        Subject: C=CN, ST=SH, L=PD, O=OpenVPN, OU=section, CN=server/emailAddress=yekexin0919@126.com
++            Not Before: Aug 12 02:19:20 2016 GMT
++            Not After : Aug 10 02:19:20 2026 GMT
++        Subject: C=CN, ST=JS, L=SZ, O=netgear, OU=netgear, CN=netgear/emailAddress=mail@netgear.com
+         Subject Public Key Info:
+             Public Key Algorithm: rsaEncryption
+-            RSA Public Key: (2048 bit)
+-                Modulus (2048 bit):
+-                    00:ac:6f:21:3a:9c:36:c5:cb:ef:3c:ed:90:d5:ec:
+-                    15:f3:98:78:40:1c:c8:31:2e:71:37:cc:a6:5d:67:
+-                    90:97:71:6a:d9:f0:46:ac:bd:04:f7:be:10:53:fa:
+-                    e7:9b:59:fb:e9:13:82:33:cc:b7:1b:04:32:05:82:
+-                    ef:16:c1:c4:7a:1a:d6:94:e5:2e:d5:49:0c:8c:70:
+-                    9c:46:f8:a1:2b:b6:5d:de:69:7c:74:cc:ed:32:97:
+-                    6b:84:15:e7:6b:65:04:03:72:71:5e:16:82:b4:ae:
+-                    8a:f7:50:0e:0b:43:ad:8c:bc:1c:1a:59:4d:f7:fa:
+-                    81:25:2b:ef:9c:11:95:d2:d0:8b:f7:ca:d4:67:7e:
+-                    de:54:4d:21:4a:a2:e0:f6:52:03:78:20:ec:14:eb:
+-                    a5:11:7c:c6:8f:10:6a:02:09:16:1e:e5:c6:dc:96:
+-                    04:85:d3:82:4c:3c:e9:f7:6a:82:f3:e1:99:75:e7:
+-                    6f:5a:45:b9:cd:ea:bb:42:e4:e4:f8:0d:bf:d4:57:
+-                    b1:e2:c3:ac:69:0f:e1:ef:a3:00:5a:09:96:4e:51:
+-                    a7:df:f1:c8:94:02:f3:2c:66:be:9d:c2:dc:59:26:
+-                    db:b4:d9:9e:1d:c7:6c:c8:ca:82:48:1a:7d:d5:49:
+-                    8b:37:38:34:b1:33:5b:20:23:2d:41:d8:f2:f2:cc:
+-                    38:47
++                Public-Key: (1024 bit)
++                Modulus:
++                    00:d7:e2:03:df:be:96:cb:12:30:49:3c:26:ef:55:
++                    9b:12:44:ad:41:65:d3:bc:e0:25:b3:f4:4f:f4:6b:
++                    ba:ac:9c:70:a0:5b:e2:5f:3d:4c:d3:f8:93:55:f9:
++                    0a:13:34:dc:ba:21:c8:9e:43:1a:cf:96:ca:ec:6f:
++                    dc:f8:55:98:df:d6:08:1b:d5:9f:f2:89:cf:78:c8:
++                    18:d7:4f:9d:1a:b2:a2:65:e1:0a:f6:7b:4b:f9:2b:
++                    5a:41:8d:b4:a5:d1:18:2b:73:3f:3d:01:2c:e6:31:
++                    a7:1a:8d:2c:8d:f6:42:72:ba:f4:02:07:23:29:31:
++                    88:40:9b:3f:eb:c8:a2:54:0b
+                 Exponent: 65537 (0x10001)
+         X509v3 extensions:
+             X509v3 Basic Constraints: 
+@@ -39,57 +30,45 @@
+             Netscape Comment: 
+                 Easy-RSA Generated Server Certificate
+             X509v3 Subject Key Identifier: 
+-                CF:F9:8E:AD:0F:1E:3D:A7:A4:87:21:14:BD:97:AD:1B:B8:60:F2:7D
++                80:09:85:CC:B4:28:A5:FC:50:AA:8C:2D:05:90:39:35:33:E3:44:27
+             X509v3 Authority Key Identifier: 
+-                keyid:F9:89:57:FD:E1:B6:95:64:75:C2:A0:FA:58:A6:D6:25:06:1B:43:EC
+-                DirName:/C=CN/ST=SH/L=PD/O=OpenVPN/OU=section/CN=CA/emailAddress=yekexin0919@126.com
+-                serial:F1:81:0A:2C:37:19:C8:41
++                keyid:D0:CB:EC:5E:16:A5:DB:C5:CD:D5:DB:0A:BA:5B:85:4E:DA:37:CE:F7
++                DirName:/C=CN/ST=JS/L=SZ/O=netgear/OU=netgear/CN=netgear/emailAddress=mail@netgear.com
++                serial:CA:09:3E:D6:EF:46:4F:9B
+ 
+             X509v3 Extended Key Usage: 
+                 TLS Web Server Authentication
+             X509v3 Key Usage: 
+                 Digital Signature, Key Encipherment
+     Signature Algorithm: md5WithRSAEncryption
+-        a1:4b:6a:6f:fc:49:95:8d:76:ff:72:9b:5d:76:77:8b:21:d2:
+-        49:f1:00:ab:1a:42:ec:df:f4:de:1b:3d:cb:0d:ac:4e:6a:b6:
+-        e4:d0:d4:55:aa:32:ca:e8:87:e6:bd:51:04:ee:63:28:6d:3d:
+-        78:3c:00:af:05:10:11:e6:e4:88:7d:69:61:a7:d8:0c:04:9a:
+-        c7:09:a3:5e:30:57:68:f2:7d:94:19:53:67:c7:ff:c9:ed:d7:
+-        7a:b3:9b:00:3a:29:6d:e8:17:1d:0e:2f:8b:f4:68:a8:bc:4f:
+-        ac:98:70:a9:d1:4e:80:f3:c2:84:06:33:e5:a1:bb:4a:9f:6a:
+-        7f:25:9d:16:f7:96:26:fa:46:70:aa:5a:e2:ff:15:5f:94:6d:
+-        85:c8:21:5d:e6:d0:e7:d4:4f:e1:8e:9c:c0:f8:c9:da:7b:dc:
+-        a0:12:64:bc:75:34:8b:cd:65:67:b4:10:27:6f:52:3a:22:e1:
+-        73:ae:9b:67:60:88:c6:0a:e4:d2:fb:68:be:ce:10:04:f2:e4:
+-        73:8f:4c:81:36:d4:2f:10:c7:06:0c:45:f5:7f:c1:1b:d7:4f:
+-        6d:6d:70:cb:23:9b:31:de:4c:68:e9:26:26:a9:a9:e6:82:44:
+-        04:bd:6e:85:34:eb:85:72:d4:2f:78:d1:71:ad:79:7f:f2:97:
+-        85:61:58:11
++         76:2f:39:ec:07:52:37:2e:58:70:18:3d:3b:e9:bf:35:e7:81:
++         de:eb:57:79:6b:64:5e:91:02:0f:84:e2:35:9c:d4:63:c2:58:
++         9d:5b:e6:d8:5e:bf:f7:76:c4:99:07:0f:29:84:17:d2:2b:48:
++         50:c4:b4:ac:6d:58:98:64:86:52:ef:9c:92:5a:9c:6c:18:2d:
++         4b:da:2a:64:5f:b9:b3:7e:70:66:73:14:e4:4f:4a:b0:b6:4c:
++         0f:41:ff:68:8d:2f:4c:61:44:9d:be:16:7a:c5:69:b3:55:27:
++         89:68:e6:ca:ca:54:d7:31:78:45:7c:31:48:33:88:e0:46:f5:
++         d5:0a
+ -----BEGIN CERTIFICATE-----
+-MIIExTCCA62gAwIBAgIBATANBgkqhkiG9w0BAQQFADB8MQswCQYDVQQGEwJDTjEL
+-MAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQKEwdPcGVuVlBOMRAwDgYD
+-VQQLEwdzZWN0aW9uMQswCQYDVQQDEwJDQTEiMCAGCSqGSIb3DQEJARYTeWVrZXhp
+-bjA5MTlAMTI2LmNvbTAeFw0xNDA1MDkwOTEwMDFaFw0yNDA1MDYwOTEwMDFaMIGA
+-MQswCQYDVQQGEwJDTjELMAkGA1UECBMCU0gxCzAJBgNVBAcTAlBEMRAwDgYDVQQK
+-EwdPcGVuVlBOMRAwDgYDVQQLEwdzZWN0aW9uMQ8wDQYDVQQDEwZzZXJ2ZXIxIjAg
+-BgkqhkiG9w0BCQEWE3lla2V4aW4wOTE5QDEyNi5jb20wggEiMA0GCSqGSIb3DQEB
+-AQUAA4IBDwAwggEKAoIBAQCsbyE6nDbFy+887ZDV7BXzmHhAHMgxLnE3zKZdZ5CX
+-cWrZ8EasvQT3vhBT+uebWfvpE4IzzLcbBDIFgu8WwcR6GtaU5S7VSQyMcJxG+KEr
+-tl3eaXx0zO0yl2uEFedrZQQDcnFeFoK0ror3UA4LQ62MvBwaWU33+oElK++cEZXS
+-0Iv3ytRnft5UTSFKouD2UgN4IOwU66URfMaPEGoCCRYe5cbclgSF04JMPOn3aoLz
+-4Zl1529aRbnN6rtC5OT4Db/UV7Hiw6xpD+HvowBaCZZOUaff8ciUAvMsZr6dwtxZ
+-Jtu02Z4dx2zIyoJIGn3VSYs3ODSxM1sgIy1B2PLyzDhHAgMBAAGjggFLMIIBRzAJ
+-BgNVHRMEAjAAMBEGCWCGSAGG+EIBAQQEAwIGQDA0BglghkgBhvhCAQ0EJxYlRWFz
+-eS1SU0EgR2VuZXJhdGVkIFNlcnZlciBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUz/mO
+-rQ8ePaekhyEUvZetG7hg8n0wga8GA1UdIwSBpzCBpIAU+YlX/eG2lWR1wqD6WKbW
+-JQYbQ+yhgYCkfjB8MQswCQYDVQQGEwJDTjELMAkGA1UECBMCU0gxCzAJBgNVBAcT
+-AlBEMRAwDgYDVQQKEwdPcGVuVlBOMRAwDgYDVQQLEwdzZWN0aW9uMQswCQYDVQQD
+-EwJDQTEiMCAGCSqGSIb3DQEJARYTeWVrZXhpbjA5MTlAMTI2LmNvbYIJAPGBCiw3
+-GchBMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIFoDANBgkqhkiG9w0B
+-AQQFAAOCAQEAoUtqb/xJlY12/3KbXXZ3iyHSSfEAqxpC7N/03hs9yw2sTmq25NDU
+-VaoyyuiH5r1RBO5jKG09eDwArwUQEebkiH1pYafYDASaxwmjXjBXaPJ9lBlTZ8f/
+-ye3XerObADopbegXHQ4vi/RoqLxPrJhwqdFOgPPChAYz5aG7Sp9qfyWdFveWJvpG
+-cKpa4v8VX5RthcghXebQ59RP4Y6cwPjJ2nvcoBJkvHU0i81lZ7QQJ29SOiLhc66b
+-Z2CIxgrk0vtovs4QBPLkc49MgTbULxDHBgxF9X/BG9dPbW1wyyObMd5MaOkmJqmp
+-5oJEBL1uhTTrhXLUL3jRca15f/KXhWFYEQ==
++MIIDwjCCAyugAwIBAgIBATANBgkqhkiG9w0BAQQFADB+MQswCQYDVQQGEwJDTjEL
++MAkGA1UECBMCSlMxCzAJBgNVBAcTAlNaMRAwDgYDVQQKEwduZXRnZWFyMRAwDgYD
++VQQLEwduZXRnZWFyMRAwDgYDVQQDEwduZXRnZWFyMR8wHQYJKoZIhvcNAQkBFhBt
++YWlsQG5ldGdlYXIuY29tMB4XDTE2MDgxMjAyMTkyMFoXDTI2MDgxMDAyMTkyMFow
++fjELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAkpTMQswCQYDVQQHEwJTWjEQMA4GA1UE
++ChMHbmV0Z2VhcjEQMA4GA1UECxMHbmV0Z2VhcjEQMA4GA1UEAxMHbmV0Z2VhcjEf
++MB0GCSqGSIb3DQEJARYQbWFpbEBuZXRnZWFyLmNvbTCBnzANBgkqhkiG9w0BAQEF
++AAOBjQAwgYkCgYEA1+ID376WyxIwSTwm71WbEkStQWXTvOAls/RP9Gu6rJxwoFvi
++Xz1M0/iTVfkKEzTcuiHInkMaz5bK7G/c+FWY39YIG9Wf8onPeMgY10+dGrKiZeEK
++9ntL+StaQY20pdEYK3M/PQEs5jGnGo0sjfZCcrr0AgcjKTGIQJs/68iiVAsCAwEA
++AaOCAU4wggFKMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgZAMDQGCWCGSAGG
+++EIBDQQnFiVFYXN5LVJTQSBHZW5lcmF0ZWQgU2VydmVyIENlcnRpZmljYXRlMB0G
++A1UdDgQWBBSACYXMtCil/FCqjC0FkDk1M+NEJzCBsgYDVR0jBIGqMIGngBTQy+xe
++FqXbxc3V2wq6W4VO2jfO96GBg6SBgDB+MQswCQYDVQQGEwJDTjELMAkGA1UECBMC
++SlMxCzAJBgNVBAcTAlNaMRAwDgYDVQQKEwduZXRnZWFyMRAwDgYDVQQLEwduZXRn
++ZWFyMRAwDgYDVQQDEwduZXRnZWFyMR8wHQYJKoZIhvcNAQkBFhBtYWlsQG5ldGdl
++YXIuY29tggkAygk+1u9GT5swEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQD
++AgWgMA0GCSqGSIb3DQEBBAUAA4GBAHYvOewHUjcuWHAYPTvpvzXngd7rV3lrZF6R
++Ag+E4jWc1GPCWJ1b5thev/d2xJkHDymEF9IrSFDEtKxtWJhkhlLvnJJanGwYLUva
++KmRfubN+cGZzFORPSrC2TA9B/2iNL0xhRJ2+FnrFabNVJ4lo5srKVNcxeEV8MUgz
++iOBG9dUK
+ -----END CERTIFICATE-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/server.csr src_ok/easy-rsa/EasyRSA-2.2.2/keys/server.csr
+--- src/easy-rsa/EasyRSA-2.2.2/keys/server.csr	2016-08-15 21:25:55.040701984 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/server.csr	2016-08-15 21:26:49.341949441 +0800
+@@ -1,17 +1,12 @@
+ -----BEGIN CERTIFICATE REQUEST-----
+-MIICxjCCAa4CAQAwgYAxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJTSDELMAkGA1UE
+-BxMCUEQxEDAOBgNVBAoTB09wZW5WUE4xEDAOBgNVBAsTB3NlY3Rpb24xDzANBgNV
+-BAMTBnNlcnZlcjEiMCAGCSqGSIb3DQEJARYTeWVrZXhpbjA5MTlAMTI2LmNvbTCC
+-ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKxvITqcNsXL7zztkNXsFfOY
+-eEAcyDEucTfMpl1nkJdxatnwRqy9BPe+EFP655tZ++kTgjPMtxsEMgWC7xbBxHoa
+-1pTlLtVJDIxwnEb4oSu2Xd5pfHTM7TKXa4QV52tlBANycV4WgrSuivdQDgtDrYy8
+-HBpZTff6gSUr75wRldLQi/fK1Gd+3lRNIUqi4PZSA3gg7BTrpRF8xo8QagIJFh7l
+-xtyWBIXTgkw86fdqgvPhmXXnb1pFuc3qu0Lk5PgNv9RXseLDrGkP4e+jAFoJlk5R
+-p9/xyJQC8yxmvp3C3Fkm27TZnh3HbMjKgkgafdVJizc4NLEzWyAjLUHY8vLMOEcC
+-AwEAAaAAMA0GCSqGSIb3DQEBBAUAA4IBAQBkkwxdesf6nnEPSglQPoLs5CEEwJrE
+-jsxrm3tEUMQEXLWRjmb1dA1QZEKNb8gyy8oBpt0sJAzWWIxEgYpNncaX1CRcqkud
+-3szLDzHsyu6x6j0aYlk6BfeeT2XGpVhaJgnx0e8AD3+tRGF4eirflYWACYvwaKg/
+-uuRpOd8x1TBwyzi51P/la63xBWdSqRpQtGQpa5HwS2HNEWC4fFxd6+w7IdsgY8Yf
+-OC8BuEq9H8z/elx17Ev9vhOTiV/SBf1hGLDNWhbiwR2yQDRUjorr3mLa3fxNjcU+
+-Vu1ZDKU7XwcpMFMk4NgTk08/QoN3tWy69MZKsZyu6UlXPgINh8Mulaol
++MIIBvjCCAScCAQAwfjELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAkpTMQswCQYDVQQH
++EwJTWjEQMA4GA1UEChMHbmV0Z2VhcjEQMA4GA1UECxMHbmV0Z2VhcjEQMA4GA1UE
++AxMHbmV0Z2VhcjEfMB0GCSqGSIb3DQEJARYQbWFpbEBuZXRnZWFyLmNvbTCBnzAN
++BgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1+ID376WyxIwSTwm71WbEkStQWXTvOAl
++s/RP9Gu6rJxwoFviXz1M0/iTVfkKEzTcuiHInkMaz5bK7G/c+FWY39YIG9Wf8onP
++eMgY10+dGrKiZeEK9ntL+StaQY20pdEYK3M/PQEs5jGnGo0sjfZCcrr0AgcjKTGI
++QJs/68iiVAsCAwEAAaAAMA0GCSqGSIb3DQEBBAUAA4GBAITTcQGcRypX7LRGg2Km
++E1FHUDzqBWAP0QL7XMx2YHBZRzlgM2Ygymw5bNNGYXo/WC0EIoswkIu6rHSYFTjz
++ZVgsQ72Tr1NQgSbkS5edKRsIv1sY98Wg3X5k6eyWRMo8TDP4MTW9Fi9oB7E/WrKX
++bwQVRsL7dGGSsr3zBr3FPd9A
+ -----END CERTIFICATE REQUEST-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/keys/server.key src_ok/easy-rsa/EasyRSA-2.2.2/keys/server.key
+--- src/easy-rsa/EasyRSA-2.2.2/keys/server.key	2016-08-15 21:25:55.040701984 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/keys/server.key	2016-08-15 21:26:49.341949441 +0800
+@@ -1,27 +1,16 @@
+------BEGIN RSA PRIVATE KEY-----
+-MIIEowIBAAKCAQEArG8hOpw2xcvvPO2Q1ewV85h4QBzIMS5xN8ymXWeQl3Fq2fBG
+-rL0E974QU/rnm1n76ROCM8y3GwQyBYLvFsHEehrWlOUu1UkMjHCcRvihK7Zd3ml8
+-dMztMpdrhBXna2UEA3JxXhaCtK6K91AOC0OtjLwcGllN9/qBJSvvnBGV0tCL98rU
+-Z37eVE0hSqLg9lIDeCDsFOulEXzGjxBqAgkWHuXG3JYEhdOCTDzp92qC8+GZdedv
+-WkW5zeq7QuTk+A2/1Fex4sOsaQ/h76MAWgmWTlGn3/HIlALzLGa+ncLcWSbbtNme
+-HcdsyMqCSBp91UmLNzg0sTNbICMtQdjy8sw4RwIDAQABAoIBAEweGmsG/l6+MXOR
+-4zerqd0IVzzl97FOMQhSvLXKu9c+Z86g9HHYVtMOAaMwxQCc7kjrJbS8D7BLX9Fz
+-BRvkmVjVdBfyO4RHZNSx+SqTIoJrVHCT3C6rL6H/maSLDscnpmfnIwhHo5ci3ZFi
+-s3BhhcD0YOt4tKRc3pmMFY+ta5fNYgXlNiLqKyWBbMyWqR40iJrKnAu88M4m2YV9
+-LJpumcd+jQPiUvuV8sWD2ZbS6vH7q7ni1wyHhzTj+G9Wjac9s2stYuoruaE9pAty
+-0Z0HrqIKlRMdWrnT2yrsYk3ZeUBY9cYjF09m73ztx9eWI8FRtRAnQT0Erkb5Unqe
+-Xyr5rXECgYEA2NjtJHa66XK6fO65qDlA5CcGKdFqYgrIXUOyVrMbZW7Szz43uvWd
+-5lWfaG215F7aqcR/fsXm+Bric6RyRvs0oRC/AB+9eDSG2Qqjc4sgacqmRFW82XTk
+-1fljVU1/pZclt0OSe1SZRhIA6+YpOwt61qQC4Kvv8TkJbcuNH3LeWX0CgYEAy5FX
+-u00p18DYKBodc2G2pL9H5hTGFYhu7qmn22v+1ms584JFGHhcs2Hk9detj18mNgdA
+-49MxSwgB1/ycBXyda1pN+RseYYnmD6nGATnvrAez5EJiiv5+yfEFmFWyoUz78Cc4
+-5NtIdcoVqfHBcm+SFjKlU2qaKEOqAhzliMRuJBMCgYAicBD5QYHdoULMpH0HolAT
+-676m1YM3ns7DQQUJj9hB+5+vGgpvvqIc+mwegY3pfsbrPzGgSH2t2VctVmhvrWVm
+-TuqGcoP8mxrvTSk4KFg1dOGC6LrdLhtJgBmuamhjO+XZfPm+bGkLH8DVte/GWMRh
+-Yhqy45tvi8dbkIARBoUZYQKBgCv/pRu5qOKWLuI0CsuGgiiHo22qbcn3rCpvhvVZ
+-GUKU+HiWXoLUeQzYitlMHZpQcXzaAn97hTr3Zxac5cgV0ByE7zd5Ug649H3MLxzS
+-vefL3mjmpE/wg8z4CEKNu0c70XRttdFZSAcVf6s0sqAeV0/u8GbgMqOjRFqijkYK
+-Vtf7AoGBAKR79jefWOeWrDPzjdhvcMLSo3S751WUzxuybYB44DsbRHHZUoCoidir
+-zo3phFUI8JB/pkzpy1FCTnyaHFKXO289udrHea/dBZqQPyKsgtcRiiG7vtxiqlb4
+-Sb0mgjdAjuRXs6FzhQbUw67eH8XrA/1Zvx8Hml3rGil2qJTc+F/W
+------END RSA PRIVATE KEY-----
++-----BEGIN PRIVATE KEY-----
++MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBANfiA9++lssSMEk8
++Ju9VmxJErUFl07zgJbP0T/RruqyccKBb4l89TNP4k1X5ChM03LohyJ5DGs+Wyuxv
++3PhVmN/WCBvVn/KJz3jIGNdPnRqyomXhCvZ7S/krWkGNtKXRGCtzPz0BLOYxpxqN
++LI32QnK69AIHIykxiECbP+vIolQLAgMBAAECgYArQRq7mslF2NgZ5FZ8v685Ys8/
+++jIJdvO28a2PcIJPkWyzhJV/tZ2OHxEOOb6+CGptVNWIeDOIAlOYOfWRQD1HxbcJ
++y5r/pR/0NMtFWzQLNcY3728Lz6FhXxDColq+SqnSFT6Bo0bswVDX1YKFNsKL1zsm
++igOEdt+Fr3mwIfm7yQJBAO9VRAykUhsfEit6+EHyg6P9wEtqRkm3GT3zHPB0ckyd
++VZusIDbqLLBpfZIIc6pVt7seeHSvjAbQbKXCJl+0AxUCQQDm6rBGIXuVM4EDmpzR
++FcAtcDBr1DYE/aU3dw632vJavK2BAGiTHYugXSeR9Dnu0TXJ3qp6VYrBUuMWeJLJ
++JUKfAkEAmiVOuN20zCcM6tg+wSrTQnISwf/m2V+GcHH+t5gobdP/6U3JSdU1h0HK
++UJ4E8TZYKbqMVosiItlmwLP1RzqHqQJAKLeRRYx54iEmyp/krumK7Xgu0ZSlwdOH
++4nPX4It22JEUdv6/cdFv4WMLqyzJWlcBiQr+PHwA733SFRBFsbokOQJBAJ6JfDcS
+++xlI2xYr0gK5p08fHfVjWvTjxoHH8nNFDkDZKFhdhFjb6tzc7u4e3OEqkoQnlBQ3
++HYTRvMwDK3v9t1U=
++-----END PRIVATE KEY-----
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/openssl.cnf src_ok/easy-rsa/EasyRSA-2.2.2/openssl.cnf
+--- src/easy-rsa/EasyRSA-2.2.2/openssl.cnf	2016-08-15 21:25:55.041701731 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/openssl.cnf	2016-08-15 21:26:49.342950031 +0800
+@@ -89,7 +89,7 @@
+ [ req ]
+ default_bits		= $ENV::KEY_SIZE
+ default_keyfile 	= privkey.pem
+-default_md		= sha256
++default_md		= md5
+ distinguished_name	= req_distinguished_name
+ attributes		= req_attributes
+ x509_extensions	= v3_ca	# The extentions to add to the self signed cert
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/pkitool src_ok/easy-rsa/EasyRSA-2.2.2/pkitool
+--- src/easy-rsa/EasyRSA-2.2.2/pkitool	2016-08-15 21:25:55.042702202 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/pkitool	2016-08-15 21:26:49.342950031 +0800
+@@ -1,5 +1,4 @@
+ #!/bin/sh
+-. /tmp/etc/openvpn/vars
+ #  OpenVPN -- An application to securely tunnel IP networks
+ #             over a single TCP/UDP port, with support for SSL/TLS-based
+ #             session authentication and key exchange,
+@@ -247,18 +246,18 @@
+ fi
+ 
+ # If undefined, set default key expiration intervals
+-#if [ -z "$KEY_EXPIRE" ]; then
+-#    KEY_EXPIRE=19950
+-#fi
+-#if [ -z "$CA_EXPIRE" ]; then
+-#    CA_EXPIRE=19950
+-#fi
+-#if [ $(date +%Y) = "1970" ]; then
+-#        KEY_EXPIRE=19950
+-#        CA_EXPIRE=19950
+-#fi
++if [ -z "$KEY_EXPIRE" ]; then
++    KEY_EXPIRE=19950
++fi
++if [ -z "$CA_EXPIRE" ]; then
++    CA_EXPIRE=19950
++fi
++if [ $(date +%Y) = "1970" ]; then
+         KEY_EXPIRE=19950
+         CA_EXPIRE=19950
++fi
++#        KEY_EXPIRE=19950
++#        CA_EXPIRE=19950
+ # Set organizational unit to empty string if undefined
+ if [ -z "$KEY_OU" ]; then
+     KEY_OU=""
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/vars src_ok/easy-rsa/EasyRSA-2.2.2/vars
+--- src/easy-rsa/EasyRSA-2.2.2/vars	2016-08-15 21:25:55.042702202 +0800
++++ src_ok/easy-rsa/EasyRSA-2.2.2/vars	2016-08-15 21:26:49.342950031 +0800
+@@ -62,11 +62,11 @@
+ # which will be placed in the certificate.
+ # Don't leave any of these fields blank.
+ export KEY_COUNTRY="CN"
+-export KEY_PROVINCE="SH"
+-export KEY_CITY="PD"
+-export KEY_ORG="OpenVPN"
+-export KEY_EMAIL="yekexin0919@126.com"
+-export KEY_OU="MyOrganizationalUnit"
++export KEY_PROVINCE="JS"
++export KEY_CITY="SZ"
++export KEY_ORG="netgear"
++export KEY_EMAIL="mail@netgear.com"
++export KEY_OU="netgear"
+ 
+ # X509 Subject Field
+ export KEY_NAME="EasyRSA"
+@@ -77,4 +77,4 @@
+ 
+ # If you'd like to sign all keys with the same Common Name, uncomment the KEY_CN export below
+ # You will also need to make sure your OpenVPN server config has the duplicate-cn option set
+-# export KEY_CN="CommonName"
++# export KEY_CN="netgear"
+diff -aNru src/Makefile src_ok/Makefile
+--- src/Makefile	2016-08-15 21:29:35.953703907 +0800
++++ src_ok/Makefile	2016-08-15 21:29:21.140949134 +0800
+@@ -895,6 +895,7 @@
+ 	#$(MAKE) $(AM_MAKEFLAGS) install-recursive
+ 	$(STRIP) src/openvpn/openvpn
+ 	cp src/openvpn/openvpn $(ROOT)/target/sbin
++	chmod +x easy-rsa/EasyRSA-2.2.2/*	
+ 	cp -af easy-rsa/EasyRSA-2.2.2/keys/*  $(ROOT)/target/usr/etc/openvpn/.
+ 	cp -af easy-rsa/EasyRSA-2.2.2/openssl.cnf $(ROOT)/target/usr/etc/openvpn/.
+ 	cp -af easy-rsa/EasyRSA-2.2.2/vars $(ROOT)/target/usr/etc/openvpn/.

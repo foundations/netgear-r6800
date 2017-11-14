@@ -1,0 +1,25 @@
+From 8f60310d831e6e4deed506722d9e99d79d7c6e12 Mon Sep 17 00:00:00 2001
+From: Socrates Wei <socrates@dniserver.dnish.net>
+Date: Tue, 1 Apr 2014 18:41:54 +0800
+Subject: [PATCH 1/2] forked-daapd: log the scan process
+
+Signed-off-by: Socrates Wei <socrates@dniserver.dnish.net>
+---
+ src/filescanner.c |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/src/filescanner.c b/src/filescanner.c
+index 1dcdc22..f79e4e5 100644
+--- a/src/filescanner.c
++++ b/src/filescanner.c
+@@ -617,6 +617,7 @@ process_file(char *file, time_t mtime, off_t size, int type, int flags)
+     }
+ 
+   /* Not any kind of special file, so let's see if it's a media file */
++  DPRINTF(E_LOG, L_SCAN, "process media file %s ...\n", file);
+   process_media_file(file, mtime, size, type, NULL);
+ }
+ 
+-- 
+1.7.2.5
+

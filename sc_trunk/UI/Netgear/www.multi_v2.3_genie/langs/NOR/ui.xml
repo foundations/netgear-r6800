@@ -1,0 +1,5918 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>Legg til WPS-klient</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>Ny og enkel måte å koble til den trådløse ruteren på ved hjelp av Wi-Fi Protected Setup (WPS)</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>Hvis du vil bruke denne veiviseren til å legge til klienten i den WPS-aktiverte trådløse ruteren, må en trådløs klient støtte WPS-funksjonen.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>Se i brukerhåndboken og gaveesken for den trådløse klienten for å se om den støtter WPS-funksjonen.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>Hvis den trådløse klienten ikke støtter WPS-funksjonen, må du konfigurere den trådløse klienten manuelt, slik at den har samme SSID og innstillinger for trådløs sikkerhet som denne ruteren.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation>Neste</translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation> Avanserte trådløsinnstillinger</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>Navn (SSID)</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>Område</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>Kanal</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>Trådløst tilgangspunkt</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>Kringkastingsnavn</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>Sikkerhet</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>WPS-innstillinger</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>Konfigurert</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>Ruterens PIN-kode</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>Ikke konfigurert</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>Deaktiver ruterens PIN-kode</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>Behold eksisterende trådløsinnstillinger</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>Bruk</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Avbryt</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>Innstillinger for sikkerhetskopiering</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>Lagre en kopi av de gjeldende innstillingene</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>Gjenopprett lagrede innstillinger fra en fil</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>Gå tilbake til standard fabrikkinnstillinger</translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation>Sikkerhetskopier</translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>Gjenopprett</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>Slett</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>Hvis du laster inn standard fabrikkinnstillinger, slettes alle gjeldende innstillinger.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>Er du sikker på at du vil gjøre dette?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Ja</translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>Nei</translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>Grunninnstillinger</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>Må du logge deg på for å koble deg til Internett?</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>&lt;b&gt;Kontonavn&lt;/b&gt; &amp;nbsp;(hvis det er nødvendig)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>&lt;b&gt;Domenenavn&lt;/b&gt; &amp;nbsp;(hvis det er nødvendig)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>Internett</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP-adresse</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>Hent dynamisk fra Internett-leverandør</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>Bruk statisk IP-adresse</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Connection</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP-nettverksmaske</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>Gateway</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>DNS-adresse (Domain Name Server)</translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>Hent automatisk fra Internett-leverandør</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>Bruk disse DNS-serverne</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Primær DNS</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Sekundær DNS</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>Ruter</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>MAC-adresse</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>Bruk standardadresse</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>Bruk datamaskinens MAC-adresse</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>Bruk denne MAC-adressen</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>Test</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>Internett-leverandør</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Logg på</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>Passord</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>&lt;B&gt;Tjenestenavn&lt;/B&gt; (hvis det er nødvendig)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>Tilkoblingsmodus</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>Alltid på</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>Oppringing på forespørsel</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>Koble til manuelt</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;B&gt;Tidsavbrudd ved inaktivitet&lt;/B&gt; (i minutter)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>Hent dynamisk fra Internett-leverandør</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>Bruk statisk IP-adresse</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>Ruterens MAC-adresse</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>Bruk standardadresse</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>Bruk datamaskinens MAC-adresse</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>Bruk denne MAC-adressen</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>Internett-leverandør</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>Min IP-adresse</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>Serveradresse</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>Tilkoblings-ID/tilkoblingsnavn</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>Bruk disse DNS-serverne</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>Internett-tilkoblingstest</translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>Denne siden viser automatisk NETGEAR-webområdet hvis det blir funnet en Internett-tilkobling.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>Lukk vindu</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>Tilkoblingstid</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>Kobler til serveren</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>Forhandling</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>Godkjenning</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>Henter IP-adressen</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>If connection fails, check your Login, Password, and other data.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>Blokker områder</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>Nøkkelordblokkering</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>Aldri</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>Ifølge tidsplan</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>Alltid</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>Skriv inn nøkkelordet eller domenenavnet her.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>Blokker områder som inneholder disse nøkkelordene eller domenenavnene:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>Tillat at klarerte IP-adresser får tilgang til blokkerte områder</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>Klarert IP-adresse</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>Legg til nøkkelord</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>Slett nøkkelord</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>Fjern liste</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>Blokker tjenester</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>Tjenesteblokkering</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>Tjenestetabell</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>Tjenestetype</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>Port</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>Legg til</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>Rediger</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>Slett</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>Konfigurering av blokkeringstjenester</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>Protokoll</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>Startport</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>Sluttport</translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>Tjenestetype/brukerdefinert</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>Filtrer tjenester etter</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>Bare denne IP-adressen</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>IP-adresseområde</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>til</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>Alle IP-adresser</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>Ingen Internett-tilkobling</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>Ruteren har ingen Internett-tilkobling. Den kan ikke laste ned den angitte språkfilen fra NETGEARs webområde. Hvis du ikke har konfigurert ruterens Internett-port, kjører du installerings-CD-en. Ellers kobler du ruteren til Internett manuelt og prøver denne funksjonen på nytt.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>OK</translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Oppgraderingsassistent for fastvare</translation>
+</message>
+<message>
+<tag_code>170</tag_code>
+<translation>Ruteren søker på NETGEAR-serveren for å se om det finnes tilgjengelig oppdatert fastvare for ruteren. &lt;br&gt; &lt;br&gt; Dette kan ta opptil </translation>
+</message>
+<message>
+<tag_code>171</tag_code>
+<translation> sekunder. Vent litt ...</translation>
+</message>
+<message>
+<tag_code>172</tag_code>
+<translation>Søk etter oppdatert fastvare ved pålogging </translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Kontroll av fastvareversjon</translation>
+</message>
+<message>
+<tag_code>174</tag_code>
+<translation>Det er ingen ny fastvareversjon tilgjengelig.</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Tilbake</translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>Ruteren laster ned den nye versjonen nå. Vent litt ...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>Oppgraderer nå ruterens fastvare. Vent litt</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>Merk: Fastvareoppgraderingen tar ca. </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation> minutter for fastvareoppgradering.&lt;br&gt;Ikke slå av strømmen eller trykk på tilbakestillingsknappen.</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>Last opp</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>Vent litt ...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>Oppdatering for brukergrensesnittspråk</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>Det pågår oppdatering av språktabeller. Vent litt ...</translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>Ekstern</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>Ukjent</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Devices</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>Mappenavn</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>Tilkoblede enheter</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>Kablede enheter</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>Enhetsnavn</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>Trådløse enheter (trådløse inntrengere vises også her)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>Oppdater</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>Diagnostikk</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>Ping en IP-adresse</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>Utfør et DNS-oppslag</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>Internett-navn</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>IP-adresse</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>Server:</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>Vis rutingtabellen</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>Start ruteren på nytt</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>Ping</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>Slå opp</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>Vis</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>Start på nytt</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>Diagnostikk – ping</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>Pingresultater</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>Diagnostikk – rutingtabell</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>Mottaker</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>Maske</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>Metrisk</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>Aktiv</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation>Dynamisk DNS</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>Bruk en Dynamic DNS-tjeneste</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>Tjenesteleverandør</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>Vertsnavn</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>Brukernavn</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>Vis status</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>Advarsel</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>Systemgodkjenningen mislyktes.</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>Kontakt systemadministratoren for å få oppgitt riktig informasjon.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>Feil</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>Dette skjermbildet går automatisk tilbake til det forrige skjermbildet i løpet av noen sekunder ...</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>E-post</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>Aktiver E-postvarsling</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>Send varsler og logger via E-post</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>Den utgående e-postserveren</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>Send til denne e-postadressen</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>E-posttjeneren min må godkjennes</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>Send varsel umiddelbart</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>Når noen forsøker å gå til et blokkert område</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>Send logger i henhold til denne tidsplanen</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>Når loggen er full</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>Hver time</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>Daglig</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>Ukentlig</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>Ingen</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>Dag</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>Søndag</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>Mandag</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>Tirsdag</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>Onsdag</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>Torsdag</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>Fredag</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>Lørdag</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>Klokkeslett</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>Sikker tilkobling (bruk SSL)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>am</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>pm</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>Viderekobling av port / portutløsing</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>Velg tjenestetypen.</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>Viderekobling av port</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>Portutløsing</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>IP-adresse for server</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>Nyheter</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>Startport</translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>Sluttport</translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>  Edit Service  </translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>Slett tjeneste</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>Legg til tilpasset tjeneste</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>Porter – tilpassede tjenester</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+
+
+
+
+<translation>Startport</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>Sluttport</translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>Logger</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>Gjeldende klokkeslett</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>Inkluder i logg</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>Forsøk på å få tilgang til tillatte områder</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>Forsøk på å få tilgang til blokkerte områder og tjenester</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>Tilkoblinger til det webbaserte grensesnittet på denne ruteren</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>Ruteroperasjon (oppstart, hente tidspunkt osv.)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>Kjente DoS-angrep og portsøk</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>Viderekobling av port / portutløsing</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>Trådløs tilgang</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>Tøm logg</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>Send logg</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>Deaktiver  portutløsing</translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(i minutter)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>Tidsavbrudd for portutløsing</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>Tabell over porttilordning for portutløsing</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>Aktiver</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>Innkommende tilkobling</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>Bruker av tjeneste</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>Legg til tjeneste</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>Rediger tjeneste</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>Tjeneste</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>Alle</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>Én adresse</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>Utløserport</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>Nødvendig innkommende tilkobling</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>Ekstern administrasjon</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>Aktiver ekstern administrasjon</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>Adresse for ekstern administrasjon</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>Tillat ekstern tilgang fra</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>Bare denne datamaskinen</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>Adresseområde</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>Fra</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>til</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>Alle</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>Portnummer</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>Brannmurregler</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>Utgående tjenester</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>Handling</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>Logg</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>Standard</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>TILLAT alltid</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>Innkommende tjenester</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IPAddress</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>BLOKKER alltid</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>Lukk hurtigmeldingsportene</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>Åpne hurtigmeldingsportene (som standard er hurtigmeldingsportene åpne)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>Flytt</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>Tidsplan</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>Blokkeringsdager</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>Hver dag</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>Blokkeringstidspunkt på dagen:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(Oppgi klokkeslettet i 24-timers format)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>Hele dagen</translation>
+</message>
+<message>
+
+
+<tag_code>360</tag_code>
+
+<translation>start</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>Time</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>Minutt</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>Slutt</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>Tidssone</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) Internasjonal datolinje</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) Midwayøyene, Samoa</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) Hawaii</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) Alaska</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) Stillehavskysten (USA og Canada), Tijuana</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) Arizona, Chihuahua, La Paz, Mazatlan</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) Rocky Mountains (USA og Canada)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) Mellom-Amerika, Midtvesten (USA og Canada)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) Guadalajara, Mexico by, Monterrey, Saskatchewan</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) Bogotá, Lima, Quito</translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00) Østkysten (USA og Canada)</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) Indiana (øst)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) Atlanterhavskysten (Canada), Caracas, La Paz, Santiago</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) Newfoundland</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) Brasilia, Buenos Aires, Georgetown, Grønland</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) Midt-Atlanteren</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) Azorene, Kapp Verde-øyene</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) Casablanca, Monrovia</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) Greenwich middeltid : Dublin, Edinburgh, Lisboa, London</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) Amsterdam, Berlin, Bern, Roma, Stockholm, Wien</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) Beograd, Bratislava, Budapest, Ljubljana, Praha</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) Brussel, København, Madrid, Paris</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) Sarajevo, Skopje, Warszawa, Zagreb, vestlige Sentral-Afrika</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) Aten, Beirut, Istanbul, Minsk</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) Bucuresti, Kairo, Harare, Pretoria</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallin, Vilnius, Jerusalem</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riyadh</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03.00) Bagdad, Kuwait, Nairobi, Riyadh, Teheran</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT+04.00) Moskva, St. Petersburg, Volgograd</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) Abu Dhabi, Muscat, Baku, Tbilisi, Jerevan, Kabul</translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) Jekaterinburg, Islamabad, Karachi, Tasjkent</translation>
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi, Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) Almaty,  Astana, Dhaka, Sri Jayawardenepura, Rangoon ,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) Bangkok, Djakarta, Hanoi,Novosibirsk </translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) Beijing, Chongqing, Hongkong, Ürümqi ,Krasnoyarsk</translation>
+</message>
+<message>
+<tag_code>414</tag_code>
+<translation>(GMT+08:00)  Ulan Bator, Kuala Lumpur, Singapore, Perth, Taipei</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) Tokyo, Osaka, Sapporo, Seoul,  Adelaide, Darwin ,Irkutsk</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00)Jakutsk</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) Guam, Port Moresby, Hobart</translation>
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00) Vladivostok</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) Magadan, Solomonøyene, Ny Caledonia</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) Fiji, Auckland, Wellington, Marshalløyene</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) Nukualofa</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>Juster automatisk for sommertid</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>Gjeldende klokkeslett</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>Tjenester</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>Viktig oppdatering</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>Hvis du vil unngå konflikt med Internett-leverandøren, må ruterens IP-adresse ha blitt oppdatert til </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>Du må nå oppdatere IP-adressene i ruterens konfigureringsinnstillinger for hver relevante tjeneste, for eksempel viderekobling av port og reservering av IP-adresse.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>Lukk vindu</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>For å gi et forbedret brukergrensesnitt bruker denne ruteren i stor grad JavaScript.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>Aktiver JavaScript i webleseren, eller bruk en annen webleser.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>Vil du bytte fra</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>(det gjeldende språket) til</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>Konfigurering</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>RIP-retning</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>Begge</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>Bare inne</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>Bare ute</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>RIP-versjon</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>Deaktivert</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>Av</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>På</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>Bruk ruter som DHCP-server</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>Adressereservasjon</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>Adressereservasjonstabell</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>Velg en reservert adresse som skal slettes.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>Velg en reservert adresse som skal redigeres.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>Takk for at du bruker det webbaserte NETGEAR-konfigureringsverktøyet for ruteren.</translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>Ha det.</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Konfigureringsveiviser</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>Legg til WPS-klient</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>Trådløsinnstillinger(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>Trådløsinnstillinger(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>Gjestenettverk</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>USB-lagring</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>Avanserte innstillinger</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>Innholdsfiltrering</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>Vedlikehold</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>Ruterstatus</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>Angi passord</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>Ruteroppgradering</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+<translation>AVANSERT</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>Funksjon for trådløs repetisjon</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>Statiske ruter</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>Trafikkmåler</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>USB-innstillinger</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>Brukerstøtte på Internett</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+
+<translation>Kunnskapsbase</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>Dokumentasjon</translation>
+</message>
+<message>
+<tag_code>490</tag_code>
+<translation>Logg av</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>Konfigureringsveiviser</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>Grunninnstillinger</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Trådløsinnstillinger</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>Blokker områder</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>Innstillinger for sikkerhetskopiering</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>Ruteroppgradering</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation>Dynamisk DNS</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>Statiske ruter</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>Legg til WPS-klient</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>Ekstern administrasjon</translation>
+</message>
+<message>
+<tag_code>503</tag_code>
+<translation>Velg språk</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>Jan</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>Feb</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>Mar</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>Apr</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>Mai</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>Jun</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>Jul</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>Aug</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>Sep</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>Okt</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>Nov</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>Des</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>Enhetsmodus</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>Enhetsnavn</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>Enhetsmodus</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>Ruter (modem + ruter)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>Modem (bare modem)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>ADSL-innstillinger</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>Modemstatus</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>Velg land og språk</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>Land</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>Språk</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>Fastvareversjon</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>Modem</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>ADSL-fastvareversjon</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>Nedstrøms tilkoblingshastighet</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>Oppstrøms tilkoblingshastighet</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>Kablet</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Trådløs</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>Navn</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>Modus</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>Vis statistikk</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>Det ble ikke funnet noen Internett-tilkobling. Ruteren kan ikke søke etter oppdatert fastvare på NETGEAR-serveren. Når du har konfigurert Internett-tilkoblingen, søker du etter oppdatert fastvare ved å gå til skjermbildet Ruteroppgradering.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>Ingen Internett-tilkobling er oppdaget.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the @model_name#.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>Prøv på nytt</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401 Uautorisert</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>Kontakt systemadministratoren for å få oppgitt riktig informasjon.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>Gammelt passord</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>Gjenta det nye passordet</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS – prioriteringsregler</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>Prioritet</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>QoS-policy for</translation>
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>Prioritetskategori</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>Programmer</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>Spill på Internett</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>Ethernet LAN-port</translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN Messenger</translation>
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>IP-telefon</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>Vonage IP Phone</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>Legg til et nytt program</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>Høyeste</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>Høy</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>Normal</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>Lav</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>Angitt portområde</translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Tilkoblingstype</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>Legg til et nytt spill</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>Liste over MAC-enheter</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>LAN-port</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>QoS-liste over prioriteringsregler</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>QoS-policy</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>Beskrivelse</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>Legg til prioriteringsregel</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>Aktiver innstillinger for WMM (Wi-Fi Multimedia)</translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>Aktiver QoS for Internett-tilgang</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>Aktiver båndbreddekontrollen</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>Uplink-båndbredde</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>Maksimalt</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>kbps</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>Mbps</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>Kontroller Uplink-båndbredden for Internett automatisk</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation>Søk</translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>Konfigurer QoS-regel</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation> </translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>Forsøker å finne Uplink-båndbredden. Vent litt</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Router Rebooting</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>Pågår</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>Vent litt ...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>Trygg fjerning av USB-enhet</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>Avspørringsintervall</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(sek)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>Angi intervall</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>Stopp</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>Oppetid for systemet</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>Status</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>TxPkts</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>RxPkts</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>Kollisjoner</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Tx B/s</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Rx B/s</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>Oppetid</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>Maskinvareversjon</translation>
+</message>
+<message>
+<tag_code>677</tag_code>
+<translation>Språkversjon for brukergrensesnitt</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>Domenenavnserver</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>Trådløs isolering</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>Wi-Fi Protected Setup</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>Gi gjesten tilgang til det lokale nettverket mitt</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Repeating</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>MAC-adresse for basestasjon</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>Repeater</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>Tilkoblingsstatus</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Nettverksmaske</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Standard gateway</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>Leasing ble anskaffet</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>Leasing utløper</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>Frigi</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>Forny</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>Tilkoblingstid</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>Koble til</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>Koble fra</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>TILLAT etter tidsplan, blokker ellers</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>BLOKKER alltid</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>BLOKKER etter tidsplan, tillat ellers</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>Send til LAN-server</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>Legg til tjeneste</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>Type</translation>
+</message>
+<message>
+<tag_code>732</tag_code>
+<translation>Upload Language file:</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>Last opp</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>Rutenavn</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>Privat</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>Velg et element som skal slettes.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>Velg et element som skal redigeres.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>Oppdaterer innstillinger</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>Vent på oppdatering av språket for brukergrensesnittet</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>Advarsel! Fastvareversjonen du prøver å laste opp, er eldre enn den du hadde.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;Vil du fortsette likevel?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>Gjeldende versjon</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>Opplastet versjon</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>Mislykket oppgradering av fastvaren. Kontroller filen.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>Fastvareoppgradering</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>Du kan benytte deg av funksjonene for Wireless-N som tilbys via</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>Ikke vis denne meldingen igjen.</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Søk etter en nyere versjon av det valgte brukergrensesnittspråket på NETGEAR-serveren.</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>Søk etter en ny versjon ved pålogging</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>Finn og velg oppgraderingsfilen på harddisken.</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>Dette skjermbildet går automatisk tilbake til det forrige skjermbildet i løpet av noen sekunder ...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>Aktiver UPnP</translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>Annonseringsperiode</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>Levetid for annonsering</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(i hopp)</translation>
+</message>
+<message>
+<tag_code>761</tag_code>
+<translation>Tabell over UPnP-porttilordning</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>Int. Port</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>Ekst. Port</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>USB-lagring (avanserte innstillinger)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>Nettverks-/enhetsnavn</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>Arbeidsgruppe</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>Tilgangsmetode</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>Kobling</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>Nettverkstilkobling</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>via Internett</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>Tilgjengelig</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>Tilgjengelige nettverksmapper</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+
+<translation>Volumnavn</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>Total plass</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>Ledig plass</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>Navn på delt ressurs</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>Lesetilgang</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>Skrivetilgang</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>Opprett nettverksmappe</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>Trygg fjerning av USB-enhet</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>Godkjente enheter for USB-stasjon</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>Tillat bare godkjente enheter</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Approved</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>Kapasitet</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>USB-lagring (grunninnstillinger)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>Rediger nettverksmappe</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>USB-enhet</translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>Filsystem</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>Mappe</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>All – ingen passord</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>admin</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>Bla gjennom</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>Bla etter mappe</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>Aktiver alle USB-enheter som er koblet til USB-porten</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>Godkjente enheter</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>Bekreft passord</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>Fjern</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>Forsøker å koble til Netgear-server</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>Vent litt ...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>Koble til Internett-porten, og prøv på nytt</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>Det er oppdaget en ny fastvareversjon. Vil du oppgradere til den nye versjonen nå?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>Ny fastvareversjon</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>Produktmerknader</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>Denne prosessen kan ta et minutt eller to. Vent litt...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Det er ingen ny fastvareversjon tilgjengelig.</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>Dette skjermbildet går automatisk tilbake til det forrige skjermbildet i løpet av noen sekunder ...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>En ny tekstfil for brukergrensesnittspråk er tilgjengelig:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>Vil du laste ned og bruke den nye tekstfilen for brukergrensesnittspråk?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>Deaktiver portsøk og DoS-beskyttelse</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>Standard DMZ-server</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>Svar på ping på Internett-port</translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>MTU-størrelse</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(i byte)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>NAT-filtrering</translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>Sikret</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>Åpen</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>Deaktiver SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>Deaktiver IGMP-proxy</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation> Avanserte trådløsinnstillinger</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>Lokal</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>MAC-adresse</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>Sikkerhetskopier</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>Du har allerede en gyldig Internett-tilkobling.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>Vil du likevel fortsette med Smart Setup Wizard?</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>Finner tilkoblingstypen på Internett-port</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>Vent litt ...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynamisk IP (DHCP) ble funnet</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>Statisk (fast ) IP ble funnet</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>PPPoE ble funnet</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>PPTP ble funnet</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>Statisk (fast ) IP ble funnet</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>eller</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>Har Internett-leverandøren tildelt deg en fast eller statisk IP-adresse?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>Ikke sikker</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>Dynamisk</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>Statiske (faste) IP-adresser</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>Finner tilkoblingstypen på Internett-port</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>Kontroller tilkoblingene til Internett-WAN-porten og kabelmodemet eller DSL-modemet.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>Hent automatisk fra Internett-leverandør</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>Bruk disse DNS-serverne</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Du finner ut hvilken Internett-tilkobling du har, ved hjelp av Smart Setup Wizard.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Vil du at Smart Setup Wizard skal forsøke å finne tilkoblingstypen nå?</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Nei. Jeg vil konfigurere ruteren selv.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>Tilgangsliste for trådløskort</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>Aktiver tilgangskontroll</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>Konfigurering av tilgang via trådløskort</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>Trådløskort som er tilgjengelige</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>Trådløskortoppføring</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>Rediger trådløskort</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>Godta</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation> Avanserte trådløsinnstillinger</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>Aktiver trådløs ruterradio</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>Fragmenteringslengde (256–2346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>CTS-/RTS-terskelverdi (1–2347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>Innledningsmodus</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>Lang innledning</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>Kort innledning</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>Behold eksisterende trådløsinnstillinger</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>Konfigurer tilgangsliste</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>Aktiver funksjonen for trådløs repetisjon</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>Deaktiver trådløs klienttilknytning</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>Trådløs MAC for denne ruteren</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>Trådløs repeater</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>Trådløs basestasjon</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>Trådløst nettverk</translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>Beacon-intervall (i ms)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>Aktiver SSID Broadcast</translation>
+
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>Aktiver Trådløs isolering</translation>
+</message>
+<message>
+<tag_code>909</tag_code>
+<translation>Aktiver sameksistens med 20/40 MHz</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>Velg område</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>Afrika</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>Asia</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>Australia</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>Canada</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>Europa</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>Israel</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>Japan</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>Korea</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>Mexico</translation>
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>Midt-Østen</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>Sør-Amerika</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>USA</translation>
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>Opptil 54 Mbps</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>Opptil 145 Mbps</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>Opptil 300 Mbps</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>Sikkerhetsalternativer</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>Opptil 450 Mbps</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>Opptil 173 Mbps</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>Opptil 400 Mbps</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>Opptil 867 Mbps</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>Bedrifts-WPA/WPA2</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>Sikkerhetskryptering (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>Godkjenningstype</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>Automatisk</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>Delt nøkkel</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>Krypteringsstyrke</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>Nøkkel</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>Passord</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>Generer</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(8–63 tegn eller 64 heksadesimale sifre)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>Krypteringsmodus</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>Intervall mellom oppdateringer av gruppenøkkel</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>Sekunder</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>Innstillinger for gjestenettverk</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>Nettverksprofiler</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>Aktiver gjestenettverk</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>Tillat at gjester kan se hverandre og få tilgang til mitt lokale nettverk</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>Aktiver Trådløs isolering</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>Navn på det trådløse nettverket gjesten skal bruke (SSID)</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>Sikkerhetskryptering (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>Sikkerhetskrypteringsnøkkel (WEP)</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>Gi gjesten tilgang til det lokale nettverket mitt</translation>
+</message>
+<message>
+<tag_code>971</tag_code>
+<translation>(8–63 tegn eller 64 heksadesimale sifre)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>Velg en konfigureringsmetode</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+<translation>Trykk på knappen (anbefales)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>Du kan enten trykke på den fysiske knappen på ruteren, eller du kan klikke på knappen (trykknappen) på skjermen.</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN Number(Personal Identification Number)</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>WPS-prosessen er avbrutt av brukeren.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>Kan ikke legge til en trådløs klient i nettverket.</translation>
+</message>
+<message>
+<tag_code>978</tag_code>
+<translation>Klikk på &lt;b&gt;OK&lt;/b&gt; for å gå tilbake til skjermbildet for Wi-Fi Protected Setup.</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>Sikkerhetsrisiko: fant mer enn én klient med knappen trykket inn.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>PIN-koden for klienten er ikke riktig.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>Klikk på &lt;b&gt;OK&lt;/b&gt; for å gå tilbake til skjermbildet for Wi-Fi Protected Setup.</translation>
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>WPS-prosessen ble tidsavbrutt.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>Kontroller om klienten støtter WPS-funksjonen.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+
+<translation>Resultat</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>Den trådløse klienten</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>er lagt til i nettverket.</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>Merk: Trådløsinnstillingene er endret.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>Klikk på &lt;b&gt;OK&lt;/b&gt; for å finne nye trådløsinnstillinger.</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>Koble til den nye trådløse klienten</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>Klikk på programvare- eller maskinvareknappen på klienten for å starte WPS-prosessen ...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>Godkjenner klienten ...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>Henter klientinformasjonen ...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>Sender konfigureringsdata til klienten ...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>PIN-koden for klienten er</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>Klikk på programvareknappen på klienten for å starte WPS-prosessen ...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>PIN-koden for klienten er</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>Sender konfigureringsdata til klienten ...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>Dette er sikkerhets-PIN-koden til WPS-klienten. Ved tilkobling genererer WPS-aktiverte adaptere en tilfeldig sikkerhets-PIN-kode.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>Angi PIN-koden for klienten</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>Månedsgrensen for trafikkmåleren (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>er nådd.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>Trafikkmålertelleren er </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation>før månedsgrensen er nådd.</translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>Trafikkmåler for Internett</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>Aktiver trafikkmåler</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>Kontroll av trafikkmengde av</translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>Ingen grense</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>Bare nedlasting</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>Begge retninger</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>Månedsgrense</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>MB</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>Rund av datavolumet per tilkobling med</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>Kontroll av tilkoblingstid</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>Timer</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>Trafikkteller</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>Start trafikkteller på nytt på</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>am</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>pm</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>På den</translation>
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>1.</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>2.</translation>
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>3.</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>4.</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>5.</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>6.</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>7.</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>8.</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>9.</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>10.</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>11.</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>12.</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>13.</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>14.</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>15.</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>16.</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>17.</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>18.</translation>
+</message>
+<message>
+<tag_code>1050</tag_code>
+<translation>19.</translation>
+</message>
+<message>
+
+<tag_code>1051</tag_code>
+<translation>20.</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>21.</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>22.</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>23.</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>24.</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>25.</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>26.</translation>
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>27.</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>28.</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>Sist</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>dagen i måneden</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>Trafikkontroll</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>Vis en advarselsmelding</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>MB/min før månedsgrensen er nådd</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>Når månedsgrensen er nådd</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>Slå Internett-lampen over til blinkende grønn</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>Koble fra og deaktiver Internett-tilkoblingen</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>Statistikk for Internett-trafikk</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>Start telleren på nytt nå</translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>Trafikkstatus</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>Telleperiode</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>Brukt mengde</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>I dag</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>I går</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>Denne uken</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>Denne måneden</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>Siste måned</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>Startdato/-klokkeslett</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>Gjeldende dato/klokkeslett</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>Gjenværende trafikkmengde</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>Timer</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> minutter.</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>Periode</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>Trafikkmengde (MB)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>Opplasting/gj.snitt</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>Nedlasting/gj.snitt</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>Totalt/gj.snitt</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>Slå Internett-lampen over til blinkende hvitt/gult</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>Aktiver ruterens PIN-kode</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>Aktiver ruterens PIN-kode (deaktivert fordi et angrep er oppdaget)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>For å forhindre problemer med PIN-koden kan du deaktivere PIN-koden etter</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>mislykkede PIN-kodetilkoblinger til ruteren startes på nytt.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>I modusen for automatisk deaktivering kommer ruterens WPS-lampe til å blinke sakte</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>Start blokkeringen</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>Avslutt blokkeringen</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>Takk for at du kjøpte NETGEARs trådløse ruter JWNR3200T. Med jevne mellomrom bør du bruke Oppgraderingsassistent for fastvare for å få fullt utbytte av forbedringer og nye funksjoner som NETGEAR tilbyr for dette produktet.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>-ruteren, ved å bruke et trådløst nettverkskort som har denne logoen.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>Slett alt</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>Søker etter fastvareoppdateringer</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>Bruk jokertegn</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>Tilkoblingsstatus</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>Tjenestetype</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Oray dynamic DNS resolve service request</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>IP-startadresse</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>IP-sluttadresse</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>MAC-adresse 1 for repeater</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>MAC-adresse 2 for repeater</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>MAC-adresse 3 for repeater</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>MAC-adresse 4 for repeater</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>Maks. nedlastingshastighet (0 betyr ubegrenset)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>Maks. opplastingshastighet (0 betyr ubegrenset)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>Maksimalt antall nedlastningsoppgaver</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>Lar systemet administrere de NETGEAR Downloader automatisk</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>Grunninnstillinger for NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>Nedlastningsadministrator</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>Hvilken mappe eller bane vil du lagre?</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>Nedlastningstype</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>FTP/HTTP-nedlastningbane</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>BitTorrent-filplassering</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>Filstørrelse (B)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>Last ned</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>Velg alle</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation>Nei.</translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>Fjern</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>IP-adressen for RADIUS-server:</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>RADIUS-serverport:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>PC</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>USB-lagringsenhet</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>Lagre bane</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>Filnavn</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>Last ned informasjonstabell</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>Nedlastede filer</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>Fjern historikk</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>Stopp midlertidig</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>Gjenoppta</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>Nedlastingshastighet</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>Tilbakestill</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>Vil du demontere alle enheter?</translation>
+</message>
+<message>
+<tag_code>2055</tag_code>
+<translation>Delt RADIUS-serverhemmelighet:</translation>
+<variable>RADIUS server Shared Secret:</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Kontroller at kabeltilkoblingene er riktige. Se installasjonsveiledningen for ruteren for å få instruksjoner.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Kontroller at bredbåndsmodemet blir slått riktig av og på. Hvis du har et modem som går på reservebatteri, må du fjerne og sette batteriet inn igjen for å slå modemet av og på igjen.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(Standard er "password")</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(format AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(Dette finner du på produktmerkelappen på ruteren.)</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>* = påkrevd informasjon</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Modemet ble ikke slått av og deretter på igjen under kablingen.</translation>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Den gule Ethernet-kabelen er ikke helt tilkoblet eller satt inn på feil sted.</translation>
+
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>En MAC-adresse er et unikt nummer.  Du finner datamaskinens eller ruterens MAC-adresse på produktetiketten.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>En ruterfastvareoppgradering er tilgjengelig.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>Administrasjon</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>AVANSERT hjemme</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>Avansert konfigurasjon</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>Avansert</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Etter at du har merket av for Ethernet-kabelen, klikker du på &lt;b&gt;Prøv på nytt&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Alternativ DNS-server</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Svar</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Aktiverer innstillinger for Internett-tilkoblingen</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>Er du sikker på at du vil endre administratorpassordet uten gjenopprettingsalternativet?</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+<translation>Godkjenningsserver</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Tilbake</translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>Grunnleggende</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>BigPond-Internett-tilkobling oppdaget</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Finn sikkerhetskopifilen for ruterinnstillingene som du tidligere har lagret, og klikk på &lt;b&gt;Neste&lt;/b&gt; for å gå videre.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Kontrollerer Internett-forbindelsen. Vent litt …</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Klikk her</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>Datamaskinen har ikke støtte for skriver.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>Konfigurering av Internett-tilkoblingen krever erfaring med nettverksoppbygging. Er du sikker?</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Konfigurerer Internett-forbindelsen</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Gratulerer.</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Tilkoblings-ID/tilkoblingsnavn</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Fortsett</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>Gjeldende NETGEAR Genie vil bli stoppet.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>Standard gateway</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Registrerer Internett-tilkoblingen</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Fikk du en fast (statisk) IP-adresse av Internett-leverandøren din? Dette er en &lt;b&gt;svært sjelden&lt;/b&gt; spesialdistribusjon. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>DNS-adresse må være spesifisert</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Vil du ha hjelp fra NETGEAR Genie?</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Vil du at NETGEAR Genie skal prøve igjen?</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>Feil med nedlasting</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Aktiver passordgjenoppretting</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>aktivert</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>Angi søkeord</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Angi de faste IP-innstillingene som du fikk av Internett-leverandøren, og klikk på &lt;b&gt;Neste&lt;/b&gt; for å gå videre.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Skriv inn MAC-adressen her.</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Skriv inn den påkrevde informasjonen igjen.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Skriv inn den påkrevde informasjonen nedenfor.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>Angi ruterens serienummer</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>FEIL</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Feil</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>Filnavnet kan ikke være tomt.</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>Fastvareoppdatering</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>Fastvareoppgradering</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Innstillinger for fast Internett-IP</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+
+<translation>IP-adresse for gateway</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>KJØR</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>bra</translation>
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>Hjelp og støtte</translation>
+</message>
+<message>
+
+
+<tag_code>3058</tag_code>
+<translation>Hjelpesentral</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>Hjemme</translation>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Jeg rettet opp en feil med Ethernet-kabelen.</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Jeg vet ikke. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Jeg har lagret ruterinnstillingene i en fil, og jeg vil gjenopprette ruteren med de innstillingene.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Jeg har slått modemet av og på igjen og ventet i 2 minutter.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Jeg vil konfigurere Internett-tilkoblingen selv</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Tidsavbrudd ved inaktivitet&lt;/B&gt; (i minutter)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>Hvis du ikke aktiverer passordgjenoppretting og glemmer det nye passordet, må enheten tilbakestilles til fabrikkinnstillingene for å gjenopprette passordet.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Hvis du tidligere koblet til Internett-tjenesten med en datamaskin eller en annen ruter, kan NETGEAR Genie bruke samme MAC-adresse som fungerte tidligere.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Viktig oppdatering</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>Hvor ble faren din født?</translation>
+
+
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>Hvor ble moren din født?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>Hvor ble du født?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>I hvilket år (ÅÅÅÅ) avsluttet du videregående?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Feil ISP-brukernavn eller -passord</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>Installeringsspråk</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>Konfigurasjon av internett-leverandør (WAN)</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>Internett-konfigurasjon</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>Internett</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>Ugyldig IP-adresse for godkjenningsserver</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>IP-adressen for gatewayen er ugyldig. Skriv den inn på nytt.</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>Den inaktive tiden er ugyldig. Angi riktig tall.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>IP-adressen er ugyldig. Skriv den inn på nytt, eller la den stå tom.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>IP-adressen er ugyldig. Skriv den inn på nytt.</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>MAC-adressen er ugyldig.</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>Passordet er ugyldig.</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>Den primære DNS-adressen er ugyldig. Skriv den inn på nytt.\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>Den sekundære DNS-adressen er ugyldig. Skriv den inn på nytt.\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>Nettverksmasken er ugyldig. Skriv den inn på nytt.\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>IP-adresse</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>L2TP Internett-tilkobling oppdaget</translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>Forrige gang passordet ble gjenopprettet</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>Legende</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>Logg på på nytt</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>Pålogging er påkrevd for å administrere disse ruterinnstillingene:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Sørg for at kabelen er koblet til bredbåndets modemport og ruterens Internett-port.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Min IP-adresse</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>Min WiFi</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problem med nettverkstilkoblingen</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>nettverksnøkkel (passord)</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>nettverksnøkkel (passord)</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Neste</translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Ingen Ethernet-kabel er koblet til ruterens Internett-port</translation>
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>Ingen USB-stasjon</translation>
+</message>
+<message>
+
+<tag_code>3103</tag_code>
+<translation>Nei, jeg fikk ingen statisk IP-adresse fra Internett-leverandøren.</translation>
+
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Nei, jeg vil konfigurere Internett-tilkoblingen selv.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>Nei, jeg vil konfigurere Internett-tilkoblingen selv.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Ingen av alternativene ovenfor.</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>IKKE AKTIVERT</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>Antall enheter</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>Antall enheter</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>Av</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>Andres WiFi</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>Parental Controls</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Passord</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>Tilordne den riktige filen. Filformatet er *.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>Fyll ut svarene på de to sikkerhetsspørsmålene under, og klikk på &lt;b&gt;Fortsett&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>Angi inaktiv tid.\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>Angi svarene for hvert spørsmål.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Gå gjennom følgende elementer:</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>Velg et spørsmål.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>Velg installeringsspråk</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Vent litt ...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>PPPoE DSL-Internett-tilkobling oppdaget</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>PPTP-Internett-tilkobling oppdaget</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Foretrukket DNS-server</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Skriv ut</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Problemer med å registrere Internett-tilkoblingen – IP-adresse</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Problemer med å registrere Internett-tilkoblingen – MAC-adresse</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Problemer med å registrere Internett-tilkoblingen</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>KLAR</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Gjenopprette ruterinnstillinger </translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Gjenoppretter ruterinnstillinger</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>Ruteradministratorens passord</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>Ruteradministratorens brukernavn</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>Vanlige spørsmål om ruter</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Versjon av ruterfastvare</translation>
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>Ruterinformasjon</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>Pålogging, ruter</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>Gjenoppretting av ruterpassord</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>SØKEHJELP</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>Søk NETGEAR-støtte</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Sikkerhetsspørsmål #1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Sikkerhetsspørsmål #2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Velg et spørsmål</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Velg et alternativ, og klikk på &lt;b&gt;Neste&lt;/b&gt; for å gå videre.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>Velg et alternativ først.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>Velg ett av alternativene nedenfor, og klikk på &lt;b&gt;Neste&lt;/b&gt; for å gå videre:</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Serveradresse</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>Vis/skjul hjelpesentral</translation>
+</message>
+<message>
+<tag_code>3149</tag_code>
+<translation>Nettverksmaske</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Før meg til Internett</translation>
+</message>
+<message>
+
+<tag_code>3151</tag_code>
+<translation>Informasjonen du har angitt, samsvarer ikke med informasjonen som er lagret på ruteren. Skriv den inn på nytt.</translation>
+</message>
+<message>
+<tag_code>3152</tag_code>
+<translation>IP-adressen og IP-adressen for gatewayen må være i samme nettverksmaske.\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>Merkelappene skal ha 63 tegn eller færre.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>LAN-IP-adressen og WAN-IP-adressen kan ikke være i samme nettverksmaske.\n</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Ruteren kan ikke kobles til Internett med gjeldende innstillinger.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Dette skyldes mest sannsynlig én av følgende grunner:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Denne prosessen kan ta noen minutter. Vent litt …</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Denne prosessen kan ta et minutt eller to. Vent litt...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Denne ruteren er forhåndsinnstilt med følgende unike navn på trådløst nettverk (SSID) og </translation>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Dette skjermbildet går automatisk tilbake til det forrige skjermbildet i løpet av noen sekunder ...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Hvis du vil unngå konflikt med Internett-leverandøren, må ruterens IP-adresse ha blitt oppdatert til </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>for å hente den.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>For å løse dette problemet må du sørge for at Ethernet-kabelen er koblet til bredbåndets modemport og ruterens Internett-port.</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Hvis du vil løse dette problemet, slår du modemet av og deretter på igjen. For å slå modemet av og deretter på igjen med reservebatteri, kan det hende du må ta batteriet ut og sette det inn igjen. Etter å ha slått modemet av og deretter på igjen, venter du i 2 minutter på at modemet skal starte opp igjen.</translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Prøv igjen</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>Avinstaller</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>Brukernavnet kan ikke være tomt.</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Brukernavn</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>Advarsel! \nHvis du gjenoppretter innstillingene fra en konfigurasjonsfil, slettes alle de gjeldende innstillingene. \nEr du sikker på at du vil gjøre dette?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>Advarsel</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Vi kan hjelpe deg med å gjenopprette ruteradministratorens passord. Fyll ut informasjonen nedenfor, og klikk på &lt;b&gt;Fortsett&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Hva het din første arbeidsgiver?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Hva heter bestevennen din til fornavn?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Hva er mellomnavnet til faren din?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Hva heter bestefaren din til fornavn?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Hva heter bestemoren din til fornavn?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Hva er mellomnavnet til moren din?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Hva heter din eldste bror til fornavn?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Hva heter din eldste søster til fornavn?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Hva heter din yngste bror til fornavn?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Hva heter din yngste søster til fornavn?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Hva het din første sjef til fornavn?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Hva het det første NETGEAR-produktet du kjøpte?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Hva het den første skolen du gikk på?</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>WiFi-kanal</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>Trådløs isolering</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Navn på trådløst nettverk (SSID)</translation>
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>Trådløs konfigurasjon</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Trådløs</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Ja</translation>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Ja. Internett-leverandøren ga meg en fast (statisk) IP-adresse.</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>Du er pålogget fra en annen enhet. Bare én enhet kan være logget på om gangen. Hvis du logger på fra denne enheten, vil den andre enheten logges av. Vil du fortsette?</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Du er ennå ikke tilkoblet Internett.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Du er tilkoblet Internett.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>Du kan nå logge på ruteren med brukernavnet \"admin\" og det gjenopprettede passordet.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>Du har gjenopprettet administratorpassordet.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Ruteren er forhåndsinnstilt med WPA2-PSK trådløs sikkerhet for å beskytte nettverket ditt mot uønsket tilgang. For å koble til det trådløse nettverket må du angi nettverksnøkkelen (passord). Disse forhåndsinnstillingene er unike for denne enheten, som et serienummer.  Hvis du vil endre dem, kan du gjøre det senere på skjermbildet Wireless Settings (Trådløsinnstillinger) på ruterens webgrensesnitt.</translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Trådløs sikkerhet er ikke aktivert på denne ruteren. NETGEAR anbefaler at du</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>for å aktivere trådløs sikkerhet og beskytte nettverket.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>WPS-veiviser</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>WAN-konfigurering</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>LAN-oppsett</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>QoS-oppsett</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>Ikke tilkoblet</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>Ingen sikkerhet</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>DHCP-server</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>Internett-port</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>ReadySHARE Printer</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>Ny fastvareoppgrad. er tilgjengelig. Klikk for å hente den.</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Autoimatisk oppdaging</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>Denne prosessen kan ta opptil seks minutter. Vent litt …</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Klikk på "Neste" for å fortsette.</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>EverQuest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tournament</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>IKKE STØTTET</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>Serienummer</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>Se etter oppdateringer</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>Hva er det</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>Pålogging mislyktes. Angi riktig adminpassord for NETGEAR-ruteren.</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>Koble enheten trådløst til NETGEAR-ruteren og prøv igjen.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation>FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>Status for FastLane</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation>Slå FastLane på</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation>Båndbredden er reservert for klarerte IP-adresser</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>Knapp for WiFi-tilkobling og turbovideo</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>Aktiver klarert IP-adresse</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>ReadySHARE-utskrift</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>Skriverdeling for Windows-PC-er og Mac-datamaskiner med en USB-skriver</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>Hvordan fungerer den?</translation>
+</message>
+<message>
+
+<tag_code>3236</tag_code>
+<translation>Trinn 1: Koble USB-skriveren til ruterens USB-port med en USB-skriverkabel.</translation>
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>Trinn 2: Installer driverprogramvaren for USB-skriveren på hver datamaskin som skal dele denne skriveren.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>Hvis du ikke har driveren, kan du ta kontakt med selskapet som laget skriveren for å finne og laste ned den nyeste driverprogramvaren til skriveren.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>Trinn 3: På hver datamaskin som skal dele skriveren, kan du laste ned verktøyet NETGEAR USB Control Center fra &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>Følg instruksjonene i verktøyet for å koble til skriveren fra datamaskinen og skrive ut.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>Kundestøtte på Internett</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>Avslutt</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>Tilgang til denne ressursen er avslått. Klienten har ikke angitt riktig godkjenning.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>VPN-gjennomgang</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>IPSec-gjennomgang</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>PPTP-gjennomgang</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>L2TP-gjennomgang</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>Feil – kan ikke hente filen2</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>Feil – for lite plass</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>Feil – ukjent grunn</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>Laster ned</translation>
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>Aktiver NETGEAR-merkelampe</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>Intranettport</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>Profil</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>Broadcast SSID</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>Intern IP-adresse</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>Ekstern startport</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>Ekstern sluttport</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>Intern startport</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>Intern sluttport</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>Bruk samme portområde for Intern port</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>Eller velg blant gjeldende tilkoblede enheter</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>Tjenestenavn</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>Slå av det trådløse signalet i henhold til tidsplan</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>Det trådløse signalet slås etter planen av i følgende tidsrom:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>Gjentakelsesmønster</translation>
+</message>
+<message>
+<tag_code>3317</tag_code>
+<translation>Legg til et nytt tidsrom</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>Når det trådløse signalet skal slås av</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>Velg dager</translation>
+</message>
+<message>
+<tag_code>3320</tag_code>
+<translation>Mon</translation>
+</message>
+<message>
+<tag_code>3321</tag_code>
+<translation>Tue</translation>
+</message>
+<message>
+<tag_code>3322</tag_code>
+<translation>Wed</translation>
+</message>
+<message>
+<tag_code>3323</tag_code>
+<translation>Thu</translation>
+</message>
+<message>
+<tag_code>3324</tag_code>
+<translation>Fri</translation>
+</message>
+<message>
+<tag_code>3325</tag_code>
+<translation>Sat</translation>
+</message>
+<message>
+<tag_code>3326</tag_code>
+<translation>Sun</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Send an email notification when a downloading task is finished</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Configure Email</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Upper limit per task. Once set, each download or upload task can use a speed less than or equal to the value you set here.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Enable Auto Status Refresh</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>The downloading task status will be refreshed automatically according to specified rate</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Refresh rate</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Times/Minute</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP Protection/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Enable IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>IP-MAC binding protects your router from ARP attacks. With this function enabled, your router uses the IP-MAC binding table as the static ARP table. You can add, remove, or edit the IP-MAC binding pairs in the table. WARNING! Devices that are not registered in this table will NOT have internet access. Ensure that at least one LAN device's IP and MAC address pair is registered in this table.</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>BitTorrent Link</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>ReadySHARE Mobile Connect</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>Bredbåndsinnstillinger</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>User Ethernet connection first and if fail use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Always use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>Innstillinger for mobilt bredbånd</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>Tilgangsnummer</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>PDP-type</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>Koble til automatisk ved oppstart</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>Koble til igjen automatisk dersom tilkoblingen blir borte</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>Kobler til</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>Registrerer modem</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>Modem Not Supported</translation>
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>initialiserer Modem</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>Ingen nettverksdekning</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>Kobler til</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>tilkoblet</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>Inaktivt</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>initialiserer</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>Ikke tilkoblet</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Always use Ethernet connection</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>Bruk alltid mobil bredbåndstilkobling</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Detecting Mobile Broadband Modem</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Kobler til nettverk</translation>
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>Ingen SIM-kort registrert</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>USB-modemet støttes ikke</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>Angi konfigurasjon for tjenesteleverandør</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Please select the Internet Service Provider and then click Next.</translation>
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>Hvis leverandøren for mobilt bredbånd ikke finnes i rullegardinlisten, velger du annen.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Angi konfigurasjonsparameterne. Hvis du ikke kjenner til disse, må du kontakte tjenesteleverandøren.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>Aktiver automatisk tilbakestilling av internett-tilkobling ved</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP-modus</translation>
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>Aktiver AP-modus</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>Hent IP-adresse dynamisk</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>Hent DNS-serveradresse dynamisk</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>Trådløs AP-modus gjør at denne enheten kan fungerer som et enkeltstående tilgangspunkt på det eksisterende nettverket ditt.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>Aktiver fastsatte IP-innstillinger på denne enheten (anbefales ikke)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>Følg disse instruksjonene for å få optimal konfigurering og ytelse:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;Trinn 1:&lt;/b&gt; Sørg for at denne enhetens &lt;b&gt;Internett-port&lt;/b&gt; er tilkoblet med en kabel til &lt;b&gt;én av LAN-portene&lt;/b&gt; på den eksisterende ruteren.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;Trinn 2: &lt;/b&gt;Hvis den eksisterende ruteren har trådløse tilkoblingsmuligheter, kan du slå den av eller deaktivere den for å unngå forstyrrelser med denne nye AP-enheten. Eller kjøre den på en annen trådløs kanal.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>Når du er ferdig, klikker du på Bruk for å fortsette</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;Merk: &lt;/b&gt;Etter at du klikker på Bruk, vil enheten gå over til en ny IP som er tildelt av den eksisterende ruteren. Derfor kan det hende at denne siden ikke er tilgjengelig. Lukk nettleseren, åpne den igjen og gå til http://www.routerlogin.net/ på nytt.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>Driftsmodus</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>Tilgangspunkt</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Operator Name</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Signal Strength</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>3G/4G setup is done!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>USB Mobile Broadband Modem Settings</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>3G/4G Connection Mode</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Connection Protocol</translation>
+</message>
+<message>
+<tag_code>3502</tag_code>
+<translation>(Midlertidig)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>Aktiver NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>Medieserver (innstillinger)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>Aktiver medieserver</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>Navn på medieserver</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>Innholdssøk</translation>
+</message>
+<message>
+<tag_code>3604</tag_code>
+<translation>Automatisk (når nye filer legges til)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>Skann mediefiler på nytt</translation>
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>Medieserver</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>Aktiver iTunes Server (kun musikk)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>Angi passordet som vises på den eksterne appen</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>Gi kontroll</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>Denne handlingen er deaktivert til av/på-knappen for trådløs tilkobling blir trykket på.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>VLAN/IPTV-oppsett</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>Aktiver VLAN-nøkkelord</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>VLAN-ID</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>Utgående serverportnummer for e-post</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>Tilpass etter intern IP</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(Spesifiser porter og portrekkevidde adskilt med kommaer, eksempel: 30, 50–60, 65500–65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>Rekkevidde for ekstern port</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>Rekkevidde for intern port</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>Tilgangskontrolll</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>Du kan bruke tilgangskontroll til å gi datamaskiner eller elektroniske enheter tilgang til nettverket eller blokkere dem. </translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>Slå tilgangskontroll på</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>Tilgangsregel:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation>Dette er en generell regel. Du kan også gi individuelle enheter tillatelse eller blokkere dem.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>Tillat alle nye enheter å koble til</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>Blokker alle nye enheter fra å koble til</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>Vis liste over tillatte enheter som for øyeblikket ikke er koblet til nettverket</translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>Vis liste over blokkerte enheter som for øyeblikket ikke er koblet til nettverket</translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>Tillat</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>Blokker</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>Blokkert</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>Tillatt</translation>
+</message>
+<message>
+<tag_code>3913</tag_code>
+<translation>Med tilgangspunktmodus kan du legge til en sekundær ruter til nettverket som et trådløst tilgangspunkt.</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+<translation>Aktiver tilgangspunktmodus</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>ette er enhetens trådløse innstillinger som et tilgangspunkt:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>Navn på trådløst nettverk (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>Trådløst passord (nøkkel):</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>Hvis du vil forandre, går du til Konfigurasjon->Trådløs konfigurasjon for å utføre endringer. Datamaskinen må koble seg til på nytt med denne nye innstillingen. Gå deretter tilbake til denne siden.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>NETGEAR anbefaler at du bruker andre trådløsinnstillinger enn det eksisterende trådløse nettverket for å unngå forstyrrelser, eller at du deaktiverer eller slår av det trådløse signalet fra den eksisterende ruteren.</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>Slik legger du til denne ruteren i nettverket i tilgangspunkt-modus:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>Koble den ene enden av en Ethernet-kabel til Internett-porten på denne ruteren, og den andre enden til LAN-porten på den eksisterende ruteren.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>Velg innstillinger for IP-adresse på dette tilgangspunktet</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>Trådløst tilgangspunkt</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>Hent dynamisk fra den eksisterende ruteren.</translation>
+
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>Bruk fast IP-adresse (anbefales ikke).</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>Har du en NETGEAR DDNS- eller en No-IP DDNS-konto?</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>Skriv inn følgende informasjon for registrering.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>E-post</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>Passord (6~32 tegn)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>Registrer</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>Ved å sende inn dette skjemaet samtykker jeg i</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>tjenestevilkårene</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>og at jeg vil opprette bare én gratiskonto.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>Har du glemt passordet ditt?</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>klikk her</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>Slik administrerer du DDNS-kontoen.</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>NETGEAR DDNS (Dynamic Domain Name System) på denne ruteren er for øyeblikket konfigurert til:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>Konto/E-post:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>Hvis du vil endre innstillingene, klikker du på</translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation>for å nullstille innstillingene først.</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>VPN-tjeneste</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>Aktiver VPN-tjeneste</translation>
+</message>
+<message>
+
+<tag_code>4002</tag_code>
+<translation>Slik setter du opp VPN-klienten på klientenhetene:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>Määrityksiä"	"Avanserte konfigurasjoner</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>Tjenestetype</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>Tjenesteport</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>Klienter vil bruke denne VPN-tilkoblingen for tilgang</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>Alle områder på Internett og hjemmenettverket</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>Bare hjemmenettverk</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>Trinn 1: Velg avkrysningsruten for Aktivere VPN-tjenester, og klikk på knappen Bruk</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>Trinn 2: Last ned klientverktøyet fra</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>og installer det på enhetene som du vil kjøre VPN-klienten på.</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>For øyeblikket er det ikke støtte for iOS- og Android-klienter</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>Trinn 3: Klikk på den riktige knappen nedenfor for å laste ned konfigurasjonsfilene for VPN-klientene</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>Trinn 4: Åpne konfigurasjonsfilene du har lastet ned, og kopier dem til mappen der VPN-klienten er installert på enhetene dine. For en klientenhet med et Windows 64-biters system blir VPN-klienten installert under "C:\Program files\OpenVPN\config\" som standard</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>Trinn 5: For en klientenhet med Windows må du modifisere VPN-grensesnittnavnet til "NETGEAR-VPN". VPN-grensesnittet har vanligvis et enhetsnavn som "TAP-Windows Adapter".</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation>Trinn 6: Klientknappen må installeres og kjøres via en bruker som har verktøyet administrasjonsrettigheter.</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>Trinn 7:Hvis du trenger hjelp for tilkobling når du bruker OpenVPN-klienter, kan du se i</translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>Merk: Hvis du vil gjøre noen endringer under delen Avanserte konfigurasjoner, må du gjøre endringene før du laster ned konfigurasjonsfilene under trinn 3</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>Med ReadySHARE Vault kan du sikkerhetskopiere filer på Windows-PC-en.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>Slik sikkerhetskopierer du en Windows-PC til en harddiskstasjon på ruteren:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. Installer genie-appen på hver PC ved å laste ned programvaren fra  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. Installer ReadySHARE Vault på hver PC ved å laste ned programvaren fra  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. Start ReadySHARE Vault. Bruk fanen Instrumentpanel eller Sikkerhetskopiering for å konfigurere og kjøre sikkerhetskopieringen.</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>Internett-tilkoblingstype</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>Oppdag automatisk</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>Automatisk konfigurering</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>6til4-tunnel</translation>
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>Passer gjennom</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>Fast</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>Ekstern 6til4 reléruter</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>Statisk IP-adresse</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>IPv6-adresse/Prefikslengde</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>Ruterens IPv6-adresse på WAN</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>Brukerklasse (hvis det er nødvendig)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>Ruterens IPv6-adresse på LAN</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>Tilordning av IP-adresseliste</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>Bruk DHCP-server</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>Bruk denne grensesnitt-ID-en</translation>
+</message>
+<message>
+<tag_code>4200</tag_code>
+<translation>Gå til &lt;a  style=text-decoration:underline;color:#0000ff; id=url_ac onclick=goto_formframe('AccessControl.htm&amp;todo=cfg_init')&gt;Tilgangskontroll&lt;/a&gt; for å tillate eller blokkere enheter.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>Påslått</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>Avslått</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>Generell regel</translation>
+</message>
+<message>
+<tag_code>4300</tag_code>
+<translation>Facebook Wi-Fi er et program for små bedrifter. Programmet gjør ruteren om til et Wi-Fi-aktiveringspunkt og gjør at gjester kan sjekke inn og like Facebook-siden din før de bruker nettet gratis.</translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>Gå til og les konfigureringsprosedyren</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>&lt;b&gt;Aktiver Facebook Wi-Fi&lt;/b&gt; gjør at denne enheten støtter Facebook Wi-Fi-funksjonen. </translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>Dette gjelder bare for Wi-Fi-gjestenettverket, så Wi-Fi-gjestenettverket må være aktivert på ruteren for at dette skal fungere.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>Klikk på  &lt;b&gt;Konfigurer&lt;/b&gt; for å koble ruteren til den eksisterende Facebook-siden.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>Konfigurer</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(Hvis du vil aktivere knappen \"Konfigurer\", må du merke av for alternativet \"Aktiver Facebook Wi-Fi\" og klikke på knappen \"Bruk\")</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>QoS-modus:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>QoS-regler</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>Legg til regler</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS etter tjeneste</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS etter enhet</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>Kø 1: Høyeste</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>Kø 2: Høyt</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>Kø 3: Normalt</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>Kø 4: Lavt</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>Hastighetstest</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Forrige</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Last ned følgende ruterapper:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Genie-app. Et personlig dashbord som du kan bruke til å overvåke, kontrollere og reparere hjemmenettverket.</translation>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>ReadySHARE Vault-app (bare til Windows-datamaskiner). Gir mulighet for automatisk kontinuerlig sikkerhetskopiering av en Windows-datamaskin til en USB-stasjon som er koblet til ruteren.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Laster ned…</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Installer Genie-appen når nedlastingen er fullført.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Klikk på Neste-knappen etter at du har installert Genie-appen, for å fullføre konfigureringen av ruteren.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Installer ReadySHARE Vault-appen når nedlastingen er fullført.</translation>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Klikk på Neste-knappen etter at du har installert ReadySHARE Vault-appen, for å fullføre konfigureringen av ruteren.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Behandler forespørselen din …</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Trykk på Neste etter installeringen.</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Systemet installeres</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Klikk på Kjør for å starte installeringen</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>LED-kontrollinnstillinger</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Slå av alle lamper bortsett fra av/på-lampen</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Aktiver blinking på lampen for Internett, LAN, Trådløs og USB når datatrafikk er oppdaget</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Deaktiver blinking på lampen for Internett, LAN, Trådløs og USB når datatrafikk er oppdaget</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Ikke tilgjengelig</translation>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Oppdater status</translation>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>For Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>For ikke-Windows</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) Kamtsjatka</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>LED-kontrollinnstillinger</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>Aktiver blinking på lampen for Internett, LAN, Trådløs og USB når datatrafikk er oppdaget</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>Deaktiver blinking på lampen for Internett, LAN, Trådløs og USB når datatrafikk er oppdaget</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>Slå av alle lamper bortsett fra av/på-lampen</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>Personvernerklæring</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (gir deg tilgang til ReadySHARE-lagringsenheten din hvor som helst)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>Opptil 289 Mbps</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>Opptil 600 Mbps</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>Opptil 1300 Mbps</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>ReadyCLOUD-funksjonen gir deg ekstern tilgang via Internett til en USB-lagringsenhet som er koblet til ruterens USB-port.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>Slik konfigurerer du ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>Trinn 1: Du trenger en ReadyCLOUD-konto. Hvis du ikke har en, </translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation> for å opprette en konto og velger "Opprett konto".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation> Trinn 2: Gå til rutergrensesnittet på ReadySHARE-siden </translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation>, velg alternativet ReadyCLOUD, og skriv inn brukernavnet og passordet ditt for ReadyCLOUD for å registrere ruteren din på ReadyCLOUD.</translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>Trinn 3: Logg på </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation> igjen med ReadyCLOUD-kontoen din. USB-enheten som er koblet til ruteren, vises.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation>Du kan bruke et supplerende eksternt program til å opprette en sikker kobling fra datamaskinen eller den mobile enheten til ruterens USB-enhet.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>Når du logger på dette eksterne programmet, kan du få tilgang til USB-enheten hvor som helst. </translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation> for å få det eksterne programmet.</translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>Registreringen er fullført</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>Avregistreringen er fullført</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>Registreringen mislyktes</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>Avregistreringen mislyktes</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation>Konfigurer eller endre ReadyCLOUD-brukerkontoen din ved å gå til </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>Denne ruteren er registrert med følgende ReadyCLOUD-bruker</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>Klikk på&lt;b&gt; Avregistrer&lt;/b&gt; for å registrere ReadyCLOUD med en annen bruker</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>Avregistrer</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>Merk:</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;Merk:&lt;/b&gt; Ruteren din beholder en kontinuerlig tilkobling til ReadyCLOUD helt til du avregistrerer den.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Aktiver implisitt BEAMFORMING – bedre WiFi-hastighet, pålitelighet og rekkevidde for alle mobile enheter</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Beskyttelse av adminpassord</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Advarsel: Vi anbefaler på det sterkeste at du aktiverer Beskyttelse av adminpassord for å sikre ReadySHARE-data. Hvis du ikke har endret det standard adminpassordet, anbefaler vi også at du endrer dette for å sikre nettverket ditt.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Innstillinger for adminkonto</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Adminpassordet brukes til å logge på ruterens webgrensesnitt. Sikre nettverket ved å endre adminpassordet.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Nytt passord</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Bekreft det nye passordet</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Adminbrukernavn:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Nytt adminpassord:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Admininnstilinger for ruter:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>Aktiver Smart Connect –‧ la ruteren velge det beste WiFi-båndet 2,4 GHz eller 5 GHz til WiFi-tilkoblingene. Smart Connect krever 2,4 GHz- og 5 GHz-nettverk for å bruke samme WiFi-nettverksnavn (SSID), sikkerhetsalternativer og passord.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>Aktiver AIRTIME FAIRNESS – motvirk nettverkforsinkelser når trege enheter tilkobles</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(deaktivert fordi Smart Connect er aktivert)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>Til smarttelefon</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>Nedlasting av konfigureringspakke til OpenVPN</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>Instruksjon for klientkonfigurering av OpenVPN</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>Tjenestetype for TUN-modus</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>Tjenesteport for TUN-modus</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>Tjenestetype for TAP-modus</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>Tjenesteport for TAP-modus</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>Etter bridge-gruppe</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>Etter VLAN-nøkkelordgruppe</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>bruk annen driftsmodus</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>Aktiver svitsjmodus</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>trådløse innstillinger for svitsjmodus</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>Hent IP-adresse dynamisk</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>Hent DNS-serveradresse dynamisk</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>Velg et trådløst nettverk:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>VLAN/broinnstillinger</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>VPN-klientenheter</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>Ekstern IP-adresse</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>Lokal IP-adresse</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>Klikk her for å endre enhetsnavnet</translation>
+<variable>Click here to change the Device Name</variable>
+</message>
+</tag_msg>

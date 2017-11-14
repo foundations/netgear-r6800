@@ -1,0 +1,13 @@
+file.lo: file.c config.h global.h id3tag.h file.h tag.h field.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+file.h:
+
+tag.h:
+
+field.h:

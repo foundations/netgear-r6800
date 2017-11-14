@@ -1,0 +1,43 @@
+#!/bin/bash
+build_dir=build_sc
+cd $build_dir
+
+CPPFLAGS="-I`pwd`/../../../tr_lib/zlib/zlib-1.2.3/include/ -I/opt/buildroot-gcc342/include/" CFLAGS="-I`pwd`/../../../tr_lib/zlib/zlib-1.2.3/include/ -I`pwd`/../ -I/opt/buildroot-gcc342/include/ -I`pwd`/../../expat-2.0.1/lib/" LDFLAGS=" -L`pwd`/../../../tr_lib/zlib/zlib-1.2.3/ -lz -L`pwd`/../../target/usr/local/lib/" CC=/opt/buildroot-gcc342/bin/mipsel-linux-uclibc-gcc ../configure --target=mipsel-linux-uclibc --host=mipsel-linux-uclibc --build=i486-linux-gnu --enable-shared --enable-static --prefix= \
+  --with-c14n=no \
+  --with-catalog=no \
+  --with-debug=no \
+  --with-docbook=no \
+  --with-fexceptions=no \
+  --with-ftp=no \
+  --with-history=no \
+  --with-html=no \
+  --with-http=no \
+  --with-iconv=no \
+  --with-icu=no \
+  --with-iso8859x=yes \
+  --with-legacy=no \
+  --with-mem-debug=no  \
+  --with-minimum=yes  \
+  --with-output=no \
+  --with-pattern=no \
+  --with-push=no \
+  --with-python=no \
+  --with-reader=no \
+  --with-readline=no \
+  --with-regexps=no \
+  --with-run-debug=no \
+  --with-sax1=no \
+  --with-schemas=no \
+  --with-schematron=no \
+  --with-threads=yes \
+  --with-thread-alloc=no \
+  --with-tree=yes \
+  --with-valid=yes \
+  --with-writer=yes \
+  --with-xinclude=yes \
+  --with-xpath=yes \
+  --with-xptr=yes \
+  --with-modules=yes \
+  --with-zlib=no \
+  --with-lzma=no \
+  --with-coverage=no   

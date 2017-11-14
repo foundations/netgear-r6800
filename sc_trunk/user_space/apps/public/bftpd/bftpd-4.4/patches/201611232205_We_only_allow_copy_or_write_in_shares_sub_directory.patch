@@ -1,0 +1,73 @@
+--- bftpd/commands.c	2016-11-23 22:02:06.000000000 +0800
++++ bftpd_new/commands.c	2016-11-23 21:51:52.000000000 +0800
+@@ -655,7 +655,7 @@
+ #ifdef USB
+     char *local_cwd = NULL;
+ 	char buf[2046];
+-
++	char path[256] = "";	
+ 	bftpd_log_debug("do_stor filename=%s\n", filename);
+ 	local_cwd = bftpd_cwd_getcwd();
+ 	bftpd_log_debug("Error: filename=<%s>\n", filename);
+@@ -665,9 +665,12 @@
+ 	else
+ 		snprintf(buf, sizeof(buf), "%s%s/", local_cwd+1, filename);
+ 	if(local_cwd)
++	{
++		strncpy(path, local_cwd, sizeof(path));
+ 		free(local_cwd);
+-		
+-	if(!is_writable(buf)) {
++	}
++	/* Copy files to directory '/' or "/shares/" is forbidden. */
++	if(!is_writable(buf) || !strcmp(path, "/shares/") || !strcmp(path, "/")) {
+ 		control_printf(SL_FAILURE, "550 message - Read Only\r\n");
+ 		return;
+ 	}
+@@ -1539,16 +1542,25 @@
+ 
+ void command_dele(char *filename)
+ {
+-        struct stat sbuf;
++	struct stat sbuf;
+ 	char *mapped = bftpd_cwd_mappath(filename);
++	int match_path = 0;
++	SHARE_LIST_T *share = shared_list;
++	
+         if (! mapped)
+         {
+              control_printf(SL_FAILURE, "451 Error: Unable to perform delete..");
+              return;
+         }
+-        if (pre_write_script)
+-           run_script(pre_write_script, mapped);
+-
++	/* Check mapped path if is available */
++	while(share != NULL){
++		if(strstr(mapped, share->s.shared_name))
++		{
++			match_path = 1;
++			break;
++		}
++		share = share->next;
++	}
+ #ifdef SC_BUILD
+     if (sc_check_writable(mapped) < 0) {
+         control_printf(SL_FAILURE,
+@@ -1556,7 +1568,15 @@
+         return;
+     }
+ #endif
+-
++        if (pre_write_script)
++           run_script(pre_write_script, mapped);
++    /* If the mapped path is not complete /shares/X/ path, we return error. */
++	if(!match_path)
++	{
++		bftpd_log("Delete failed : the file %s is not in a writeble path .", filename);
++		control_printf(SL_FAILURE, "550: %s is Read Only.", mapped);
++		return ;
++	}
+         /*
+ 	if (unlink(mapped)) {
+ 		bftpd_log("Error: '%s' while trying to delete file '%s'.\n",

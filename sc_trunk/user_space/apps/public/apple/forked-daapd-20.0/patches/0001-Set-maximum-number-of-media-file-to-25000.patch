@@ -1,0 +1,52 @@
+From b20f236aa745c6d8fe1d2552256a7556943f8d56 Mon Sep 17 00:00:00 2001
+From: Socrates Wei <socrates@dniserver.dnish.net>
+Date: Tue, 1 Apr 2014 11:27:52 +0800
+Subject: [PATCH] Set maximum number of media file to 25000
+
+Signed-off-by: Socrates Wei <socrates@dniserver.dnish.net>
+---
+ src/filescanner.c |    7 +++++++
+ 1 files changed, 7 insertions(+), 0 deletions(-)
+
+diff --git a/src/filescanner.c b/src/filescanner.c
+index d0bf1b2..1dcdc22 100644
+--- a/src/filescanner.c
++++ b/src/filescanner.c
+@@ -64,6 +64,7 @@
+ #define F_SCAN_BULK    (1 << 0)
+ #define F_SCAN_RESCAN  (1 << 1)
+ #define F_SCAN_FAST    (1 << 2)
++#define MAX_NUM_MEDIA_FILE   25000
+ 
+ struct deferred_pl {
+   char *path;
+@@ -366,6 +367,7 @@ fixup_tags(struct media_file_info *mfi)
+     normalize_fixup_tag(&mfi->composer_sort, strip_article(mfi->composer));
+ }
+ 
++int static number_of_media_file = 0;
+ 
+ void
+ process_media_file(char *file, time_t mtime, off_t size, int type, struct extinf_ctx *extinf)
+@@ -377,6 +379,9 @@ process_media_file(char *file, time_t mtime, off_t size, int type, struct extinf
+   int id;
+   int ret;
+ 
++if (number_of_media_file >= MAX_NUM_MEDIA_FILE)
++  return;
++
+   filename = strrchr(file, '/');
+   if (!filename)
+     {
+@@ -485,6 +490,8 @@ process_media_file(char *file, time_t mtime, off_t size, int type, struct extinf
+ 
+   fixup_tags(&mfi);
+ 
++  number_of_media_file++;
++
+   if (mfi.id == 0)
+     db_file_add(&mfi);
+   else
+-- 
+1.7.2.5
+

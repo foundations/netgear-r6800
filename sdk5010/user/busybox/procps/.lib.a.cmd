@@ -1,0 +1,1 @@
+cmd_procps/lib.a := rm -f procps/lib.a; "/opt/buildroot-gcc463_NPTLSHAREDLIBGCC/usr/bin"/mipsel-linux-ar  rcs procps/lib.a procps/free.o procps/kill.o procps/pidof.o procps/ps.o procps/renice.o procps/top.o

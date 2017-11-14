@@ -1,0 +1,7 @@
+/var/log/reaim.log {
+    missingok
+    create 0644 reaim reaim
+    postrotate
+        /bin/kill -HUP `cat /var/run/reaim.pid 2> /dev/null` 2> /dev/null || true
+    endscript
+}

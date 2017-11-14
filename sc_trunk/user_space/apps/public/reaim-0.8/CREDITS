@@ -1,0 +1,39 @@
+libfaim
+=======
+
+ReAIM would not have been possible without a lot more effort on my part if it
+was not for the previous work on decoding the OSCAR protocol done by
+Adam Fritzler, and the others involved with the libfaim effort.
+
+Their work is available at a number of places, as part of GAIM, and as a
+protocol summary at http://www.zigamorph.net/faim/protocol.
+
+I do not do anything close to the full OSCAR decoding that libfaim would
+allow, but it has been invaluable in decoding ethereal traces to be able
+to massage the parts of the transfers I needed to.
+
+
+netfilter
+=========
+
+The firewalling infra-structure framework present in the Linux 2.4.x kernels
+provided the way to make this proxy completely transparent to the machines 
+behind the firewall.  It's less overhead to let the users download the latest
+updates, and not have to do anything special for almost everything to work
+correctly.
+
+My thanks to everyone involved in making this work so smoothly.
+
+
+others
+======
+
+As a general catch-all, because I'm sure to have unintentionally missed
+someone impartant, thank you to the open source community as a whole.  I've
+been using and contributing back for many years now, and it has been and
+continues to be a great pleasure.
+
+
+Cheers,
+
+Mark

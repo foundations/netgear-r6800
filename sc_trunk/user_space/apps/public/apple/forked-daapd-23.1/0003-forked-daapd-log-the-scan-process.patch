@@ -1,0 +1,25 @@
+From e3ba993c4610d06c740fb2aff87a3ceec664c460 Mon Sep 17 00:00:00 2001
+From: root <root@localhost.localdomain>
+Date: Fri, 19 Jun 2015 15:21:09 +0800
+Subject: [PATCH 3/6] forked daapd log the scan process
+
+---
+ src/filescanner.c |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+diff --git a/src/filescanner.c b/src/filescanner.c
+index 4eaf933..68fcd67 100644
+--- a/src/filescanner.c
++++ b/src/filescanner.c
+@@ -868,6 +868,8 @@ process_file(char *file, time_t mtime, off_t size, int type, int flags)
+   switch (file_type_get(file))
+     {
+       case FILE_REGULAR:
++	
++	DPRINTF(E_LOG, L_SCAN, "process media file %s ...\n", file);
+ 	filescanner_process_media(file, mtime, size, type, NULL);
+ 
+ 	cache_artwork_ping(file, mtime, !is_bulkscan);
+-- 
+1.6.5.2
+

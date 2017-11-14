@@ -1,0 +1,8 @@
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/common.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/firewall_block.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/fake_source_dos.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/psd_and_special_udp_dos.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/tcp_syn_dos.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/clamp_total_session_for_one_src.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/others_dos.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/spi_firewall_modules/xt_ct_dir.ko

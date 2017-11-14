@@ -1,0 +1,2398 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<message>
+		<err_code>1</err_code>
+		<translation> необходимо заполнить[NEL]</translation>
+		<variable>gsm_msg_blank</variable>
+	</message>
+	<message>
+		<err_code>2</err_code>
+		<translation>Пустые места или пробелы недопустимы в</translation>
+		<variable>gsm_msg_space</variable>
+	</message>
+	<message>
+		<err_code>3</err_code>
+		<translation>Пустые места недопустимы в</translation>
+		<variable>gsm_msg_blank_in</variable>
+	</message>
+	<message>
+		<err_code>4</err_code>
+		<translation>Недопустимый символ или символы в</translation>
+		<variable>gsm_msg_invalid</variable>
+	</message>
+	<message>
+		<err_code>5</err_code>
+		<translation>содержит недопустимый номер.</translation>
+		<variable>gsm_msg_check_invalid</variable>
+	</message>
+	<message>
+		<err_code>8</err_code>
+		<translation>%s выходит за пределы диапазона [%s ~ %s]</translation>
+		<variable>gsm_msg_outofrange</variable>
+	</message>
+	<message>
+		<err_code>9</err_code>
+		<translation>Недопустимый символ или символы в</translation>
+		<variable>gsm_msg_invalid2</variable>
+	</message>
+	<message>
+		<err_code>10</err_code>
+		<translation>Первый</translation>
+		<variable>gsm_msg_first</variable>
+	</message>
+	<message>
+		<err_code>11</err_code>
+		<translation>Второй</translation>
+		<variable>gsm_msg_second</variable>
+	</message>
+	<message>
+		<err_code>12</err_code>
+		<translation>Третий</translation>
+		<variable>gsm_msg_third</variable>
+	</message>
+	<message>
+		<err_code>13</err_code>
+		<translation>Четвертый</translation>
+		<variable>gsm_msg_fourth</variable>
+	</message>
+	<message>
+		<err_code>25</err_code>
+		<translation>Имя пользователя</translation>
+		<variable>gsm_msg_un</variable>
+	</message>
+	<message>
+		<err_code>26</err_code>
+		<translation>Пароль</translation>
+		<variable>gsm_msg_pw</variable>
+	</message>
+	<message>
+		<err_code>27</err_code>
+		<translation>Имя беспроводной сети (SSID)</translation>
+		<variable>gsm_msg_ssid</variable>
+	</message>
+	<message>
+		<err_code>28</err_code>
+		<translation>Проверьте руководство пользователя и коробку беспроводного устройства, чтобы убедиться, что функция WPS подерживается.</translation>
+		<variable>gsm_msg_wlpw</variable>
+	</message>
+	<message>
+		<err_code>29</err_code>
+		<translation>Имя пользователя не может быть пустым!</translation>
+		<variable>gsm_msg_username_blank</variable>
+	</message>
+	<message>
+		<err_code>30</err_code>
+		<translation>Введите пароль!</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>31</err_code>
+		<translation>user name can only be letter or number!</translation>
+		<variable>gsm_msg_username_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>32</err_code>
+		<translation>password can only be letter or number!</translation>
+		<variable>gsm_msg_passwd_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>33</err_code>
+		<translation>уже существует</translation>
+		<variable>gsm_msg_user_exist</variable>
+	</message>
+	<message>
+		<err_code>34</err_code>
+		<translation>Введенные пароли не совпадают, повторите попытку:</translation>
+		<variable>gsm_msg_nomatch_pwd</variable>
+	</message>
+	<message>
+		<err_code>35</err_code>
+		<translation>group name can only be letter or number!</translation>
+		<variable>gsm_msg_groupname_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>36</err_code>
+		<translation>group exist!</translation>
+		<variable>gsm_msg_group_exist</variable>
+	</message>
+	<message>
+		<err_code>37</err_code>
+		<translation>group name is blank!</translation>
+		<variable>gsm_msg_group_blank</variable>
+	</message>
+	<message>
+		<err_code>38</err_code>
+		<translation>Сетевое имя/имя устройства</translation>
+		<variable>gsm_msg_network_name</variable>
+	</message>
+	<message>
+		<err_code>39</err_code>
+		<translation>Рабочая группа</translation>
+		<variable>gsm_msg_workgroup</variable>
+	</message>
+	<message>
+		<err_code>40</err_code>
+		<translation>Access Port</translation>
+		<variable>gsm_msg_shr_fld_port</variable>
+	</message>
+	<message>
+		<err_code>41</err_code>
+		<translation>Общая папка</translation>
+		<variable>gsm_msg_share_folder</variable>
+	</message>
+	<message>
+		<err_code>42</err_code>
+		<translation>Имя общего ресурса</translation>
+		<variable>gsm_msg_share_name</variable>
+	</message>
+	<message>
+		<err_code>43</err_code>
+		<translation>Недопустимый ключ.[NEL][NEL]Ключи должны состоять из 10 шестнадцатеричных символов (0~9 и A~F)</translation>
+		<variable>gsm_msg_key64_type</variable>
+	</message>
+	<message>
+		<err_code>44</err_code>
+		<translation>Недопустимый ключ.[NEL][NEL]Ключи должны состоять из 26 шестнадцатеричных символов (0~9 и A~F)</translation>
+		<variable>gsm_msg_key128_type</variable>
+	</message>
+	<message>
+		<err_code>45</err_code>
+		<translation>Недопустимый ключ.[NEL][NEL]Ключи должны состоять из 10 шестнадцатеричных символов (0~9 и A~F)</translation>
+		<variable>gsm_msg_key64_atype</variable>
+	</message>
+	<message>
+		<err_code>46</err_code>
+		<translation>Недопустимый ключ.[NEL][NEL]Ключи должны состоять из 26 шестнадцатеричных символов (0~9 и A~F)</translation>
+		<variable>gsm_msg_key128_atype</variable>
+	</message>
+	<message>
+		<err_code>47</err_code>
+		<translation>ВНИМАНИЕ. Выбор неправильного региона может привести к нарушению действующего закона. [NEL]Вы согласны действовать в соответствии с этими настройками?</translation>
+		<variable>gsm_msg_change_wl_region</variable>
+	</message>
+	<message>
+		<err_code>48</err_code>
+		<translation>Предупреждение! При перезагрузке все существующие соединения с маршрутизатором или через него будут прерваны</translation>
+		<variable>gsm_msg_restart</variable>
+	</message>
+	<message>
+		<err_code>49</err_code>
+		<translation>ОТЛАДКА</translation>
+		<variable>gsm_msg_pub_debug</variable>
+	</message>
+	<message>
+		<err_code>50</err_code>
+		<translation>(Выбрать список) содержит недопустимое значение</translation>
+		<variable>gsm_msg_pub_inv_sel</variable>
+	</message>
+	<message>
+		<err_code>51</err_code>
+		<translation>Принимается первый элемент в списке</translation>
+		<variable>gsm_msg_pub_1st_instead</variable>
+	</message>
+	<message>
+		<err_code>54</err_code>
+		<translation>Подтвердите пароль</translation>
+		<variable>gsm_msg_pub_re_cfm_pw</variable>
+	</message>
+	<message>
+		<err_code>55</err_code>
+		<translation>Значение конечного порта должно быть больше или равно значению начального порта.</translation>
+		<variable>gsm_msg_pub_port_range</variable>
+	</message>
+	<message>
+		<err_code>56</err_code>
+		<translation>Страница сохранена</translation>
+		<variable>gsm_msg_pub_cfm_save</variable>
+	</message>
+	<message>
+		<err_code>57</err_code>
+		<translation>Параметры безопасности беспроводного соединения WPA-PSK (TKIP), WPA2-PSK (AES) и WPA-PSK (TKIP) + WPA-PSK (AES) не доступны при включенной функции беспроводной ретрансляции. [NEL]Необходимо изменить параметры безопасности до включения функции беспроводной ретрансляции. </translation>
+		<variable>gsm_msg_wds_sec_opt</variable>
+	</message>
+	<message>
+		<err_code>58</err_code>
+		<translation>Функция беспроводной ретрансляции не может использоваться с каналом "Авто".[NEL]Измените настройки канала перед включением функции беспроводной ретрансляции. </translation>
+		<variable>gsm_msg_wds_auto_no_rpt</variable>
+	</message>
+	<message>
+		<err_code>61</err_code>
+		<translation>Принятие или отмена Для сохранения новых настроек маршрутизатора нажмите кнопку Применить. Для отмены несохраненных изменений нажмите кнопку Отмена.</translation>
+		<variable>gsm_msg_wds_update_only</variable>
+	</message>
+	<message>
+		<err_code>62</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>gsm_msg_wds_inv_ip_range</variable>
+	</message>
+	<message>
+		<err_code>63</err_code>
+		<translation>Для обеспечения функционирования в качестве ретранслятора установите новый IP-адрес данного устройства, после чего можно будет впоследствии настроить это устройство с помощью этого нового IP-адреса x.x.x.x</translation>
+		<variable>gsm_msg_wds_set_new_ip</variable>
+	</message>
+	<message>
+		<err_code>64</err_code>
+		<translation>PIN-код представляет собой последовательность из 4 или 8 цифр.</translation>
+		<variable>gsm_msg_wds_pin_format</variable>
+	</message>
+	<message>
+		<err_code>65</err_code>
+		<translation>Неверный PIN-код. Проверьте PIN-код еще раз.[NEL]</translation>
+		<variable>gsm_msg_wds_inv_pin</variable>
+	</message>
+	<message>
+		<err_code>66</err_code>
+		<translation>Недостаточная длина фразы-пароля. Пароль должен содержать минимум 8 символов.</translation>
+		<variable>gsm_msg_wls_inv_phrase_char</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>Этот IP-адрес должен находиться в той же подсети, что и IP-адрес локальной сети или в той же подсети, что и IP-адрес Интернет-порта!</translation>
+		<variable>gsm_msg_wls_inv_radius_ip</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>Порт RADIUS-сервера должен быть задан в диапазоне [1- 65535]!</translation>
+		<variable>gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>68</err_code>
+		<translation>Максимальная длина ключа составляет </translation>
+		<variable>gsm_msg_wls_max_key_length_1</variable>
+	</message>
+	<message>
+		<err_code>69</err_code>
+		<translation> символов.</translation>
+		<variable>gsm_msg_wls_max_key_length_2</variable>
+	</message>
+	<message>
+		<err_code>70</err_code>
+		<translation>Функция беспроводной ретрансляции не может использоваться с каналом \"Авто\".[NEL]Измените настройки канала перед включением функции беспроводной ретрансляции. </translation>
+		<variable>gsm_msg_wls_no_auto_channel</variable>
+	</message>
+	<message>
+		<err_code>71</err_code>
+		<translation>Недопустимое имя устройства!</translation>
+		<variable>gsm_msg_wls_inv_dev_name</variable>
+	</message>
+	<message>
+		<err_code>72</err_code>
+		<translation>Недопустимый MAC-адрес</translation>
+		<variable>gsm_msg_wls_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>73</err_code>
+		<translation>Максимальная длина пароля – 32 символа!</translation>
+		<variable>gsm_msg_wls_max_pw</variable>
+	</message>
+	<message>
+		<err_code>75</err_code>
+		<translation>Система безопасности WEP при настройке аутентификации \"Общий\" ключ не может работать с WPS. WPS будет недоступен. Продолжить?</translation>
+		<variable>gsm_msg_wls_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>76</err_code>
+		<translation>WPA/WPA2 Enterprise не может работать с WPS. WPS будет недоступен. Продолжить?</translation>
+		<variable>gsm_msg_wls_wpax_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>77</err_code>
+		<translation>WPA/WPA2 Enterprise не может работать с WPS. WPS будет недоступен. Продолжить?</translation>
+		<variable>gsm_msg_wls_wpa2x_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>78</err_code>
+		<translation>WPA/WPA2 Enterprise не может работать с WPS. WPS будет недоступен. Продолжить?</translation>
+		<variable>gsm_msg_wls_wpa_mix_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>79</err_code>
+		<translation>Система безопасности WEP при настройке аутентификации \"Общий\" ключ не может работать с WPS. WPS будет недоступен. Продолжить?</translation>
+		<variable>gsm_msg_wls_open_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>80</err_code>
+		<translation>Click on [Save] if you only want to update the settings. Click [Apply] if you want to activate the new settings. [NEL][NEL]If you would like to set other SSIDs, please click [Save].[NEL][NEL]If this is the only SSID you want to modify, click [Apply] to ac</translation>
+		<variable>gsm_msg_wls_cfm_ssid_apply</variable>
+	</message>
+	<message>
+		<err_code>81</err_code>
+		<translation> IP-адрес RADIUS-сервера</translation>
+		<variable>gsm_msg_wls_sever_name_ip</variable>
+	</message>
+	<message>
+		<err_code>82</err_code>
+		<translation>Имя</translation>
+		<variable>gsm_msg_wls_name</variable>
+	</message>
+	<message>
+		<err_code>83</err_code>
+		<translation>Порт RADIUS-сервера:</translation>
+		<variable>unknown_gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>84</err_code>
+		<translation>Общий ключ</translation>
+		<variable>gsm_msg_wls_shared_key</variable>
+	</message>
+	<message>
+		<err_code>85</err_code>
+		<translation>Недостаточная длина фразы-пароля. Пароль должен содержать минимум 8 символов.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_8</variable>
+	</message>
+	<message>
+		<err_code>86</err_code>
+		<translation>Авто</translation>
+		<variable>gsm_msg_wls_auto</variable>
+	</message>
+	<message>
+		<err_code>87</err_code>
+		<translation>Выберите правильный регион вашего местонахождения</translation>
+		<variable>gsm_msg_wls_inv_region</variable>
+	</message>
+	<message>
+		<err_code>88</err_code>
+		<translation>Фраза-пароль состоит из 8-63 ASCII символов, либо ровно из 64 шестнадцатеричных цифр. К шестнадцатеричным относятся следующие символы: 0, 1, 2, ..., 8, 9, A, B, C, D, E, и F.</translation>
+		<variable>gsm_msg_wls_passphrase_limit</variable>
+	</message>
+	<message>
+		<err_code>89</err_code>
+		<translation>Значение длины фрагментации выходит за пределы диапазона [256 - 2346].</translation>
+		<variable>gsm_msg_wls_fragm_throd</variable>
+	</message>
+	<message>
+		<err_code>90</err_code>
+		<translation>Предельное значение CTS/RTS выходит за пределы диапазона [1 - 2347].</translation>
+		<variable>gsm_msg_wls_crts_throd</variable>
+	</message>
+	<message>
+		<err_code>91</err_code>
+		<translation>Имя хоста</translation>
+		<variable>gsm_msg_ddns_host_name</variable>
+	</message>
+	<message>
+		<err_code>92</err_code>
+		<translation>Имя пользователя</translation>
+		<variable>gsm_msg_ddns_user_name</variable>
+	</message>
+	<message>
+		<err_code>93</err_code>
+		<translation>Пароль</translation>
+		<variable>gsm_msg_ddns_pw</variable>
+	</message>
+	<message>
+		<err_code>94</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>gsm_msg_mail_inv_ip_or_domain</variable>
+	</message>
+	<message>
+		<err_code>95</err_code>
+		<translation>Ошибка. Недопустимый адрес электронной почты!</translation>
+		<variable>gsm_msg_mail_inv_email_ad</variable>
+	</message>
+	<message>
+		<err_code>96</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>gsm_msg_eth_inv_ip</variable>
+	</message>
+	<message>
+		<err_code>97</err_code>
+		<translation>Недопустимая маска сети. Повторите попытку![NEL]</translation>
+		<variable>gsm_msg_eth_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>98</err_code>
+		<translation>Недопустимый IP-адрес шлюза. Повторите попытку!</translation>
+		<variable>gsm_msg_eth_inv_gateway</variable>
+	</message>
+	<message>
+		<err_code>99</err_code>
+		<translation>Недопустимый предпочитаемый DNS-адрес. Повторите попытку![NEL]</translation>
+		<variable>gsm_msg_eth_inv_prime_dns</variable>
+	</message>
+	<message>
+		<err_code>100</err_code>
+		<translation>Недопустимый альтернативный DNS-адрес. Повторите попытку![NEL]</translation>
+		<variable>gsm_msg_eth_inv_sec_dns</variable>
+	</message>
+	<message>
+		<err_code>101</err_code>
+		<translation>Недопустимый MAC-адрес</translation>
+		<variable>gsm_msg_eth_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>102</err_code>
+		<translation>Подключение к Интернету не обнаружено.</translation>
+		<variable>gsm_msg_eth_warn_nat_allow_all</variable>
+	</message>
+	<message>
+		<err_code>103</err_code>
+		<translation>When the firewall is disabled protections normally provided to your network will be disabled! [NEL][NEL]Turn off the firewall only if you are sure you want to do this.</translation>
+		<variable>gsm_msg_eth_warn_no_fw_prot</variable>
+	</message>
+	<message>
+		<err_code>104</err_code>
+		<translation>ключевое слово</translation>
+		<variable>gsm_msg_kwd_keyword</variable>
+	</message>
+	<message>
+		<err_code>105</err_code>
+		<translation>This Keyword already exists</translation>
+		<variable>gsm_msg_kwd_keyword_exist</variable>
+	</message>
+	<message>
+		<err_code>106</err_code>
+		<translation>No keyword selected</translation>
+		<variable>gsm_msg_kwd_no_keyword_sel</variable>
+	</message>
+	<message>
+		<err_code>107</err_code>
+		<translation>IP-адрес конфликтует с подсетью, принадлежащей IP-адресу Интернет-порта, повторите попытку!</translation>
+		<variable>gsm_msg_lan_inv_ip_same_wan</variable>
+	</message>
+	<message>
+		<err_code>109</err_code>
+		<translation>Недопустимая маска сети. Повторите попытку![NEL]</translation>
+		<variable>gsm_msg_lan_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>110</err_code>
+		<translation>Недопустимый начальный IP-адрес DHCP. Повторите попытку.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_strat_ip</variable>
+	</message>
+	<message>
+		<err_code>111</err_code>
+		<translation>Недопустимый конечный IP-адрес DHCP. Повторите попытку.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_end_ip</variable>
+	</message>
+	<message>
+		<err_code>112</err_code>
+		<translation>Additional Management Port</translation>
+		<variable>gsm_msg_lan_add_mng_port</variable>
+	</message>
+	<message>
+		<err_code>113</err_code>
+		<translation>Неправильное время простоя. Не должно превышать 99 мин.</translation>
+		<variable>gsm_msg_pw_inv_idle_range</variable>
+	</message>
+	<message>
+		<err_code>114</err_code>
+		<translation>Введенные пароли не совпадают, повторите попытку:</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>115</err_code>
+		<translation>Вход в систему</translation>
+		<variable>gsm_msg_ppp_login</variable>
+	</message>
+	<message>
+		<err_code>116</err_code>
+		<translation>Время бездействия перед отключением (в минутах)</translation>
+		<variable>gsm_msg_ppp_idle_time</variable>
+	</message>
+	<message>
+		<err_code>119</err_code>
+		<translation>Invalid IP in list</translation>
+		<variable>gsm_msg_rmt_inv_ip_in_list</variable>
+	</message>
+	<message>
+		<err_code>121</err_code>
+		<translation>The setting list</translation>
+		<variable>gsm_msg_rmt_setting_list</variable>
+	</message>
+	<message>
+		<err_code>122</err_code>
+		<translation>and</translation>
+		<variable>gsm_msg_rmt_setting_and</variable>
+	</message>
+	<message>
+		<err_code>124</err_code>
+		<translation>Non set any IP address, please enter again.[NEL]</translation>
+		<variable>gsm_msg_rmt_non_set_ip</variable>
+	</message>
+	<message>
+		<err_code>125</err_code>
+		<translation>Начальный IP-адрес должен быть меньше чем конечный IP-адрес</translation>
+		<variable>gsm_msg_rmt_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>126</err_code>
+		<translation>Номер порта</translation>
+		<variable>gsm_msg_rmt_port_num</variable>
+	</message>
+	<message>
+		<err_code>128</err_code>
+		<translation>Имя устройства</translation>
+		<variable>gsm_msg_resv_device_name</variable>
+	</message>
+	<message>
+		<err_code>129</err_code>
+		<translation>Введите имя сетевого устройства</translation>
+		<variable>gsm_msg_resv_enter_name</variable>
+	</message>
+	<message>
+		<err_code>130</err_code>
+		<translation>Имя</translation>
+		<variable>gsm_msg_resv_name</variable>
+	</message>
+	<message>
+		<err_code>131</err_code>
+		<translation>Имя маршрута</translation>
+		<variable>gsm_msg_rout_route_name</variable>
+	</message>
+	<message>
+		<err_code>132</err_code>
+		<translation>Метрика</translation>
+		<variable>gsm_msg_rout_metric</variable>
+	</message>
+	<message>
+		<err_code>133</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>gsm_msg_rule_inv_lan_ip</variable>
+	</message>
+	<message>
+		<err_code>134</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>gsm_msg_rule_inv_wan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>135</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>gsm_msg_rule_inv_wan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>136</err_code>
+		<translation>Начальный IP-адрес должен быть меньше чем конечный IP-адрес</translation>
+		<variable>gsm_msg_rule_wan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>137</err_code>
+		<translation>Недопустимый начальный IP-адрес LAN, повторите попытку ввода</translation>
+		<variable>gsm_msg_rule_inv_lan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>138</err_code>
+		<translation>Недопустимый конечный IP-адрес LAN, повторите попытку ввода</translation>
+		<variable>gsm_msg_rule_inv_lan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>139</err_code>
+		<translation>Начальный IP-адрес LAN должен быть меньше конечного IP-адреса</translation>
+		<variable>gsm_msg_rule_lan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>140</err_code>
+		<translation>Недопустимый начальный IP-адрес сети назначения, повторите попытку ввода</translation>
+		<variable>gsm_msg_rule_inv_dest_ip</variable>
+	</message>
+	<message>
+		<err_code>141</err_code>
+		<translation>Недопустимый конечный IP-адрес, повторите попытку ввода</translation>
+		<variable>gsm_msg_rule_inv_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>142</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>gsm_msg_sch_inv_start_hr</variable>
+	</message>
+	<message>
+		<err_code>143</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>gsm_msg_sch_inv_start_min</variable>
+	</message>
+	<message>
+		<err_code>144</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>gsm_msg_sch_inv_end_hr</variable>
+	</message>
+	<message>
+		<err_code>145</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>gsm_msg_sch_inv_time</variable>
+	</message>
+	<message>
+		<err_code>146</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>gsm_msg_sch_inv_end_min</variable>
+	</message>
+	<message>
+		<err_code>148</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>gsm_msg_sch_end_time_small</variable>
+	</message>
+	<message>
+		<err_code>149</err_code>
+		<translation>Имя службы</translation>
+		<variable>gsm_msg_sev_service_name</variable>
+	</message>
+	<message>
+		<err_code>150</err_code>
+		<translation>Начальный порт</translation>
+		<variable>gsm_msg_sev_start_port</variable>
+	</message>
+	<message>
+		<err_code>151</err_code>
+		<translation>Конечный порт</translation>
+		<variable>gsm_msg_sev_finish_port</variable>
+	</message>
+	<message>
+		<err_code>152</err_code>
+		<translation>Значение конечного порта должно быть больше или равно значению начального порта.</translation>
+		<variable>gsm_msg_sev_end_port_small</variable>
+	</message>
+	<message>
+		<err_code>153</err_code>
+		<translation>Недопустимое имя устройства!</translation>
+		<variable>gsm_msg_sev_inv_char_device_name</variable>
+	</message>
+	<message>
+		<err_code>154</err_code>
+		<translation>Введите имя файла!</translation>
+		<variable>gsm_msg_bku_no_blank_filename</variable>
+	</message>
+	<message>
+		<err_code>155</err_code>
+		<translation>Предупреждение![NEL]При восстановлении параметров с помощью файла настройки все текущие параметры будут утеряны.[NEL]Продолжить?</translation>
+		<variable>gsm_msg_bku_cfm_restore</variable>
+	</message>
+	<message>
+		<err_code>156</err_code>
+		<translation>Please check the LEDs to see if the Router is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish</variable>
+	</message>
+	<message>
+		<err_code>157</err_code>
+		<translation>Please check the LEDs to see if the</translation>
+		<variable>gsm_msg_bku_finish_1</variable>
+	</message>
+	<message>
+		<err_code>158</err_code>
+		<translation>is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish_2</variable>
+	</message>
+	<message>
+		<err_code>159</err_code>
+		<translation>Продолжить?[NEL]Все существующие интернет-соединения будут разъединены</translation>
+		<variable>gsm_msg_bku_cfm_proceed</variable>
+	</message>
+	<message>
+		<err_code>161</err_code>
+		<translation>Введите имя в Интернете</translation>
+		<variable>gsm_msg_dig_no_blank_int_name</variable>
+	</message>
+	<message>
+		<err_code>162</err_code>
+		<translation>Недопустимое имя в Интернете, повторите попытку</translation>
+		<variable>gsm_msg_dig_inv_int_name</variable>
+	</message>
+	<message>
+		<err_code>163</err_code>
+		<translation>Необходимо указать адрес DNS</translation>
+		<variable>gsm_msg_eth_dns_before_ip</variable>
+	</message>
+	<message>
+		<err_code>164</err_code>
+		<translation>Недопустимое положение. Введите новое положение</translation>
+		<variable>gsm_msg_fw_inv_position</variable>
+	</message>
+	<message>
+		<err_code>165</err_code>
+		<translation>Поле не выбрано. [NEL]Щелкните кнопку переключателя, чтобы выбрать запись</translation>
+		<variable>gsm_msg_fw_no_select</variable>
+	</message>
+	<message>
+		<err_code>166</err_code>
+		<translation>РАЗРЕШИТЬ всегда</translation>
+		<variable>gsm_msg_fw_allow_always</variable>
+	</message>
+	<message>
+		<err_code>167</err_code>
+		<translation>Если требуется отправить заметку по электронной почте, включите уведомление по электронной почте на странице &quot;Электронная почта&quot;.</translation>
+		<variable>gsm_msg_log_en_send_log</variable>
+	</message>
+	<message>
+		<err_code>168</err_code>
+		<translation>Поле не выбрано. [NEL]Щелкните кнопку переключателя, чтобы выбрать запись</translation>
+		<variable>gsm_msg_pfw_no_app_sel</variable>
+	</message>
+	<message>
+		<err_code>169</err_code>
+		<translation>Недопустимое имя службы!</translation>
+		<variable>gsm_msg_pfw_no_cus_service_name</variable>
+	</message>
+	<message>
+		<err_code>170</err_code>
+		<translation>Начальный порт входящего соединения</translation>
+		<variable>gsm_msg_pfw_port_start</variable>
+	</message>
+	<message>
+		<err_code>171</err_code>
+		<translation>is invalid</translation>
+		<variable>gsm_msg_pfw_inv_input</variable>
+	</message>
+	<message>
+		<err_code>172</err_code>
+		<translation>Конечный порт входящего соединения</translation>
+		<variable>gsm_msg_pfw_port_end</variable>
+	</message>
+	<message>
+		<err_code>173</err_code>
+		<translation>Диапазон портов</translation>
+		<variable>gsm_msg_pfw_port_range</variable>
+	</message>
+	<message>
+		<err_code>174</err_code>
+		<translation>Custom Rule</translation>
+		<variable>gsm_msg_pfw_custom_rule</variable>
+	</message>
+	<message>
+		<err_code>175</err_code>
+		<translation>Имя службы</translation>
+		<variable>gsm_msg_pfw_service_name</variable>
+	</message>
+	<message>
+		<err_code>176</err_code>
+		<translation>Тип службы</translation>
+		<variable>gsm_msg_pfw_service_type</variable>
+	</message>
+	<message>
+		<err_code>177</err_code>
+		<translation>Начальный порт</translation>
+		<variable>gsm_msg_pfw_starting_port</variable>
+	</message>
+	<message>
+		<err_code>178</err_code>
+		<translation>Конечный порт</translation>
+		<variable>gsm_msg_pfw_ending_port</variable>
+	</message>
+	<message>
+		<err_code>179</err_code>
+		<translation>IP-адрес сервера</translation>
+		<variable>gsm_msg_pfw_server_ip_add</variable>
+	</message>
+	<message>
+		<err_code>180</err_code>
+		<translation>Pre-set Port Forwarding Rule</translation>
+		<variable>gsm_msg_pfw_preset_pfw_rule</variable>
+	</message>
+	<message>
+		<err_code>181</err_code>
+		<translation>IP_Phone</translation>
+		<variable>gsm_msg_pfw_ip_phone</variable>
+	</message>
+	<message>
+		<err_code>182</err_code>
+		<translation>Новости</translation>
+		<variable>gsm_msg_pfw_news</variable>
+	</message>
+	<message>
+		<err_code>183</err_code>
+		<translation>Инициирование порта</translation>
+		<variable>gsm_msg_pft_port</variable>
+	</message>
+	<message>
+		<err_code>184</err_code>
+		<translation>Timeout</translation>
+		<variable>gsm_msg_pft_timeout</variable>
+	</message>
+	<message>
+		<err_code>185</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>186</err_code>
+		<translation>You have just modified the policy.[NEL]Before editing policy, you need to click on [Apply] to keep the changes or [Cancel] to restore the original policy settings.</translation>
+		<variable>gsm_msg_qos_apply_or_cancel</variable>
+	</message>
+	<message>
+		<err_code>187</err_code>
+		<translation>, должно быть в диапазоне [1-65535], исключая 80[NEL]</translation>
+		<variable>gsm_msg_pfw_inv_range</variable>
+	</message>
+	<message>
+		<err_code>200</err_code>
+		<translation>Такой MAC-адрес уже существует!</translation>
+		<variable>gsm_msg_qos_mac_conflicts</variable>
+	</message>
+	<message>
+		<err_code>202</err_code>
+		<translation>Недопустимый MAC-адрес</translation>
+		<variable>gsm_msg_qos_inv_mac_format</variable>
+	</message>
+	<message>
+		<err_code>205</err_code>
+		<translation>необходимо заполнить</translation>
+		<variable>gsm_msg_qos_no_rule</variable>
+	</message>
+	<message>
+		<err_code>206</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>207</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_qos_fail_parse_mac</variable>
+	</message>
+	<message>
+		<err_code>208</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_qos_fail_parse_game</variable>
+	</message>
+	<message>
+		<err_code>216</err_code>
+		<translation>Данное имя политики уже существует!</translation>
+		<variable>gsm_msg_qos_conflict_predef_name</variable>
+	</message>
+	<message>
+		<err_code>217</err_code>
+		<translation>Имя политики уже существует</translation>
+		<variable>gsm_msg_qos_conflict_policy_name</variable>
+	</message>
+	<message>
+		<err_code>219</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_qos_inv_user_policy</variable>
+	</message>
+	<message>
+		<err_code>220</err_code>
+		<translation>Конфликт порта с другим правилом.</translation>
+		<variable>gsm_msg_qos_exist_port</variable>
+	</message>
+	<message>
+		<err_code>221</err_code>
+		<translation>Пропускная способность восходящего канала</translation>
+		<variable>gsm_msg_qos_uplink_bandwidth</variable>
+	</message>
+	<message>
+		<err_code>222</err_code>
+		<translation>Политика QoS</translation>
+		<variable>gsm_msg_qos_policy</variable>
+	</message>
+	<message>
+		<err_code>223</err_code>
+		<translation>Приоритет</translation>
+		<variable>gsm_msg_qos_priority</variable>
+	</message>
+	<message>
+		<err_code>224</err_code>
+		<translation>Описание</translation>
+		<variable>gsm_msg_qos_description</variable>
+	</message>
+	<message>
+		<err_code>225</err_code>
+		<translation>приложение</translation>
+		<variable>gsm_msg_qos_application</variable>
+	</message>
+	<message>
+		<err_code>226</err_code>
+		<translation>Онлайн игры</translation>
+		<variable>gsm_msg_qos_on_line_gaming</variable>
+	</message>
+	<message>
+		<err_code>227</err_code>
+		<translation>Порт локальной сети</translation>
+		<variable>gsm_msg_qos_lan_port</variable>
+	</message>
+	<message>
+		<err_code>228</err_code>
+		<translation>Отсутствует</translation>
+		<variable>gsm_msg_qos_none</variable>
+	</message>
+	<message>
+		<err_code>229</err_code>
+		<translation>Имя устройства</translation>
+		<variable>gsm_msg_qos_device_name</variable>
+	</message>
+	<message>
+		<err_code>230</err_code>
+		<translation>MAC-адрес</translation>
+		<variable>gsm_msg_qos_mac_ad</variable>
+	</message>
+	<message>
+		<err_code>231</err_code>
+		<translation>Имя политики QoS</translation>
+		<variable>gsm_msg_qos_policy_name</variable>
+	</message>
+	<message>
+		<err_code>232</err_code>
+		<translation>With your current connection method, this setting has no effect.</translation>
+		<variable>gsm_msg_wan_sec_inv_conn_method</variable>
+	</message>
+	<message>
+		<err_code>233</err_code>
+		<translation>Encapsulation mode on the Basic Settings page must be changed to PPPoE to enable PPPoE Relay.</translation>
+		<variable>gsm_msg_wan_sec_must_pppoe_mode</variable>
+	</message>
+	<message>
+		<err_code>234</err_code>
+		<translation>Размер MTU</translation>
+		<variable>gsm_msg_wan_sec_mtu_value</variable>
+	</message>
+	<message>
+		<err_code>235</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_tree_err_geteleid</variable>
+	</message>
+	<message>
+		<err_code>236</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_tree_inv_id_use_ext_id</variable>
+	</message>
+	<message>
+		<err_code>237</err_code>
+		<translation>Значение имени файла не было задано. Найдите и выберите файл обновления на жестком диске!</translation>
+		<variable>gsm_msg_upg_no_file</variable>
+	</message>
+	<message>
+		<err_code>238</err_code>
+		<translation>Назначьте правильный файл. Формат файла –*.img</translation>
+		<variable>gsm_msg_upg_inv_file_type</variable>
+	</message>
+	<message>
+		<err_code>239</err_code>
+		<translation>Обновление программного обеспечения может содержать важные дополнения.[NEL] Отключить автоматическую проверку?[NEL] После отключения проверки ее можно возобновить на странице &quot;Обновление маршрутизатора&quot;.</translation>
+		<variable>gsm_msg_upg_cfm_fw_upg</variable>
+	</message>
+	<message>
+		<err_code>240</err_code>
+		<translation>необходимо заполнить</translation>
+		<variable>gsm_msg_upnp_cannot_empty</variable>
+	</message>
+	<message>
+		<err_code>241</err_code>
+		<translation>необходимо ввести значение в цифрах</translation>
+		<variable>gsm_msg_upnp_must_num</variable>
+	</message>
+	<message>
+		<err_code>242</err_code>
+		<translation>должно быть больше 0 и меньше или равно 1440 минутам</translation>
+		<variable>gsm_msg_upnp_must_min_range</variable>
+	</message>
+	<message>
+		<err_code>243</err_code>
+		<translation>должно быть больше 0 и меньше или равно 255</translation>
+		<variable>gsm_msg_upnp_must_great_less</variable>
+	</message>
+	<message>
+		<err_code>244</err_code>
+		<translation>Поле не выбрано. [NEL]Щелкните кнопку переключателя, чтобы выбрать запись</translation>
+		<variable>gsm_msg_usb_no_sel_radio</variable>
+	</message>
+	<message>
+		<err_code>245</err_code>
+		<translation>Без общего доступа</translation>
+		<variable>gsm_msg_usb_not_shared</variable>
+	</message>
+	<message>
+		<err_code>246</err_code>
+		<translation>Порт</translation>
+		<variable>gsm_msg_usb_port</variable>
+	</message>
+	<message>
+		<err_code>247</err_code>
+		<translation>Недопустимый символ</translation>
+		<variable>gsm_msg_usb_inv_char_network_name</variable>
+	</message>
+	<message>
+		<err_code>248</err_code>
+		<translation>Эти значения будут удалены. Вы действительно хотите удалить их?</translation>
+		<variable>gsm_msg_usb_cfm_delete</variable>
+	</message>
+	<message>
+		<err_code>249</err_code>
+		<translation>Выберите опцию и нажмите Далее для продолжения процедуры.</translation>
+		<variable>gsm_msg_wiz_no_sel</variable>
+	</message>
+	<message>
+		<err_code>250</err_code>
+		<translation>Фраза-пароль состоит из 8-63 ASCII символов, либо ровно из 64 шестнадцатеричных цифр. К шестнадцатеричным относятся следующие символы: 0, 1, 2, ..., 8, 9, A, B, C, D, E, и F.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_63</variable>
+	</message>
+	<message>
+		<err_code>251</err_code>
+		<translation>Недопустимый символ для фразы-пароля</translation>
+		<variable>gsm_msg_wls_wpa_key_forbid</variable>
+	</message>
+	<message>
+		<err_code>252</err_code>
+		<translation>ВАЖНАЯ ИНФОРМАЦИЯ[NEL]WPA-PSK [TKIP] может функционировать только со скоростью передачи данных "До 54 Мбит/с", а не со скоростью режима N.Для обеспечения поддержки режима N (полная скорость передачи данных) компания NETGEAR рекомендует использовать WPA2-PSK [AES].</translation>
+		<variable>gsm_msg_wls_wpa_work_mode_warn</variable>
+	</message>
+	<message>
+		<err_code>253</err_code>
+		<translation>Введите от 1 до 128 символов (октетов) в поле общего секретного ключа RADIUS-сервера!</translation>
+		<variable>gsm_msg_wls_radius_key_val_len</variable>
+	</message>
+	<message>
+		<err_code>254</err_code>
+		<translation>Недопустимый символ</translation>
+		<variable>gsm_msg_not_printable</variable>
+	</message>
+	<message>
+		<err_code>255</err_code>
+		<translation>Имя устройства не может быть пустым</translation>
+		<variable>gsm_msg_dev_name_blank</variable>
+	</message>
+	<message>
+		<err_code>256</err_code>
+		<translation>Недопустимое имя устройства!</translation>
+		<variable>gsm_msg_dev_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>257</err_code>
+		<translation>Введите время бездействия перед отключением![NEL]</translation>
+		<variable>gsm_msg_idle_time_blank</variable>
+	</message>
+	<message>
+		<err_code>258</err_code>
+		<translation>Недопустимое время бездействия перед отключением, введите верное значение.</translation>
+		<variable>gsm_msg_idle_time_invalid</variable>
+	</message>
+	<message>
+		<err_code>259</err_code>
+		<translation>Недопустимый адрес сервера. Повторите попытку.[NEL]</translation>
+		<variable>gsm_msg_pptp_fqdn</variable>
+	</message>
+	<message>
+		<err_code>260</err_code>
+		<translation>Недопустимый адрес сервера. Повторите попытку.[NEL]</translation>
+		<variable>gsm_msg_pptp_server_addr_invalid</variable>
+	</message>
+	<message>
+		<err_code>261</err_code>
+		<translation>Недопустимый Мой IP-адрес. Повторите попытку или оставьте поле незаполненным.</translation>
+		<variable>gsm_msg_pptp_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>262</err_code>
+		<translation>Ошибка</translation>
+		<variable>gsm_msg_qos_rule_fail_parse</variable>
+	</message>
+	<message>
+		<err_code>263</err_code>
+		<translation>Онлайн игры</translation>
+		<variable>gsm_msg_qos_gaming</variable>
+	</message>
+	<message>
+		<err_code>264</err_code>
+		<translation>Текущая запись дублирует введенные данные, [NEL]перезаписать</translation>
+		<variable>gsm_msg_rev_confirm_overwrite</variable>
+	</message>
+	<message>
+		<err_code>265</err_code>
+		<translation>Чтобы заново установить соединение, нажмите кнопку &quot;Подключить&quot;.</translation>
+		<variable>gsm_msg_st_poe_disconnect_warning</variable>
+	</message>
+	<message>
+		<err_code>266</err_code>
+		<translation>Недопустимое значение начального/конечного порта.</translation>
+		<variable>gsm_msg_blk_serv_port_invalid</variable>
+	</message>
+	<message>
+		<err_code>267</err_code>
+		<translation>Недопустимое значение начального порта</translation>
+		<variable>gsm_msg_blk_serv_sport_invalid</variable>
+	</message>
+	<message>
+		<err_code>268</err_code>
+		<translation>Недопустимое значение конечного порта</translation>
+		<variable>gsm_msg_blk_serv_eport_invalid</variable>
+	</message>
+	<message>
+		<err_code>269</err_code>
+		<translation>Значение конечного порта должно быть больше или равно значению начального порта.</translation>
+		<variable>gsm_msg_blk_serv_port_range_err</variable>
+	</message>
+	<message>
+		<err_code>270</err_code>
+		<translation>Недопустимый тип определенной пользователем службы.</translation>
+		<variable>gsm_msg_blk_serv_type_invalid</variable>
+	</message>
+	<message>
+		<err_code>271</err_code>
+		<translation>Недопустимое имя службы!</translation>
+		<variable>gsm_msg_blk_serv_resv</variable>
+	</message>
+	<message>
+		<err_code>272</err_code>
+		<translation>Обнаружена дублированная служба!</translation>
+		<variable>gsm_msg_blk_serv_dup_detected</variable>
+	</message>
+	<message>
+		<err_code>273</err_code>
+		<translation>Недопустимый диапазон IP-адресов.</translation>
+		<variable>gsm_msg_blk_serv_ip_rng_err</variable>
+	</message>
+	<message>
+		<err_code>274</err_code>
+		<translation>Traffic Meter is Enabled in 'Connection time control' Mode.[NEL] Can't select DHCP and StaticIP Mode.</translation>
+		<variable>gsm_msg_tm_en_wan_mode_error</variable>
+	</message>
+	<message>
+		<err_code>275</err_code>
+		<translation>Допустимый диапазон для интервала запросов – от 5 до 86 400 секунд. </translation>
+		<variable>gsm_msg_tm_intvl_err</variable>
+	</message>
+	<message>
+		<err_code>276</err_code>
+		<translation>Месячное ограничение счетчика трафика (</translation>
+		<variable>gsm_msg_tm_limnit_sub1</variable>
+	</message>
+	<message>
+		<err_code>277</err_code>
+		<translation>достигнуто.</translation>
+		<variable>gsm_msg_tm_limnit_sub2</variable>
+	</message>
+	<message>
+		<err_code>278</err_code>
+		<translation>Показания вашего счетчик трафика составляют </translation>
+		<variable>gsm_msg_tm_water_mark_sub1</variable>
+	</message>
+	<message>
+		<err_code>279</err_code>
+		<translation>до достижения месячного ограничения.</translation>
+		<variable>gsm_msg_tm_water_mark_sub2</variable>
+	</message>
+	<message>
+		<err_code>280</err_code>
+		<translation>МБайт</translation>
+		<variable>gsm_msg_mbytes</variable>
+	</message>
+	<message>
+		<err_code>281</err_code>
+		<translation> минут.</translation>
+		<variable>gsm_msg_minutes</variable>
+	</message>
+	<message>
+		<err_code>282</err_code>
+		<translation>Часы</translation>
+		<variable>gsm_msg_hours</variable>
+	</message>
+	<message>
+		<err_code>283</err_code>
+		<translation>Дни</translation>
+		<variable>gsm_msg_days</variable>
+	</message>
+	<message>
+		<err_code>284</err_code>
+		<translation>Недопустимое числовое значение для месячного ограничения.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_vol</variable>
+	</message>
+	<message>
+		<err_code>285</err_code>
+		<translation>Недопустимое числовое значение для месячного ограничения.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_time</variable>
+	</message>
+	<message>
+		<err_code>286</err_code>
+		<translation>Для времени сброса счетчика трафика указано недопустимое значение часов.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_hour</variable>
+	</message>
+	<message>
+		<err_code>287</err_code>
+		<translation>Для времени сброса счетчика трафика указано недопустимое значение минут.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_min</variable>
+	</message>
+	<message>
+		<err_code>288</err_code>
+		<translation>Traffic meter reset Day of Month</translation>
+		<variable>gsm_msg_tm_rst_day</variable>
+	</message>
+	<message>
+		<err_code>289</err_code>
+		<translation>Недопустимое числовое значение для &quot;водяного знака&quot; в контроле трафика.[NEL]</translation>
+		<variable>gsm_msg_tm_water_mark</variable>
+	</message>
+	<message>
+		<err_code>290</err_code>
+		<translation>Округленное значение должно быть меньше месячного ограничения.[NEL]</translation>
+		<variable>gsm_msg_tm_rd_vol</variable>
+	</message>
+	<message>
+		<err_code>291</err_code>
+		<translation>Округленное значение должно быть меньше месячного ограничения.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err1</variable>
+	</message>
+	<message>
+		<err_code>292</err_code>
+		<translation>Значение &quot;водяного знака&quot; должно быть меньше месячного ограничения.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err2</variable>
+	</message>
+	<message>
+		<err_code>293</err_code>
+		<translation>Значение &quot;водяного знака&quot; должно быть меньше месячного ограничения.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err3</variable>
+	</message>
+	<message>
+		<err_code>294</err_code>
+		<translation>Time of restart traffic counter changed. It will clear the Traffic Statistics</translation>
+		<variable>gsm_msg_tm_counter_chg_confm</variable>
+	</message>
+	<message>
+		<err_code>295</err_code>
+		<translation>Достигнуто максимальное количество элементов списка доступа</translation>
+		<variable>gsm_msg_m_accs_client_max_num</variable>
+	</message>
+	<message>
+		<err_code>296</err_code>
+		<translation>Выполняется процесс WPS, примените изменения позже.</translation>
+		<variable>gsm_msg_wps_in_prog_warn</variable>
+	</message>
+	<message>
+		<err_code>297</err_code>
+		<translation>Введите MAC-адрес базовой станции!</translation>
+		<variable>gsm_msg_wds_station_mac</variable>
+	</message>
+	<message>
+		<err_code>298</err_code>
+		<translation>Введите MAC-адрес ретранслятора!</translation>
+		<variable>gsm_msg_wds_repeater_mac</variable>
+	</message>
+	<message>
+		<err_code>299</err_code>
+		<translation>Значение времени ожидания инициирования порта не может быть неопределенным!</translation>
+		<variable>gsm_msg_pft_timeout_null</variable>
+	</message>
+	<message>
+		<err_code>300</err_code>
+		<translation>Недопустимый IP-адрес шлюза. Повторите попытку!</translation>
+		<variable>gsm_msg_pptp_gw_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>301</err_code>
+		<translation>Недопустимое имя хоста!</translation>
+		<variable>gsm_msg_ddns_host_invalid</variable>
+	</message>
+	<message>
+		<err_code>302</err_code>
+		<translation>Недопустимый альтернативный DNS-адрес. Повторите попытку![NEL]</translation>
+		<variable>gsm_msg_two_fix_dns_same_err</variable>
+	</message>
+	<message>
+		<err_code>303</err_code>
+		<translation>Недопустимый символ или символы в</translation>
+		<variable>gsm_msg_inc_colon_err</variable>
+	</message>
+	<message>
+		<err_code>304</err_code>
+		<translation>Недопустимый для SSID символ</translation>
+		<variable>gsm_msg_inv_ssid</variable>
+	</message>
+	<message>
+		<err_code>305</err_code>
+		<translation>Достигнуто максимальное количество элементов списка доступа</translation>
+		<variable>gsm_msg_wl_acl_tbl_full</variable>
+	</message>
+	<message>
+		<err_code>306</err_code>
+		<translation>Недопустимое имя службы. Имя может включать только буквы, цифры, '_' и '-'</translation>
+		<variable>gsm_msg_FW_char_not_alw_sev_nm</variable>
+	</message>
+	<message>
+		<err_code>307</err_code>
+		<translation>Адрес начального порта должен иметь значение менее 65535</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>308</err_code>
+		<translation>Адрес конечного порта должен иметь значение менее 65535</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>309</err_code>
+		<translation>Адрес начального порта должен иметь значение более 1</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>310</err_code>
+		<translation>Адрес конечного порта должен иметь значение более 1</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>311</err_code>
+		<translation>Значение конечного порта должно быть больше или равно значению начального порта.</translation>
+		<variable>gsm_msg_FW_st_port_mst_ls_nd_post_ad</variable>
+	</message>
+	<message>
+		<err_code>312</err_code>
+		<translation>Ошибка: недопустимый адрес сервера SMTP</translation>
+		<variable>gsm_msg_mail_inv_smtp_address</variable>
+	</message>
+	<message>
+		<err_code>ALSE04</err_code>
+		<translation>Недопустимый конечный и начальный IP-адрес DHCP. Повторите попытку![NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_ip</variable>
+	</message>
+	<message>
+		<err_code>m_defkey</err_code>
+		<translation>[NEL]Требуется ключ по умолчанию. Другие ключи являются необязательными</translation>
+		<variable>gsm_defkey</variable>
+	</message>
+	<message>
+		<err_code>APPE02</err_code>
+		<translation>Адрес конечного порта должен иметь значение менее 65535</translation>
+		<variable>gsm_appe02</variable>
+	</message>
+	<message>
+		<err_code>AQSE05</err_code>
+		<translation>Введите имя политики QoS!</translation>
+		<variable>gsm_qos_blnk</variable>
+	</message>
+	<message>
+		<err_code>APPE13</err_code>
+		<translation>Недопустимое </translation>
+		<variable>gsm_invalid</variable>
+	</message>
+	<message>
+		<err_code>APPE14</err_code>
+		<translation>Недопустимый диапазон порта входящего соединения[NEL]</translation>
+		<variable>gsm_inv_in_port_range</variable>
+	</message>
+	<message>
+		<err_code>10101</err_code>
+		<translation>%s is NULL</translation>
+		<variable>10101</variable>
+	</message>
+	<message>
+		<err_code>10201</err_code>
+		<translation>This service is used by the rules function, you can not edit/delete it! Please delete corresponding rules first.</translation>
+		<variable>10201</variable>
+	</message>
+	<message>
+		<err_code>10202</err_code>
+		<translation>Значение имени службы не может быть неопределенным!</translation>
+		<variable>10202</variable>
+	</message>
+	<message>
+		<err_code>10203</err_code>
+		<translation>Имя службы уже используется.</translation>
+		<variable>10203</variable>
+	</message>
+	<message>
+		<err_code>10204</err_code>
+		<translation>User defined Service is full</translation>
+		<variable>10204</variable>
+	</message>
+	<message>
+		<err_code>10205</err_code>
+		<translation>Rule table is full!</translation>
+		<variable>10205</variable>
+	</message>
+	<message>
+		<err_code>10206</err_code>
+		<translation>Заблокированная служба уже существует!</translation>
+		<variable>10206</variable>
+	</message>
+	<message>
+		<err_code>10207</err_code>
+		<translation>Выберите элемент для удаления.</translation>
+		<variable>10207</variable>
+	</message>
+	<message>
+		<err_code>10208</err_code>
+		<translation>Неправильный номер порта, он должен находиться в диапазоне от 1 до 65534</translation>
+		<variable>10208</variable>
+	</message>
+	<message>
+		<err_code>10209</err_code>
+		<translation>Порт службы уже используется другой службой.</translation>
+		<variable>10209</variable>
+	</message>
+	<message>
+		<err_code>10210</err_code>
+		<translation>Маршрутизатор поддерживает только 20 правил служб!</translation>
+		<variable>10210</variable>
+	</message>
+	<message>
+		<err_code>10211</err_code>
+		<translation>Outbound rule is full!</translation>
+		<variable>10211</variable>
+	</message>
+	<message>
+		<err_code>10212</err_code>
+		<translation>Inbound rule is full!</translation>
+		<variable>10212</variable>
+	</message>
+	<message>
+		<err_code>10213</err_code>
+		<translation>Invalid position!</translation>
+		<variable>10213</variable>
+	</message>
+	<message>
+		<err_code>10214</err_code>
+		<translation>Недопустимый символ в ключевом слове</translation>
+		<variable>10214</variable>
+	</message>
+	<message>
+		<err_code>10216</err_code>
+		<translation>Недостаточно места для добавления новых ключевых слов.</translation>
+		<variable>10216</variable>
+	</message>
+	<message>
+		<err_code>10217</err_code>
+		<translation>Недопустимый ввод времени.</translation>
+		<variable>10217</variable>
+	</message>
+	<message>
+		<err_code>10218</err_code>
+		<translation>Дублировать имя службы!</translation>
+		<variable>10218</variable>
+	</message>
+	<message>
+		<err_code>10219</err_code>
+		<translation>Недопустимый символ в ключевом слове</translation>
+		<variable>10219</variable>
+	</message>
+	<message>
+		<err_code>10701</err_code>
+		<translation>Этот файл микрокода не подходит! Загрузите файл микрокода повторно и убедитесь, что он соответствует данному изделию.</translation>
+		<variable>10701</variable>
+	</message>
+	<message>
+		<err_code>10702</err_code>
+		<translation>Недостаточно памяти для обновления микропрограммного обеспечения</translation>
+		<variable>10702</variable>
+	</message>
+	<message>
+		<err_code>10703</err_code>
+		<translation>Не удалось обновить микропрограммное обеспечение</translation>
+		<variable>10703</variable>
+	</message>
+	<message>
+		<err_code>10704</err_code>
+		<translation>Происходит обновление микропрограммного обеспечения маршрутизатора. Подождите</translation>
+		<variable>10704</variable>
+	</message>
+	<message>
+		<err_code>10804</err_code>
+		<translation>Недопустимое время бездействия перед отключением, введите верное значение.</translation>
+		<variable>10804</variable>
+	</message>
+	<message>
+		<err_code>11004</err_code>
+		<translation>IP-адрес должен быть в диапазоне DHCP </translation>
+		<variable>11004</variable>
+	</message>
+	<message>
+		<err_code>11006</err_code>
+		<translation>Зарезервированный IP-адрес не может совпадать с IP-адресом локальной сети маршрутизатора.</translation>
+		<variable>11006</variable>
+	</message>
+	<message>
+		<err_code>11009</err_code>
+		<translation>Недопустимая маска сети. Повторите попытку![NEL]</translation>
+		<variable>11009</variable>
+	</message>
+	<message>
+		<err_code>11010</err_code>
+		<translation>Введите команду ipconfig /release и ipconfig /renew, введите новый IP-адрес в браузере, чтобы снова получить доступ к графическому интерфейсу пользователя, если IP-адрес, принадлежащий подсети локальной сети, будет изменен.</translation>
+		<variable>11010</variable>
+	</message>
+	<message>
+		<err_code>11011</err_code>
+		<translation>Warning!DHCP subnet has been changed.</translation>
+		<variable>11011</variable>
+	</message>
+	<message>
+		<err_code>11012</err_code>
+		<translation>Такое имя устройства уже существует!</translation>
+		<variable>11012</variable>
+	</message>
+	<message>
+		<err_code>11013</err_code>
+		<translation>Для предотвращения конфликта с Интернет-провайдером IP-адрес маршрутизатора был обновлен на </translation>
+		<variable>11013</variable>
+	</message>
+	<message>
+		<err_code>11014</err_code>
+		<translation>Теперь необходимо обновить IP-адреса в настройках  каждой соответствующей службы маршрутизатора, например переадресации порта и резервирования IP-адреса.</translation>
+		<variable>11014</variable>
+	</message>
+	<message>
+		<err_code>11101</err_code>
+		<translation>Недопустимый диапазон IP-адресов.</translation>
+		<variable>11101</variable>
+	</message>
+	<message>
+		<err_code>11102</err_code>
+		<translation>Недопустимая метрика!</translation>
+		<variable>11102</variable>
+	</message>
+	<message>
+		<err_code>11103</err_code>
+		<translation>Недопустимый IP-адрес шлюза. Повторите попытку!</translation>
+		<variable>11103</variable>
+	</message>
+	<message>
+		<err_code>11104</err_code>
+		<translation>Введите имя маршрута!</translation>
+		<variable>11104</variable>
+	</message>
+	<message>
+		<err_code>11105</err_code>
+		<translation>Недостаточно места для добавления статических маршрутов.</translation>
+		<variable>11105</variable>
+	</message>
+	<message>
+		<err_code>11107</err_code>
+		<translation>Данное имя маршрута уже существует!</translation>
+		<variable>11107</variable>
+	</message>
+	<message>
+		<err_code>11108</err_code>
+		<translation>Данное условия маршрута уже существуют!</translation>
+		<variable>11108</variable>
+	</message>
+	<message>
+		<err_code>11109</err_code>
+		<translation>Шлюз должен находится в одной подсети с Интернет-портом или локальной сетью!</translation>
+		<variable>11109</variable>
+	</message>
+	<message>
+		<err_code>11901</err_code>
+		<translation>Введенные пароли не совпадают, повторите попытку:</translation>
+		<variable>11901</variable>
+	</message>
+	<message>
+		<err_code>11902</err_code>
+		<translation>Максимальная длина пароля – 32 символа!</translation>
+		<variable>11902</variable>
+	</message>
+	<message>
+		<err_code>11903</err_code>
+		<translation>Неправильный старый пароль.</translation>
+		<variable>11903</variable>
+	</message>
+	<message>
+		<err_code>11904</err_code>
+		<translation>Неправильное время простоя. Не должно превышать 99 мин.</translation>
+		<variable>11904</variable>
+	</message>
+	<message>
+		<err_code>11905</err_code>
+		<translation>Недопустимый пароль</translation>
+		<variable>11905</variable>
+	</message>
+	<message>
+		<err_code>11906</err_code>
+		<translation>Неправильный старый пароль.</translation>
+		<variable>11906</variable>
+	</message>
+	<message>
+		<err_code>12001</err_code>
+		<translation>Введите имя выбранной беспроводной карты.</translation>
+		<variable>12001</variable>
+	</message>
+	<message>
+		<err_code>12002</err_code>
+		<translation>Достигнуто максимальное количество элементов списка доступа</translation>
+		<variable>12002</variable>
+	</message>
+	<message>
+		<err_code>12003</err_code>
+		<translation>Регистрационное имя не должно содержать более 32 символов</translation>
+		<variable>12003</variable>
+	</message>
+	<message>
+		<err_code>12004</err_code>
+		<translation>Значение имени службы не может быть неопределенным!</translation>
+		<variable>12004</variable>
+	</message>
+	<message>
+		<err_code>12005</err_code>
+		<translation>Недопустимый MAC-адрес</translation>
+		<variable>12005</variable>
+	</message>
+	<message>
+		<err_code>12006</err_code>
+		<translation>Недопустимый MAC-адрес</translation>
+		<variable>12006</variable>
+	</message>
+	<message>
+		<err_code>12007</err_code>
+		<translation>Недопустимый MAC-адрес</translation>
+		<variable>12007</variable>
+	</message>
+	<message>
+		<err_code>12008</err_code>
+		<translation>IP-адрес должен находиться в диапазоне [%s , %s].</translation>
+		<variable>12008</variable>
+	</message>
+	<message>
+		<err_code>12010</err_code>
+		<translation>SSID name too long, must less than 32 characters!</translation>
+		<variable>12010</variable>
+	</message>
+	<message>
+		<err_code>12011</err_code>
+		<translation>Такой MAC-адрес уже существует!</translation>
+		<variable>12011</variable>
+	</message>
+	<message>
+		<err_code>12012</err_code>
+		<translation>Введенный WEP-ключ недействителен.</translation>
+		<variable>12012</variable>
+	</message>
+	<message>
+		<err_code>12013</err_code>
+		<translation>Такое имя SSID уже существует, введите другое.</translation>
+		<variable>12013</variable>
+	</message>
+	<message>
+		<err_code>12015</err_code>
+		<translation>Недопустимый для SSID символ</translation>
+		<variable>12015</variable>
+	</message>
+	<message>
+		<err_code>12016</err_code>
+		<translation>Недопустимый IP-адрес ретранслятора</translation>
+		<variable>12016</variable>
+	</message>
+	<message>
+		<err_code>12101</err_code>
+		<translation>Указанный(ые) порт(ы) используе(ю)тся другими настройками. Проверьте настройки удаленного управления, переадресации портов, инициирования портов, таблицы сопоставления портов UPnP, RIP и типа соединения с Интернетом.</translation>
+		<variable>12101</variable>
+	</message>
+	<message>
+		<err_code>12102</err_code>
+		<translation>Конфликт порта с другим правилом.</translation>
+		<variable>12102</variable>
+	</message>
+	<message>
+		<err_code>12301</err_code>
+		<translation>USB Share Nework Folder is full.</translation>
+		<variable>12301</variable>
+	</message>
+	<message>
+		<err_code>12302</err_code>
+		<translation>Это имя общего ресурса уже существует, измените его.</translation>
+		<variable>12302</variable>
+	</message>
+	<message>
+		<err_code>12303</err_code>
+		<translation>Диск отсутствует</translation>
+		<variable>12303</variable>
+	</message>
+	<message>
+		<err_code>12304</err_code>
+		<translation>No Volume Name</translation>
+		<variable>12304</variable>
+	</message>
+	<message>
+		<err_code>12305</err_code>
+		<translation>Сейчас это устройство не может быть остановлено. Попытайтесь остановить это устройство еще раз позже.</translation>
+		<variable>12305</variable>
+	</message>
+	<message>
+		<err_code>12306</err_code>
+		<translation>Теперь вы можете отключить это устройство.</translation>
+		<variable>12306</variable>
+	</message>
+	<message>
+		<err_code>12307</err_code>
+		<translation>Папка отсутствует в USB-устройстве.</translation>
+		<variable>12307</variable>
+	</message>
+	<message>
+		<err_code>12401</err_code>
+		<translation>Мршрутизатор поддерживает правила инициирования только для 20 портов!</translation>
+		<variable>12401</variable>
+	</message>
+	<message>
+		<err_code>12402</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>12402</variable>
+	</message>
+	<message>
+		<err_code>12403</err_code>
+		<translation>Дублировать имя службы!</translation>
+		<variable>12403</variable>
+	</message>
+	<message>
+		<err_code>12404</err_code>
+		<translation>Наложение диапазонов портов входящего соединения и других служб.</translation>
+		<variable>12404</variable>
+	</message>
+	<message>
+		<err_code>12405</err_code>
+		<translation>Порт для инициирования уже используется другой службой.</translation>
+		<variable>12405</variable>
+	</message>
+	<message>
+		<err_code>12501</err_code>
+		<translation>Мршрутизатор поддерживает правила инициирования только для 64 портов!</translation>
+		<variable>12501</variable>
+	</message>
+	<message>
+		<err_code>12502</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>12502</variable>
+	</message>
+	<message>
+		<err_code>12503</err_code>
+		<translation>Имя службы уже используется.</translation>
+		<variable>12503</variable>
+	</message>
+	<message>
+		<err_code>12504</err_code>
+		<translation>Порт службы уже используется другой службой.</translation>
+		<variable>12504</variable>
+	</message>
+	<message>
+		<err_code>12601</err_code>
+		<translation>Таблица политик VPN заполнена</translation>
+		<variable>12601</variable>
+	</message>
+	<message>
+		<err_code>12602</err_code>
+		<translation>Имя политики уже существует</translation>
+		<variable>12602</variable>
+	</message>
+	<message>
+		<err_code>12603</err_code>
+		<translation>Warning! %s IP range is not supported changed to %s - %s</translation>
+		<variable>12603</variable>
+	</message>
+	<message>
+		<err_code>12604</err_code>
+		<translation>Ошибка! Невозможно сохранить данные.[NEL]Только одна политика VPN может использовать динамический IP-адрес для[NEL]удаленного клиента.[NEL]Можно сохранить несколько политик, но их одновременное включение невозможно</translation>
+		<variable>12604</variable>
+	</message>
+	<message>
+		<err_code>12605</err_code>
+		<translation>Ошибка! Невозможно сохранить данные. Только одна политика VPN может использовать параметр "ЛЮБОЙ IP-адрес" для локальной LAN и удаленной LAN.</translation>
+		<variable>12605</variable>
+	</message>
+	<message>
+		<err_code>12606</err_code>
+		<translation>Недопустимая маска удаленной LAN</translation>
+		<variable>12606</variable>
+	</message>
+	<message>
+		<err_code>12607</err_code>
+		<translation>Недопустимая маска локальной LAN</translation>
+		<variable>12607</variable>
+	</message>
+	<message>
+		<err_code>13001</err_code>
+		<translation>Указанный(ые) порт(ы) используе(ю)тся другими настройками. Проверьте настройки удаленного управления, переадресации портов, инициирования портов, таблицы сопоставления портов UPnP, RIP и типа соединения с Интернетом.</translation>
+		<variable>13001</variable>
+	</message>
+	<message>
+		<err_code>13002</err_code>
+		<translation>Указанный(ые) порт(ы) используется(ются) системой. Настройка вступит в силу после перезагрузки маршрутизатора. Выключите маршрутизатор, затем включите снова, чтобы перезапустить его.</translation>
+		<variable>13002</variable>
+	</message>
+	<message>
+		<err_code>13101</err_code>
+		<translation>Служба динамического DNS отключена.</translation>
+		<variable>13101</variable>
+	</message>
+	<message>
+		<err_code>13102</err_code>
+		<translation>%s успешно обновлен в %s.</translation>
+		<variable>13102</variable>
+	</message>
+	<message>
+		<err_code>13103</err_code>
+		<translation>Отсутствует действие обновления. У Интернет-порта отсутствует IP-адрес.</translation>
+		<variable>13103</variable>
+	</message>
+	<message>
+		<err_code>13104</err_code>
+		<translation>Сбой аутентификации. Неверное имя пользователя/пароль.</translation>
+		<variable>13104</variable>
+	</message>
+	<message>
+		<err_code>13105</err_code>
+		<translation>Не удалось выполнить обновление. Неверное имя хоста.</translation>
+		<variable>13105</variable>
+	</message>
+	<message>
+		<err_code>13106</err_code>
+		<translation>Не удалось обновить в %s.</translation>
+		<variable>13106</variable>
+	</message>
+	<message>
+		<err_code>13107</err_code>
+		<translation>Нет доступа к Интернету.</translation>
+		<variable>13107</variable>
+	</message>
+	<message>
+		<err_code>13201</err_code>
+		<translation>Отсутствует подключение к Интернету</translation>
+		<variable>13201</variable>
+	</message>
+	<message>
+		<err_code>13202</err_code>
+		<translation>Шлюз не реагирует на эхо-запрос или трассировку</translation>
+		<variable>13202</variable>
+	</message>
+	<message>
+		<err_code>13301</err_code>
+		<translation>Warning. The server ip and local ip are not in the same subnet.</translation>
+		<variable>13301</variable>
+	</message>
+		<message>
+		<err_code>13302</err_code>
+		<translation>Недопустимая учетная запись.[NEL]</translation>
+		<variable>gsm_msg_account_invalid</variable>
+	</message>
+		<message>
+		<err_code>13303</err_code>
+		<translation>Недопустимое имя домена.[NEL]</translation>
+		<variable>gsm_msg_domain_invalid</variable>
+	</message>
+	<message>
+		<err_code>13304</err_code>
+		<translation>Сбросить счетчик?</translation>
+		<variable>gsm_msg_tm_reset</variable>
+	</message>
+	<message>
+		<err_code>13401</err_code>
+		<translation>Не выбрано ни одного элемента!</translation>
+		<variable>gsm_msg_gd_action</variable>
+	</message>
+	<message>
+		<err_code>13402</err_code>
+		<translation>No item!</translation>
+		<variable>gsm_msg_gd_rm_tab</variable>
+	</message>
+	<message>
+		<err_code>13403</err_code>
+		<translation>Скорость загрузки</translation>
+		<variable>gsm_msg_gd_down_speed</variable>
+	</message>
+	<message>
+		<err_code>13404</err_code>
+		<translation>Скорость передачи</translation>
+		<variable>gsm_msg_gd_up_speed</variable>
+	</message>
+	<message>
+		<err_code>13405</err_code>
+		<translation>Максимальное число задач загрузки</translation>
+		<variable>gsm_msg_gd_max_task_num</variable>
+	</message>
+	<message>
+		<err_code>13408</err_code>
+		<translation>Введите действительный FTP/HTTP URL-адрес для загружаемой ссылки.</translation>
+		<variable>gsm_msg_gd_ftp_valid_add</variable>
+	</message>
+	<message>
+		<err_code>13410</err_code>
+		<translation>Торрент-файлы не выбраны!</translation>
+		<variable>gsm_msg_gd_bt_file_sel</variable>
+	</message>
+	<message>
+		<err_code>13411</err_code>
+		<translation>Назначьте правильный файл. Формат файла –*.</translation>
+		<variable>gsm_msg_gd_bt_file_format</variable>
+	</message>
+	<message>
+		<err_code>13413</err_code>
+		<translation>Файл уже существует !</translation>
+		<variable>13413</variable>
+	</message>
+	<message>
+		<err_code>13414</err_code>
+		<translation>USB BT torrent path invliad!</translation>
+		<variable>13414</variable>
+	</message>
+	<message>
+		<err_code>13415</err_code>
+		<translation>URL-адрес уже существует!</translation>
+		<variable>13415</variable>
+	</message>
+	<message>
+		<err_code>13416</err_code>
+		<translation>Достигнуто макс. количество задач!</translation>
+		<variable>13416</variable>
+	</message>
+	<message>
+		<err_code>13417</err_code>
+		<translation>Недействительный торрент-файл или ссылка. Убедитесь, что выбран действительный торрент-файл.</translation>
+		<variable>13417</variable>
+	</message>
+	<message>
+		<err_code>13418</err_code>
+		<translation>Файловая система FAT (текущий формат USB-накопителя) поддерживает файлы размером не более 4 ГБ!</translation>
+		<variable>13418</variable>
+	</message>
+	<message>
+		<err_code>13419</err_code>
+		<translation>Недостаточно места. Требуется больше места на диске.Повторить попытку?</translation>
+		<variable>13419</variable>
+	</message>
+	<message>
+		<err_code>13420</err_code>
+		<translation>Add task fail!</translation>
+		<variable>13420</variable>
+	</message>
+	<message>
+		<err_code>13421</err_code>
+		<translation>Сначала выберите опцию.</translation>
+		<variable>bh_select_an_option</variable>
+	</message>
+	<message>
+		<err_code>13422</err_code>
+		<translation>Имя пользователя не может быть пустым!</translation>
+		<variable>bh_login_name_null</variable>
+	</message>
+	<message>
+		<err_code>13423</err_code>
+		<translation>Недопустимый пароль</translation>
+		<variable>bh_password_error</variable>
+	</message>
+	<message>
+		<err_code>13424</err_code>
+		<translation>Введите продолжительность паузы.[NEL]</translation>
+		<variable>bh_idle_time_null</variable>
+	</message>
+	<message>
+		<err_code>13425</err_code>
+		<translation>Недопустимое время ожидания перед отключением. Введите верное значение.[NEL]</translation>
+		<variable>bh_invalid_idle_time</variable>
+	</message>
+	<message>
+		<err_code>13426</err_code>
+		<translation>Недопустимый Мой IP-адрес. Повторите попытку или оставьте поле незаполненным.</translation>
+		<variable>bh_invalid_myip</variable>
+	</message>
+	<message>
+		<err_code>13427</err_code>
+		<translation>Недопустимый IP-адрес шлюза. Повторите попытку!</translation>
+		<variable>bh_invalid_gateway</variable>
+	</message>
+	<message>
+		<err_code>13428</err_code>
+		<translation>Компьютер не обеспечивает поддержку принтера.</translation>
+		<variable>bh_not_support_print</variable>
+	</message>
+	<message>
+		<err_code>13429</err_code>
+		<translation>Введите имя файла!</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13430</err_code>
+		<translation>Назначьте правильный файл. Формат файла –*.</translation>
+		<variable>bh_not_correct_file</variable>
+	</message>
+	<message>
+		<err_code>13431</err_code>
+		<translation>Недопустимый IP-адрес. Повторите попытку!</translation>
+		<variable>bh_invalid_ip</variable>
+	</message>
+	<message>
+		<err_code>13432</err_code>
+		<translation>Недопустимая маска сети. Повторите попытку![NEL]</translation>
+		<variable>bh_invalid_mask</variable>
+	</message>
+	<message>
+		<err_code>13433</err_code>
+		<translation>IP-адреса локальной сети и Интернет-порта не должны находиться в одной подсети![NEL]</translation>
+		<variable>bh_same_lan_wan_subnet</variable>
+	</message>
+	<message>
+		<err_code>13434</err_code>
+		<translation>Введите имя файла!</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13435</err_code>
+		<translation>Настройка подключения к Интернету требует знаний в области сетевых технологий. Вы уверены?</translation>
+		<variable>bh_no_genie_help_confirm</variable>
+	</message>
+	<message>
+		<err_code>13436</err_code>
+		<translation>Предупреждение![NEL]При восстановлении параметров с помощью файла настройки все текущие параметры будут утеряны.[NEL]Продолжить?</translation>
+		<variable>bh_ask_for_restore</variable>
+	</message>
+	<message>
+		<err_code>13437</err_code>
+		<translation>Please do not use the directory as save path.</translation>
+		<variable>gsm_msg_gd_unexpect_path</variable>
+	</message>
+	<message>
+		<err_code>13438</err_code>
+		<translation>Недопустимый MAC-адрес, Повторите попытку.</translation>
+		<variable>gsm_msg_invalid_mac</variable>
+	</message>
+	<message>
+		<err_code>13439</err_code>
+		<translation>Нет USB-накопителя</translation>
+		<variable>13439</variable>
+	</message>
+		<message>
+		<err_code>13440</err_code>
+		<translation>Выберите вопрос.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13441</err_code>
+		<translation>Введите ответ для каждого вопроса.</translation>
+		<variable>gsm_msg_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13442</err_code>
+		<translation>Введенная информация не совпадает с информацией, сохраненной на маршрутизаторе. Повторите попытку ввода.</translation>
+		<variable>gsm_msg_rsave_not_match</variable>
+	</message>
+	<message>
+		<err_code>13443</err_code>
+		<translation>Выберите надлежащий файл настроек.</translation>
+		<variable>gsm_msg_restore_fail</variable>
+	</message>
+	<message>
+		<err_code>13444</err_code>
+		<translation>При перезагрузке маршрутизатора активный трафик в сети может быть нарушен. Вы уверены?</translation>
+		<variable>gsm_msg_confirm_reboot</variable>
+	</message>
+    <message>
+		<err_code>13445</err_code>
+		<translation>Маршрутизатор поддерживает только до 21 периода. </translation>
+		<variable>13445</variable>
+	    </message>
+	    <message>
+        <err_code>13446</err_code>
+        <translation>Убедитесь, что хотя бы одно устройство добавлено в таблицу. В противном случае, при активации функции IP-MAC Binding ни одно устройство не будет иметь доступ в Интернет.</translation>
+        <variable>gsm_msg_ipmac_warning</variable>
+    </message>
+    <message>
+		<err_code>13447</err_code>
+		<translation>This page is disabled because the Broadband settings is using only Mobile Broadband connection. To enable Ethernet connection, please first go to Broadband Settings page and change the settings.</translation>
+		<variable>eth_page_gray_setting</variable>
+	</message>
+	<message>
+		<err_code>13448</err_code>
+		<translation>Примечание. Чтобы открыть доступ к вашим файлам через DLNA/UPnP AV с использованием функции медиасервера, по крайней мере у одной из общих папок должен быть настроен доступ для чтения с параметром "Все – без пароля"</translation>
+		<variable>gsm_msg_usb_no_read_access</variable>
+	</message>
+	<message>
+		<err_code>13449</err_code>
+		<translation>Если последнее устройство будет удалено из списка, ни одно устройство больше не сможет получить доступ к интерфейсу маршрутизатора.</translation>
+		<variable>gsm_msg_ipmacdelete_warning</variable>
+	</message>
+    <message>
+		<err_code>13450</err_code>
+		<translation>Если правило будет задано неправильно, ни одно устройство не сможет получить доступ к интерфейсу маршрутизатора.</translation>
+		<variable>gsm_msg_ipmacedit_warning</variable>
+	</message>
+	<message>
+		<err_code>13452</err_code>
+		<translation>Несовместимый торрент-файл. Этот торрент-файл не поддерживается клиентом BT.</translation>
+		<variable>13452</variable>
+	</message>
+	<message>
+		<err_code>13453</err_code>
+		<translation>BT инициализируется, пожалуйста подождите завершения процесса</translation>
+		<variable>13453</variable>
+	</message>
+	<message>
+		<err_code>13454</err_code>
+		<translation>Неверный URL-адрес. Невозможно загрузить торрент-файл.</translation>
+		<variable>13454</variable>
+	</message>
+	<message>
+		<err_code>13502</err_code>
+		<translation>Аутентификация для систем безопасности WEP или WPA-PSK [TKIP] не может работать с WPS. Функция WPS будет недоступна. Продолжить?</translation>
+		<variable>gsm_msg_wep_wpa_conflict_wps</variable>
+	</message>
+	<message>
+		<err_code>13503</err_code>
+		<translation>Для функционирования WPS требуется трансляция SSID. Если выполнить это изменение, функция WPS станет недоступна. Продолжить?</translation>
+		<variable>gsm_msg_wps_need_ssid_broadcast</variable>
+	</message>
+	<message>
+		<err_code>13504</err_code>
+		<translation>Вы действительно не хотите обеспечить безопасность вашей беспроводной сети? Этот параметр обычно используется для общедоступных зон беспроводного доступа. Продолжить?</translation>
+		<variable>gsm_msg_wireless_none_security</variable>
+	</message>
+	<message>
+		<err_code>13550</err_code>
+		<translation>Не сконфигурирован идентификатор VLAN.</translation>
+		<variable>gsm_msg_vlan_no_vid_configured</variable>
+	</message>
+	<message>
+		<err_code>13551</err_code>
+		<translation>Неверное значение параметра 802.1p</translation>
+		<variable>gsm_msg_vlan_incorrect_8021p</variable>
+	</message>
+	<message>
+		<err_code>13552</err_code>
+		<translation>Неверное значение идентификатора VLAN; корректные значения в диапазоне 1–4094.</translation>
+		<variable>gsm_msg_vlan_incorrect_vid</variable>
+	</message>
+	<message>
+		<err_code>13553</err_code>
+		<translation>Имя группы</translation>
+		<variable>gsm_msg_vlan_group_name</variable>
+	</message>
+	<message>
+		<err_code>13554</err_code>
+		<translation>уже существует.</translation>
+		<variable>gsm_msg_vlan_already_exist</variable>
+	</message>
+	<message>
+		<err_code>13555</err_code>
+		<translation>ТРЕБУЕТСЯ выбрать хотя бы один порт.</translation>
+		<variable>gsm_msg_vlan_port_need_checked</variable>
+	</message>
+	<message>
+		<err_code>13556</err_code>
+		<translation>ТРЕБУЕТСЯ снять флажок хотя бы для одного порта.</translation>
+		<variable>gsm_msg_vlan_port_need_unchecked</variable>
+	</message>
+	<message>
+		<err_code>13557</err_code>
+		<translation>Невозможно создать дополнительные группы; максимальное число групп равно 10.</translation>
+		<variable>gsm_msg_vlan_group_num_overflow</variable>
+	</message>
+	<message>
+		<err_code>13558</err_code>
+		<translation>Невозможно включить дополнительные группы; максимальное число групп равно 6.</translation>
+		<variable>gsm_msg_vlan_group_enable_overflow</variable>
+	</message>
+	<message>
+		<err_code>13559</err_code>
+		<translation>Имя группы должно содержать не более 10 символов.</translation>
+		<variable>gsm_msg_vlan_group_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>13560</err_code>
+		<translation>Удалить</translation>
+		<variable>gsm_msg_vlan_remove</variable>
+	</message>
+	<message>
+		<err_code>13600</err_code>
+		<translation>Недействительное имя медиасервера!</translation>
+		<variable>gsm_msg_invalid_mediaserver_name</variable>
+	</message>
+	<message> 
+        <err_code>13603</err_code> 
+        <translation>Вы хотите переключиться с</translation> 
+        <variable>gsm_msg_switch_language_from</variable> 
+    </message> 
+    <message> 
+        <err_code>13604</err_code> 
+        <translation>( текущий язык ) на</translation> 
+        <variable>gsm_msg_switch_language_to</variable> 
+    </message> 
+	<message>
+		<err_code>13612</err_code>
+		<translation>Storage device has been removed, all downloading tasks are halted</translation>
+		<variable>13612</variable>
+	</message>
+	<message>
+		<err_code>13613</err_code>
+		<translation>Вы не можете заблокировать устройство, которое в настоящее время используется для подключения к вашему роутеру. Чтобы заблокировать это устройство, вам необходимо выполнить вход в систему своего роутера с другого устройства.</translation>
+		<variable>gsm_msg_block_manage_device</variable>
+	</message>
+		<message>
+		<err_code>13614</err_code>
+		<translation>Недопустимое имя хоста. Допускаются символы '0'~'9', 'a'~'z', 'A'~'Z' и дефис '-'</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_hostname</variable>
+	</message>
+	<message>
+		<err_code>13615</err_code>
+		<translation>Адрес электронной почты недействителен</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_email</variable>
+	</message>
+		<message>
+		<err_code>13616</err_code>
+		<translation>Пароль должен содержать не менее 6 символов и не более 32 символов</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_password</variable>
+	</message>
+	<message>
+		<err_code>13617</err_code>
+		<translation>Подключение к Интернету отсутствует. Сначала подключитесь к Интернету</translation>
+		<variable>gsm_msg_wan_down</variable>
+	</message>
+	<message>
+		<err_code>13618</err_code>
+		<translation>Не удается подключиться к DDNS-серверу, проверьте подключение к Интернету или повторите попытку позже</translation>
+		<variable>gsm_msg_ddns_unreach_server</variable>
+	</message>
+	<message>
+		<err_code>13619</err_code>
+		<translation>Указанное имя хоста не является действительным именем DNS</translation>
+		<variable>gsm_msg_hostname_invalid_dnsname</variable>
+	</message>
+	<message>
+		<err_code>13620</err_code>
+		<translation>Указанный адрес электронной почты/учетная запись не существует</translation>
+		<variable>gsm_msg_email_account_not_exist</variable>
+	</message>
+	<message>
+		<err_code>13621</err_code>
+		<translation>Этот адрес электронной почты уже зарегистрирован с другим паролем</translation>
+		<variable>gsm_msg_eamil_already_register</variable>
+	</message>
+	<message>
+		<err_code>13622</err_code>
+		<translation>Ошибка аутентификации учетной записи</translation>
+		<variable>gsm_msg_account_auth_fail</variable>
+	</message>
+	<message>
+		<err_code>13623</err_code>
+		<translation>Указанное имя хоста недоступно</translation>
+		<variable>gsm_msg_hostname_unavailable</variable>
+	</message>
+		<message>
+		<err_code>13624</err_code>
+		<translation>Достигнуто максимальное количество имен хостов, которое можно создать для данной учетной записи; вы можете</translation>
+		<variable>gsm_msg_max_ddns_host</variable>
+	</message>
+		<message>
+		<err_code>13625</err_code>
+		<translation>нажать здесь</translation>
+		<variable>gsm_msg_click_here</variable>
+	</message>
+		<message>
+		<err_code>13626</err_code>
+		<translation>чтобы войти в свою учетную запись и обновить ее либо удалить лишнее имя хоста</translation>
+		<variable>gsm_msg_login_upgrade_ddns_account</variable>
+	</message>
+		<message>
+		<err_code>13627</err_code>
+		<translation>Невозможно выполнить задание. Причина:</translation>
+		<variable>gsm_msg_ddns_fail_reason</variable>
+	</message>
+				<message>
+		<err_code>13628</err_code>
+		<translation>Письмо с подтверждением отправлено!</translation>
+		<variable>gsm_msg_ddns_ngr_email1</variable>
+	</message>
+			<message>
+		<err_code>13629</err_code>
+		<translation>Письмо с подтверждением было выслано на указанный адрес. В письме с подтверждением имеется ссылка, на которую нужно нажать для проверки адреса электронной почты. Как только учетная запись будет подтверждена, можно будет войти в систему и начать пользоваться нашими службами.</translation>
+		<variable>gsm_msg_ddns_ngr_email2</variable>
+	</message>
+	<message>
+		<err_code>13700</err_code>
+		<translation>Для службы VPN требуется включить DDNS или использовать статический IP-адрес для интернет-соединения</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_1</variable>
+	</message>
+	<message>
+		<err_code>13701</err_code>
+		<translation>Сначала включите службу VPN и нажмите кнопку "Применить".</translation>
+		<variable>gsm_msg_openvpn_apply</variable>
+	</message>
+	<message>
+		<err_code>13702</err_code>
+		<translation>Служба VPN не работает с интернет-соединением IPv6. Если вы планируете использовать протокол IPv6, сначала необходимо выключить «Службу VPN». (На экране «Служба VPN» снимите флажок «Включить службу VPN» и нажмите на кнопку «Применить».)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6</variable>
+	</message>
+	<message>
+		<err_code>13703</err_code>
+		<translation>Служба VPN не работает с интернет-соединением IPv6. Если вы хотите воспользоваться службой VPN, сначала нужно отключить интернет-соединение IPv6. (На экране IPv6 выберите «Отключить» и нажмите на кнопку «Применить».)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6_2</variable>
+	</message>
+	<message>
+		<err_code>13704</err_code>
+		<translation>Вместе со службой VPN предлагается использовать только службу динамической DNS. Не забудьте включить службу "Динамическая DNS" или используйте для своего подключения к Интернету статический IP-адрес</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_2</variable>
+	</message>
+	<message>
+		<err_code>13705</err_code>
+		<translation>В данный момент служба "Динамическая DNS" не включена, и в конфигурациях клиентов будет использоваться IP-адрес подключения к Интернету. При изменении IP-адреса подключения к Интернету требуется повторно загрузить и установить файлы конфигурации.</translation>
+		<variable>gsm_msg_openvpn_ddns_not_enable</variable>
+	</message>
+	<message>
+		<err_code>13706</err_code>
+		<translation>Конфигурации для службы VPN изменены. Выполните шаг 2 и шаг 3 для загрузки и установки файлов конфигурации на каждое из клиентских устройств VPN (перезапишите существующие файлы конфигурации)</translation>
+		<variable>gsm_msg_openvpn_change_settings</variable>
+	</message>
+	<message>
+		<err_code>13707</err_code>
+		<translation>Вы изменили свой статический IP-адрес подключения к Интернету, который используется службой VPN. Выполните шаг 2 и шаг 3 процедуры установки клиента VPN для загрузки и установки файлов конфигурации на каждое из ваших клиентских устройств VPN (перезапишите существующие файлы конфигурации).</translation>
+		<variable>gsm_msg_openvpn_change_static_ip</variable>
+	</message>
+	<message>
+		<err_code>13708</err_code>
+		<translation>Вы изменили свои настройки динамического DNS, которые используются службой VPN. Выполните шаг 2 и шаг 3 процедуры установки клиента VPN для загрузки и установки файлов конфигурации на каждое из ваших клиентских устройств VPN (перезапишите существующие файлы конфигурации).</translation>
+		<variable>gsm_msg_openvpn_change_ddns</variable>
+	</message>
+	<message>
+		<err_code>13709</err_code>
+		<translation>Номер порта службы должен быть меньше или равен 65534</translation>
+		<variable>gsm_msg_openvpn_wrong_port</variable>
+	</message>
+	<message>
+		<err_code>13710</err_code>
+		<translation>Необходимо ввести Имя общедоступного ресурса</translation>
+		<variable>gsm_msg_share_name_blank</variable>
+	</message>
+	<message>
+		<err_code>13711</err_code>
+		<translation>Для службы VPN требуется статический IP-адрес или DDNS. Продолжить и отключить службу VPN?</translation>
+		<variable>gsm_msg_openvpn_disabled_fixedip</variable>
+	</message>
+	<message>
+		<err_code>13712</err_code>
+		<translation>Ваши файлы конфигурации клиента VPN не соответствуют настройкам динамического DNS или IP-адреса вашего подключения к Интернету. Выполните шаг 2 и шаг 3 для загрузки и установки файлов конфигурации на каждое из ваших клиентских устройств VPN (перезапишите существующие файлы конфигурации).</translation>
+		<variable>gsm_msg_openvpn_conf_change</variable>
+	</message>
+	<message>
+		<err_code>13713</err_code>
+		<translation>Функция беспроводного повторителя не может работать на каналах DFS. Убедитесь, что ваша базовая станция настроена на каналы без DFS.</translation>
+		<variable>gsm_msg_wds_not_work_in_dfs_ch</variable>
+	</message>
+    <message>
+		<err_code>13714</err_code>
+		<translation>Если восстановление пароля не включено и вы забыли новый пароль, для его восстановления необходимо восстановить заводские настройки роутера, используемые по умолчанию.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13715</err_code>
+		<translation> необходимо заполнить[NEL]</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>13716</err_code>
+		<translation>Если восстановление пароля не включено и вы забыли новый пароль, для его восстановления необходимо восстановить заводские настройки маршрутизатора, используемые по умолчанию.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13717</err_code>
+		<translation>Вы действительно хотите изменить пароль администратора без возможности восстановления?</translation>
+		<variable>gsm_msg_pwd_rec_chk</variable>
+	</message>
+	<message>
+		<err_code>13718</err_code>
+		<translation>Максимальная длина ключа составляет </translation>
+		<variable>gsm_msg_wls_max_pw_1</variable>
+	</message>
+	<message>
+		<err_code>13719</err_code>
+		<translation> символов.</translation>
+		<variable>gsm_msg_wls_max_pw_2</variable>
+	</message>
+	<message>
+		<err_code>13720</err_code>
+		<translation>Введенные пароли не совпадают, повторите попытку:</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>13721</err_code>
+		<translation>Выберите вопрос.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13722</err_code>
+		<translation>Введите ответ для каждого вопроса.</translation>
+		<variable>gsm_msg_pwd_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13723</err_code>
+		<translation>В настоящее время у вас установлены разные настройки WiFi для радиомодуля 2,4 ГГц и радиомодуля 5 ГГц. После нажатия кнопки 'Применить' настройки для радиомодуля 5 ГГц будут установлены такими же, как и настройки радиомодуля 2,4 ГГц.</translation>
+		<variable>gsm_msg_smart_conn</variable>
+	</message>
+	<message>
+		<err_code>13724</err_code>
+		<translation>Поскольку в диапазоне 5 ГГц протокол WEP не поддерживается, функция SMART CONNECT не может быть включена.</translation>
+		<variable>gsm_msg_smart_conn_wep</variable>
+	</message>
+</error_msg>

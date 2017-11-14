@@ -1,0 +1,1921 @@
+diff -aNru bftpd/bftpd.conf bftpd_modify/bftpd.conf
+--- bftpd/bftpd.conf	2012-11-09 02:33:40.000000000 +0800
++++ bftpd_modify/bftpd.conf	2016-05-30 23:28:48.111948924 +0800
+@@ -64,7 +64,7 @@
+   # This option can also be used to (crudely) throttle back
+   # transfer speeds. Setting this to a very low value
+   # can slow transfer speeds.
+-  XFER_BUFSIZE="2048"
++  XFER_BUFSIZE="64000"
+ 
+ 
+   # This variable controls whether the transfer buffer (see above option)
+@@ -105,7 +105,7 @@
+ 
+   # This option determines whether files not readable
+   # to the ftp user will be shown in a directory listing.
+-  SHOW_NONREADABLE_FILES="no"
++  SHOW_NONREADABLE_FILES="yes"
+ 
+   #When set to yes, this option makes the server allow data connections which
+   #don't go to the client who initiated them.
+@@ -134,7 +134,7 @@
+ 
+   #ROOTDIR specifies the root directory of the client. It defaults to %h
+   #(user's home directory). %u is replaced by the user name.
+-  ROOTDIR="%h"
++  ROOTDIR="/mnt"
+ 
+   #Umask for the files or directories users create.
+   UMASK="022"
+@@ -150,7 +150,7 @@
+   HELLO_STRING="bftpd %v at %i ready."
+ 
+   #The server automatically chdirs to the directory given here after login.
+-  AUTO_CHDIR="/"
++  AUTO_CHDIR="/mnt"
+ 
+   #Authentication type, values: PAM, PASSWD
+   AUTH="PASSWD"
+@@ -169,7 +169,7 @@
+   # no password. Any password the users enters will be accepted.
+   # The following example is for a user with no password.
+   # anyone * users /home/ftp
+-  #FILE_AUTH="/etc/ftpdpassword"
++  FILE_AUTH="/etc/ftpdpassword"
+ 
+ 
+   #Enable this if you want the client's IP address to be resolved to a host
+@@ -226,9 +226,9 @@
+   #ALLOWCOMMAND_DELE="no"
+   #Of course, you can disable it for specific users by writing the appropiate
+   #lines into the user structures.
+-  ALLOWCOMMAND_DELE="no"
++  ALLOWCOMMAND_DELE="yes"
+   ALLOWCOMMAND_STOR="yes"
+-  ALLOWCOMMAND_SITE="no"
++  ALLOWCOMMAND_SITE="yes"
+ 
+   #Files that belong to these groups (comma-separated) are hidden in LIST/NLST.
+   HIDE_GROUP=""
+@@ -240,7 +240,7 @@
+   #If set to "0", an unlimited users will be able to connect. This is not
+   #recommended, as it makes DoS attacks possible, even if the clients are
+   #kicked after a short time.
+-  USERLIMIT_GLOBAL="0"
++  USERLIMIT_GLOBAL="15"
+ 
+   #This variable controls how often one user can be logged in at one time.
+   #This allows you to have a big connection limit (see above) and nevertheless
+@@ -297,6 +297,29 @@
+   # running in an environment which does not require the time zone
+   # fix, set TIMEZONE_FIX to "no".
+   # TIMEZONE_FIX="no"
++
++  directory "/" {
++    ALLOWCOMMAND_DELE="no"
++    ALLOWCOMMAND_STOR="no"
++    ALLOWCOMMAND_XMKD="no"
++    ALLOWCOMMAND_MKD="no"
++    ALLOWCOMMAND_APPE="no"
++    ALLOWCOMMAND_XRMD="no"
++    ALLOWCOMMAND_RMD="no"
++    ALLOWCOMMAND_MPUT="no"
++  }
++  
++  directory "/shares" {
++    ALLOWCOMMAND_DELE="no"
++    ALLOWCOMMAND_STOR="no"
++    ALLOWCOMMAND_XMKD="no"
++    ALLOWCOMMAND_MKD="no"
++    ALLOWCOMMAND_APPE="no"
++    ALLOWCOMMAND_XRMD="no"
++    ALLOWCOMMAND_RMD="no"
++    ALLOWCOMMAND_MPUT="no"
++  }
++ 
+ }
+ 
+ user ftp {
+diff -aNru bftpd/bftpd.fw.conf bftpd_modify/bftpd.fw.conf
+--- bftpd/bftpd.fw.conf	1970-01-01 08:00:00.000000000 +0800
++++ bftpd_modify/bftpd.fw.conf	2016-05-30 23:28:48.201951796 +0800
+@@ -0,0 +1,343 @@
++#Configuration file for bftpd.
++#The given values are only examples, modify this file for your own needs.
++
++global {
++
++  #If set to no, access is allowed.
++  #If set to yes, access is denied without giving a reason.
++  #If set to anything else, access is denied giving the content of this
++  #variable as a reason.
++  DENY_LOGIN="no"
++
++  #The port number where the daemon should listen (only for daemon mode)
++  PORT="21"
++
++  #You can force bftpd to use a specific port range in passive mode.
++  #Passive mode means that the client will open data connections
++  #and the server stays 'passive'.
++  #This option can be very useful with some firewall configurations.
++  #Seperate values with "," and define ranges with "-".
++  #bftpd will try to bind one of these ports in ascending order as
++  #you specify them here.
++  #If none of the given ports could be bound, the connection is
++  #is refused. If you want to bind any free port in that case, add
++  #"0" to the list.
++  #PASSIVE_PORTS="10000,12000-12100,13000"
++  PASSIVE_PORTS="0"
++
++  #If PORT data connections should be opened from port 20, say yes here. You
++  #will probably need this if your server is behind a firewall that restricts
++  #outgoing packets from ports higher than 1024. Note that this may be a
++  #security hole, as the server can not drop its root privileges completely
++  #if you say yes here.
++  DATAPORT20="no"
++
++  #The password for the administration commands, encrypted (man mkpasswd).
++  ADMIN_PASS="x"
++
++  #With this option, you can put your entire FTP environment into a chroot
++  #jail. Apart from security, this offers you the possibility of having
++  #virtual users that don't exist in the system.
++  #Additionally, you can make some kind of 'file pool' by creating a directory
++  #with files which you can symlink from the users' homes (this means setting
++  #DO_CHROOT=no in order for the users to be able to access that dir.
++  #Note that you need the following files in your initial chroot directory:
++  #/etc/passwd, /etc/shadow, /etc/group
++  #On GNU systems, you will also need the NSS libraries in /lib.
++  #INITIAL_CHROOT="/ftp"
++
++  #The bftpdutmp file enables you to record user logins and logouts in
++  #bftpd, which is useful for the administration interface (which is not
++  #finished yet). You also need the file to be able to restrict the number
++  #of users simultaneously logged on, and so on.
++  #Note that the directory in which the file resides must already exist.
++  #Set the option to "" if you do not want that. This is discouraged for normal
++  #use, but can be helpful if you want to create a boot floppy or something.
++  PATH_BFTPDUTMP="/var/run/bftpd/bftpdutmp"
++
++  #This option controls the buffer size while transferring files.
++  #If you are on a very fast network (fast meaning 100 Mbit/s or more),
++  #you should set this to 64000 or something like that.
++  #Transferring from localhost to localhost, I had a transfer speed of
++  #approx. 15 MB/s with XFER_BUFSIZE=2048 and a speed of approx. 20 MB/s
++  #with XFER_BUFSIZE=64000. You should not set big values for this if you have
++  #slow (dialup) clients.
++  # This option can also be used to (crudely) throttle back
++  # transfer speeds. Setting this to a very low value
++  # can slow transfer speeds.
++  XFER_BUFSIZE="131072"
++
++
++  # This variable controls whether the transfer buffer (see above option)
++  # should change size as more (or less) clients connect to the server.
++  # Setting this option to "yes" will put more work on your CPU, but
++  # will avoid chewing up as much bandwidth as more people connect.
++  # Setting this option to "no" is easier on the CPU, but may cause
++  # your bandwidth to spike.
++  CHANGE_BUFSIZE="no"
++
++
++
++  # This option allows you to add a delay (in microseconds) to
++  # the time between when one piece of data was sent
++  # and when the next will be sent. This is to aid in
++  # throttling bandwidth and applies to each client. The
++  # throttling effects the DATA transfers only (not control
++  # connections).
++  # A value of zero (0) means there is no added delay.
++  # A value of about 500000 (five hundred thousand) should
++  # delay for about half a second.
++  # These delays should be kept low to avoid triggering
++  # data transfer timeouts.
++  XFER_DELAY="0"
++
++  # This option determines whether hidden files
++  # ( files that start with a "." )
++  # will be shown in a directory listing.
++  # If this option is set to "yes", the client will be
++  # able to see hidden files ONLY if they pass the "-a"
++  # option to the list command. For example "ls -a".
++  # If this option is set to "no", then hidden files are
++  # never shown, regardless of whether "-a" is used.
++  # Additionally, if we want the server to always send hidden
++  # files to the client, whether they request hidden files or
++  # not, set this to "always".
++  SHOW_HIDDEN_FILES="no"
++
++  # This option determines whether files not readable
++  # to the ftp user will be shown in a directory listing.
++  SHOW_NONREADABLE_FILES="yes"
++
++  #When set to yes, this option makes the server allow data connections which
++  #don't go to the client who initiated them.
++  #This is needed for FXP.
++  ALLOW_FXP="no"
++
++  #After how many seconds of idle time should a user be kicked from the server?
++  CONTROL_TIMEOUT="300"
++
++  #After how many seconds of idle time should a user be kicked from the server
++  #during a file transfer?
++  DATA_TIMEOUT="30"
++
++  #Use Ratio if you want the client to send a file before he can get a file.
++  #Usage: RATIO=send/receive or RATIO=none. Example: RATIO=2/1 lets the client
++  #receive a 1 MB file when he has sent a 2 MB file.
++  RATIO="none"
++
++  # Use this option to track bandwidth usage. After each session, the server
++  # will log how much data was uploaded and downloaded for each user.
++  # This option should point to the directory where the log files will
++  # be saved.
++  # Each day gets its own log file, to make it easier to rotate logs.
++  # Please note, this directory must be created manually.
++  # BANDWIDTH="/var/log/bftpd"
++
++  #ROOTDIR specifies the root directory of the client. It defaults to %h
++  #(user's home directory). %u is replaced by the user name.
++  ROOTDIR="/mnt"
++
++  #Umask for the files or directories users create.
++  UMASK="022"
++
++  #Name of the log file. Say "syslog" to log into syslog.
++  #Say "" for no logging.
++  #LOGFILE="/var/log/bftpd.log"
++  LOGFILE=""
++  #LOGFILE="syslog"
++
++  #Use %v for version, %h for the server FQDN and %i for the server IP address.
++  # Note: If you use the "%h" option and you do an inital CHROOT, then
++  # you'll need to copy your /etc/hosts and /etc/host.conf files into
++  # the chroot jail.
++  HELLO_STRING="bftpd %v at %i ready."
++
++  #The server automatically chdirs to the directory given here after login.
++  AUTO_CHDIR="/mnt"
++
++  #Authentication type, values: PAM, PASSWD
++  AUTH="PASSWD"
++
++  # The FILE_AUTH varible over-rides the AUTH value. If the FILE_AUTH
++  # value is set to something other than an empty string ("")
++  # bftpd will search through the pathname given in order
++  # to find username/password matches.
++  # The format of this file is as shown below:
++  # username password group home_folder
++  # (for example:)
++  # robert secret users /home/robert
++  # james moose users /mnt/storage
++  #
++  # A entry with the password field set to * (star) requires
++  # no password. Any password the users enters will be accepted.
++  # The following example is for a user with no password.
++  # anyone * users /home/ftp
++  FILE_AUTH="/etc/ftpdpassword"
++
++
++  #Enable this if you want the client's IP address to be resolved to a host
++  #name. Note that it increases the overhead and it may not work if your DNS
++  #is not configured correctly. Clients without a valid DNS name will take very
++  #long to connect.
++  RESOLVE_CLIENT_IP="no"
++
++  #Path to the message of the day, seen by all users before login.
++  MOTD_GLOBAL="/etc/ftpmotd"
++
++  #Path to the message of the day, seen after login, relative to the root
++  #path of the user (see ROOTDIR).
++  # Use symbols %u and %h in place of user's username and home directory.
++  MOTD_USER="/.ftpmotd"
++
++  #If RESOLVE_UIDS is enabled, in directory lists the user and group names
++  #are shown instead of UID/GID. This may slow down directory listings.
++  RESOLVE_UIDS="yes"
++
++  #If DO_CHROOT is enabled, a user can not access directories other than his
++  #HOMEDIR and its subdirectories. DON'T disable this globally if you don't
++  #want to have a security hole!
++  DO_CHROOT="yes"
++
++  #Enable this to log each login to wtmp.
++  LOG_WTMP="no"
++
++  #If you want bftpd to bind itself to one specific network interface, enter
++  #its IP address here. Else enter 'any'. This option only works in standalone
++  #mode.
++  BIND_TO_ADDR="any"
++
++
++  # This option allows you to over-ride the IP address Bftpd
++  # sends to the client. This may be useful is you are behind
++  # a router. If an address is given in this option, it over-rides
++  # the LAN IP your PC had. It is recommended you leave this option
++  # commented out unless you have a special setup.
++  #OVERRIDE_IP="127.0.0.1"
++
++
++  #Path to the ftpusers file. It can contain user names that are denied.
++  #If it does not exist, every user can log in. If you don't want this,
++  #just put a nonexistent filename here.
++  PATH_FTPUSERS="/etc/ftpusers"
++
++  #Enable this if you want to deny any user who has a shell which is not in
++  #/etc/shells.
++  AUTH_ETCSHELLS="no"
++
++  #With the option ALLOWCOMMAND_XXXX, you can disable the command XXXX.
++  #For example, if you don't want any user to delete files, you can do
++  #ALLOWCOMMAND_DELE="no"
++  #Of course, you can disable it for specific users by writing the appropiate
++  #lines into the user structures.
++  ALLOWCOMMAND_DELE="yes"
++  ALLOWCOMMAND_STOR="yes"
++  ALLOWCOMMAND_SITE="yes"
++
++  #Files that belong to these groups (comma-separated) are hidden in LIST/NLST.
++  HIDE_GROUP=""
++
++  #What message should be used as reply for the QUIT command?
++  QUIT_MSG="See you later..."
++
++  #The number of users that can be logged in at the same time.
++  #If set to "0", an unlimited users will be able to connect. This is not
++  #recommended, as it makes DoS attacks possible, even if the clients are
++  #kicked after a short time.
++  USERLIMIT_GLOBAL="15"
++
++  #This variable controls how often one user can be logged in at one time.
++  #This allows you to have a big connection limit (see above) and nevertheless
++  #prevent single users from having a lot of connections.
++  #This option may also be useful in a user {} or group {} environment.
++  USERLIMIT_SINGLEUSER="0"
++
++  #This variable controls how many users are allowed to connect from the same IP
++  #address. This prvents one user (or machine) from taking all of the avail
++  #connections.
++  #If you want to allow unlimited connections, leave this option as "0".
++  USERLIMIT_HOST="0"
++
++  #This option allows you to force files to be compressed
++  #on the fly during upload. A ".gz" extension will be given
++  #to the file. This should usually be turned off ("no"), but
++  #may be useful to servers with smaller storage space.
++  #To enable this option set the value to "yes".
++  #
++  # To use this option, bftpd must be configured using
++  # "./configure --enable-libz" _before_ running "make".
++  GZ_UPLOAD="no"
++
++  #This option allows you to set whether or not files
++  #with the extension .gz should be uncompressed on-the-fly
++  #during downloads. This should usually be turned off ("no").
++  #To enable this feature, set the value to "yes".
++  #
++  #To use this option, bftpd must be configured using
++  # "./configure --enable-libz" _before_ running "make".
++  GZ_DOWNLOAD="no"
++
++  # This option is enabled when the server should run
++  # a script before writing to the file system. This should
++  # usually be commented out, unless you need to prepare the
++  # file system for writing.
++  # NOTE: Be careful when using this option and the DO_CHROOT option.
++  # The location of the root directory can change when using DO_CHROOT.
++  # The current working directory (cwd) is passed to the script you run.
++  # PRE_WRITE_SCRIPT="/bin/true"
++
++  # This option is enabled when the server should run
++  # a script after writing to the file system. This should
++  # usually be commented out, unless you need to do something
++  # to the file system after writing.
++  # NOTE: Be careful when using this option and the DO_CHROOT option.
++  # The location of the root directory can change when using DO_CHROOT.
++  # The current working directory (cwd) is passed to the script you run.
++  # POST_WRITE_SCRIPT="/bin/false"
++
++  # The GNU C library makes some assumptions about the local time zone
++  # when run in a chroot environment. The Bftpd server tries to work
++  # around these assumptions to give the correct time. If we are
++  # running in an environment which does not require the time zone
++  # fix, set TIMEZONE_FIX to "no".
++  # TIMEZONE_FIX="no"
++
++  directory "/" {
++    ALLOWCOMMAND_DELE="no"
++    ALLOWCOMMAND_STOR="no"
++    ALLOWCOMMAND_XMKD="no"
++    ALLOWCOMMAND_MKD="no"
++    ALLOWCOMMAND_APPE="no"
++    ALLOWCOMMAND_XRMD="no"
++    ALLOWCOMMAND_RMD="no"
++    ALLOWCOMMAND_MPUT="no"
++  }
++
++  directory "/shares" {
++    ALLOWCOMMAND_DELE="no"
++    ALLOWCOMMAND_STOR="no"
++    ALLOWCOMMAND_XMKD="no"
++    ALLOWCOMMAND_MKD="no"
++    ALLOWCOMMAND_APPE="no"
++    ALLOWCOMMAND_XRMD="no"
++    ALLOWCOMMAND_RMD="no"
++    ALLOWCOMMAND_MPUT="no"
++  }
++
++}
++
++user nobody {
++  #Any password fits.
++  ANONYMOUS_USER="yes"
++#flag_add
++}
++
++user anonymous {
++  #If the client wants anonymous, ftp is taken instead.
++  ALIAS="nobody"
++}
++
++user root {
++  DENY_LOGIN="Root login not allowed."
++}
++
++
+diff -aNru bftpd/bftpd.mt.conf bftpd_modify/bftpd.mt.conf
+--- bftpd/bftpd.mt.conf	1970-01-01 08:00:00.000000000 +0800
++++ bftpd_modify/bftpd.mt.conf	2016-05-30 23:28:48.127949381 +0800
+@@ -0,0 +1,318 @@
++#Configuration file for bftpd.
++#The given values are only examples, modify this file for your own needs.
++
++global {
++
++  #If set to no, access is allowed.
++  #If set to yes, access is denied without giving a reason.
++  #If set to anything else, access is denied giving the content of this
++  #variable as a reason.
++  DENY_LOGIN="no"
++
++  #The port number where the daemon should listen (only for daemon mode)
++  PORT="21"
++
++  #You can force bftpd to use a specific port range in passive mode.
++  #Passive mode means that the client will open data connections
++  #and the server stays 'passive'.
++  #This option can be very useful with some firewall configurations.
++  #Seperate values with "," and define ranges with "-".
++  #bftpd will try to bind one of these ports in ascending order as
++  #you specify them here.
++  #If none of the given ports could be bound, the connection is
++  #is refused. If you want to bind any free port in that case, add
++  #"0" to the list.
++  #PASSIVE_PORTS="10000,12000-12100,13000"
++  PASSIVE_PORTS="0"
++
++  #If PORT data connections should be opened from port 20, say yes here. You
++  #will probably need this if your server is behind a firewall that restricts
++  #outgoing packets from ports higher than 1024. Note that this may be a
++  #security hole, as the server can not drop its root privileges completely
++  #if you say yes here.
++  DATAPORT20="no"
++
++  #The password for the administration commands, encrypted (man mkpasswd).
++  ADMIN_PASS="x"
++
++  #With this option, you can put your entire FTP environment into a chroot
++  #jail. Apart from security, this offers you the possibility of having
++  #virtual users that don't exist in the system.
++  #Additionally, you can make some kind of 'file pool' by creating a directory
++  #with files which you can symlink from the users' homes (this means setting
++  #DO_CHROOT=no in order for the users to be able to access that dir.
++  #Note that you need the following files in your initial chroot directory:
++  #/etc/passwd, /etc/shadow, /etc/group
++  #On GNU systems, you will also need the NSS libraries in /lib.
++  #INITIAL_CHROOT="/ftp"
++
++  #The bftpdutmp file enables you to record user logins and logouts in
++  #bftpd, which is useful for the administration interface (which is not
++  #finished yet). You also need the file to be able to restrict the number
++  #of users simultaneously logged on, and so on.
++  #Note that the directory in which the file resides must already exist.
++  #Set the option to "" if you do not want that. This is discouraged for normal
++  #use, but can be helpful if you want to create a boot floppy or something.
++  PATH_BFTPDUTMP="/var/run/bftpd/bftpdutmp"
++
++  #This option controls the buffer size while transferring files.
++  #If you are on a very fast network (fast meaning 100 Mbit/s or more),
++  #you should set this to 64000 or something like that.
++  #Transferring from localhost to localhost, I had a transfer speed of
++  #approx. 15 MB/s with XFER_BUFSIZE=2048 and a speed of approx. 20 MB/s
++  #with XFER_BUFSIZE=64000. You should not set big values for this if you have
++  #slow (dialup) clients.
++  # This option can also be used to (crudely) throttle back
++  # transfer speeds. Setting this to a very low value
++  # can slow transfer speeds.
++  XFER_BUFSIZE="64000"
++
++
++  # This variable controls whether the transfer buffer (see above option)
++  # should change size as more (or less) clients connect to the server.
++  # Setting this option to "yes" will put more work on your CPU, but
++  # will avoid chewing up as much bandwidth as more people connect.
++  # Setting this option to "no" is easier on the CPU, but may cause
++  # your bandwidth to spike.
++  CHANGE_BUFSIZE="no"
++
++
++
++  # This option allows you to add a delay (in microseconds) to
++  # the time between when one piece of data was sent
++  # and when the next will be sent. This is to aid in
++  # throttling bandwidth and applies to each client. The
++  # throttling effects the DATA transfers only (not control
++  # connections).
++  # A value of zero (0) means there is no added delay.
++  # A value of about 500000 (five hundred thousand) should
++  # delay for about half a second.
++  # These delays should be kept low to avoid triggering
++  # data transfer timeouts.
++  XFER_DELAY="0"
++
++  # This option determines whether hidden files
++  # ( files that start with a "." )
++  # will be shown in a directory listing.
++  SHOW_HIDDEN_FILES="no"
++
++  # This option determines whether files not readable
++  # to the ftp user will be shown in a directory listing.
++  SHOW_NONREADABLE_FILES="yes"
++
++  #When set to yes, this option makes the server allow data connections which
++  #don't go to the client who initiated them.
++  #This is needed for FXP.
++  ALLOW_FXP="no"
++
++  #After how many seconds of idle time should a user be kicked from the server?
++  CONTROL_TIMEOUT="300"
++
++  #After how many seconds of idle time should a user be kicked from the server
++  #during a file transfer?
++  DATA_TIMEOUT="30"
++
++  #Use Ratio if you want the client to send a file before he can get a file.
++  #Usage: RATIO=send/receive or RATIO=none. Example: RATIO=2/1 lets the client
++  #receive a 1 MB file when he has sent a 2 MB file.
++  RATIO="none"
++
++  #ROOTDIR specifies the root directory of the client. It defaults to %h
++  #(user's home directory). %u is replaced by the user name.
++  ROOTDIR="/mnt"
++
++  #Umask for the files or directories users create.
++  UMASK="022"
++
++  #Name of the log file. Say "syslog" to log into syslog.
++  #Say "" for no logging.
++  #LOGFILE="/var/log/bftpd.log"
++  LOGFILE="syslog"
++
++  #Use %v for version, %h for the server FQDN and %i for the server IP address.
++  # Note: If you use the "%h" option and you do an inital CHROOT, then
++  # you'll need to copy your /etc/hosts and /etc/host.conf files into
++  # the chroot jail.
++  HELLO_STRING="bftpd %v at %i ready."
++
++  #The server automatically chdirs to the directory given here after login.
++  AUTO_CHDIR="/mnt"
++
++  #Authentication type, values: PAM, PASSWD
++  AUTH="PASSWD"
++
++  # The FILE_AUTH varible over-rides the AUTH value. If the FILE_AUTH
++  # value is set to something other than an empty string ("")
++  # bftpd will search through the pathname given in order
++  # to find username/password matches.
++  # The format of this file is as shown below:
++  # username password group home_folder
++  # (for example:)
++  # robert secret users /home/robert
++  # james moose users /mnt/storage
++  #
++  # A entry with the password field set to * (star) requires
++  # no password. Any password the users enters will be accepted.
++  # The following example is for a user with no password.
++  # anyone * users /home/ftp
++  FILE_AUTH="/etc/ftpdpassword"
++
++
++  #Enable this if you want the client's IP address to be resolved to a host
++  #name. Note that it increases the overhead and it may not work if your DNS
++  #is not configured correctly. Clients without a valid DNS name will take very
++  #long to connect.
++  RESOLVE_CLIENT_IP="no"
++
++  #Path to the message of the day, seen by all users before login.
++  MOTD_GLOBAL="/etc/ftpmotd"
++
++  #Path to the message of the day, seen after login, relative to the root
++  #path of the user (see ROOTDIR).
++  # Use symbols %u and %h in place of user's username and home directory.
++  MOTD_USER="/.ftpmotd"
++
++  #If RESOLVE_UIDS is enabled, in directory lists the user and group names
++  #are shown instead of UID/GID. This may slow down directory listings.
++  RESOLVE_UIDS="yes"
++
++  #If DO_CHROOT is enabled, a user can not access directories other than his
++  #HOMEDIR and its subdirectories. DON'T disable this globally if you don't
++  #want to have a security hole!
++  DO_CHROOT="yes"
++  
++  #Enable this to log each login to wtmp.
++  LOG_WTMP="yes"
++
++  #If you want bftpd to bind itself to one specific network interface, enter
++  #its IP address here. Else enter 'any'. This option only works in standalone
++  #mode.
++  BIND_TO_ADDR="any"
++
++
++  # This option allows you to over-ride the IP address Bftpd
++  # sends to the client. This may be useful is you are behind
++  # a router. If an address is given in this option, it over-rides
++  # the LAN IP your PC had. It is recommended you leave this option
++  # commented out unless you have a special setup.
++  #OVERRIDE_IP="127.0.0.1"
++  
++
++  #Path to the ftpusers file. It can contain user names that are denied.
++  #If it does not exist, every user can log in. If you don't want this,
++  #just put a nonexistent filename here.
++  PATH_FTPUSERS="/etc/ftpusers"
++
++  #Enable this if you want to deny any user who has a shell which is not in
++  #/etc/shells.
++  AUTH_ETCSHELLS="no"
++
++  #With the option ALLOWCOMMAND_XXXX, you can disable the command XXXX.
++  #For example, if you don't want any user to delete files, you can do
++  #ALLOWCOMMAND_DELE="no"
++  #Of course, you can disable it for specific users by writing the appropiate
++  #lines into the user structures.
++  ALLOWCOMMAND_DELE="yes"
++  ALLOWCOMMAND_STOR="yes"
++  ALLOWCOMMAND_SITE="yes"
++
++  #Files that belong to these groups (comma-separated) are hidden in LIST/NLST.
++  HIDE_GROUP=""
++
++  #What message should be used as reply for the QUIT command?
++  QUIT_MSG="See you later..."
++
++  #The number of users that can be logged in at the same time.
++  #If set to "0", an unlimited users will be able to connect. This is not
++  #recommended, as it makes DoS attacks possible, even if the clients are
++  #kicked after a short time.
++  USERLIMIT_GLOBAL="15"
++
++  #This variable controls how often one user can be logged in at one time.
++  #This allows you to have a big connection limit (see above) and nevertheless
++  #prevent single users from having a lot of connections.
++  #This option may also be useful in a user {} or group {} environment.
++  USERLIMIT_SINGLEUSER="0"
++
++  #This variable controls how many users are allowed to connect from the same IP
++  #address. This prvents one user (or machine) from taking all of the avail
++  #connections.
++  #If you want to allow unlimited connections, leave this option as "0".
++  USERLIMIT_HOST="0"
++
++  #This option allows you to force files to be compressed
++  #on the fly during upload. A ".gz" extension will be given
++  #to the file. This should usually be turned off ("no"), but
++  #may be useful to servers with smaller storage space.
++  #To enable this option set the value to "yes".
++  #
++  # To use this option, bftpd must be configured using
++  # "./configure --enable-libz" _before_ running "make".
++  GZ_UPLOAD="no"
++
++  #This option allows you to set whether or not files
++  #with the extension .gz should be uncompressed on-the-fly
++  #during downloads. This should usually be turned off ("no").
++  #To enable this feature, set the value to "yes".
++  #
++  #To use this option, bftpd must be configured using
++  # "./configure --enable-libz" _before_ running "make".
++  GZ_DOWNLOAD="no"
++
++  # This option is enabled when the server should run
++  # a script before writing to the file system. This should
++  # usually be commented out, unless you need to prepare the
++  # file system for writing.
++  # NOTE: Be careful when using this option and the DO_CHROOT option.
++  # The location of the root directory can change when using DO_CHROOT.
++  # The current working directory (cwd) is passed to the script you run.
++  # PRE_WRITE_SCRIPT="/bin/true"
++
++  # This option is enabled when the server should run
++  # a script after writing to the file system. This should
++  # usually be commented out, unless you need to do something
++  # to the file system after writing.
++  # NOTE: Be careful when using this option and the DO_CHROOT option.
++  # The location of the root directory can change when using DO_CHROOT.
++  # The current working directory (cwd) is passed to the script you run.
++  # POST_WRITE_SCRIPT="/bin/false"
++
++#  directory "/" {
++#    ALLOWCOMMAND_DELE="no"
++#    ALLOWCOMMAND_STOR="no"
++#    ALLOWCOMMAND_XMKD="no"
++#    ALLOWCOMMAND_MKD="no"
++#    ALLOWCOMMAND_APPE="no"
++#    ALLOWCOMMAND_XRMD="no"
++#    ALLOWCOMMAND_RMD="no"
++#    ALLOWCOMMAND_MPUT="no"
++#  }
++#  
++#  directory "/shares" {
++#    ALLOWCOMMAND_DELE="no"
++#    ALLOWCOMMAND_STOR="no"
++#    ALLOWCOMMAND_XMKD="no"
++#    ALLOWCOMMAND_MKD="no"
++#    ALLOWCOMMAND_APPE="no"
++#    ALLOWCOMMAND_XRMD="no"
++#    ALLOWCOMMAND_RMD="no"
++#    ALLOWCOMMAND_MPUT="no"
++#  }
++ 
++}
++
++user ftp {
++  #Any password fits.
++  ANONYMOUS_USER="yes"
++}
++
++user anonymous {
++  #If the client wants anonymous, ftp is taken instead.
++  ALIAS="ftp"
++}
++
++user root {
++  DENY_LOGIN="Root login not allowed."
++}
++
++
+diff -aNru bftpd/commands.c bftpd_modify/commands.c
+--- bftpd/commands.c	2013-05-28 01:15:03.000000000 +0800
++++ bftpd_modify/commands.c	2016-05-30 23:28:48.220949571 +0800
+@@ -54,6 +54,10 @@
+ #include "bftpdutmp.h"
+ #include "md5.h"
+ 
++#define SC_BUILD 1 
++#ifdef USB
++#include "ftp_usb_api.h"
++#endif
+ 
+ #ifdef HAVE_ZLIB_H
+ #include <zlib.h>
+@@ -75,7 +79,46 @@
+ double bytes_sent = 0.0, bytes_recvd = 0.0;
+ int epsvall = 0;
+ int xfer_bufsize;
++#ifdef USB
++int is_file_readable = 0;
++#endif
++
++#ifdef SC_BUILD
++#include <sys/file.h>
++int sc_lockf(int fd, int shared, int wait)
++{
++    int ret;
++    int op;
+ 
++    if (fd < 0) {
++        return 0;
++    }
++
++    if (shared)
++        op = LOCK_SH;
++    else
++        op = LOCK_EX;
++    if (!wait)
++        op |= LOCK_NB;
++
++    ret = flock(fd, op);
++    return ret;
++}
++int sc_check_writable(const char *file)
++{
++    int fd;
++    int ret;
++
++    fd = open(file, O_RDWR);
++    if (fd >= 0) {
++        ret = flock(fd, LOCK_EX|LOCK_NB);
++        close(fd);
++        if (ret == -1)
++            return 0;
++    }
++    return 1;
++}
++#endif
+ 
+ void control_printf(char success, char *format, ...)
+ {
+@@ -214,6 +257,25 @@
+ 	bftpd_log("Trying to log in as %s.\n", user);
+ #endif
+     expand_groups();
++#ifdef USB
++	/* if all shared folders has "All -no password" read/write access
++	control, the FTP server MUST NOT require the USER information from
++	a client and, even if a client supplies the USER information, the 
++	FTP server MUST NOT ask for the password and the FTP server MUST
++	respond with code 230 'User logged in, proceed'. */
++	if (all_file_readable_writable()){
++        state = STATE_USER;
++        bftpd_login("");
++		/* bftpd_login(""); */
++    }
++	else {
++	/* if there is any shared folder that has 'Admin' access control, 
++	the login authentication is required and a guest user cannot see
++	the folder(s) shared with the 'Admin'-read access control. */
++		state = STATE_USER;
++		control_printf(SL_SUCCESS, "331 Password please.");
++	}
++#else
+ 	if (!strcasecmp(config_getoption("ANONYMOUS_USER"), "yes"))
+         {
+                 state = STATE_USER;
+@@ -224,14 +286,37 @@
+ 		state = STATE_USER;
+ 		control_printf(SL_SUCCESS, "331 Password please.");
+ 	}
++#endif
+ }
+ 
+ void command_pass(char *password)
+ {
++#ifdef USB
++	bftpd_log_debug("state = %d\n", state);
++#endif
+ 	if (state > STATE_USER) {
+ 		control_printf(SL_FAILURE, "503 Already logged in.");
+ 		return;
+ 	}
++#ifdef USB
++		bftpd_log_debug("Login as user '%s' password '%s'.\n", user, password?password:"NULL");
++#if 0
++	/* can not implement this feature, because if password is wrong, client
++	   will create new session for new password*/
++	/*  sometimes IE ftp will supply "" password automatically, client will miss chance to enter
++		correct password, according to spec 2.0
++		if there is any shared folder that has 'Admin' access control, 
++		the login authentication is required
++	*/
++	if (password && *password == 0 && login_times == 0) {
++//        control_printf(SL_FAILURE, "530 Anonymous user not allowed.");
++		bftpd_log_debug("Login as user '%s' with password '%s' (%d times).\n", user, password, login_times);
++		control_printf(SL_FAILURE, "530 Login incorrect.");
++        state = STATE_CONNECTED;
++        return; 
++	}
++#endif
++#endif
+ 	if (bftpd_login(password)) {
+ 		bftpd_log("Login as user '%s' failed.\n", user);
+ 		control_printf(SL_FAILURE, "530 Login incorrect.");
+@@ -550,7 +635,26 @@
+     #ifdef HAVE_ZLIB_H
+     gzFile my_zip_file = NULL;
+     #endif
+-
++#ifdef USB
++    char *local_cwd = NULL;
++	char buf[2046];
++
++	bftpd_log_debug("do_stor filename=%s\n", filename);
++	local_cwd = bftpd_cwd_getcwd();
++	bftpd_log_debug("Error: filename=<%s>\n", filename);
++	bftpd_log_debug("local_cwd=<%s>: filename=<%s>\n", local_cwd, filename);
++	if(*(local_cwd+strlen(local_cwd)-1) != '/')
++		snprintf(buf, sizeof(buf), "%s/%s/", local_cwd+1, filename);
++	else
++		snprintf(buf, sizeof(buf), "%s%s/", local_cwd+1, filename);
++	if(local_cwd)
++		free(local_cwd);
++		
++	if(!is_writable(buf)) {
++		control_printf(SL_FAILURE, "550 message - Read Only\r\n");
++		return;
++	}
++#endif	
+     if (pre_write_script)
+        run_script(pre_write_script, mapped);
+ 
+@@ -596,7 +700,11 @@
+ 
+         if (! attempt_gzip)
+         {        
++#ifdef SC_BUILD
++            fd = open(mapped, flags & (~O_TRUNC), 00666);
++#else
+ 	  fd = open(mapped, flags, 00666);
++#endif
+ 	  /*
+              do this below
+              if (mapped)
+@@ -613,6 +721,20 @@
+                 free(mapped);
+ 		return;
+           }
++#ifdef SC_BUILD
++        if (sc_lockf(fd, 0, 0) < 0) {
++            control_printf(SL_FAILURE,
++                     "553 Error: Remote file is write protected.");
++            close(fd);     /* make sure it is not open */
++            if (post_write_script)
++                run_script(post_write_script, mapped);
++            free(mapped);
++            return;
++        }
++        sc_lockf(fd, 1, 1);
++        if (flags & O_TRUNC)
++            ftruncate(fd, 0);
++#endif
+ 	}
+ 
+         #ifdef HAVE_ZLIB_H
+@@ -785,6 +907,10 @@
+         if (mapped)
+            free(mapped);
+         // Update_Send_Recv(user, bytes_sent, bytes_recvd);
++
++#ifdef SC_BUILD 
++	sync();
++#endif
+ }
+ 
+ void command_stor(char *filename)
+@@ -959,6 +1085,10 @@
+ 		return;
+ 	}
+ 
++#ifdef SC_BUILD
++    sc_lockf(phile, 1, 1);
++#endif
++
+ 	if ((((statbuf.st_size - offset) * ratio_send) / ratio_recv > bytes_recvd
+ 		 - bytes_sent) && (strcmp((char *) config_getoption("RATIO"), "none"))) {
+ 		bftpd_log("Error: 'File too big (ratio)' while trying to receive file "
+@@ -1278,6 +1408,9 @@
+ 	bftpd_log("File transmission of '%s' successful.\n", filename);
+         if (mapped) free(mapped);
+         // Update_Send_Recv(user, bytes_sent, bytes_recvd);
++#ifdef SC_BUILD
++	sync();
++#endif
+ }
+ 
+ void do_dirlist(char *dirname, char verbose)
+@@ -1321,11 +1454,17 @@
+ 
+ void command_list(char *dirname)
+ {
++#ifdef USB
++	bftpd_log_debug("list dirname=%s\n", dirname);
++#endif	
+ 	do_dirlist(dirname, 1);
+ }
+ 
+ void command_nlst(char *dirname)
+ {
++#ifdef USB
++	bftpd_log_debug("nlst dirname=%s\n", dirname);
++#endif	
+ 	do_dirlist(dirname, 0);
+ }
+ 
+@@ -1354,6 +1493,16 @@
+ 
+ void command_cwd(char *dir)
+ {
++#ifdef USB
++	char *tmp = bftpd_cwd_mappath(dir);
++	if (tmp && !is_readable(tmp+1)) {
++		free(tmp);
++		control_printf(SL_FAILURE, "451 Error: Permission denied.");
++		return;
++	}
++	if (tmp)
++		free(tmp);
++#endif
+     if (bftpd_cwd_chdir(dir)) {
+ 		bftpd_log("Error: '%s' while changing directory to '%s'.\n",
+ 				  strerror(errno), dir);
+@@ -1383,6 +1532,14 @@
+         if (pre_write_script)
+            run_script(pre_write_script, mapped);
+ 
++#ifdef SC_BUILD
++    if (sc_check_writable(mapped) < 0) {
++        control_printf(SL_FAILURE,
++                     "553 Error: Remote file is write protected.");
++        return;
++    }
++#endif
++
+         /*
+ 	if (unlink(mapped)) {
+ 		bftpd_log("Error: '%s' while trying to delete file '%s'.\n",
+@@ -1419,6 +1576,9 @@
+            run_script(post_write_script, mapped);
+ 
+ 	free(mapped);
++#ifdef SC_BUILD
++	sync();
++#endif
+ }
+ 
+ void command_mkd(char *dirname)
+@@ -1445,6 +1605,9 @@
+            run_script(post_write_script, mapped);
+ 
+ 	free(mapped);
++#ifdef SC_BUILD
++	sync();
++#endif
+ }
+ 
+ void command_rmd(char *dirname)
+@@ -1483,6 +1646,9 @@
+         if (post_write_script)
+            run_script(post_write_script, mapped);
+ 	free(mapped);
++#ifdef SC_BUILD
++	sync();
++#endif
+ }
+ 
+ void command_noop(char *params)
+@@ -1525,6 +1691,14 @@
+         if (pre_write_script)
+            run_script(pre_write_script, mapped);
+ 
++#ifdef SC_BUILD
++    if (sc_check_writable(philename) < 0) {
++        control_printf(SL_FAILURE,
++                     "553 Error: Remote file is write protected.");
++        return;
++    }
++#endif
++
+ 	if (rename(philename, mapped)) {
+ 		bftpd_log("Error: '%s' while trying to rename '%s' to '%s'.\n",
+                 strerror(errno), philename, mapped);
+@@ -1543,6 +1717,9 @@
+ 	free(philename);
+ 	free(mapped);
+ 	philename = NULL;
++#ifdef SC_BUILD
++	sync();
++#endif
+ }
+ 
+ void command_rest(char *params)
+@@ -1862,9 +2039,20 @@
+             }
+ 			cutto(str, strlen(commands[i].name));
+ 			p = str;
++
++			/* 2009-1020, Simon Lin modify, for fix ftp password is " " bug*/
++			#if 0
+ 			while ((*p) && ((*p == ' ') || (*p == '\t')))
+ 				p++;
+ 			memmove(str, p, strlen(str) - (p - str) + 1);
++			#else
++				/*first char is " ", need to remove, EX:" admin"*/
++				p+=1;
++				while ((*p) && (*p == '\t'))
++					p++;
++				memmove(str, (p), strlen(str) - ((p) - str) + 1);
++			#endif
++
+ 			if (state >= commands[i].state_needed) {
+ 				commands[i].function(str);
+ 				return 0;
+diff -aNru bftpd/dirlist.c bftpd_modify/dirlist.c
+--- bftpd/dirlist.c	2014-09-30 03:08:02.000000000 +0800
++++ bftpd_modify/dirlist.c	2016-05-30 23:28:48.261957898 +0800
+@@ -48,7 +48,9 @@
+ #include "main.h"
+ #include "login.h"
+ #include "dirlist.h"
+-
++#ifdef USB
++#include "ftp_usb_api.h"
++#endif
+ 
+ struct hidegroup *hidegroups = NULL;
+ 
+@@ -171,6 +173,10 @@
+     struct stat statbuf;
+     struct hidegroup *tmp = hidegroups;
+     char *filename_index;      /* place where filename starts in path */
++#ifdef USB
++	char *local_cwd = NULL;
++	char buf[2046]="";
++#endif
+ 
+     if (!stat(name, (struct stat *) &statbuf)) {
+         if (tmp)
+@@ -180,6 +186,19 @@
+             } while ((tmp = tmp->next));
+     }
+ 
++#ifdef USB
++	local_cwd = bftpd_cwd_getcwd();
++	bftpd_log_debug("Error: name=<%s>\n", name);
++	bftpd_log_debug("local_cwd=<%s>: name=<%s>\n", local_cwd, name);
++	if(*(local_cwd+strlen(local_cwd)-1) != '/')
++		snprintf(buf, sizeof(buf), "%s/%s/", local_cwd+1, name);
++	else
++		snprintf(buf, sizeof(buf), "%s%s/", local_cwd+1, name);
++	if(local_cwd)
++		free(local_cwd);
++	if(!is_readable(buf))
++		return;
++#endif
+     /* find start of filename after path */
+     filename_index = strrchr(name, '/');
+     if (filename_index)
+@@ -217,6 +236,9 @@
+     if (! strcasecmp( config_getoption("SHOW_NONREADABLE_FILES"), "yes") )
+        show_nonreadable_files = TRUE;
+ 
++#ifdef USB
++	    bftpd_log_debug("dirlist: name=<%s>\n", name);
++#endif
+     if ((strstr(name, "/.")) && strchr(name, '*'))
+         return; /* DoS protection */
+ 
+diff -aNru bftpd/ftpdpassword bftpd_modify/ftpdpassword
+--- bftpd/ftpdpassword	1970-01-01 08:00:00.000000000 +0800
++++ bftpd_modify/ftpdpassword	2016-05-30 23:28:48.262714933 +0800
+@@ -0,0 +1,2 @@
++admin password ftp /mnt
++
+diff -aNru bftpd/ftp_usb_api.c bftpd_modify/ftp_usb_api.c
+--- bftpd/ftp_usb_api.c	1970-01-01 08:00:00.000000000 +0800
++++ bftpd_modify/ftp_usb_api.c	2016-05-30 23:28:48.275701539 +0800
+@@ -0,0 +1,260 @@
++
++#include <stdlib.h>
++#include <string.h>
++#include <stdio.h>
++#include <ctype.h>
++
++#include "nvram.h"
++//#include "rc.h"
++#include "ftp_usb_api.h"
++
++//void print_console(const char *format, ...);
++
++
++SHARE_LIST_T * SHARE_LIST_malloc(void)
++{
++	SHARE_LIST_T * share_new;
++	share_new = malloc ( sizeof(SHARE_LIST_T) );
++
++	if( !share_new)
++	{
++		return NULL;
++	}
++
++	memset( share_new, 0 , sizeof(SHARE_LIST_T) );
++
++	return share_new;
++	
++
++
++}
++
++void SHARE_free( SHARE_T* share)
++{
++
++	if( share->shared_name) 
++	{
++		free(share->shared_name );
++		share->shared_name = NULL;
++	}
++}
++
++
++
++
++void SHARE_LIST_free( SHARE_LIST_T* share_list)
++{
++	SHARE_LIST_T* next = share_list->next;
++
++	SHARE_free( &( share_list->s));
++
++	if( next)
++	{
++		SHARE_LIST_free(next);
++		free(next);
++		share_list->next=NULL;
++	}
++}
++
++void SHARE_LIST_print(SHARE_LIST_T* shares_in)
++{
++	SHARE_LIST_T* shares = shares_in;
++	bftpd_log( "\n Shere List::\n");
++
++	while( shares)
++	{
++		bftpd_log( "  Share Name=%s R=%d W=%d\n"
++			, shares->s.shared_name?:""
++			, shares->s.access_read
++			, shares->s.access_write);
++		shares=shares->next;
++	}
++}
++
++
++SHARE_LIST_T* SHARE_parse( char* shared_name, char* read_auth, char *write_auth)
++{
++	SHARE_LIST_T* share_new = NULL;
++
++	share_new = SHARE_LIST_malloc();
++
++	if( share_new ==NULL)
++		return NULL;
++
++
++//shared_name
++//print_console("sh nm=%s\n", pt);
++	share_new->s.shared_name= strdup( shared_name );
++
++//access_read
++//print_console("R=%s\n", pt2);
++	if(strcmp(read_auth, "admin") == 0)
++		share_new->s.access_read= ACCESS_HTTP_USERNAME;
++	else if(strcmp(read_auth, "nobody") == 0)
++		share_new->s.access_read= ACCESS_GUEST;
++	else
++		share_new->s.access_read= ACCESS_NOTSHARE;
++
++
++//access_write
++//print_console("W=%s\n", pt);
++	if(strcmp(write_auth, "admin") == 0)
++		share_new->s.access_write= ACCESS_HTTP_USERNAME;
++	else if(strcmp(write_auth, "nobody") == 0)
++		share_new->s.access_write= ACCESS_GUEST;
++	else
++		share_new->s.access_write= ACCESS_NOTSHARE;
++
++	return share_new;
++	
++}
++
++
++SHARE_LIST_T* SHARELIST_parse( char* filename)
++{
++
++	SHARE_LIST_T * share =NULL;
++	SHARE_LIST_T * share_end =NULL;
++	SHARE_LIST_T * share_new =NULL;	
++	FILE *fp = NULL;
++	char tmp[2048], share_name[2048], auth_read[64], auth_write[64];
++
++	if ((fp=fopen(USB_ADVANCED_CONF, "r"))!=NULL) {
++		while(fgets(tmp,2048,fp) != NULL)
++		{
++
++			sscanf(tmp,"%s\t%s\t%s", share_name, auth_read, auth_write);
++//print_console("  %d  pt=%s\n", *pt, pt);
++
++
++			share_new = SHARE_parse( share_name, auth_read, auth_write);
++	
++			if( share_new == NULL) {
++	//print_console("rc: SHARE_parse error\n");
++				continue;
++			}
++	
++			if( share == NULL)
++			{
++				share = share_new;
++				share_end = share_new;
++			}
++			else
++			{
++				share_end ->next  = share_new;
++				share_end = share_new;
++			}
++		
++		}
++		fclose(fp);
++	}
++
++
++	return share;
++}
++
++/* check if there is any files that has "ALL - no password" read access control 
++   RETURN 
++   		0: there is no such file
++   		1: there is
++*/
++int all_file_readable_writable(void)
++{
++	FILE *fp = NULL;
++	char tmp[2048], dir_a[2048]={0,}, read_auth[64], write_auth[64];
++	int ret = 1;
++
++	if ((fp=fopen(USB_ADVANCED_CONF, "r"))!=NULL) {
++		while(fgets(tmp,2048,fp) != NULL)
++		{
++
++			sscanf(tmp,"%s\t%s\t%s", dir_a, read_auth, write_auth);
++			if (strcmp(read_auth, "nobody")==0)
++				is_file_readable = 1;
++			if (strcmp(read_auth, "admin")==0 || strcmp(write_auth, "admin")==0) {
++	    		bftpd_log_debug("<not all file readable and writable hit it! hahahahhaha>\n");
++				ret = 0;
++			}
++		}
++		fclose(fp);
++	}
++	
++	if (ret == 1)
++	    bftpd_log_debug("<all no need admin! hahahahhaha>\n");
++	return ret;
++	
++}
++
++
++int is_readable(const char *dir)
++{
++	SHARE_LIST_T *share_list_now = shared_list;
++	char *shared_name = NULL;
++
++	
++	if(share_list_now == NULL)
++		bftpd_log_debug("null share_list_now\n");
++
++	while(share_list_now != NULL)
++	{
++		shared_name = share_list_now->s.shared_name;
++		bftpd_log_debug("shared_name=%s,access_read = %d, access_write=%d\n", 			
++		share_list_now->s.shared_name,
++		share_list_now->s.access_read,
++		share_list_now->s.access_write);
++		bftpd_log_debug("dir=%s\n", 	dir);		
++		if(((strlen(dir) >= strlen(shared_name) && strncmp(dir, shared_name, strlen(shared_name)) == 0)
++			  || (strlen(dir) >= (strlen(shared_name)-1) && strncmp(dir, shared_name, strlen(shared_name)-1) == 0))
++			&& share_list_now->s.access_read == ACCESS_HTTP_USERNAME
++			&& is_admin_user == 0) {
++	    		bftpd_log_debug("<is readable hit it! hahahahhaha>\n");
++				return 0;
++			}
++
++		share_list_now = share_list_now->next;
++	}
++
++//		SD_LIST_free(sdl_now_head);
++//		free(sdl_now_head);
++
++	return 1;
++	
++}
++
++int is_writable(const char *dir)
++{
++	SHARE_LIST_T *share_list_now = shared_list;
++	char *shared_name = NULL;
++
++	
++	if(share_list_now == NULL)
++		bftpd_log_debug("null share_list_now\n");
++
++	while(share_list_now != NULL)
++	{
++		shared_name = share_list_now->s.shared_name;
++		bftpd_log_debug("shared_name=%s,access_read = %d, access_write=%d\n", 			
++		share_list_now->s.shared_name,
++		share_list_now->s.access_read,
++		share_list_now->s.access_write);
++		bftpd_log("dir=%s\n", 	dir);		
++		if((strlen(dir) >= strlen(shared_name) && strncmp(dir, shared_name, strlen(shared_name)) == 0)
++			&& share_list_now->s.access_write == ACCESS_HTTP_USERNAME
++			&& is_admin_user == 0) {
++	    		bftpd_log_debug("<writable hit it! hahahahhaha>\n");
++				return 0;
++			}
++
++		share_list_now = share_list_now->next;
++	}
++
++//		SD_LIST_free(sdl_now_head);
++//		free(sdl_now_head);
++
++	return 1;
++	
++}
++
++
++
++
+diff -aNru bftpd/ftp_usb_api.h bftpd_modify/ftp_usb_api.h
+--- bftpd/ftp_usb_api.h	1970-01-01 08:00:00.000000000 +0800
++++ bftpd_modify/ftp_usb_api.h	2016-05-30 23:28:48.188947874 +0800
+@@ -0,0 +1,44 @@
++
++#ifndef __USB_API_H__
++#define __USB_API_H__
++
++#include "filenames.h"
++#include "logging.h"
++
++#define MAX_USB_DEVICE_CNT	50  //MAX_USB_DEVICE_CNT = mount + unmouT
++#define MNT_PATH		"/mnt/shares/"
++
++#define ACCESS_HTTP_USERNAME 0
++#define ACCESS_GUEST 1
++#define ACCESS_NOTSHARE 2
++
++typedef struct {
++	char * shared_name;
++	int access_read;
++	int access_write;
++} SHARE_T;
++
++
++typedef struct SHARE_LIST{
++	SHARE_T s;
++	struct SHARE_LIST *next;
++} SHARE_LIST_T;
++
++
++void SHARE_LIST_print(SHARE_LIST_T* shares_in);
++SHARE_LIST_T* SHARELIST_parse( char* filename);
++
++extern SHARE_LIST_T* shared_list;
++extern int is_admin_user;
++extern int is_file_readable;
++
++int is_writable(const char *dir);
++int is_readable(const char *dir);
++int all_file_readable_writable(void);
++
++#define bftpd_log_debug(...)
++//#define bftpd_log_debug	bftpd_log
++
++#endif //__USB_API_H__
++
++
+diff -aNru bftpd/login.c bftpd_modify/login.c
+--- bftpd/login.c	2014-09-30 03:00:10.000000000 +0800
++++ bftpd_modify/login.c	2016-05-31 18:46:02.912717361 +0800
+@@ -50,7 +50,12 @@
+ #include "logging.h"
+ #include "bftpdutmp.h"
+ #include "main.h"
+-
++#include "sc_debug.h"
++#ifdef USB
++#include "ftp_usb_api.h"
++SHARE_LIST_T* shared_list = NULL;
++int is_admin_user = 0;
++#endif
+ #ifdef WANT_PAM
+ char usepam = 0;
+ pam_handle_t *pamh = NULL;
+@@ -63,6 +68,41 @@
+ struct passwd userinfo;
+ char userinfo_set = 0;
+ 
++#ifdef REMOTE_SMB_CONF
++int ftp_request_from_readysharecloud(void)
++{
++	int from_readysharecloud = 0;
++	FILE *fp = fopen("/proc/net/route", "r");	
++	if (fp)
++	{
++		int count;
++		char linebuf[1024];
++		unsigned int dst, gw, mask;
++		while (fgets(linebuf, sizeof(linebuf), fp))
++		{
++			dst=0;
++			gw=0;
++			mask=0;
++			/* Iface    Destination Gateway   Flags RefCnt Use Metric Mask 
++			 * LeafNets 00000005    00000000  0001  0      0   0      000000FF */
++			count = sscanf(linebuf, "LeafNets %x %x %*s %*s %*s %*s %x", &dst, &gw, &mask);
++			if (count==3)
++			{
++				SC_CFPRINTF("count:%d, dst:%x, gw:%x, mask:%x\n", count, dst, gw, mask);
++				if (dst>0 && gw==0 && mask>0)
++				{
++					if ( (remotename.sin_addr.s_addr&mask) == (dst&mask) )
++						from_readysharecloud = 1;
++					break;
++				}
++			}
++		}
++		fclose(fp);
++	}
++	return from_readysharecloud;
++}
++#endif
++
+ char *mygetpwuid(int uid, FILE * file, char *name)
+ {
+ 	int _uid;
+@@ -198,6 +238,54 @@
+         return setuid(uid);
+ }
+ 
++#ifdef USB
++#define NOT_ADMIN_USER				0
++#define ADMIN_WITH_WRONG_PASS		1
++#define	ADMIN_WITH_CORRECT_PASS		2
++int check_admin_user_pass(char *my_filename, char *my_username, char *my_password)
++{
++   FILE *my_file;
++   int found_user = 0;
++   char user[33], password[33], group[33], home_dir[33];
++   int return_value;
++
++   my_file = fopen(my_filename, "r");
++   if (! my_file)
++      return NOT_ADMIN_USER;
++
++   return_value = fscanf(my_file, "%32s %32s %32s %32s", user, password, group, home_dir);
++   if (! strcmp(user, my_username) )
++      found_user = 1;
++
++   while ( (! found_user) && ( return_value != EOF) )
++   {
++       return_value = fscanf(my_file, "%32s %32s %32s %32s", user, password, group, home_dir);
++       if (! strcmp(user, my_username) )
++          found_user = 1;
++   }
++
++   fclose(my_file);
++   if(password[0] == '\1')
++      password[0]='\0';
++   if (found_user)
++   {
++      /* check password */
++      if (! strcmp(password, "*") )
++      {
++      	 return ADMIN_WITH_CORRECT_PASS;
++      }
++      else if ( strcmp(password, my_password) )
++         return ADMIN_WITH_WRONG_PASS;
++      else
++         return ADMIN_WITH_CORRECT_PASS;
++
++   }
++   else
++   	return NOT_ADMIN_USER;
++  
++   return 0;
++}
++#endif
+ 
+ /*
+ Returns 0 on success and 1 on failure (?)
+@@ -257,10 +345,28 @@
+         else
+         {
+            home_directory = check_file_password(file_auth, user, password);
++#ifdef USB
++        	bftpd_log_debug("user = <%s> anonymous=<%s>, is_file_readable=%d\n", user, anonymous, is_file_readable);
++#endif
+            if (! home_directory)
+            {
+-               if ( anon_ok && ! change_uid )
++#ifdef USB
++				/* check if it is "admin" user, "admin" user will need correct password. */
++			   if (check_admin_user_pass(file_auth, user, password) != NOT_ADMIN_USER) {
++                  bftpd_log_debug("user = <%s> password=<%s>, it is 'admin' user with wrong password.\n", user, password);
++		  control_printf(SL_SUCCESS, "331 Password please.");
++                  return -1;
++			   }
++               if (password && *password == 0) /* for all directory are readable and writable */
++                   home_directory = strdup("/mnt");
++               else if ( is_file_readable ) /* for guest account, it can see readable files */
++                   home_directory = strdup("/mnt");
++               else if ( anon_ok && ! change_uid )
+                    home_directory = "/";
++#else
++				  if ( anon_ok && ! change_uid )
++                   home_directory = "/";
++#endif
+                else
+                {
+                   control_printf(SL_FAILURE, "530 Anonymous user not allowed.");
+@@ -268,6 +374,10 @@
+                   return -1;
+                }
+            }
++#ifdef USB
++           else
++           	is_admin_user = 1;
++#endif
+         }
+ 
+ 	if (strncasecmp(foo = config_getoption("DENY_LOGIN"), "no", 2)) {
+@@ -352,6 +462,10 @@
+ 			   &ratio_send, &ratio_recv);
+ 	}
+ 
++#ifdef USB
++		shared_list = SHARELIST_parse(USB_ADVANCED_CONF);
++		SHARE_LIST_print(shared_list);
++#endif
+         /* do these checks if logging in via normal methods */
+         if ( (! file_auth[0]) && (!anon_ok || (anon_ok && change_uid)) )
+         {
+@@ -649,8 +763,38 @@
+ #endif
+ }
+ 
++/* 2009-1020, Simon Lin add, for fix ftp password is " " bug*/
++int parse_str(FILE *my_file, char *user, char *group, char *home_dir, char *password)
++{
++	int i =0, str_i = 0;
++	signed char ch;
++	char str_tmp[4][33];
+ 
+-
++	while((ch = getc(my_file)) != EOF )
++	{
++		if (ch != '\n')
++		{
++			if (ch != 0x01)
++			{
++				str_tmp[str_i][i++]=ch;
++			}
++			else
++			{
++				str_tmp[str_i++][i]='\0';
++				i=0;
++			}
++		}
++		else
++		{
++			strcpy(user, str_tmp[0]);
++			strcpy(password, str_tmp[1]);
++			strcpy(group, str_tmp[2]);
++			strcpy(home_dir, str_tmp[3]);
++			return 0;
++		}
++	}
++	return EOF;
++}
+ 
+ /*
+ This function searches through a text file for a matching
+@@ -669,10 +813,20 @@
+    char *my_home_dir = NULL;
+    int return_value;
+ 
++#ifdef REMOTE_SMB_CONF
++	if (ftp_request_from_readysharecloud())
++	{
++		SC_CFPRINTF("ftp request from readysharecloud!\n");
++		return strdup("/mnt"); 
++	}
++#endif
++
+    my_file = fopen(my_filename, "r");
+    if (! my_file)
+       return NULL;
+ 
++	/* 2009-1020, Simon Lin modify, for fix ftp password is " " bug*/
++#if 0 
+    return_value = fscanf(my_file, "%32s %32s %32s %64s", user, password, group, home_dir);
+    if (! strcmp(user, my_username) )
+       found_user = 1;
+@@ -683,8 +837,17 @@
+        if (! strcmp(user, my_username) )
+           found_user = 1;
+    }
+-
++#else
++	while ( (! found_user) && ( return_value != EOF) )
++	{
++		return_value = parse_str(my_file, user, group, home_dir, password);
++		if (! strcmp(user, my_username) )
++			found_user = 1;
++	}
++#endif
+    fclose(my_file);
++   if(password[0] == '\1')
++      password[0]='\0';
+    if (found_user)
+    {
+       /* check password */
+diff -aNru bftpd/main.c bftpd_modify/main.c
+--- bftpd/main.c	2013-05-28 03:16:36.000000000 +0800
++++ bftpd_modify/main.c	2016-05-30 23:28:48.081948016 +0800
+@@ -129,8 +129,7 @@
+ }
+ 
+ 
+-
+-
++#if 0
+ void handler_sigchld(int sig)
+ {
+ 	pid_t pid;
+@@ -155,6 +154,29 @@
+              pid = waitpid(-1, NULL, WNOHANG);    /* check for more children */
+         }
+ }
++}
++#else
++/* SC: fix sometimes zombie children can not be reclaimed issue. 2011.02.17 BillGuo */
++void handler_sigchld(int sig)
++{
++	pid_t pid;
++	int i;
++	struct bftpd_childpid *childpid; 
++
++        /* Get the child's return code so that the zombie dies */        
++	for (i = 0; i < bftpd_list_count(child_list); i++) {
++		childpid = bftpd_list_get(child_list, i);
++		pid = childpid->pid;
++		if ( waitpid(pid, NULL, WNOHANG) > 0 ) {
++			close(childpid->sock);
++			bftpd_list_del(&child_list, i);
++			free(childpid);
++                        /* make sure the child is removed from the log */
++                        bftpdutmp_remove_pid(pid);
++		}
++	}
++}
++#endif
+ 
+ void handler_sigterm(int signum)
+ {
+diff -aNru bftpd/Makefile bftpd_modify/Makefile
+--- bftpd/Makefile	2014-10-01 09:56:23.000000000 +0800
++++ bftpd_modify/Makefile	2016-05-30 23:28:48.276702379 +0800
+@@ -1,3 +1,13 @@
++
++CURR_DIR := $(shell pwd)
++BUILD_DIR:=$(subst /user_space, /user_space,$(CURR_DIR))
++BUILD_DIR:=$(word 1, $(BUILD_DIR))
++
++include $(BUILD_DIR)/Rules.mak
++
++
++#include ../../Rules.mak
++CC=$(CROSS)gcc
+ # Generated automatically from Makefile.in by configure.
+ VERSION=4.4
+ CC?=gcc
+@@ -17,28 +27,48 @@
+ 
+ OBJS2LINK=$(OBJS) $(PAX)
+ LDFLAGS=
++ifeq ($(USB),1)
++HEADERS += ftp_usb_api.h
++OBJS += ftp_usb_api.o 
++SRCS += ftp_usb_api.c 
++CFLAGS += -DUSB
++LDFLAGS += -L$(APPS_DIR)/public/nvram -lscnvram
++CFLAGS += -I$(APPS_DIR)/public/rc/include -I$(APPS_DIR)/public/nvram
++CFLAGS += -I$(SHARED_DIR)
++endif
++
++ifeq ($(READY_SHARE_CLOUD),1)
++CFLAGS += -DREMOTE_SMB_CONF
++endif
+ 
+ all: bftpd
+ 
+ bftpd: $(OBJS)
+ 	./mksources $(DIRPAX)
+ 	$(CC) $(OBJS2LINK) $(LDFLAGS) $(LIBS) -o bftpd
++	$(CROSS)strip $@
+ 
+ $(OBJS): $(HEADERS) Makefile
+ 
+ install: all
+-	mkdir -p $(DESTDIR)/$(prefix)/sbin
+-	$(INSTALL) -g 0 -m 700 -o 0 bftpd $(DESTDIR)/$(prefix)/sbin
+-	mkdir -p $(DESTDIR)/$(mandir)/man8
+-	$(INSTALL) -g 0 -m 644 -o 0 bftpd.8 $(DESTDIR)/$(mandir)/man8
+-	mkdir -p $(DESTDIR)/$(prefix)/etc
+-	[ -f $(DESTDIR)/$(prefix)/etc/bftpd.conf ] || \
+-		$(INSTALL) -g 0 -m 600 -o 0 bftpd.conf $(DESTDIR)/$(prefix)/etc
+-	mkdir -p $(DESTDIR)/$(prefix)/var/log
+-	touch $(DESTDIR)/$(prefix)/var/log/bftpd.log
+-	chmod 644 $(DESTDIR)/$(prefix)/var/log/bftpd.log
+-	mkdir -p $(DESTDIR)/$(prefix)/var/run/bftpd
+-	chmod 755 $(DESTDIR)/$(prefix)/var/run/bftpd
++	cp -f bftpd $(BINDIR)
++ifeq ($(MTCODE),1)
++	cp -f bftpd.mt.conf $(TARGET_DIR)/usr/etc/bftpd.conf
++else
++	cp -f bftpd.fw.conf $(TARGET_DIR)/usr/etc/bftpd.conf.sample
++endif
++	#mkdir -p $(DESTDIR)/$(prefix)/sbin
++	#$(INSTALL) -g 0 -m 700 -o 0 bftpd $(DESTDIR)/$(prefix)/sbin
++	#mkdir -p $(DESTDIR)/$(mandir)/man8
++	#$(INSTALL) -g 0 -m 644 -o 0 bftpd.8 $(DESTDIR)/$(mandir)/man8
++	#mkdir -p $(DESTDIR)/$(prefix)/etc
++	#[ -f $(DESTDIR)/$(prefix)/etc/bftpd.conf ] || \
++		#$(INSTALL) -g 0 -m 600 -o 0 bftpd.conf $(DESTDIR)/$(prefix)/etc
++	#mkdir -p $(DESTDIR)/$(prefix)/var/log
++	#touch $(DESTDIR)/$(prefix)/var/log/bftpd.log
++	#chmod 644 $(DESTDIR)/$(prefix)/var/log/bftpd.log
++	#mkdir -p $(DESTDIR)/$(prefix)/var/run/bftpd
++	#chmod 755 $(DESTDIR)/$(prefix)/var/run/bftpd
+ 
+ clean distclean:
+ 	rm -f *~ $(OBJS) bftpd mksources.finished config.cache
+diff -aNru bftpd/md5_loc.h bftpd_modify/md5_loc.h
+--- bftpd/md5_loc.h	2012-11-09 02:33:33.000000000 +0800
++++ bftpd_modify/md5_loc.h	2016-05-30 23:28:48.273712611 +0800
+@@ -58,7 +58,9 @@
+ * -- Jesse
+ */
+ #ifndef SWAP
+-#define SWAP(n) (n)
++#define SWAP(n)	\
++    (((n) << 24) | (((n) & 0xff00) << 8) | (((n) >> 8) & 0xff00) | ((n) >> 24))
++//#define SWAP(n) (n)
+ #endif
+ 
+ 
+diff -aNru bftpd/options.c bftpd_modify/options.c
+--- bftpd/options.c	2012-11-09 02:33:31.000000000 +0800
++++ bftpd_modify/options.c	2016-05-30 23:28:48.272713965 +0800
+@@ -273,7 +273,7 @@
+ }
+ 
+ char *getoption_directories(struct directory *dir, char *name) {
+-    char curpath[MAX_STRING_LENGTH], *bar;
++    char curpath[MAX_STRING_LENGTH], *bar, *wildcard = NULL;
+     struct directory *longest = NULL;
+     if(!dir)
+         return NULL;
+@@ -286,7 +286,34 @@
+            return NULL;
+ 
+         strcpy(bar, dir->path);
++        /* jacky add support wildcard */
++        if( (wildcard = strstr(bar,"/*")) )
++        {
++        	*wildcard = '\0';
++        }
+         strcat(bar, "/");
++
++        if(wildcard
++           && (strlen(curpath) > strlen(bar))
++           && !strncmp(curpath, bar, strlen(bar)))
++        {
++            if (longest)
++            {
++                if ((strlen(bar) + 1 > strlen(longest->path) + 1)
++                    && (getoption(dir->options, name)))
++                    longest = dir;
++            } else {
++                if (getoption(dir->options, name))
++                    longest = dir;
++            }
++        }
++        else if(!strcmp(curpath,bar))
++        {
++        	longest = dir;
++        	free(bar);
++        	break;
++        }
++#if 0 /* old */
+         if (!strncmp(curpath, bar, strlen(bar))) {
+             if (longest) {
+                 if ((strlen(bar) > strlen(longest->path) + 1)
+@@ -297,6 +324,7 @@
+                     longest = dir;
+             }
+         }
++#endif
+         free(bar);
+     } while ((dir = dir->next));
+     if (longest)

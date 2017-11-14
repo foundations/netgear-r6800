@@ -1,0 +1,51 @@
+From 29eb59a23a0461d7def60bbeb8d83013d085a9fc Mon Sep 17 00:00:00 2001
+From: Socrates Wei <socrates@dniserver.dnish.net>
+Date: Wed, 2 Apr 2014 13:54:12 +0800
+Subject: [PATCH 2/2] forked-daapd: process music only
+
+According to NTGR SPEC rev 12:
+16.15.4 Engineering Spec:
+4. Support music format: MP3, AAC, FLAC, WAV, WMA.
+
+Signed-off-by: Socrates Wei <socrates@dniserver.dnish.net>
+---
+ src/filescanner.c |   16 ++++++++++++++++
+ 1 files changed, 16 insertions(+), 0 deletions(-)
+
+diff --git a/src/filescanner.c b/src/filescanner.c
+index f79e4e5..6609dc5 100644
+--- a/src/filescanner.c
++++ b/src/filescanner.c
+@@ -65,6 +65,7 @@
+ #define F_SCAN_RESCAN  (1 << 1)
+ #define F_SCAN_FAST    (1 << 2)
+ #define MAX_NUM_MEDIA_FILE   25000
++#define PROCESS_MUSIC_ONLY
+ 
+ struct deferred_pl {
+   char *path;
+@@ -410,6 +411,21 @@ if (number_of_media_file >= MAX_NUM_MEDIA_FILE)
+ 	  /* Hidden files - don't scan */
+ 	  return;
+ 	}
++#ifdef PROCESS_MUSIC_ONLY
++      /* According to NTGR SPEC Rev 12
++       * 16.15.4 Engineering Spec:
++       * 4. Support music format: MP3, AAC, FLAC, WAV, WMA.
++       */
++      else if ((strcasecmp(ext, ".mp3") != 0)
++          && (strcasecmp(ext, ".aac") != 0)
++          && (strcasecmp(ext, ".m4a") != 0)
++          && (strcasecmp(ext, ".flac") != 0)
++          && (strcasecmp(ext, ".wav") != 0)
++          && (strcasecmp(ext, ".wma") != 0))
++	{
++	  return;
++	}
++#endif
+       else if (ignore_filetype(ext))
+ 	{
+ 	  /* File extension is in ignore list - don't scan */
+-- 
+1.7.2.5
+

@@ -1,0 +1,110 @@
+This is wol.info, produced by makeinfo version 4.0 from wol.texi.
+
+   This file documents wol, the Wake On LAN client.
+
+   Copyright 2001 Thomas Krennwallner <krennwallner@aon.at>
+
+   Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+Texts.  A copy of the license is included in the section entitled "GNU
+Free Documentation License".
+
+
+File: wol.info,  Node: Top,  Next: Description,  Prev: (dir),  Up: (dir)
+
+`wol'
+*****
+
+   This manual gives you a short introduction into wol, the Wake On LAN
+client.  See <http://ahh.sourceforge.net/wol> for updates.
+
+* Menu:
+
+* Description::                   Description
+* Options::                       Options to wol
+* Examples::                      Examples for program invocation
+
+
+File: wol.info,  Node: Description,  Next: Options,  Prev: Top,  Up: Top
+
+Description
+***********
+
+   `wol' broadcasts so called Magic Packet Frames across a network to
+wake up hardware, that understands such packets. These are normally
+NIC's with Wake On Lan function.
+
+   `wol MAC-ADDRESS' assembles a Wake On Lan packet for hardware address
+`MAC-ADDRESS'. The hardware address is written as x:x:x:x:x:x, where x
+is a hexadeciml number between 0 and ff which represents on byte of the
+address, which is in network byte order.
+
+
+File: wol.info,  Node: Options,  Next: Examples,  Prev: Description,  Up: Top
+
+Options
+*******
+
+   * -i x.x.x.x, -ipaddr=x.x.x.x
+
+     Broadcast packet to this IP Address. This is important, if you
+     want to send a packet to another subnet, because not all routers
+     routes packets addressed to the default IP address 0.0.0.0.
+
+   * -p NUM, -port=NUM
+
+     Send packet with this destination port. This option is important,
+     if a packet filter would block the default destination port 40000.
+
+   * -f FILE, -file=FILE
+
+     Read hardware addresses, IP addresses and ports from file FILE.
+
+   * -v, -verbose
+
+     Turns on verbose output.
+
+   * -w NUM, -wait=NUM
+
+     Waits NUM milliseconds between magic packets. Also known as fuse
+     health pack.
+
+
+File: wol.info,  Node: Examples,  Prev: Options,  Up: Top
+
+Examples
+********
+
+   * wol 00:4F:49:07:0B:5F 00:4F:50:06:12:4F
+
+     Sends packet addressed to 0.0.0.0:40000 and is intended to wake up
+     hardware address 00:4F:49:07:0B:5F and 00:4F:50:06:12:4F.
+
+   * wol -i 192.168.3.0 -p 69 00:4F:49:07:0B:5F
+
+     Sends packet addressed to 192.168.3.0:69 and is intended to wake
+     up hardware address 00:4F:49:07:0B:5F.
+
+   * wol -f /etc/ethers
+
+     Read hardware address and corresponding ip address from file
+     /etc/ethers.
+
+     File looks like:
+
+          Hardware-Address  IP-Address:Port
+          Hardware-Address  IP-Address
+          # Comment
+          Hardware-Address  IP-Address:Port
+
+
+
+Tag Table:
+Node: Top564
+Node: Description956
+Node: Options1487
+Node: Examples2250
+
+End Tag Table

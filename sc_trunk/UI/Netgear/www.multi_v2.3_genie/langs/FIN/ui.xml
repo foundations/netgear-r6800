@@ -1,0 +1,5905 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>Lisää WPS-työasema</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>Uusi ja helppo tapa muodostaa yhteys langattomaan reitittimeen WPS (Wi-Fi Protected Setup) -suojauksen avulla</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>Langattoman työaseman täytyy tukea WPS-toimintoa, jos haluat lisätä työaseman tämän ohjatun toiminnon avulla langattomaan reitittimeen, jossa WPS-toiminto on otettu käyttöön.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>Tarkista langattoman työaseman käyttöoppaasta ja pakkauksesta, tukeeko se WPS-toimintoa.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>Jos langaton työasema ei tue WPS-toimintoa, sinun on määritettävä langaton työasema manuaalisesti niin, että siinä on samat SSID-asetukset ja langattomat suojausasetukset kuin tässä reitittimessä.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation>Seuraava</translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation> Langattomat lisäasetukset</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>Nimi (SSID)</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>Alue</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>Kanava</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>Langaton tukiasema</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>Nimen lähetys</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>Suojaus</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>WPS-asetukset</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>Määritetty</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>Reitittimen PIN</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>Ei määritetty</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>Poista reitittimen PIN käytöstä</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>Säilytä olemassa olevat langattomat asetukset</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>Käytä</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Peruuta</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>Varmuuskopioi asetukset</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>Tallenna kopio nykyisistä asetuksista</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>Palauta tallennetut asetukset tiedostosta</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>Muunna takaisin tehdasasetuksiin</translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation>Varmuuskopioi</translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>Palauta</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>Pyyhi</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>Tehdasasetusten lataaminen poistaa kaikki nykyiset asetukset.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>Haluatko varmasti tehdä tämän?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Kyllä</translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>Ei</translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>Perusasetukset</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>Vaatiiko Internet-yhteytesi kirjautumisen?</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>&lt;b&gt;Tilin nimi&lt;/b&gt; &amp;nbsp;(tarvittaessa)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>&lt;b&gt;Toimialueen nimi&lt;/b&gt; &amp;nbsp;(tarvittaessa)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP-osoite</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>Hae dynaamisesti Internet-palveluntarjoajalta</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>Käytä kiinteää IP-osoitetta</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Connection</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>Aliverkon peitteen IP-osoite</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>Yhdyskäytävä</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>Nimipalvelimen (DNS) osoite</translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>Hae automaattisesti Internet-palveluntarjoajalta</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>Käytä näitä DNS-palvelimia</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Ensisijainen DNS</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Toissijainen DNS</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>Reititin</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>MAC-osoite</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>Käytä oletusosoitetta</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>Käytä tietokoneen MAC-osoitetta</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>Käytä tätä MAC-osoitetta</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>Testi</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>Internet-palveluntarjoaja</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Käyttäjätunnus</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>Salasana</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>&lt;B&gt;Palvelun nimi&lt;/B&gt; (tarvittaessa)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>Yhteyden tila</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>Aina käytössä</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>Dial on Demand</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>Manuaalinen yhteyden muodostus</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;B&gt;Aikakatkaisu&lt;/B&gt; (minuutteina)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>Hae dynaamisesti Internet-palveluntarjoajalta</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>Käytä kiinteää IP-osoitetta</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>Reitittimen MAC-osoite</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>Käytä oletusosoitetta</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>Käytä tietokoneen MAC-osoitetta</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>Käytä tätä MAC-osoitetta</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>Internet-palveluntarjoaja</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>Oma IP-osoite</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>Palvelimen osoite</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>Yhteyden tunnus/nimi</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>Käytä näitä DNS-palvelimia</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>Internet-yhteyden testaaminen</translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>Tälle sivulle tulee automaattisesti NETGEAR-verkkosivusto, jos Internet-yhteyden muodostaminen onnistuu.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>Sulje ikkuna</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>Yhteysaika</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>Yhdistetään palvelimeen</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>Neuvottelu</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>Todennus</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>Haetaan IP-osoitetta</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>If connection fails, check your Login, Password, and other data.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>Estä sivustot</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>Avainsanaesto</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>Ei koskaan</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>Aikataulun mukaan</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>Aina</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>Kirjoita tähän avainsana tai toimialueen nimi.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>Estä sivustot, jotka sisältävät nämä avainsanat tai toimialueen nimet:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>Salli estettyjen sivustojen käyttö luotetusta IP-osoitteesta</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>Luotettu IP-osoite</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>Lisää avainsana</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>Poista avainsana</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>Tyhjennä luettelo</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>Estä palvelut</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>Palveluiden esto</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>Palvelutaulukko</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>Palvelutyyppi</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>Portti</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>Lisää</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>Muokkaa</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>Poista</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>Palveluiden eston asetus</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>Protokolla</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>Aloittava portti</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>Päättävä portti</translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>Palvelutyyppi/käyttäjän määrittämä</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>Suodata palvelut:</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>Vain tämä IP-osoite</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>IP-osoitteiden alue</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>-</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>Kaikki IP-osoitteet</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>Internet-yhteyttä ei ole.</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>Reitittimellä ei ole Internet-yhteyttä, se ei voi ladata määritettyä kielitiedostoa NETGEAR-sivustosta. Jos et ole määrittänyt reitittimen Internet-porttia, käytä asennuslevyä. Muussa tapauksessa muodosta yhteys reitittimestä Internetiin manuaalisesti ja yritä tätä toimintoa uudelleen.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>OK</translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Ohjattu laiteohjelman päivitystoiminto</translation>
+</message>
+<message>
+<tag_code>170</tag_code>
+<translation>Reititin tarkistaa NETGEAR-palvelimesta, onko reitittimellesi saatavilla laiteohjelman päivityksiä. &lt;br&gt; &lt;br&gt; Tämä voi kestää </translation>
+</message>
+<message>
+<tag_code>171</tag_code>
+<translation> sekuntia. Odota...</translation>
+</message>
+<message>
+<tag_code>172</tag_code>
+<translation>Tarkista laiteohjelmapäivitykset kirjautumisen yhteydessä </translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Laiteohjelman version tarkistus</translation>
+</message>
+<message>
+<tag_code>174</tag_code>
+<translation>Uutta laiteohjelman versiota ei ole saatavilla.</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Edellinen</translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>Reititin lataa nyt uutta versiota. Odota ...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>Reitittimen laiteohjelmistoa päivitetään. Odota</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>Huomautus: Laiteohjelman päivitys kestää noin </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation> minuuttia kestää laiteohjelman päivitys.&lt;br&gt;Älä katkaise laitteesta virtaa tai paina palautuspainiketta.</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>Lataa</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>Odota...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>Käyttöliittymäkielen päivitys</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>Kielitaulukoiden päivitys on käynnissä. Odota hetki...</translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>Etä</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>Tuntematon</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Devices</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>Kansion nimi</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>Liitetyt laitteet</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>Langalliset laitteet</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>Laitteen nimi</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>Langattomat laitteet (myös langattomat tunkeilijat näkyvät tässä)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>Päivitä</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>Diagnostiikka</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>Lähetä ping-komento IP-osoitteeseen</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>Suorita DNS-haku</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>Internet-nimi</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>IP-osoite</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>Palvelin:</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>Näytä reititystaulukko</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>Käynnistä reititin uudelleen</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>Ping</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>Hae</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>Näytä</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>Käynnistä uudelleen</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>Vianmääritys - ping</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>Ping-tulokset</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>Vianmääritys - reititystaulukko</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>Kohde</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>Peite</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>Metrinen</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>Aktiivinen</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation>Dynaaminen DNS</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>Käytä dynaamista DNS-palvelua</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>Palveluntarjoaja</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>Isäntänimi</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>Käyttäjätunnus</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>Näytä tila</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>Varoitus</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>Järjestelmän todennus epäonnistui.</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>Pyydä oikeat tiedot järjestelmänvalvojalta.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>Epäonnistui</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>Tämä näyttö palautuu automaattisesti edelliseen näyttöön muutaman sekunnin kuluttua...</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>Sähköposti</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>Ota sähköposti-ilmoitus käyttöön</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>Lähetä hälytykset ja lokit sähköpostilla</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>Lähtevän postin palvelin</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>Lähetä tähän sähköpostiosoitteeseen</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>Oma postipalvelimeni vaatii todennuksen</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>Lähetä hälytys välittömästi</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>Kun joku yrittää päästä estetylle sivustolle</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>Lähetä lokit tämän aikataulun mukaan</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>Kun loki on täynnä</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>Tunneittain</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>Päivittäin</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>Viikoittain</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>Ei mitään</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>Päivä</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>Sunnuntai</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>Maanantai</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>Tiistai</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>Keskiviikko</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>Torstai</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>Perjantai</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>Lauantai</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>Aika</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>Suojattu yhteys (käytä SSL:ää)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>ap.</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>ip.</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>Portin välitys/portin laukaisu</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>Valitse palvelutyyppi.</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>Portin välitys</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>Portin laukaisu</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>Palvelimen IP-osoite</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>Uutiset</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>Aloittava portti</translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>Päättävä portti</translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>  Edit Service  </translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>Poista palvelu</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>Lisää mukautettu palvelu</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>Portit – mukautetut palvelut</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+<translation>Aloittava portti</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>Päättävä portti</translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>Lokit</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>Kuluva aika</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>Sisällytä lokiin</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>Yritys päästä sallittuihin sivustoihin</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>Yritys päästä estettyihin sivustoihin ja palveluihin</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>Yhteydet tämän reitittimen verkkopohjaisen käyttöliittymään</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>Reitittimen toiminta (esim. käynnistys)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>Tunnetut DoS-hyökkäykset ja porttien skannaukset</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>Portin välitys/portin laukaisu</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>Langaton käyttö</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>Tyhjennä loki</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>Lähetä loki</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>Poista portin laukaisu käytöstä</translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(minuutteina)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>Portin laukaisun aikakatkaisu</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>Portin laukaisun porttimääritystaulukko</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>Ota käyttöön</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>Tuleva yhteys</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>Palvelun käyttäjä</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>Lisää palvelu</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>Muokkaa palvelua</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>Palvelu</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>Mikä tahansa</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>Yksittäinen osoite</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>Portin laukaiseminen</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>Vaadittu tuleva yhteys</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>Etähallinta</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>Ota etähallinta käyttöön</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>Etähallintaosoite</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>Salli etäkäyttö kohteesta</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>Vain tämä tietokone</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>Osoitealue</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>Mistä</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>-</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>Kaikki</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>Porttinumero</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>Palomuurin säännöt</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>Lähtevät palvelut</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>Toiminto</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>Loki</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>Oletus</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>SALLI aina</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>Tulevat palvelut</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IPAddress</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>ESTÄ aina</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>Sulje IM-portit</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>Avaa IM-portit (IM-portit ovat oletusarvoisesti auki)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>Siirrä</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>Aikataulu</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>Estettävät päivät</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>Joka päivä</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>Estettävä kellonaika:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(käytä 24 tunnin kelloa)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>Koko päivä</translation>
+</message>
+<message>
+<tag_code>360</tag_code>
+<translation>alku</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>Tunti</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>Minuutit</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>Loppu</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>Aikavyöhyke</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) Kansainvälinen läntinen päivämääräraja</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) Midwayn saari, Samoa</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) Havaiji</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) Alaska</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) Tyynenmeren aika (Yhdysvallat ja Kanada), Tijuana</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) Arizona, Chihuahua, La Paz, Mazatlan</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) Vuoristoaika (Yhdysvallat ja Kanada)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) Keski-Amerikka, keskusaika (Yhdysvallat ja Kanada)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) Guadalajara, Mexico City, Monterrey, Saskatchewan</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) Bogota, Lima, Quito</translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00) itäinen aika (Yhdysvallat ja Kanada)</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) Indiana (itä)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) Atlantin aika (Kanada), Caracas, La Paz, Santiago</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) Newfoundland</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) Brasilia, Buenos Aires, Georgetown, Grönlanti</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) Keski-Atlantti</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) Azorit, Kap Verden saari</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) Casablanca, Monrovia</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) Greenwichin keskiaika: Dublin, Edinburgh, Lissabon, Lontoo</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) Amsterdam, Berliini, Bern, Rooma, Tukholma, Wien</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) Belgrad, Bratislava, Budapest, Ljubljana, Praha</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) Brysseli, Kööpenhamina, Madrid, Pariisi</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) Sarajevo, Skopje, Varsova, Zagreb, Länsi-Keski-Afrikka</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) Ateena, Beirut, Istanbul, Minsk</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) Bukarest, Kairo, Harare, Pretoria</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) Helsinki, Kiev, Riika, Sofia, Tallinna, Vilna, Jerusalem</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riad</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riad, Teheran</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT+04:00) Moskova, Pietari, Volgograd</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) Abu Dhabi, Muscat, Baku, Tbilisi, Yerevan, Kabul</translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) Jekaterinburg, Islamabad, Karachi, Tashkent</translation>
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi ,Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) Almaty,  Astana, Dhaka, Sri Jayawardenepura, Rangoon ,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) Bangkok, Jakarta, Hanoi,Novosibirsk </translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) Peking, Chongqing, Hong Kong, Urumqi ,Krasnoyarsk</translation>
+</message>
+<message>
+<tag_code>414</tag_code>
+<translation>(GMT+08:00)  Ulan Bator, Kuala Lumpur, Singapore, Perth, Taipei</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) Tokio, Osaka, Sapporo, Soul,  Adelaide, Darwin, Irkutsk</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00) Yakutsk</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) Guam, Port Moresby, Hobart</translation>
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00) Vladivostok</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) Magadan, Solomonsaaret, Uusi Kaledonia</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) Fiji, Auckland, Wellington, Marshallsaaret</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) Nukualofa</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>Siirry automaattisesti kesä-/talviaikaan</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>Kuluva aika</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>Palvelut</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>Tärkeä päivitys</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>Jotta reitittimesi IP-osoite ei ole ristiriidassa Internet-palveluntarjoajan määritysten kanssa, IP-osoitteeksi on vaihdettu </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>Päivitä reitittimen kokoonpanoasetusten IP-osoitteet jokaiseen palveluun, kuten portin uudelleenohjauspalveluun ja IP-osoitteen varauspalveluun.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>Sulje ikkuna</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>Reititin käyttää laajasti JavaScriptiä käyttöliittymän toiminnassa.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>Ota JavaScript käyttöön selaimessasi tai käytä toista selainta.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>Haluatko vaihtaa kielestä</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>(nykyinen kieli) kieleen</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>Asennus</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>RIP-suunta</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>Molemmat</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>Vain tulo</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>Vain lähtö</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>RIP-versio</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>Poistettu käytöstä</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>Poissa käytöstä</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>Käytössä</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>Käytä reititintä DHCP-palvelimena</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>Osoitteen varaus</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>Osoitteen varaustaulukko</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>Valitse poistettava varattu osoite.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>Valitse muokattava varattu osoite.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>Kiitos NETGEARin verkkopohjaisen reitittimen määritysapuohjelman käytöstä.</translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>Näkemiin</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Ohjattu asennustoiminto</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>Lisää WPS-työasema</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>Langattomat asetukset(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>Langattomat asetukset(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>Vierasverkko</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>USB-muisti</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>Lisäasetukset</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>Sisällön suodatus</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>Huolto</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>Reitittimen tila</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>Määritä salasana</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>Reitittimen päivitys</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+<translation>LISÄASETUKSET</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>Langaton toistotoiminto</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>Kiinteät reitit</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>Liikennemittari</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>USB-asetukset</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>Web-tuki</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+<translation>Tietokanta</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>Ohjejulkaisut</translation>
+</message>
+<message>
+<tag_code>490</tag_code>
+<translation>Uloskirjaus</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>Ohjattu asennustoiminto</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>Perusasetukset</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Langattomat asetukset</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>Estä sivustot</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>Varmuuskopioi asetukset</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>Reitittimen päivitys</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation>Dynaaminen DNS</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>Kiinteät reitit</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>Lisää WPS-työasema</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>Etähallinta</translation>
+</message>
+<message>
+
+<tag_code>503</tag_code>
+<translation>Valitse kieli</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>Tam</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>Hel</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>Maa</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>Huh</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>Tou</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>Kes</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>Hei</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>Elo</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>Syy</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>Lok</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>Mar</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>Jou</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>Laitetila</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>Laitteen nimi</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>Laitetila</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>Reititin (modeemi ja reititin)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>Modeemi (vain modeemi)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>ADSL-asetukset</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>Modeemin tila</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>Valitse maa ja kieli</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>Maa</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>Kieli</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>Laiteohjelman versio</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>Modeemi</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>ADSL-laiteohjelman versio</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>Alapuolinen yhteysnopeus</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>Yläpuolinen yhteysnopeus</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>Langallinen</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Langaton</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>Nimi</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>Tila</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>Näytä tilasto</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>Internet-yhteyttä ei tunnisteta. Reititin ei pysty tarkistamaan, onko NETGEAR-palvelimessa päivitettyä laiteohjelmaa. Kun olet määrittänyt Internet-yhteyden, siirry Reitittimen päivitys -näyttöön ja tarkista, onko saatavana päivitetty laiteohjelma.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>Internet-yhteyttä ei tunnisteta.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the @model_name#.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>Yritä uudelleen</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401: ei oikeuksia</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>Pyydä oikeat tiedot järjestelmänvalvojalta.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>Vanha salasana</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>Toista uusi salasana</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS - prioriteettisäännöt</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>Prioriteetti</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>QoS-käytäntö kohteelle</translation>
+
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>Prioriteettiluokka</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>Sovellukset</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>Online-pelaaminen</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>Ethernet LAN -portti</translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN Messenger</translation>
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>IP-puhelin</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>Vonage-IP-puhelin</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>Lisää uusi sovellus</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>Korkein</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>Korkea</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>Normaali</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>Alhainen</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>Määritetty portin alue</translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Yhteystyyppi</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>Lisää uusi peli</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>MAC-laiteluettelo</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>LAN-portti</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>QoS-prioriteettisääntöluettelo</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>QoS-käytäntö</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>Kuvaus</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>Lisää prioriteettisääntö</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>Ota käyttöön WMM (Wi-Fi-multimedia) -asetukset</translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>Ota Internet-yhteyden QoS käyttöön</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>Ota kaistanleveyden hallinta käyttöön</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>Tietokoneesta verkkolaitteeseen -tiedonsiirron kaistanleveys</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>Suurin</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>kbps</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>Mbps</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>Tarkista Internet-yhteyden tietokoneesta verkkolaitteeseen -tiedonsiirron kaistanleveys automaattisesti</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation>Tarkista</translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>QoS-säännön määritys</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation>Tietokoneesta verkkolaitteeseen -tiedonsiirron kaistanleveyden ohjattu tarkistus</translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>Yritetään tarkistaa tietokoneesta verkkolaitteeseen -tiedonsiirron kaistanleveys. Odota</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Router Rebooting</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>Edistyminen</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>Odota...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>Poista USB-laite turvallisesti</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>Kyselyaikaväli</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(sekuntia)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>Aseta aikaväli</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>Pysäytä</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>Järjestelmän toiminta-aika</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>Tila</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>TxPkts</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>RxPkts</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>Törmäykset</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Tx B/s</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Rx B/s</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>Toiminta-aika</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>Laiteversio</translation>
+</message>
+<message>
+<tag_code>677</tag_code>
+<translation>Käyttöliittymän kieliversio</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>Nimipalvelin</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>Langattoman verkon erotus</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>Wi-Fi Protected Setup</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>Salli oman paikallisverkon käyttö vieraille</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Repeating</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>Tukiaseman MAC-osoite</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>Repeater</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>Yhteyden tila</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Aliverkon peite</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Oletusyhdyskäytävä</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>Varaus saatu</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>Varaus päättyy</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>Vapauta</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>Uudista</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>Yhteysaika</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>Yhdistä</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>Katkaise yhteys</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>SALLI aikataulun mukaan, muulloin Estä</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>ESTÄ aina</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>ESTÄ aikataulun mukaan, muulloin Salli</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>Lähetä LAN-palvelimeen</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>Lisää palvelu</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>Tyyppi</translation>
+</message>
+<message>
+<tag_code>732</tag_code>
+<translation>Upload Language file:</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>Lataa</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>Reitin nimi</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>Yksityinen</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>Valitse poistettava kohde.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>Valitse muokattava kohde.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>Asetusten päivittäminen</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>Odota, että käyttöliittymän kieli päivitetään</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>Varoitus Laiteohjelma, jota yrität ladata, on vanhempi kuin aiempi.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;Haluatko silti jatkaa?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>Nykyinen versio</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>Ladattu versio</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>Laiteohjelman päivitys epäonnistui. Tarkista tiedosto.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>Laiteohjelman päivittäminen</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>Voit hyödyntää</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>Älä näytä tätä sanomaa uudelleen.</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Tarkista, onko NETGEAR-palvelimessa saatavana valitusta käyttöliittymäkielestä uudempi versio.</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>Tarkista uusi versio kirjautumisen yhteydessä</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>Etsi ja valitse päivitystiedosto kiintolevyltä.</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>Tämä näyttö palautuu automaattisesti edelliseen näyttöön muutaman sekunnin kuluttua...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>Ota UPnP käyttöön</translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>Mainosjakso</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>Mainoksen aika ennen julkaisua</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(siirräntäväleinä)</translation>
+</message>
+<message>
+<tag_code>761</tag_code>
+<translation>UPnP-porttimääritystaulukko</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>Sis. Portti</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>Ulk. Portti</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>USB-muisti (lisäasetukset)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>Verkon/laitteen nimi</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>Työryhmä</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>Yhteysmenetelmä</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>Linkki</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>Verkkoyhteys</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>Internetin kautta</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>Käytettävissä</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>Käytettävissä olevat verkkokansiot</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+<translation>Taltion nimi</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>Kokonaistila</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>Vapaa tila</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>Jaetun aseman nimi</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>Lukuoikeus</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>Kirjoitusoikeus</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>Luo verkkokansio</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>Poista USB-laite turvallisesti</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>Sallitut USB-levymuistilaitteet</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>Hyväksy ainoastaan sallitut laitteet</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Approved</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>Kapasiteetti</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>USB-muisti (perusasetukset)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>Muokkaa verkkokansiota</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>USB-laite</translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>Kansiojärjestelmä</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>Kansio</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>All - ei salasanaa</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>admin</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>Selaa</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>Selaa kansioita</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>Salli kaikkien USB-porttiin liitettyjen USB-laitteiden käyttö</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>Sallitut laitteet</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>Vahvista salasana</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>Tyhjennä</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>Yritetään muodostaa yhteyttä Netgear-palvelimeen</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>Odota...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>Muodosta yhteys Internet-porttiin ja yritä uudelleen</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>Uusi laiteohjelman versio on löydetty. Haluatko päivittää uuteen versioon nyt?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>Uusi laiteohjelman versio</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>Julkaisutiedot</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>Tämä voi kestää pari minuuttia. Odota...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Uutta laiteohjelman versiota ei ole saatavilla.</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>Tämä näyttö palautuu automaattisesti edelliseen näyttöön muutaman sekunnin kuluttua...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>Saatavana on uusi käyttöliittymän tekstitiedosto:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>Haluatko ladata ja käyttää tätä uutta käyttöliittymän tekstitiedostoa?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>Poista käytöstä porttiskannaus ja DoS-suojaus</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>Oletus-DMZ-palvelin</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>Vastaa Ping-toimintoon Internet-portissa</translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>MTU:n koko</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(tavuina)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>NAT-suodatus</translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>Suojattu</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>Avaa</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>Poista käytöstä SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>Poista IGMP-välipalvelin käytöstä</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation> Langattomat lisäasetukset</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>Paikallinen</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>MAC-osoite</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>Varmuuskopioi</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>Kelvollinen Internet-yhteys on jo olemassa.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>Haluatko silti jatkaa Smart Setup Wizard -toimintoa?</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>Internet-portin yhteystyypin tunnistus</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>Odota hetki...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynaaminen IP (DHCP) on havaittu</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>Kiinteä IP on havaittu</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>PPPoE on havaittu</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>PPTP on havaittu</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>Kiinteä IP on havaittu</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>tai</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>Onko sinulla Internet-palveluntarjoajasi toimittama kiinteä tai staattinen IP-osoite?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>En ole varma</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>Dynaaminen</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>Kiinteät IP-osoitteet</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>Internet-portin yhteystyypin tunnistus</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>Tarkista yhteydet Internet WAN -porttiin ja kaapeli-/DSL-modeemiin.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>Hae automaattisesti Internet-palveluntarjoajalta</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>Käytä näitä DNS-palvelimia</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Smart Setup Wizard -toiminto pystyy tunnistamaan Internet-yhteytesi tyypin.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Haluatko Smart Setup Wizard -toiminnon yrittävän tunnistaa yhteystyypin nyt?</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Ei. Haluan määrittää reitittimen itse.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>Langattoman kortin käyttöluettelo</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>Ota käytön valvonta käyttöön</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>Langattoman kortin käyttömääritykset</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>Käytettävissä olevat langattomat kortit</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>Langattoman kortin syöttö</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>Muokkaa langatonta korttia</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>Hyväksy</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation> Langattomat lisäasetukset</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>Ota langattoman reitittimen lähetin käyttöön</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>Lohkomispituus (256 - 2 346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>CTS/RTS-kynnys (1 - 2 347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>Esitietotila</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>Pitkät esitiedot</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>Lyhyet esitiedot</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>Säilytä olemassa olevat langattomat asetukset</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>Määritä käyttöoikeusluettelo</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>Ota käyttöön langaton toistotoiminto</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>Poista langaton työaseman yhdistäminen käytöstä</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>Tämän reitittimen langaton MAC</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>Langaton toistin</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>Langaton tukiasema</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>Langaton verkko</translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>Majakkaväli (ms)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>Ota SSID-tunnuksen lähetys käyttöön</translation>
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>Ota käyttöön langaton erotus</translation>
+</message>
+<message>
+<tag_code>909</tag_code>
+<translation>Ota käyttöön 20/40 MHz:n samanaikainen käyttö</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>Valitse alue</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>Afrikka</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>Aasia</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>Australia</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>Kanada</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>Eurooppa</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>Israel</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>Japani</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>Korea</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>Meksiko</translation>
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>Lähi-Itä</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>Etelä-Amerikka</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>Yhdysvallat</translation>
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>Enintään 54 Mbps</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>Enintään 145 Mbps</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>Enintään 300 Mbps</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>Suojausvaihtoehdot</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>Enintään 450 Mbps</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>Enintään 173 Mbps</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>Enintään 400 Mbps</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>Enintään 867 Mbps</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>WPA/WPA2 Enterprise</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>Salaus (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>Todennustapa</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>Automaattinen</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>Jaettu avain</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>Salauksen vahvuus</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>Suojausavain</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>Salasana</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>Luo</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(8–63 merkkiä tai 64 heksadesimaalilukua)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>Salaustila</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>Ryhmäavaimen päivitysväli</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>Sekuntia</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>Vierasverkon asetukset</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>Verkkoprofiilit</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>Ota vierasverkko käyttöön</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>Salli vieraiden nähdä toisensa ja käyttää lähiverkkoani</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>Ota käyttöön langaton erotus</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>Langattoman vierasverkon nimi (SSID)</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>Salaus (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>Salausavain (WEP)</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>Salli oman paikallisverkon käyttö vieraille</translation>
+</message>
+<message>
+<tag_code>971</tag_code>
+<translation>(8–63 merkkiä tai 64 heksadesimaalilukua)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>Valitse määritystapa</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+<translation>Painike (suositeltu)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>Voit painaa reitittimen painiketta tai napsauttaa tässä näytössä olevaa painiketta.</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN Number(Personal Identification Number)</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>Käyttäjä on peruuttanut WPS-toiminnon.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>Langattoman työaseman lisääminen verkkoon epäonnistui.</translation>
+</message>
+<message>
+
+<tag_code>978</tag_code>
+<translation>Valitse &lt;b&gt;OK&lt;/b&gt; ja palaa Wi-Fi Protected Setup -näyttöön.</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>Suojausriski: havaittu useampia työasemia, joiden painiketta on painettu.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>Työaseman PIN on virheellinen.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>Valitse &lt;b&gt;OK&lt;/b&gt; ja palaa Wi-Fi Protected Setup -näyttöön.</translation>
+
+
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>WPS-toiminto aikakatkaistiin.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>Tarkista, tukeeko työasema WPS-toimintoa.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+<translation>Onnistui</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>Langaton työasema</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>on lisätty verkkoon.</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>Huomautus: Langattomat asetukset ovat muuttuneet.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>Valitsemalla &lt;b&gt;OK&lt;/b&gt; voit tarkistaa uudet langattomat asetukset...</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>Yhteyden muodostaminen uuteen langattomaan työasemaan</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>Aloita WPS-prosessi napsauttamalla ohjelmistopainiketta tai painamalla työaseman laitteistopainiketta...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>Todennetaan työasemaa...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>Kerätään työaseman tietoja...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>Lähetetään määritystietoja työasemaan...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>Työaseman PIN on</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>Aloita WPS-prosessi napsauttamalla ohjelmistopainiketta...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>Työaseman PIN on</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>Lähetetään määritystietoja työasemaan...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>Tämä on WPS-työaseman suojauksen PIN-koodi. Yhteyttä muodostaessaan sovittimet, joissa on käytössä WPS, luovat satunnaisesti suojaus-PIN-koodin.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>Anna työaseman PIN</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>Liikennemittarin kuukausirajoitus (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>on saavutettu.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>Liikennemittarin lukema on </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation>ennen kuin kuukausirajoitus ylitetään.</translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>Internet-liikenteen mittari</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>Ota käyttöön liikennemittari</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>Liikennemäärän hallinta:</translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>Ei rajoitusta</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>Vain verkosta lataus</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>Kumpikin suunta</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>Kuukausiraja</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>megatavua</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>Pyöristä jokaisen yhteyden tietomäärä</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>Yhteyden ajan hallinta</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>Tuntia</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>Liikennelaskuri</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>Nollaa liikennelaskuri</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>ap.</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>ip.</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>jokaisen kuukauden</translation>
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>1.</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>2.</translation>
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>3.</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>4.</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>5.</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>6.</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>7.</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>8.</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>9.</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>10.</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>11.</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>12.</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>13.</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>14.</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>15.</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>16.</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>17.</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>18.</translation>
+</message>
+<message>
+<tag_code>1050</tag_code>
+<translation>19.</translation>
+</message>
+<message>
+<tag_code>1051</tag_code>
+<translation>20.</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>21.</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>22.</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>23.</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>24.</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>25.</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>26.</translation>
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>27.</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>28.</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>Viimeisin</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>päivä</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>Liikenteen hallinta</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>Näytä varoitusilmoitus</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>megatavua/minuuttia ennen kuin kuukausiraja saavutetaan</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>Kun kuukausiraja saavutetaan</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>Aseta Internet-merkkivalo vilkkumaan vihreänä</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>Katkaise Internet-yhteys ja poista se käytöstä</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>Internet-liikennetilasto</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>Nollaa laskuri nyt</translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>Liikennetila</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>Laskujakso</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>Käytetty summa</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>Tänään</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>Eilen</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>Tällä viikolla</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>Tässä kuussa</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>Viime kuussa</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>Aloituspäivämäärä/-aika</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>Kuluva päivämäärä/aika</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>Liikennemäärä jäljellä</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>Tuntia</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> minuutissa.</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>Jakso</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>Liikennemäärä (megatavua)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>Lataus verkkoon/keskim.</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>Lataus verkosta/keskim.</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>Yhteensä/keskim.</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>Aseta Internet-merkkivalo vilkkumaan valkoisena/oranssina</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>Ota käyttöön reitittimen PIN</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>Ota käyttöön reitittimen PIN (poistettu käytöstä, koska hyökkäys on havaittu)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>Suojaa PIN-koodi poistamalla PIN käytöstä automaattisesti</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>epäonnistuneen PIN-yhteyden jälkeen, kunnes reititin on käynnistetty uudelleen.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>Automaattisen käytöstäpoiston tilassa reitittimen WPS-merkkivalo vilkkuu hitaasti</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>Aloita esto</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>Päätä esto</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>Kiitos, että olet ostanut NETGEARin langattoman JWNR3200T -reitittimen. Suorita ohjattu laiteohjelmiston päivitys ajoittain, jotta voit hyödyntää parannukset ja lisätoiminnot, joita NETGEAR on tarjonnut tälle tuotteelle.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>-reitittimen tarjoamat Wireless-N-ominaisuudet käyttämällä langatonta sovitinta, jossa on tämä logo.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>Poista kaikki</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>Tarkistetaan laiteohjelman päivityksiä</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>Käytä jokerimerkkejä</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>Linkin tila</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>Palvelutyyppi</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Oray dynamic DNS resolve service request</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>IP-alueen alkuosoite</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>IP-alueen loppuosoite</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>Toistimen MAC-osoite 1</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>Toistimen MAC-osoite 2</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>Toistimen MAC-osoite 3</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>Toistimen MAC-osoite 4</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>Latauksen enimm.nopeus (0 = ei rajoitusta)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>Latauksen enimm.nopeus (0 = ei rajoitusta)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>Enimmäislataustehtävä</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>Salli järjestelmän hallita NETGEAR Downloader automaattisesti</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>NETGEAR Downloader -perusasetukset</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>Lataustenhallinta</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>Mihin kansioon tai sijaintiin haluat tallentaa?</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>Lataustyyppi</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>FTP-/HTTP-latauspolku</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>BitTorrent-tiedoston sijainti</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>Tiedostokoko (kt)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>Lataa</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>Valitse kaikki</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation>Ei</translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>Poista</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>RADIUS-palvelimen IP-osoite:</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>RADIUS-palvelimen portti:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>Tietokone</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>USB-muistilaite</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>Tallennuspolku</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>Tiedostonimi</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>Lataustietotaulukko</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>Ladatut tiedostot</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>Poista historia</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>Keskeytä</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>Jatka</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>Latausnopeus (verkosta)</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>Nollaa</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>Haluatko poistaa kaikki laitteet?</translation>
+</message>
+<message>
+<tag_code>2055</tag_code>
+<translation>RADIUS-palvelimen Shared Secret -avain:</translation>
+<variable>RADIUS server Shared Secret:</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Varmista, että kaapelit on liitetty oikein. Katso lisätietoja reitittimen asennusoppaasta.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Varmista, että laajakaistamodeemin virta on katkaistu ja kytketty uudelleen oikein. Jos modeemissa on varaparisto, poista ja aseta se takaisin paikalleen, jotta modeemin virta katkeaa ja kytkeytyy uudelleen.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(oletussalasana on "password")</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(muodossa AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(Sarjanumero on merkitty reitittimen tuotetarraan.)</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>pakolliset tiedot on merkitty tähdellä (*)</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Modeemin virtaa ei katkaistu ja kytketty uudelleen kaapeleiden liittämisen jälkeen.</translation>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Keltaista Ethernet-kaapelia ei ole liitetty kunnolla tai se on kiinnitetty väärään paikkaan.</translation>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>MAC-osoite on yksilöllinen numero.  Voit tarkistaa tietokoneen tai reitittimen MAC-osoitteen laitteen tuotetarrasta.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>Reitittimen laiteohjelmaan on saatavilla päivitys.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>Järjestelmänhallinta</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>LISÄASETUKSET-aloitussivu</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>Lisäasetukset</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>Lisäasetukset</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Kun olet tarkistanut Ethernet-kaapelin, valitse &lt;b&gt;Yritä uudestaan&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Vaihtoehtoinen DNS-palvelin</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Vastaus</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Internet-yhteysasetusten käyttäminen</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>Haluatko varmasti vaihtaa järjestelmänvalvojan salasanan ilman palautustoimintoa?</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+<translation>Todennuspalvelin</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Edellinen</translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>Perus</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>BigPond-Internet-yhteys on tunnistettu</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Etsi aiemmin tallentamasi reitittimen asetusten varmuuskopiotiedosto selaamalla, ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Tarkistetaan Internet-yhteyttä. Odota...</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Napsauta tätä</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>Tietokone ei tue tulostinta.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>Internet-yhteyden määrittäminen vaatii asiantuntemusta. Oletko varma?</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Määritetään Internet-yhteyttä</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Onnittelut!</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Yhteyden tunnus/nimi</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Jatka</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>Nykyinen NETGEAR Genie pysäytetään.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>Oletusyhdyskäytävä</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Tunnistetaan Internet-yhteyttä</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Onko Internet-palveluntarjoaja määrittänyt sinulle kiinteän (staattisen) IP-osoitteen? Tämä on &lt;b&gt;erittäin harvinaista&lt;/b&gt;. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>DNS-osoite on määritettävä</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Haluatko käyttää apuna NETGEAR Genie -määritystä?</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Haluatko yrittää uudelleen NETGEAR Genie -määritystä?</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>Lataaminen epäonnistui.</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Ota salasanan palautus käyttöön</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>käytössä</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>Anna hakusana</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Anna Internet-palveluntarjoajalta saadut kiinteät IP-asetukset ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Kirjoita MAC-osoite tähän.</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Määritä tarvittavat tiedot uudelleen.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Määritä alla tarvittavat tiedot.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>Kirjoita reitittimen sarjanumero</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>VIRHE</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Epäonnistui</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>Tiedostonimi ei voi olla tyhjä.</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>Laiteohjelman päivitys</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>Laiteohjelman päivittäminen</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Kiinteät Internet-IP-asetukset</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>Yhdyskäytävän IP-osoite</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>SIIRRY</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>hyvä</translation>
+
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>Ohje ja tuki</translation>
+</message>
+<message>
+<tag_code>3058</tag_code>
+<translation>Ohjekeskus</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>Aloitussivu</translation>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Korjasin Ethernet-kaapelin ongelman.</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>En tiedä. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Olen tallentanut reitittimen asetukset tiedostoon ja haluan palauttaa ne reitittimeen.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Katkaisin modeemista virran, kytkin sen uudelleen ja odotin kaksi minuuttia.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Haluan määrittää Internet-yhteyden itse</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Aikakatkaisu&lt;/B&gt; (minuutteina)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>Jos et ota salasanan palautusta käyttöön ja unohdat uuden salasanasi, salasana voidaan palauttaa ainoastaan palauttamalla laitteen tehdasasetukset.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Jos olet aikaisemmin muodostanut Internet-yhteyden tietokoneella tai toisella reitittimellä, NETGEAR Genie voi käyttää tuolloin toiminutta MAC-osoitetta.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Tärkeä päivitys</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>Missä kaupungissa isäsi on syntynyt?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>Missä kaupungissa äitisi on syntynyt?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>Missä kaupungissa synnyit?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>Minä vuonna (VVVV) kirjoitit ylioppilaaksi?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Internet-palveluntarjoajalta saatu käyttäjätunnus tai salasana on virheellinen</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>Asennusohjelman kieli</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>Internet-palveluntarjoajan (WAN) asetukset</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>Internet-asetukset</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>Virheellinen todennuspalvelimen IP-osoite</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>Virheellinen yhdyskäytävän IP-osoite. Anna se uudelleen.</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>Virheellinen aikakatkaisuaika. Anna oikea numero.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>Virheellinen IP-osoite. Anna se uudelleen tai jätä se tyhjäksi.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>Virheellinen MAC-osoite.</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>Virheellinen salasana.</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>Virheellinen ensisijainen DNS-osoite. Anna se uudelleen.\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>Virheellinen toissijainen DNS-osoite. Anna se uudelleen.\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>Virheellinen aliverkon peite. Anna se uudelleen.\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>IP-osoite</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>L2TP-Internet-yhteyttä ei tunnisteta</translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>Salasana palautettiin viimeksi</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>Historia</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>Kirjaudu uudelleen</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>Seuraavien reitittimen asetusten hallintaa varten on kirjauduttava sisään:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Varmista, että kaapeli on liitetty kunnolla sekä laajakaistamodeemin porttiin että reitittimen Internet-porttiin.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Oma IP-osoite</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>Oma WiFi</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Ongelma verkkoyhteydessä</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>verkkoavain (salasana)</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>verkkoavain (salasana)</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Seuraava</translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Reitittimen Internet-porttiin ei ole liitetty Ethernet-kaapelia</translation>
+
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>Ei USB-asemaa</translation>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Ei, en ole saanut kiinteää (staattista) IP-osoitetta palveluntarjoajalta.</translation>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Ei, haluan määrittää Internet-yhteyden itse.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>Ei, haluan määrittää Internet-yhteyden itse.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Ei mikään näistä.</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>EI KÄYTÖSSÄ</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>Laitteiden määrä</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>Laitteiden määrä</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>Poissa käytöstä</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>Toisten WiFi</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>Parental Controls</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Salasana</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>Määritä oikea tiedosto. Tiedostomuoto on *.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>Anna vastaukset kahteen alla olevaan turvakysymykseen ja valitse &lt;b&gt;Jatka&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>Määritä aikakatkaisuaika.\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>Vastaa kaikkiin kysymyksiin.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Tarkista seuraavat seikat:</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>Valitse kysymys.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>Valitse asennusohjelman kieli</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Odota hetki...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>PPPoE DSL -Internet-yhteys on tunnistettu</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>PPTP-Internet-yhteys on tunnistettu</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Ensisijainen DNS-palvelin</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Tulosta tämä</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Ongelma Internet-yhteyden tunnistamisessa - IP-osoite</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Ongelma Internet-yhteyden tunnistamisessa - MAC-osoite</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Ongelma Internet-yhteyden tunnistamisessa</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>VALMIS</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Reitittimen asetusten palauttaminen</translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Palautetaan reitittimen asetukset</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>Reitittimen järjestelmänvalvojan salasana</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>Reitittimen järjestelmänvalvojan käyttäjätunnus</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>Reitittimen usein kysyttyjä kysymyksiä</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Reitittimen laiteohjelman versio</translation>
+
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>Reitittimen tiedot</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>Reitittimen sisäänkirjaus</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>Reitittimen salasanan palautus</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>HAE OHJEESTA</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>Hae NETGEAR-tuesta</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Turvakysymys 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Turvakysymys 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Valitse kysymys</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Valitse vaihtoehto ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>Valitse ensin vaihtoehto.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>Valitse yksi seuraavista vaihtoehdoista ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;:</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Palvelimen osoite</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>Näytä/piilota ohjekeskus</translation>
+</message>
+<message>
+<tag_code>3149</tag_code>
+
+<translation>Aliverkon peite</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Käytä Internet-yhteyttä</translation>
+</message>
+<message>
+<tag_code>3151</tag_code>
+<translation>Antamasi tiedot eivät vastaa reitittimeen tallennettuja tietoja. Anna tiedot uudelleen.</translation>
+</message>
+<message>
+<tag_code>3152</tag_code>
+<translation>IP-osoitteen ja yhdyskäytävän IP-osoitteen on oltava samassa aliverkossa.\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>Merkinnöissä voi olla enintään 63 merkkiä.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>Lähiverkon IP-osoite ja laajaverkon IP-osoite eivät voi olla samassa aliverkossa.\n</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Reititin ei voi muodostaa verkkoyhteyttä käyttämällä nykyisiä asetuksia.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Tämä johtuu todennäköisesti jostakin seuraavista syistä:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Tämä voi kestää muutaman minuutin. Odota.</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Tämä voi kestää pari minuuttia. Odota...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Tälle reitittimelle on määritetty valmiiksi seuraava yksilöllinen langattoman verkon nimi (SSID) ja </translation>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Tämä näyttö palautuu automaattisesti edelliseen näyttöön muutaman sekunnin kuluttua...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Jotta reitittimesi IP-osoite ei ole ristiriidassa Internet-palveluntarjoajan määritysten kanssa, IP-osoitteeksi on vaihdettu </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>ja hae päivitys.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Ratkaise ongelma varmistamalla, että keltainen Ethernet-kaapeli on liitetty kunnolla sekä laajakaistamodeemin porttiin että reitittimen Internet-porttiin.</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Ratkaise ongelma katkaisemalla modeemin virta ja kytkemällä se uudelleen. Jos modeemissa on varaparisto, se pitää ehkä poistaa ja asettaa takaisin, jotta modeemin virta katkeaa. Kun olet katkaissut modeemista virran ja kytkenyt sen uudelleen, odota kaksi minuuttia, jotta modeemi ehtii käynnistyä kunnolla.</translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Yritä uudelleen</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>Poista asennus</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>Käyttäjätunnus ei voi olla tyhjä.</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Käyttäjätunnus</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>Varoitus! \nAsetusten palauttaminen määritystiedostosta poistaa kaikki nykyiset asetukset. \nHaluatko varmasti tehdä tämän?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>Varoitus</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Voimme auttaa reitittimen järjestelmänvalvojan salasanan palauttamisessa. Täytä alla olevat tiedot ja valitse &lt;b&gt;Jatka&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Mikä on ensimmäisen työnantajasi nimi?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Mikä on parhaan ystäväsi etunimi?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Mikä on isäsi toinen nimi?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Mikä on isoisäsi etunimi?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Mikä on isoäitisi etunimi?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Mikä on äitisi toinen nimi?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Mikä on isoveljesi etunimi?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Mikä on isosiskosi etunimi?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Mikä on pikkuveljesi etunimi?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Mikä on pikkusiskosi etunimi?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Mikä on ensimmäisen esimiehesi etunimi?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Minkä niminen oli ensimmäinen ostamasi NETGEAR-tuote?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Minkä niminen oli ensimmäinen koulusi?</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>WiFi-kanava</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>Langattoman verkon erotus</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Langattoman verkon nimi (SSID)</translation>
+
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>Langattoman verkon asetukset</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Langaton</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Kyllä</translation>
+
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Kyllä. Internet-palveluntarjoaja määritti minulle kiinteän (staattisen) IP-osoitteen.</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>Olet kirjautuneena toiselle laitteelle. Voit olla kirjautuneena vain yhdelle laitteelle kerrallaan. Jos kirjaudut tälle laitteelle, sinut kirjataan automaattisesti ulos toisesta laitteesta. Haluatko jatkaa?</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Et ole vielä muodostanut yhteyttä Internetiin.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Olet muodostanut langattoman Internet-yhteyden.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>Voit kirjautua reitittimeen käyttäjätunnuksella \"admin\" ja palautetulla salasanalla.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>Järjestelmänvalvojan salasana on palautettu.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Reitittimeen on määritetty valmiiksi WPA2-PSK-salaus langattoman yhteyden suojaamiseksi luvattomilta käyttäjiltä. Yhteyden muodostaminen langattomaan verkkoon vaatii verkkoavaimen (salasanan). Valmiiksi määritetyt asetukset ovat yksilölliset tälle laitteelle sarjanumeron tapaan.  Halutessasi voit muuttaa asetuksia myöhemmin Langattomat asetukset -näytössä reitittimen Web-käyttöliittymässä. </translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Langattoman verkon suojaus ei ole käytössä tässä reitittimessä. NETGEAR suosittelee painokkaasti</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>langattoman verkon suojaamista.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>WPS-määritystoiminto</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>WAN-asetus</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>LAN-asennus</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>QoS-asetus</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>Ei yhdistetty</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>Ei suojausta</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>DHCP-palvelin</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>Internet-portti</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>ReadySHARE Printer</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>Laiteohjelman päivitys on saatavilla. Hae napsauttamalla tätä.</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Automaattinen tunnistus</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>Tämä voi kestää enintään kuusi minuuttia. Odota...</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Jatka valitsemalla Seuraava.</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>Everquest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tournament</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>EI TUETTU</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>Sarjanumero</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>Etsi päivityksiä</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>Mikä se on</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>Kirjautuminen epäonnistui. Kirjoita NETGEAR-reitittimen oikea järjestelmänvalvojan salasana uudelleen.</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>Liitä tämä laite langattomasti NETGEAR-reitittimeen ja yritä uudelleen.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation>FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>FastLanen tila</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation>Ota käyttöön FastLane</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation>Kaistanleveys varattu luotetulle IP-osoitteelle</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>WiFi-yhteys- ja FastLane -painike</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>Ota käyttöön luotettu IP-osoite</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>ReadySHARE-tulostus</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>Jaettu tulostus USB-tulostimeen Windows- ja Mac-tietokoneissa</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>Miten se toimii?</translation>
+</message>
+<message>
+<tag_code>3236</tag_code>
+<translation>Vaihe 1: liitä USB-tulostin reitittimen USB-porttiin USB-tulostinkaapelilla.</translation>
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>Vaihe 2: Asenna USB-tulostimen ohjain kaikkiin tietokoneisiin, joista jaettua tulostinta käytetään.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>Jos sinulla ei ole ohjainta, kysy tulostimen valmistajalta, mistä voit ladata viimeisimmän tulostinohjainohjelmiston.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>Vaihe 3: Lataa NETGEAR USB Control Center -apuohjelma kaikkiin tietokoneisiin, joista jaettua tulostinta käytetään. Se on ladattavissa osoitteesta &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>Liitä tulostin tietokoneeseen ja tulosta haluamasi sisältö apuohjelman ohjeiden mukaisesti.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>Internet-tuki</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>Poistu</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>Tämän resurssin käyttö on estetty, työasema ei antanut oikeita todennustietoja.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>VPN-läpimeno</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>IPSec-läpimeno</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>PPTP-läpimeno</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>L2TP-läpimeno</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>Virhe - Ei voi hakea tiedostoa</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>Virhe – Tila ei riitä</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>Virhe – Tuntematon syy</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>Ladataan</translation>
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>NETGEAR-logon merkkivalon käyttöönotto</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>Intranet-portti</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>Profiili</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>SSID-tunnuksen lähetys</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>Sisäinen IP-osoite</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>Ulkoinen aloittava portti</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>Ulkoinen päättävä portti</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>Sisäinen aloittava portti</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>Sisäinen päättävä portti</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>Käytä samaa porttialuetta sisäiselle portille</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>Tai valitse jokin liitetyistä laitteista</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>Palvelun nimi</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>Poista langaton signaali käytöstä aikataulun mukaan</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>Langaton signaali ei ole käytössä ajoituksen mukaan seuraavalla aikavälillä:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>Toistuvuus</translation>
+</message>
+<message>
+<tag_code>3317</tag_code>
+<translation>Lisää uusi aikaväli</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>Langattoman signaalin poisto käytöstä</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>Tiettyinä päivinä</translation>
+</message>
+<message>
+<tag_code>3320</tag_code>
+<translation>Mon</translation>
+</message>
+<message>
+<tag_code>3321</tag_code>
+<translation>Tue</translation>
+</message>
+<message>
+<tag_code>3322</tag_code>
+<translation>Wed</translation>
+</message>
+<message>
+<tag_code>3323</tag_code>
+<translation>Thu</translation>
+</message>
+<message>
+<tag_code>3324</tag_code>
+<translation>Fri</translation>
+</message>
+<message>
+<tag_code>3325</tag_code>
+<translation>Sat</translation>
+</message>
+<message>
+<tag_code>3326</tag_code>
+<translation>Sun</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Send an email notification when a downloading task is finished</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Configure Email</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Upper limit per task. Once set, each download or upload task can use a speed less than or equal to the value you set here.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Enable Auto Status Refresh</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>The downloading task status will be refreshed automatically according to specified rate</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Refresh rate</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Times/Minute</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP Protection/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Enable IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>IP-MAC binding protects your router from ARP attacks. With this function enabled, your router uses the IP-MAC binding table as the static ARP table. You can add, remove, or edit the IP-MAC binding pairs in the table. WARNING! Devices that are not registered in this table will NOT have internet access. Ensure that at least one LAN device's IP and MAC address pair is registered in this table.</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>BitTorrent Link</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>ReadySHARE Mobile Connect</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>Laajakaistan asetukset</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>User Ethernet connection first and if fail use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Always use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>Mobiililaajakaistan asetukset</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>Käyttöoikeusnumero</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>PDP-tyyppi</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>Yhdistä automaattisesti käynnistyksen yhteydessä</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>Yhdistä uudestaan automaattisesti, kun yhteys katkeaa</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>Yhdistetään</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>Etsitään modeemia</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>Modem Not Supported</translation>
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>alustetaan Modeemia</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>Ei verkkoa</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>Yhdistetään</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>yhteys on muodostettu</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>Vapaa</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>alustetaan</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>Ei yhdistetty</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Always use Ethernet connection</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>Käytä aina mobiililaajakaistayhteyttä</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Detecting Mobile Broadband Modem</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Muodostetaan yhteys verkkoon</translation>
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>SIM-korttia ei havaittu</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>USB-modeemia ei tueta.</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>Anna palveluntarjoajan määritykset</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Please select the Internet Service Provider and then click Next.</translation>
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>Ellei sinun mobiililaajakaistan palveluntarjoajasi ole avattavassa valikossa, valitse jokin muu.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Anna määritysparametrit. Ellet tiedä niitä, ota yhteys palveluntarjoajaasi.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>Ota käyttöön automaattinen internet-yhteyden nollaus klo</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP-tila</translation>
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>Ota AP-tila käyttöön</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>Hae IP-osoite dynaamisesti</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>Hae DNS-palvelimen osoite dynaamisesti</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>Langattomassa AP-tilassa tämä laite voi toimia erillisenä langattomana tukiasemana nykyisessä verkossa.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>Ota kiinteät IP-asetukset käyttöön tässä laitteessa (ei suositella)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>Varmista optimaalinen asennus ja suorituskyky noudattamalla näitä ohjeita:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;Vaihe 1:&lt;/b&gt; Varmista, että tämän laitteen &lt;b&gt;Internet-portin&lt;/b&gt; ja nykyisen reitittimen &lt;b&gt;jonkin LAN-portin&lt;/b&gt; välillä on kaapeli.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;Vaihe 2:&lt;/b&gt; Jos nykyisessä reitittimessä on langaton ominaisuus, poista se käytöstä, ettei se aiheuta häiriöitä uudessa AP-laitteessa. Tai käytä sitä eri langattomalla kanavalla.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>Jatka lopuksi valitsemalla Käytä</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;Huomautus:&lt;/b&gt; Kun olet napsauttanut Käytä-painiketta, tämä laite ottaa käyttöön uuden IP-osoitteen, jonka nykyinen reititin on määrittänyt. Siksi tämä verkkosivu ei välttämättä ole saatavilla. Sulje ja avaa selain ja avaa sivu http://www.routerlogin.net/ uudelleen.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>Toimintotila</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>AP</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Operator Name</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Signal Strength</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>3G/4G setup is done!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>USB Mobile Broadband Modem Settings</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>3G/4G Connection Mode</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Connection Protocol</translation>
+</message>
+<message>
+<tag_code>3502</tag_code>
+<translation>(tilapäisesti)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>Ota käyttöön NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>Mediapalvelin (asetukset)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>Ota käyttöön mediapalvelin</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>Mediapalvelimen nimi</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>Sisältöhaku</translation>
+</message>
+<message>
+
+<tag_code>3604</tag_code>
+<translation>Automaattinen (kun lisätty uusia tiedostoja)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>Hae mediatiedostot uudelleen</translation>
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>Mediapalvelin</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>Ota käyttöön iTunes-palvelin (vain musiikki)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>Anna etäsovelluksessa näkyvä tunnus</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>Salli etähallinta</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>Tämä toiminto on pois käytöstä, kunnes Wireless On/Off -painiketta painetaan.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>VLAN-/IPTV-asennus</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>Ota käyttöön VLAN-tunniste</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>VLAN-tunnus</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>Lähtevän postin palvelimen portin numero</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>Järjestä sisäisen IP-osoitteen mukaan</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(Määritä portit ja portin alueet ja erota ne pilkuilla. Esimerkki: 30, 50 - 60, 65500 - 65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>Ulkoisen portin alue</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>Sisäisen portin alue</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>Käytön valvonta</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>Käytön valvonnan avulla voit sallia tai estää verkkosi käyttämisen tietokoneista tai elektroniikkalaitteista. </translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>Ota käyttöön käytön valvonta</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>Käyttösääntö:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation>tämä on yleinen sääntö. Voit sallia tai estää myös yksittäisiä laitteita.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>Salli kaikkien uusien laitteiden yhteydet</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>Estä kaikkien uusien laitteiden yhteydet</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>Näytä niiden sallittujen laitteiden luettelo, jotka eivät ole tällä hetkellä verkossa</translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>Näytä niiden estettyjen laitteiden luettelo, jotka eivät ole tällä hetkellä verkossa</translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>Salli</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>Estä</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>Estetty</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>Sallittu</translation>
+</message>
+<message>
+<tag_code>3913</tag_code>
+<translation>Tukiasematilassa voit lisätä verkkoon toisen reitittimen langattomaksi tukiasemaksi.</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+<translation>Ota käyttöön tukiasematila</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>Nämä ovat laitteen langattomat asetukset tukiasemana:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>Langattoman verkon nimi (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>Langattoman verkon suojausavain:</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>Jos haluat tehdä muutoksia, siirry kohtaan Asennus->Langaton asennus ja tee muutokset. Tietokoneen on muodostettava yhteys uudelleen uudella asetuksella. Palaa sitten tälle sivulle.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>NETGEAR suosittelee, ettet käytät samoja langattomia asetuksia kuin nykyisessä langattomassa verkossa, jotta vältät häiriöt, tai poistat käytöstä nykyisen reitittimen langattoman signaalin.</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>Tämän reitittimen lisääminen verkkoon tukiasematilassa:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>Liitä Ethernet-kaapelin toinen pää tämän reitittimen Internet-porttiin ja toinen pää nykyisen reitittimen lähiverkkoporttiin.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>Valitse tämän tukiaseman IP-osoiteasetukset</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>Langaton tukiasema</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>Hae dynaamisesti nykyisestä reitittimestä.</translation>
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>Käytä kiinteää IP-osoitetta (ei suositella).</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>Onko sinulla NETGEAR DDNS- tai No-IP DDNS -tili?</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>Kirjoita seuraavat tiedot rekisteröintiä varten.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>Sähköposti</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>Salasana (6–32 merkkiä)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>Rekisteröi</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>Lähettämällä tämän lomakkeen hyväksyn</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>palvelun ehdot</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>ja lupaan, että luon ainoastaan yhden ilmaisen tilin.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>Unohditko salasanan?</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>Napsauttamalla tätä</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>DDNS-tilin hallinta.</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>Tämän reitittimen NETGEAR DDNS -asetus on tällä hetkellä:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>Tili/sähköposti:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>Jos haluat muuttaa näitä asetuksia, nollaa ensin asetukset napsauttamalla</translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation>painiketta.</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>VPN-palvelu</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>Ota VPN-palvelu käyttöön</translation>
+</message>
+<message>
+<tag_code>4002</tag_code>
+<translation>VPN-ohjelman asentaminen työasemalaitteisiin:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>Määrityksiä</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>Palvelutyyppi</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>Palveluportti</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>Tämän VPN-yhteyden kautta työasemaohjelmat käyttävät</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>kaikkia Internet-sivustoja ja kotiverkkoa</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>vain kotiverkkoa</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>Automaattinen</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>Vaihe 1: Valitse Ota VPN-palvelu käyttöön -ruutu ja napsauta Käytä-painiketta.</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>Vaihe 2: Lataa työasemaohjelma osoitteesta</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>ja asenna se laitteisiin, joissa haluat käyttää VPN-työasemaa.</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>Nykyisiä IOS- ja Android-työasemia ei tueta.</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>Vaihe 3: Napsauta oikeaa painiketta alla ja lataa VPN-työasemien määritystiedostot.</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>Vaihe 4: Pura lataamasi määritystiedostot ja kopioi ne samaan kansioon, johon VPN-työasema on asennettu. Jos työasemalaitteessa on 64-bittinen Windows-käyttöjärjestelmä, VPN-työasema asennetaan oletusarvoisesti kansioon C:\Program files\OpenVPN\config</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>Vaihe 5: Jos työasema laitteessa on Windows-käyttöjärjestelmä, muokkaa VPN-liittymän nimeksi NETGEAR-VPN. VPN-liittymällä on tavallisesti laitteen nimi, esimerkiksi TAP-Windows Adapter</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation>Vaihe 6: Työasemaohjelman asentajalla ja käyttäjällä on oltava järjestelmänvalvojan oikeudet.</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>Vaihe 7: Lisätietoja yhteyden muodostamisesta OpenVPN-työasemien avulla on osoitteessa</translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>Huomautus: jos haluat tehdä muutoksia Määritykset-osioon, tee ne ennen kuin lataat määritystiedostot vaiheessa 3</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>ReadySHARE Vaultin avulla varmuuskopioit tiedostosi Windows-tietokoneessa.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>Windows-tietokoneen varmuuskopioiminen reitittimen kiintolevylle:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. Asenna genie-sovellus kaikkiin tietokoneisiin. Lataa ohjelmisto osoitteesta  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. Asenna ReadySHARE Vault kaikkiin tietokoneisiin. Lataa ohjelmisto osoitteesta  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. Käynnistä ReadySHARE Vault. Määritä ja suorita varmuuskopiointi Hallintaohjelmalla tai Varmuuskopiointi-välilehdessä.</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>Internet-yhteyden tyyppi</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>Automaattinen tunnistus</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>Automaattinen määritys</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>6to4-tunneli</translation>
+
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>Pass-through</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>Kiinteä</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>Etä-6to4-relay-reititin</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>Automaattinen</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>Staattinen IP-osoite</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>IPv6-osoite/etuliitteen pituus</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>Reitittimen IPv6-osoite laajaverkossa</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>Käyttäjäluokka (tarvittaessa)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>Reitittimen IPv6-osoite lähiverkossa</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>IP-osoitteen määritys</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>Käytä DHCP-palvelinta</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>Käytä tätä liittymätunnusta</translation>
+</message>
+<message>
+<tag_code>4200</tag_code>
+<translation>Salli tai estä laitteita kohdassa &lt;a  style=text-decoration:underline;color:#0000ff; id=url_ac onclick=goto_formframe('AccessControl.htm&amp;todo=cfg_init')&gt;Käytön valvonta&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>Käytössä</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>Pois käytöstä</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>Yleinen sääntö</translation>
+</message>
+<message>
+<tag_code>4300</tag_code>
+<translation>Facebook Wi-Fi on sovellus pienille yrityksille. Sovellus tekee reitittimestä Wi-Fi-tukiaseman, sallii asiakkaiden kertoa sijaintinsa ja tykätä Facebook-sivustasi ennen ilmaista Internet-yhteyttä. </translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>Käy lukemassa asennusohjeet</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>&lt;b&gt;Ota käyttöön Facebook Wi-Fi&lt;/b&gt; -asetuksen ansiosta tämä laite tukee Facebook Wi-Fi -toimintoa.</translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>Tämä koskee ainoastaan Wi-Fi-vierasverkkoa, joten tämän toimiminen edellyttää Wi-Fi-vierasverkon käyttöönottoa reitittimessä.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>Linkitä reititin nykyiselle Facebook-sivullesi napsauttamalla &lt;b&gt;Määritä&lt;/b&gt;-painiketta.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>Määritä</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(Ota \"Määritä\"-painike käyttöön valitsemalla \"Ota käyttöön Facebook Wi-Fi\" -asetus ja napsauttamalla \"Käytä\"-painiketta)</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>QoS-tila:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>QoS-säännöt</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>Lisää säännöt</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS palvelun mukaan</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS laitteen mukaan</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>Jono 1: korkein</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>Jono 2: korkea</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>Jono 3: normaali</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>Jono 4: alhainen</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>Nopeustesti</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Edellinen</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Lataa seuraavat reitittimen sovellukset:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Genie-sovellus. Henkilökohtainen hallintaohjelma, jolla voit tarkkailla ja ohjata kotiverkkoasi ja korjata sen.</translation>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>ReadySHARE Vault -sovellus (Vain Windows-tietokoneille). Sallii Windows-tietokoneen automaattisen ja jatkuvan varmuuskopioinnin reitittimeen kytkettyyn USB-asemaan.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Lataa...</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Asenna Genie-sovellus latauksen päätyttyä.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Päätä reitittimen asetusten määrittely Genie-sovelluksen asennuksen jälkeen napsauttamalla Seuraava-painiketta.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Asenna ReadySHARE Vault -sovellus latauksen päätyttyä.</translation>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Päätä reitittimen asetusten määrittely ReadySHARE Vault -sovelluksen asennuksen jälkeen napsauttamalla Seuraava-painiketta.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Pyyntöä käsitellään…</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Kun asennus on valmis, valitse Seuraava.</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Järjestelmä asentaa</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Käynnistä asennus valitsemalla Suorita</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Merkkivalojen ohjausasetukset</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Poista käytöstä kaikki paitsi virran merkkivalo</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Ota käyttöön Internet-merkkivalon, lähiverkon merkkivalon, langattoman verkon merkkivalon ja USB-merkkivalon vilkkuminen, kun tietoliikennettä havaitaan</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Poista käytöstä Internet-merkkivalon, lähiverkon merkkivalon, langattoman verkon merkkivalon ja USB-merkkivalon vilkkuminen, kun tietoliikennettä havaitaan</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Ei käytettävissä</translation>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Tilan päivitys</translation>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>Muu kuin Windows</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) Kamchatka</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>Merkkivalojen ohjausasetukset</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>Ota käyttöön Internet-merkkivalon, lähiverkon merkkivalon, langattoman verkon merkkivalon ja USB-merkkivalon vilkkuminen, kun tietoliikennettä havaitaan</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>Poista käytöstä Internet-merkkivalon, lähiverkon merkkivalon, langattoman verkon merkkivalon ja USB-merkkivalon vilkkuminen, kun tietoliikennettä havaitaan</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>Poista käytöstä kaikki paitsi virran merkkivalo</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>Yksityisyydensuojakäytäntö</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (Tämän avulla voit käyttää ReadySHARE-tallennustilaa mistä tahansa)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>Enintään 289 Mbps</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>Enintään 600 Mbps</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>Enintään 1300 Mbps</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>ReadyCLOUD-toiminnon avulla voidaan käyttää reitittimen USB-porttiin liitettyä USB-tallennuslaitetta Internetin kautta.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>ReadyCLOUD-toiminnon määrittäminen</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>Vaihe 1: Tarvitset ReadyCLOUD-tilin. Jos sinulla ei ole sellaista, luo tili </translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation> ja valitse"Luo tili".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation> Vaihe 2: Siirry reitittimen käyttöliittymän ReadySHARE-sivulle </translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation>, valitse ReadyCLOUD ja rekisteröi reitittimesi ReadyCLOUD-palveluun kirjoittamalla ReadyCLOUD-käyttäjätunnuksesi ja -salasanasi.</translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>Vaihe 3: Kirjaudu uudelleen osoitteeseen </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation> ReadyCLOUD-tililläsi. Näkyviin tulee reitittimeen liitetty USB-laite.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation> voit varmistaa tietokoneen tai mobiililaitteen ja reitittimen USB-laitteen välisen suojatun yhteyden lisäetäsovelluksella.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>Kirjaudu sisään tähän etäsovellukseen ja voit käyttää USB-laitetta mistä tahansa. Hae etäsovellus </translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation> </translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>Rekisteröinti onnistui</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>Rekisteröinnin poisto onnistui</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>Rekisteröinti epäonnistui</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>Rekisteröinnin poisto epäonnistui</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation> määritä' ReadyCLOUD-käyttäjätili tai muokkaa sitä osoitteessa </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>ReadyCLOUD on rekisteröity käyttäjälle</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>Rekisteröi ReadyCLOUD eri käyttäjälle valitsemalla &lt;b&gt;Poista rekisteröinti&lt;/b&gt;</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>Poista rekisteröinti</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>Huomautus:</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;Huomautus:&lt;/b&gt; reititin säilyttää yhteyden ReadyCLOUDiin siihen asti, kunnes poistat rekisteröinnin.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Ota käyttöön Implicit BEAMFORMING – Vahvistaa kaikkien mobiililaitteiden WiFi-nopeutta, luotettavuutta ja kantamaa</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Järjestelmänvalvojan salasanan suojaus</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Varoitus: Suosittelemme, että suojaat ReadySHARE-tietosi ottamalla käyttöön Järjestelmänvalvojan salasanan suojauksen. Jos et ole vaihtanut järjestelmänvalvoja oletussalasanaa, suosittelemme, että suojaat verkon vaihtamalla salasanan.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Järjestelmänvalvojatilin asetukset</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Järjestelmänvalvojan salasanalla kirjaudutaan sisään reitittimen verkkoliittymään. Suojaa verkko vaihtamalla järjestelmänvalvojan salasana.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Uusi salasana</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Vahvista uusi salasana</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Järjestelmänvalvojan käyttäjätunnus:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Uusi järjestelmänvalvojan salasana:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Reitittimen järjestelmänvalvojan asetukset:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>Ota käyttöön Smart Connect – Anna reitittimen valita WiFi-yhteyksille älykkäästi paras WiFi taajuus 2,4 GHz tai 5 GHz. Smart Connect vaatii, että 2,4 GHz:n ja 5 GHz:n verkot käyttävät samaa WiFi-verkkonimeä (SSID), suojausvaihtoehtoja ja salasanaa.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>Ota käyttöön AIRTIME FAIRNESS – Estä verkon viiveet liitettäessä hitaampia laitteita</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(poistettu käytöstä, koska Smart Connect on käytössä)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>Älypuhelimeen</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>OpenVPN-määrityspaketin lataus</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>OpenVPN-ohjelman määritysohje</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>TUN-tilan palvelutyyppi</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>TUN-tilan palveluportti</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>TAP-tilan palvelutyyppi</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>TAP-tilan palveluportti</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>Siltaryhmän mukaan</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>VLAN-tunnisteryhmän mukaan</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>käytä toista toimintotilaa</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>Ota siltatila käyttöön</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>määritä siltatilan langattomat asetukset</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>Hae IP-osoite dynaamisesti</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>Hae DNS-palvelimen osoite dynaamisesti</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>Valitse langaton verkko:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>VLAN-/silta-asetukset</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>VPN-työasemalaitteet</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>Etä-IP-osoite</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>Paikallinen IP-osoite</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>Muuta laitteen nimi napsauttamalla tätä</translation>
+<variable>Click here to change the Device Name</variable>
+</message>
+</tag_msg>

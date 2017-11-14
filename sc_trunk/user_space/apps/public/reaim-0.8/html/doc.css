@@ -1,0 +1,99 @@
+    H1 {
+	clear:			none;
+    }
+
+    H2 {
+	clear:			both;
+        background-image:	url("tick.gif");
+        background-repeat:	no-repeat;
+        background-position:	100% 0%;
+	margin-top:		16px;
+	margin-bottom:		0px;
+	margin-left:		3px;
+	margin-right:		3px;
+    }
+
+    p {
+	background-color:	rgb(192,192,192);
+	margin-top:		0px;
+	margin-bottom:		0px;
+	margin-left:		3px;
+	margin-right:		3px;
+	border-color:		rgb(51,102,153);
+	border-style:		solid;
+	border-left-width:	1px;
+	border-right-width:	1px;
+	border-top-width:	0px;
+	border-bottom-width:	0px;
+	padding-left:		12px;
+	padding-right:		12px;
+    }
+
+    P.last {
+	border-bottom-width:	1px;
+    }
+
+    UL {
+	background-color:	rgb(192,192,192);
+	margin-top:		0px;
+	margin-bottom:		0px;
+	margin-left:		3px;
+	margin-right:		3px;
+	padding-top:		10px;
+	padding-bottom:		10px;
+	padding-left:		40px;
+	border-color:		rgb(51,102,153);
+	border-style:		solid;
+	border-left-width:	1px;
+	border-right-width:	1px;
+	border-top-width:	0px;
+	border-bottom-width:	0px;
+    }
+
+    OL {
+	background-color:	rgb(192,192,192);
+	margin-top:		0px;
+	margin-bottom:		0px;
+	margin-left:		3px;
+	margin-right:		3px;
+	padding-top:		10px;
+	padding-bottom:		10px;
+	padding-left:		40px;
+	border-color:		rgb(51,102,153);
+	border-style:		solid;
+	border-left-width:	1px;
+	border-right-width:	1px;
+	border-top-width:	0px;
+	border-bottom-width:	0px;
+    }
+
+    OL UL {
+	border-style:		none;
+    }
+
+    PRE {
+	background-color:	rgb(192,192,192);
+	margin-top:		0px;
+	margin-bottom:		0px;
+	margin-left:		3px;
+	margin-right:		3px;
+	padding-top:		10px;
+	padding-bottom:		10px;
+	border-color:		rgb(51,102,153);
+	border-style:		solid;
+	border-left-width:	1px;
+	border-right-width:	1px;
+	border-top-width:	0px;
+	border-bottom-width:	0px;
+    }
+
+    H3 {
+	clear:			both;
+    }
+
+    IMG.back {
+	float:			left;
+	margin-left:		3px;
+	margin-top:		3px;
+	border-style:		none;
+    }

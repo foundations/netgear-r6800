@@ -1,0 +1,208 @@
+From 54fef5ca8c1eb875cdc4a2f85ef07475342973b1 Mon Sep 17 00:00:00 2001
+From: root <root@localhost.localdomain>
+Date: Fri, 19 Jun 2015 15:16:40 +0800
+Subject: [PATCH 1/6] modify for sc build
+
+---
+ build.sh          |   51 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ configure.ac      |   54 ++++++++++++++++++++++++++--------------------------
+ src/Makefile.am   |    4 +-
+ src/laudio_alsa.c |    2 +-
+ 4 files changed, 81 insertions(+), 30 deletions(-)
+ create mode 100755 build.sh
+
+diff --git a/build.sh b/build.sh
+new file mode 100755
+index 0000000..4e26468
+--- /dev/null
++++ b/build.sh
+@@ -0,0 +1,51 @@
++#!/bin/bash
++build_dir=build_sc
++cd $build_dir
++
++FFMPEG_DIR="`pwd`/../../../mediaserver/library/ffmpeg-0.11.2"
++
++#CC_VAR=/opt/buildroot-gcc463/usr/bin/arm-linux-gcc
++CFLAGS_VARS= "-D_GNU_SOURCE ";
++CFLAGS_VARS+="-I`pwd`/../../avl-0.3.5/ -I`pwd`/../../mxml-2.8/ ";
++CFLAGS_VARS+="-I`pwd`/../../avahi-0.6.25/ -I`pwd`/../../libxml2-2.9.1/include/ ";
++CFLAGS_VARS+="-I$FFMPEG_DIR/ -I$FFMPEG_DIR/libavutil/ -I$FFMPEG_DIR/libavformat/ -I$FFMPEG_DIR/libavcodec/ ";
++CFLAGS_VARS+="-I`pwd`/../../../zlib-1.2.3/include/ -I`pwd`/../../../zlib-1.2.3/ ";
++#CFLAGS_VARS+="-I`pwd`/../../libunistring-0.9.5/build_sc/lib/ -I`pwd`/../../libunistring-0.9.5/lib/ ";
++CFLAGS_VARS+="-I`pwd`/../../target/include -I`pwd`/../../target/usr/include -I`pwd`/../../target/usr/local/include -I`pwd`/../../target/usr/include/dbus-1.0/ ";
++#CFLAGS_VARS+="-I`pwd`/../../sqlite-3.6.22 -I`pwd` ";
++CFLAGS_VARS+="-I`pwd`/../../sqlite-3.6.16 -I`pwd` ";
++#CFLAGS_VARS+="-I/opt/mips-linux-uclibc-0.9.33/usr/include/ "; #new lib
++
++LDFLAGS_VARS="-L`pwd`/../../avl-0.3.5/ -L`pwd`/../../mxml-2.8/ ";
++LDFLAGS_VARS+="-L$FFMPEG_DIR/libavcodec/ -L$FFMPEG_DIR/libavutil/ -L$FFMPEG_DIR/libavformat/ -L$FFMPEG_DIR/libswscale/ ";
++LDFLAGS_VARS+="-lm -ldl -lpthread -lavl -ldbus-1 -lavahi-common -lavahi-client -lmxml -lxml2 -lasound ";
++LDFLAGS_VARS+="-lavutil -lavformat -lavcodec -lswscale ";
++#LDFLAGS_VARS+="-L`pwd`/../../sqlite-3.6.22/ -lsqlite3 -L`pwd`/../../../zlib-1.2.3/ -lz ";
++LDFLAGS_VARS+="-L`pwd`/../../sqlite-3.6.16/build_sc/.libs/ -lsqlite3 -L`pwd`/../../../zlib-1.2.3/ -lz ";
++LDFLAGS_VARS+="-L`pwd`../../../libiconv.1.8/lib/ ";
++LDFLAGS_VARS+="-lantlr3c -lconfuse -levent -lplist -lunistring -lgcrypt -lgpg-error ";
++LDFLAGS_VARS+="-L`pwd`/../../target/lib -L`pwd`/../../target/usr/lib -L`pwd`/../../target/usr/local/lib ";
++#LDFLAGS_VARS+="-Wl,-rpath=/lib_new/ -Wl,-rpath=/lib/ "; #run time
++#LDFLAGS_VARS+="-L/opt/mips-linux-uclibc-0.9.33/usr/lib/ -Wl,-rpath-link=/lib/ "; #link time
++#LDFLAGS_VARS+="-nostdlib -fno-builtin "; #link time
++#LDFLAGS_VARS+="-Wl,--dynamic-linker=/opt/mips-linux-uclibc-0.9.33/lib/ld-uClibc-0.9.33.2.so /opt/mips-linux-uclibc-0.9.33/lib/ld-uClibc-0.9.33.2.so /opt/mips-linux-uclibc-0.9.33/lib/libpthread-0.9.33.2.so /opt/mips-linux-uclibc-0.9.33/lib/libc.so.0 "; 
++#workaround to remove unused link
++LINKS="../../target/usr/lib/libavahi-common.la "
++LINKS+="../../target/usr/lib/libavahi-core.la "
++LINKS+="../../target/usr/lib/libavahi-client.la "
++LINKS+="../../target/lib/libplist.la "
++LINKS+="../../target/lib/libplist++.la "
++
++for file in $LINKS
++do
++	cat $file | sed "s/ \/usr\/lib\/libavahi-common.la//" | sed "s/ \/lib\/libdbus-1.la//" | sed "s/ \/lib\/libxml2.la//" > tmp1 
++	mv tmp1 $file
++done
++
++ANTLR="`pwd`/../../antlr3/antlr3" CFLAGS="$CFLAGS_VARS" CPPFLAGS="$CFLAGS_VARS" LDFLAGS="$LDFLAGS_VARS" ../configure --target=arm-linux-uclibc --host=arm-linux-uclibc --build=i486-linux-gnu --prefix= --sbindir=/usr/sbin --sysconfdir=/etc --exec-prefix=/usr --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --mandir=/usr/man --exec-prefix=/usr\
++	--enable-shared \
++	--enable-static \
++	--enable-itunes 
++#	--enable-flac \
++#	--enable-musepack \
++#	--with-libunistring-prefix=/home/peter/R6200v3/apps/apple/target/
+diff --git a/configure.ac b/configure.ac
+index 1f9fe24..ae686b9 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -110,10 +110,10 @@ if test x$HAVE_LIBUNISTRING != xyes; then
+    AC_MSG_ERROR([GNU libunistring is required])
+ fi
+ 
+-PKG_CHECK_MODULES(ZLIB, [ zlib ])
+-PKG_CHECK_MODULES(CONFUSE, [ libconfuse ])
+-PKG_CHECK_MODULES(AVAHI, [ avahi-client >= 0.6.24 ])
+-PKG_CHECK_MODULES(SQLITE3, [ sqlite3 >= 3.5.0 ])
++#PKG_CHECK_MODULES(ZLIB, [ zlib ])
++#PKG_CHECK_MODULES(CONFUSE, [ libconfuse ])
++#PKG_CHECK_MODULES(AVAHI, [ avahi-client >= 0.6.24 ])
++#PKG_CHECK_MODULES(SQLITE3, [ sqlite3 >= 3.5.0 ])
+ 
+ save_LIBS="$LIBS"
+ LIBS="$SQLITE3_LIBS"
+@@ -149,18 +149,18 @@ elif test x$libxxresample = xlibavresample; then
+ 	AC_DEFINE(HAVE_LIBAVRESAMPLE, 1, [Define to 1 if you have libav's libavresample])
+ fi
+ 
+-PKG_CHECK_MODULES(LIBAV, [ libavformat libavcodec libswscale libavutil $libxxresample ])
++#PKG_CHECK_MODULES(LIBAV, [ libavformat libavcodec libswscale libavutil $libxxresample ])
+ 
+ save_LIBS="$LIBS"
+ AC_CHECK_LIB([avcodec], [avcodec_find_best_pix_fmt_of_list],
+ 	AC_DEFINE(HAVE_FFMPEG, 1, [Define to 1 if you have ffmpeg (and not libav).]))
+ LIBS="$save_LIBS"
+ 
+-PKG_CHECK_MODULES(MINIXML, [ mxml ])
++#PKG_CHECK_MODULES(MINIXML, [ mxml ])
+ 
+-PKG_CHECK_MODULES(LIBEVENT, [ libevent >= 2 ],
++#PKG_CHECK_MODULES(LIBEVENT, [ libevent >= 2 ],
+         AC_DEFINE(HAVE_LIBEVENT2, 1, [Define to 1 if you have libevent 2])
+-)
++#)
+ 
+ AM_CONDITIONAL(COND_LIBEVENT20, false)
+ AM_CONDITIONAL(COND_LIBEVENT21, false)
+@@ -183,17 +183,17 @@ AC_SUBST(ANTLR3C_LIBS)
+ AM_PATH_LIBGCRYPT([1:1.2.0], , AC_MSG_ERROR([libgcrypt not found]))
+ AM_PATH_GPG_ERROR([1.6], , AC_MSG_ERROR([libgpg-error not found]))
+ 
+-if test x$use_flac = xtrue; then
+-	PKG_CHECK_MODULES(FLAC, [ flac ])
+-fi
++#if test x$use_flac = xtrue; then
++#	PKG_CHECK_MODULES(FLAC, [ flac ])
++#fi
+ 
+-if test x$use_musepack = xtrue; then
+-	PKG_CHECK_MODULES(TAGLIB, [ taglib_c ])
+-fi
++#if test x$use_musepack = xtrue; then
++#	PKG_CHECK_MODULES(TAGLIB, [ taglib_c ])
++#fi
+ 
+-if test x$use_itunes = xtrue; then
+-	PKG_CHECK_MODULES(LIBPLIST, [ libplist >= 0.16 ])
+-fi
++#if test x$use_itunes = xtrue; then
++#	PKG_CHECK_MODULES(LIBPLIST, [ libplist >= 0.16 ])
++#fi
+ 
+ if test x$use_spotify = xtrue; then
+ 	AC_CHECK_HEADER(libspotify/api.h, , AC_MSG_ERROR([libspotify/api.h not found]))
+@@ -205,22 +205,22 @@ if test x$use_spotify = xtrue; then
+ 	AC_SUBST(SPOTIFY_LIBS)
+ fi
+ 
+-if test x$use_lastfm = xtrue; then
+-	PKG_CHECK_MODULES(LIBCURL, [ libcurl ])
+-	AC_CHECK_LIB([mxml], [mxmlGetOpaque],
+-		AC_DEFINE(HAVE_MXML_GETOPAQUE, 1, [Define to 1 if your mxml has mxmlGetOpaque.]))
+-fi
++#if test x$use_lastfm = xtrue; then
++#	PKG_CHECK_MODULES(LIBCURL, [ libcurl ])
++#	AC_CHECK_LIB([mxml], [mxmlGetOpaque],
++#		AC_DEFINE(HAVE_MXML_GETOPAQUE, 1, [Define to 1 if your mxml has mxmlGetOpaque.]))
++#fi
+ 
+ if test x$use_alsa = xtrue; then
+-	PKG_CHECK_MODULES(ALSA, [ alsa ])
++#	PKG_CHECK_MODULES(ALSA, [ alsa ])
+ 	AC_DEFINE(LAUDIO_USE_ALSA, 1, [define if local audio output uses ALSA])
+ 	CPPFLAGS="${CPPFLAGS} -DALSA"
+ fi
+ 
+-if test x$use_oss4 = xtrue; then
+-	AC_CHECK_HEADER(sys/soundcard.h, , AC_MSG_ERROR([sys/soundcard.h not found]))
+-	CPPFLAGS="${CPPFLAGS} -DOSS4"
+-fi
++#if test x$use_oss4 = xtrue; then
++#	AC_CHECK_HEADER(sys/soundcard.h, , AC_MSG_ERROR([sys/soundcard.h not found]))
++#	CPPFLAGS="${CPPFLAGS} -DOSS4"
++#fi
+ 
+ case "$host" in
+   *-*-linux-*)
+diff --git a/src/Makefile.am b/src/Makefile.am
+index b91edc4..83bb4b5 100644
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -72,13 +72,13 @@ forked_daapd_CPPFLAGS = -D_GNU_SOURCE \
+ 	-DDATADIR="\"$(pkgdatadir)\"" -DCONFDIR="\"$(sysconfdir)\"" \
+ 	-DSTATEDIR="\"$(localstatedir)\"" -DPKGLIBDIR="\"$(pkglibdir)\""
+ 
+-forked_daapd_CFLAGS = \
++forked_daapd_CFLAGS = #\
+ 	@ZLIB_CFLAGS@ @AVAHI_CFLAGS@ @SQLITE3_CFLAGS@ @LIBAV_CFLAGS@ \
+ 	@CONFUSE_CFLAGS@ @TAGLIB_CFLAGS@ @MINIXML_CFLAGS@ @LIBPLIST_CFLAGS@ \
+ 	@LIBGCRYPT_CFLAGS@ @GPG_ERROR_CFLAGS@ @ALSA_CFLAGS@ @SPOTIFY_CFLAGS@ \
+ 	@LIBCURL_CFLAGS@
+ 
+-forked_daapd_LDADD = -lrt \
++forked_daapd_LDADD = -lrt #\
+ 	@ZLIB_LIBS@ @AVAHI_LIBS@ @SQLITE3_LIBS@ @LIBAV_LIBS@ \
+ 	@CONFUSE_LIBS@ @FLAC_LIBS@ @TAGLIB_LIBS@ @LIBEVENT_LIBS@ \
+ 	@MINIXML_LIBS@ @ANTLR3C_LIBS@ @LIBPLIST_LIBS@ \
+diff --git a/src/laudio_alsa.c b/src/laudio_alsa.c
+index 2fbc060..0a7d431 100644
+--- a/src/laudio_alsa.c
++++ b/src/laudio_alsa.c
+@@ -28,7 +28,7 @@
+ #include <stdint.h>
+ #include <inttypes.h>
+ 
+-#include <asoundlib.h>
++#include <alsa/asoundlib.h>
+ 
+ #include "conffile.h"
+ #include "logger.h"
+-- 
+1.6.5.2
+

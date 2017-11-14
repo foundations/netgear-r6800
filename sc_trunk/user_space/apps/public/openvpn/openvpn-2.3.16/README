@@ -1,0 +1,27 @@
+### This file is guideline to how to generate cretificate using easy-rsa ###
+1. CONFIG file
+(1) default openssl conf is "openssl.cnf", modify item "default_md = md5";
+(2) modify var in vars as below if you need:
+export KEY_COUNTRY="CN"
+export KEY_PROVINCE="JS"
+export KEY_CITY="SZ"
+export KEY_ORG="netgear"
+export KEY_EMAIL="mail@netgear.com"
+export KEY_OU="netgear"
+
+2. command on console
+# init vars
+source ./vars
+# clean keys dir
+clean-all
+#generate CA CRT
+build-ca
+#generate server CRT
+build-key-server server
+#generate client CRT
+build-key clinet
+#generate PEM
+build-dh
+
+#All generte files in keys dir,
+#we need ca.crt ca.key client.crt client.csr client.key dh1024.pem server.crt server.csr server.key

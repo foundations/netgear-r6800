@@ -1,0 +1,63 @@
+ifndef PATCHLEVEL
+
+CURR_DIR := $(shell pwd)
+BUILD_DIR:=$(subst /kernel_module, /kernel_module,$(CURR_DIR))
+BUILD_DIR:=$(word 1, $(BUILD_DIR))
+
+include $(BUILD_DIR)/Rules.mak
+
+endif
+
+CROSS_COMPILE = $(CROSS)
+
+KERNELDIR = $(KERNEL_DIR)
+#KERNEL_SIPDIR = $(KERNELDIR)/net/ipv4/netfilter
+SUBDIR = $(shell pwd)
+
+OBJS = ipt_REJECT.ko
+#OBJS += ipt_string.ko
+#OBJS += ipt_psd.ko
+OBJS += ipt_random.ko
+OBJS += ipt_condition.ko
+#OBJS += ipt_PNAT.ko
+OBJS += ipt_DLOG.ko
+OBJS += ipt_http_string.ko
+#OBJS += ipt_mark.ko
+OBJS += ipt_dnshj.ko
+#OBJS += wan_pkg.ko
+#OBJS += wifi_isolation.ko
+#OBJS += wifi_statistics.ko
+OBJS += dns_hijack.ko
+OBJS += if_br_ctl.ko
+
+obj-m:= ipt_REJECT.o
+#obj-m+= ipt_string.o
+#obj-m+= ipt_psd.o
+obj-m+= ipt_random.o
+obj-m+= ipt_condition.o
+#obj-m+= ipt_PNAT.o
+obj-m+= ipt_DLOG.o
+obj-m+= ipt_http_string.o
+#obj-m+= ipt_mark.o
+obj-m+= ipt_dnshj.o
+#obj-m += wan_pkg.o
+#obj-m += wifi_isolation.o
+#obj-m += wifi_statistics.o
+obj-m += if_br_ctl.o
+obj-m += dns_hijack.o
+
+EXTRA_CFLAGS += -Werror
+EXTRA_CFLAGS += -I$(SHARED_DIR)
+EXTRA_CFLAGS += -I$(KERNEL_ARCH_INC)
+
+all:modules 
+
+modules:
+	$(MAKE) -C $(KERNELDIR) SUBDIRS=$(SUBDIR) modules V=1 CROSS_COMPILE=$(CROSS_COMPILE)
+	$(STRIP) -d $(OBJS)
+
+clean:
+	rm -rf $(OBJS) *.o *.ko *.cmd .*.cmd *.mod.c Module.symvers $(IPTPAT_UTIL)
+install:
+	cp -a $(OBJS) $(ROOT)/target/lib/modules
+

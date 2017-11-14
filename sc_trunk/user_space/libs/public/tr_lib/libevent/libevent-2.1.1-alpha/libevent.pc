@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/home/pd4/Alice/nick/R6220/sc_trunk/user_space/libs/public/tr_lib/lib
+includedir=/home/pd4/Alice/nick/R6220/sc_trunk/user_space/libs/public/tr_lib/include
+
+Name: libevent
+Description: libevent is an asynchronous notification event loop library
+Version: 2.1.1-alpha
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent
+Libs.private: 
+Cflags: -I${includedir}
+

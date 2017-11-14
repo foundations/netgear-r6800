@@ -1,0 +1,534 @@
+diff -Nur --exclude=.svn busybox/include/libbb.h busybox_modify/include/libbb.h
+--- busybox/include/libbb.h	2015-04-21 11:28:24.659963737 +0800
++++ busybox_modify/include/libbb.h	2015-05-20 15:36:45.354960495 +0800
+@@ -498,6 +498,7 @@
+ len_and_sockaddr* host2sockaddr(const char *host, int port) FAST_FUNC;
+ /* Version which dies on error */
+ len_and_sockaddr* xhost2sockaddr(const char *host, int port) FAST_FUNC;
++len_and_sockaddr* xhost2sockaddr_ipv4only(const char *host, int port) FAST_FUNC;
+ len_and_sockaddr* xdotted2sockaddr(const char *host, int port) FAST_FUNC;
+ /* Same, useful if you want to force family (e.g. IPv6) */
+ #if !ENABLE_FEATURE_IPV6
+diff -Nur --exclude=.svn busybox/init/init.c busybox_modify/init/init.c
+--- busybox/init/init.c	2015-04-21 11:28:26.566971220 +0800
++++ busybox_modify/init/init.c	2015-05-20 14:51:20.549963362 +0800
+@@ -27,9 +27,9 @@
+ #define CORE_ENABLE_FLAG_FILE "/.init_enable_core"
+ #include <sys/resource.h>
+ 
+-#define INITTAB      "/etc_ro/inittab"	/* inittab file location */
++#define INITTAB      "/usr/etc/inittab"	/* inittab file location */
+ #ifndef INIT_SCRIPT
+-#define INIT_SCRIPT  "/etc_ro/rcS"		/* Default sysinit script. */
++#define INIT_SCRIPT  "/usr/etc/rcS"		/* Default sysinit script. */
+ #endif
+ 
+ /* Allowed init action types */
+diff -Nur --exclude=.svn busybox/libbb/xconnect.c busybox_modify/libbb/xconnect.c
+--- busybox/libbb/xconnect.c	2015-04-21 11:28:24.396966134 +0800
++++ busybox_modify/libbb/xconnect.c	2015-05-20 15:41:11.443958581 +0800
+@@ -226,6 +226,11 @@
+ 	return str2sockaddr(host, port, AF_UNSPEC, DIE_ON_ERROR);
+ }
+ 
++len_and_sockaddr* FAST_FUNC xhost2sockaddr_ipv4only(const char *host, int port)
++{
++	return str2sockaddr(host, port, AF_INET, DIE_ON_ERROR);
++}
++
+ len_and_sockaddr* FAST_FUNC xdotted2sockaddr(const char *host, int port)
+ {
+ 	return str2sockaddr(host, port, AF_UNSPEC, AI_NUMERICHOST | DIE_ON_ERROR);
+diff -Nur --exclude=.svn busybox/Makefile.custom busybox_modify/Makefile.custom
+--- busybox/Makefile.custom	2015-04-21 11:28:27.568976261 +0800
++++ busybox_modify/Makefile.custom	2015-05-20 15:43:30.564977277 +0800
+@@ -26,6 +26,10 @@
+ romfs install: $(srctree)/applets/install.sh busybox busybox.links
+ 	$(Q)DO_INSTALL_LIBS="$(strip $(LIBBUSYBOX_SONAME) $(DO_INSTALL_LIBS))" \
+ 		$(SHELL) $< $(CONFIG_PREFIX) $(INSTALL_OPTS)
++	ls -l $(CONFIG_PREFIX)/usr/bin/busybox
++	rm $(CONFIG_PREFIX)/usr/bin/busybox
++	sudo cp -Rf busybox $(CONFIG_PREFIX)/usr/bin/busybox
++	ls -l $(CONFIG_PREFIX)/usr/bin/busybox
+ ifeq ($(strip $(CONFIG_FEATURE_SUID)),y)
+ 	@echo
+ 	@echo
+diff -Nur --exclude=.svn busybox/networking/ping.c busybox_modify/networking/ping.c
+--- busybox/networking/ping.c	2015-04-21 11:28:20.035966537 +0800
++++ busybox_modify/networking/ping.c	2015-05-20 15:49:40.194964244 +0800
+@@ -178,7 +178,7 @@
+ {
+ 	len_and_sockaddr *lsa;
+ #if ENABLE_PING6
+-	sa_family_t af = AF_UNSPEC;
++	sa_family_t af = AF_INET;
+ 
+ 	while ((++argv)[0] && argv[0][0] == '-') {
+ 		if (argv[0][1] == '4') {
+@@ -224,17 +224,18 @@
+ 
+ /* full(er) version */
+ 
+-#define OPT_STRING ("qvc:s:w:W:I:4" USE_PING6("6"))
++#define OPT_STRING ("qvc:Q:s:w:W:I:4" USE_PING6("6"))
+ enum {
+ 	OPT_QUIET = 1 << 0,
+ 	OPT_VERBOSE = 1 << 1,
+ 	OPT_c = 1 << 2,
+-	OPT_s = 1 << 3,
+-	OPT_w = 1 << 4,
+-	OPT_W = 1 << 5,
+-	OPT_I = 1 << 6,
+-	OPT_IPV4 = 1 << 7,
+-	OPT_IPV6 = (1 << 8) * ENABLE_PING6,
++	OPT_Q = 1 << 3,
++	OPT_s = 1 << 4,
++	OPT_w = 1 << 5,
++	OPT_W = 1 << 6,
++	OPT_I = 1 << 7,
++	OPT_IPV4 = 1 << 8,
++	OPT_IPV6 = (1 << 9) * ENABLE_PING6,
+ };
+ 
+ 
+@@ -245,6 +246,7 @@
+ 	len_and_sockaddr *source_lsa;
+ 	unsigned datalen;
+ 	unsigned long ntransmitted, nreceived, nrepeats, pingcount;
++	unsigned pingtos;
+ 	uint16_t myid;
+ 	unsigned tmin, tmax; /* in us */
+ 	unsigned long long tsum; /* in us, sum of all times */
+@@ -272,6 +274,7 @@
+ #define nreceived    (G.nreceived   )
+ #define nrepeats     (G.nrepeats    )
+ #define pingcount    (G.pingcount   )
++#define pingtos      (G.pingtos     )
+ #define myid         (G.myid        )
+ #define tmin         (G.tmin        )
+ #define tmax         (G.tmax        )
+@@ -576,6 +579,12 @@
+ 	/* enable broadcast pings */
+ 	setsockopt_broadcast(pingsock);
+ 
++	if (pingtos > 0) {
++			printf("set tos to %ld\n", pingtos);
++			setsockopt(pingsock, IPPROTO_IP, IP_TOS, &pingtos, sizeof(pingtos));
++	} else
++			printf("no need set tos. %ld\n", pingtos);
++
+ 	/* set recv buf for broadcast pings */
+ 	sockopt = 48 * 1024; /* explain why 48k? */
+ 	setsockopt(pingsock, SOL_SOCKET, SO_RCVBUF, &sockopt, sizeof(sockopt));
+@@ -718,13 +727,15 @@
+ {
+ 	len_and_sockaddr *lsa;
+ 	char *opt_c, *opt_s;
+-	USE_PING6(sa_family_t af = AF_UNSPEC;)
++	USE_PING6(sa_family_t af = AF_INET;)
+ 
+ 	INIT_G();
++	pingtos = 0; /* initialize */
+ 
+ 	/* exactly one argument needed; -v and -q don't mix; -w NUM, -W NUM */
+-	opt_complementary = "=1:q--v:v--q:w+:W+";
+-	getopt32(argv, OPT_STRING, &opt_c, &opt_s, &deadline, &timeout, &opt_I);
++	opt_complementary = "=1:q--v:v--q:Q+:w+:W+";
++	getopt32(argv, OPT_STRING, &opt_c, &pingtos, &opt_s, &deadline, &timeout, &opt_I);
++
+ 	if (option_mask32 & OPT_c)
+ 		pingcount = xatoul(opt_c); // -c
+ 	if (option_mask32 & OPT_s)
+diff -Nur --exclude=.svn busybox/networking/traceroute.c busybox_modify/networking/traceroute.c
+--- busybox/networking/traceroute.c	2015-04-21 11:28:20.029965394 +0800
++++ busybox_modify/networking/traceroute.c	2015-05-20 16:06:01.762955661 +0800
+@@ -215,6 +215,8 @@
+ #include "libbb.h"
+ #include "inet_common.h"
+ 
++#define _SC_BUILD_
++#include <stdarg.h>
+ 
+ /*
+  * Definitions for internet protocol version 4.
+@@ -385,6 +387,14 @@
+ 	doipcksum = 1; \
+ } while (0)
+ 
++#ifdef _SC_BUILD_
++#define NETGEAR_MAX_TTL 20
++struct routeinfo {
++	unsigned char ttl;
++	char ip[24];
++};
++struct routeinfo routesite[NETGEAR_MAX_TTL + 1];
++#endif
+ 
+ /*
+  * Return the interface list
+@@ -563,7 +573,11 @@
+ 
+ 	pfd[0].fd = sock;
+ 	pfd[0].events = POLLIN;
++#ifdef _SC_BUILD_
++	if (safe_poll(pfd, 1, 10) > 0)
++#else
+ 	if (safe_poll(pfd, 1, waittime * 1000) > 0)
++#endif
+ 		cc = recvfrom(sock, packet, sizeof(packet), 0,
+ 			    (struct sockaddr *)fromp, &fromlen);
+ 	return cc;
+@@ -628,8 +642,8 @@
+ 	}
+ 
+ 	/* Payload */
+-	outdata->seq = seq;
+-	outdata->ttl = ttl;
++	outdata->seq = seq+0x10;
++	outdata->ttl = ttl+0x10;
+ // UNUSED: was storing gettimeofday's result there, but never ever checked it
+ 	/*memcpy(&outdata->tv, tp, sizeof(outdata->tv));*/
+ 
+@@ -638,7 +652,11 @@
+ 		outicmp->icmp_seq = htons(seq);
+ 	else
+ #endif
+-		outudp->dest = htons(port + seq);
++#ifdef _SC_BUILD_
++	outudp->dest = htons(port + ttl);
++#else
++	outudp->dest = htons(port + seq);
++#endif
+ 
+ #if ENABLE_FEATURE_TRACEROUTE_USE_ICMP
+ 	if (useicmp) {
+@@ -743,6 +761,7 @@
+ 
+ 	ip = (struct ip *) buf;
+ 	hlen = ip->ip_hl << 2;
++	printf("packet_ok cc is %d, hlen + ICMP_MINLEN is %d\n", cc, hlen + ICMP_MINLEN);
+ 	if (cc < hlen + ICMP_MINLEN) {
+ #if ENABLE_FEATURE_TRACEROUTE_VERBOSE
+ 		if (verbose)
+@@ -793,8 +812,11 @@
+ 			if (hlen + 12 <= cc &&
+ 			    hip->ip_p == IPPROTO_UDP &&
+ 			    up->source == htons(ident) &&
+-			    up->dest == htons(port + seq))
+-				return (type == ICMP_TIMXCEED ? -1 : code + 1);
++			    ntohs(up->dest) > port &&
++			    ntohs(up->dest) <= (port + 20)){
++					printf("return UDP type is %d\n",type);
++					return (type == ICMP_TIMXCEED ? -1 : code + 1);
++			}
+ 		}
+ 	}
+ #if ENABLE_FEATURE_TRACEROUTE_VERBOSE
+@@ -913,6 +935,100 @@
+ 	printf("  %u.%03u ms", tt/1000, tt%1000);
+ }
+ 
++#ifdef _SC_BUILD_
++int print_site(char *format,...)
++{
++    va_list args;
++    FILE *fp;
++
++#define RESULT_FILE "/tmp/tracert_out"
++    fp = fopen(RESULT_FILE,"a+");
++    if(!fp)
++        return -1;
++
++	va_start(args,format);
++	vfprintf(fp,format,args);
++	va_end(args);
++    fprintf(fp,"\n");
++    
++    fflush(fp);
++    fclose(fp);
++
++    return 0;
++}
++
++static int is_public_ip(char *ip)
++{
++	if (ip && ip[0]) {
++		unsigned int myip;
++		unsigned int ipmin;
++		unsigned int ipmax;
++		int i;
++		const char *privateip[][2] =
++		{
++			{"10.0.0.1","10.255.255.255"},
++			{"127.0.0.1","127.255.255.255"},
++			{"169.254.0.1","169.254.255.255"},
++			{"172.16.0.1", "172.31.255.255"},
++			{"192.168.1.1", "192.168.255.255"},
++			{"224.0.0.0", "239.255.255.255"}
++		};
++/* inet_addr result in network order,
++ * so need ntohl. */
++		myip = ntohl(inet_addr(ip));
++		if (myip!=INADDR_NONE) {
++			for(i=0; i < 6; i++) {
++				ipmin = ntohl(inet_addr(privateip[i][0]));
++				ipmax = ntohl(inet_addr(privateip[i][1]));
++				printf("min:%x, max:%x, mine:%x\n", ipmin, ipmax, myip);
++				if(myip >= ipmin && myip <= ipmax) {
++					printf("private\n");
++					return 0;
++				}
++			}
++			printf("public\n");
++			return 1;
++		}
++	}
++	printf("private\n");
++	return 0;
++}
++#endif
++
++#if 0
++int debug(char *format,...)
++{
++    va_list args;
++    FILE *fp;
++    
++    fp = fopen("/tmp/cgi_debug","a+");
++    if(!fp)
++        return -1;
++
++    va_start(args,format);
++    vfprintf(fp,format,args);
++    va_end(args);
++    fprintf(fp,"\n");
++
++    fflush(fp);
++    fclose(fp);
++
++    return 0;
++}
++
++void print_all_trace(int times)
++{
++    int i ;
++    
++    debug("Times is %d",times);
++    for(i = 1; i <=20; i++)
++    {
++        debug("num %d ttl %d ip %s", i, routesite[i].ttl, routesite[i].ip);
++    }
++    debug("\n");
++}
++#endif
++
+ int traceroute_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
+ int traceroute_main(int argc, char **argv)
+ {
+@@ -922,7 +1038,7 @@
+ 	struct sockaddr_in *from;
+ 	struct sockaddr_in *to;
+ 	struct hostinfo *hi;
+-	int ttl, probe, i;
++	int ttl, probe, i,times;
+ 	int seq = 0;
+ 	int tos = 0;
+ 	char *tos_str;
+@@ -1017,6 +1133,14 @@
+ 		    first_ttl, max_ttl);
+ 	}
+ 
++#ifdef _SC_BUILD_
++    if(max_ttl > NETGEAR_MAX_TTL)
++	{
++		bb_error_msg_and_die(
++		"max ttl (%d) may not be greater than Netgear Spec 2.0 define max ttl (%d)",
++		max_ttl, NETGEAR_MAX_TTL);
++	}
++#endif
+ 	minpacket = sizeof(*outip) + sizeof(*outdata) + optlen;
+ 
+ #if ENABLE_FEATURE_TRACEROUTE_USE_ICMP
+@@ -1024,7 +1148,15 @@
+ 		minpacket += 8;                 /* XXX magic number */
+ 	else
+ #endif
+-		minpacket += sizeof(*outudp);
++#ifdef _SC_BUILD_
++/* Spec 2.0 need header + 100 radom date:
++ * Due to minpacket have own date len 10, so only add 90
++ * to meet Netgear Spec request.
++ */
++	minpacket += sizeof(*outudp)+ 90;
++#else
++	minpacket += sizeof(*outudp);
++#endif
+ 	packlen = minpacket;                    /* minimum sized packet */
+ 
+ 	/* Process destination and optional packet size */
+@@ -1213,6 +1345,130 @@
+ 	printf(", %d hops max, %d byte packets\n", max_ttl, packlen);
+ 	fflush(stdout);
+ 
++#ifdef _SC_BUILD_
++	memset(routesite, 0, sizeof(routesite));
++	/* Follow Spec2.0 to find Gateway */
++	for(times = 1; times <= nprobes ; times++)
++	{
++		unsigned long t1 = 0;
++		unsigned long t2 = 0;
++		int gotnoresponse = 0;
++		int num = 0;
++		/* Step 1: send all 20 packets when first time. If
++		 * retry, send all packets which no response receive
++		 */
++		for (ttl = first_ttl; ttl <= max_ttl; ++ttl)
++		{
++		/* Use this array to mark receive response and
++		 * come out Netgear Spec 2.0 retry requests
++		 */
++			if(routesite[ttl].ttl == 0)
++			{
++				send_probe(++seq, ttl);
++			}
++		}
++		/* Step 2: receive all ICMP response */
++		/* Record receive begin time */
++		t1 = monotonic_us();
++		do
++		{
++			int cc;
++			struct ip *ip;
++			while((cc = wait_for_reply(rcvsock, from)) != 0)
++			{
++				char *ina;
++
++				i = packet_ok(packet, cc, from, seq);
++
++				/* Skip short packet */
++				if (i == 0)
++					continue;
++
++				if((i == -1)/*time exceeded*/ || (i == (ICMP_UNREACH_PORT + 1)))
++				{
++					ina = inet_ntoa(from->sin_addr);
++					ip = (struct ip *)packet;
++					if(ip->ip_ttl > (0xff - max_ttl))/* public domain */
++					{
++						if(routesite[(256 - ip->ip_ttl)].ttl == 0)
++						{
++							num++;
++							routesite[(256 - ip->ip_ttl)].ttl = (256 - ip->ip_ttl);
++							strcpy(routesite[(256 - ip->ip_ttl)].ip, ina);
++						}
++					}
++					else if((ip->ip_ttl <= 64) && (ip->ip_ttl > max_ttl))/* Some private domain */
++					{
++						if(((65 - ip->ip_ttl) <= max_ttl) && routesite[(65 - ip->ip_ttl)].ttl == 0)
++						{
++							num++;
++							routesite[(65 - ip->ip_ttl)].ttl = (65 - ip->ip_ttl);
++							strcpy(routesite[(65 - ip->ip_ttl)].ip, ina);
++						}
++					}
++					else
++					{
++						if((ip->ip_ttl<= max_ttl) && (routesite[ip->ip_ttl].ttl == 0))
++						{
++							num++;
++							routesite[ip->ip_ttl].ttl = ip->ip_ttl;
++							strcpy(routesite[ip->ip_ttl].ip, ina);
++						}
++					}
++				}
++			}
++			/* record current time to check time whether over 1s */
++			t2 = monotonic_us();
++		}while ((num < max_ttl) && ((t2-t1)/1000) < 1000/* 1s */);
++#if 0
++		print_all_trace(times);
++#endif
++		/* Step 3: Follow Spec 2.0 find Gateway1 */
++		for(num = 1; num <= max_ttl; num++)
++		{
++			if(routesite[num].ttl == 0)
++			{
++				gotnoresponse++;
++				continue;
++			}
++			if(times < nprobes)
++			{
++				if(is_public_ip(routesite[num].ip) && (num > 1))
++				{
++					if(gotnoresponse == 0)
++					{
++						print_site("%2d  %s", routesite[num].ttl, routesite[num].ip);
++						return 0;
++					}
++					else
++					{
++						break; //do next retry
++					}
++				}
++			}
++			else
++			{
++				/* Gateway1 or 2 */
++				if(is_public_ip(routesite[num].ip) && (num > 1))
++				{
++					print_site("%2d  %s", routesite[num].ttl, routesite[num].ip);
++					return 0;
++				}
++				/* Gateway 3 */
++				else if(strcmp(routesite[num].ip, inet_ntoa(to->sin_addr)) == 0)
++				{
++					print_site("%2d  %s", routesite[num].ttl, routesite[num].ip);
++					return 0;
++				}
++				else{
++					continue;
++				}
++			}
++		}
++	/* Step 4: If do not find Gateway1, retry twice */
++	}
++#else
++
+ 	for (ttl = first_ttl; ttl <= max_ttl; ++ttl) {
+ 		uint32_t lastaddr = 0;
+ 		int gotlastaddr = 0;
+@@ -1345,5 +1601,6 @@
+ 		    (unreachable > 0 && unreachable >= nprobes - 1))
+ 			break;
+ 	}
++#endif
+ 	return 0;
+ }
+diff -Nur --exclude=.svn busybox/networking/wget.c busybox_modify/networking/wget.c
+--- busybox/networking/wget.c	2015-04-21 11:28:20.021967550 +0800
++++ busybox_modify/networking/wget.c	2015-05-20 16:07:19.935977399 +0800
+@@ -527,7 +527,11 @@
+ 	/* We want to do exactly _one_ DNS lookup, since some
+ 	 * sites (i.e. ftp.us.debian.org) use round-robin DNS
+ 	 * and we want to connect to only one IP... */
++#if 1
++	lsa = xhost2sockaddr_ipv4only(server.host, server.port);
++#else
+ 	lsa = xhost2sockaddr(server.host, server.port);
++#endif
+ 	if (!(opt & WGET_OPT_QUIET)) {
+ 		fprintf(stderr, "Connecting to %s (%s)\n", server.host,
+ 				xmalloc_sockaddr2dotted(&lsa->u.sa));
+diff -Nur --exclude=.svn busybox/util-linux/mount.c busybox_modify/util-linux/mount.c
+--- busybox/util-linux/mount.c	2015-04-21 11:28:27.464967727 +0800
++++ busybox_modify/util-linux/mount.c	2015-05-20 17:16:07.379972093 +0800
+@@ -1848,7 +1848,8 @@
+ 	}
+ 
+ 	// Open either fstab or mtab
+-	fstabname = "/etc/fstab";
++	//fstabname = "/etc/fstab";
++	fstabname = "/usr/etc/fstab";
+ 	if (i & MS_REMOUNT) {
+ 		// WARNING. I am not sure this matches util-linux's
+ 		// behavior. It's possible util-linux does not

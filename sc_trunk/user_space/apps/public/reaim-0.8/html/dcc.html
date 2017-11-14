@@ -1,0 +1,108 @@
+<html>
+<head>
+  <title>Introduction to AIM Direct Connections and Address Translation Firewalls</title>
+  <link rel="stylesheet" href="doc-ns4.css" type="text/css" />
+  <style type="text/css">
+    @import url("doc.css");
+  </style>
+  <meta name="Author" content="Mark P. Cooke" />
+  <meta name="Version" content="$Id: dcc.html,v 1.7 2002/12/09 23:30:21 mark-c Exp $" />
+</head>
+<body>
+<div class="page">
+<a href="index.html"><img src="back.gif" width="20" height="20" class="back" /></a><h1>AIM Messaging Overview</h1>
+
+<h2>Basic Outline</h2>
+
+<p>The AIM client supports two methods to send text messages to other AIM
+users.  The first is used unless a direct connection has been established,
+and in this mode, all messages pass through an AIM server.</p>
+
+<ol>
+<li>Alice on Machine 1 establishes a connection to an AIM server</li>
+<ul><li>This works through most firewalls.  It's just a single connection</li></ul>
+<li>Bob on Machine 2 establishes a connection to an AIM server</li>
+<ul><li>This works through most firewalls.  It's just a single connection</li>
+    <li>It is not necessarily the same AIM server as Alice, but this doesn't matter</li></ul>
+<li>Alice wants to send a text message to Bob</li>
+<ul><li>Alice's machine sends a message to the AIM server it is connected to</li>
+    <li>The AIM servers check which machine Bob's connected to, and hands off the message to that AIM server</li>
+    <li>Bob receives Alice's message from the AIM server he's connected to</li></ul>
+</ol>
+
+<p>In the above process, Alice and Bob have no idea about each other's
+internet address - it just isn't required.  However, all the messages are
+going through the AIM servers they are connected to.  This costs AOL money,
+and also permits them to see all the messages Alice and Bob are exchanging.</p>
+
+<p>Because of the cost, transferring files requires Alice and Bob to establish
+a direct connection between each other.  Once this is done, as the name implies,
+data flows directly between Alice and Bob, without the AIM servers being
+involved - so it doesn't cost AOL any money.</p>
+
+<ol>
+<li>Alice on Machine 1 establishes a connection to an AIM server</li>
+<ul><li>This works through most firewalls.  It's just a single connection</li></ul>
+<li>Bob on Machine 2 establishes a connection to an AIM server</li>
+<ul><li>This works through most firewalls.  It's just a single connection</li></ul>
+<li>Alice sends a direct connection establishment message to Bob</li>
+<ul><li>Alice's machine send a message to the AIM server it is connected to.  This message contains the internet address of Alice's machine</li>
+    <li>The AIM servers check which machine Bob's connected to, and hands off the message to that AIM server</li>
+    <li>Bob receives Alice's message from the AIM server he's connected to, and once this is received, Bob can try to make a direct connection to the address Alice just sent</li></ul>
+</ol>
+
+<p>If Bob establishes a connection to Alice, then everything is fine, and
+they have a direct connection established.  If Bob's machine can't contact
+Alice's, the direct connection establishment then proceeds as follows:</p>
+
+<ol>
+<li>Bob's machine times out trying to connect to Alice</li>
+<li>Bob's machine sends a message to Alice via the AIM server, containing his internet address, and waits for Alice to connect to him</li>
+<li>Alice receives the message from Bob via the AIM server she is connected to, and attempts to connect to Bob</li>
+</ol>
+
+<p class="last">At this point, Alice either successfully connects to Bob, or another timeout
+happens.  If the timeout happens, both Bob and Alice's AIM clients will tell
+them that the connection couldn't be established.</p>
+
+<h2>The Issue Of Address Translation</h2>
+
+<p>One reason for Alice and Bob being unable to connect to each other is if
+there is an Address-Translating firewall between their machine and the AIM
+server they connect to.  In essence, this usually means that their machine
+cannot be directly reached from anywhere else on the internet.  Consider
+the diagram below:</p>
+
+<pre>
+       Local LAN                  Internet
+  [alice]---+-----[firewall]---------------+--[AIM Server Cluster]
+ 10.0.0.5   | 10.0.0.1   A.B.C.D           |
+            |                              |
+  [others]--+                              +--[Bob]
+                                             W.X.Y.Z
+
+</pre>
+
+<p class="last">A.B.C.D is the only address that the rest of the internet can contact
+directly.  Unfortunately, in the direct connection setup, Alice's machine
+doesn't know this, and so uses 10.0.0.5 in her message to Bob.</p>
+
+<h2>A Solution: The ReAIM Proxy</h2>
+
+<p>The ReAIM proxy is a small program designed to run on (or behind) the
+firewall shown in the diagram above.  It intercepts the messages going
+from Alice to the AIM servers, and if the message is a direct connection
+request, it changes the address Alice put in the packet from 10.0.0.5
+to A.B.C.D, and keeps track that Alice has a direct connection pending.</p>
+
+<p class="last">When Bob gets the modified message, he connects to A.B.C.D, and the proxy
+answers.  With a little bit of jiggery pokery, the proxy matches up Bob's
+request with Alice's pending request, and sets up a connection so that
+Alice and Bob can communicate (almost) directly.</p>
+
+<br>
+<center><A href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=40800" width="88" height="31" border="0" alt="SourceForge Logo"></A></center>
+
+</div>
+</body>
+</html>

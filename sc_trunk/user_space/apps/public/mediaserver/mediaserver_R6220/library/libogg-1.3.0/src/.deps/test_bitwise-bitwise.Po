@@ -1,0 +1,8 @@
+test_bitwise-bitwise.o: bitwise.c ../include/ogg/ogg.h \
+ ../include/ogg/os_types.h ../include/ogg/config_types.h
+
+../include/ogg/ogg.h:
+
+../include/ogg/os_types.h:
+
+../include/ogg/config_types.h:

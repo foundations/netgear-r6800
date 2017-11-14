@@ -1,0 +1,20 @@
+~~~~~~~~~~~~
+First Compile TOOLChain:
+1. tar jxf buildroot-gcc463-src-offlinebuild.tar.bz2
+2. change directory to buildroot-2012.11.1/ and run ./build.sh
+3. After compile finish:
+   it will install toolchain to /opt/buildroot-gcc463/
+
+~~~~~~~~~~~~
+Compile environment:
+Linux distribution: Fedora 12
+Linux kernel: 2.6.31.5-127.fc12.i686.PAE
+GCC: 4.4.2 20091027
+XZ: 5.0.3
+
+~~~~~~~~~~~~
+How to Compile Source Code and Upgrade:
+
+1. make
+2. target file is ./image/R6950/R6950.bin and R6950.img
+3. HTTP upgrade: please use R6950.img.

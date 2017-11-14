@@ -1,0 +1,5909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>Lägg till WPS-klient</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>Ett nytt och enkelt sätt att ansluta till den trådlösa routern är med Wi-Fi Protected Setup (WPS)</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>Den trådlösa klienten måste fungera med WPS om du vill använda den här guiden för att lägga till klienten till en WPS-aktiverad trådlös router.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>Det finns information i användarhandboken och på förpackningen till din trådlösa klient om huruvida den fungerar med WPS.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>Om din trådlösa klient inte stöder WPS-funktionen måste du konfigurera klienten manuellt så att den får samma inställningar för SSID och trådlös säkerhet som den här routern.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation>Nästa</translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation>Avancerade trådlösa inställningar</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>Namn (SSID).</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>Region</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>Kanal</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>Trådlöst AP</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>Sändningsnamn</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>Säkerhet</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>WPS-inställningar</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>Konfigurerad</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>Routerns PIN-kod</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>Ej konfigurerad</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>Avaktivera routerns PIN-kod</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>Behåll befintliga trådlösa inställningar</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>Tillämpa</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Avbryt</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>Säkerhetskopieringsinställn</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>Spara en kopia av de befintliga inställningarna</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>Återställ sparade inställningar från en fil</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>Återgå till fabriksinställningarna</translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation>Säkerhetskopiera</translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>Återställ</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>Radera</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>Om du hämtar fabriksinställningarna kommer alla nuvarande inställningar att raderas.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>Vill du fortsätta?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Ja</translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>Nej</translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>Grundläggande inställningar</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>Kräver Internet-anslutningen inloggning?</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>&lt;b&gt;Kontonamn&lt;/b&gt; &amp;nbsp;(vid behov)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>&lt;b&gt;Domännamn&lt;/b&gt; &amp;nbsp;(vid behov)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP-adress</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>Hämta dynamiskt från ISP</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>Använd statisk IP-adress</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Connection</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP-subnätmask</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>Gateway</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>DNS-adress (Domain Name Server)</translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>Hämta automatiskt från ISP</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>Använd de här DNS-servrarna</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Primär DNS</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Sekundär DNS</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>Router</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>MAC-adress</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>Använd standardadress</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>Använd datorns MAC-adress</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>Använd den här MAC-adressen</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>Test</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>Internet-leverantör</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Logga in</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>Lösenord</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>&lt;B&gt;Namn på tjänst&lt;/B&gt; (vid behov)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>Anslutningsläge</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>Alltid på</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>Uppringning på begäran</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>Manuell anslutning</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;B&gt;Inaktivitetstid&lt;/B&gt; (i minuter)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>Hämta dynamiskt från ISP</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>Använd statisk IP-adress</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>Routerns MAC-adress</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>Använd standardadress</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>Använd datorns MAC-adress</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>Använd den här MAC-adressen</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>Internet-leverantör</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>Min IP-adress</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>Serveradress</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>Anslutnings-ID/namn</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>Använd de här DNS-servrarna</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>Testar Internet-anslutning</translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>Den här sidan visar NETGEARs webbplats automatiskt om en Internet-anslutning hittas.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>Stäng skärm</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>Anslutningstid</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>Ansluter till servern</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>Förhandling</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>Autentisering</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>Hämtar IP-adress</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>If connection fails, check your Login, Password, and other data.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>Blockera webbsidor</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>Blockering av nyckelord</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>Aldrig</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>Enligt schema</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>Alltid</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>Skriv in nyckelord eller domännamn här.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>Blockera webbsidor som innehåller dessa nyckelord eller domännamn:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>Tillåt att en pålitlig IP-adress besöker blockerade webbsidor</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>Pålitlig IP-adress</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>Lägg till nyckelord</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>Ta bort nyckelord</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>Rensa lista</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>Blockera tjänster</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>Tjänstblockering</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>Tjänsttabell</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>Tjänsttyp</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>Port</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>Lägg till</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>Redigera</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>Ta bort</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>Blockera Services Setup (installation av tjänst)</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>Protokoll</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>Startport</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>Slutport   </translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>Tjänsttyp/användardefinierad</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>Filtrera tjänster för</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>Bara den här IP-adressen</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>IP-adressintervall</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>till</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>Alla IP-adresser</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>Ingen Internet-anslutning</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>Routern har ingen Internetanslutning och kan inte hämta den angivna språkfilen från NETGEARs webbplats. Om du inte har satt upp routerns Internetport måste du köra installations-CD:n, annars måste du ansluta routern manuellt till Internet och försöka med den här funktionen igen.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>OK</translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Uppgraderingsassistenten för fast programvara</translation>
+</message>
+<message>
+<tag_code>170</tag_code>
+<translation>Routern söker efter tillgängliga programvaruuppdateringar till din router på NETGEAR-servern. &lt;br&gt; &lt;br&gt; Det här kan ta upp till </translation>
+</message>
+<message>
+<tag_code>171</tag_code>
+<translation> sekunder. Vänta...</translation>
+</message>
+<message>
+<tag_code>172</tag_code>
+<translation>Sök efter uppdaterad fast programvara vid inloggning </translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Kontrollera versionen för den fasta programvaran</translation>
+</message>
+<message>
+<tag_code>174</tag_code>
+<translation>Ingen ny version av den fasta programvaran är tillgänglig.</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Tillbaka</translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>Routern hämtar den nya versionen nu. Vänta...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>Routerns programvara uppgraderas. Vänta</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>Obs! Det tar ungefär </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation> minuter för uppgradering av den fasta programvaran.&lt;br&gt;Stäng inte av strömmen eller tryck på återställningsknappen.</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>Överför</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>Vänta ...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>Uppdatering av användargränssnittsspråk</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>Språktabellerna uppdateras. Vänta en stund ...</translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>Fjärranslutning</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>Okänt</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Devices</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>Mappnamn</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>Anslutna enheter</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>Trådanslutna enheter</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>Enhetsnamn</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>Trådlösa enheter (trådlösa inkräktare visas också här)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>Uppdatera</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>Diagnostik</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>Pinga en IP-adress</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>Utför DNS-sökning</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>Internetnamn</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>IP-adress</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>Server:</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>Visa dirigeringstabell</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>Starta om routern</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>Pinga</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>Sökning</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>Visa</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>Starta om</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>Diagnostik – Pinga</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>Pingresultat</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>Diagnostik – Dirigeringstabell</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>Mål</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>Mask</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>Metrisk</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>Aktiv</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation>Dynamisk DNS</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>Använd en dynamisk DNS-tjänst</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>Internet-leverantör</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>Värdnamn</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>Användarnamn</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>Visa status</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>Varning</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>Autentiseringen misslyckades!</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>Kontakta systemadministratören om rätt uppgifter.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>Fel</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>Den här skärmen kommer automatiskt att återgå till föregående skärm om några sekunder ...</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>E-post</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>Aktivera E-postavisering</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>Skicka varningar och loggar med E-post</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>Din server för utgående e-post</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>Skicka till den här e-postadressen</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>Min e-postserver kräver autentisering</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>Skicka varning omedelbart</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>När någon försöker besöka en blockerad webbsida</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>Skicka loggar enligt det här schemat</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>När loggen är full</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>Varje timme</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>Varje dag</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>Varje vecka</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>Ingen</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>Dag</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>Söndag</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>Måndag</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>Tisdag</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>Onsdag</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>Torsdag</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>Fredag</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>Lördag</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>Tid</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>Säker anslutning (använd SSL)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>förmiddag</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>eftermiddag</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>Portvidarebefordran / Portutlösning</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>Välj tjänsttyp.</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>Portvidarebefordran</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>Portutlösning</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>Serverns IP-adress</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>Nyheter</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>Startport  </translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>Slutport  </translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>  Edit Service  </translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>Ta bort tjänst</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>Lägg till anpassad tjänst</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>Portar – anpassade tjänster</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+<translation>Startport</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>Slutport   </translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>Loggar</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>Aktuell tid</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>Ta med i logg</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>Försök till åtkomst till blockerade platser</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>Försök till åtkomst till blockerade platser och tjänster</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>Anslutningar till det webbaserade gränssnittet på den här routern</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>Routeråtgärd (start, hämtningstid osv.)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>Kända DoS-attacker och portsökningar</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>Portvidarebefordran/Portutlösning</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>Trådlös åtkomst</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>Rensa logg</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>Skicka logg</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>Avaktivera portutlösning </translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(i minuter)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>Tidsgräns för portutlösning</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>Portmap-tabell för portutlösning</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>Aktivera</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>Ingående anslutning</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>Tjänstanvändare</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>Lägg till tjänst</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>Redigera tjänst</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>Tjänst</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>Någon</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>Enskild adress</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>Utlösande port</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>Ingående anslutning som krävs</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>Fjärrhantering</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>Aktivera fjärrhanteringen</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>Fjärrhanteringsadress</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>Tillåt fjärråtkomst av</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>Bara den här datorn</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>Adressintervall</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>Från</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>till</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>Alla</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>Portnummer</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>Brandväggsregler</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>Utgående tjänster</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>”Åtgärd”</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>”Logg”</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>Standard</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>”TILLÅT alltid”</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>”Inkommande tjänster”</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IPAddress</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>”BLOCKERA alltid”</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>Stäng IM-portar</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>Öppna IM-portar (IM-portar öppnas som standard)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>”Flytta”</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>Schema</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>Dagar som ska blockeras</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>Varje dag</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>Tid på dagen som ska blockeras:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(använd 24-timmarsklocka)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>Hela dagen</translation>
+</message>
+<message>
+<tag_code>360</tag_code>
+<translation>start</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>Timme</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>Minut</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>Slut</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>Tidszon</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) Västra internationella datumlinjen</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) Midwayöarna, Samoa</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) Hawaii</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) Alaska</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) Stillahavstid (USA och Kanada), Tijuana</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) Arizona, Chihuahua, La Paz, Mazatlan</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) Mountain-tid (USA och Kanada)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) Centralamerika, Central tid (USA och Kanada)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) Guadalajara, Mexico City, Monterrey, Saskatchewan</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) Bogota, Lima, Quito</translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00) Östtid (USA och Kanada)</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) Indiana (Östra)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) Atlanttid (Kanada), Caracas, La Paz, Santiago</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) Newfoundland</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) Brasilia, Buenos Aires, Georgetown, Grönland</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) Mittatlantisk tid</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) Azorerna, Cape Verde.</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) Casablanca, Monrovia</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) Greenwichtid: Dublin, Edinburgh, Lissabon, London</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) Belgrad, Bratislava, Budapest, Ljubljana, Prag</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) Bryssel, Köpenhamn, Madrid, Paris</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) Sarajevo, Skopje, Warsawa, Zagreb, Västra Centralafrika</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) Aten, Beirut, Istanbul, Minsk</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) Bukarest, Kairo, Harare, Pretoria</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) Helsingfors, Kiev, Riga, Sofia, Tallinn, Vilnius, Jerusalem</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riyadh</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuwait, Nairobi, Riyadh, Teheran</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT+04:00) Moskva, St. "Petersburg, Volgograd</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) Abu Dhabi, Muskat, Baku, Tbilisi, Jerevan, Kabul</translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) Jekaterinburg, Islamabad, Karachi, Tasjkent</translation>
+
+
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi, Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) Almaty,  Astana, Dhaka, Sri Jayawardenepura, Rangoon,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) Bangkok, Jakarta, Hanoi, Novosibirsk</translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) Beijing, Chongqing, Hongkong, Urumqi ,Krasnoyarsk</translation>
+</message>
+<message>
+<tag_code>414</tag_code>
+<translation>(GMT+08:00)  Ulaan Bataar, Kuala Lumpur, Singapore, Perth, Taipei</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) Tokyo, Osaka, Sapporo, Seoul,  Adelaide, Darwin ,Irkutsk</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00) Yakutsk</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) Guam, Port Moresby, Hobart</translation>
+
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00) Vladivostok</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) Magadan, Salomonöarna., Nya Kaledonien</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) Fiji, Auckland, Wellington, Marshallöarna.</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) Nukualofa</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>Justera automatiskt efter sommartid</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>Aktuell tid</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>Tjänster</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>Viktig uppdatering</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>För att undvika konflikt med din Internetleverantör har routerns IP-adress uppdaterats till </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>Du måste uppdatera IP-adresserna i routerns inställningar för alla relevanta tjänster, som vidarebefordran av port och reservation av IP-adress.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>Stäng skärm</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>Den här routern har ett förbättrat användargränssnitt där JavaScript används.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>Aktivera JavaScript i webbläsaren eller använd en annan webbläsare.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>Vill du byta från</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>(aktuellt språk) till</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>Installation</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>RIP-omdirigering</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>Båda</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>Endast in</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>Endast ut</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>RIP-version</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>Avaktiverad</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>Av</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>På</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>Använda routern som DHCP-server</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>Adressreservation</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>Tabell för adressreservation</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>Välj en reserverad adress att ta bort.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>Välj en reserverad adress att redigera.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>Tack för att du använder NETGEARs webbaserade verktyg för routerkonfiguration.</translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>Hej då!</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Installationsguiden</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>Lägg till WPS-klient</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>Trådlösa inställningar(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>Trådlösa inställningar(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>Gästnätverk</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>USB-lagring</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>Avancerade inställningar</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>Innehållsfiltrering</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>Underhåll</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>Routerstatus</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>Ange lösenord</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>Routeruppgradering</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+<translation>AVANCERAT</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>Trådlös upprepningsfunktion</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>Statiska rutter</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>Trafikräknare</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>USB-inställningar</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>Webbsupport</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+<translation>Kunskapsbas</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>Dokumentation</translation>
+</message>
+<message>
+
+<tag_code>490</tag_code>
+<translation>Logga ut</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>Installationsguiden</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>Grundläggande inställningar</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Trådlösa inställningar</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>Blockera webbsidor</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>Säkerhetskopieringsinställn</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>Routeruppgradering</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation>Dynamisk DNS</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>Statiska rutter</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>Lägg till WPS-klient</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>Fjärrhantering</translation>
+</message>
+<message>
+<tag_code>503</tag_code>
+<translation>Välj språk</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>Jan</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>Feb</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>Mars</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>Apr</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>Maj</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>Jun</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>Jul</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>Aug</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>Sep</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>Okt</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>Nov</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>Dec</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>Enhetsläge</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>Enhetsnamn</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>Enhetsläge</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>Router (Modem + router)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>Modem (endast modem)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>ADSL-inställningar</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>Modemstatus</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>Välj land och språk</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>Land</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>Språk</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>Version av fast programvara</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>Modem</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>ADSL-programvaruversion</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>Anslutningshastighet nedströms</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>Anslutningshastighet uppströms</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>Trådanslutet</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Trådlöst</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>Namn</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>Läge</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>Visa statistik</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>Ingen Internet-anslutning upptäckt. Routern kan inte söka efter uppdaterad fast programvara på NETGEAR-servern. När du har konfigurerat din Internet-anslutning går du till skärmen Routeruppgradering (Router Upgrade) och söker efter uppdaterad fast programvara.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>Ingen Internet-anslutning upptäckt.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the @model_name#.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>Försök igen</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401 Obehörig</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>Kontakta systemadministratören om rätt uppgifter.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>Gammalt lösenord</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>Upprepa nytt lösenord</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS – prioritetsregler</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>Prioritet</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>QoS-policy för</translation>
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>Prioritetskategori</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>Program</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>Onlinespel</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>Ethernet LAN-port</translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN Messenger</translation>
+
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>IP Phone</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>Vonage IP Phone</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>Lägg till ett nytt program</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>Högsta</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>Hög</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>Normal</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>Låg</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>Specificerat portintervall  </translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Anslutningstyp</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>Lägg till ett nytt spel</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>MAC-enhetslista</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>LAN-port</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>Lista över QoS–prioritetsregler</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>QoS-policy</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>Beskrivning</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>Lägg till prioritetsregel</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>Aktivera inställningar för WMM (Wi-Fi multimedia)</translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>Aktivera QoS för Internet-åtkomst</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>Aktivera bandbreddskontroll</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>Upplänksbandbredd</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>Max</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>Kbit/s</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>Mbit/s</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>Kontrollera bandbredd för internetanslutningen automatiskt</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation>Kontrollera</translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>Konfigurera QoS-regel</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation>Kontrollassistent för bandbredd på upplänk</translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>Försöker spåra bandbredd på upplänk Vänta</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Router Rebooting</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>Status</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>Vänta ...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>Säker borttagning av USB-enhet</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>Avfrågningsintervall</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(sek)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>Ange intervall</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>Stopp</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>Effektiv systemtid</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>Status</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>TxPkts</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>RxPkts</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>Kollisioner</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Tx B/s</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Rx B/s</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>Effektiv driftstid</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>Maskinvaruversion</translation>
+</message>
+<message>
+<tag_code>677</tag_code>
+<translation>Version av användargränssnittsspråk</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>DNS (Domain Name Server)</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>Trådlös isolering</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>WPS (Wi-Fi Protected Setup).</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>Ge gästen åtkomst till Mitt lokala nätverk</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Repeating</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>Basstationens MAC-adress</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>Repeater</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>Anslutningsstatus</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Subnätmask</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Standard-gateway</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>Lån mottaget</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>Lån upphör att gälla</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>Frigör</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>Förnya</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>Anslutningstid</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>Anslut</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>Koppla från</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>TILLÅT enligt schema, blockera annars</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>”BLOCKERA alltid”</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>BLOCKERA enligt schema, tillåt annars</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>Skicka till LAN-server</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>Lägg till tjänst</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>Typ</translation>
+</message>
+<message>
+<tag_code>732</tag_code>
+<translation>Upload Language file:</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>Överför</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>Ruttnamn</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>Privat</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>Välj en post att ta bort.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>Välj en post att redigera.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>Uppdaterar inställningar</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>Vänta medan gränssnittets språk uppdateras</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>Varning! Den fasta programvara du försöker ladda upp är äldre än den du hade.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;Vill du fortsätta?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>Aktuell version</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>Överförd version</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>Uppgraderingen av fast programvara misslyckades. Kontrollera filen.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>Uppgradering av fast programvara</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>Om du vill dra nytta av de Wireless-N-funktioner som är tillgängliga via</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>Visa inte det här meddelandet igen.</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Sök efter en nyare version av det valda användargränssnittsspråket på NETGEAR-servern.</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>Sök efter ny version vid inloggning</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>Leta upp och markera uppgraderingsfilen på din hårddisk.</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>Den här skärmen kommer automatiskt att återgå till föregående skärm om några sekunder ...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>Slå på UPnP</translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>Annonseringsperiod</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>Annonseringens livstid</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(i hopp)</translation>
+</message>
+<message>
+<tag_code>761</tag_code>
+<translation>UPnP Portmap-tabell</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>Int. port</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>Ext. port</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>USB-lagring (avancerade inställningar)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>Nätverks-/enhetsnamn</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>Arbetsgrupp</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>Åtkomstmetod</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>Länk</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>Nätverksanslutning</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>Via Internet</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>Tillgänglig</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>Tillgängliga nätverksmappar</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+<translation>Volymnamn</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>Totalt utrymme</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>Ledigt utrymme</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>Delat namn</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>Läsbehörighet</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>Skrivbehörighet</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>Skapa nätverksmapp</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>Säker borttagning av USB-enhet</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>Godkända USB-enheter</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>Tillåt endast godkända enheter</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Approved</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>Kapacitet</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>USB-lagring (grundläggande inställningar)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>Redigera nätverksmapp</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>USB-enhet</translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>Filsystem</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>Mapp</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>All - inget lösenord</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>admin</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>Bläddra</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>Bläddra efter mapp</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>Aktivera den USB-enhet som är ansluten till USB-porten</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>Godkända enheter</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>Bekräfta lösenord</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>Rensa</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>Försöker ansluta till NETGEAR-servern</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>Vänta ...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>Anslut Internetport och försök igen</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>En ny version av den fasta programvaran har hittats. Vill du uppgradera till den nya versionen nu?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>Ny version av fast programvara</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>Versionskommentarer</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>Processen kan ta ett par minuter. Vänta...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Ingen ny version av den fasta programvaran är tillgänglig.</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>Den här skärmen kommer automatiskt att återgå till föregående skärm om några sekunder ...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>Det finns en ny tillgänglig textfil för användargränssnitt:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>Vill du hämta och använda den här nya textfilen för användargränssnitt?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>Avaktivera portsökning och DoS-skydd</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>Standard-DMZ-server</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>Svara på ping på Internet-port  </translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>MTU-storlek</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(i bytes)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>NAT-filtrering</translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>Säkrad</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>Öppen</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>Avaktivera SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>Avaktivera funktionen för IGMP-Proxy</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation>Avancerade trådlösa inställningar</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>Lokal</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>MAC-adress</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>Säkerhetskopiera</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>Du har redan har en giltig Internet-anslutning.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>Vill du fortsätta med installationsguiden?</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>Anslutningstypen för internetporten identifieras</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>Vänta en stund ...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynamisk IP (DHCP) hittades</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>Statisk (fast) IP hittades</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>PPPoE hittades</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>PPTP hittades</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>Statisk (fast) IP hittades</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>eller</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>Har du fast eller statisk IP-adress som tilldelas av Internetleverantören?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>Vet ej</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>Dynamisk</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>Statiska (fasta) IP-adresser</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>Anslutningstypen för internetporten identifieras</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>Kontrollera anslutningarna till Internet-WAN-porten och kabel/DSL-modemet.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>Hämta automatiskt från ISP</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>Använd de här DNS-servrarna</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Installationsguiden söker automatiskt efter din typ av Internet-anslutning.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Vill du att installationsguiden börjar söka efter anslutningstyp nu?</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Nej. Jag vill konfigurera routern själv.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>Åtkomstlista för kort för trådlöst</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>Aktivera åtkomstkontroll</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>Åtkomstsinställningar för trådlöst nätverkskort</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>Tillgängliga trådlösa kort</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>Inmatning av trådlöst kort</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>Redigera trådlöst nätverkskort</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>Godkänn</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation>Avancerade trådlösa inställningar</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>Aktivera trådlös routerradio</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>Fragmenteringslängd (256-2346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>CTS/RTS-tröskelvärde (1-2347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>Inledningsläge</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>Lång inledning</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>Kort inledning</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>Behåll befintliga trådlösa inställningar</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>Konfigurera åtkomstlista</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>Aktivera trådlös upprepningsfunktion</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>Avaktivera association med trådlös klient</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>Trådlös MAC för den här routern</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>Trådlös Repeater</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>Trådlös basstation</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>Trådlöst nätverk</translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>Sändarintervall (i ms)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>Aktivera SSID-sändning</translation>
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>Aktivera trådlös isolering</translation>
+</message>
+<message>
+
+<tag_code>909</tag_code>
+<translation>Aktivera samexistens vid 20/40 MHz</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>Välj region</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>Afrika</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>Asien</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>Australien</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>Kanada</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>Europa</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>Israel</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>Japan</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>Korea</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>Mexiko</translation>
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>Mellanöstern</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>Sydamerika</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>USA</translation>
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>Upp till 54 Mbit/s</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>Upp till 145 Mbit/s</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>Upp till 300 Mbit/s</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>Säkerhetsalternativ</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>Upp till 450 Mbit/s</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>Upp till 173 Mbit/s</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>Upp till 400 Mbit/s</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>Upp till 867 Mbit/s</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>WPA/WPA2 för företag</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>Säkerhetskryptering (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>Autentiseringstyp</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>Automatisk</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>Delad nyckel</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>Krypteringsstyrka</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>Knapp</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>Lösenordsfras</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>Generera</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(8–63 tecken eller 64 hexadecimalsiffror)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>Krypteringsläge</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>Uppdateringsintervall för gruppnyckel</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>Sekunder</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>Gästnätverksinställningar</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>Nätverksprofiler</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>Aktivera gästnätverk</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>Tillåt gäster att se varandra och komma åt mitt lokala nätverk</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>Aktivera trådlös isolering</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>Namn på trådlöst gästnätverk (SSID)</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>Säkerhetskryptering (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>Nyckel för säkerhetskryptering (WEP)</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>Ge gästen åtkomst till Mitt lokala nätverk</translation>
+</message>
+<message>
+<tag_code>971</tag_code>
+<translation>(8–63 tecken eller 64 hexadecimalsiffror)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>Välj en konfigurationsmetod</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+<translation>Knapp (rekommenderas)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>Du kan välja mellan att trycka på den fysiska knappen på routern eller klicka på knappen på skärmen.</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN Number(Personal Identification Number)</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>WPS-proceduren har avbrutits av användaren.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>Det gick inte att lägga till en trådlös-klient i nätverket.</translation>
+</message>
+<message>
+<tag_code>978</tag_code>
+<translation>Klicka på &lt;b&gt;OK&lt;/b&gt; om du vill gå tillbaka till WPS-skärmen Wi-Fi Protected Setup.</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>Säkerhetsrisk: hittar fler än en klient med knapp nedtryckt.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>Klientens PIN-kod stämmer inte.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>Klicka på &lt;b&gt;OK&lt;/b&gt; om du vill gå tillbaka till WPS-skärmen Wi-Fi Protected Setup.</translation>
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>WPS-processen har nått tidsbegränsningen.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>Kontrollera om klienten hanterar WPS-funktionen.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+<translation>Klart</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>Den trådlösa klienten</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>har lagts till i nätverket.</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>Obs! De trådlösa inställningarna har ändrats.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>Klicka på &lt;b&gt;OK&lt;/b&gt; om du vill kontrollera de nya trådlösa inställningarna ...</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>Ansluta till en ny trådlös klient</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>Klicka på knappen på skärmen eller den fysiska knappen på klienten så startas WPS-processen ...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>Autentiserar klienten ...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>Hämtar klientens uppgifter ...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>Skickar konfigurationsdata till klienten ...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>Klientens PIN-kod är</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>Klicka på knappen på skärmen på klienten så startas WPS-processen ...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>Klientens PIN-kod är</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>Skickar konfigurationsdata till klienten ...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>Det här är WPS-klientens säkerhetskod. Under anslutningen genererar WPS-aktiverade adaptrar slumpmässigt en säkerhetskod.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>Ange klientens PIN-kod</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>Månadsgräns för trafikmätaren (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>har uppnåtts.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>Din trafikmätare är </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation>innan månadsgränsen har uppnåtts</translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>Internet-trafikräknare</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>Aktivera trafikräknare</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>Trafikvolymen styrs efter</translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>Ingen begränsning</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>Endast hämtning</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>Bägge riktningar</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>Månadsbegränsning</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>MB</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>Sammanfatta datavolym för varje anslutning efter</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>Anslutningstidskontroll</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>Timmar</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>Trafikräknare</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>Starta om trafikräknaren</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>förmiddag</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>eftermiddag</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>På</translation>
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>1:a</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>2:a</translation>
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>3:e</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>4:e</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>5:e</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>6:e</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>7:e</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>8:e</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>9:e</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>10:e</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>11:e</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>12:e</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>13:e</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>14:e</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>15:e</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>16:e</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>17:e</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>18:e</translation>
+</message>
+<message>
+
+<tag_code>1050</tag_code>
+<translation>19:e</translation>
+</message>
+<message>
+<tag_code>1051</tag_code>
+<translation>20:e</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>21:e</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>22:e</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>23:e</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>24:e</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>25:e</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>26:e</translation>
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>27:e</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>28:e</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>Senast</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>dagen varje månad</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>Trafikkontroll</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>Visa ett varningsmeddelande</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>MB/minuter innan månadsgränsen har nåtts</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>När månadsgränsen har nåtts</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>Slå på lysdioden för Internet så att den blinkar grönt</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>Koppla från och avaktivera Internet-anslutningen</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>Statistik över Internet-trafik</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>Starta om räknaren nu</translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>Trafikstatus</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>Räkneperiod</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>Mängd som använts</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>Idag</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>Igår</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>Den här veckan</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>Den här månaden</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>Senaste månaden</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>Startdatum/-tid</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>Aktuellt datum/tid</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>Återstående trafikvolym</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>Timmar</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> minuter</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>Period</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>Trafikvolym (MB)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>Överföringar/genomsnitt</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>Hämtningar/genomsnitt</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>Totalt/genomsnitt</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>Ställ in Internetlampan på att blinka vitt/gult</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>Aktivera routerns PIN-kod</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>Aktivera routerns PIN-kod (avaktiverad på grund av att en attack har upptäckts)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>Förhindra att PIN-koden äventyras genom att automatiskt inaktivera PIN-koden efter</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>misslyckade anslutningar, tills routern startas om.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>I automatiskt inaktiveringsläge blinkar routerns WPS-lampa långsamt</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>Starta blockering</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>Avbryt blockering</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>Tack för att du har köpt NETGEARs trådlösa router JWNR3200T. Använd då och då uppgraderingsassistenten för fast programvara, så att du tar del av förbättringar och framtida uppdateringar som NETGEAR tillhandahåller för den här produkten.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>-routern måste du använda en trådlös adapter med den här logotypen.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>Ta bort alla</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>Söker efter uppdateringar till ny fast programvara</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>Använd jokertecken</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>Länkstatus</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>Tjänsttyp</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Oray dynamic DNS resolve service request</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>Start-IP-adress</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>Slut-IP-adress</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>Repeater-MAC-adress 1</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>Repeater-MAC-adress 2</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>Repeater-MAC-adress 3</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>Repeater-MAC-adress 4</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>Maximal hämtningshastighet (0 betyder utan gräns)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>Maximal överföringshastighet (0 betyder utan gräns)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>Största uppgift som kan hämtas</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>Tillåt att systemet automatiskt hanterar NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>Grundläggande inställningar för NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>Hämtningshanterare</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>Vilken mapp eller sökväg vill du lagra?</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>Typ av hämtning</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>FTP/HTTP-sökväg för hämtning</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>BitTorrent-filplacering</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>Filstorlek (B)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>Hämta</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>Välj alla</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation>Nej.</translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>Ta bort</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>RADIUS-serverns IP-adress</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>RADIUS-serverport:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>Dator</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>USB-lagringsenhet</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>Spara sökväg</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>Filnamn</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>Hämtning av informationstabell</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>Hämtade filer</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>Ta bort historik</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>Pausa</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>Återuppta</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>Hämtningshastighet</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>Återställ</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>Vill du ta bort alla enheter?</translation>
+</message>
+<message>
+<tag_code>2055</tag_code>
+<translation>RADIUS-serverns delade hemlighet:</translation>
+<variable>RADIUS server Shared Secret:</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Se till att kablarna är korrekt anslutna. Läs vidare instruktioner i installationshandboken för routern.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Se till att bredbandsmodemet har startats om ordentligt. Om du har ett modem med reservbatteri ska du starta om modemet genom att ta bort batteriet och sätta in det igen.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(standardlösenordet är "password")</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(format AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(Du hittar serienumret på routerns produktetikett.)</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*=nödvändig information</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Modemet startades inte om under anslutningssteget.</translation>
+
+
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Den gula Ethernet-kabeln är inte helt isatt, eller är isatt på fel plats.</translation>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>En MAC-adress är ett unikt nummer.  Du hittar MAC-adressen till datorn eller den tidigare routern på dess produktetikett.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>En uppgradering till routerns fasta programvara finns tillgänglig.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>Hantering</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>AVANCERAT Hem</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>Avancerad installation</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>Avancerat</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>När du har kontrollerat Ethernet-kabeln klickar du på &lt;b&gt;Försök igen&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Alternativ DNS-server</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Svara</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Tillämpar inställningar för internetanslutning</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>Är du säker på att du vill ändra adminlösenordet utan något återställningsalternativ?</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+<translation>Autentiseringsserver</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Tillbaka</translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>Grundläggande</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>BigPond-internetanslutning identifierad</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Bläddra till säkerhetskopian av routerinställningarna som du har sparat tidigare och klicka på &lt;b&gt;Nästa&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Bekräftar internetanslutningen. Vänta …</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Klicka här</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>Datorn har inga skrivarfunktioner.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>Det krävs erfarenhet av nätverksarbete för att kunna konfigurera internetanslutningen. Är du säker?</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Konfigurerar internetanslutningen</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Grattis!</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Anslutnings-ID/namn</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Fortsätt</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>Aktuell NETGEAR Genie kommer att stoppas.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>Standard-gateway</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Söker efter internetanslutning</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Har din internetleverantör (ISP) tilldelat en fast (statisk) IP-adress till dig? Det här är en &lt;b&gt;mycket sällsynt&lt;/b&gt; och särskild driftsättning. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>DNS-adress måste anges</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Vill du få hjälp av NETGEAR Genie?</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Vill du få hjälp av NETGEAR Genie igen?</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>Hämtningen misslyckades!</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Aktivera lösenordsåterställning</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>aktiverad</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>Ange sökobjekt</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Ange de fasta IP-inställningarna som du har tilldelats av din internetleverantör och gå vidare genom att klicka på &lt;b&gt;Nästa&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Ange MAC-adressen här.</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Ange nödvändig information igen.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Ange nödvändig information nedan.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>Ange routerns serienummer</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>FEL</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Fel</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>Fältet för filnamn får inte vara tomt.</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>Uppdatering av fast programvara</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>Uppgradering av fast programvara</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Fasta internet-IP-inställningar</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>IP-adress för gateway</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>OK</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>bra</translation>
+
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>Hjälp &amp; Support</translation>
+</message>
+<message>
+<tag_code>3058</tag_code>
+<translation>Hjälpcenter</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>Hem</translation>
+
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Jag korrigerade ett fel med Ethernet-kabeln.</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Jag vet inte. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Jag har sparat routerinställningarna i en fil och vill återställa routern till de inställningarna.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Jag har just startat om modemet och väntat i 2 minuter.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Jag vill konfigurera internetanslutningen själv</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Inaktivitetstid&lt;/B&gt; (i minuter)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>Om du inte aktiverar lösenordsåterställning och glömmer bort ditt nya lösenord måste du återställa enheten till dess fabriksinställningar.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Om du har anslutit till internettjänsten tidigare med en dator eller en annan router, kan NETGEAR Genie använda samma MAC-adress som fungerade då.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Viktig uppdatering</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>I vilken stad är din far född?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>I vilken stad är din mor född?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>I vilken stad är du född?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>Vilket år (ÅÅÅÅ) tog du studenten?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>ISP-användarnamnet eller lösenordet stämmer inte</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>Installationsspråk</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>Installation av internetleverantör (WAN)</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>Internetinställning</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>Ogiltig IP-adress till autentiseringsserver</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>Ogiltig IP-adress för gateway Ange den igen.</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>Ogiltig inaktivitetstid. Ange ett korrekt tal.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>Ogiltig IP-adress Ange den igen eller låt den vara tom.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>Ogiltig IP-adress Ange den igen.</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>Ogiltig MAC-adress.</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>Ogiltigt lösenord.</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>Ogiltig primär DNS-adress. Ange den igen.\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>Ogiltig sekundär DNS adress. Ange den igen.\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>Ogiltig IP-subnätmask Ange den igen.\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>IP-adress</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>“L2TP-Internetanslutning identifierad”;</translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>Senaste lösenordsåterställning</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>Förklaring</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>Logga in igen</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>Inloggning krävs för att hantera de här routerinställningarna:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Se till att kabeln är ordentligt ansluten till både bredbandsmodemporten och routerns Internetport.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Min IP-adress</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>Min WiFi</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problem med nätverksanslutningen</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>nätverksnyckel (lösenord)</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>nätverksnyckel (lösenord)</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Nästa</translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Det finns ingen Ethernet-kabel ansluten till routerns internetport</translation>
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>Ingen USB-enhet</translation>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Nej, jag har inte fått en fast (statisk) IP-adress från min Internetleverantör.</translation>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Nej, jag vill konfigurera internetanslutningen själv.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>Nej, jag vill konfigurera internetanslutningen själv.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Inget av ovanstående.</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>INTE AKTIVERAD</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>Antal enheter</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>Antal enheter</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>Av</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>Andras WiFi</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>Föräldrakontroller</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Lösenord</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>Tilldela rätt fil. Filformatet är *.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>Fyll i svaren på de två säkerhetsfrågorna nedan och klicka på &lt;b&gt;Fortsätt&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>Ange inaktivitetstid.\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>Ange ditt svar för varje fråga.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Kontrollera följande punkter:</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>Välj en fråga.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>Välj språk för installationen</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Vänta en stund ...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>PPPoE DSL-internetanslutning identifierad</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>PPTP-internetanslutning identifierad</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Primär DNS-server</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Skriv ut det här</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Problem uppstod vid identifiering av din internetanslutning – IP-adress</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Problem uppstod vid identifiering av din internetanslutning – MAC-adress</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Problem uppstod vid identifiering av din internetanslutning</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>KLAR</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Återställ routerinställningarna </translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Återställer routerinställningar</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>Lösenord för routeradmin</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>Användarnamn för routeradmin</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>Vanliga frågor om routern</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Version av routerns fasta programvara</translation>
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>Routerinformation</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>Routerinloggning</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>Återställning av routerns lösenord</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>SÖK EFTER HJÄLP</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>Sök på NETGEAR:s support</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Säkerhetsfråga 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Säkerhetsfråga 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Välj en fråga</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Välj ett alternativ och gå vidare genom att klicka på &lt;b&gt;Nästa&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>Välj ett alternativ först.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>Välj ett av alternativen nedan och fortsätt genom att klicka på &lt;b&gt;Nästa&lt;/b&gt;:</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Serveradress</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>Visa/Dölj hjälpcenter</translation>
+</message>
+<message>
+
+<tag_code>3149</tag_code>
+<translation>Subnätmask</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Koppla upp mig till internet</translation>
+</message>
+<message>
+<tag_code>3151</tag_code>
+<translation>Den information de angav stämmer inte överens med det som är sparat på routern. Ange det igen.</translation>
+</message>
+<message>
+
+<tag_code>3152</tag_code>
+<translation>IP-adressen och gatewayens IP-adresser måste vara i samma undernät.\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>Etiketten ska ha högst 63 tecken.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>LAN IP-adressen och WAN IP-adressen får inte vara i samma undernät.\n</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Routern kan inte ansluta till internet med aktuella inställningar.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Det beror troligen på en av följande orsaker:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Processen kan ta några minuter. Vänta ...</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Processen kan ta ett par minuter. Vänta...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Den här routern är förinställd med följande unika namn på trådlöst nätverk (SSID) och </translation>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Den här skärmen kommer automatiskt att återgå till föregående skärm om några sekunder ...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>För att undvika konflikt med din Internetleverantör har routerns IP-adress uppdaterats till </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>för att hämta den.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Åtgärda genom att kontrollera att den gula Ethernet-kabeln är säkert isatt i bredbandsmodemporten och i routerns internetport.</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Åtgärda genom att starta om modemet (stäng av det och slå på det igen). Om du ska starta om modemet med hjälp av reservbatteriet måste du eventuellt ta ut det och sätta i det på nytt. När omstarten är klar ska du vänta i 2 minuter tills modemet är helt igång.</translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Försök igen</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>Avinstallera</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>Fältet för användarnamn får inte vara tomt.</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Användarnamn</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>Varning! \nOm du återställer inställningarna från en konfigurationsfil kommer alla nuvarnade inställningar att raderas. \nVill du fortsätta?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>Varning</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Vi kan hjälpa dig att återställa routerns adminlösenord. Fyll i informationen nedan och klicka på &lt;b&gt;Fortsätt&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Vad heter din första arbetsgivare?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Vad heter din bästa vän i förnamn?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Vad heter din far i mellannamn?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Vad heter din morfar i förnamn?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Vad heter din mormor i förnamn?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Vad heter din mor i mellannamn?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Vad heter din äldsta bror i förnamn?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Vad heter din äldsta syster i förnamn?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Vad heter din yngsta bror i förnamn?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Vad heter din yngsta syster i förnamn?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Vad heter din första chef i förnamn?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Vad hette den första NETGEAR-produkt du köpte?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Vad hette din första skola?</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>WiFi-kanal</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>Trådlös isolering</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Namn på trådlöst nätverk (SSID)</translation>
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>Trådlös anslutning</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Trådlöst</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Ja</translation>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Ja. Min internetleverantör har tilldelat en fast (statisk) IP-adress till mig.</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>Du är inloggad från en annan enhet. Bara en enhet kan vara inloggad samtidigt. Om du loggar in från den här enheten loggas den andra enheten ut. Vill du fortsätta?</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Du är inte ansluten till internet än.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Du är trådlöst ansluten till Internet.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>Du kan nu logga in på routern med användarnamnet \"admin\" och det återställda lösenordet.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>Du har nu återställt adminlösenordet.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Din router är förinställd med den trådlösa säkerhetsstandarden WPA2-PSK för att skydda ditt nätverk från oönskad användning. Om du vill ansluta till det trådlösa nätverket måste du ange nätverksnyckeln (lösenordet). De här förinställningarna är unika för enheten, precis som ett serienummer.  Om du vill ändra dem kan du göra det senare på sidan Trådlösa inställningar på routerns webbaserade användargränssnitt.</translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Trådlös säkerhet är inte aktiverad på den här routern. NETGEAR rekommenderar att du</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>aktiverar trådlös säkerhet och skyddar nätverket.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>WPS-guiden</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>WAN-konfiguration</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>LAN-konfiguration</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>QoS-konfiguration</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>Inte ansluten</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>Ingen säkerhet</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>DHCP-server</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>Internet-port</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>ReadySHARE Printer</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>Nu kan du uppgradera den fasta programvaran. Hämta den här</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Automatisk avkänning</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>Det här kan ta upp till sex minuter. Vänta …</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Klicka på "Nästa" för att fortsätta.</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>Everquest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tournament</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>STÖDS INTE</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>Serienummer</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>Sök efter uppdateringar</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>Vad är det</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>Inloggningen misslyckades. Ange rätt administratörslösenord igen för din NETGEAR-router.</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>Anslut enheten trådlöst till din NETGEAR-router, och försök sedan igen.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation>FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>FastLane-status</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation>Aktivera FastLane</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation> Bandbredd reserverad för betrodda IP-adresser</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>WiFi-anslutning och knapp för FastLane</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>Aktivera Pålitlig IP-adress</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>ReadySHARE-utskrifter</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>Skrivardelning för Windows- och Mac-datorer med USB-skrivare</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>Så här går det till</translation>
+</message>
+<message>
+<tag_code>3236</tag_code>
+<translation>Steg 1: Anslut USB-skrivaren till routerns USB-port med en USB-skrivarkabel.</translation>
+
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>Steg 2: Installera drivrutinen för USB-skrivaren på de datorer som ska dela skrivaren.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>Om du inte har en drivrutin kan du kontakta företaget som tillverkade skrivaren och få hjälp att hitta och hämta de senaste drivrutinerna för skrivaren.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>Steg 3: Till varje dator som delar skrivaren hämtar du verktyget NETGEAR USB Control Center på adressen &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>Följ anvisningarna i verktyget för hur du ansluter till skrivaren från datorn och hur du skriver ut.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>Onlinesupport</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>Avsluta</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>Åtkomst till den här resursen nekas, klienten har inte gett korrekt autentisering.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>VPN-passthrough</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>IPSec-passthrough</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>PPTP-passthrough</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>L2TP-passthrough</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>Fel - Det går inte att hämta filen</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>Fel – Inte tillräckligt med utrymme</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>Fel – Okänd anledning</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>Hämtar</translation>
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>Aktivera NETGEAR-lampa</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>Intranätport</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>Profil</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>Sänd ut SSID</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>Intern IP-adress</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>Extern startport</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>Extern slutport</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>Intern startport</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>Intern slutport</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>Använd samma portintervall för interna portar</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>Eller välj bland de enheter som är anslutna just nu</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>Tjänstnamn</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>Stäng av den trådlösa signalen efter schema</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>Den trådlösa signalen är schemalagd för att stängas av under följande tidsperiod:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>Upprepningsmönster</translation>
+</message>
+<message>
+<tag_code>3317</tag_code>
+<translation>Lägg till ny period</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>När den trådlösa signalen ska stängas av</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>Välj dagar</translation>
+</message>
+<message>
+<tag_code>3320</tag_code>
+<translation>Mon</translation>
+</message>
+<message>
+<tag_code>3321</tag_code>
+<translation>Tue</translation>
+</message>
+<message>
+<tag_code>3322</tag_code>
+<translation>Wed</translation>
+</message>
+<message>
+<tag_code>3323</tag_code>
+<translation>Thu</translation>
+</message>
+<message>
+<tag_code>3324</tag_code>
+<translation>Fri</translation>
+</message>
+<message>
+<tag_code>3325</tag_code>
+<translation>Sat</translation>
+</message>
+<message>
+<tag_code>3326</tag_code>
+<translation>Sun</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Send an email notification when a downloading task is finished</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Configure Email</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Upper limit per task. Once set, each download or upload task can use a speed less than or equal to the value you set here.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Enable Auto Status Refresh</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>The downloading task status will be refreshed automatically according to specified rate</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Refresh rate</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Times/Minute</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP Protection/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Enable IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>IP-MAC binding protects your router from ARP attacks. With this function enabled, your router uses the IP-MAC binding table as the static ARP table. You can add, remove, or edit the IP-MAC binding pairs in the table. WARNING! Devices that are not registered in this table will NOT have internet access. Ensure that at least one LAN device's IP and MAC address pair is registered in this table.</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>BitTorrent Link</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>ReadySHARE Mobile Connect</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>Bredbandsinställningar</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>User Ethernet connection first and if fail use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Always use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>Inställningar för mobilt bredband</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>Åtkomstnummer</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>PDP-typ</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>Anslut automatiskt vid start</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>Återanslut automatiskt om anslutningen kopplas ned</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>Ansluter</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>Identifierar modem</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>Modem Not Supported</translation>
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>initialiseras Modemet</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>Intern nätverksteckning</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>Ansluter</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>ansluten</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>Inaktiv</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>initialiseras</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>Inte ansluten</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Always use Ethernet connection</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>Använd alltid den mobila bredbandsanslutningen</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Detecting Mobile Broadband Modem</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Ansluter till nätverket</translation>
+
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>Inget SIM-kort identifierades</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>USB-modemet kan inte användas</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>Ange konfigurationsinformation för internetleverantören</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Please select the Internet Service Provider and then click Next.</translation>
+
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>Om din leverantör av mobilt bredband inte står med i listrutan väljer du Annat.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Ange konfigurationsparametrar. Om du inte känner till dem kontaktar du din internetleverantör.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>Aktivera automatisk internetåterställning vid</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP-läge</translation>
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>Aktivera AP-läge</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>Använd dynamisk IP-adress</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>Använd dynamisk DNS-serveradress</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>Med trådlöst AP-läge fungerar enheten som fristående trådlös åtkomstpunkt i ditt befintliga nätverk.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>Aktivera fasta IP-inställningar på enheten (rekommenderas inte)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>Följ instruktionerna för bästa installation och prestanda:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;Steg 1: &lt;/b&gt;Se till att enhetens &lt;b&gt;internetport&lt;/b&gt; är ansluten med en kabel till &lt;b&gt;en av LAN-portarna&lt;/b&gt; på befintlig router.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;Steg 2: &lt;/b&gt;Om din befintliga router har trådlös funktionalitet stänger du av och avaktiverar den så att den nya AP-enheten inte råkar ut för störningar. Eller kör den på en annan trådlös kanal.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>När du är klar klickar du på Tillämpa för att fortsätta</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;Obs!&lt;/b&gt; När du har klickat på Tillämpa tilldelas enheten en ny IP av befintlig router och därför kan det hända att webbsidan inte är tillgänglig. Stäng och starta om webbläsaren på http://www.routerlogin.net/ igen.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>Driftläge</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>AP</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Operator Name</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Signal Strength</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>3G/4G setup is done!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>USB Mobile Broadband Modem Settings</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>3G/4G Connection Mode</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Connection Protocol</translation>
+</message>
+<message>
+
+<tag_code>3502</tag_code>
+<translation>(Tillfälligt)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>Aktivera NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>Medieserver (inställningar)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>Aktivera medieserver</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>Namn på medieserver</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>Innehållssökning</translation>
+</message>
+<message>
+<tag_code>3604</tag_code>
+<translation>Automatisk (när nya filer läggs till)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>Sök mediafiler igen</translation>
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>Medieserver</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>Aktivera iTunes Server (endast musik)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>Skriv in lösenordet som finns i Remote-appen</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>Tillåt fjärrkontroll</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>Denna åtgärd är avaktiverad för närvarande tills du trycker på på/av-knappen för trådlöst.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>VLAN/IPTV-inställning</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>Aktivera VLAN-etikett</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>VLAN-ID</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>Portnummer för utgående e-postserver</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>Ordna efter intern IP</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(Ange portar och portintervall åtskilda med komma, t.ex. 30, 50-60, 65500-65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>Externt portintervall</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>Internt portintervall</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>Åtkomstkontroll</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>Du kan använda åtkomstkontroll för att tillåta eller blockera datorer eller elektronikprodukter från att få åtkomst till ditt nätverk. </translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>Aktivera åtkomstkontroll</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>Åtkomstregel:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation>Det här är en allmän regel. Du kan också tillåta eller blockera enskilda enheter.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>Tillåt anslutning för alla nya enheter</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>Blockera anslutning för alla nya enheter</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>Visa en lista över tillåtna enheter som för närvarande inte är anslutna till nätverket</translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>Visa en lista över blockerade enheter som för närvarande inte är anslutna till nätverket</translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>Tillåt</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>Blockera</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>Blockerad</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>Tillåten</translation>
+</message>
+	<message>
+<tag_code>3913</tag_code>
+<translation>Kopplingsläget gör att du kan lägga till en andra router till nätverket som trådlös kopplingspunkt.</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+<translation>Aktivera kopplingspunktsläget</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>Det är enhetens trådlösa inställningar som kopplingspunkt:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>Namn på trådlöst nätverk (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>Lösenord för trådlöst nätverk (nyckel):</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>Om du vill ändra på det går du till Installation>Trådlös anslutning för att ändra på det. Datorn måste återanslutas med en ny inställning. Återgå sedan till den här sidan.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>NETGEAR rekommenderar att du använder olika trådlösa inställningar från befintligt trådlöst nätverk för att undvika störningar eller så ska du avaktivera eller stänga av trådlös signal på befintlig router.</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>Så här lägger du till routern till nätverket i kopplingspunktsläget:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>Anslut den ena änden på Ethernet-kabeln till internetporten på routern och den andra änden till LAN-porten på befintlig router.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>Välj inställningar för IP-adress på den här kopplingspunkten</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>Trådlös kopplingspunkt</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>Hämta dynamiskt från befintlig router.</translation>
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>Använd fast IP-adress (rekommenderas inte).</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>Har du ett NETGEAR DDNS- eller DDNS-konto utan IP-adress?</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>Ange följande uppgifter för registrering.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>E-post</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>Lösenord (6–32 tecken)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>Registrera</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>Genom att skicka in detta formulär godkänner jag</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>villkoren för tjänsten</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>och att jag endast får skapa ett kostnadsfritt konto.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>Har du glömt ditt lösenord?</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>klicka här</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>Om du vill hantera ditt DDNS-konto.</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>Netgear DDNS på den här routern har konfigurerats för:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>Konto/e-post:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>Om du vill ändra inställningarna klickar du på</translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation>så att inställningarna återställs.</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>VPN Service</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>Aktivera VPN-tjänst</translation>
+</message>
+<message>
+<tag_code>4002</tag_code>
+<translation>Så här ställer du in VPN-klienten på klientenheter:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>Avancerad konfiguration</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>Tjänsttyp</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>Tjänstport</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>Klienter använder denna VPN-anslutning för åtkomst till</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>Alla adresser på internet och i hemnätverket</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>Endast hemnätverket</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>Steg 1: Markera kryssrutan Aktivera VPN-tjänst och klicka på knappen Tillämpa</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>Steg 2: Hämta klientverktyget från adressen</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>och installera det på de enheter där du vill köra VPN-klienten.</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>IOS- och Android-klienter stöds inte för närvarande.</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>Steg 3: Klicka på lämplig knapp nedan och hämta konfigurationsfilerna för dina VPN-klienter.</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>Steg 4: Packa upp de konfigurationsfiler du hämtat och kopiera dem till den mapp där VPN-klienten är installerad på dina enheter. På klientenheter med 64-bitars Windows-system installeras VPN-klienten som standard i "C:\Program files\OpenVPN\config\".</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>Steg 5: På klientenheter som kör Windows måste du ändra VPN-gränssnittsnamnet till "NETGEAR-VPN". VPN-gränssnittet har normalt enhetsnamnet "TAP-Windows Adapter"</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation>Steg 6: Klientverktyget kan bara installeras och köras av användare med administratörsbehörighet.</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>Steg 7: Information om hur du ansluter till OpenVPN-klienter finns på</translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>Obs! Om du vill göra ändringar i avsnittet Avancerad konfiguration ska du göra dem innan du hämtar konfigurationsfilerna i steg 3.</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>Med ReadySHARE Vault kan du säkerhetskopiera filer på din Windows-dator.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>Så här säkerhetskopierar du en Windows-dator till en hårddisk i routern:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. Installera guideappen på varje dator genom att hämta programvaran från &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. Installera ReadySHARE Vault på varje dator genom att hämta programvaran från &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. Starta ReadySHARE Vault. Använd infopanelen eller säkerhetskopieringsfliken för att installera och köra din säkerhetskopiering.</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>Internetanslutningstyp</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>Automatisk avkänning</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>Autokonfiguration</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>6to4-tunnel</translation>
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>Passthrough</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>Spärrat</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>Fjärransluten 6to4-relärouter</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>Statisk IP-adress</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>Längd för IPv6-adress/prefix</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>Routerns IPv6-adress i WAN</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>Användarklass (om det krävs)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>Routerns IPv6-adress i LAN</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>IP-adresstilldelning</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>Använd DHCP-server</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>Använd detta gränssnitts-ID</translation>
+</message>
+<message>
+<tag_code>4200</tag_code>
+<translation>Gå till &lt;a  style=text-decoration:underline;color:#0000ff; id=url_ac onclick=goto_formframe('AccessControl.htm&amp;todo=cfg_init')&gt;Åtkomstkontroll&lt;/a&gt; för att tillåta eller blockera enheter.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>På</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>Av</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>Allmän regel</translation>
+</message>
+<message>
+<tag_code>4300</tag_code>
+<translation>Facebook Wi-Fi är ett program för små företag. Programmet förvandlar routern till en Wi-Fi -hotspot, låter överordnade ta en titt på och gilla din Facebook-sida innan du använder nätet kostnadsfritt. </translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>Gå till och läs installationsprocessen</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>&lt;b&gt;Aktivera Facebook Wi-Fi&lt;/b&gt; aktiverar Facebook Wi-Fi-funktionen för den här enheten.</translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>Det här gäller endast för Wi-Fi-gästnätverket så Wi-Fi-gästnätverket måste vara aktiverat på routern för att det här ska fungera.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>Klicka på &lt;b&gt;Konfigurera&lt;/b&gt;för att länka routern till din befintliga Facebook-sida.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>Konfigurera</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(För att aktivera knappen \"Konfigurera\" markerar du alternativet \"Aktivera Facebook Wi-Fi \" och klickar på knappen \"Tillämpa\")</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>QoS-läge:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>QoS-regler</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>Lägg till regler</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS efter tjänst</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS efter enhet</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>Kö 1: Högst</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>Kö 2: Hög</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>Kö 3: Normal</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>Kö 4: Låg</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>SpeedTest</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Föregående</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Hämta följande routerappar:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Genie-app. En personlig infopanel där du kan övervaka, kontrollera och reparera ditt hemnätverk.</translation>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>ReadySHARE Vault-app (endast för datorer med Windows). Gör att du automatiskt kan säkerhetskopiera en dator med Windows till en USB-enhet som är ansluten till din router.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Hämtar ...</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Installera Genie-appen när hämtningen har slutförts.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Slutför konfigurationen av routern genom att klicka på Nästa när du har installerat Genie-appen.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Installera ReadySHARE Vault-appen när hämtningen har slutförts.</translation>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Slutför konfigurationen av routern genom att klicka på Nästa när du har installerat ReadySHARE-appen.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Bearbetar din begäran.</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>När installationen är klar klickar du på Nästa.</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Systemet installerar</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Klicka på Kör när du vill starta installationen</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>LED-kontrollinställningar</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Stäng av alla lysdioder utom LED-strömlampan</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Aktivera blinkning för Internet-LED, LAN LED, LED-lampa för trådlöst och USB LED när dataöverföring identifieras</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Avaktivera blinkning för Internet-LED, LAN LED, LED-lampa för trådlöst och USB LED när dataöverföring identifieras</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Inte tillgängligt</translation>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Statusuppdatering</translation>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>För Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>För andra operativsystem än Windows</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) Kamchatka</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>LED-kontrollinställningar</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>Aktivera blinkning för Internet-LED, LAN LED, LED-lampa för trådlöst och USB LED när dataöverföring identifieras</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>Avaktivera blinkning för Internet-LED, LAN LED, LED-lampa för trådlöst och USB LED när dataöverföring identifieras</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>Stäng av alla lysdioder utom LED-strömlampan</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>Sekretesspolicy</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (gör att du kommer åt ReadySHARE-lagringsenheten varifrån som helst)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>Upp till 289 Mbit/s</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>Upp till 600 Mbit/s</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>Upp till 1300 Mbit/s</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>Med ReadyCLOUD-funktionen får du fjärråtkomst via internet till en USB-lagringsenhet som är ansluten till routerns USB-port.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>Konfigurera ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>Steg 1: du behöver ett ReadyCLOUD-konto. Om du inte har något kan du </translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation> för att skapa ett konto och välja "Skapa konto".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation> Steg 2: Gå till routerns användargränssnitt </translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation> och gå till ReadySHARE-sidan, välj alternativet ReadyCLOUD och ange ditt användarnamn och lösenord för ReadyCLOUD och registrera routern på ReadyCLOUD.</translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>Steg 3: Logga in igen på </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation> med ditt ReadyCLOUD-konto. USB-enheten som är ansluten till routern visas.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation>Du kan använda en kompletterande fjärrapplikation för att upprätta en säker anslutning från din dator eller mobilenhet till routerns USB-enhet.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>Logga in på den här fjärrapplikationen så kommer du åt USB-enheten varifrån som helst. </translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation> för att hämta fjärrapplikationen.</translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>Registreringen är genomförd</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>Avregistreringen är genomförd</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>Registreringen misslyckades</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>Avregistreringen misslyckades</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation>Om du vill konfigurera eller ändra ditt ReadyCLOUD-användarkonto går du till </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>ReadyCLOUD är registrerat för användaren</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>Klicka på&lt;b&gt;Avregistrera&lt;/b&gt; om du vill registrera ReadyCLOUD för en annan användare</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>Avregistrera</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>Obs!</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;Obs!&lt;/b&gt; En kontinuerlig koppling till ReadyCLOUD upprättas i din router tills du avregistrerar dig.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Aktivera Implicit BEAMFORMING – Höjer hastighet, tillförlitlighet och omfång för WiFi för alla mobilenheter</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Adminlösenordsskydd</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Varning: Vi rekommenderar att du aktiverar adminlösenordsskyddet för att skydda dina ReadySHARE-data. Om du inte ändrat standardadminlösenordet rekommenderar vi även att du ändrar det för att skydda ditt nätverk.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Adminkontoinställningar</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Adminlösenordet används för att logga in på routerns webbgränssnitt. Skydda nätverket genom att ändra adminlösenordet.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Nytt lösenord</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Bekräfta nytt lösenord</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Administratörsanvändarnamn:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Nytt adminlösenord:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Inställningar för routeradmin:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>Aktivera Smart Connect – Det bästa WiFi-bandet för din WiFi-anslutning, 2,4 GHz eller 5 GHz, identifieras automatiskt av routern. För Smart Connect måste samma WiFi-nätverksnamn (SSID), säkerhetsalternativ och lösenord användas för 2,4 GHz- och 5 GHz-nätverken.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>Aktivera AIRTIME FAIRNESS – Förhindra att långsammare enheter orsakar fördröjningar i nätverket</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(avaktiverat eftersom Smart Connect är aktiverat)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>För smartphone</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>Hämta OpenVPN-konfigurationspaket</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>Instruktion för OpenVPN-klientkonfiguration</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>Tjänstetypen TUN-läge</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>Tjänsteport för TUN-läge</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>Tjänstetypen TAP-läge</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>Tjänsteport för TAP-läge</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>Efter bryggrupp</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>Efter VLAN-etikettgrupp</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>använd annat driftsläge</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>Aktivera bryggläge</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>ange inställningar för trådlöst bryggläge</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>Använd dynamisk IP-adress</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>Använd dynamisk DNS-serveradress</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>Välj ett trådlöst nätverk:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>VLAN-/brygginställningar</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>VPN-klientenheter</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>IP-fjärradress</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>Lokal IP-adress</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>Klicka här för att ändra enhetens namn</translation>
+<variable>Click here to change the Device Name</variable>
+</message>
+</tag_msg>

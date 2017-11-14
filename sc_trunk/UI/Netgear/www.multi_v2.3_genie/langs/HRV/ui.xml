@@ -1,0 +1,5892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>Add WPS Client</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>New and easy way to connect to the wireless router using Wi-Fi Protected Setup (WPS)</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>A wireless client has to support the WPS function if you want to use this wizard to add the client to your WPS-enabled wireless router.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>Please check the user manual and gift box of your wireless client to see whether it supports the WPS function.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>If your wireless client does not support the WPS function, you have to configure your wireless client manually so that it has the same SSID and wireless security settings as this router.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation>Sljedeće</translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation>Advanced Wireless Settings</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>Name (SSID)</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>Region</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>Channel</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>Wireless AP</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>Broadcast Name</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>Security</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>WPS Settings</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>Configured</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>Router's PIN</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>Not Configured</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>Disable Router's PIN</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>Keep Existing Wireless Settings</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>Apply</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Cancel</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>Backup Settings</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>Save a copy of current settings</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>Restore saved settings from a file</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>Revert to factory default settings</translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation>Back Up</translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>Restore</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>Erase</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>Loading the factory default settings will erase all the current settings.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>Are you sure you want to do this?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Da</translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>No</translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>Basic Settings</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>Does your Internet connection require a login?</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>&lt;b&gt;Account Name&lt;/b&gt; &amp;nbsp;(If Required)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>&lt;b&gt;Domain Name&lt;/b&gt; &amp;nbsp;(If Required)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP adresa</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>Get Dynamically from ISP</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>Use Static IP Address</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Connection</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP Subnet Mask</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>Gateway</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>Domain Name Server (DNS) Address</translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>Get Automatically from ISP</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>Use These DNS Servers</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Primary DNS</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Secondary DNS</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>Usmjerivač</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>MAC Address</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>Use Default Address</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>Use Computer MAC Address</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>Use This MAC Address</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>Test</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>Internet Service Provider</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Prijava</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>Lozinka</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>&lt;b&gt;Service Name&lt;/b&gt; (If Required)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>Connection Mode</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>Always On</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>Dial on Demand</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>Manually Connect</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>Get Dynamically from ISP</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>Use Static IP Address</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>Router MAC Address</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>Use Default Address</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>Use Computer MAC Address</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>Use This MAC Address</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>Internet Service Provider</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>Moja IP adresa</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>Adresa poslužitelja</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>ID/naziv veze</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>Use These DNS Servers</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>Testing Internet Connection</translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>This page will automatically display the NETGEAR website if a successful Internet connection is detected.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>Close Window</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>Connection Time</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>Connecting to server</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>Negotiation</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>Authentication</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>Getting IP address</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>If connection fails, check your Login, Password, and other data.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>Block Sites</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>Keyword Blocking</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>Never</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>Per Schedule</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>Uvijek</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>Type keyword or domain name here.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>Block sites containing these keywords or domain names:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>Allow trusted IP address to visit blocked sites</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>Trusted IP Address</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>Add Keyword</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>Delete Keyword</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>Clear List</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>Block Services</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>Services Blocking</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>Service Table</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>Service Type</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>Port</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>Add</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>Edit</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>Delete</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>Block Services Setup</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>Protocol</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>Starting Port</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>Ending Port</translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>Service Type/User Defined</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>Filter Services For</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>Only This IP Address</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>IP Address Range</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>to</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>All IP Addresses</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>No Internet connection</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>The router has no Internet connection, it can't download the specified language file from NETGEAR web site. If you haven't set up the router's Internet port, please run the Installation CD, otherwise, please manually connect the router to Internet and try this function again.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>OK</translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Firmware Upgrade Assistant</translation>
+</message>
+<message>
+<tag_code>170</tag_code>
+<translation>The router is checking the NETGEAR server to see if updated firmware available for your router. &lt;br&gt; &lt;br&gt; This could take up to </translation>
+</message>
+<message>
+<tag_code>171</tag_code>
+<translation> seconds, please wait ...</translation>
+</message>
+<message>
+<tag_code>172</tag_code>
+<translation>Check for Updated Firmware Upon Log-in </translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Firmware Version Check</translation>
+</message>
+<message>
+<tag_code>174</tag_code>
+<translation>No new firmware version available.</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Natrag</translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>The router is downloading the new version now. Please wait...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>Upgrading Router Firmware now. Please Wait</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>Note: It will take about </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation> minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>Upload</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>Please wait ...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>GUI Language Update</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>Downloading and updating the language table, please wait for approximate one minute… </translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>Remote</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>Unknown</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Devices</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>Folder Name</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>Attached Devices</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>Wired Devices</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>Naziv uređaja</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>Wireless Devices (Wireless intruders also show up here)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>Refresh</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>Diagnostics</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>Ping an IP address</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>Perform a DNS Lookup</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>Internet Name</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>IP adresa</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>Server :</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>Display the Routing Table</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>Reboot the Router</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>Ping</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>Lookup</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>Display</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>Reboot</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>Diagnostics - Ping</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>Ping Results</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>Diagnostics - Routing Table</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>Destination</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>Mask</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>Metric</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>Active</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation>Dynamic DNS</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>Use a Dynamic DNS Service</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>Service Provider</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>Host Name</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>Korisničko ime</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>Show Status</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>Upozorenje</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>System authentication failed.</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>Please contact your system administrator for the correct information.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>Neuspjeh</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>Ovaj zaslon automatski će se za nekoliko sekundi vratiti na prethodni zaslon...</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>E-mail</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>Turn E-mail Notification On</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>Send alerts and logs through E-mail</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>Your Outgoing Mail Server</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>Send to This E-mail Address</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>My mail server requires authentication</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>Send Alert Immediately</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>When someone attempts to visit a blocked site</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>Send logs according to this schedule</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>When log is full</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>Hourly</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>Daily</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>Weekly</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>None</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>Day</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>Sunday</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>Monday</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>Tuesday</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>Wednesday</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>Thursday</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>Friday</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>Saturday</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>Time</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>Secure connection (use SSL)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>am</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>pm</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>Port Forwarding / Port Triggering</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>Please select the service type.</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>Port Forwarding</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>Port Triggering</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>Server IP Address</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>News</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>Start Port</translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>End Port</translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>  Edit Service  </translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>Delete Service</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>Add Custom Service</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>Ports - Custom Services</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+<translation>Starting Port</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>Ending Port</translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>Logs</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>Current Time</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>Include in Log</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>Attempted access to allowed sites</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>Attempted access to blocked sites and services</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>Connections to the Web-based interface of this Router</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>Router operation (startup, get time etc)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>Known DoS attacks and Port Scans</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>Port Forwarding / Port Triggering</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>Wireless access</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>Clear Log</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>Send Log</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>Disable Port Triggering</translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(in minutes)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>Port Triggering Time-out</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>Port Triggering Portmap Table</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>Enable</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>Inbound Connection</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>Service User</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>Add Service</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>Edit Service</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>Service</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>Any</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>Single address</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>Triggering Port</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>Required Inbound Connection</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>Remote Management</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>Turn Remote Management On</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>Remote Management Address</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>Allow Remote Access By</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>Only This Computer</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>Address Range</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>From</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>to</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>Everyone</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>Port Number</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>Firewall Rules</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>Outbound Services</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>Action</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>Log</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>Default</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>ALLOW always</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>Inbound Services</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IPAddress</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>BLOCK always</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>Zatvori priključke za IM</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>Otvori priključke za IM (priključci za IM otvoreni su po zadanim postavkama)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>Move</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>Schedule</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>Days to Block</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>Every Day</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>Time of day to block:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(use 24-hour clock)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>All Day</translation>
+</message>
+<message>
+<tag_code>360</tag_code>
+<translation>Start</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>Hour</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>Minute</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>End</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>Time Zone</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) Međunarodna datumska linija zapad</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) Midway Island, Samoa</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) Hawaii</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) Alaska</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) Pacific Time (US &amp;Canada); Tijuana</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) Arizona, Chihuahua, La Paz, Mazatlan</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) Mountain Time (US &amp;Canada)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) Central America, Central Time (US &amp;Canada)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) Guadalajara, Mexico City, Monterrey, Saskatchewan</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) Bogota, Lima, Quito</translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00) Eastern Time (US &amp; Canada)</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) Indiana (East)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) Atlantic Time (Canada), Caracas, La Paz, Santiago</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) Newfoundland</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) Brasilia, Buenos Aires, Georgetown, Greenland</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) Mid-Atlantic</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) Azores, Cape Verde Is.</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) Casablanca, Monrovia</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb, West Central Africa</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) Athens, Beirut, Istanbul, Minsk</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) Bucharest, Cairo, Harare, Pretoria</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius, Jerusalem</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) Baghdad, Kuwait, Nairobi, Riyadh</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03:00) Bagdad, Kuvajt, Nairobi, Rijad, Teheran</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT+04:00) Moskva, Petrograd, Volgograd</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) Abu Dhabi, Muscat, Baku, Tbilisi, Yerevan, Kabul</translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) Ekaterinburg, Islamabad, Karachi, Tashkent</translation>
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi ,Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) Almaty,  Astana, Dhaka, Sri Jayawardenepura, Rangoon ,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) Bangkok, Jakarta, Hanoi,Novosibirsk </translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi ,Krasnoyarsk</translation>
+</message>
+<message>
+<tag_code>414</tag_code>
+<translation>(GMT+08:00)  Ulaan Bataar, Kuala Lumpur, Singapore, Perth, Taipei</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) Tokyo, Osaka, Sapporo, Seoul,  Adelaide, Darwin ,Irkutsk</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00) Yakutsk</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) Guam, Port Moresby, Hobart</translation>
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00) Vladivostok</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) Magadan, Solomon Is., New Caledonia</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) Fiji, Auckland, Wellington, Marshall Is.</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) Nukualofa</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>Automatically adjust for daylight savings time</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>Current Time</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>Services</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>Važno ažuriranje</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>Kako bi se izbjegla neusklađenost s davateljem internetskih usluga, IP adresa vašeg usmjerivača ažurirana je na </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>You must now update the IP addresses in your router's configuration settings for each relevant service,such as port forwarding and IP address reservation.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>Close Window</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>To provide an enhanced user interface, this Router uses JavaScript extensively.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>Please enable JavaScript in your Browser, or use a different Browser.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>Do you want to switch from</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>( the current language ) to</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>Setup</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>RIP Direction</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>Both</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>In Only</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>Out Only</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>RIP Version</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>Disabled</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>Off</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>On</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>Use Router as DHCP Server</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>Address Reservation</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>Address Reservation Table</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>Please choose a reserve address to delete.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>Please choose a reserve address to edit.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>Thank you for using the NETGEAR Web-based Router Configuration Utility.</translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>Goodbye</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Setup Wizard</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>Add WPS Client</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>Wireless Settings(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>Wireless Settings(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>Guest Network</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>USB Storage</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>Advanced Settings</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>Content Filtering</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>Maintenance</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>Router Status</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>Set Password</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>Router Upgrade</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+<translation>NAPREDNO</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>Wireless Repeating Function</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>Static Routes</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>Traffic Meter</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>USB Settings</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>Web Support</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+<translation>Knowledge Base</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>Documentation</translation>
+</message>
+<message>
+<tag_code>490</tag_code>
+<translation>Logout</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>Setup Wizard</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>Basic Settings</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Wireless Settings</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>Block Sites</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>Backup Settings</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>Router Upgrade</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation>Dynamic DNS</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>Static Routes</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>Add WPS Client</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>Remote Management</translation>
+</message>
+<message>
+<tag_code>503</tag_code>
+<translation>Select Language</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>Jan</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>Feb</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>Mar</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>Apr</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>May</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>Jun</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>Jul</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>Aug</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>Sep</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>Oct</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>Nov</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>Dec</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>Način rada uređaja</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>Naziv uređaja</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>Način rada uređaja</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>Usmjerivač (modem + usmjerivač)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>Modem (samo modem)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>ADSL Settings</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>Modem Status</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>Select the Country and Language</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>Country</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>Language</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>Firmware Version</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>Modem</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>ADSL Firmware Version</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>DownStream Connection Speed</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>UpStream Connection Speed</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>Žično</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Bežično</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>Naziv</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>Način rada</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>Show Statistics</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>No Internet connection is detected. The router cannot check the NETGEAR server for updated firmware. After setting up your Internet connection, go to the Router Upgrade screen to check for updated firmware.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>No Internet connection detected.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the @model_name#.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>Retry</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401 Unauthorized</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>Please contact your system administrator for the correct information.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>Old Password</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>Repeat New Password</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS - Priority Rules</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>Priority</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>QoS Policy for</translation>
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>Priority Category</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>Applications</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>Online Gaming</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>Ethernet LAN Port</translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN Messenger</translation>
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>IP Phone</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>Vonage IP Phone</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>Add a new application</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>Highest</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>High</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>Normal</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>Low</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>Specified Port Range</translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Connection Type</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>Add a new game</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>MAC Device List</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>LAN Port</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>QoS Priority Rule list</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>QoS Policy</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>Description</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>Add Priority Rule</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>Enable WMM (Wi-Fi multimedia) settings</translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>Turn Internet Access QoS On</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>Turn Bandwidth Control On</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>Uplink bandwidth</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>Maximum</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>Kbps</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>Mb/s</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>Automatically check Internet Uplink bandwidth</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation>Check</translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>Set Up QoS Rule</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation>Uplink band width check Assistant</translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>Attempting to detect uplink bandwidth . Please Wait</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Router Rebooting</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>Progress</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>Please wait ...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>Safely Remove USB Device</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>Poll Interval</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(secs)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>Set Interval</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>Stop</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>System Up Time</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>Status</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>TxPkts</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>RxPkts</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>Collisions</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Tx B/s</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Rx B/s</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>Up Time</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>Hardware Version</translation>
+</message>
+<message>
+<tag_code>677</tag_code>
+<translation>GUI Language Version</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>Domain Name Server</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>Bežična izolacija</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>Wi-Fi Protected Setup</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>Allow guest to access My Local Network</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Repeating</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>Base Station MAC Address</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>Repeater</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>Connection Status</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Maska podmreže</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Zadani pristupnik</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>Lease Obtained</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>Lease Expires</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>Release</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>Renew</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>Connection Time</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>Connect</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>Disconnect</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>ALLOW by schedule, otherwise Block</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>BLOCK always</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>BLOCK by schedule, otherwise Allow</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>Send to LAN Server</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>Add Service</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>Vrsta</translation>
+</message>
+<message>
+<tag_code>732</tag_code>
+<translation>Upload Language file:</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>Upload</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>Route Name</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>Private</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>Please select an item to delete.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>Please select an item to edit.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>Updating Settings</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>Please wait for updating the GUI language</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>Warning! The firmware version you are trying to upload is older than the one you had.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;Do you still want to continue?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>Current Version</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>Uploaded Version</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>Firmware upgrade failed. Please check your file.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>Nadogradnja programskih datoteka</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>To take advantage of the Wireless-N features offered by the</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>Do not display this message again.</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Check for new version from the Internet.</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>Check for new version upon login</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>Locate and select the upgrade file on your hard disk.</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>Ovaj zaslon automatski će se za nekoliko sekundi vratiti na prethodni zaslon...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>Turn UPnP On</translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>Advertisement Period</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>Advertisement Time to Live</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(in hops)</translation>
+</message>
+<message>
+<tag_code>761</tag_code>
+<translation>UPnP Portmap Table</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>Int. Port</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>Ext. Port</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>USB Storage (Advanced Settings)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>Network/Device Name</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>Workgroup</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>Access Method</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>Link</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>Network Connection</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>via internet</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>Available</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>Available Network Folders</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+<translation>Volume Name</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>Total Space</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>Free Space</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>Share Name</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>Read Access</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>Write Access</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>Create Network Folder</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>Safely Remove USB Device</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>USB Drive Approved Devices</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>Allow only approved devices</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Approved</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>Capacity</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>USB Storage (Basic Settings)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>Edit Network Folder</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>USB Device</translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>File System</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>Folder</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>All - no password</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>admin</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>Browse</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>Browse for Folder</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>Enable any USB Device connected to the USB port</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>Approved Devices</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>Potvrda lozinke</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>Očisti</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>Attempting to connect to Netgear Server</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>Please wait ...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>Please Connect Internet Port and Retry</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>A new version has been found. Do You want to upgrade to the new version now?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>New Firmware Version</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>Release Notes</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>Ovaj postupak može potrajati minutu ili dvije; pričekajte...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>No new firmware version available.</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>Ovaj zaslon automatski će se za nekoliko sekundi vratiti na prethodni zaslon...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>There is a new GUI text file available:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>Do you want to download and use this new GUI text file?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>Disable Port Scan and DoS Protection</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>Default DMZ Server</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>Respond to Ping on Internet Port</translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>MTU Size</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(in bytes)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>NAT Filtering</translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>Secured</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>Open</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>Disable SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>Disable IGMP Proxying</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation>Advanced Wireless Settings</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>Local</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>MAC Address</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>Save</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>You already have a valid Internet connection.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>Do you still want to continue with the Smart Setup Wizard?</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>Detecting Connection Type on Internet Port</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>Pričekajte...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynamic IP (DHCP) detected</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>Static (fixed) IP detected</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>PPPoE detected</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>PPTP detected</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>Static (fixed) IP detected</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>or</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>Do you have a Fixed or Static IP Address Assigned by your ISP?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>Not Sure</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>Dynamic</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>Static IP (Fixed) Addresses</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>Detecting Connection Type on Internet Port</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>Please check the connections to the Internet WAN port and cable/DSL modem.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>Get Automatically from ISP</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>Use These DNS Servers</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>The Smart Setup Wizard can detect the type of Internet connection that you have.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Do you want the Smart Setup Wizard to try and detect the connection type now?</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>No. I want to configure the router myself.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>Wireless Card Access List</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>Turn Access Control On</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>Wireless Card Access Setup</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>Available Wireless Cards</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>Wireless Card Entry</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>Edit Wireless Card</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>Accept</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation>Advanced Wireless Settings</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>Enable Wireless Router Radio</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>Fragmentation Length (256-2346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>CTS/RTS Threshold (1-2347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>Preamble Mode</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>Long Preamble</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>Short Preamble</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>Keep Existing Wireless Settings</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>Set Up Access List</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>Enable Wireless Repeating Function</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>Disable Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>Wireless MAC of this router</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>Wireless Repeater</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>Wireless Base Station</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>Wireless Network</translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>Beacon Interval (in ms)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>Enable SSID Broadcast</translation>
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>Enable Wireless Isolation</translation>
+</message>
+<message>
+<tag_code>909</tag_code>
+<translation>Omogući supostojanje 20/40 MHz</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>Select Region</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>Africa</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>Asia</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>Australia</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>Canada</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>Europe</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>Israel</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>Japan</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>Korea</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>Mexico</translation>
+
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>Middle East</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>South America</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>United States</translation>
+
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>Up to 54 Mbps</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>Up to 145 Mbps</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>Up to 300 Mbps</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>Security Options</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>Up to 450 Mbps</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>Do 173 Mb/s</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>Do 400 Mb/s</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>Do 867 Mb/s</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>WPA/WPA2 Enterprise</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>Security Encryption (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>Authentication Type</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>Automatic</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>Shared Key</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>Encryption Strength</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>Key</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>Passphrase</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>Generate</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(8-63 characters or 64 hex digits)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>Encryption mode</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>Interval ažuriranja grupnog ključa</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>Seconds</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>Guest Network Settings</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>Network Profiles</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>Enable Guest Network</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>Gostima dopusti da vide jedan drugog i pristupe mojoj lokalnoj mreži</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>Enable Wireless Isolation</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>Guest Wireless Network Name (SSID)</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>Security Encryption (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>Security Encryption (WEP) Key</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>Allow guest to access My Local Network</translation>
+</message>
+<message>
+<tag_code>971</tag_code>
+<translation>(8-63 characters or 64 hex digits)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>Select a setup method</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+<translation>Push Button (recommended)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>You can either press the physical push button on the router or click the button (soft push button) in this screen.</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN Number(Personal Identification Number)</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>WPS procedure has been canceled by user.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>Failed to add a wireless client to the network.</translation>
+</message>
+<message>
+<tag_code>978</tag_code>
+<translation>Click &lt;b&gt;OK&lt;/b&gt; to go back to the Wi-Fi Protected Setup screen.</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>Security Risk: detecting more than one client with push button pressed.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>The client's PIN is not correct.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>Click &lt;b&gt;OK&lt;/b&gt; to go back to the Wi-Fi Protected Setup screen.</translation>
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>WPS procedure has timed out.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>Please check whether the client supports the WPS function.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+<translation>Success</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>The wireless client</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>has been added to the network successfully.</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>Note: The wireless settings have been changed.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>Click &lt;b&gt;OK&lt;/b&gt; to check the new wireless settings...</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>Connecting to New Wireless Client</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>Please click the software or hardware button on the client to start the WPS process...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>Authenticating the client...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>Collecting the client's information...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>Sending configuration data to the client...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>The client's PIN is</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>Please click the software button on the client to start the WPS process...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>The client's PIN is</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>Sending configuration data to the client...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>This is the security PIN of the WPS client. While connecting, WPS-enabled adapters provide a randomly-generated security PIN.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>Enter Client's PIN</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>The Traffic Meter monthly limit (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>has been reached.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>Your Traffic Meter counter is </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation>before the monthly limit is reached.</translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>Internet Traffic Meter</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>Enable Traffic Meter</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>Traffic volume control by</translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>No limit</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>Download only</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>Both directions</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>Monthly limit</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>Mbytes</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>Round up data volume for each connection by</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>Connection time control</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>Hours</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>Traffic Counter</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>Restart traffic counter at</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>am</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>pm</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>On the</translation>
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>1st</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>2nd</translation>
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>3rd</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>4th</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>5th</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>6th</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>7th</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>8th</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>9th</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>10th</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>11th</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>12th</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>13th</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>14th</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>15th</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>16th</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>17th</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>18th</translation>
+</message>
+<message>
+<tag_code>1050</tag_code>
+<translation>19th</translation>
+</message>
+<message>
+<tag_code>1051</tag_code>
+<translation>20th</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>21th</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>22th</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>23th</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>24th</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>25th</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>26th</translation>
+
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>27th</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>28th</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>Last</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>day of each month</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>Traffic Control</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>Pop up a warning message</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>Mbytes/Minutes before the monthly limit is reached</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>When the monthly limit is reached</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>Postavite LED indikator za internet da treperi zeleno</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>Disconnect and disable the Internet connection</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>Internet Traffic Statistics</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>Restart Counter Now</translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>Traffic Status</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>Counting Period</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>Amount Used</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>Today</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>Yesterday</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>This week</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>This month</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>Last month</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>Start Date/Time</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>Current Date/Time</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>Traffic Volume Left</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>Hours</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> minutes.</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>Period</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>Traffic Volume (Mbytes)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>Upload/Avg</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>Download/Avg</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>Total/Avg</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>Uključi LED indikator internetske veze da treperi bijelo/žuto</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>Omogući PIN usmjerivača</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>Omogući PIN usmjerivača (onemogućen jer je prepoznat napad)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>Kako ne bi došlo do neovlaštenog otkrivanja PIN-a, automatski onemogući PIN nakon</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>neuspješnih PIN povezivanja, dok se usmjerivač ne pokrene ponovo.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>U načinu automatskog onemogućavanja WPS LED indikator na usmjerivaču polagano će treperiti</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>Start Blocking</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>End Blocking</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>Thank you for purchasing NETGEAR's JWNR3200T Wireless Router. Be sure to use the Firmware Upgrade Assistant periodically to take advantage of improvements and feature additions NETGEAR offered for this product.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>router, use a wireless adapter that displays this logo.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>Delete All</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>Checking for firmware updates</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>Use Wildcards</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>Link Status</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>Service Type</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Oray dynamic DNS resolve service request</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>Starting IP Address</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>Ending IP Address</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>Repeater MAC Address 1</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>Repeater MAC Address 2</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>Repeater MAC Address 3</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>Repeater MAC Address 4</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>Maks. brzina preuzimanja (0 znači nema ograničenja)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>Maks. brzina prijenosa (0 znači nema ograničenja)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>Maksimalni zadatak preuzimanja</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>Dopusti sustavu automatsko NETGEAR Downloader dopuštenih</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>Osnovne postavke za NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>Upravitelj preuzimanja</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>Koju mapu ili put želite pohraniti?</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>Vrsta preuzimanja</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>FTP / HTTP put za preuzimanje</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>Lokacija datoteke na servisu BitTorrent</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>Veličina datoteke (B)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>Preuzmi</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>Odaberi sve</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation>Ne.</translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>Ukloni</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>RADIUS server IP Address:</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>RADIUS server Port:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>Računalo</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>USB uređaj za pohranu</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>Spremi put</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>Naziv datoteke</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>Tablica s informacijama o preuzimanju</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>Preuzete datoteke</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>Ukloni prethodno</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>Pauza</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>Nastavi</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>Brzina preuzimanja</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>Ponovo postavi</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>Do you want to unmount all devices?</translation>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Provjerite jesu li kabelske veze ispravne. Upute potražite u priručniku za instalaciju usmjerivača.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Provjerite je li napajanje širokopojasnog modema ispravno isključeno i ponovo uključeno. Ako vaš modem ima rezervno baterijsko napajanje, izvadite i ponovo umetnite bateriju kako biste isključili i ponovo uključili napajanje modema.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(zadana je "lozinka")</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(format AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(Možete ga pronaći na oznaci proizvoda koja se nalazi na usmjerivaču.)</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*=obavezne informacije</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>”1.  Napajanje modema nije isključeno i uključeno tijekom postupka kabliranja.”;</translation>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Žuti Ethernet kabel nije do kraja umetnut ili nije umetnut u ispravan priključak.</translation>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>MAC adresa je jedinstven broj.  MAC adresu računala ili usmjerivača možete pronaći na oznaci proizvoda.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>Dostupna je nadogradnja programskih datoteka usmjerivača.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>Administracija</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>NAPREDNO početak</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>Napredne postavke</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>Advanced</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Nakon što provjerite Ethernet kabel, pritisnite &lt;b&gt;Pokušaj ponovo&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Alternativni DNS poslužitelj</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Odgovor</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Primjena postavki internetske veze</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>Jeste li sigurni da želite promijeniti administratorsku lozinku bez opcije oporavka?</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+
+<translation>Poslužitelj za provjeru valjanosti</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Natrag</translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>Basic</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>Pronađena je BigPond internetska veza</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Pronađite datoteku sigurnosne kopije postavki usmjerivača koju ste ranije spremili i za nastavak pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Provjerava se internetska veza, pričekajte …</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Pritisnite ovdje</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>Računalo ne podržava pisač.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>Za konfiguriranje internetske veze potrebno je iskustvo u radu s mrežom. Jeste li sigurni?</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Konfigurira se internetska veza</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Čestitamo!</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>ID/naziv veze</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Nastavi</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>Trenutni NETGEAR Genie će se zaustaviti.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>Zadani pristupnik</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>U tijeku je prepoznavanje internetske veze</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Je li vam vaš davatelj internetskih usluga (ISP) dodijelio fiksnu (statičku) IP adresu? To je &lt;b&gt;vrlo rijetka&lt;/b&gt; posebna primjena. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>DNS Address must be specified</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Želite li da vam značajka NETGEAR Genie pomogne?</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Želite li da značajka NETGEAR Genie pokuša ponovo?</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>Preuzimanje nije uspjelo!</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Omogući oporavak lozinke</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>omogućeno</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>Unesi traženi pojam</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Unesite fiksne IP postavke koje vam je dodijelio vaš davatelj internetskih usluga i za nastavak pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Ovdje unesite MAC adresu.</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>U nastavku unesite potrebne podatke.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>U nastavku unesite potrebne podatke.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>Unesite serijski broj usmjerivača</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>POGREŠKA</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Neuspjeh</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>Naziv datoteke ne može biti prazan.</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>Ažuriranje programskih datoteka</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>Nadogradnja programskih datoteka</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Fiksne internetske IP postavke</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>IP adresa pristupnika</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>IDI</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>good</translation>
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>Pomoć i podrška</translation>
+</message>
+<message>
+<tag_code>3058</tag_code>
+<translation>Centar za pomoć</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>Početak</translation>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>“Ispravio sam problem s Ethernet kabelom.”;</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Ne znam. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Spremio sam postavke usmjerivača u datoteku i želim usmjerivač ponovo postaviti na te vrijednosti.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Isključio sam i uključio napajanje modema, nakon čega sam pričekao 2 minute.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Sam ću konfigurirati internetsku vezu.</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>Ako ne omogućite oporavak lozinke i zaboravite novu lozinku, jedini način za oporavak lozinke jest vraćanje uređaja na tvorničke postavke.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Ako ste se ranije povezali s internetskom uslugom putem računala ili drugog usmjerivača, značajka NETGEAR Genie može koristiti istu MAC koja je ranije radila.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Važno ažuriranje</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>U kojem je gradu rođen vaš otac?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>U kojem je gradu rođena vaša majka?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>U kojem ste gradu rođeni?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>Koje ste godine (GGGG) završili srednju školu?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Neispravno ISP korisničko ime ili lozinka</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>Jezik instalacije</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>Postavke davatelja internetskih usluga (WAN)</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>Internetske postavke</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>Internet</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>Invalid Authentication Server IP Address.</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>IP adresa pristupnika nije ispravna. Unesite ponovo.</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>Vrijeme neaktivnosti nije valjano. Unesite ispravan broj.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>IP adresa nije valjana. Unesite ponovo ili ostavite prazno.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>IP adresa nije valjana. Unesite ponovo.</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>MAC adresa nije valjana.</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>Lozinka nije valjana.</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>Primarna DNS adresa nije valjana. Unesite ponovo.\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>Sekundarna DNS adresa nije valjana. Unesite ponovo.\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>Maska podmreže nije valjana. Unesite ponovo.\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>IP adresa</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>Pronađena je L2TP internetska veza</translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>Posljednji oporavak lozinke</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>Legenda</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>Ponovna prijava</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>Za upravljanje ovim postavkama usmjerivača potrebna je prijava:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Provjerite je li kabel ispravno priključen i na priključak širokopojasnog modema i na internetski priključak usmjerivača.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Moja IP adresa</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>Moj WiFi</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problem s mrežnom vezom</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>mrežni ključ (lozinka)</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>mrežni ključ (lozinka)</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Sljedeće</translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Na internetski priključak usmjerivača nije priključen Ethernet kabel.</translation>
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>Nema USB pogona</translation>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Ne, od svog davatelja internetskih usluga nisam dobio fiksnu (statičku) IP adresu.</translation>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Ne, sam ću konfigurirati internetsku vezu.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>Ne, sam ću konfigurirati internetsku vezu.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>“Ništa od navedenog.”;</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>NIJE OMOGUĆENO</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>Broj uređaja</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>Broj uređaja</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>Off</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>Drugi WiFi</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>Roditeljska kontrola</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Lozinka</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>Dodijelite ispravnu datoteku. Oblik datoteke je *.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>Unesite odgovore na dva sigurnosna pitanja u nastavku i pritisnite &lt;b&gt;Nastavi&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>Unesite vrijeme neaktivnosti.\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>Unesite svoj odgovor na svako pitanje.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Pregledajte sljedeće stavke.</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>Odaberite pitanje.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>Odaberite jezik instalacije</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Pričekajte...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>Pronađena je PPPoE DSL internetska veza</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>Pronađena je PPTP internetska veza</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Preferirani DNS poslužitelj</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Ispiši</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Došlo je do problema prilikom prepoznavanja internetske veze - IP adresa</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Došlo je do problema prilikom prepoznavanja internetske veze - MAC adresa</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Došlo je do problema prilikom prepoznavanja internetske veze</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>SPREMNO</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Vraćanje postavki usmjerivača </translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Vraćanje postavki usmjerivača</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>Lozinka administratora usmjerivača</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>Korisničko ime administratora usmjerivača</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>Najčešća pitanja o usmjerivaču</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Verzija programskih datoteka usmjerivača</translation>
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>Informacije o usmjerivaču</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>Prijava na usmjerivač</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>Oporavak lozinke usmjerivača</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>PRETRAŽI POMOĆ</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>Pretraži NETGEAR podršku</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Sigurnosno pitanje br.1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Sigurnosno pitanje br.2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Odaberite pitanje</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Za nastavak odaberite opciju i pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>Prvo odaberite opciju.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>“Za nastavak odaberite jednu od opcija u nastavku i pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;:”;</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Adresa poslužitelja</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>Prikaži/sakrij centar za pomoć</translation>
+</message>
+<message>
+<tag_code>3149</tag_code>
+<translation>Maska podmreže</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Prebaci me na Internet</translation>
+</message>
+<message>
+<tag_code>3151</tag_code>
+<translation>Unesene informacije ne odgovaraju informacijama koje su spremljene na usmjerivaču. Unesite ponovo.</translation>
+</message>
+<message>
+<tag_code>3152</tag_code>
+<translation>IP adresa i IP adresa poslužitelja moraju biti u istoj podmreži.\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>Oznaka treba sadržavati 63 znaka ili manje.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>IP adresa za WAN ne smije biti u istoj podmreži kao IP adresa za WAN.</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Usmjerivač se ne može povezati s Internetom pomoću trenutnih postavki.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Razlog je vjerojatno nešto od sljedećeg:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+
+<translation>Postupak može potrajati nekoliko minuta; pričekajte...</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Ovaj postupak može potrajati minutu ili dvije; pričekajte...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Na ovom usmjerivaču unaprijed je postavljen sljedeći jedinstveni naziv bežične mreže (SSID) i </translation>
+</message>
+<message>
+
+<tag_code>3160</tag_code>
+<translation>Ovaj zaslon automatski će se za nekoliko sekundi vratiti na prethodni zaslon...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Kako bi se izbjegla neusklađenost s davateljem internetskih usluga, IP adresa vašeg usmjerivača ažurirana je na </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>za dohvat.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>”Kako biste riješili ovaj problem, provjerite je li žuti Ethernet kabel ispravno umetnut i priključak širokopojasnog modema i internetski priključak na usmjerivaču.”;</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>, </translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Pokušaj ponovo</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>Deinstaliraj</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>Korisničko ime ne može biti prazno.</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Korisničko ime</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>Upozorenje! \nVraćanje postavki iz konfiguracijske datoteke izbrisat će sve trenutne postavke. \nJeste li sigurni da to želite učiniti?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>Upozorenje</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Možemo vam pomoći pri oporavku administratorske lozinke usmjerivača. Unesite informacije u nastavku i pritisnite &lt;b&gt;Nastavi&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Kako se zove vaš prvi poslodavac?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Kako se zove vaš najbolji prijatelj?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Koje je srednje ime vašeg oca?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Kako se zove vaš djed?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Kako se zove vaša baka?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Koje je srednje ime vaše majke?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Kako se zove vaš najstariji brat?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Kako se zove vaša najstarija sestra?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Kako se zove vaš najmlađi brat?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Kako se zove vaša najmlađa sestra?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Kako se zove vaš prvi šef?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Koji ste NETGEAR proizvod prvi kupili?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Kako se zove prva škola koju ste pohađali?</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>WiFi kanal</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>Bežična izolacija</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Naziv bežične mreže (SSID)</translation>
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>Postavljanje bežične mreže</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Bežično</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Da</translation>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Da. Moj ISP dodijelio mi je fiksnu (statičku) IP adresu.</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>Trenutno ste prijavljeni s drugog uređaja. U određenom trenutku može se prijaviti samo jedan uređaj. Ako se prijavite pomoću ovog uređaja, drugi uređaj će se odjaviti. Želite li nastaviti?</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Još niste povezani s Internetom.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Uspješno ste uspostavili vezu s Internetom.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>Sada se na usmjerivač možete prijaviti pomoću korisničkog imena \"admin\" i ove oporavljene lozinke.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>Uspješno ste oporavili administratorsku lozinku.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Na vašem usmjerivaču unaprijed je postavljena WPA2-PSK bežična zaštita koja vas štiti od neovlaštenog pristupa. Za pristup mreži morate unijeti mrežni ključ (lozinku). Unaprijed određene postavke jedinstvene su za ovaj uređaj, poput serijskog broja.  Ako ih želite promijeniti, to možete učiniti kasnije na zaslonu Postavke bežične mreže u web korisničkom sučelju usmjerivača.</translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Zaštita bežične mreže nije omogućena na ovom usmjerivaču. NETGEAR vam preporučuje</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>kako biste omogućili zaštitu bežične mreže i na taj način osigurali sigurnost mreže.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>WPS čarobnjak</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>WAN Setup</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>LAN Setup</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>QoS Setup</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>Not Connected</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>No Security</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>DHCP Server</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>Internetski priključak</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>ReadySHARE pisač</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>Dostupna je nova nadogradnja programskih datoteka. Za dohvat pritisnite ovdje.</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Auto-Detect</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>Ovaj postupak može potrajati do šest minuta; pričekajte…</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Za nastavak pritisnite "Sljedeće".</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>Everquest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tournament</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>NIJE PODRŽANO</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>Serijski broj</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>Provjeri ima li ažuriranja</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>Što je to</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>Prijava nije uspjela. Ponovo unesite točnu administratorsku lozinku za NETGEAR usmjerivač.</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>Povežite taj uređaj bežičnim putem s NETGEAR usmjerivačem i pokušajte ponovo.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation> FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>Status za FastLane</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation> Uključi FastLane</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation> Propusnost rezervirana za pouzdanu IP adresu</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>Gumb za WiFi vezu i FastLane</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>Enable Trusted IP address</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>ReadySHARE ispis</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>Dijeljenje ispisa za računala s operacijskim sustavom Windows i Mac s USB pisačem</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>Na koji način funkcionira?</translation>
+</message>
+<message>
+<tag_code>3236</tag_code>
+<translation>Korak 1: Priključite USB pisač na USB priključak usmjerivača pomoću USB kabela za pisač.</translation>
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>Korak 2: Instalirajte upravljački program USB pisača na svim računalima koja će dijeliti pisač.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>Ako nemate upravljački program, obratite se tvrtki koja je proizvelo pisač kako biste locirali i preuzeli najnoviji upravljački program pisača.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>Korak 3: Na svako računalo koje će dijeliti pisač preuzmite uslužni program NETGEAR USB Control Center s web-mjesta &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>Slijedite upute isporučene uz uslužni program za priključivanje računala na pisač i ispis.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>Mrežna podrška</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>Exit</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>Access to this resource is denied, your client has not supplied the correct authentication.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>VPN Passthrough</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>IPSec Passthrough</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>PPTP Passthrough</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>L2TP Passthrough</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>Nije uspjelo – datoteka se ne može dohvatiti</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>Nije uspjelo – nema dovoljno prostora</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>Nije uspjelo – nepoznat razlog</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>Preuzimanje u tijeku</translation>
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>Omogući NETGEAR LED oznaku</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>Intranet Port</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>Profile</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>Broadcast SSID</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>Internal IP address</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>External Start Port</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>External End Port</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>Internal Start Port</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>Internal End Port</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>Use the same port range for Internal port</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>Or select from currently attached devices</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>Service Name</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>Turn off wireless signal by schedule</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>The wireless signal is scheduled to turn off during the following time period:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>Recurrence Pattern</translation>
+</message>
+<message>
+<tag_code>3317</tag_code>
+<translation>Add a new period</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>When to turn off wireless signal</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>Select Days</translation>
+</message>
+<message>
+<tag_code>3320</tag_code>
+<translation>Mon</translation>
+</message>
+<message>
+<tag_code>3321</tag_code>
+<translation>Tue</translation>
+</message>
+<message>
+<tag_code>3322</tag_code>
+<translation>Wed</translation>
+</message>
+<message>
+<tag_code>3323</tag_code>
+<translation>Thu</translation>
+</message>
+<message>
+<tag_code>3324</tag_code>
+<translation>Fri</translation>
+</message>
+<message>
+<tag_code>3325</tag_code>
+<translation>Sat</translation>
+</message>
+<message>
+<tag_code>3326</tag_code>
+<translation>Sun</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Send an email notification when a downloading task is finished</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Configure Email</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Upper limit per task. Once set, each download or upload task can use a speed less than or equal to the value you set here.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Enable Auto Status Refresh</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>The downloading task status will be refreshed automatically according to specified rate</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Refresh rate</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Times/Minute</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP Protection/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Enable IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>IP-MAC binding protects your router from ARP attacks. With this function enabled, your router uses the IP-MAC binding table as the static ARP table. You can add, remove, or edit the IP-MAC binding pairs in the table. WARNING! Devices that are not registered in this table will NOT have internet access. Ensure that at least one LAN device's IP and MAC address pair is registered in this table.</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>BitTorrent Link</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>ReadySHARE Mobile Connect</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>Bredbandsinställningar</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>User Ethernet connection first and if fail use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Always use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>Inställningar för mobilt bredband</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>Åtkomstnummer</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>PDP-typ</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>Anslut automatiskt vid start</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>Återanslut automatiskt om anslutningen kopplas ned</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>Ansluter</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>Identifierar modem</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>Modem Not Supported</translation>
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>initialiseras Modemet</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>Intern nätverksteckning</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>Ansluter</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>ansluten</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>Inaktiv</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>initialiseras</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>Inte ansluten</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Always use Ethernet connection</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>Använd alltid den mobila bredbandsanslutningen</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Detecting Mobile Broadband Modem</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Ansluter till nätverket</translation>
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>Inget SIM-kort identifierades</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>USB-modemet kan inte användas</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>Ange konfigurationsinformation för internetleverantören</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Please select the Internet Service Provider and then click Next.</translation>
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>Om din leverantör av mobilt bredband inte står med i listrutan väljer du Annat.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Ange konfigurationsparametrar. Om du inte känner till dem kontaktar du din internetleverantör.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>Aktivera automatisk internetåterställning vid</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP Mode</translation>
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>Enable AP Mode</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>Get IP Address Dynamically</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>Get DNS Server Address Dynamically</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>Način rada s bežičnom pristupnom točkom ovom uređaju omogućava da radi kao samostalna bežična pristupana točka u vašoj postojećoj mreži.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>Omogućavanje fiksnih postavki IP adrese na ovom uređaju (ne preporučuje se)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>Za postizanje optimalnih postavki i radnih značajki slijedite ove upute:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;Korak 1: &lt;/b&gt;Provjerite je li &lt;b&gt;internetski priključak&lt;/b&gt; uređaja kabelom povezan s &lt;b&gt;nekim od priključaka LAN mreže&lt;/b&gt; na postojećem usmjerivaču.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;Korak 2:&lt;/b&gt; Ako vaš postojeći usmjerivač ima značajku bežičnog rada, isključite ga kako biste omogućili tu značajku i zbjegli međusobno ometanje rada između njega i nove pristupne točke. Ili ga postavite tako da radi na drukčijem bežičnom kanalu.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>Po dovršenju pritisnite Primijeni za nastavak postupka</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;Napomena: &lt;/b&gt;Nakon što pritisnete Primijeni, ovaj uređaj će prijeći na novu IP adresu koju mu je dodijelio postojeći usmjerivač, što znači da ova web-stranica možda neće biti dostupna. Zatvorite preglednik i ponovo ga otvorite te ponovo prijeđite na http://www.routerlogin.net/.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>Način rada</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>Pristupna točka</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Operator Name</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Signal Strength</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>3G/4G setup is done!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>USB Mobile Broadband Modem Settings</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>3G/4G Connection Mode</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Connection Protocol</translation>
+</message>
+<message>
+<tag_code>3502</tag_code>
+<translation>(Temporarily)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>Omogući NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>Media Server (Settings)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>Enable Media Server</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>Media Server Name</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>Content Scan</translation>
+</message>
+<message>
+<tag_code>3604</tag_code>
+<translation>Automatic (when new files added)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>Rescan media files</translation>
+
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>Media Server</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>Omogući iTunes poslužitelj (samo glazba)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>Unesite zaporku koja se prikazuje u aplikaciji Remote</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>Dopusti kontrolu</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>Akcija je trenutno onemogućena sve dok se ne pritisne gumb za uključivanje/isključivanje bežične mreže.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>VLAN/IPTV postavljanje</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>Omogući VLAN oznaku</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>VLAN ID</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>Broj priključka poslužitelja za odlaznu poštu</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>Uređivanje prema internom IP-u</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(Unesite priključke i raspone priključaka te ih razdvojite zarezima, primjerice: 30, 50 - 60, 65500 - 65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>Raspon vanjskih priključaka</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>Raspon internih priključaka</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>Kontrola pristupa</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>Pomoću značajke Kontrola pristupa (Access Control) možete računalima ili elektroničkim uređajima dopustiti ili blokirati pristup svojoj mreži. </translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>Uključi kontrolu pristupa</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>Pravilo pristupa:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation> to je opće pravilo. Pristup također možete dopustiti ili blokirati pojedinačnim uređajima.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>Dopusti povezivanje svim novim uređajima</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>Blokiraj povezivanje svih novih uređaja</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>Prikaži popis dozvoljenih uređaja koji trenutno nisu povezani na mrežu</translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>Prikaži popis blokiranih uređaja koji trenutno nisu povezani na mrežu</translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>Dopusti</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>Blokiraj</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>Blokirano</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>Dopušteno</translation>
+</message>
+<message>
+<tag_code>3913</tag_code>
+<translation>Način rada s pristupnom točkom omogućava dodavanje drugog usmjerivača u mrežu, kao bežične pristupne točke.</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+<translation>Omogući način rada s pristupnom točkom</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>Ovo će biti postavke bežične mreže za vaš uređaj kao pristupnu točku:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>Naziv bežične mreže (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>Lozinka bežične mreže (ključ):</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>Želite li ih promijeniti, prijeđite u Postavljanje -> Postavljanje bežične mreže i promijenite ih. Nakon što računalo ponovo uspostavi vezu korištenjem novih postavki, vratite se na ovu stranicu.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>NETGEAR preporučuje da koristite postavke bežične mreže koje su različite od vaših postojećih postavki bežične mreže kako bi se izbjegle smetnje ili da onemogućite/isključite bežični signal na svojem postojećem usmjerivaču.</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>Dodavanje ovog usmjerivača u mrežu u načinu rada s pristupnom točkom:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>Jedan kraj Ethernet kabela priključite u internetski priključak na ovom usmjerivaču, a drugi kraj u LAN priključak na postojećem usmjerivaču.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>Odabir postavki IP adrese na ovoj pristupnoj točki</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>Bežična pristupna točka</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>Dinamička adresa s postojećeg usmjerivača.</translation>
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>Koristi fiksnu IP adresu (ne preporučuje se).</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>Imate li NETGEAR DDNS ili No-IP DDNS račun?</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>Unesite sljedeće podatke za registraciju.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>E-pošta</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>Lozinka (6~32 znaka)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>Registriraj</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>Slanjem ovog obrasca prihvaćam</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>uvjete pružanja usluge</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>i potvrđujem da ću napraviti samo jedan besplatan račun.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>Zaboravili ste lozinku?</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>pritisnuti ovdje</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>Za upravljanje DDNS računom.</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>NETGEAR DDNS na ovom usmjerivaču trenutno je konfiguriran na:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>Račun/e-pošta:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>Ako želite promijeniti postavke, najprije pritisnite</translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation>kako biste postavke poništili.</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>VPN usluga</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>Omogući VPN uslugu</translation>
+</message>
+<message>
+<tag_code>4002</tag_code>
+<translation>Postavljanje VPN klijenta na klijentskim uređajima:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>Napredne konfiguracije</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>Service Type</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>Servisni priključak</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>Klijenti će za pristup koristiti ovu VPN vezu</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>Sva web-mjesta na internetu i kućnoj mreži</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>Samo kućna mreža</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>1. korak: Odaberite potvrdni okvir Omogući VPN uslugu i pritisnite gumb Primijeni.</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>Korak 2: Preuzmite klijentski uslužni program sa stranice</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>te ga instalirajte na uređaje na kojima želite pokretati VPN klijent.</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>iOS i Android klijenti trenutno nisu podržani</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>Korak 3: U nastavku pritisnite odgovarajući gumb kako biste preuzeli konfiguracijske datoteke za svoje VPN klijente.</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>Korak 4: Raspakirajte konfiguracijske datoteke koje ste preuzeli i kopirajte ih u mapu u kojoj je VPN klijent instaliran na uređajima. Ako klijentski uređaj koristi 64-bitni sustav Windows, VPN klijent prema zadanim postavkama instaliran je u mapi "C:\Program files\OpenVPN\config\".</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>Korak 5: Ako klijentski uređaj koristi sustav Windows, naziv VPN sučelja trebate promijeniti u "NETGEAR-VPN". VPN sučelje obično ima naziv uređaja kao što je "TAP-Windows Adapter".</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation> korak 6: Klijentski uslužni program mora biti instaliran i mora ga pokrenuti korisnik koji ima administratorske povlastice.</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>korak 7: Ako vam je potrebna pomoć za povezivanje pomoću OpenVPN klijenata, pogledajte stranicu</translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>Napomena: Ako želite izvršiti bilo kakve promjene u odjeljku Napredne konfiguracije, to učinite prije preuzimanja konfiguracijskih datoteka u koraku 3</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>ReadySHARE Vault omogućuje vam sigurnosno kopiranje datoteka na računalu sa sustavom Windows.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>Stvaranje sigurnosne kopije računala sa sustavom Windows na tvrdom disku usmjerivača:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. Instalirajte aplikaciju genie na sva računala tako da je preuzmete sa stranice  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. Instalirajte ReadySHARE Vault na sva računala tako da aplikaciju preuzmete sa stranice  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. Pokrenite ReadySHARE Vault. Na kartici Upravljačka ploča ili Sigurnosna kopija postavite i pokrenite sigurnosno kopiranje.</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>Internet Connection Type</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>Auto Detect</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>Auto Config</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>6To4 Tunnel</translation>
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>Pass Through</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>Fixed</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>Remote 6to4 Relay Router</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>Auto</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>Static IP Address</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>IPv6 Address/Prefix Length</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>Router's IPv6 Address on WAN</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>User Class (if Required)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>Router's IPv6 Address on LAN</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>IP Address assignment</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>Use DHCP Server</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>Use This interface ID</translation>
+</message>
+<message>
+<tag_code>4200</tag_code>
+<translation>Posjetite &lt;a  style=text-decoration:underline;color:#0000ff; id=url_ac onclick=goto_formframe('AccessControl.htm&amp;todo=cfg_init')&gt;Kontrolu pristupa&lt;/a&gt; za radi dopuštanja ili blokiranja pristupa uređajima.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>Uključeno</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>Isključeno</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>Opće pravilo</translation>
+</message>
+<message>
+<tag_code>4300</tag_code>
+<translation>Facebook Wi-Fi je aplikacija za male tvrtke. Aplikacija usmjerivač pretvara u Wi-Fi hotspot, omogućuje korisnicima da se prijave i označe da im se vaša Facebook stranica sviđa prije no što besplatno mogu koristiti web.</translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>Otvorite stranicu i pročitajte više o postupku postavljanja</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>Omogući&lt;b&gt; Facebook Wi-Fi&lt;/b&gt; omogućit će ovom uređaju da podržava funkciju Facebook Wi-Fi.</translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>Ovo se odnosi samo na Wi-Fi mrežu za goste te se Wi-Fi mreža za goste treba omogućiti na usmjerivaču kako bi ova funkcija radila.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>Pritisnite &lt;b&gt;Konfiguriraj&lt;/b&gt; kako biste usmjerivač povezali s postojećom Facebook stranicom.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>Konfiguriraj</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(Gumb \"Konfiguriraj\" možete omogućiti tako da uključite opciju \"Omogući Facebook Wi-Fi\" i pritisnete gumb \"Primijeni\")</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>Način rada QoS:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>QoS pravila</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>Dodaj pravila</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS prema usluzi</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS prema uređaju</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>Red čekanja 1: Najviše</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>Red čekanja 2: Visoko</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>Red čekanja 3: Uobičajeno</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>Red čekanja 4: Nisko</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>Provjera brzine</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Prethodno</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Preuzmi sljedeće aplikacije za usmjerivač:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Aplikacija Genie. Osobna upravljačka ploča koja omogućava nadziranje, kontrolu i popravak kućne mreže.</translation>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>Aplikacija ReadySHARE Vault (samo za računala s operacijskim sustavom Windows). Omogućava automatsko kontinuirano sigurnosno kopiranje podataka s računala s operacijskim sustavom Windows na USB pogon koji je povezan s vašim usmjerivačem.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Preuzimanje…</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Nakon dovršetka preuzimanja instaliraj aplikaciju Genie.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Kako biste dovršili konfiguriranje usmjerivača, nakon instalacije aplikacije Genie pritisnite gumb Sljedeće.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Nakon dovršetka preuzimanja instaliraj aplikaciju ReadySHARE Vault.</translation>
+
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Kako biste dovršili konfiguriranje usmjerivača, nakon instalacije aplikacije ReadySHARE Vault pritisnite gumb Sljedeće.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Zahtjev se obrađuje…</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Nakon instalacije pritisnite Sljedeće.</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Sustav će instalirati</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Pritisnite Pokreni kako biste pokrenuli instalaciju</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Postavke za kontrolu LED indikatora</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Isključi sve LED indikatore osim LED indikatora napajanja</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Omogući treperenje LED indikatora za internet, LAN, bežičnu mrežu i USB kada se prepozna podatkovni promet</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Onemogući treperenje LED indikatora za internet, LAN, bežičnu mrežu i USB kada se prepozna podatkovni promet</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>Za Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>Za uređaje koji ne koriste sustav Windows</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) Kamchatka</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>Postavke za kontrolu LED indikatora</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>Omogući treperenje LED indikatora za internet, LAN, bežičnu mrežu i USB kada se prepozna podatkovni promet</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>Onemogući treperenje LED indikatora za internet, LAN, bežičnu mrežu i USB kada se prepozna podatkovni promet</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>Isključi sve LED indikatore osim LED indikatora napajanja</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>Pravila zaštite privatnosti</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (omogućuje vam da ReadySHARE uređaju za spremanje pristupite s bilo koje lokacije)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>Do 289 Mb/s</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>Do 600 Mb/s</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>Do 1300 Mb/s</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>ReadyCLOUD omogućuje vam da daljinski putem interneta pristupite USB uređaju za spremanje podataka koji je priključen na USB priključak usmjerivača.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>Postavljanje značajke ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>Korak 1: treba vam ReadyCLOUD račun. Ako ga nemate, </translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation>pritisnite ovdje kako biste napravili račun i odaberite "Napravi račun".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation>Korak 2: Vratite se na ovu stranicu usmjerivača i unesite ReadyCLOUD korisničko ime i lozinku kako biste usmjerivač i USB uređaj koji je s njim povezan registrirali za ReadyCLOUD.</translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation></translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>Korak 3: Ponovo se prijavite na stranici </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation>pomoću svojeg ReadyCLOUD računa. Prikazat će se USB uređaj koji je povezan s vašim usmjerivačem.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation>Pomoću dodatne aplikacije za daljinsko upravljanje možete uspostaviti sigurnu vezu između računala ili mobilnog uređaja i USB uređaja koji je povezan s usmjerivačem.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>Prijavite se na aplikaciju za daljinsko upravljanje i USB uređaju moći ćete pristupiti s bilo koje lokacije. </translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation>kako biste nabavili aplikaciju za daljinsko upravljanje.</translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>"Registracija uspješno dovršena"</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>"Deregistracija uspješno dovršena"</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>"Registracija nije uspjela"</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>"Deregistracija nije uspjela"</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation> Korisnički račun za ReadyCLOUD možete postaviti ili izmijeniti na stranici </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>Na ovom usmjerivaču registriran je sljedeći ReadyCLOUD korisnik:</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>Pritisnite &lt;b&gt;Poništi registraciju&lt;/b&gt; kako biste na usmjerivaču registrirali drugi ReadyCLOUD račun</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>Poništi registraciju</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>Napomena:</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;Napomena:&lt;/b&gt; usmjerivač će zadržati neprekinutu vezu s uslugom ReadyCLOUD sve dok ne poništite registraciju.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Omogući implicitno BEAMFORMING – ubrzava Wi-Fi vezu, poboljšava pouzdanost i domet za sve mobilne uređaje</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Enable Implicit BEAMFORMING - Boosts WiFi speed, reliability, range for all mobile devices</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Zaštita administratorskom lozinkom</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Upozorenje: izričito preporučamo da omogućite Zaštitu administratorskom lozinkom kako biste zaštitili svoje ReadySHARE podatke. Ako niste promijenili zadanu administratorsku lozinku, preporučamo vam i da je promijenite kako biste zaštitili svoju mrežu.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Postavke administratorskog računa</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Administratorska lozinka upotrebljava se za prijavu na web-sučelje usmjerivača. Promijenite administratorsku lozinku kako biste zaštitili svoju mrežu.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Nova lozinka</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Potvrdi novu lozinku</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Korisničko ime administratora usmjerivača:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Lozinka administratora usmjerivača:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Vraćanje postavki usmjerivača:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>Omogući Smart Connect – usmjerivač će odabrati najbolji WiFi pojas od 2,4 GHz ili 5 GHz za vaše WiFi veze. Kako biste mogli koristiti značajku Smart Connect, mreže od 2,4 GHz i 5 GHz moraju koristiti isti naziv WiFi mreže (SSID), iste opcije zaštite i istu lozinku.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>Omogući AIRTIME FAIRNESS ­ onemogućite zastoj u radu mreže prilikom povezivanja sporijih uređaja</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(onemogućeno jer je omogućena značajka Smart Connect)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>Za pametni telefon</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>Preuzimanje paketa za OpenVPN konfiguraciju</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>Uputa za postavljanje OpenVPN klijenta</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>Vrsta servisa za TUN način rada</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>Ulaz servisa za TUN način rada</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>Vrsta servisa za TAP način rada</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>Ulaz servisa za TAP način rada</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>Prema grupi premošćivanja</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>Prema grupi VLAN oznaka</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>koristi drugi način rada</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>Omogući način premošćivanja</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>odredi postavke bežične veze u načinu premošćivanja</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>Get IP Address Dynamically</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>Get DNS Server Address Dynamically</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>Odaberite bežičnu mrežu:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>Postavke VLAN-a/premošćivanja</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>Klijentski VPN uređaji</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>Udaljeni IP pristup</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>Lokalna IP adresa</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>Pritisnite ovdje za promjenu naziva uređaja</translation>
+<variable>Click here to change the Device Name</variable>
+</message>
+</tag_msg>

@@ -1,0 +1,6037 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>20</tag_code>
+<translation>إضافة عميل WPS</translation>
+</message>
+<message>
+<tag_code>21</tag_code>
+<translation>أسلوب جديد وسهل للاتصال بالموجه اللاسلكي باستخدام الإعداد المحمي بالدقة اللاسلكية (WPS)</translation>
+</message>
+<message>
+<tag_code>22</tag_code>
+<translation>يجب أن يدعم العميل اللاسلكي وظيفة WPS إذا كنت تريد استخدام هذا المعالج لإضافة العميل إلى الموجه اللاسلكي الذي يدعم WPS.</translation>
+</message>
+<message>
+<tag_code>23</tag_code>
+<translation>يرجى الرجوع إلى دليل المستخدم وصندوق هدية العميل اللاسلكي لمعرفة ما إذا كان يدعم وظيفة WPS.</translation>
+</message>
+<message>
+<tag_code>24</tag_code>
+<translation>إذا كان العميل اللاسلكي لا يدعم وظيفة WPS، فيجب عليك تكوين العميل اللاسلكي يدويًا حتى يكون له نفس SSID وإعدادات الأمان اللاسلكي الموجودة بهذا الموجه.</translation>
+</message>
+<message>
+<tag_code>25</tag_code>
+<translation>التالي</translation>
+</message>
+<message>
+<tag_code>26</tag_code>
+<translation>الإعدادات اللاسلكية المتقدمة</translation>
+</message>
+<message>
+<tag_code>29</tag_code>
+<translation>Push 'N' Connect</translation>
+</message>
+<message>
+<tag_code>32</tag_code>
+<translation>الاسم (SSID)</translation>
+</message>
+<message>
+<tag_code>34</tag_code>
+<translation>المنطقة</translation>
+</message>
+<message>
+<tag_code>36</tag_code>
+<translation>القناة</translation>
+</message>
+<message>
+<tag_code>38</tag_code>
+<translation>AP لاسلكي</translation>
+</message>
+<message>
+<tag_code>40</tag_code>
+<translation>اسم البث</translation>
+</message>
+<message>
+<tag_code>42</tag_code>
+<translation>الأمان</translation>
+</message>
+<message>
+<tag_code>44</tag_code>
+<translation>إعدادات WPS</translation>
+</message>
+<message>
+<tag_code>45</tag_code>
+<translation>تم التكوين</translation>
+</message>
+<message>
+<tag_code>46</tag_code>
+<translation>رقم PIN للموجه</translation>
+</message>
+<message>
+<tag_code>47</tag_code>
+<translation>لم يتم التكوين</translation>
+</message>
+<message>
+<tag_code>48</tag_code>
+<translation>تعطيل رقم PIN للموجه</translation>
+</message>
+<message>
+<tag_code>49</tag_code>
+<translation>الحفاظ على الإعدادات اللاسلكية الموجودة</translation>
+</message>
+<message>
+<tag_code>50</tag_code>
+<translation>تطبيق</translation>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>إلغاء</translation>
+</message>
+<message>
+<tag_code>52</tag_code>
+<translation>النسخ الاحتياطي للإعدادات</translation>
+</message>
+<message>
+<tag_code>53</tag_code>
+<translation>حفظ نسخة من الإعدادات الحالية</translation>
+</message>
+<message>
+<tag_code>54</tag_code>
+<translation>استعادة إعدادات محفوظة من ملف</translation>
+</message>
+<message>
+<tag_code>55</tag_code>
+<translation>عودة إلى إعدادات المصنع الافتراضية</translation>
+</message>
+<message>
+<tag_code>56</tag_code>
+<translation>نسخ احتياطي</translation>
+</message>
+<message>
+<tag_code>57</tag_code>
+<translation>استعادة</translation>
+</message>
+<message>
+<tag_code>58</tag_code>
+<translation>مسح</translation>
+</message>
+<message>
+<tag_code>59</tag_code>
+<translation>يؤدي تحميل إعدادات المصنع الافتراضية إلى مسح كافة الإعدادات الحالية.</translation>
+</message>
+<message>
+<tag_code>60</tag_code>
+<translation>هل أنت متأكد من رغبتك في القيام بذلك?</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>نعم</translation>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>لا</translation>
+</message>
+<message>
+<tag_code>63</tag_code>
+<translation>Loading file ...</translation>
+</message>
+<message>
+<tag_code>64</tag_code>
+<translation>الإعدادات الأساسية</translation>
+</message>
+<message>
+<tag_code>65</tag_code>
+<translation>هل يتطلب اتصال الإنترنت الخاص بك تسجيل الدخول؟</translation>
+</message>
+<message>
+<tag_code>67</tag_code>
+<translation>&lt;b&gt;اسم الحساب&lt;/b&gt;&amp;nbsp;(إذا كان مطلوبًا)</translation>
+</message>
+<message>
+<tag_code>69</tag_code>
+<translation>&lt;b&gt;اسم المجال&lt;/b&gt;&amp;nbsp;(إذا كان مطلوبًا)</translation>
+</message>
+<message>
+<tag_code>70</tag_code>
+<translation>الإنترنت</translation>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>عنوان IP</translation>
+</message>
+<message>
+<tag_code>72</tag_code>
+<translation>الحصول ديناميكيًا من موفر خدمة الإنترنت</translation>
+</message>
+<message>
+<tag_code>73</tag_code>
+<translation>استخدام عنوان IP ساكن</translation>
+</message>
+<message>
+<tag_code>74</tag_code>
+<translation>Connection</translation>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>قناع الشبكة الفرعية لـ IP</translation>
+</message>
+<message>
+<tag_code>76</tag_code>
+<translation>البوابة</translation>
+</message>
+<message>
+<tag_code>77</tag_code>
+<translation>عنوان خادم اسم المجال (DNS)</translation>
+</message>
+<message>
+<tag_code>78</tag_code>
+<translation>الحصول تلقائيًا من موفر خدمة الإنترنت</translation>
+</message>
+<message>
+<tag_code>79</tag_code>
+<translation>استخدام خوادم DNS هذه</translation>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>DNS الأساسي</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>DNS الثانوي</translation>
+</message>
+<message>
+<tag_code>82</tag_code>
+<translation>موجه</translation>
+</message>
+<message>
+<tag_code>83</tag_code>
+<translation>عنوان MAC</translation>
+</message>
+<message>
+<tag_code>84</tag_code>
+<translation>استخدام عنوان افتراضي</translation>
+</message>
+<message>
+<tag_code>85</tag_code>
+<translation>استخدام عنوان MAC الخاص بالكمبيوتر</translation>
+</message>
+<message>
+<tag_code>86</tag_code>
+<translation>استخدام عنوان MAC هذا</translation>
+</message>
+<message>
+<tag_code>87</tag_code>
+<translation>اختبار</translation>
+</message>
+<message>
+<tag_code>88</tag_code>
+<translation>موفر خدمة الإنترنت</translation>
+</message>
+<message>
+<tag_code>89</tag_code>
+<translation>PPTP</translation>
+</message>
+<message>
+<tag_code>90</tag_code>
+<translation>PPPoE</translation>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>تسجيل الدخول</translation>
+</message>
+<message>
+<tag_code>92</tag_code>
+<translation>كلمة المرور</translation>
+</message>
+<message>
+<tag_code>93</tag_code>
+<translation>&lt;b&gt;اسم الخدمة&lt;/b&gt; (إذا كان مطلوبًا)</translation>
+</message>
+<message>
+<tag_code>94</tag_code>
+<translation>وضع الاتصال</translation>
+</message>
+<message>
+<tag_code>95</tag_code>
+<translation>قيد التشغيل دائمًا</translation>
+</message>
+<message>
+<tag_code>96</tag_code>
+<translation>الاتصال عند الطلب</translation>
+</message>
+<message>
+<tag_code>97</tag_code>
+<translation>الاتصال يدويًا</translation>
+</message>
+<message>
+<tag_code>98</tag_code>
+<translation>&lt;b&gt;مهلة الخمول&lt;/b&gt;(بالدقائق)</translation>
+</message>
+<message>
+<tag_code>100</tag_code>
+<translation>الحصول ديناميكيًا من موفر خدمة الإنترنت</translation>
+</message>
+<message>
+<tag_code>101</tag_code>
+<translation>استخدام عنوان IP ساكن</translation>
+</message>
+<message>
+<tag_code>103</tag_code>
+<translation>عنوان MAC الخاص بالموجه</translation>
+</message>
+<message>
+<tag_code>104</tag_code>
+<translation>استخدام عنوان افتراضي</translation>
+</message>
+<message>
+<tag_code>105</tag_code>
+<translation>استخدام عنوان MAC الخاص بالكمبيوتر</translation>
+</message>
+<message>
+<tag_code>106</tag_code>
+<translation>استخدام عنوان MAC هذا</translation>
+</message>
+<message>
+<tag_code>107</tag_code>
+<translation>موفر خدمة الإنترنت</translation>
+</message>
+<message>
+<tag_code>109</tag_code>
+<translation>عنوان IP الخاص بي</translation>
+</message>
+<message>
+<tag_code>110</tag_code>
+<translation>عنوان الخادم</translation>
+</message>
+<message>
+<tag_code>111</tag_code>
+<translation>اسم/معرّف الاتصال</translation>
+</message>
+<message>
+<tag_code>112</tag_code>
+<translation>استخدام خوادم DNS هذه</translation>
+</message>
+<message>
+<tag_code>113</tag_code>
+<translation>اختبار الاتصال بالانترنت</translation>
+</message>
+<message>
+<tag_code>114</tag_code>
+<translation>ستعرض هذه الصفحة موقع ويب NETGEAR تلقائيًا إذا تم اكتشاف اتصال ناجح بالإنترنت.</translation>
+</message>
+<message>
+<tag_code>115</tag_code>
+<translation>إغلاق النافذة</translation>
+</message>
+<message>
+<tag_code>116</tag_code>
+<translation>وقت الاتصال</translation>
+</message>
+<message>
+<tag_code>118</tag_code>
+<translation>الاتصال بالخادم</translation>
+</message>
+<message>
+<tag_code>120</tag_code>
+<translation>التفاوض</translation>
+</message>
+<message>
+<tag_code>122</tag_code>
+<translation>المصادقة</translation>
+</message>
+<message>
+<tag_code>124</tag_code>
+<translation>الحصول على عنوان IP</translation>
+</message>
+<message>
+<tag_code>126</tag_code>
+<translation>If connection fails, check your Login, Password, and other data.</translation>
+</message>
+<message>
+<tag_code>127</tag_code>
+<translation>حظر المواقع</translation>
+</message>
+<message>
+<tag_code>128</tag_code>
+<translation>حظر الكلمات الأساسية</translation>
+</message>
+<message>
+<tag_code>129</tag_code>
+<translation>أبدًا</translation>
+</message>
+<message>
+<tag_code>130</tag_code>
+<translation>وفق جدول</translation>
+</message>
+<message>
+<tag_code>131</tag_code>
+<translation>دائمًا</translation>
+</message>
+<message>
+<tag_code>132</tag_code>
+<translation>اكتب الكلمة الأساسية أو اسم المجال هنا.</translation>
+</message>
+<message>
+<tag_code>133</tag_code>
+<translation>حظر المواقع التي تحتوي على هذه الكلمات الأساسية أو أسماء المجالات:</translation>
+</message>
+<message>
+<tag_code>135</tag_code>
+<translation>السماح لعنوان IP الموثوق بزيارة المواقع المحظورة</translation>
+</message>
+<message>
+<tag_code>136</tag_code>
+<translation>عنوان IP الموثوق</translation>
+</message>
+<message>
+<tag_code>137</tag_code>
+<translation>إضافة كلمة أساسية</translation>
+</message>
+<message>
+<tag_code>138</tag_code>
+<translation>حذف كلمة أساسية</translation>
+</message>
+<message>
+<tag_code>139</tag_code>
+<translation>مسح القائمة</translation>
+</message>
+<message>
+<tag_code>140</tag_code>
+<translation>حظر الخدمات</translation>
+</message>
+<message>
+<tag_code>141</tag_code>
+<translation>حظر الخدمات</translation>
+</message>
+<message>
+<tag_code>142</tag_code>
+<translation>جدول الخدمات</translation>
+</message>
+<message>
+<tag_code>144</tag_code>
+<translation>نوع الخدمة</translation>
+</message>
+<message>
+<tag_code>145</tag_code>
+<translation>المنفذ</translation>
+</message>
+<message>
+<tag_code>146</tag_code>
+<translation>إضافة</translation>
+</message>
+<message>
+<tag_code>147</tag_code>
+<translation>تحرير</translation>
+</message>
+<message>
+<tag_code>148</tag_code>
+<translation>حذف</translation>
+</message>
+<message>
+<tag_code>149</tag_code>
+<translation>إعداد حظر الخدمات</translation>
+</message>
+<message>
+<tag_code>151</tag_code>
+<translation>بروتوكول</translation>
+</message>
+<message>
+<tag_code>155</tag_code>
+<translation>منفذ البداية</translation>
+</message>
+<message>
+<tag_code>157</tag_code>
+<translation>منفذ النهاية</translation>
+</message>
+<message>
+<tag_code>158</tag_code>
+<translation>نوع الخدمة/معرَّفة من قِبل المستخدم</translation>
+</message>
+<message>
+<tag_code>159</tag_code>
+<translation>تصفية الخدمات لـ</translation>
+</message>
+<message>
+<tag_code>160</tag_code>
+<translation>عنوان IP هذا فقط</translation>
+</message>
+<message>
+<tag_code>161</tag_code>
+<translation>نطاق عناوين IP</translation>
+</message>
+<message>
+<tag_code>162</tag_code>
+<translation>إلى</translation>
+</message>
+<message>
+<tag_code>163</tag_code>
+<translation>كافة عناوين IP</translation>
+</message>
+<message>
+<tag_code>164</tag_code>
+<translation>Web Site Blocked By NETGEAR Firewall</translation>
+</message>
+<message>
+<tag_code>166</tag_code>
+<translation>لا يوجد اتصال بالإنترنت</translation>
+</message>
+<message>
+<tag_code>167</tag_code>
+<translation>لا يوجد بالموجه اتصال بالانترنت، ويتعذر عليه تنزيل ملف اللغة المحددة من موقع ويب NETGEAR. إذا لم تكن قد أعددت منفذ الإنترنت الخاص بالموجه، فيرجى تشغيل القرص المضغوط الخاص بالتثبيت، وإلا، فيرجى توصيل الموجه بالإنترنت يدويًا ومحاولة استخدام هذه الوظيفة مرة أخرى.</translation>
+</message>
+<message>
+<tag_code>168</tag_code>
+<translation>موافق</translation>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>مساعد ترقية البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>170</tag_code>
+<translation>يفحص الموجه خادم NETGEAR للتحقق من توفر برنامج ثابت محدث للموجه الخاص بك. &lt;br&gt; &lt;br&gt; قد يستغرق ذلك حتى </translation>
+</message>
+<message>
+<tag_code>171</tag_code>
+<translation> ثوان، يرجى الانتظار ...</translation>
+</message>
+<message>
+<tag_code>172</tag_code>
+<translation>التحقق من برنامج ثابت محدَّث عند تسجيل الدخول </translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>التحقق من إصدار البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>174</tag_code>
+<translation>لا يتوفر إصدار جديد للبرنامج الثابت.</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>السابق</translation>
+</message>
+<message>
+<tag_code>176</tag_code>
+<translation>يقوم الموجه بتنزيل الإصدار الجديد الآن. يرجى الانتظار...</translation>
+</message>
+<message>
+<tag_code>177</tag_code>
+<translation>جارِ ترقية البرنامج الثابت للموجه الآن. يرجى الانتظار</translation>
+</message>
+<message>
+<tag_code>178</tag_code>
+<translation>ملاحظة: سيستغرق هذا حوالي </translation>
+</message>
+<message>
+<tag_code>179</tag_code>
+<translation> دقائق لترقية البرنامج الثابت.&lt;br&gt;يرجى عدم إيقاف تشغيل الطاقة أو الضغط على زر إعادة التعيين.</translation>
+</message>
+<message>
+<tag_code>180</tag_code>
+<translation>تحميل</translation>
+</message>
+<message>
+<tag_code>181</tag_code>
+<translation>يرجى الانتظار...</translation>
+</message>
+<message>
+<tag_code>182</tag_code>
+<translation>تحديث لغة GUI</translation>
+</message>
+<message>
+<tag_code>183</tag_code>
+<translation>جارِ تنزيل وتحديث جدول اللغات، يرجى الانتظار لدقيقة واحدة تقريبًا… </translation>
+</message>
+<message>
+<tag_code>184</tag_code>
+<translation>بعيدة</translation>
+</message>
+<message>
+<tag_code>185</tag_code>
+<translation>غير معروف</translation>
+</message>
+<message>
+<tag_code>186</tag_code>
+<translation>Devices</translation>
+</message>
+<message>
+<tag_code>189</tag_code>
+<translation>اسم المجلد</translation>
+</message>
+<message>
+<tag_code>190</tag_code>
+<translation>الأجهزة المتصلة</translation>
+</message>
+<message>
+<tag_code>191</tag_code>
+<translation>الأجهزة السلكية</translation>
+</message>
+<message>
+<tag_code>192</tag_code>
+<translation>اسم الجهاز</translation>
+</message>
+<message>
+<tag_code>193</tag_code>
+<translation>الأجهزة اللاسلكية (تظهر الأجهزة اللاسلكية المتطفلة هنا أيضًا)</translation>
+</message>
+<message>
+<tag_code>194</tag_code>
+<translation>تحديث</translation>
+</message>
+<message>
+<tag_code>195</tag_code>
+<translation>التشخيص</translation>
+</message>
+<message>
+<tag_code>196</tag_code>
+<translation>اختبار اتصال عنوان IP</translation>
+</message>
+<message>
+<tag_code>197</tag_code>
+<translation>إجراء بحث DNS</translation>
+</message>
+<message>
+<tag_code>198</tag_code>
+<translation>اسم الإنترنت</translation>
+</message>
+<message>
+<tag_code>199</tag_code>
+<translation>عنوان IP</translation>
+</message>
+<message>
+<tag_code>202</tag_code>
+<translation>الخادم:</translation>
+</message>
+<message>
+<tag_code>204</tag_code>
+<translation>عرض جدول التوجيه</translation>
+</message>
+<message>
+<tag_code>205</tag_code>
+<translation>إعادة تمهيد الموجه</translation>
+</message>
+<message>
+<tag_code>206</tag_code>
+<translation>اختبار الاتصال</translation>
+</message>
+<message>
+<tag_code>207</tag_code>
+<translation>بحث</translation>
+</message>
+<message>
+<tag_code>208</tag_code>
+<translation>عرض</translation>
+</message>
+<message>
+<tag_code>209</tag_code>
+<translation>إعادة تمهيد</translation>
+</message>
+<message>
+<tag_code>210</tag_code>
+<translation>تشخيص - اختبار الاتصال</translation>
+</message>
+<message>
+<tag_code>211</tag_code>
+<translation>نتائج اختبار الاتصال</translation>
+</message>
+<message>
+<tag_code>212</tag_code>
+<translation>@ping_output#</translation>
+</message>
+<message>
+<tag_code>213</tag_code>
+<translation>تشخيص - جدول التوجيه</translation>
+</message>
+<message>
+<tag_code>214</tag_code>
+<translation>الوجهة</translation>
+</message>
+<message>
+<tag_code>215</tag_code>
+<translation>قناع</translation>
+</message>
+<message>
+<tag_code>216</tag_code>
+<translation>قياس</translation>
+</message>
+<message>
+<tag_code>217</tag_code>
+<translation>نشط</translation>
+</message>
+<message>
+<tag_code>218</tag_code>
+<translation> DNS الحيوي</translation>
+</message>
+<message>
+<tag_code>219</tag_code>
+<translation>استخدام خدمة DNS حيوي</translation>
+</message>
+<message>
+<tag_code>220</tag_code>
+<translation>موفر الخدمة</translation>
+</message>
+<message>
+<tag_code>222</tag_code>
+<translation>اسم المضيف</translation>
+</message>
+<message>
+<tag_code>223</tag_code>
+<translation>اسم المستخدم</translation>
+</message>
+<message>
+<tag_code>224</tag_code>
+<translation>إظهار الحالة</translation>
+</message>
+<message>
+<tag_code>225</tag_code>
+<translation>تحذير</translation>
+</message>
+<message>
+<tag_code>226</tag_code>
+<translation>فشلت مصادقة النظام.</translation>
+</message>
+<message>
+<tag_code>227</tag_code>
+<translation>يرجى الاتصال بمسؤول النظام للحصول على المعلومات الصحيحة.</translation>
+</message>
+<message>
+<tag_code>228</tag_code>
+<translation>فشل</translation>
+</message>
+<message>
+<tag_code>230</tag_code>
+<translation>سيتم إرجاع هذه الشاشة تلقائيًا إلى الشاشة السابقة خلال ثوانٍ قليلة...</translation>
+</message>
+<message>
+<tag_code>232</tag_code>
+<translation>البريد الإلكتروني</translation>
+</message>
+<message>
+<tag_code>233</tag_code>
+<translation>تشغيل إعلام البريد الإلكتروني</translation>
+</message>
+<message>
+<tag_code>234</tag_code>
+<translation>إرسال التنبيهات والسجلات عبر البريد الإلكتروني</translation>
+</message>
+<message>
+<tag_code>235</tag_code>
+<translation>خادم البريد الصادر الخاص بك</translation>
+</message>
+<message>
+<tag_code>236</tag_code>
+<translation>إرسال إلى عنوان البريد الإلكتروني هذا</translation>
+</message>
+<message>
+<tag_code>237</tag_code>
+<translation>يتطلب خادم البريد الخاص بي المصادقة</translation>
+</message>
+<message>
+<tag_code>238</tag_code>
+<translation>إرسال تنبيه فورًا</translation>
+</message>
+<message>
+<tag_code>239</tag_code>
+<translation>عند محاولة شخص زيارة موقع محظور</translation>
+</message>
+<message>
+<tag_code>240</tag_code>
+<translation>إرسال سجلات وفقًا لهذا الجدول</translation>
+</message>
+<message>
+<tag_code>241</tag_code>
+<translation>عند امتلاء السجل</translation>
+</message>
+<message>
+<tag_code>242</tag_code>
+<translation>كل ساعة</translation>
+</message>
+<message>
+<tag_code>243</tag_code>
+<translation>يوميًا</translation>
+</message>
+<message>
+<tag_code>244</tag_code>
+<translation>أسبوعيًا</translation>
+</message>
+<message>
+<tag_code>245</tag_code>
+<translation>بلا</translation>
+</message>
+<message>
+<tag_code>246</tag_code>
+<translation>يوم</translation>
+</message>
+<message>
+<tag_code>247</tag_code>
+<translation>الأحد</translation>
+</message>
+<message>
+<tag_code>248</tag_code>
+<translation>الاثنين</translation>
+</message>
+<message>
+<tag_code>249</tag_code>
+<translation>الثلاثاء</translation>
+</message>
+<message>
+<tag_code>250</tag_code>
+<translation>الأربعاء</translation>
+</message>
+<message>
+<tag_code>251</tag_code>
+<translation>الخميس</translation>
+</message>
+<message>
+<tag_code>252</tag_code>
+<translation>الجمعة</translation>
+</message>
+<message>
+<tag_code>253</tag_code>
+<translation>السبت</translation>
+</message>
+<message>
+<tag_code>254</tag_code>
+<translation>الوقت</translation>
+</message>
+<message>
+<tag_code>255</tag_code>
+<translation>الاتصال الآمن (استخدم SSL)</translation>
+</message>
+<message>
+<tag_code>267</tag_code>
+<translation>ص</translation>
+</message>
+<message>
+<tag_code>268</tag_code>
+<translation>م</translation>
+</message>
+<message>
+<tag_code>269</tag_code>
+<translation>إعادة توجيه المنفذ / تشغيل المنفذ</translation>
+</message>
+<message>
+<tag_code>270</tag_code>
+<translation>يرجى تحديد نوع الخدمة.</translation>
+</message>
+<message>
+<tag_code>271</tag_code>
+<translation>إعادة توجيه المنفذ</translation>
+</message>
+<message>
+<tag_code>272</tag_code>
+<translation>تشغيل المنفذ</translation>
+</message>
+<message>
+<tag_code>273</tag_code>
+<translation>عنوان IP الخاص بالخادم</translation>
+</message>
+<message>
+<tag_code>277</tag_code>
+<translation>IP_Phone</translation>
+</message>
+<message>
+<tag_code>278</tag_code>
+<translation>NetMeeting</translation>
+</message>
+<message>
+<tag_code>279</tag_code>
+<translation>أخبار</translation>
+</message>
+<message>
+<tag_code>281</tag_code>
+<translation>Real-Audio</translation>
+</message>
+<message>
+<tag_code>282</tag_code>
+<translation>Telnet</translation>
+</message>
+<message>
+<tag_code>283</tag_code>
+<translation>منفذ بداية</translation>
+</message>
+<message>
+<tag_code>284</tag_code>
+<translation>منفذ نهاية</translation>
+</message>
+<message>
+<tag_code>285</tag_code>
+<translation>  Edit Service  </translation>
+</message>
+<message>
+<tag_code>286</tag_code>
+<translation>حذف خدمة</translation>
+</message>
+<message>
+<tag_code>287</tag_code>
+<translation>إضافة خدمة مخصصة</translation>
+</message>
+<message>
+<tag_code>288</tag_code>
+<translation>Rule</translation>
+</message>
+<message>
+<tag_code>289</tag_code>
+<translation>Pre-set Port Forwarding Rule</translation>
+</message>
+<message>
+<tag_code>290</tag_code>
+<translation>Custom Rule</translation>
+</message>
+<message>
+<tag_code>291</tag_code>
+<translation>المنافذ - خدمات مخصصة</translation>
+</message>
+<message>
+<tag_code>292</tag_code>
+<translation>منفذ البداية</translation>
+</message>
+<message>
+<tag_code>294</tag_code>
+<translation>منفذ النهاية</translation>
+</message>
+<message>
+<tag_code>295</tag_code>
+<translation>السجلات</translation>
+</message>
+<message>
+<tag_code>296</tag_code>
+<translation>الوقت الحالي</translation>
+</message>
+<message>
+<tag_code>298</tag_code>
+<translation>تضمين في السجل</translation>
+</message>
+<message>
+<tag_code>299</tag_code>
+<translation>تمت محاولة الوصول إلى المواقع المسموح بها</translation>
+</message>
+<message>
+<tag_code>300</tag_code>
+<translation>تمت محاولة الوصول إلى المواقع والخدمات المحظورة</translation>
+</message>
+<message>
+<tag_code>301</tag_code>
+<translation>اتصالات بالواجهة المستندة إلى ويب الخاصة بهذا الموجه</translation>
+</message>
+<message>
+<tag_code>302</tag_code>
+<translation>عملية الموجه (بدء التشغيل، الحصول على الوقت، الخ)</translation>
+</message>
+<message>
+<tag_code>303</tag_code>
+<translation>هجمات DoS وعمليات مسح المنفذ معروفة</translation>
+</message>
+<message>
+<tag_code>304</tag_code>
+<translation>إعادة توجيه المنفذ / تشغيل المنفذ</translation>
+</message>
+<message>
+<tag_code>305</tag_code>
+<translation>الوصول اللاسلكي</translation>
+</message>
+<message>
+<tag_code>306</tag_code>
+<translation>مسح سجل</translation>
+</message>
+<message>
+<tag_code>307</tag_code>
+<translation>إرسال سجل</translation>
+</message>
+<message>
+<tag_code>309</tag_code>
+<translation>تعطيل تشغيل المنفذ</translation>
+</message>
+<message>
+<tag_code>310</tag_code>
+<translation>(بالدقائق)</translation>
+</message>
+<message>
+<tag_code>311</tag_code>
+<translation>مهلة تشغيل المنفذ</translation>
+</message>
+<message>
+<tag_code>312</tag_code>
+<translation>جدول Portmap لتشغيل المنفذ</translation>
+</message>
+<message>
+<tag_code>313</tag_code>
+<translation>تمكين</translation>
+</message>
+<message>
+<tag_code>314</tag_code>
+<translation>اتصال وارد</translation>
+</message>
+<message>
+<tag_code>315</tag_code>
+<translation>مستخدم خدمة</translation>
+</message>
+<message>
+<tag_code>316</tag_code>
+<translation>إضافة خدمة</translation>
+</message>
+<message>
+<tag_code>317</tag_code>
+<translation>تحرير خدمة</translation>
+</message>
+<message>
+<tag_code>318</tag_code>
+<translation>خدمة</translation>
+</message>
+<message>
+<tag_code>319</tag_code>
+<translation>أي قيمة</translation>
+</message>
+<message>
+<tag_code>320</tag_code>
+<translation>عنوان مفرد</translation>
+</message>
+<message>
+<tag_code>321</tag_code>
+<translation>منفذ التشغيل</translation>
+</message>
+<message>
+<tag_code>322</tag_code>
+<translation>اتصال وارد مطلوب</translation>
+</message>
+<message>
+<tag_code>323</tag_code>
+<translation>الإدارة عن بُعد</translation>
+</message>
+<message>
+<tag_code>324</tag_code>
+<translation>تشغيل الإدارة عن بُعد</translation>
+</message>
+<message>
+<tag_code>325</tag_code>
+<translation>عنوان الإدارة عن بُعد</translation>
+</message>
+<message>
+<tag_code>327</tag_code>
+<translation>السماح بالوصول عن بُعد حسب</translation>
+</message>
+<message>
+<tag_code>328</tag_code>
+<translation>هذا الكمبيوتر فقط</translation>
+</message>
+<message>
+<tag_code>330</tag_code>
+<translation>نطاق العناوين</translation>
+</message>
+<message>
+<tag_code>331</tag_code>
+<translation>من</translation>
+</message>
+<message>
+<tag_code>332</tag_code>
+<translation>إلى</translation>
+</message>
+<message>
+<tag_code>333</tag_code>
+<translation>الكل</translation>
+</message>
+<message>
+<tag_code>334</tag_code>
+<translation>رقم المنفذ</translation>
+</message>
+<message>
+<tag_code>335</tag_code>
+<translation>قواعد جدار الحماية</translation>
+</message>
+<message>
+<tag_code>336</tag_code>
+<translation>الخدمات الصادرة</translation>
+</message>
+<message>
+<tag_code>337</tag_code>
+<translation>الإجراء</translation>
+</message>
+<message>
+<tag_code>339</tag_code>
+<translation>Users</translation>
+</message>
+<message>
+<tag_code>341</tag_code>
+<translation>Servers</translation>
+</message>
+<message>
+<tag_code>342</tag_code>
+<translation>السجل</translation>
+</message>
+<message>
+<tag_code>343</tag_code>
+<translation>الافتراضي</translation>
+</message>
+<message>
+<tag_code>344</tag_code>
+<translation>سماح دائماً</translation>
+</message>
+<message>
+<tag_code>345</tag_code>
+<translation>الخدمات الواردة</translation>
+</message>
+<message>
+<tag_code>346</tag_code>
+<translation>IPAddress</translation>
+</message>
+<message>
+<tag_code>347</tag_code>
+<translation>حظر دائماً</translation>
+</message>
+<message>
+<tag_code>349</tag_code>
+<translation>Instant Messaging</translation>
+</message>
+<message>
+<tag_code>350</tag_code>
+<translation>Ports</translation>
+</message>
+<message>
+<tag_code>351</tag_code>
+<translation>إغلاق منافذ IM</translation>
+</message>
+<message>
+<tag_code>352</tag_code>
+<translation>فتح منافذ IM (منافذ IM مفتوحة افتراضياً)</translation>
+</message>
+<message>
+<tag_code>353</tag_code>
+<translation>نقل</translation>
+</message>
+<message>
+<tag_code>354</tag_code>
+<translation>الجدول</translation>
+</message>
+<message>
+<tag_code>355</tag_code>
+<translation>أيام الحظر</translation>
+</message>
+<message>
+<tag_code>356</tag_code>
+<translation>كل يوم</translation>
+</message>
+<message>
+<tag_code>357</tag_code>
+<translation>وقت الحظر من اليوم:</translation>
+</message>
+<message>
+<tag_code>358</tag_code>
+<translation>(استخدام 24 ساعة)</translation>
+</message>
+<message>
+<tag_code>359</tag_code>
+<translation>كل اليوم</translation>
+</message>
+<message>
+<tag_code>360</tag_code>
+<translation>البداية</translation>
+</message>
+<message>
+<tag_code>362</tag_code>
+<translation>ساعة</translation>
+</message>
+<message>
+<tag_code>363</tag_code>
+<translation>دقيقة</translation>
+</message>
+<message>
+<tag_code>364</tag_code>
+<translation>انتهاء</translation>
+</message>
+<message>
+<tag_code>365</tag_code>
+<translation>المنطقة الزمنية</translation>
+</message>
+<message>
+<tag_code>366</tag_code>
+<translation>(GMT-12:00) إنترناشونال دايت لاين ويست</translation>
+</message>
+<message>
+<tag_code>367</tag_code>
+<translation>(GMT-11:00) جزيرة ميدواي، ساموا</translation>
+</message>
+<message>
+<tag_code>368</tag_code>
+<translation>(GMT-10:00) هاواي</translation>
+</message>
+<message>
+<tag_code>369</tag_code>
+<translation>(GMT-09:00) ألاسكا</translation>
+</message>
+<message>
+<tag_code>370</tag_code>
+<translation>(GMT-08:00) توقيت المحيط الهادي (الولايات المتحدة وكندا)؛ تيجوانا</translation>
+</message>
+<message>
+<tag_code>371</tag_code>
+<translation>(GMT-07:00) أريزونا، تشيواوا، لاباز، مازاتلان</translation>
+</message>
+<message>
+<tag_code>372</tag_code>
+<translation>(GMT-07:00) التوقيت الجبلي (الولايات المتحدة وكندا)</translation>
+</message>
+<message>
+<tag_code>373</tag_code>
+<translation>(GMT-06:00) أمريكا الوسطى، التوقيت المركزي (الولايات المتحدة وكندا)</translation>
+</message>
+<message>
+<tag_code>374</tag_code>
+<translation>(GMT-06:00) غوادالاجارا، مكسيكو سيتي، مونتيري، ساسكاتشوان</translation>
+</message>
+<message>
+<tag_code>376</tag_code>
+<translation>(GMT-05:00) بوجوتا، ليما، كيتو،)</translation>
+</message>
+<message>
+<tag_code>377</tag_code>
+<translation>(GMT-05:00)  التوقيت الشرقي (الولايات المتحدة وكندا</translation>
+</message>
+<message>
+<tag_code>378</tag_code>
+<translation>(GMT-05:00) إنديانا (شرق)</translation>
+</message>
+<message>
+<tag_code>379</tag_code>
+<translation>(GMT-04:00) توقيت الأطلنطي (كندا)، كراكاس، لاباز، سانتياغو</translation>
+</message>
+<message>
+<tag_code>380</tag_code>
+<translation>(GMT-03:30) نيوفاوندلاند</translation>
+</message>
+<message>
+<tag_code>383</tag_code>
+<translation>(GMT-03:00) برازيليا، بوينس آيرس، جورج تاون، جرينلاند</translation>
+</message>
+<message>
+<tag_code>385</tag_code>
+<translation>(GMT-02:00) وسط المحيط الأطلنطي</translation>
+</message>
+<message>
+<tag_code>386</tag_code>
+<translation>(GMT-01:00) أزورس، جزيرة الرأس الأخضر.</translation>
+</message>
+<message>
+<tag_code>387</tag_code>
+<translation>(GMT) الدار البيضاء, مونروفيا</translation>
+</message>
+<message>
+<tag_code>388</tag_code>
+<translation>(GMT) توقيت جرينتش: دبلن، إدنبرة، لشبونة، لندن</translation>
+</message>
+<message>
+<tag_code>389</tag_code>
+<translation>(GMT+01:00) أمستردام، برلين، برن، روما، ستوكهولم، فيينا</translation>
+</message>
+<message>
+<tag_code>390</tag_code>
+<translation>(GMT+01:00) بلجراد، براتيسلافا، بودابست، لوبليانا، براغ</translation>
+</message>
+<message>
+<tag_code>391</tag_code>
+<translation>(GMT+01:00) بروكسل، كوبنهاجن، مدريد، باريس</translation>
+</message>
+<message>
+<tag_code>392</tag_code>
+<translation>(GMT+01:00) سراييفو، سكوبي، وارسو، زغرب، غرب أفريقيا الوسطى</translation>
+</message>
+<message>
+<tag_code>393</tag_code>
+<translation>(GMT+02:00) أثينا، بيروت، إسطنبول، مينسك</translation>
+</message>
+<message>
+<tag_code>394</tag_code>
+<translation>(GMT+02:00) بوخارست، القاهرة، هراري، بريتوريا</translation>
+</message>
+<message>
+<tag_code>397</tag_code>
+<translation>(GMT+02:00) هلسنكي، كييف، ريجا، صوفيا، تالين، فيلنيوس، القدس</translation>
+</message>
+<message>
+<tag_code>399</tag_code>
+<translation>(GMT+03:00) بغداد، الكويت، نيروبي، الرياض</translation>
+</message>
+<message>
+<tag_code>400</tag_code>
+<translation>(GMT+03:00) بغداد، الكويت، نيروبي، الرياض، طهران</translation>
+</message>
+<message>
+<tag_code>401</tag_code>
+<translation>(GMT+04:00) موسكو، سانت بيترسبرغ، فولغوغراد</translation>
+</message>
+<message>
+<tag_code>404</tag_code>
+<translation>(GMT+04:00) أبو ظبي، مسقط، باكو، تبيليسي، يريفان، كابول </translation>
+</message>
+<message>
+<tag_code>406</tag_code>
+<translation>(GMT+05:00) إيكاترينبرج، إسلام أباد، كراتشي، طشقند</translation>
+</message>
+<message>
+<tag_code>409</tag_code>
+<translation>(GMT+05:30) شيناي، كالكتا، مومباي، نيودلهي ,Kathmandu</translation>
+</message>
+<message>
+<tag_code>411</tag_code>
+<translation>(GMT+06:00) ألماتي، أستانا، دكا، وسري جاياواردينبورا، رانجون,Yekaterinburg</translation>
+</message>
+<message>
+<tag_code>412</tag_code>
+<translation>(GMT+07:00) بانكوك، جاكرتا، هانوي، نوفوسيبيرسك </translation>
+</message>
+<message>
+<tag_code>413</tag_code>
+<translation>(GMT+08:00) بكين، شونجكينج، هونغ كونغ، أورومكي ،كراسنويارسك</translation>
+</message>
+<message>
+<tag_code>414</tag_code>
+<translation>(GMT+08:00)  أولان باتور، كوالا لامبور، سنغافورة، بيرث، وتايبيه</translation>
+</message>
+<message>
+<tag_code>417</tag_code>
+<translation>(GMT+09:00) طوكيو، أوساكا، سابورو، سيول،  أديلايد، دارويناركوتسك،</translation>
+</message>
+<message>
+<tag_code>422</tag_code>
+<translation>(GMT+10:00) بريسبان، كانبيرا، ملبورن، سيدني</translation>
+</message>
+<message>
+<tag_code>423</tag_code>
+<translation>(GMT+10:00) ياكوتسك</translation>
+</message>
+<message>
+<tag_code>424</tag_code>
+<translation>(GMT+10:00) غوام، بورت مورسبي، هوبارت</translation>
+</message>
+<message>
+<tag_code>426</tag_code>
+<translation>(GMT+11:00)  فلاديفوستوك</translation>
+</message>
+<message>
+<tag_code>427</tag_code>
+<translation>(GMT+11:00) ماجادان، جزر سليمان، كاليدونيا الجديدة</translation>
+</message>
+<message>
+<tag_code>429</tag_code>
+<translation>(GMT+12:00) فيجي، أوكلاند، ولينغتون، جزر مارشال، ماغادان</translation>
+</message>
+<message>
+<tag_code>430</tag_code>
+<translation>(GMT+13:00) نوكوالوفا</translation>
+</message>
+<message>
+<tag_code>431</tag_code>
+<translation>ضبط التوقيت الصيفي تلقائيًا</translation>
+</message>
+<message>
+<tag_code>432</tag_code>
+<translation>الوقت الحالي</translation>
+</message>
+<message>
+<tag_code>433</tag_code>
+<translation>الخدمات</translation>
+</message>
+<message>
+<tag_code>434</tag_code>
+<translation>تحديث هام</translation>
+</message>
+<message>
+<tag_code>435</tag_code>
+<translation>لتجنب التعارض مع موفر خدمة الإنترنت، تم تحديث عنوان IP الخاص بالموجه إلى </translation>
+</message>
+<message>
+<tag_code>437</tag_code>
+<translation>يجب عليك الآن تحديث عناوين IP في إعدادات تكوين الموجه لكل خدمة ذات صلة، مثل إعادة توجيه المنفذ وحجز عنوان IP.</translation>
+</message>
+<message>
+<tag_code>438</tag_code>
+<translation>إغلاق النافذة</translation>
+</message>
+<message>
+<tag_code>439</tag_code>
+<translation>Setup requires JavaScript Support</translation>
+</message>
+<message>
+<tag_code>440</tag_code>
+<translation>لتوفير واجهة مستخدم محسَّنة، يستخدم هذا الموجه JavaScript بشكل شامل.</translation>
+</message>
+<message>
+<tag_code>441</tag_code>
+<translation>Currently, your Browser does NOT support JavaScript.</translation>
+</message>
+<message>
+<tag_code>442</tag_code>
+<translation>يرجى تمكين JavaScript في المستعرض، أو استخدم مستعرضًا آخر.</translation>
+</message>
+<message>
+<tag_code>443</tag_code>
+<translation>هل ترغب في التبديل من</translation>
+</message>
+<message>
+<tag_code>445</tag_code>
+<translation>( اللغة الحالية) إلى</translation>
+</message>
+<message>
+<tag_code>446</tag_code>
+<translation>البلد</translation>
+</message>
+<message>
+<tag_code>447</tag_code>
+<translation>إعداد</translation>
+</message>
+<message>
+<tag_code>449</tag_code>
+<translation>اتجاه RIP</translation>
+</message>
+<message>
+<tag_code>450</tag_code>
+<translation>كلاهما</translation>
+</message>
+<message>
+<tag_code>451</tag_code>
+<translation>الوارد فقط</translation>
+</message>
+<message>
+<tag_code>452</tag_code>
+<translation>الصادر فقط</translation>
+</message>
+<message>
+<tag_code>453</tag_code>
+<translation>إصدار RIP</translation>
+</message>
+<message>
+<tag_code>454</tag_code>
+<translation>معطَّل</translation>
+</message>
+<message>
+<tag_code>455</tag_code>
+<translation>إيقاف تشغيل</translation>
+</message>
+<message>
+<tag_code>456</tag_code>
+<translation>تشغيل</translation>
+</message>
+<message>
+<tag_code>458</tag_code>
+<translation>استخدام الموجه كخادم DHCP</translation>
+</message>
+<message>
+<tag_code>459</tag_code>
+<translation>حجز العنوان</translation>
+</message>
+<message>
+<tag_code>460</tag_code>
+<translation>جدول حجز العنوان</translation>
+</message>
+<message>
+<tag_code>461</tag_code>
+<translation>يرجى اختيار عنوان محجوز لحذفه.</translation>
+</message>
+<message>
+<tag_code>463</tag_code>
+<translation>يرجى اختيار عنوان محجوز لتحريره.</translation>
+</message>
+<message>
+<tag_code>464</tag_code>
+<translation>شكرًا لاستخدامك أداة تكوين موجه NETGEAR المستندة إلى ويب.</translation>
+</message>
+<message>
+<tag_code>465</tag_code>
+<translation>إلى اللقاء</translation>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>معالج الإعداد</translation>
+</message>
+<message>
+<tag_code>467</tag_code>
+<translation>إضافة عميل WPS</translation>
+</message>
+<message>
+<tag_code>468</tag_code>
+<translation>الإعدادات اللاسلكية(2.4GHz)</translation>
+</message>
+<message>
+<tag_code>469</tag_code>
+<translation>الإعدادات اللاسلكية(5GHz)</translation>
+</message>
+<message>
+<tag_code>470</tag_code>
+<translation>شبكة الضيف</translation>
+</message>
+<message>
+<tag_code>473</tag_code>
+<translation>جهاز تخزين USB</translation>
+</message>
+<message>
+<tag_code>474</tag_code>
+<translation>إعدادات متقدمة</translation>
+</message>
+<message>
+<tag_code>475</tag_code>
+<translation>تصفية المحتوى</translation>
+</message>
+<message>
+<tag_code>476</tag_code>
+<translation>الصيانة</translation>
+</message>
+<message>
+<tag_code>477</tag_code>
+<translation>حالة الموجه</translation>
+</message>
+<message>
+<tag_code>478</tag_code>
+<translation>تعيين كلمة المرور</translation>
+</message>
+<message>
+<tag_code>479</tag_code>
+<translation>ترقية الموجه</translation>
+</message>
+<message>
+<tag_code>480</tag_code>
+<translation>خيارات متقدمة</translation>
+</message>
+<message>
+<tag_code>481</tag_code>
+<translation>وظيفة التكرار اللاسلكي</translation>
+</message>
+<message>
+<tag_code>483</tag_code>
+<translation>التوجيهات الثابتة</translation>
+</message>
+<message>
+<tag_code>485</tag_code>
+<translation>مقياس حركة المرور</translation>
+</message>
+<message>
+<tag_code>486</tag_code>
+<translation>إعدادات USB</translation>
+</message>
+<message>
+<tag_code>487</tag_code>
+<translation>دعم ويب</translation>
+</message>
+<message>
+<tag_code>488</tag_code>
+<translation>قاعدة المعارف</translation>
+</message>
+<message>
+<tag_code>489</tag_code>
+<translation>الوثائق</translation>
+</message>
+<message>
+<tag_code>490</tag_code>
+<translation>تسجل الخروج</translation>
+</message>
+<message>
+<tag_code>492</tag_code>
+<translation>معالج الإعداد</translation>
+</message>
+<message>
+<tag_code>493</tag_code>
+<translation>الإعدادات الأساسية</translation>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>الإعدادات اللاسلكية</translation>
+</message>
+<message>
+<tag_code>495</tag_code>
+<translation>حظر المواقع</translation>
+</message>
+<message>
+<tag_code>496</tag_code>
+<translation>النسخ الاحتياطي للإعدادات</translation>
+</message>
+<message>
+<tag_code>497</tag_code>
+<translation>ترقية الموجه</translation>
+</message>
+<message>
+<tag_code>498</tag_code>
+<translation> DNS الحيوي</translation>
+</message>
+<message>
+<tag_code>500</tag_code>
+<translation>التوجيهات الثابتة</translation>
+</message>
+<message>
+<tag_code>501</tag_code>
+<translation>إضافة عميل WPS</translation>
+</message>
+<message>
+<tag_code>502</tag_code>
+<translation>الإدارة عن بُعد</translation>
+</message>
+<message>
+<tag_code>503</tag_code>
+<translation>تحديد لغة</translation>
+</message>
+<message>
+<tag_code>504</tag_code>
+<translation>يناير</translation>
+</message>
+<message>
+<tag_code>505</tag_code>
+<translation>فبراير</translation>
+</message>
+<message>
+<tag_code>506</tag_code>
+<translation>مارس</translation>
+</message>
+<message>
+<tag_code>507</tag_code>
+<translation>أبريل</translation>
+</message>
+<message>
+<tag_code>508</tag_code>
+<translation>مايو</translation>
+</message>
+<message>
+<tag_code>509</tag_code>
+<translation>يونيو</translation>
+</message>
+<message>
+<tag_code>510</tag_code>
+<translation>يوليو</translation>
+</message>
+<message>
+<tag_code>511</tag_code>
+<translation>أغسطس</translation>
+</message>
+<message>
+<tag_code>512</tag_code>
+<translation>سبتمبر</translation>
+</message>
+<message>
+<tag_code>513</tag_code>
+<translation>أكتوبر</translation>
+</message>
+<message>
+<tag_code>514</tag_code>
+<translation>نوفمبر</translation>
+</message>
+<message>
+<tag_code>515</tag_code>
+<translation>ديسمبر</translation>
+</message>
+<message>
+<tag_code>524</tag_code>
+<translation>وضع الجهاز</translation>
+</message>
+<message>
+<tag_code>525</tag_code>
+<translation>اسم الجهاز</translation>
+</message>
+<message>
+<tag_code>527</tag_code>
+<translation>وضع الجهاز</translation>
+</message>
+<message>
+<tag_code>528</tag_code>
+<translation>الموجه (مودم + موجه)</translation>
+</message>
+<message>
+<tag_code>529</tag_code>
+<translation>المودم (مودم فقط)</translation>
+</message>
+<message>
+<tag_code>530</tag_code>
+<translation>إعدادات ADSL</translation>
+</message>
+<message>
+<tag_code>531</tag_code>
+<translation>حالة المودم</translation>
+</message>
+<message>
+<tag_code>533</tag_code>
+<translation>حدد البلد واللغة</translation>
+</message>
+<message>
+<tag_code>534</tag_code>
+<translation>البلد</translation>
+</message>
+<message>
+<tag_code>536</tag_code>
+<translation>اللغة</translation>
+</message>
+<message>
+<tag_code>537</tag_code>
+<translation>إصدار البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>540</tag_code>
+<translation>المودم</translation>
+</message>
+<message>
+<tag_code>541</tag_code>
+<translation>إصدار البرنامج الثابت لـ ADSL</translation>
+</message>
+<message>
+<tag_code>544</tag_code>
+<translation>سرعة اتصال انتقال البيانات من الخادم</translation>
+</message>
+<message>
+<tag_code>546</tag_code>
+<translation>سرعة اتصال انتقال البيانات إلى الخادم</translation>
+</message>
+<message>
+<tag_code>551</tag_code>
+<translation>متصل بالشبكة السلكية</translation>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>لاسلكي</translation>
+</message>
+<message>
+<tag_code>554</tag_code>
+<translation>اسم</translation>
+</message>
+<message>
+<tag_code>561</tag_code>
+<translation>الوضع</translation>
+</message>
+<message>
+<tag_code>563</tag_code>
+<translation>إظهار الإحصاءات</translation>
+</message>
+<message>
+<tag_code>564</tag_code>
+<translation>At present, no Internet connection exists, so it is not possible to access Netgear's Web site and retrieve the requested document.</translation>
+</message>
+<message>
+<tag_code>565</tag_code>
+<translation>لم يتم اكتشاف اتصال إنترنت. يتعذر على الموجه التحقق من خادم NETGEAR بحثًا عن برنامج ثابت محدّث. بعد إعداد اتصال الإنترنت، انتقل إلى شاشة ترقية الموجه للبحث عن برنامج ثابت محدّث.</translation>
+</message>
+<message>
+<tag_code>566</tag_code>
+<translation>لم يتم اكتشاف اتصال الإنترنت.</translation>
+</message>
+<message>
+<tag_code>567</tag_code>
+<translation>Please Check the Connections to the @model_name#.</translation>
+</message>
+<message>
+<tag_code>568</tag_code>
+<translation>إعادة المحاولة</translation>
+</message>
+<message>
+<tag_code>569</tag_code>
+<translation>Re-pack Criteria:</translation>
+</message>
+<message>
+<tag_code>571</tag_code>
+<translation>(30 minutes)</translation>
+</message>
+<message>
+<tag_code>572</tag_code>
+<translation>401 غير مخول</translation>
+</message>
+<message>
+<tag_code>573</tag_code>
+<translation>يرجى الاتصال بمسؤول النظام للحصول على المعلومات الصحيحة.</translation>
+</message>
+<message>
+<tag_code>574</tag_code>
+<translation>كلمة المرور القديمة</translation>
+</message>
+<message>
+<tag_code>576</tag_code>
+<translation>تكرار كلمة المرور الجديدة</translation>
+</message>
+<message>
+<tag_code>577</tag_code>
+<translation>QoS - قواعد الأولوية</translation>
+</message>
+<message>
+<tag_code>578</tag_code>
+<translation>الأولوية</translation>
+</message>
+<message>
+<tag_code>579</tag_code>
+<translation>سياسة QoS لـ</translation>
+</message>
+<message>
+<tag_code>580</tag_code>
+<translation>فئة الأولوية</translation>
+</message>
+<message>
+<tag_code>581</tag_code>
+<translation>تطبيقات</translation>
+</message>
+<message>
+<tag_code>582</tag_code>
+<translation>ألعاب عبر الإنترنت</translation>
+</message>
+<message>
+<tag_code>583</tag_code>
+<translation>منفذ LAN لإيثرنت</translation>
+</message>
+<message>
+<tag_code>584</tag_code>
+<translation>MSN Messenger</translation>
+</message>
+<message>
+<tag_code>585</tag_code>
+<translation>Yahoo Messenger</translation>
+</message>
+<message>
+<tag_code>586</tag_code>
+<translation>هاتف IP</translation>
+</message>
+<message>
+<tag_code>587</tag_code>
+<translation>هاتف IP Vonage</translation>
+</message>
+<message>
+<tag_code>589</tag_code>
+<translation>Google Talk</translation>
+</message>
+<message>
+<tag_code>591</tag_code>
+<translation>إضافة تطبيق جديد</translation>
+</message>
+<message>
+<tag_code>592</tag_code>
+<translation>الأعلى</translation>
+</message>
+<message>
+<tag_code>593</tag_code>
+<translation>عالي</translation>
+</message>
+<message>
+<tag_code>594</tag_code>
+<translation>عادي</translation>
+</message>
+<message>
+<tag_code>595</tag_code>
+<translation>منخفض</translation>
+</message>
+<message>
+<tag_code>596</tag_code>
+<translation>نطاق منفذ محدد</translation>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>نوع الاتصال</translation>
+</message>
+<message>
+<tag_code>605</tag_code>
+<translation>إضافة لعبة جديدة</translation>
+</message>
+<message>
+<tag_code>606</tag_code>
+<translation>قائمة أجهزة MAC</translation>
+</message>
+<message>
+<tag_code>608</tag_code>
+<translation>منفذ LAN</translation>
+</message>
+<message>
+<tag_code>613</tag_code>
+<translation>قائمة قواعد أولوية QoS</translation>
+</message>
+<message>
+<tag_code>614</tag_code>
+<translation>سياسة QoS</translation>
+</message>
+<message>
+<tag_code>615</tag_code>
+<translation>الوصف</translation>
+</message>
+<message>
+<tag_code>616</tag_code>
+<translation>إضافة قاعدة أولوية</translation>
+</message>
+<message>
+<tag_code>617</tag_code>
+<translation>تمكين إعدادات WMM (الوسائط المتعددة للدقة اللاسلكية)</translation>
+</message>
+<message>
+<tag_code>618</tag_code>
+<translation>تشغيل QoS للوصول إلى الإنترنت</translation>
+</message>
+<message>
+<tag_code>619</tag_code>
+<translation>تشغيل التحكم بالنطاق الترددي</translation>
+</message>
+<message>
+<tag_code>620</tag_code>
+<translation>النطاق الترددي للارتباط الأعلى</translation>
+</message>
+<message>
+<tag_code>621</tag_code>
+<translation>الحد الأقصى</translation>
+</message>
+<message>
+<tag_code>622</tag_code>
+<translation>كيلو بايت في الثانية</translation>
+</message>
+<message>
+<tag_code>623</tag_code>
+<translation>ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>625</tag_code>
+<translation>التحقق من النطاق الترددي للارتباط الأعلى للإنترنت تلقائيًا</translation>
+</message>
+<message>
+<tag_code>626</tag_code>
+<translation>تحقق</translation>
+</message>
+<message>
+<tag_code>627</tag_code>
+<translation>إعداد قاعدة QoS</translation>
+</message>
+<message>
+<tag_code>628</tag_code>
+<translation>مساعد التحقق من النطاق الترددي للارتباط الأعلى</translation>
+</message>
+<message>
+<tag_code>629</tag_code>
+<translation>جارِ محاولة اكتشاف النطاق الترددي للارتباط الأعلى . يرجى الانتظار</translation>
+</message>
+<message>
+<tag_code>630</tag_code>
+<translation>Router Rebooting</translation>
+</message>
+<message>
+<tag_code>631</tag_code>
+<translation>تقدم</translation>
+</message>
+<message>
+<tag_code>634</tag_code>
+<translation>يرجى الانتظار...</translation>
+</message>
+<message>
+<tag_code>635</tag_code>
+<translation>إزالة جهاز USB بأمان</translation>
+</message>
+<message>
+<tag_code>637</tag_code>
+<translation>فاصل الاستقصاء الزمني</translation>
+</message>
+<message>
+<tag_code>638</tag_code>
+<translation>(بالثواني)</translation>
+</message>
+<message>
+<tag_code>639</tag_code>
+<translation>تعيين الفاصل الزمني</translation>
+</message>
+<message>
+<tag_code>640</tag_code>
+<translation>إيقاف</translation>
+</message>
+<message>
+<tag_code>642</tag_code>
+<translation>وقت تشغيل النظام</translation>
+</message>
+<message>
+<tag_code>643</tag_code>
+<translation>الحالة</translation>
+</message>
+<message>
+<tag_code>644</tag_code>
+<translation>TxPkts</translation>
+</message>
+<message>
+<tag_code>645</tag_code>
+<translation>RxPkts</translation>
+</message>
+<message>
+<tag_code>646</tag_code>
+<translation>التضاربات</translation>
+</message>
+<message>
+<tag_code>647</tag_code>
+<translation>Tx B/s</translation>
+</message>
+<message>
+<tag_code>648</tag_code>
+<translation>Rx B/s</translation>
+</message>
+<message>
+<tag_code>649</tag_code>
+<translation>وقت التشغيل</translation>
+</message>
+<message>
+<tag_code>675</tag_code>
+<translation>إصدار الجهاز</translation>
+</message>
+<message>
+<tag_code>677</tag_code>
+<translation>إصدار لغة GUI</translation>
+</message>
+<message>
+<tag_code>683</tag_code>
+<translation>خادم اسم المجال</translation>
+</message>
+<message>
+<tag_code>689</tag_code>
+<translation>عزل اللاسلكي</translation>
+</message>
+<message>
+<tag_code>691</tag_code>
+<translation>الإعداد المحمي بالدقة اللاسلكية</translation>
+</message>
+<message>
+<tag_code>697</tag_code>
+<translation>السماح للضيف بالوصول إلى شبكتي المحلية</translation>
+</message>
+<message>
+<tag_code>699</tag_code>
+<translation>Repeating</translation>
+</message>
+<message>
+<tag_code>700</tag_code>
+<translation>عنوان MAC للمحطة الأساسية</translation>
+</message>
+<message>
+<tag_code>702</tag_code>
+<translation>Repeater</translation>
+</message>
+<message>
+<tag_code>707</tag_code>
+<translation>حالة الاتصال</translation>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>قناع الشبكة الفرعية</translation>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>البوابة الافتراضية</translation>
+</message>
+<message>
+<tag_code>712</tag_code>
+<translation>تم الحصول على التأجير</translation>
+</message>
+<message>
+<tag_code>714</tag_code>
+<translation>انتهاء مدة التأجير</translation>
+</message>
+<message>
+<tag_code>716</tag_code>
+<translation>إصدار</translation>
+</message>
+<message>
+<tag_code>717</tag_code>
+<translation>تجديد</translation>
+</message>
+<message>
+<tag_code>718</tag_code>
+<translation>وقت الاتصال</translation>
+</message>
+<message>
+<tag_code>719</tag_code>
+<translation>اتصال</translation>
+</message>
+<message>
+<tag_code>720</tag_code>
+<translation>قطع الاتصال</translation>
+</message>
+<message>
+<tag_code>722</tag_code>
+<translation>سماح حسب الجدول، وإلا حظر</translation>
+</message>
+<message>
+<tag_code>723</tag_code>
+<translation>حظر دائماً</translation>
+</message>
+<message>
+<tag_code>724</tag_code>
+<translation>حظر حسب الجدول، وإلا سماح</translation>
+</message>
+<message>
+<tag_code>725</tag_code>
+<translation>إرسال إلى خادم LAN</translation>
+</message>
+<message>
+<tag_code>726</tag_code>
+<translation>Match</translation>
+</message>
+<message>
+<tag_code>727</tag_code>
+<translation>Not Match</translation>
+</message>
+<message>
+<tag_code>728</tag_code>
+<translation>إضافة خدمة</translation>
+</message>
+<message>
+<tag_code>729</tag_code>
+<translation>Service Definition</translation>
+</message>
+<message>
+<tag_code>730</tag_code>
+<translation>النوع</translation>
+</message>
+<message>
+<tag_code>732</tag_code>
+<translation>Upload Language file:</translation>
+</message>
+<message>
+<tag_code>733</tag_code>
+<translation>تحميل</translation>
+</message>
+<message>
+<tag_code>734</tag_code>
+<translation>اسم الموجه</translation>
+</message>
+<message>
+<tag_code>735</tag_code>
+<translation>خاص</translation>
+</message>
+<message>
+<tag_code>736</tag_code>
+<translation>يرجى تحديد عنصر لحذفه.</translation>
+</message>
+<message>
+<tag_code>737</tag_code>
+<translation>يرجى تحديد عنصر لتحريره.</translation>
+</message>
+<message>
+<tag_code>738</tag_code>
+<translation>إعدادات التحديث</translation>
+</message>
+<message>
+<tag_code>739</tag_code>
+<translation>يرجى الانتظار لتحديث لغة GUI</translation>
+</message>
+<message>
+<tag_code>740</tag_code>
+<translation>Get Language Package error!</translation>
+</message>
+<message>
+<tag_code>741</tag_code>
+<translation>تحذير! إصدار البرنامج الثابت الذي تحاول تحميله أقدم من الموجود لديك.</translation>
+</message>
+<message>
+<tag_code>742</tag_code>
+<translation>&lt;br&gt;هل لا زالت ترغب في المتابعة?</translation>
+</message>
+<message>
+<tag_code>743</tag_code>
+<translation>الإصدار الحالي</translation>
+</message>
+<message>
+<tag_code>745</tag_code>
+<translation>الإصدار الذي تم تحميله</translation>
+</message>
+<message>
+<tag_code>747</tag_code>
+<translation>فشلت ترقية البرنامج الثابت. يرجى التحقق من الملف.</translation>
+</message>
+<message>
+<tag_code>748</tag_code>
+<translation>ترقية البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>749</tag_code>
+<translation>Upgrade must NOT be interrupted.</translation>
+</message>
+<message>
+<tag_code>751</tag_code>
+<translation>للاستفادة من ميزات N اللاسلكية التي يوفرها</translation>
+</message>
+<message>
+<tag_code>752</tag_code>
+<translation>لا تعرض هذه الرسالة ثانية.</translation>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>التحقق من إصدار جديد عبر الإنترنت.</translation>
+</message>
+<message>
+<tag_code>754</tag_code>
+<translation>التحقق من وجود إصدار جديد عند تسجيل الدخول</translation>
+</message>
+<message>
+<tag_code>755</tag_code>
+<translation>حدد موقع ملف الترقية على القرص الثابت وحدده.</translation>
+</message>
+<message>
+<tag_code>756</tag_code>
+<translation>سيتم إرجاع هذه الشاشة تلقائيًا إلى الشاشة السابقة خلال ثوانٍ قليلة...</translation>
+</message>
+<message>
+<tag_code>757</tag_code>
+<translation>تشغيل UPnP</translation>
+</message>
+<message>
+<tag_code>758</tag_code>
+<translation>فترة الإعلان</translation>
+</message>
+<message>
+<tag_code>759</tag_code>
+<translation>مدة بقاء الإعلان</translation>
+</message>
+<message>
+<tag_code>760</tag_code>
+<translation>(بالمراحل)</translation>
+</message>
+<message>
+<tag_code>761</tag_code>
+<translation>جدول UPnP Portmap</translation>
+</message>
+<message>
+<tag_code>762</tag_code>
+<translation>منفذ داخلي</translation>
+</message>
+<message>
+<tag_code>763</tag_code>
+<translation>منفذ خارجي</translation>
+</message>
+<message>
+<tag_code>764</tag_code>
+<translation>جهاز تخزين "USB (الإعدادات المتقدمة)</translation>
+</message>
+<message>
+<tag_code>765</tag_code>
+<translation>اسم الشبكة/الجهاز</translation>
+</message>
+<message>
+<tag_code>766</tag_code>
+<translation>مجموعة العمل</translation>
+</message>
+<message>
+<tag_code>767</tag_code>
+<translation>أسلوب الوصول</translation>
+</message>
+<message>
+<tag_code>768</tag_code>
+<translation>ارتباط</translation>
+</message>
+<message>
+<tag_code>769</tag_code>
+<translation>اتصال الشبكة</translation>
+</message>
+<message>
+<tag_code>779</tag_code>
+<translation>عبر الإنترنت</translation>
+</message>
+<message>
+<tag_code>781</tag_code>
+<translation>متوفر</translation>
+</message>
+<message>
+<tag_code>782</tag_code>
+<translation>مجلدات الشبكة المتوفرة</translation>
+</message>
+<message>
+<tag_code>783</tag_code>
+<translation>اسم وحدة التخزين</translation>
+</message>
+<message>
+<tag_code>784</tag_code>
+<translation>المساحة الإجمالية</translation>
+</message>
+<message>
+<tag_code>785</tag_code>
+<translation>المساحة الفارغة</translation>
+</message>
+<message>
+<tag_code>786</tag_code>
+<translation>اسم المشاركة</translation>
+</message>
+<message>
+<tag_code>787</tag_code>
+<translation>حق الوصول للقراءة</translation>
+</message>
+<message>
+<tag_code>788</tag_code>
+<translation>حق الوصول للكتابة</translation>
+</message>
+<message>
+<tag_code>789</tag_code>
+<translation>إنشاء مجلد شبكة</translation>
+</message>
+<message>
+<tag_code>790</tag_code>
+<translation>إزالة جهاز USB بأمان</translation>
+</message>
+<message>
+<tag_code>791</tag_code>
+<translation>أجهزة محرك أقراص USB المعتمدة</translation>
+</message>
+<message>
+<tag_code>792</tag_code>
+<translation>السماح للأجهزة المعتمدة فقط</translation>
+</message>
+<message>
+<tag_code>793</tag_code>
+<translation>Approved</translation>
+</message>
+<message>
+<tag_code>794</tag_code>
+<translation>السعة</translation>
+</message>
+<message>
+<tag_code>795</tag_code>
+<translation>جهاز تخزين USB (الإعدادات الأساسية)</translation>
+</message>
+<message>
+<tag_code>796</tag_code>
+<translation>تحرير مجلد الشبكة</translation>
+</message>
+<message>
+<tag_code>797</tag_code>
+<translation>جهاز USB</translation>
+</message>
+<message>
+<tag_code>799</tag_code>
+<translation>نظام الملفات</translation>
+</message>
+<message>
+<tag_code>801</tag_code>
+<translation>مجلد</translation>
+</message>
+<message>
+<tag_code>802</tag_code>
+<translation>الكل - بلا كلمة مرور</translation>
+</message>
+<message>
+<tag_code>803</tag_code>
+<translation>مسؤول</translation>
+</message>
+<message>
+<tag_code>804</tag_code>
+<translation>استعراض</translation>
+</message>
+<message>
+<tag_code>805</tag_code>
+<translation>الاستعراض بحثًا عن مجلد</translation>
+</message>
+<message>
+<tag_code>808</tag_code>
+<translation>تمكين أي جهاز USB يتم توصيله بمنفذ USB</translation>
+</message>
+<message>
+<tag_code>809</tag_code>
+<translation>الأجهزة المعتمدة</translation>
+</message>
+<message>
+<tag_code>810</tag_code>
+<translation>ADD User</translation>
+</message>
+<message>
+<tag_code>811</tag_code>
+<translation>User Properties</translation>
+</message>
+<message>
+<tag_code>812</tag_code>
+<translation>User Password</translation>
+</message>
+<message>
+<tag_code>813</tag_code>
+<translation>تأكيد كلمة المرور</translation>
+</message>
+<message>
+<tag_code>814</tag_code>
+<translation>User Group</translation>
+</message>
+<message>
+<tag_code>815</tag_code>
+<translation>@userpop_group#</translation>
+</message>
+<message>
+<tag_code>816</tag_code>
+<translation>User Add</translation>
+</message>
+<message>
+<tag_code>817</tag_code>
+<translation>مسح</translation>
+</message>
+<message>
+<tag_code>818</tag_code>
+<translation>User Proprity</translation>
+</message>
+<message>
+<tag_code>820</tag_code>
+<translation>User Modify</translation>
+</message>
+<message>
+<tag_code>821</tag_code>
+<translation>جارِ محاولة الاتصال بخادم Netgear</translation>
+</message>
+<message>
+<tag_code>822</tag_code>
+<translation>يرجى الانتظار...</translation>
+</message>
+<message>
+<tag_code>823</tag_code>
+<translation>يرجى الاتصال بمنفذ الإنترنت وإعادة المحاولة</translation>
+</message>
+<message>
+<tag_code>824</tag_code>
+<translation>تم العثور على إصدار جديد. هل ترغب في الترقية إلى الإصدار الجديد الآن?</translation>
+</message>
+<message>
+<tag_code>826</tag_code>
+<translation>إصدار جديد للبرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>830</tag_code>
+<translation>ملاحظات الإصدار</translation>
+</message>
+<message>
+<tag_code>831</tag_code>
+<translation>يمكن أن تستغرق هذه العملية دقيقة أو دقيقتين؛ يرجى الانتظار...</translation>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>لا يتوفر إصدار جديد للبرنامج الثابت.</translation>
+</message>
+<message>
+<tag_code>833</tag_code>
+<translation>سيتم إرجاع هذه الشاشة تلقائيًا إلى الشاشة السابقة خلال ثوانٍ قليلة...</translation>
+</message>
+<message>
+<tag_code>834</tag_code>
+<translation>يوجد ملف نص GUI جديد متوفر:</translation>
+</message>
+<message>
+<tag_code>835</tag_code>
+<translation>هل ترغب في تنزيل ملف نص GUI الجديد واستخدامه?</translation>
+</message>
+<message>
+<tag_code>836</tag_code>
+<translation>تعطيل مسح المنفذ وحماية DoS</translation>
+</message>
+<message>
+<tag_code>837</tag_code>
+<translation>خادم DMZ الافتراضي</translation>
+</message>
+<message>
+<tag_code>838</tag_code>
+<translation>الاستجابة لأمر Ping على منفذ الإنترنت</translation>
+</message>
+<message>
+<tag_code>839</tag_code>
+<translation>حجم MTU</translation>
+</message>
+<message>
+<tag_code>840</tag_code>
+<translation>(بالبايت)</translation>
+</message>
+<message>
+<tag_code>841</tag_code>
+<translation>تصفية NAT</translation>
+</message>
+<message>
+<tag_code>842</tag_code>
+<translation>آمن</translation>
+</message>
+<message>
+<tag_code>843</tag_code>
+<translation>فتح</translation>
+</message>
+<message>
+<tag_code>844</tag_code>
+<translation>تعطيل SIP ALG</translation>
+</message>
+<message>
+<tag_code>845</tag_code>
+<translation>تعطيل IGMP Proxying</translation>
+</message>
+<message>
+<tag_code>846</tag_code>
+<translation>الإعدادات اللاسلكية المتقدمة</translation>
+</message>
+<message>
+<tag_code>847</tag_code>
+<translation>Enable Wireless Bridging and Repeating</translation>
+</message>
+<message>
+<tag_code>848</tag_code>
+<translation>Wireless Point-to-Point Bridge</translation>
+</message>
+<message>
+<tag_code>849</tag_code>
+<translation>محلية</translation>
+</message>
+<message>
+<tag_code>850</tag_code>
+<translation>عنوان MAC</translation>
+</message>
+<message>
+<tag_code>851</tag_code>
+<translation>Wireless Point to Multi-Point Bridge</translation>
+</message>
+<message>
+<tag_code>852</tag_code>
+<translation>Repeater with Wireless Client Association</translation>
+</message>
+<message>
+<tag_code>853</tag_code>
+<translation>حفظ</translation>
+</message>
+<message>
+<tag_code>855</tag_code>
+<translation>لديك اتصال إنترنت صالح بالفعل.</translation>
+</message>
+<message>
+<tag_code>856</tag_code>
+<translation>هل مازلت ترغب في متابعة معالج الإعداد الذكي؟</translation>
+</message>
+<message>
+<tag_code>857</tag_code>
+<translation>IP Over ATM</translation>
+</message>
+<message>
+<tag_code>858</tag_code>
+<translation>اكتشاف نوع الاتصال على منفذ الإنترنت</translation>
+</message>
+<message>
+<tag_code>859</tag_code>
+<translation>يرجى الانتظار لحظة...</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>تم اكتشاف IP حيوي (DHCP)</translation>
+</message>
+<message>
+<tag_code>861</tag_code>
+<translation>تم اكتشاف IP ساكن (ثابت)</translation>
+</message>
+<message>
+<tag_code>862</tag_code>
+<translation>تم اكتشاف PPPoE</translation>
+</message>
+<message>
+<tag_code>863</tag_code>
+<translation>تم اكتشاف PPTP</translation>
+</message>
+<message>
+<tag_code>864</tag_code>
+<translation>تم اكتشاف IP ساكن (ثابت)</translation>
+</message>
+<message>
+<tag_code>865</tag_code>
+<translation>أو</translation>
+</message>
+<message>
+<tag_code>866</tag_code>
+<translation>Special Setup Needed</translation>
+</message>
+<message>
+<tag_code>867</tag_code>
+<translation>هل يوجد لديك عنوان IP ثابت أو ساكن مخصص بواسطة موفر خدمة الإنترنت?</translation>
+</message>
+<message>
+<tag_code>868</tag_code>
+<translation>غير مؤكَّد</translation>
+</message>
+<message>
+<tag_code>869</tag_code>
+<translation>حيوي</translation>
+</message>
+<message>
+<tag_code>870</tag_code>
+<translation>عناوين IP (ثابتة) ساكنة</translation>
+</message>
+<message>
+<tag_code>871</tag_code>
+<translation>اكتشاف نوع الاتصال على منفذ الإنترنت</translation>
+</message>
+<message>
+<tag_code>872</tag_code>
+<translation>يرجى التحقق من الاتصال بمنفذ WAN للإنترنت ومودم الكبل/DSL.</translation>
+</message>
+<message>
+<tag_code>873</tag_code>
+<translation>الحصول تلقائيًا من موفر خدمة الإنترنت</translation>
+</message>
+<message>
+<tag_code>874</tag_code>
+<translation>استخدام خوادم DNS هذه</translation>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>يستطيع معالج الإعداد الذكي اكتشاف نوع اتصال الإنترنت لديك.</translation>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>هل تريد أن يحاول معالج الإعداد الذكي اكتشاف نوع الاتصال الآن؟</translation>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>لا. أريد تكوين الموجه بنفسي.</translation>
+</message>
+<message>
+<tag_code>879</tag_code>
+<translation>قائمة بطاقة الوصول اللاسلكية</translation>
+</message>
+<message>
+<tag_code>880</tag_code>
+<translation>تشغيل التحكم بالوصول</translation>
+</message>
+<message>
+<tag_code>881</tag_code>
+<translation>إعداد بطاقة الوصول اللاسلكية</translation>
+</message>
+<message>
+<tag_code>882</tag_code>
+<translation>البطاقات اللاسلكية المتوفرة</translation>
+</message>
+<message>
+<tag_code>883</tag_code>
+<translation>إدخال البطاقة اللاسلكية</translation>
+</message>
+<message>
+<tag_code>884</tag_code>
+<translation>تحرير البطاقة اللاسلكية</translation>
+</message>
+<message>
+<tag_code>885</tag_code>
+<translation>قبول</translation>
+</message>
+<message>
+<tag_code>886</tag_code>
+<translation>الإعدادات اللاسلكية المتقدمة</translation>
+</message>
+<message>
+<tag_code>887</tag_code>
+<translation>تمكين راديو الموجه اللاسلكي</translation>
+</message>
+<message>
+<tag_code>889</tag_code>
+<translation>طول التجزئة (256-2346)</translation>
+</message>
+<message>
+<tag_code>890</tag_code>
+<translation>عتبة CTS/RTS (1-2347)</translation>
+</message>
+<message>
+<tag_code>893</tag_code>
+<translation>وضع المقدمة</translation>
+</message>
+<message>
+<tag_code>894</tag_code>
+<translation>مقدمة طويلة</translation>
+</message>
+<message>
+<tag_code>895</tag_code>
+<translation>مقدمة قصيرة</translation>
+</message>
+<message>
+<tag_code>897</tag_code>
+<translation>الحفاظ على الإعدادات اللاسلكية الموجودة</translation>
+</message>
+<message>
+<tag_code>898</tag_code>
+<translation>إعداد قائمة الوصول</translation>
+</message>
+<message>
+<tag_code>899</tag_code>
+<translation>تمكين وظيفة التكرار اللاسلكي</translation>
+</message>
+<message>
+<tag_code>900</tag_code>
+<translation>تعطيل إقران العميل اللاسلكي</translation>
+</message>
+<message>
+<tag_code>901</tag_code>
+<translation>MAC اللاسلكي لهذا الموجه</translation>
+</message>
+<message>
+<tag_code>903</tag_code>
+<translation>جهاز تكرار لاسلكي</translation>
+</message>
+<message>
+<tag_code>904</tag_code>
+<translation>المحطة الأساسية اللاسلكية</translation>
+</message>
+<message>
+<tag_code>905</tag_code>
+<translation>الشبكة اللاسلكية</translation>
+</message>
+<message>
+<tag_code>906</tag_code>
+<translation>الفاصل الزمني بين الإشارات (بالدقائق)</translation>
+</message>
+<message>
+<tag_code>907</tag_code>
+<translation>تمكين بث SSID</translation>
+</message>
+<message>
+<tag_code>908</tag_code>
+<translation>تمكين عزل اللاسلكي</translation>
+</message>
+<message>
+<tag_code>909</tag_code>
+<translation>تمكين التوافق بين قناة 20 ميغاهيرتز وقناة 40 ميغاهيرتز</translation>
+</message>
+<message>
+<tag_code>910</tag_code>
+<translation>حدد منطقة</translation>
+</message>
+<message>
+<tag_code>911</tag_code>
+<translation>أفريقيا</translation>
+</message>
+<message>
+<tag_code>912</tag_code>
+<translation>آسيا</translation>
+</message>
+<message>
+<tag_code>913</tag_code>
+<translation>أستراليا</translation>
+</message>
+<message>
+<tag_code>914</tag_code>
+<translation>كندا</translation>
+</message>
+<message>
+<tag_code>915</tag_code>
+<translation>أوروبا</translation>
+</message>
+<message>
+<tag_code>916</tag_code>
+<translation>إسرائيل</translation>
+</message>
+<message>
+<tag_code>917</tag_code>
+<translation>اليابان</translation>
+</message>
+<message>
+<tag_code>918</tag_code>
+<translation>كوريا</translation>
+</message>
+<message>
+<tag_code>919</tag_code>
+<translation>المكسيك</translation>
+</message>
+<message>
+<tag_code>920</tag_code>
+<translation>الشرق الأوسط</translation>
+</message>
+<message>
+<tag_code>921</tag_code>
+<translation>أمريكا الجنوبية</translation>
+</message>
+<message>
+<tag_code>922</tag_code>
+<translation>الولايات المتحدة</translation>
+</message>
+<message>
+<tag_code>923</tag_code>
+<translation>حتى 54 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>924</tag_code>
+<translation>حتى 145 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>925</tag_code>
+<translation>حتى 300 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>926</tag_code>
+<translation>خيارات الأمان</translation>
+</message>
+<message>
+<tag_code>927</tag_code>
+<translation>حتى 450 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>928</tag_code>
+<translation>حتى 173 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>929</tag_code>
+<translation>حتى 400 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>930</tag_code>
+<translation>حتى 867 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>931</tag_code>
+<translation>مؤسسة WPA/WPA2</translation>
+</message>
+<message>
+<tag_code>933</tag_code>
+<translation>Mixed</translation>
+</message>
+<message>
+<tag_code>936</tag_code>
+<translation>تشفير الأمان (WEP)</translation>
+</message>
+<message>
+<tag_code>937</tag_code>
+<translation>نوع المصادقة</translation>
+</message>
+<message>
+<tag_code>938</tag_code>
+<translation>تلقائي</translation>
+</message>
+<message>
+<tag_code>939</tag_code>
+<translation>المفتاح المشترك</translation>
+</message>
+<message>
+<tag_code>940</tag_code>
+<translation>قوة التشفير</translation>
+</message>
+<message>
+<tag_code>943</tag_code>
+<translation>المفتاح</translation>
+</message>
+<message>
+<tag_code>944</tag_code>
+<translation>عبارة المرور</translation>
+</message>
+<message>
+<tag_code>949</tag_code>
+<translation>إنشاء</translation>
+</message>
+<message>
+<tag_code>954</tag_code>
+<translation>(من 8 إلى 63 حرفًا أو 64 رقمًا سداسيًا عشريًا)</translation>
+</message>
+<message>
+<tag_code>955</tag_code>
+<translation>وضع التشفير</translation>
+</message>
+<message>
+<tag_code>959</tag_code>
+<translation>الفاصل الزمني لتحديث مفتاح المجموعة</translation>
+</message>
+<message>
+<tag_code>960</tag_code>
+<translation>ثوان</translation>
+</message>
+<message>
+<tag_code>962</tag_code>
+<translation>إعدادات شبكة الضيف</translation>
+</message>
+<message>
+<tag_code>963</tag_code>
+<translation>ملفات تعريف الشبكة</translation>
+</message>
+<message>
+<tag_code>964</tag_code>
+<translation>تمكين شبكة الضيف</translation>
+</message>
+<message>
+<tag_code>965</tag_code>
+<translation>السماح للضيوف برؤية بعضهم البعض والوصول إلى الشبكة المحلية الخاصة بي</translation>
+</message>
+<message>
+<tag_code>966</tag_code>
+<translation>تمكين عزل اللاسلكي</translation>
+</message>
+<message>
+<tag_code>967</tag_code>
+<translation>اسم شبكة الضيف اللاسلكية (SSID)</translation>
+</message>
+<message>
+<tag_code>968</tag_code>
+<translation>تشفير الأمان (WEP)</translation>
+</message>
+<message>
+<tag_code>969</tag_code>
+<translation>مفتاح تشفير الأمان (WEP)</translation>
+</message>
+<message>
+<tag_code>970</tag_code>
+<translation>السماح للضيف بالوصول إلى شبكتي المحلية</translation>
+</message>
+<message>
+
+
+<tag_code>971</tag_code>
+<translation>(من 8 إلى 63 حرفًا أو 64 رقمًا سداسيًا عشريًا)</translation>
+</message>
+<message>
+<tag_code>972</tag_code>
+<translation>حدد أسلوب إعداد</translation>
+</message>
+<message>
+<tag_code>973</tag_code>
+<translation>زر الضغط (مستحسن)</translation>
+</message>
+<message>
+<tag_code>974</tag_code>
+<translation>يمكنك الضغط على زر الضغط الفعلي الموجود على الموجه أو النقر فوق الزر (زر الضغط البرنامج) الموجود في هذه الشاشة.</translation>
+</message>
+<message>
+<tag_code>975</tag_code>
+<translation>PIN Number(Personal Identification Number)</translation>
+</message>
+<message>
+<tag_code>976</tag_code>
+<translation>قام المستخدم بإلغاء إجراء WPS.</translation>
+</message>
+<message>
+<tag_code>977</tag_code>
+<translation>فشلت إضافة عميل لاسلكي إلى الشبكة.</translation>
+</message>
+<message>
+<tag_code>978</tag_code>
+<translation>انقر فوق &lt;b&gt;موافق&lt;/b&gt; للرجوع إلى شاشة الإعداد المحمي بالدقة اللاسلكية.</translation>
+</message>
+<message>
+<tag_code>979</tag_code>
+<translation>خطر على الأمان: اكتشاف أكثر من عميل مع الضغط على زر الضغط.</translation>
+</message>
+<message>
+<tag_code>980</tag_code>
+<translation>رقم PIN للعميل غير صحيح.</translation>
+</message>
+<message>
+<tag_code>981</tag_code>
+<translation>انقر فوق &lt;b&gt;موافق&lt;/b&gt; للرجوع إلى شاشة الإعداد المحمي بالدقة اللاسلكية.</translation>
+</message>
+<message>
+<tag_code>982</tag_code>
+<translation>انتهت مهلة إجراء WPS.</translation>
+</message>
+<message>
+<tag_code>984</tag_code>
+<translation>يرجى التأكد مما إذا كان العميل يدعم وظيفة WPS أم لا.</translation>
+</message>
+<message>
+<tag_code>985</tag_code>
+<translation>نجاح</translation>
+</message>
+<message>
+<tag_code>987</tag_code>
+<translation>العميل اللاسلكي</translation>
+</message>
+<message>
+<tag_code>988</tag_code>
+<translation>تمت إضافته إلى الشبكة بنجاح.</translation>
+</message>
+<message>
+<tag_code>989</tag_code>
+<translation>ملاحظة: تم تغيير الإعدادات اللاسلكية.</translation>
+</message>
+<message>
+<tag_code>990</tag_code>
+<translation>انقر فوق &lt;b&gt;موافق&lt;/b&gt; للتحقق من الإعدادات اللاسلكية الجديدة...</translation>
+</message>
+<message>
+<tag_code>991</tag_code>
+<translation>جارٍ الاتصال بعميل لاسلكي جديد</translation>
+</message>
+<message>
+<tag_code>992</tag_code>
+<translation>يرجى النقر فوق زر الجهاز أو زر البرنامج الموجود على العميل لبدء عملية WPS...</translation>
+</message>
+<message>
+<tag_code>994</tag_code>
+<translation>جارٍ مصادقة العميل...</translation>
+</message>
+<message>
+<tag_code>995</tag_code>
+<translation>جارٍ جمع معلومات العميل...</translation>
+</message>
+<message>
+<tag_code>996</tag_code>
+<translation>جارٍ إرسال بيانات التكوين إلى العميل...</translation>
+</message>
+<message>
+<tag_code>997</tag_code>
+<translation>رقم PIN للعميل هو</translation>
+</message>
+<message>
+<tag_code>999</tag_code>
+<translation>يرجى النقر فوق زر الجهاز الموجود على العميل لبدء عملية WPS...</translation>
+</message>
+<message>
+<tag_code>1000</tag_code>
+<translation>رقم PIN للعميل هو</translation>
+</message>
+<message>
+<tag_code>1001</tag_code>
+<translation>جارٍ إرسال بيانات التكوين إلى العميل...</translation>
+</message>
+<message>
+<tag_code>1002</tag_code>
+<translation>هذا هو رقم PIN للأمان الخاص بعميل WPS. أثناء الاتصال، توفر المحولات التي تدعم WPS رقم PIN خاص بالأمان يتم إنشاؤه عشوائيًا.</translation>
+</message>
+<message>
+<tag_code>1003</tag_code>
+<translation>أدخل رقم PIN للعميل</translation>
+</message>
+<message>
+<tag_code>1005</tag_code>
+<translation>When you see this information, please go to</translation>
+</message>
+<message>
+<tag_code>1007</tag_code>
+<translation>to manually configure the settings</translation>
+</message>
+<message>
+<tag_code>1010</tag_code>
+<translation>الحد الشهري لمقياس حركة المرور (</translation>
+</message>
+<message>
+<tag_code>1011</tag_code>
+<translation>تم الوصول إليه.</translation>
+</message>
+<message>
+<tag_code>1013</tag_code>
+<translation>عداد مقياس حركة المرور هو </translation>
+</message>
+<message>
+<tag_code>1014</tag_code>
+<translation></translation>
+</message>
+<message>
+<tag_code>1015</tag_code>
+<translation>مقياس حركة المرور على الإنترنت</translation>
+</message>
+<message>
+<tag_code>1016</tag_code>
+<translation>تمكين مقياس حركة المرور</translation>
+</message>
+<message>
+<tag_code>1017</tag_code>
+<translation>التحكم في حجم حركة المرور حسب</translation>
+</message>
+<message>
+<tag_code>1018</tag_code>
+<translation>بلا حد</translation>
+</message>
+<message>
+<tag_code>1019</tag_code>
+<translation>تنزيل فقط</translation>
+</message>
+<message>
+<tag_code>1020</tag_code>
+<translation>كلا الاتجاهين</translation>
+</message>
+<message>
+<tag_code>1022</tag_code>
+<translation>حد شهري</translation>
+</message>
+<message>
+<tag_code>1023</tag_code>
+<translation>ميغابايت</translation>
+</message>
+<message>
+<tag_code>1024</tag_code>
+<translation>تقريب حجم بيانات كل اتصال حسب</translation>
+</message>
+<message>
+<tag_code>1025</tag_code>
+<translation>التحكم في وقت الاتصال</translation>
+</message>
+<message>
+<tag_code>1026</tag_code>
+<translation>ساعات</translation>
+</message>
+<message>
+<tag_code>1027</tag_code>
+<translation>عدّاد حركة المرور</translation>
+</message>
+<message>
+<tag_code>1028</tag_code>
+<translation>إعادة تشغيل عداد حركة المرور في</translation>
+</message>
+<message>
+<tag_code>1029</tag_code>
+<translation>ص</translation>
+</message>
+<message>
+<tag_code>1030</tag_code>
+<translation>م</translation>
+</message>
+<message>
+<tag_code>1031</tag_code>
+<translation>على</translation>
+</message>
+<message>
+<tag_code>1032</tag_code>
+<translation>الأول</translation>
+</message>
+<message>
+<tag_code>1033</tag_code>
+<translation>الثاني</translation>
+</message>
+<message>
+<tag_code>1034</tag_code>
+<translation>الثالث</translation>
+</message>
+<message>
+<tag_code>1035</tag_code>
+<translation>الرابع</translation>
+</message>
+<message>
+<tag_code>1036</tag_code>
+<translation>الخامس</translation>
+</message>
+<message>
+<tag_code>1037</tag_code>
+<translation>السادس</translation>
+</message>
+<message>
+<tag_code>1038</tag_code>
+<translation>السابع</translation>
+</message>
+<message>
+<tag_code>1039</tag_code>
+<translation>الثامن</translation>
+</message>
+<message>
+<tag_code>1040</tag_code>
+<translation>التاسع</translation>
+</message>
+<message>
+<tag_code>1041</tag_code>
+<translation>العاشر</translation>
+</message>
+<message>
+<tag_code>1042</tag_code>
+<translation>الحادي عشر</translation>
+</message>
+<message>
+<tag_code>1043</tag_code>
+<translation>الثاني عشر</translation>
+</message>
+<message>
+<tag_code>1044</tag_code>
+<translation>الثالث عشر</translation>
+</message>
+<message>
+<tag_code>1045</tag_code>
+<translation>الرابع عشر</translation>
+</message>
+<message>
+<tag_code>1046</tag_code>
+<translation>الخامس عشر</translation>
+</message>
+<message>
+<tag_code>1047</tag_code>
+<translation>السادس عشر</translation>
+</message>
+<message>
+<tag_code>1048</tag_code>
+<translation>السابع عشر</translation>
+</message>
+<message>
+<tag_code>1049</tag_code>
+<translation>الثامن عشر</translation>
+</message>
+<message>
+<tag_code>1050</tag_code>
+<translation>التاسع عشر</translation>
+</message>
+<message>
+<tag_code>1051</tag_code>
+<translation>العشرون</translation>
+</message>
+<message>
+<tag_code>1052</tag_code>
+<translation>الواحد والعشرون</translation>
+</message>
+<message>
+<tag_code>1053</tag_code>
+<translation>الثاني والعشرون</translation>
+</message>
+<message>
+<tag_code>1054</tag_code>
+<translation>الثالث والعشرون</translation>
+</message>
+<message>
+<tag_code>1055</tag_code>
+<translation>الرابع والعشرون</translation>
+</message>
+<message>
+<tag_code>1056</tag_code>
+<translation>الخامس والعشرون</translation>
+</message>
+<message>
+<tag_code>1057</tag_code>
+<translation>السادس والعشرون</translation>
+</message>
+<message>
+<tag_code>1058</tag_code>
+<translation>السابع والعشرون</translation>
+</message>
+<message>
+<tag_code>1059</tag_code>
+<translation>الثامن والعشرون</translation>
+</message>
+<message>
+<tag_code>1060</tag_code>
+<translation>ماضي</translation>
+</message>
+<message>
+<tag_code>1061</tag_code>
+<translation>يوم من كل شهر</translation>
+</message>
+<message>
+<tag_code>1062</tag_code>
+<translation>التحكم في حركة المرور</translation>
+</message>
+<message>
+<tag_code>1063</tag_code>
+<translation>انبثاق رسالة تحذير</translation>
+</message>
+<message>
+<tag_code>1064</tag_code>
+<translation>ميغابايت/دقائق قبل الوصول إلى الحد الشهري</translation>
+</message>
+<message>
+<tag_code>1065</tag_code>
+<translation>عند الوصول إلى الحد الشهري</translation>
+</message>
+<message>
+<tag_code>1066</tag_code>
+<translation>تشغيل الوميض الأخضر لمؤشر LED للإنترنت</translation>
+</message>
+<message>
+<tag_code>1067</tag_code>
+<translation>قم بقطع الاتصال وتعطيل اتصال الإنترنت</translation>
+</message>
+<message>
+<tag_code>1068</tag_code>
+<translation>إحصاءات حركة المرور على الإنترنت</translation>
+</message>
+<message>
+<tag_code>1069</tag_code>
+<translation>إعادة تشغيل العدّاد الآن</translation>
+</message>
+<message>
+<tag_code>1070</tag_code>
+<translation>حالة حركة المرور</translation>
+</message>
+<message>
+<tag_code>1071</tag_code>
+<translation>فترة الحساب</translation>
+</message>
+<message>
+<tag_code>1072</tag_code>
+<translation>المقدار المستخدم</translation>
+</message>
+<message>
+<tag_code>1073</tag_code>
+<translation>اليوم</translation>
+</message>
+<message>
+<tag_code>1074</tag_code>
+<translation>الأمس</translation>
+</message>
+<message>
+<tag_code>1075</tag_code>
+<translation>الأسبوع الحالي</translation>
+</message>
+<message>
+<tag_code>1076</tag_code>
+<translation>الشهر الحالي</translation>
+</message>
+<message>
+<tag_code>1077</tag_code>
+<translation>الشهر الماضي</translation>
+</message>
+<message>
+<tag_code>1078</tag_code>
+<translation>تاريخ/وقت البدء</translation>
+</message>
+<message>
+<tag_code>1079</tag_code>
+<translation>التاريخ/الوقت الحالي</translation>
+</message>
+<message>
+<tag_code>1080</tag_code>
+<translation>حجم حركة المرور المتبقية</translation>
+</message>
+<message>
+<tag_code>1081</tag_code>
+<translation>KBytes</translation>
+</message>
+<message>
+<tag_code>1083</tag_code>
+<translation>ساعات</translation>
+</message>
+<message>
+<tag_code>1084</tag_code>
+<translation> دقائق.</translation>
+</message>
+<message>
+<tag_code>1085</tag_code>
+<translation>فترة</translation>
+</message>
+<message>
+<tag_code>1086</tag_code>
+<translation>حجم حركة المرور (ميغابايت)</translation>
+</message>
+<message>
+<tag_code>1087</tag_code>
+<translation>تحميل/متوسط</translation>
+</message>
+<message>
+<tag_code>1088</tag_code>
+<translation>تنزيل/متوسط</translation>
+</message>
+<message>
+<tag_code>1089</tag_code>
+<translation>إجمالي/متوسط</translation>
+</message>
+<message>
+<tag_code>1090</tag_code>
+<translation>تشغيل الوميض الأبيض/الكهرماني لمؤشر LED للإنترنت</translation>
+</message>
+<message>
+<tag_code>1152</tag_code>
+<translation>WiFi Only</translation>
+</message>
+<message>
+<tag_code>1153</tag_code>
+<translation>WiFi and Mobile Broadband</translation>
+</message>
+<message>
+<tag_code>1167</tag_code>
+<translation>ايطاليا</translation>
+</message>
+<message>
+<tag_code>1168</tag_code>
+<translation>النمسا</translation>
+</message>
+<message>
+<tag_code>1169</tag_code>
+<translation>المملكة المتحدة</translation>
+</message>
+<message>
+<tag_code>1170</tag_code>
+<translation>Denmark</translation>
+</message>
+<message>
+<tag_code>1171</tag_code>
+<translation>السويد</translation>
+</message>
+<message>
+<tag_code>1173</tag_code>
+<translation>Ireland</translation>
+</message>
+<message>
+<tag_code>1174</tag_code>
+<translation>هونغ كونغ</translation>
+</message>
+<message>
+<tag_code>1175</tag_code>
+<translation>Vietnam</translation>
+</message>
+<message>
+<tag_code>1176</tag_code>
+<translation>إندونيسيا</translation>
+</message>
+<message>
+<tag_code>1177</tag_code>
+<translation>الولايات المتحدة الأمريكية</translation>
+</message>
+<message>
+<tag_code>1178</tag_code>
+<translation>معرَّفة من قِبل المستخدم</translation>
+</message>
+<message>
+<tag_code>1179</tag_code>
+<translation>أستراليا</translation>
+</message>
+<message>
+<tag_code>1208</tag_code>
+<translation>استخدام الهوائي الداخلي</translation>
+</message>
+<message>
+<tag_code>1214</tag_code>
+<translation>تكوين زر اللاسلكي</translation>
+</message>
+<message>
+<tag_code>1226</tag_code>
+<translation>APN Auto Lookup</translation>
+</message>
+<message>
+<tag_code>1228</tag_code>
+<translation>has detected Mobile Broadband settings for you, do you want to use these settings?</translation>
+</message>
+<message>
+<tag_code>1231</tag_code>
+<translation>ISP</translation>
+</message>
+<message>
+<tag_code>1232</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>1300</tag_code>
+<translation>تمكين رقم PIN الخاص بالموجه</translation>
+</message>
+<message>
+<tag_code>1301</tag_code>
+<translation>تمكين رقم PIN الخاص بالموجه (مُعطل بسبب اكتشاف هجوم)</translation>
+</message>
+<message>
+<tag_code>1302</tag_code>
+<translation>لتجنب خرق رقم PIN، قم بتعيين خيار تعطيله تلقائيًا بعد</translation>
+</message>
+<message>
+<tag_code>1303</tag_code>
+<translation>من الاتصالات برقم PIN الفاشلة، إلى أن يُعاد تشغيل الموجه.</translation>
+</message>
+<message>
+<tag_code>1304</tag_code>
+<translation>في وضع التعطيل التلقائي، يظل مؤشر WPS LED الخاص بالموجه يومض ببطء</translation>
+</message>
+<message>
+<tag_code>1745</tag_code>
+<translation>وضع الشبكة</translation>
+</message>
+<message>
+<tag_code>1796</tag_code>
+<translation>وضع اتصال الإنترنت</translation>
+</message>
+<message>
+<tag_code>1800</tag_code>
+<translation>أسلوب اكتشاف تجاوز الفشل</translation>
+</message>
+<message>
+<tag_code>1801</tag_code>
+<translation>بحث DNS باستخدام خادم DNS الخاص بـ WAN</translation>
+</message>
+<message>
+<tag_code>1802</tag_code>
+<translation>اختبار اتصال عنوان IP هذا</translation>
+</message>
+<message>
+<tag_code>1803</tag_code>
+<translation>إن فاصل إعادة المحاولة هو</translation>
+</message>
+<message>
+<tag_code>1804</tag_code>
+<translation>(بالثواني)</translation>
+</message>
+<message>
+<tag_code>1805</tag_code>
+<translation>تجاوز الفشل بعد</translation>
+</message>
+<message>
+<tag_code>1806</tag_code>
+<translation>تمكين اكتشاف ارتباط الجهاز</translation>
+</message>
+<message>
+<tag_code>1846</tag_code>
+<translation>Perform a DNS lookup by a hostname</translation>
+</message>
+<message>
+<tag_code>1937</tag_code>
+<translation>NOT Allow Roaming</translation>
+</message>
+<message>
+<tag_code>1941</tag_code>
+<translation>(بالفواصل)</translation>
+</message>
+<message>
+<tag_code>2001</tag_code>
+<translation>بداية الحظر</translation>
+</message>
+<message>
+<tag_code>2002</tag_code>
+<translation>نهاية الحظر</translation>
+</message>
+<message>
+<tag_code>2003</tag_code>
+<translation>شكرًا لشرائك الموجه اللاسلكي JWNR3200T من NETGEAR. يرجى التأكد من استخدام مساعد ترقية البرنامج الثابت بصفة دورية للاستفادة من التحسينات والميزات الإضافية التي توفرها NETGEAR لهذا المنتج.</translation>
+</message>
+<message>
+<tag_code>2004</tag_code>
+<translation>الموجه، استخدم المحول اللاسلكي الذي يعرض هذا الشعار.</translation>
+</message>
+<message>
+<tag_code>2005</tag_code>
+<translation>حذف الكل</translation>
+</message>
+<message>
+<tag_code>2006</tag_code>
+<translation>التحقق من تحديثات البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>2007</tag_code>
+<translation>استخدام أحرف البدل</translation>
+</message>
+<message>
+<tag_code>2008</tag_code>
+<translation>Service Provider Links:</translation>
+</message>
+<message>
+<tag_code>2009</tag_code>
+<translation>حالة الارتباط</translation>
+</message>
+<message>
+<tag_code>2010</tag_code>
+<translation>نوع الخدمة</translation>
+</message>
+<message>
+<tag_code>2011</tag_code>
+<translation>Domain Name Info:</translation>
+</message>
+<message>
+<tag_code>2012</tag_code>
+<translation>Oray dynamic DNS resolve service request</translation>
+</message>
+<message>
+<tag_code>2013</tag_code>
+<translation>Upgrade to Peanuthull DDNS professional service</translation>
+</message>
+<message>
+<tag_code>2014</tag_code>
+<translation>Peanuthull DDNS help</translation>
+</message>
+<message>
+<tag_code>2015</tag_code>
+<translation>عنوان بداية IP</translation>
+</message>
+<message>
+<tag_code>2016</tag_code>
+<translation>عنوان نهاية IP</translation>
+</message>
+<message>
+<tag_code>2017</tag_code>
+<translation>عنوان MAC لجهاز التكرار 1</translation>
+</message>
+<message>
+<tag_code>2018</tag_code>
+<translation>عنوان MAC لجهاز التكرار 2</translation>
+</message>
+<message>
+<tag_code>2019</tag_code>
+<translation>عنوان MAC لجهاز التكرار 3</translation>
+</message>
+<message>
+<tag_code>2020</tag_code>
+<translation>عنوان MAC لجهاز التكرار 4</translation>
+</message>
+<message>
+<tag_code>2022</tag_code>
+<translation>سرعة التنزيل القصوى(0 يعني لا حدود)</translation>
+</message>
+<message>
+<tag_code>2023</tag_code>
+<translation>سرعة التحميل القصوى(0 يعني لا حدود)</translation>
+</message>
+<message>
+<tag_code>2024</tag_code>
+<translation>الحد الأقصى للتنزيل</translation>
+</message>
+<message>
+<tag_code>2025</tag_code>
+<translation>السماح للنظام بإدارة NETGEAR Downloader تلقائياً</translation>
+</message>
+<message>
+<tag_code>2026</tag_code>
+<translation>الإعدادات الأساسية لـ NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2027</tag_code>
+<translation>إدارة التنزيل</translation>
+</message>
+<message>
+<tag_code>2028</tag_code>
+<translation>ما هو المجلد أو المسار الذي تودّ تخزينه؟</translation>
+</message>
+<message>
+<tag_code>2029</tag_code>
+<translation>نوع التنزيل</translation>
+</message>
+<message>
+<tag_code>2030</tag_code>
+<translation>مسار التنزيل الخاص بـ FTP / HTTP</translation>
+</message>
+<message>
+<tag_code>2032</tag_code>
+<translation>BitTorrent File Location</translation>
+</message>
+<message>
+<tag_code>2033</tag_code>
+<translation>حجم الملف(بايت)</translation>
+</message>
+<message>
+<tag_code>2034</tag_code>
+<translation>تنزيل</translation>
+</message>
+<message>
+<tag_code>2035</tag_code>
+<translation>تحديد الكل</translation>
+</message>
+<message>
+<tag_code>2036</tag_code>
+<translation>لا</translation>
+</message>
+<message>
+<tag_code>2037</tag_code>
+<translation>إزالة</translation>
+</message>
+<message>
+<tag_code>2038</tag_code>
+<translation>NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>2039</tag_code>
+<translation>عنوان IP الخاص بخادم RADIUS:</translation>
+</message>
+<message>
+<tag_code>2040</tag_code>
+<translation>منفذ خادم RADIUS:</translation>
+</message>
+<message>
+<tag_code>2041</tag_code>
+<translation>كمبيوتر</translation>
+</message>
+<message>
+<tag_code>2042</tag_code>
+<translation>جهاز تخزين USB</translation>
+</message>
+<message>
+<tag_code>2043</tag_code>
+<translation>حفظ مسار</translation>
+</message>
+<message>
+<tag_code>2044</tag_code>
+<translation>اسم الملف</translation>
+</message>
+<message>
+<tag_code>2045</tag_code>
+<translation>جدول معلومات التنزيل</translation>
+</message>
+<message>
+<tag_code>2046</tag_code>
+<translation>الملفات التي تم تنزيلها</translation>
+</message>
+<message>
+<tag_code>2047</tag_code>
+<translation>إزالة المحفوظات</translation>
+</message>
+<message>
+<tag_code>2048</tag_code>
+<translation>توقف مؤقت</translation>
+</message>
+<message>
+<tag_code>2049</tag_code>
+<translation>استئناف</translation>
+</message>
+<message>
+<tag_code>2051</tag_code>
+<translation>سرعة التنزيل</translation>
+</message>
+<message>
+<tag_code>2052</tag_code>
+<translation>إعادة تعيين</translation>
+</message>
+<message>
+<tag_code>2054</tag_code>
+<translation>هل ترغب في إلغاء تحميل كافة الأجهزة?</translation>
+</message>
+<message>
+<tag_code>2055</tag_code>
+<translation>كلمة السر المشتركة لخادم RADIUS:</translation>
+<variable>RADIUS server Shared Secret:</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- تحقق من صحة اتصالات الكبل. راجع دليل تثبيت الموجه بحثاً عن الإرشادات.</translation>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- تحقق من تشغيل دورة المودم ذات النطاق الترددي السريع بشكل صحيح. إذا كان لديك مودم مدعوم ببطارية، إنزع البطارية وأعد إدخالها لتشغيل دورة المودم.</translation>
+</message>
+<message>
+<tag_code>3002</tag_code>
+<translation>(الإعداد الافتراضي هو "password" (كلمة المرور)</translation>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(تنسيق AABBCCDDEEFF)</translation>
+</message>
+<message>
+<tag_code>3004</tag_code>
+<translation>(يمكنك إيجاده على ملصق منتج الموجه.)</translation>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*=المعلومات المطلوبة</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  لم يتم تشغيل دورة المودم خلال خطوة مد الكبلات.</translation>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  لم يتم إدخال كبل إيثرنت الأصفر بالكامل أو تم إدخاله في المكان الخطأ.</translation>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>ويُعتبر عنوان MAC رقماً فريداً.  يمكنك إيجاد عنوان MAC الخاص بالكمبيوتر أو الموجه على ملصق المنتج الخاص به.</translation>
+</message>
+<message>
+<tag_code>3009</tag_code>
+<translation>تتوفر ترقية برنامج الموجه الثابت.</translation>
+</message>
+<message>
+<tag_code>3010</tag_code>
+<translation>الإدارة</translation>
+</message>
+<message>
+<tag_code>3011</tag_code>
+<translation>الصفحة الرئيسية المتقدمة</translation>
+</message>
+<message>
+<tag_code>3012</tag_code>
+<translation>الإعداد المتقدم</translation>
+</message>
+<message>
+<tag_code>3013</tag_code>
+<translation>خيارات متقدمة</translation>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>بعد التحقق من كبل إيثرنت، انقر فوق &lt;b&gt;حاول مجدداً&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>خادم DNS بديل</translation>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>الجواب</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>تطبيق إعدادات اتصال الإنترنت</translation>
+</message>
+<message>
+<tag_code>3018</tag_code>
+<translation>هل تريد بالتأكيد تغيير كلمة مرور المسؤول بدون خيار الاسترداد؟</translation>
+</message>
+<message>
+<tag_code>3019</tag_code>
+<translation>خادم المصادقة</translation>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>السابق</translation>
+</message>
+<message>
+<tag_code>3021</tag_code>
+<translation>أساسي</translation>
+</message>
+<message>
+<tag_code>3022</tag_code>
+<translation>تم اكتشاف اتصال إنترنت BigPond</translation>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>استعرض وصولاً إلى ملف النسخ الاحتياطي لإعدادات الموجه الذي قمت بحفظه سابقاً، وانقر فوق &lt;b&gt;التالي&lt;/b&gt;للمتابعة.</translation>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>التحقق من اتصال إنترنت؛ يرجى الانتظار ...</translation>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>انقر هنا</translation>
+</message>
+<message>
+<tag_code>3026</tag_code>
+<translation>لا يدعم الكمبيوتر طابعة.</translation>
+</message>
+<message>
+<tag_code>3027</tag_code>
+<translation>يتطلب تكوين اتصال إنترنت خبرة في الشبكات. هل أنت متأكد؟</translation>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>تكوين اتصال إنترنت</translation>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>تهانينا!</translation>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>اسم/معرّف الاتصال</translation>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>متابعة</translation>
+</message>
+<message>
+<tag_code>3032</tag_code>
+<translation>سيتم إيقاف NETGEAR Genie الحالي.</translation>
+</message>
+<message>
+<tag_code>3033</tag_code>
+<translation>البوابة الافتراضية</translation>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>اكتشاف اتصال الإنترنت</translation>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>هل قام موفر خدمة الإنترنت (ISP) بتعيين عنوان IP (ساكن) ثابت لك؟ هذا نشر خاص &lt;b&gt;نادر للغاية&lt;/b&gt;. </translation>
+</message>
+<message>
+<tag_code>3036</tag_code>
+<translation>يجب تعيين عنوان DNS</translation>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>;</translation>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>هل تريد أن يحاول NETGEAR Genie مجدداً؟</translation>
+</message>
+<message>
+<tag_code>3039</tag_code>
+<translation>فشل التنزيل!</translation>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>تمكين استرداد كلمة المرور</translation>
+</message>
+<message>
+<tag_code>3041</tag_code>
+<translation>ممكّنة</translation>
+</message>
+<message>
+<tag_code>3042</tag_code>
+<translation>إدخال عنصر البحث</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>أدخل إعدادات IP الثابت المعينة من قبل موفر خدمة إنترنت وانقر فوق &lt;b&gt;التالي&lt;/b&gt; للمتابعة.</translation>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>أدخل عنوان MAC هنا.</translation>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>أدخل المعلومات المطلوبة مجدداً.</translation>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>أدخل المعلومات المطلوبة أدناه.</translation>
+</message>
+<message>
+<tag_code>3047</tag_code>
+<translation>أدخل رقم الموجه التسلسلي</translation>
+</message>
+<message>
+<tag_code>3048</tag_code>
+<translation>خطأ</translation>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>فشل</translation>
+</message>
+<message>
+<tag_code>3050</tag_code>
+<translation>لا يمكن أن يكون اسم الملف فارغًا.</translation>
+</message>
+<message>
+<tag_code>3051</tag_code>
+<translation>تحديث البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>3052</tag_code>
+<translation>ترقية البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>إعدادات IP الإنترنت الثابت</translation>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>عنوان IP الخاص بالبوابة</translation>
+</message>
+<message>
+<tag_code>3055</tag_code>
+<translation>انتقال</translation>
+</message>
+<message>
+<tag_code>3056</tag_code>
+<translation>جيد</translation>
+</message>
+<message>
+<tag_code>3057</tag_code>
+<translation>التعليمات والدعم</translation>
+</message>
+<message>
+<tag_code>3058</tag_code>
+<translation>مركز التعليمات</translation>
+</message>
+<message>
+<tag_code>3059</tag_code>
+<translation>الصفحة الرئيسية</translation>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>قمت بتصحيح مشكلة في كبل إيثرنت.</translation>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>لا أعرف. </translation>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>قمت بحفظ إعدادات الموجه في ملف وأريد استعادة الموجه إلى تلك الإعدادات.</translation>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>قمت للتو بتشغيل دورة المودم وانتظرت مدة دقيقتين.</translation>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>أريد تكوين اتصال الإنترنت بنفسي</translation>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;b&gt;مهلة الخمول&lt;/b&gt;(بالدقائق)</translation>
+</message>
+<message>
+<tag_code>3066</tag_code>
+<translation>في حال لم تمكّن استرداد كلمة المرور ونسيت كلمة المرور الجديدة، فإن الطريقة الوحيدة لاسترداد كلمة المرور هي إعادة تعيين الجهاز إلى إعدادات المصنع الافتراضية.</translation>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>إذا قمت سابقاً بتوصيل بخدمة إنترنت بواسطة كمبيوتر أو موجه آخر،  يمكن أن يستخدم  NETGEAR Genie نفس عنوان MAC الذي كان يعمل سابقاً.</translation>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>تحديث هام</translation>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>في أي مدينة وُلد والدك؟</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>في أي مدينة وُلدت والدتك؟</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>في أي مدينة وُلدت؟</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>في أي سنة (س س س س) تخرجت من الثانوية؟</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>اسم مستخدم أو كلمة مرور ISP غير صحيحة</translation>
+</message>
+<message>
+<tag_code>3074</tag_code>
+<translation>لغة المثبت</translation>
+</message>
+<message>
+<tag_code>3075</tag_code>
+<translation>إعداد موفر خدمة الإنترنت (WAN)</translation>
+</message>
+<message>
+<tag_code>3076</tag_code>
+<translation>إعداد الإنترنت</translation>
+</message>
+<message>
+<tag_code>3077</tag_code>
+<translation>الإنترنت</translation>
+</message>
+<message>
+<tag_code>3078</tag_code>
+<translation>عنوان IP الخاص بخادم المصادقة غير صالح.</translation>
+</message>
+<message>
+<tag_code>3079</tag_code>
+<translation>عنوان IP الخاص بالبوابة غير صالح. يرجى إدخاله مرة أخرى.</translation>
+</message>
+<message>
+<tag_code>3080</tag_code>
+<translation>وقت الخمول غير صالح. يرجى إدخال رقم صحيح.\n</translation>
+</message>
+<message>
+<tag_code>3081</tag_code>
+<translation>عنوان IP غير صالح. يرجى إدخاله مرة أخرى، أو تركه فارغًا.</translation>
+</message>
+<message>
+<tag_code>3082</tag_code>
+<translation>عنوان IP غير صالح. يرجى إدخاله مرة أخرى.</translation>
+</message>
+<message>
+<tag_code>3083</tag_code>
+<translation>عنوان MAC غير صالح.</translation>
+</message>
+<message>
+<tag_code>3084</tag_code>
+<translation>كلمة المرور غير صالحة.</translation>
+</message>
+<message>
+<tag_code>3085</tag_code>
+<translation>عنوان DNS الأساسي غير صالح. يرجى إدخاله مرة أخرى.\n</translation>
+</message>
+<message>
+<tag_code>3086</tag_code>
+<translation>عنوان DNS الثانوي غير صالح. يرجى إدخاله مرة أخرى.\n</translation>
+</message>
+<message>
+<tag_code>3087</tag_code>
+<translation>قناع الشبكة الفرعية غير صالح. يرجى إدخاله مرة أخرى.\n</translation>
+</message>
+<message>
+<tag_code>3088</tag_code>
+<translation>عنوان IP</translation>
+</message>
+<message>
+<tag_code>3089</tag_code>
+<translation>تم اكتشاف اتصال الإنترنت لـ L2TP </translation>
+</message>
+<message>
+<tag_code>3090</tag_code>
+<translation>آخر مرة تم فيها استرداد كلمة المرور</translation>
+</message>
+<message>
+<tag_code>3091</tag_code>
+<translation>وسيلة الإيضاح</translation>
+</message>
+<message>
+<tag_code>3092</tag_code>
+<translation>تسجيل الدخول مجدداً</translation>
+</message>
+<message>
+<tag_code>3093</tag_code>
+<translation>تسجيل الدخول مطلوب لإدارة إعدادات الموجه هذه:</translation>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>تأكد من أن الكبل موصول بأمان بمنفذ المودم ذات النطاق الترددي السريع ومنفذ إنترنت الموجه.</translation>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>عنوان IP الخاص بي</translation>
+</message>
+<message>
+<tag_code>3096</tag_code>
+<translation>WiFi الخاص بي</translation>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>مشكلة اتصال الشبكة</translation>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>مفتاح الشبكة (كلمة المرور)</translation>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>مفتاح الشبكة (كلمة المرور)</translation>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>التالي</translation>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>لم يتم توصيل كبل إيثرنت بمنفذ إنترنت الموجه</translation>
+</message>
+<message>
+<tag_code>3102</tag_code>
+<translation>لا محرك أقراص USB</translation>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>لا، لم أحصل على عنوان IP ثابت (ساكن) من ISP.</translation>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>لا، أريد تكوين اتصال إنترنت بنفسي.</translation>
+</message>
+<message>
+<tag_code>3105</tag_code>
+<translation>لا، أريد تكوين اتصال إنترنت بنفسي.</translation>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>لا شيء مما تقدم.</translation>
+</message>
+<message>
+<tag_code>3107</tag_code>
+<translation>غير ممكّن</translation>
+</message>
+<message>
+<tag_code>3108</tag_code>
+<translation>عدد الأجهزة</translation>
+</message>
+<message>
+<tag_code>3109</tag_code>
+<translation>عدد الأجهزة</translation>
+</message>
+<message>
+<tag_code>3110</tag_code>
+<translation>إيقاف تشغيل</translation>
+</message>
+<message>
+<tag_code>3111</tag_code>
+<translation>WiFi الخاص بالآخرين</translation>
+</message>
+<message>
+<tag_code>3112</tag_code>
+<translation>عناصر تحكم الوالدين</translation>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>كلمة المرور</translation>
+</message>
+<message>
+<tag_code>3114</tag_code>
+<translation>يرجى تعيين الملف الصحيح. تنسيق الملف *.</translation>
+</message>
+<message>
+<tag_code>3115</tag_code>
+<translation>يرجى الإجابة على سؤالي الأمان أدناه والنقر فوق &lt;b&gt;متابعة&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3116</tag_code>
+<translation>يرجى إدخال وقت الخمول.\n</translation>
+</message>
+<message>
+<tag_code>3117</tag_code>
+<translation>يرجى إدخال إجابتك لكل سؤال.</translation>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>يرجى مراجعة العناصر التالية:</translation>
+</message>
+<message>
+<tag_code>3119</tag_code>
+<translation>يرجى تحديد سؤال.</translation>
+</message>
+<message>
+<tag_code>3120</tag_code>
+<translation>يرجى تحديد لغة المثبت</translation>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>يرجى الانتظار لحظة...</translation>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>تم اكتشاف اتصال إنترنت DSL من PPPoE</translation>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>تم اكتشاف اتصال إنترنت PPTP</translation>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>خادم DNS المفضل</translation>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>اطبع هذا</translation>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>حصلت مشكلة أثناء اكتشاف اتصال الإنترنت - عنوان IP</translation>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>حصلت مشكلة أثناء اكتشاف اتصال الإنترنت - عنوان MAC</translation>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>حصلت مشكلة أثناء اكتشاف اتصال الإنترنت</translation>
+</message>
+<message>
+<tag_code>3129</tag_code>
+<translation>جاهز</translation>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>استعادة إعدادات الموجه </translation>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>استعادة إعدادات الموجه</translation>
+</message>
+<message>
+<tag_code>3132</tag_code>
+<translation>كلمة مرور مسؤول الموجه</translation>
+</message>
+<message>
+<tag_code>3133</tag_code>
+<translation>اسم مستخدم مسؤول الموجه</translation>
+</message>
+<message>
+<tag_code>3134</tag_code>
+<translation>الأسئلة المتداولة الخاصة بالموجه</translation>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>إصدار برنامج الموجه الثابت</translation>
+</message>
+<message>
+<tag_code>3136</tag_code>
+<translation>معلومات الموجه</translation>
+</message>
+<message>
+<tag_code>3137</tag_code>
+<translation>تسجيل دخول الموجه</translation>
+</message>
+<message>
+<tag_code>3138</tag_code>
+<translation>استرداد كلمة مرور الموجه</translation>
+</message>
+<message>
+<tag_code>3139</tag_code>
+<translation>تعليمات البحث</translation>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>البحث عن دعم NETGEAR</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>سؤال الأمان #1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>سؤال الأمان #2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>تحديد سؤال</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>حدد خياراً وانقر فوق &lt;b&gt;التالي&lt;/b&gt; للمتابعة.</translation>
+</message>
+<message>
+<tag_code>3145</tag_code>
+<translation>حدد خياراً أولاً.</translation>
+</message>
+<message>
+<tag_code>3146</tag_code>
+<translation>حدد أحد الخيارات أدناه وانقر فوق &lt;b&gt;التالي&lt;/b&gt; للمتابعة:</translation>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>عنوان الخادم</translation>
+</message>
+<message>
+<tag_code>3148</tag_code>
+<translation>إظهار/إخفاء مركز التعليمات</translation>
+</message>
+<message>
+<tag_code>3149</tag_code>
+<translation>قناع الشبكة الفرعية</translation>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>انقلني إلى الإنترنت</translation>
+</message>
+<message>
+<tag_code>3151</tag_code>
+<translation>لا تتطابق المعلومات التي أدخلتها مع ما تم حفظه على الموجه. يرجى إدخالها مجدداً.</translation>
+</message>
+<message>
+<tag_code>3152</tag_code>
+<translation>يجب أن يكون عنوان IP وعنوان IP الخاص بالبوابة في نفس الشبكة الفرعية.\n</translation>
+</message>
+<message>
+<tag_code>3153</tag_code>
+<translation>يجب أن تتألف الملصقات من 63 حرفاً أو أقل.\n</translation>
+</message>
+<message>
+<tag_code>3154</tag_code>
+<translation>يجب أن يكون عنوان IP على LAN وعنوان IP على WAN في نفس الشبكة الفرعية.</translation>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>يتعذر على الموجه الاتصال بالإنترنت بواسطة الإعدادات الحالية.</translation>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>يعود هذا على الأرجح إلى أحد الأسباب التالية:</translation>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>قد تستغرق هذه العملية بضع دقائق؛ يرجى الانتظار ...</translation>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>يمكن أن تستغرق هذه العملية دقيقة أو دقيقتين؛ يرجى الانتظار...</translation>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>تم تعيين هذا الموجه مسبقاً بواسطة اسم الشبكة اللاسلكية الفريد التالي (SSID) و</translation>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>سيتم إرجاع هذه الشاشة تلقائيًا إلى الشاشة السابقة خلال ثوانٍ قليلة...</translation>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>لتجنب التعارض مع موفر خدمة الإنترنت، تم تحديث عنوان IP الخاص بالموجه إلى </translation>
+</message>
+<message>
+<tag_code>3162</tag_code>
+<translation>للحصول عليه.</translation>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>لحل هذه المشكلة، تأكد من توصيل كبل إيثرنت الأصفر بإحكام بمنفذ مودم ذات نطاق ترددي سريع ومنفذ إنترنت الموجه.</translation>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>لحل هذه المشكلة، قم بتشغيل دورة المودم (قم بإيقاف تشغيلها وتشغيلها). لتشغيل دورة مودم بواسطة بطارية احتياطية، قد تحتاج لإزالة بطاريته وإعادة إدخالها. بعد دورة التشغيل، انتظر مدة دقيقتين ليشتغل المودم بشكل كامل.</translation>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>حاول مجدداً</translation>
+</message>
+<message>
+<tag_code>3166</tag_code>
+<translation>إلغاء تثبيت</translation>
+</message>
+<message>
+<tag_code>3167</tag_code>
+<translation>لا يمكن أن يكون اسم المستخدم فارغًا.</translation>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>اسم المستخدم</translation>
+</message>
+<message>
+<tag_code>3169</tag_code>
+<translation>تحذير! \nتؤدي استعادة الإعدادات من ملف تكوين إلى مسح كافة الإعدادات الحالية. \nهل أنت متأكد من رغبتك في القيام بذلك?</translation>
+</message>
+<message>
+<tag_code>3170</tag_code>
+<translation>تحذير</translation>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>يمكننا مساعدتك على استرداد كلمة مرور مسؤول الموجه. يرجى إكمال المعلومات أدناه والنقر فوق &lt;b&gt;متابعة&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>ما هو اسم أول صاحب عمل عملت لديه؟</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>ما هو الاسم الأول لصديقك المفضل؟</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>ما هو الاسم الأوسط لوالدك؟</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>ما هو الاسم الأول لجدك؟</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>ما هو الاسم الأول لجدتك؟</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>ما هو الاسم الأوسط لوالدتك؟</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>ما هو الاسم الأول لشقيقك الأكبر؟</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>ما هو الاسم الأول لشقيقتك الكبرى؟</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>ما هو الاسم الأول لشقيقك الأصغر؟</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>ما هو الاسم الأول لشقيقتك الصغرى؟</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>ما كان الاسم الأول لمديرك الأول؟</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>ما كان اسم أول منتج NETGEAR اشتريته؟</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>ما كان اسم أول مدرسة  ذهبت إليها؟</translation>
+</message>
+<message>
+<tag_code>3185</tag_code>
+<translation>قناة WiFi</translation>
+</message>
+<message>
+<tag_code>3186</tag_code>
+<translation>عزل اللاسلكي</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>اسم الشبكة اللاسلكية (SSID)</translation>
+</message>
+<message>
+<tag_code>3188</tag_code>
+<translation>الإعداد اللاسلكي</translation>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>لاسلكي</translation>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>نعم</translation>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>نعم. قام ISP بتعيين عنوان IP (ساكن) ثابت لي.</translation>
+</message>
+<message>
+<tag_code>3192</tag_code>
+<translation>تم الآن تسجيل دخولك من جهاز آخر. يمكن تسجيل الدخول إلى جهاز واحد فقط في كل مرة. في حال سجّلت الدخول من هذا الجهاز، سيتم تسجيل الخروج من الجهاز الآخر. هل تريد المتابعة؟</translation>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>أنت غير متصل بانترنت.</translation>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>أنت متصل بالإنترنت بنجاح.</translation>
+</message>
+<message>
+<tag_code>3195</tag_code>
+<translation>يمكنك الآن تسجيل الدخول إلى الموجه باستخدام اسم المستخدم \"admin\" (المسؤول) وكلمة المرور هذه التي تم استردادها.</translation>
+</message>
+<message>
+<tag_code>3196</tag_code>
+<translation>استرديت كلمة مرور المسؤول بنجاح.</translation>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>تم تعيين الموجه مسبقاً بواسطة أمان WPA2-PSK اللاسلكي لحماية الشبكة من الوصول غير المرغوب فيه. للانضمام إلى الشبكة اللاسلكية، يجب إدخال مفتاح الشبكة (كلمة المرور). تُعتبر إعدادات التعيين المسبق هذه فريدة لهذا الجهاز، مثل رقم تسلسلي.  وإذا أردت تغييرها، يمكنك القيام بذلك لاحقاً في شاشة الإعدادات اللاسلكية على GUI للموجه على ويب.</translation>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>لم يتم تمكين الأمان اللاسلكي على هذا الموجه. تنصحك NETGEAR بشدة بأن</translation>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>لتمكين الأمان اللاسلكي وحماية شبكتك.</translation>
+</message>
+<message>
+<tag_code>3200</tag_code>
+<translation>معالج WPS</translation>
+</message>
+<message>
+<tag_code>3201</tag_code>
+<translation>إعداد WAN</translation>
+</message>
+<message>
+<tag_code>3202</tag_code>
+<translation>إعداد LAN</translation>
+</message>
+<message>
+<tag_code>3203</tag_code>
+<translation>إعداد QoS</translation>
+</message>
+<message>
+<tag_code>3204</tag_code>
+<translation>غير متصل</translation>
+</message>
+<message>
+<tag_code>3205</tag_code>
+<translation>بلا أمان</translation>
+</message>
+<message>
+<tag_code>3206</tag_code>
+<translation>خادم DHCP</translation>
+</message>
+<message>
+<tag_code>3207</tag_code>
+<translation>منفذ الإنترنت</translation>
+</message>
+<message>
+<tag_code>3208</tag_code>
+<translation>طابعة ReadySHARE</translation>
+</message>
+<message>
+<tag_code>3209</tag_code>
+<translation>تتوفر ترقية برنامج ثابت جديدة. انقر هنا للحصول عليها.</translation>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>اكتشاف تلقائي</translation>
+</message>
+<message>
+<tag_code>3211</tag_code>
+<translation>قد يستغرق هذا الإجراء لغاية ست دقائق؛ يرجى الانتظار …</translation>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>انقر فوق "التالي" للمتابعة.</translation>
+</message>
+<message>
+<tag_code>3213</tag_code>
+<translation>Counter Strike</translation>
+</message>
+<message>
+<tag_code>3214</tag_code>
+<translation>Age of Empires</translation>
+</message>
+<message>
+<tag_code>3215</tag_code>
+<translation>Everquest</translation>
+</message>
+<message>
+<tag_code>3216</tag_code>
+<translation>Quake 2</translation>
+</message>
+<message>
+<tag_code>3217</tag_code>
+<translation>Quake 3</translation>
+</message>
+<message>
+<tag_code>3218</tag_code>
+<translation>Unreal Tournament</translation>
+</message>
+<message>
+<tag_code>3219</tag_code>
+<translation>Warcraft</translation>
+</message>
+<message>
+<tag_code>3220</tag_code>
+<translation>غير معتمد</translation>
+</message>
+<message>
+<tag_code>3221</tag_code>
+<translation>الرقم التسلسلي</translation>
+</message>
+<message>
+<tag_code>3222</tag_code>
+<translation>التحقق من التحديثات</translation>
+</message>
+<message>
+<tag_code>3223</tag_code>
+<translation>ما هذا</translation>
+</message>
+<message>
+<tag_code>3224</tag_code>
+<translation>فشل تسجيل الدخول. يرجى إعادة إدخال كلمة مرور المسؤول الصحيحة لموجه NETGEAR</translation>
+</message>
+<message>
+<tag_code>3225</tag_code>
+<translation>يرجى توصيل هذا الجهاز لاسلكياً إلى موجه NETGEAR لديك، ثم المحاولة من جديد.</translation>
+</message>
+<message>
+<tag_code>3227</tag_code>
+<translation> FastLane</translation>
+</message>
+<message>
+<tag_code>3228</tag_code>
+<translation>حالة FastLane</translation>
+</message>
+<message>
+<tag_code>3229</tag_code>
+<translation> تشغيل FastLane</translation>
+</message>
+<message>
+<tag_code>3230</tag_code>
+<translation>النطاق الترددي محجوز لعنوان IP موثوق</translation>
+</message>
+<message>
+<tag_code>3231</tag_code>
+<translation>زر الضغط على اتصال WiFi و FastLane</translation>
+</message>
+<message>
+<tag_code>3232</tag_code>
+<translation>تمكين عنوان IP الموثو</translation>
+</message>
+<message>
+<tag_code>3233</tag_code>
+<translation>طباعة ReadySHARE</translation>
+</message>
+<message>
+<tag_code>3234</tag_code>
+<translation>مشاركة الطباعة لأجهزة الكمبيوتر التي تعمل بنظام التشغيل Windows وأجهزة الكمبيوتر التي تعمل بنظام التشغيل Mac مع طابعة USB</translation>
+</message>
+<message>
+<tag_code>3235</tag_code>
+<translation>كيف يعمل؟</translation>
+</message>
+<message>
+<tag_code>3236</tag_code>
+<translation>الخطوة 1: وصّل طابعة USB بمنفذ USB الموجود على الموجّه بواسطة كبل طابعة USB.</translation>
+</message>
+<message>
+<tag_code>3237</tag_code>
+<translation>الخطوة 2: ثبّت برنامج تشغيل طابعة USB على كل كمبيوتر سيتشارك في الطابعة.</translation>
+</message>
+<message>
+<tag_code>3238</tag_code>
+<translation>إذا لم تكن تملك برنامج التشغيل، فاتصل بالشركة المصنّعة للطابعة لتحديد موقع أحدث برنامج تشغيل طابعة وتنزيله.</translation>
+</message>
+<message>
+<tag_code>3239</tag_code>
+<translation>الخطوة 3: على كل كمبيوتر سيتشارك في الطابعة، قم بتنزيل أداة المساعدة الخاصة بـ NETGEAR USB Control Center‏ من &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'&gt;http://www.netgear.com/readyshare&lt;/a&gt;. </translation>
+</message>
+<message>
+<tag_code>3240</tag_code>
+<translation>اتبع الإرشادات في الأداة المساعدة للاتصال بالطابعة من الكمبيوتر والطباعة.</translation>
+</message>
+<message>
+<tag_code>3241</tag_code>
+<translation>الدعم عبر الإنترنت</translation>
+</message>
+<message>
+<tag_code>3242</tag_code>
+<translation>خروج</translation>
+</message>
+<message>
+<tag_code>3243</tag_code>
+<translation>تم رفض الوصول إلى هذا المصدر، لم يقدم عميلك المصادقة الصحيحة.</translation>
+</message>
+<message>
+<tag_code>3244</tag_code>
+<translation>وضع عبور VPN</translation>
+</message>
+<message>
+<tag_code>3245</tag_code>
+<translation>وضع عبور IPSec</translation>
+</message>
+<message>
+<tag_code>3246</tag_code>
+<translation>وضع عبور PPTP</translation>
+</message>
+<message>
+<tag_code>3247</tag_code>
+<translation>وضع عبور L2TP</translation>
+</message>
+<message>
+<tag_code>3248</tag_code>
+<translation>فشل - لا يمكن الحصول على الملف</translation>
+</message>
+<message>
+<tag_code>3249</tag_code>
+<translation>فشل – مساحة غير كافية</translation>
+</message>
+<message>
+<tag_code>3250</tag_code>
+<translation>فشل – سبب مجهول</translation>
+</message>
+<message>
+<tag_code>3251</tag_code>
+<translation>جارٍ التنزيل</translation>
+
+
+</message>
+<message>
+<tag_code>3252</tag_code>
+<translation>تمكين ضوء LED لشارة NETGEAR</translation>
+</message>
+<message>
+<tag_code>3259</tag_code>
+<translation>منفذ إنترانت</translation>
+</message>
+<message>
+<tag_code>3260</tag_code>
+<translation>ملف التعريف</translation>
+</message>
+<message>
+<tag_code>3261</tag_code>
+<translation>SSID</translation>
+</message>
+<message>
+<tag_code>3262</tag_code>
+<translation>بث SSID</translation>
+</message>
+<message>
+<tag_code>3306</tag_code>
+<translation>عنوان IP الداخلي</translation>
+</message>
+<message>
+<tag_code>3307</tag_code>
+<translation>منفذ بداية خارجي</translation>
+</message>
+<message>
+<tag_code>3308</tag_code>
+<translation>منفذ نهاية خارجي</translation>
+</message>
+<message>
+<tag_code>3309</tag_code>
+<translation>منفذ بداية داخلي</translation>
+</message>
+<message>
+<tag_code>3310</tag_code>
+<translation>منفذ نهاية داخلي</translation>
+</message>
+<message>
+<tag_code>3311</tag_code>
+<translation>استخدام نطاق المنفذ نفسه للمنفذ الداخلي</translation>
+</message>
+<message>
+<tag_code>3312</tag_code>
+<translation>أو تحديد من الأجهزة المُرفقة حالياً</translation>
+</message>
+<message>
+<tag_code>3313</tag_code>
+<translation>اسم الخدمة</translation>
+</message>
+<message>
+<tag_code>3314</tag_code>
+<translation>إيقاف تشغيل الإشارة اللاسلكية حسب الجدول</translation>
+</message>
+<message>
+<tag_code>3315</tag_code>
+<translation>تمت جدولة الإشارة اللاسلكية لتتوقف عن التشغيل خلال الفترات الزمنية التالية:</translation>
+</message>
+<message>
+<tag_code>3316</tag_code>
+<translation>‏‏‏‏نمط التكرار</translation>
+</message>
+<message>
+‏‏<tag_code>3317</tag_code>
+<translation>إضافة فترة زمنية جديدة</translation>
+</message>
+<message>
+<tag_code>3318</tag_code>
+<translation>متى يجب إيقاف تشغيل الإشارة اللاسلكية</translation>
+</message>
+<message>
+<tag_code>3319</tag_code>
+<translation>تحديد الأيام</translation>
+</message>
+<message>
+<tag_code>3320</tag_code>
+<translation>Mon</translation>
+</message>
+<message>
+<tag_code>3321</tag_code>
+<translation>Tue</translation>
+</message>
+<message>
+<tag_code>3322</tag_code>
+<translation>Wed</translation>
+</message>
+<message>
+<tag_code>3323</tag_code>
+<translation>Thu</translation>
+</message>
+<message>
+<tag_code>3324</tag_code>
+<translation>Fri</translation>
+</message>
+<message>
+<tag_code>3325</tag_code>
+<translation>Sat</translation>
+</message>
+<message>
+<tag_code>3326</tag_code>
+<translation>Sun</translation>
+</message>
+<message>
+<tag_code>3327</tag_code>
+<translation>Send an email notification when a downloading task is finished</translation>
+</message>
+<message>
+<tag_code>3328</tag_code>
+<translation>Configure Email</translation>
+</message>
+<message>
+<tag_code>3329</tag_code>
+<translation>Upper limit per task. Once set, each download or upload task can use a speed less than or equal to the value you set here.</translation>
+</message>
+<message>
+<tag_code>3330</tag_code>
+<translation>Enable Auto Status Refresh</translation>
+</message>
+<message>
+<tag_code>3331</tag_code>
+<translation>The downloading task status will be refreshed automatically according to specified rate</translation>
+</message>
+<message>
+<tag_code>3332</tag_code>
+<translation>Refresh rate</translation>
+</message>
+<message>
+<tag_code>3333</tag_code>
+<translation>Times/Minute</translation>
+</message>
+<message>
+<tag_code>3334</tag_code>
+<translation>ARP Protection/IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3335</tag_code>
+<translation>Enable IP-MAC Binding</translation>
+</message>
+<message>
+<tag_code>3336</tag_code>
+<translation>IP-MAC binding protects your router from ARP attacks. With this function enabled, your router uses the IP-MAC binding table as the static ARP table. You can add, remove, or edit the IP-MAC binding pairs in the table. WARNING! Devices that are not registered in this table will NOT have internet access. Ensure that at least one LAN device's IP and MAC address pair is registered in this table.</translation>
+</message>
+<message>
+<tag_code>3337</tag_code>
+<translation>BitTorrent Link</translation>
+</message>
+<message>
+<tag_code>3338</tag_code>
+<translation>ReadySHARE Mobile Connect</translation>
+</message>
+<message>
+<tag_code>3339</tag_code>
+<translation>إعدادات شبكة النطاق الترددي السريع</translation>
+</message>
+<message>
+<tag_code>3340</tag_code>
+<translation>User Ethernet connection first and if fail use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3341</tag_code>
+<translation>Always use 3G/4G mobile connection</translation>
+</message>
+<message>
+<tag_code>3342</tag_code>
+<translation>Disable 3G/4G connection</translation>
+</message>
+<message>
+<tag_code>3343</tag_code>
+<translation>إعدادات شبكة الجوال ذات النطاق الترددي السريع</translation>
+</message>
+<message>
+<tag_code>3344</tag_code>
+<translation>رقم الوصول</translation>
+</message>
+<message>
+<tag_code>3345</tag_code>
+<translation>APN</translation>
+</message>
+<message>
+<tag_code>3346</tag_code>
+<translation>نوع PDP</translation>
+</message>
+<message>
+<tag_code>3347</tag_code>
+<translation>Connect on Demand</translation>
+</message>
+<message>
+<tag_code>3348</tag_code>
+<translation>الاتصال تلقائياً عند بدء التشغيل</translation>
+</message>
+<message>
+<tag_code>3349</tag_code>
+<translation>إعادة الاتصال تلقائياً عند فقدان الاتصال</translation>
+</message>
+<message>
+<tag_code>3350</tag_code>
+<translation>جارِ الاتصال</translation>
+</message>
+<message>
+<tag_code>3351</tag_code>
+<translation>جارٍ اكتشاف مودم</translation>
+</message>
+<message>
+<tag_code>3352</tag_code>
+<translation>Modem Not Supported</translation>
+</message>
+<message>
+<tag_code>3353</tag_code>
+<translation>تهيئة المودم</translation>
+</message>
+<message>
+<tag_code>3354</tag_code>
+<translation>Checking SIM card</translation>
+</message>
+<message>
+<tag_code>3355</tag_code>
+<translation>NO SIM Card</translation>
+</message>
+<message>
+<tag_code>3356</tag_code>
+<translation>PIN Checking</translation>
+</message>
+<message>
+<tag_code>3357</tag_code>
+<translation>PIN required on SIM</translation>
+</message>
+<message>
+<tag_code>3358</tag_code>
+<translation>PIN is ready</translation>
+</message>
+<message>
+<tag_code>3359</tag_code>
+<translation>Modem SIM locked</translation>
+</message>
+<message>
+<tag_code>3360</tag_code>
+<translation>Scanning Network</translation>
+</message>
+<message>
+<tag_code>3361</tag_code>
+<translation>ليس هناك تغطية للشبكة</translation>
+</message>
+<message>
+<tag_code>3362</tag_code>
+<translation>Wireless Broadband Not Connected</translation>
+</message>
+<message>
+<tag_code>3363</tag_code>
+<translation>جارِ الاتصال</translation>
+</message>
+<message>
+<tag_code>3364</tag_code>
+<translation>تم الاتصال</translation>
+</message>
+<message>
+<tag_code>3365</tag_code>
+<translation>Connection Fail</translation>
+</message>
+<message>
+<tag_code>3366</tag_code>
+<translation>الخمول</translation>
+</message>
+<message>
+<tag_code>3367</tag_code>
+<translation>Identifying</translation>
+</message>
+<message>
+<tag_code>3368</tag_code>
+<translation>PUK required on SIM</translation>
+</message>
+<message>
+<tag_code>3369</tag_code>
+<translation>Initializing</translation>
+</message>
+<message>
+<tag_code>3370</tag_code>
+<translation>PIN2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3371</tag_code>
+<translation>PUK2 required on SIM</translation>
+</message>
+<message>
+<tag_code>3372</tag_code>
+<translation>NO APN Configured</translation>
+</message>
+<message>
+<tag_code>3373</tag_code>
+<translation>Mobile Connection Idle</translation>
+</message>
+<message>
+<tag_code>3374</tag_code>
+<translation>Mobile Broadband Radio OFF</translation>
+</message>
+<message>
+<tag_code>3375</tag_code>
+<translation>Wii LAN Adapter Plugged</translation>
+</message>
+<message>
+<tag_code>3376</tag_code>
+<translation>غير متصل</translation>
+</message>
+<message>
+<tag_code>3377</tag_code>
+<translation>No USB Modem Plugged</translation>
+</message>
+<message>
+<tag_code>3378</tag_code>
+<translation>MEP PIN code required</translation>
+</message>
+<message>
+<tag_code>3379</tag_code>
+<translation>Wrong APN</translation>
+</message>
+<message>
+<tag_code>3380</tag_code>
+<translation>Roaming NOT Allowed</translation>
+</message>
+<message>
+<tag_code>3381</tag_code>
+<translation>Choosing Connection Mode</translation>
+</message>
+<message>
+<tag_code>3382</tag_code>
+<translation>Always use Ethernet connection</translation>
+</message>
+<message>
+<tag_code>3383</tag_code>
+<translation>استخدام اتصال شبكة الجوال ذات النطاق الترددي السريع دائماً</translation>
+</message>
+<message>
+<tag_code>3384</tag_code>
+<translation>Detecting Mobile Broadband Modem</translation>
+</message>
+<message>
+<tag_code>3385</tag_code>
+<translation>Connecting to Network</translation>
+</message>
+<message>
+<tag_code>3386</tag_code>
+<translation>No USB Broadband Modem is Deteced</translation>
+</message>
+<message>
+<tag_code>3387</tag_code>
+<translation>Make sure that the USB boardband modem is securely plugged</translation>
+</message>
+<message>
+<tag_code>3388</tag_code>
+<translation>No Mobile Broadband Network</translation>
+</message>
+<message>
+<tag_code>3389</tag_code>
+<translation>لم يتم اكتشاف بطاقة SIM</translation>
+</message>
+<message>
+<tag_code>3390</tag_code>
+<translation>SIM card not detected or SIM card rejected</translation>
+</message>
+<message>
+<tag_code>3391</tag_code>
+<translation>Please check to ensure SIM card is installed and is properly seated or SIM card is valid.</translation>
+</message>
+<message>
+<tag_code>3392</tag_code>
+<translation>PIN Issue</translation>
+</message>
+<message>
+<tag_code>3393</tag_code>
+<translation>Please input PIN code.</translation>
+</message>
+<message>
+<tag_code>3394</tag_code>
+<translation>Do you want to setup PIN code?</translation>
+</message>
+<message>
+<tag_code>3395</tag_code>
+<translation>مودم USB غير مُعتمد</translation>
+</message>
+<message>
+<tag_code>3396</tag_code>
+<translation>Please check the NETGEAR website for the latest firmware and supported devices.</translation>
+</message>
+<message>
+<tag_code>3397</tag_code>
+<translation>يرجى إدخال تكوين موفر الخدمة</translation>
+</message>
+<message>
+<tag_code>3398</tag_code>
+<translation>Please select the Internet Service Provider and then click Next.</translation>
+</message>
+<message>
+<tag_code>3399</tag_code>
+<translation>إذا كان موفر خدمة شبكة الجوال ذات النطاق الترددي السريع غير وارد في القائمة المنسدلة، يرجى تحديد غير ذلك.</translation>
+</message>
+<message>
+<tag_code>3400</tag_code>
+<translation>Please enter the configuration parameters. If you do not know what they are, please contact your service provide.</translation>
+</message>
+<message>
+<tag_code>3401</tag_code>
+<translation>Mobile Broadband Port</translation>
+</message>
+<message>
+<tag_code>3402</tag_code>
+<translation>تمكين إعادة تعيين اتصال الإنترنت التلقائي عند الساعة</translation>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>وضع AP</translation>
+
+
+</message>
+<message>
+<tag_code>3441</tag_code>
+<translation>تمكين وضع AP</translation>
+</message>
+<message>
+<tag_code>3442</tag_code>
+<translation>الحصول على عنوان IP ديناميكياً</translation>
+</message>
+<message>
+<tag_code>3443</tag_code>
+<translation>الحصول على عنوان خادم DNS ديناميكياً</translation>
+</message>
+<message>
+<tag_code>3444</tag_code>
+<translation>يسمح وضع AP اللاسلكي لهذا الجهاز بالعمل كنقطة وصول لاسلكية مستقلة على الشبكة الموجودة.</translation>
+</message>
+<message>
+<tag_code>3445</tag_code>
+<translation>تمكين إعدادات IP الثابتة على هذا الجهاز (غير موصى به)</translation>
+</message>
+<message>
+<tag_code>3446</tag_code>
+<translation>الرجاء اتباع الإرشادات التالية للحصول على الإعداد والأداء الأمثلين:</translation>
+</message>
+<message>
+<tag_code>3447</tag_code>
+<translation>&lt;b&gt;الخطوة 1: &lt;/b&gt;تأكد من أن &lt;b&gt;منفذ الإنترنت&lt;/b&gt; في الجهاز متصل بواسطة كبل بـ&lt;b&gt; أحد منافذ LAN على الموجه الموجود&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3448</tag_code>
+<translation>&lt;b&gt;الخطوة 2: &lt;/b&gt;إذا كان الموجه الموجود لاسلكياً، أوقف تشغيله أو قم بتعطيله لتفادي التداخل مع جهاز AP الجديد. أو على الأقل قم بتشغيله على قناة لاسلكية مختلفة.</translation>
+</message>
+<message>
+<tag_code>3449</tag_code>
+<translation>لدى إتمام ذلك، انقر فوق تطبيق للمتابعة</translation>
+</message>
+<message>
+<tag_code>3450</tag_code>
+<translation>&lt;b&gt;ملاحظة: &lt;/b&gt;بعد النقر فوق تطبيق، سيغير الموجه الموجود عنوان IP في هذا الجهاز، وبالتالي قد لا تكون صفحة الويب هذه متوفرة. يرجى الإغلاق وإعادة تشغيل مستعرض ويب على http://www.routerlogin.net/.</translation>
+</message>
+<message>
+<tag_code>3451</tag_code>
+<translation>وضع التشغيل</translation>
+</message>
+<message>
+<tag_code>3452</tag_code>
+<translation>نقطة الوصول</translation>
+</message>
+<message>
+<tag_code>3453</tag_code>
+<translation>PIN code</translation>
+</message>
+<message>
+<tag_code>3454</tag_code>
+<translation>China Mobile</translation>
+</message>
+<message>
+<tag_code>3455</tag_code>
+<translation>China Unicom</translation>
+</message>
+<message>
+<tag_code>3456</tag_code>
+<translation>China Telecom</translation>
+</message>
+<message>
+<tag_code>3457</tag_code>
+<translation>Other</translation>
+</message>
+<message>
+<tag_code>3458</tag_code>
+<translation>Operator Name</translation>
+</message>
+<message>
+<tag_code>3459</tag_code>
+<translation>Signal Strength</translation>
+</message>
+<message>
+<tag_code>3460</tag_code>
+<translation>3G/4G setup is done!</translation>
+</message>
+<message>
+<tag_code>3461</tag_code>
+<translation>USB Mobile Broadband Modem Settings</translation>
+</message>
+<message>
+<tag_code>3462</tag_code>
+<translation>3G/4G Connection Mode</translation>
+</message>
+<message>
+<tag_code>3463</tag_code>
+<translation>Connection Protocol</translation>
+</message>
+<message>
+<tag_code>3502</tag_code>
+<translation>(مؤقتًا)</translation>
+</message>
+<message>
+<tag_code>3599</tag_code>
+<translation>تمكين NETGEAR Downloader</translation>
+</message>
+<message>
+<tag_code>3600</tag_code>
+<translation>خادم الوسائط (الإعدادات)</translation>
+</message>
+<message>
+<tag_code>3601</tag_code>
+<translation>تمكين خادم الوسائط</translation>
+</message>
+<message>
+<tag_code>3602</tag_code>
+<translation>اسم خادم الوسائط</translation>
+</message>
+<message>
+<tag_code>3603</tag_code>
+<translation>تفحص المحتويات</translation>
+</message>
+<message>
+<tag_code>3604</tag_code>
+<translation>تلقائي (عند إضافة ملفات جديدة)</translation>
+</message>
+<message>
+<tag_code>3605</tag_code>
+<translation>إعادة مسح ملفات الوسائط تلقائياُ</translation>
+</message>
+<message>
+<tag_code>3606</tag_code>
+<translation>خادم الوسائط</translation>
+</message>
+<message>
+<tag_code>3607</tag_code>
+<translation>تمكين خادم iTunes (الموسيقى فقط)</translation>
+</message>
+<message>
+<tag_code>3608</tag_code>
+<translation>أدخل رمز المرور الظاهر على Remote App</translation>
+</message>
+<message>
+<tag_code>3609</tag_code>
+<translation>السماح بالتحكم</translation>
+</message>
+<message>
+<tag_code>3617</tag_code>
+<translation>إن هذا الإجراء معطّل حاليًا حتى يتم الضغط على الزر تشغيل/إيقاف تشغيل.</translation>
+</message>
+<message>
+<tag_code>3618</tag_code>
+<translation>إعداد VLAN/IPTV</translation>
+</message>
+<message>
+<tag_code>3619</tag_code>
+<translation>تمكين علامة VLAN</translation>
+</message>
+<message>
+<tag_code>3620</tag_code>
+<translation>معرف VLAN</translation>
+</message>
+<message>
+<tag_code>3621</tag_code>
+<translation>رقم منفذ خادم البريد الصادر</translation>
+</message>
+<message>
+<tag_code>3800</tag_code>
+<translation>التنظيم وفقًا لـ IP الداخلي</translation>
+</message>
+<message>
+<tag_code>3801</tag_code>
+<translation>(يرجى تحديد تقسيم المنافذ ونطاقات المنفذ بفواصل، على سبيل المثال: 30، 50‎ - 60، ‏65500-65510)</translation>
+</message>
+<message>
+<tag_code>3802</tag_code>
+<translation>نطاق المنفذ الخارجي</translation>
+</message>
+<message>
+<tag_code>3803</tag_code>
+<translation>نطاق المنفذ الداخلي</translation>
+</message>
+<message>
+<tag_code>3900</tag_code>
+<translation>التحكم بالوصول</translation>
+</message>
+<message>
+<tag_code>3901</tag_code>
+<translation>يمكنك استخدام التحكم بالوصول للسماح لأجهزة الكمبيوتر أو الأجهزة الإلكترونية بالوصول إلى شبكتك أو لحظرها. </translation>
+</message>
+<message>
+<tag_code>3902</tag_code>
+<translation>تشغيل التحكم بالوصول</translation>
+</message>
+<message>
+<tag_code>3903</tag_code>
+<translation>قاعدة الوصول:</translation>
+</message>
+<message>
+<tag_code>3904</tag_code>
+<translation>إنها قاعدة عامة. يمكنك أيضاً السماح للأجهزة الفردية أو حظرها.</translation>
+</message>
+<message>
+<tag_code>3905</tag_code>
+<translation>السماح لجميع الأجهزة الجديدة بالاتصال</translation>
+</message>
+<message>
+<tag_code>3906</tag_code>
+<translation>حظر جميع الأجهزة الجديدة من الاتصال</translation>
+</message>
+<message>
+<tag_code>3907</tag_code>
+<translation>عرض قائمة الأجهزة المسموح بها غير المتصلة حاليًا بالشبكة</translation>
+</message>
+<message>
+<tag_code>3908</tag_code>
+<translation>عرض قائمة الأجهزة المحظورة غير المتصلة حاليًا بالشبكة</translation>
+</message>
+<message>
+<tag_code>3909</tag_code>
+<translation>السماح</translation>
+</message>
+<message>
+<tag_code>3910</tag_code>
+<translation>حظر</translation>
+</message>
+<message>
+<tag_code>3911</tag_code>
+<translation>محظور</translation>
+</message>
+<message>
+<tag_code>3912</tag_code>
+<translation>مسموح</translation>
+</message>
+<message>
+<tag_code>3913</tag_code>
+<translation>يتيح لك وضع نقطة الوصول إضافة موجه آخر إلى الشبكة كنقطة وصول لاسلكية</translation>
+</message>
+<message>
+<tag_code>3914</tag_code>
+
+
+<translation>تمكين وضع نقطة الوصول</translation>
+</message>
+<message>
+<tag_code>3915</tag_code>
+<translation>قد يشكل ذلك الإعدادات اللاسلكية للجهاز كنقطة وصول:</translation>
+</message>
+<message>
+<tag_code>3916</tag_code>
+<translation>اسم اللاسلكي (SSID):</translation>
+</message>
+<message>
+<tag_code>3917</tag_code>
+<translation>كلمة مرور اللاسلكي (Key):</translation>
+</message>
+<message>
+<tag_code>3918</tag_code>
+<translation>إذا أردت التغيير، اذهب إلى إعداد->إعداد لاسلكي لتغييره، عندها، يكون الكمبيوتر بحاجة إلى إعادة الاتصال باستخدام إعداد جديد، ثمّ، عد إلى هذه الصفحة.</translation>
+</message>
+<message>
+<tag_code>3919</tag_code>
+<translation>توصيك NETGEAR باستخدام إعدادات لاسلكية مختلفة عن الشبكة اللاسلكية الموجودة لتجنب أي تداخل، أو سيتعين عليك تعطيل الإشارة اللاسلكية أو إيقاف تشغيلها على الموجه الموجود.</translation>
+</message>
+<message>
+<tag_code>3920</tag_code>
+<translation>لإضافة هذا الموجه إلى الشبكة في وضع نقطة الوصول:</translation>
+</message>
+<message>
+<tag_code>3921</tag_code>
+<translation>قم بتوصيل أحد طرفي كبل إيثرنت بمنفذ الإنترنت في هذا الموجه، والطرف الآخر بمنفذ LAN في الموجه الموجود.</translation>
+</message>
+<message>
+<tag_code>3922</tag_code>
+<translation>اختر إعدادات عنوان IP على نقطة الوصول هذه</translation>
+</message>
+<message>
+<tag_code>3923</tag_code>
+<translation>نقطة الوصول اللاسلكية</translation>
+</message>
+<message>
+<tag_code>3924</tag_code>
+<translation>الوصول إلى العنوان من الموجه الموجود ديناميكياً</translation>
+</message>
+<message>
+<tag_code>3925</tag_code>
+<translation>استخدام عنوان IP الثابت (غير موصى به)</translation>
+</message>
+<message>
+<tag_code>3926</tag_code>
+<translation>هل لديك حساب NETGEAR DDNS أو حساب DDNS من دون IP؟</translation>
+</message>
+<message>
+<tag_code>3927</tag_code>
+<translation>يرجى إدخال المعلومات التالية للتسجيل.</translation>
+</message>
+<message>
+<tag_code>3928</tag_code>
+<translation>البريد الإلكتروني</translation>
+</message>
+<message>
+<tag_code>3929</tag_code>
+<translation>كلمة المرور (من 6 إلى 32 حرفًا)</translation>
+</message>
+<message>
+<tag_code>3930</tag_code>
+<translation>تسجيل</translation>
+</message>
+<message>
+<tag_code>3931</tag_code>
+<translation>من خلال تقديم هذه الاستمارة، أوافق على</translation>
+</message>
+<message>
+<tag_code>3932</tag_code>
+<translation>بنود الخدمة</translation>
+</message>
+<message>
+<tag_code>3933</tag_code>
+<translation>وعلى أنني سأنشئ حسابًا مجانيًا واحدًا فقط.</translation>
+</message>
+<message>
+<tag_code>3934</tag_code>
+<translation>هل نسيت كلمة المرور؟</translation>
+</message>
+<message>
+<tag_code>3935</tag_code>
+<translation>النقر هنا</translation>
+</message>
+<message>
+<tag_code>3936</tag_code>
+<translation>لإدارة حساب DDNS،</translation>
+</message>
+<message>
+<tag_code>3937</tag_code>
+<translation>تم حاليًا تكوين NETGEAR DDNS على هذا الموجه إلى:</translation>
+</message>
+<message>
+<tag_code>3938</tag_code>
+<translation>الحساب/البريد الإلكتروني:</translation>
+</message>
+<message>
+<tag_code>3939</tag_code>
+<translation>لتغيير الإعدادات، انقر فوق </translation>
+</message>
+<message>
+<tag_code>3940</tag_code>
+<translation> لإعادة تعيينها أولاً.</translation>
+</message>
+<message>
+<tag_code>4000</tag_code>
+<translation>خدمة VPN</translation>
+</message>
+<message>
+<tag_code>4001</tag_code>
+<translation>تمكين خدمة VPN</translation>
+</message>
+<message>
+<tag_code>4002</tag_code>
+<translation>لإعداد عميل VPN على أجهزة العميل:</translation>
+</message>
+<message>
+<tag_code>4003</tag_code>
+<translation>تكوينات متقدمة</translation>
+</message>
+<message>
+<tag_code>4004</tag_code>
+<translation>نوع الخدمة</translation>
+</message>
+<message>
+<tag_code>4005</tag_code>
+<translation>منفذ الخدمة</translation>
+</message>
+<message>
+<tag_code>4006</tag_code>
+<translation>سيستخدم العملاء اتصال VPN هذا للوصول إلى</translation>
+</message>
+<message>
+<tag_code>4007</tag_code>
+<translation>كل المواقع على الإنترنت والشبكة المنزلية</translation>
+</message>
+<message>
+<tag_code>4008</tag_code>
+<translation>الشبكة المنزلية فقط</translation>
+</message>
+<message>
+<tag_code>4009</tag_code>
+<translation>تلقائي</translation>
+</message>
+<message>
+<tag_code>4010</tag_code>
+<translation>الخطوة 1: حدد مربع الاختيار تمكين خدمة VPN وانقر فوق الزر تطبيق."</translation>
+</message>
+<message>
+<tag_code>4011</tag_code>
+<translation>لخطوة 2: قم بتنزيل أداة العميل المساعدة من</translation>
+</message>
+<message>
+<tag_code>4012</tag_code>
+<translation>الأجهزة حيث تريد تشغيل عميلوتثبيتها على VPN</translation>
+</message>
+<message>
+<tag_code>4013</tag_code>
+<translation>عملاء IOS وAndroid غير مدعومين حاليًا.</translation>
+</message>
+<message>
+<tag_code>4014</tag_code>
+<translation>الخطوة 3: انقر فوق الزر المناسب أدناه لتنزيل ملفات تكوين عملاء VPN.</translation>
+</message>
+<message>
+<tag_code>4015</tag_code>
+<translation>الخطوة 4: فك ضغط ملفات التكوين التي قمت بتنزيلها للتو وانسخها إلى المجلد حيث تم تثبيت عميل VPN على الأجهزة.</translation>
+</message>
+<message>
+<tag_code>4016</tag_code>
+<translation>الخطوة 5: عليك تعديل اسم واجهة VPN لجهاز العميل الذي يعمل بنظام Windows إلى "NETGEAR-VPN"</translation>
+</message>
+<message>
+<tag_code>4017</tag_code>
+<translation>تثبيت أداة العميل المساعدة وتشغيلها من قبل مستخدم يتمتع بامتيازات المسؤول6</translation>
+</message>
+<message>
+<tag_code>4018</tag_code>
+<translation>الخطوة 7: للحصول على تعليمات حول الاتصال باستخدام عملاء OpenVPN، يرجى الرجوع إلى </translation>
+</message>
+<message>
+<tag_code>4019</tag_code>
+<translation>ملاحظة: إذا كنت ترغب في إجراء أي تغيير على قسم التكوينات المتقدمة، فيرجى إجراؤه قبل تنزيل ملفات التكوين في الخطوة 3.</translation>
+</message>
+<message>
+<tag_code>4020</tag_code>
+<translation>ReadySHARE Vault</translation>
+</message>
+<message>
+<tag_code>4021</tag_code>
+<translation>يسمح لك مخزن ReadySHARE بإجراء نسخة احتياطية للملفات على كمبيوتر يعمل بنظام Windows.</translation>
+</message>
+<message>
+<tag_code>4022</tag_code>
+<translation>لإجراء نسخة احتياطية لكمبيوتر يعمل بنظام Windows على محرك القرص الثابت في الموجه:</translation>
+</message>
+<message>
+<tag_code>4023</tag_code>
+<translation>1. قم بتثبيت تطبيق genie على كل كمبيوتر عبر تنزيل البرنامج من  &lt;a class='linktype' target='_blank' href='http://www.netgear.com/genie'>www.netgear.com/genie&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4024</tag_code>
+<translation>2. قم بتثبيت مخزن ReadySHARE على كل كمبيوتر عبر تنزيل البرنامج من &lt;a class='linktype' target='_blank' href='http://www.netgear.com/readyshare'>www.netgear.com/readyshare&lt;/a&gt;.</translation>
+</message>
+<message>
+<tag_code>4025</tag_code>
+<translation>3. قم بتشغيل مخزن ReadySHARE. استخدم لوحة المعلومات أو علامة تبويب النسخ الاحتياطي لإعداد النسخ الاحتياطي وتشغيله.</translation>
+</message>
+<message>
+<tag_code>4100</tag_code>
+<translation>نوع اتصال الإنترنت</translation>
+</message>
+<message>
+<tag_code>4101</tag_code>
+<translation>كشف تلقائي</translation>
+</message>
+<message>
+<tag_code>4102</tag_code>
+<translation>تكوين تلقائي</translation>
+</message>
+<message>
+<tag_code>4103</tag_code>
+<translation>نفق 6to4</translation>
+</message>
+<message>
+<tag_code>4104</tag_code>
+<translation>عبور</translation>
+</message>
+<message>
+<tag_code>4105</tag_code>
+<translation>ثابت</translation>
+</message>
+<message>
+<tag_code>4106</tag_code>
+<translation>موجه ترحيل 6to4 بعيد</translation>
+</message>
+<message>
+<tag_code>4107</tag_code>
+<translation>تلقائي</translation>
+</message>
+<message>
+<tag_code>4108</tag_code>
+<translation>عنوان IP ساكن</translation>
+</message>
+<message>
+<tag_code>4109</tag_code>
+<translation>عنوان IPv6/طول البادئة</translation>
+</message>
+<message>
+<tag_code>4110</tag_code>
+<translation>عنوان IPv6 الخاص بالموجه على WAN</translation>
+</message>
+<message>
+<tag_code>4111</tag_code>
+<translation>فئة المستخدم (إذا كانت مطلوبة)</translation>
+</message>
+<message>
+<tag_code>4112</tag_code>
+<translation>عنوان IPv6 الخاص بالموجه على LAN</translation>
+</message>
+<message>
+<tag_code>4113</tag_code>
+<translation>تعيين عنوان IP</translation>
+</message>
+<message>
+<tag_code>4114</tag_code>
+<translation>استخدام خادم DHCP</translation>
+</message>
+<message>
+<tag_code>4115</tag_code>
+<translation>استخدام معرّف الواجهة هذا</translation>
+</message>
+<message>
+<tag_code>4200</tag_code>
+<translation>اذهب إلى  &lt;a  style=text-decoration:underline;color:#0000ff; id=url_ac onclick=goto_formframe('AccessControl.htm&amp;todo=cfg_init')&gt;التحكم بالوصول&lt;/a&gt; للسماح للأجهزة أو لحظرها.</translation>
+</message>
+<message>
+<tag_code>4202</tag_code>
+<translation>قيد التشغيل</translation>
+</message>
+<message>
+<tag_code>4203</tag_code>
+<translation>متوقف عن التشغيل</translation>
+</message>
+<message>
+<tag_code>4204</tag_code>
+<translation>قاعدة عامة</translation>
+</message>
+<message>
+<tag_code>4300</tag_code>
+<translation>إن Facebook Wi-Fi هو تطبيق مخصص للشركات الصغيرة. يحوّل التطبيق الموجه إلى نقطة اتصال Wi-Fi ويسمح للمدراء بتسجيل الوصول إلى صفحتك على Facebook وتسجيل الإعجاب بها قبل استخدام الويب مجانًا. </translation>
+</message>
+<message>
+<tag_code>4301</tag_code>
+<translation>يرجى زيارة عملية الإعداد وقراءتها</translation>
+</message>
+<message>
+<tag_code>4302</tag_code>
+<translation>يمكّن الخيار &lt;b&gt;تمكين Facebook Wi-Fi&lt;/b&gt; هذا الجهاز من دعم وظيفة اتصال Facebook بالشبكة اللاسلكية. </translation>
+</message>
+<message>
+<tag_code>4303</tag_code>
+<translation>ينطبق هذا الأمر على شبكة الضيف اللاسلكية فقط، لذلك يجب تمكينها على الموجه لكي يتم تشغيل هذه الميزة.</translation>
+</message>
+<message>
+<tag_code>4304</tag_code>
+<translation>انقر فوق &lt;b&gt;تكوين&lt;/b&gt; لربط الموجه بصفحتك الحالية على Facebook.</translation>
+</message>
+<message>
+<tag_code>4305</tag_code>
+<translation>تكوين</translation>
+</message>
+<message>
+<tag_code>4306</tag_code>
+<translation>(لتمكين الزر \"تكوين\"، يرجى وضع علامة اختيار على خيار \"تمكين Facebook Wi-Fi\" والنقر فوق الزر \"تطبيق\")</translation>
+</message>
+<message>
+<tag_code>4310</tag_code>
+<translation>وضع QoS:</translation>
+</message>
+<message>
+<tag_code>4311</tag_code>
+<translation>قواعد QoS</translation>
+</message>
+<message>
+<tag_code>4312</tag_code>
+<translation>إضافة القواعد</translation>
+</message>
+<message>
+<tag_code>4313</tag_code>
+<translation>QoS عبر الخدمة</translation>
+</message>
+<message>
+<tag_code>4314</tag_code>
+<translation>QoS عبر الجهاز</translation>
+</message>
+<message>
+<tag_code>4315</tag_code>
+<translation>قائمة الانتظار 1: الأعلى</translation>
+</message>
+<message>
+<tag_code>4316</tag_code>
+<translation>قائمة الانتظار 2: عالي</translation>
+</message>
+<message>
+<tag_code>4317</tag_code>
+<translation>قائمة الانتظار 3: عادي</translation>
+</message>
+<message>
+<tag_code>4318</tag_code>
+<translation>قائمة الانتظار 4: منخفض</translation>
+</message>
+<message>
+<tag_code>4319</tag_code>
+<translation>اختبار السرعة</translation>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>السابق</translation>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>قم بتنزيل تطبيقات الموجه التالية:</translation>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>تطبيق Genie. لوحة معلومات خاصة تسمح لك بمراقبة الشبكة المنزلية الخاصة بك والتحكم فيها وإصلاحها.</translation>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>تطبيق ReadySHARE Vault (لأجهزة الكمبيوتر التي تعمل بنظام Windows فقط). تمكين النسخ الاحتياطي التلقائي المستمر لكمبيوتر يعمل بنظام Windows إلى محرك أقراص USB متصل بالموجه الخاص بك.</translation>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>يتم التنزيل...</translation>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>ثبِّت تطبيق Genie بعد اكتمال التنزيل.</translation>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>انقر فوق الزر التالي بعد تثبيت تطبيق Genie لإنهاء تكوين الموجه.</translation>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>ثبِّت تطبيق ReadySHARE Vault بعد اكتمال التنزيل.</translation>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>انقر فوق الزر التالي بعد تثبيت تطبيق ReadySHARE Vault لإنهاء تكوين الموجه.</translation>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>جارٍ معالجة طلبك...</translation>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>بعد التثبيت، يرجى النقر فوق التالي</translation>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>سيتم تثبيت النظام</translation>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>انقر فوق تشغيل لبدء التثبيت</translation>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>إعدادات التحكم بضوء LED</translation>
+<variable>LED Control Settings</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>لإيقاف تشغيل جميع أضواء LED باستثناء ضوء LED للطاقة</translation>
+<variable>Turn off all LEDs except Power LED</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>لتمكين وميض ضوء LED للإنترنت وLED لشبكة LAN وLED للشبكة اللاسلكية وLED لـ USB عند الكشف عن عملية نقل البيانات</translation>
+<variable>Enable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>لتعطيل وميض ضوء LED للإنترنت وLED لشبكة LAN وLED للشبكة اللاسلكية وLED لـ USB عند الكشف عن عملية نقل البيانات</translation>
+<variable>Disable blinking on Internet LED, LAN LED, Wireless LED and USB LED when data traffic is detected</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>غير متوفر</translation>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>تحديث الحالة</translation>
+</message>
+<message>
+<tag_code>4500</tag_code>
+<translation>بالنسبة إلى الأجهزة التي تعمل بنظام Windows</translation>
+</message>
+<message>
+<tag_code>4501</tag_code>
+<translation>بالنسبة إلى الأجهزة التي لا تعمل بنظام Windows</translation>
+</message>
+<message>
+<tag_code>4503</tag_code>
+<translation>(GMT+12:00) كامشاتكا</translation>
+</message>
+<message>
+<tag_code>4504</tag_code>
+<translation>إعدادات التحكم بضوء LED</translation>
+</message>
+<message>
+<tag_code>4505</tag_code>
+<translation>لتمكين وميض ضوء LED للإنترنت وLED لشبكة LAN وLED للشبكة اللاسلكية وLED لـ USB عند الكشف عن عملية نقل البيانات</translation>
+</message>
+<message>
+<tag_code>4506</tag_code>
+<translation>لتعطيل وميض ضوء LED للإنترنت وLED لشبكة LAN وLED للشبكة اللاسلكية وLED لـ USB عند الكشف عن عملية نقل البيانات</translation>
+</message>
+<message>
+<tag_code>4507</tag_code>
+<translation>لإيقاف تشغيل جميع أضواء LED باستثناء ضوء LED للطاقة</translation>
+</message>
+<message>
+<tag_code>4508</tag_code>
+<translation>سياسة الخصوصية</translation>
+</message>
+<message>
+<tag_code>9999</tag_code>
+<translation>ReadyCLOUD (تسمح لك بالوصول إلى جهاز تخزين ReadySHARE أينما كنت)</translation>
+</message>
+<message>
+<tag_code>10521</tag_code>
+<translation>حتى 289 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>10522</tag_code>
+<translation>حتى 600 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>10523</tag_code>
+<translation>حتى 1300 ميغابايت في الثانية</translation>
+</message>
+<message>
+<tag_code>10692</tag_code>
+<translation>تمنحك ميزة ReadyCLOUD إمكانية الوصول عن بُعد عبر الإنترنت إلى جهاز تخزين USB متصل بمنفذ USB خاص بموجهك.</translation>
+</message>
+<message>
+<tag_code>10693</tag_code>
+<translation>كيفية إعداد ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10694</tag_code>
+<translation>الخطوة الأولى: أنت بحاجة إلى حساب ReadyCLOUD. إذا لم يكن لديك حساب،</translation>
+</message>
+<message>
+<tag_code>10695</tag_code>
+<translation>انقر هنا لإنشاء حساب وحدد "إنشاء حساب".</translation>
+</message>
+<message>
+<tag_code>10696</tag_code>
+<translation>خطوة 2: عُد إلى صفحة الموجه هذه وأدخل اسم مستخدم ReadyCLOUD وكلمة المرور لتسجيل موجهك وجهاز USB المتصل به بواسطة ReadyCLOUD.</translation>
+</message>
+<message>
+<tag_code>10697</tag_code>
+<translation></translation>
+</message>
+<message>
+<tag_code>10698</tag_code>
+<translation>الخطوة الثالثة: سجّل الدخول من جديد إلى </translation>
+</message>
+<message>
+<tag_code>10699</tag_code>
+<translation> مستخدمًا حسابك في ReadyCLOUD. سيتم عرض جهاز USB المتصل بموجهك.</translation>
+</message>
+<message>
+<tag_code>10700</tag_code>
+<translation>يمكنك استخدام تطبيق تكميلي عن بُعد لإجراء اتصال آمن من جهاز الكمبيوتر أو الجهاز المحمول إلى جهاز USB الخاص بالموجه.</translation>
+</message>
+<message>
+<tag_code>10701</tag_code>
+<translation>مجّل الدخول إلى هذا التطبيق عن بُعد ويمكنك الوصول إلى جهاز USB أينما كنت. 
+</translation>
+</message>
+<message>
+<tag_code>10702</tag_code>
+<translation> للحصول على التطبيق عن بُعد.</translation>
+</message>
+<message>
+<tag_code>10703</tag_code>
+<translation>"اكتملت عملية التسجيل بنجاح"</translation>
+</message>
+<message>
+<tag_code>10704</tag_code>
+<translation>"اكتملت عملية إلغاء التسجيل بنجاح"</translation>
+</message>
+<message>
+<tag_code>10705</tag_code>
+<translation>"فشلت عملية التسجيل"</translation>
+</message>
+<message>
+<tag_code>10706</tag_code>
+<translation>"فشلت عملية إلغاء التسجيل"</translation>
+</message>
+<message>
+<tag_code>10707</tag_code>
+<translation>لإعداد حساب مستخدم ReadyCLOUD الخاص بك أو تعديله، قم بزيارة </translation>
+</message>
+<message>
+<tag_code>10708</tag_code>
+<translation>هذا الموجه مسجّل مع مستخدم ReadyCLOUD التالي:</translation>
+</message>
+<message>
+<tag_code>10709</tag_code>
+<translation>"نقر فوق&lt;b&gt;إلغاء تسجيل&lt;/b&gt; لتسجيل هذا الموجه باستخدام حساب مختلف من ReadyCLOUD</translation>
+</message>
+<message>
+<tag_code>10710</tag_code>
+<translation>إلغاء التسحيل</translation>
+</message>
+<message>
+<tag_code>10711</tag_code>
+<translation>ملاحظة:</translation>
+</message>
+<message>
+<tag_code>10712</tag_code>
+<translation>&lt;b&gt;ملاحظة:&lt;/b&gt; يحافظ الموجه على اتصال مستمر بميزة ReadyCLOUD إلى حين إلغاء التسجيل.</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>تمكين BEAMFORMING الضمنية - لتعزيز سرعة اتصال WiFi والموثوقية والنطاق لمختلف الأجهزة الجوالة</translation>
+</message>
+<message>
+<tag_code>10713</tag_code>
+<translation>Enable Implicit BEAMFORMING - Boosts WiFi speed, reliability, range for all mobile devices</translation>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>حماية كلمة مرور المسؤول</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>تحذير: نوصي بشدة بتمكين حماية كلمة مرور المسؤول لتأمين بيانات ReadySHARE. إذا لم تغيّر كلمة مرور المسؤول الافتراضية، نوصي أيضًا بتغييرها لتأمين شبكتك.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>إعدادات حساب المسؤول</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>يتم استخدام كلمة مرور المسؤول لتسجيل الدخول إلى واجهة ويب الموجه. يمكنك تأمين شبكتك من خلال تغيير كلمة مرور المسؤول.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>كلمة المرور الجديدة</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>تأكيد كلمة المرور الجديدة</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>اسم مستخدم مسؤول الموجه:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>استعادة إعدادات الموجه:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>كلمة مرور مسؤول الموجه:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10723</tag_code>
+<translation>تمكين Smart Connect - دع الموجه يحدد بذكاء النطاق الترددي الأفضل عبر WiFi‏ 2.4 غيغا هرتز أو 5 غيغا هرتز لاتصالات WiFi المُستخدمة. تقتضي تقنية Smart Connect بأن تستخدم شبكة 2.4 غيغا هرتز وشبكة 5 غيغا هيرتز اسم شبكة WiFi ‏(SSID) نفسه وخيارات الأمان وكلمة المرور نفسها.</translation>
+<variable>Enable Smart Connect - Let the router intelligently select the best WiFi band 2.4 GHz or 5 GHz for your WiFi connections. Smart Connect requires the 2.4 GHz and 5 GHz networks to use the same WiFi network name (SSID), security options and password.</variable>
+</message>
+<message>
+<tag_code>10724</tag_code>
+<translation>تمكين AIRTIME FAIRNESS - لتجنب أي تباطؤ في الشبكة عند توصيل أجهزة بطيئة</translation>
+<variable>Enable AIRTIME FAIRNESS - Prevent network lag when slower devices connect</variable>
+</message>
+<message>
+<tag_code>10725</tag_code>
+<translation>(تم التعطيل بسبب تمكين الاتصال الذكي)</translation>
+<variable>(disabled because Smart Connect is enabled)</variable>
+</message>
+<message>
+<tag_code>10726</tag_code>
+<translation>للهاتف الذكي</translation>
+<variable>For Smart Phone</variable>
+</message>
+<message>
+<tag_code>10727</tag_code>
+<translation>تنزيل حزمة تكوين OpenVPN</translation>
+<variable>OpenVPN configuration package download</variable>
+</message>
+<message>
+<tag_code>10728</tag_code>
+<translation>إرشادات لإعداد عميل OpenVPN</translation>
+<variable>OpenVPN client setup instruction</variable>
+</message>
+<message>
+<tag_code>10729</tag_code>
+<translation>نوع خدمة وضع TUN</translation>
+<variable>TUN Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10730</tag_code>
+<translation>منفذ خدمة وضع TUN</translation>
+<variable>TUN Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10731</tag_code>
+<translation>نوع خدمة وضع TAP</translation>
+<variable>TAP Mode Service Type</variable>
+</message>
+<message>
+<tag_code>10732</tag_code>
+<translation>منفذ خدمة وضع TAP</translation>
+<variable>TAP Mode Service Port</variable>
+</message>
+<message>
+<tag_code>10733</tag_code>
+<translation>من خلال مجموعة الجسر</translation>
+<variable>By bridge group</variable>
+</message>
+<message>
+<tag_code>10734</tag_code>
+<translation>من خلال مجموعة علامة VLAN</translation>
+<variable>By VLAN tag group</variable>
+</message>
+<message>
+<tag_code>10735</tag_code>
+<translation>استخدام وضع تشغيل آخر</translation>
+<variable>use other operation mode</variable>
+</message>
+<message>
+<tag_code>10736</tag_code>
+<translation>تمكين وضع الجسر</translation>
+<variable>Enable Bridge mode</variable>
+</message>
+<message>
+<tag_code>10737</tag_code>
+<translation>ضبط إعدادات وضع الجسر اللاسلكية</translation>
+<variable>setup bridge mode wireless settings</variable>
+</message>
+<message>
+<tag_code>10738</tag_code>
+<translation>الحصول على عنوان IP ديناميكياً</translation>
+<variable>Get IP Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10739</tag_code>
+<translation>الحصول على عنوان خادم DNS ديناميكياً</translation>
+<variable>Get DNS Server Address Dynamically</variable>
+</message>
+<message>
+<tag_code>10740</tag_code>
+<translation>اختر شبكة لاسلكية:</translation>
+<variable>Choose a wireless network:</variable>
+</message>
+<message>
+<tag_code>10741</tag_code>
+<translation>إعدادات الجسر / VLAN</translation>
+<variable>VLAN / Bridge Settings</variable>
+</message>
+<message>
+<tag_code>10742</tag_code>
+<translation>أجهزة عميل VPN</translation>
+<variable>VPN Client Devices</variable>
+</message>
+<message>
+<tag_code>10743</tag_code>
+<translation>عنوان IP البعيد</translation>
+<variable>Remote IP Address</variable>
+</message>
+<message>
+<tag_code>10744</tag_code>
+<translation>وقت الاتصال</translation>
+<variable>Local IP Address</variable>
+</message>
+<message>
+<tag_code>10745</tag_code>
+<translation>انقر هنا لتغيير اسم الجهاز</translation>
+<variable>Click here to change the Device Name</variable>
+</message>
+</tag_msg>

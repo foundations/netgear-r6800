@@ -1,0 +1,41 @@
+#!/bin/sh
+echo "Including config file: $1"
+
+. $1
+
+MODEL_NAME=$BOARD_ID
+echo "MODEL_NAME=$MODEL_NAME"
+
+cd $MODEL_NAME
+
+# Generate bin file
+if [ "$BOARD_ID" = "R6220" ]; then
+	./scBind -i $MODEL_NAME.par -o $MODEL_NAME.bin -p 0xff
+elif [ "$BOARD_ID" = "D7000" ]; then
+	./scBind -i $MODEL_NAME.par -o $MODEL_NAME.bin
+else
+	./scBind -i $MODEL_NAME.par -o $MODEL_NAME.bin -p 0xff
+fi
+
+# Generate language region bin file
+#if [ "$BOARD_ID" = "R6220" ]; then
+#for LANG_REGION in PE PR RU AU NA EE UK PA JP KO
+#do
+#	./scBind -i ${MODEL_NAME}_${LANG_REGION}.par -o ${MODEL_NAME}_${LANG_REGION}.bin -p 0xff 
+#done
+#fi
+
+if [ "${NEEDED_SDKPATH}" = "sdk4210" ]
+then
+	echo skip BCH since BCH take too long time
+	#echo use BCH to generate ${MODEL_NAME}_burn.bin 
+	#./BCH e 4 2048 64 ${MODEL_NAME}.bin ${MODEL_NAME}_burn.bin
+#else
+	#./mk_eccbin.sh $MODEL_NAME.bin ${MODEL_NAME}_burn.bin
+fi
+
+# zip bin file tobe img file
+./../tools/src/zipImage/zipImage $MODEL_NAME.bin
+
+
+

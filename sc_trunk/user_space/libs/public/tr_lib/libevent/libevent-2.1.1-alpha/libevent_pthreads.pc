@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/home/pd4/Alice/nick/R6220/sc_trunk/user_space/libs/public/tr_lib/lib
+includedir=/home/pd4/Alice/nick/R6220/sc_trunk/user_space/libs/public/tr_lib/include
+
+Name: libevent_pthreads
+Description: libevent_pthreads adds pthreads-based threading support to libevent
+Version: 2.1.1-alpha
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_pthreads
+Libs.private:  
+Cflags: -I${includedir} -pthread
+

@@ -1,0 +1,15 @@
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_REJECT.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_random.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_condition.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_DLOG.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_http_string.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_dnshj.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/wan_pkg.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/wifi_statistics.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/dns_hijack_apcli.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/wifi_isolation.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/if_br_ctl.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/arp_protect_enable.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ip6t_REJECT.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/ipt_vpntrigger.ko
+kernel//home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/kernel_module/public/fw_modules/print2telnet.ko

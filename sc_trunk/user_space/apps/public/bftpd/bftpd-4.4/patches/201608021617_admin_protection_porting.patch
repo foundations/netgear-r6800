@@ -1,0 +1,145 @@
+diff -aNru bftpd/login.c bftpd_ok/login.c
+--- bftpd/login.c	2016-08-02 23:54:08.768706913 +0800
++++ bftpd_ok/login.c	2016-08-02 23:56:51.009700411 +0800
+@@ -285,6 +285,10 @@
+   
+    return 0;
+ }
++
++extern int adminpwd_lan_protect ;
++extern int adminpwd_wan_protect ;
++extern int is_remote ;
+ #endif
+ 
+ /*
+@@ -346,7 +350,16 @@
+         {
+            home_directory = check_file_password(file_auth, user, password);
+ #ifdef USB
+-        	bftpd_log_debug("user = <%s> anonymous=<%s>, is_file_readable=%d\n", user, anonymous, is_file_readable);
++            bftpd_log_debug("user = <%s> anonymous=<%s>, is_file_readable=%d\n", user, anonymous, is_file_readable);
++            if(((adminpwd_lan_protect == 1) && (is_remote==0))
++                ||((adminpwd_wan_protect == 1) && (is_remote==1)))
++            {
++                if(strcmp(user, "admin") != 0 )    
++                {
++                    control_printf(SL_FAILURE, "530 Login incorrect.");
++                    return -1;   
++                }                
++            }         
+ #endif
+            if (! home_directory)
+            {
+diff -aNru bftpd/main.c bftpd_ok/main.c
+--- bftpd/main.c	2016-08-02 23:54:08.788708230 +0800
++++ bftpd_ok/main.c	2016-08-02 23:57:01.617955753 +0800
+@@ -49,6 +49,9 @@
+ # endif
+ #endif
+ 
++#include <net/if.h>
++#include <sys/ioctl.h>
++
+ #include "main.h"
+ #include "cwd.h"
+ #include "mystring.h"
+@@ -77,6 +80,12 @@
+ char *configpath = PATH_BFTPD_CONF;
+ int daemonmode = 0;
+ 
++#ifdef USB
++int adminpwd_lan_protect = 0;
++int adminpwd_wan_protect = 0;
++int is_remote = 0;
++#endif
++
+ void print_file(int number, char *filename)
+ {
+ 	FILE *phile;
+@@ -215,6 +224,33 @@
+         Open_Send_Receive_Log();
+ }
+ 
++#ifdef USB
++int get_lanip_netmask(char *lanip, char *netmask)
++{
++    int sockd = socket(AF_INET, SOCK_STREAM, 0);
++    struct ifreq ifr;
++    struct sockaddr_in *ptr;
++
++    /* get netmask */
++    if (sockd == -1)
++        return -1;
++    strcpy(ifr.ifr_name, "group1");
++    /* get lan ip */
++    ioctl(sockd, SIOCGIFADDR, &ifr);
++    ptr = (struct sockaddr_in *)&ifr.ifr_addr;
++    strcpy(lanip,(char *)inet_ntoa(ptr->sin_addr));
++
++    /* get lan netmask */
++    strcpy(ifr.ifr_name, "group1");
++    ioctl(sockd, SIOCGIFNETMASK, &ifr);
++    ptr = (struct sockaddr_in *)&ifr.ifr_netmask;
++    strcpy(netmask,(char *)inet_ntoa(ptr->sin_addr));
++    
++    close(sockd);
++    return 0;
++}
++#endif
++
+ int main(int argc, char **argv)
+ {
+ 	char str[MAX_STRING_LENGTH + 1];
+@@ -224,6 +260,8 @@
+         unsigned long get_value;
+         socklen_t my_length;
+         char *temp_string = NULL;
++	char netmask[24] = {0};
++	char lanip[24] = {0};
+ 
+         my_argv_list = argv;
+         signal(SIGHUP, handler_sighup);
+@@ -231,7 +269,7 @@
+         /* try both default locations for configuration file */
+         configpath = Find_Config_File();
+ 
+-	while (((retval = getopt(argc, argv, "c:hvdDin"))) > -1) {
++	while (((retval = getopt(argc, argv, "c:hvdDinLW"))) > -1) {
+ 		switch (retval) {
+ 			case 'h':
+ 				printf(
+@@ -251,6 +289,9 @@
+ 			case 'D': daemonmode = 2; break;
+ 			case 'c': configpath = strdup(optarg); break;
+ 			case 'n': configpath = NULL; break;
++			case 'L': adminpwd_lan_protect = 1; break;
++			case 'W': adminpwd_wan_protect = 1; break;
++
+ 		}
+ 	}
+ 	if (daemonmode) {
+@@ -304,12 +345,24 @@
+                 }
+ 
+ 		my_length = sizeof(new);
++		
+ 		while ((sock = accept(listensocket, (struct sockaddr *) &new, &my_length))) {
+ 			pid_t pid;
+ 			/* If accept() becomes interrupted by SIGCHLD, it will return -1.
+ 			 * So in order not to create a child process when that happens,
+ 			 * we have to check if accept() returned an error.
+ 			 */
++			if(adminpwd_lan_protect || adminpwd_wan_protect)
++			{
++    			if(get_lanip_netmask(lanip, netmask)==0)
++    			{
++        			if((inet_network(lanip)&inet_network(netmask))
++        			    != (inet_network(inet_ntoa( new.sin_addr ))&inet_network(netmask)))
++                        is_remote = 1;
++        			else
++        			    is_remote = 0;
++        	    }
++        	}
+ 			if (sock > 0) {
+ 				pid = fork();
+ 				if (!pid) {       /* child */

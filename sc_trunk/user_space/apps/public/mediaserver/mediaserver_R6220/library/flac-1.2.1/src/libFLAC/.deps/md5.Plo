@@ -1,0 +1,11 @@
+md5.lo: md5.c ../../config.h include/private/md5.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/flac-1.2.1/src/libFLAC/../../../..//library/flac-1.2.1/include/FLAC/ordinals.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/flac-1.2.1/src/libFLAC/../../../..//library/flac-1.2.1/include/share/alloc.h
+
+../../config.h:
+
+include/private/md5.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/flac-1.2.1/src/libFLAC/../../../..//library/flac-1.2.1/include/FLAC/ordinals.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/flac-1.2.1/src/libFLAC/../../../..//library/flac-1.2.1/include/share/alloc.h:

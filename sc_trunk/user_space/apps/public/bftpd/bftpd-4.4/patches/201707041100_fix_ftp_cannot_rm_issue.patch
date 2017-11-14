@@ -1,0 +1,43 @@
+--- bftpd-4.4/bftpd/bftpd.fw.conf_old	2017-07-04 10:36:17.000000000 +0800
++++ bftpd-4.4/bftpd/bftpd.fw.conf	2017-07-04 11:12:56.000000000 +0800
+@@ -307,8 +307,8 @@
+     ALLOWCOMMAND_XMKD="yes"
+     ALLOWCOMMAND_MKD="yes"
+     ALLOWCOMMAND_APPE="no"
+-    ALLOWCOMMAND_XRMD="no"
+-    ALLOWCOMMAND_RMD="no"
++    ALLOWCOMMAND_XRMD="yes"
++    ALLOWCOMMAND_RMD="yes"
+     ALLOWCOMMAND_MPUT="no"
+   }
+ 
+@@ -318,8 +318,8 @@
+     ALLOWCOMMAND_XMKD="yes"
+     ALLOWCOMMAND_MKD="yes"
+     ALLOWCOMMAND_APPE="no"
+-    ALLOWCOMMAND_XRMD="no"
+-    ALLOWCOMMAND_RMD="no"
++    ALLOWCOMMAND_XRMD="yes"
++    ALLOWCOMMAND_RMD="yes"
+     ALLOWCOMMAND_MPUT="no"
+   }
+ 
+--- bftpd-4.4/bftpd/commands.c_old	2017-07-04 10:22:57.000000000 +0800
++++ bftpd-4.4/bftpd/commands.c	2017-07-04 10:43:50.000000000 +0800
+@@ -1664,7 +1664,14 @@
+ 
+         if (pre_write_script)
+            run_script(pre_write_script, mapped);
+-
++           
++    // forbid rm in "/" or "/shares/" directory.
++	if (strlen(mapped) <= (strlen(dirname) + 8))
++	{
++        control_printf(SL_FAILURE, "451 Error: Unable to remove directory.");
++        return;
++	}
++	
+ 	if (rmdir(mapped)) {
+                 /*
+ 		bftpd_log("Error: '%s' while trying to remove directory '%s'.\n", strerror(errno), dirname);
+

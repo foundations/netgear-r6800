@@ -1,0 +1,371 @@
+root@BuildServer-5B:/home/trason/DGN2200v3/DGND3700v2/Source/apps/mediaserver/library/ffmpeg-export-2008-01-17# find . -name "*.a" |xargs ls -l
+-rw-rw-rw- 1 root root 674124 Mar 13 16:08 ./libavcodec/libavcodec.a
+-rw-rw-rw- 1 root root   1302 Mar 13 16:09 ./libavdevice/libavdevice.a
+-rw-rw-rw- 1 root root 308914 Mar 13 16:09 ./libavformat/libavformat.a
+-rw-rw-rw- 1 root root  62006 Mar 13 16:08 ./libavutil/libavutil.a
+
+
+
+./configure --enable-cross-compile --arch=mips --target-os=linux --cross-prefix=/opt/toolchains/uclibc-crosstools-gcc-4.4.2-1/usr/bin/mips-linux-uclibc-  --disable-debug --enable-small  --disable-doc --disable-ffmpeg --disable-ffplay --disable-ffserver --disable-swresample  --disable-swscale  --disable-postproc --disable-avdevice --disable-avfilter --disable-ffprobe --disable-outdevs --disable-indevs  --disable-encoders  --disable-muxers  --disable-decoders --enable-decoder=aac --enable-decoder=aac_latm --enable-decoder=ac3 --enable-decoder=aasc --enable-decoder=avs --enable-decoder=h264 --enable-decoder=mp2 --enable-decoder=mp3 --enable-decoder=mpeg1video --enable-decoder=mpeg2video --enable-decoder=mpegvideo --enable-decoder=mpeg4 --enable-decoder=msmpeg4v1 --enable-decoder=msmpeg4v2 --enable-decoder=msmpeg4v3 --enable-decoder=wmv1 --enable-decoder=wmv2 --enable-decoder=wmv3 
+--disable-parsers --enable-parser aac --enable-parser aac_latm --enable-parser ac3 --enable-parser h264 --enable-parser mpeg4video --enable-parser mpegvideo --disable-network
+--disable-parsers --enable-parser aac --enable-parser aac_latm --enable-parser ac3 --enable-parser h264 --enable-parser mpeg4video --enable-parser mpegvideo
+
+not work; 50K: --disable-filters   --disable-hwaccels --disable-protocols 
+250K: --disable-aandct --disable-dct  --disable-huffman --disable-lpc --disable-rdft --disable-dxva2 --disable-vda
+700K(4M): --disable-demuxers  --disable-parsers  --disable-bsfs 
+875K left:	  --disable-decoders --disable-demuxers  --disable-parsers  --disable-bsfs --disable-network
+
+
+--disable-encoder=NAME   disable encoder NAME
+  --enable-encoder=NAME    enable encoder NAME
+  --disable-encoders       disable all encoders
+  --disable-decoder=NAME   disable decoder NAME
+  --enable-decoder=NAME    enable decoder NAME
+  --disable-decoders       disable all decoders
+  --disable-hwaccel=NAME   disable hwaccel NAME
+  --enable-hwaccel=NAME    enable hwaccel NAME
+  --disable-hwaccels       disable all hwaccels
+  --disable-muxer=NAME     disable muxer NAME
+  --enable-muxer=NAME      enable muxer NAME
+  --disable-muxers         disable all muxers
+  --disable-demuxer=NAME   disable demuxer NAME
+  --enable-demuxer=NAME    enable demuxer NAME
+  --disable-demuxers       disable all demuxers
+  --enable-parser=NAME     enable parser NAME
+  --disable-parser=NAME    disable parser NAME
+  --disable-parsers        disable all parsers
+  --enable-bsf=NAME        enable bitstream filter NAME
+  --disable-bsf=NAME       disable bitstream filter NAME
+  --disable-bsfs           disable all bitstream filters
+  --enable-protocol=NAME   enable protocol NAME
+  --disable-protocol=NAME  disable protocol NAME
+  --disable-protocols      disable all protocols
+  --disable-indev=NAME     disable input device NAME
+  --disable-outdev=NAME    disable output device NAME
+  --disable-indevs         disable input devices
+  --disable-outdevs        disable output devices
+  --disable-devices        disable all devices
+  --enable-filter=NAME     enable filter NAME
+  --disable-filter=NAME    disable filter NAME
+  --disable-filters        disable all filters
+  --list-decoders          show all available decoders
+  --list-encoders          show all available encoders
+  --list-hwaccels          show all available hardware accelerators
+  --list-muxers            show all available muxers
+  --list-demuxers          show all available demuxers
+  --list-parsers           show all available parsers
+  --list-protocols         show all available protocols
+  --list-bsfs              show all available bitstream filters
+  --list-indevs            show all available input devices
+  --list-outdevs           show all available output devices
+
+--disable-demuxers 
+
+--enable-decoder=aac --enable-decoder=aac_latm --enable-decoder=ac3 --enable-decoder=aasc --enable-decoder=avs --enable-decoder=h264 --enable-decoder=mp2 --enable-decoder=mp3 --enable-decoder=mpeg1video --enable-decoder=mpeg2video --enable-decoder=mpegvideo --enable-decoder=mpeg4 --enable-decoder=msmpeg4v1 --enable-decoder=msmpeg4v2 --enable-decoder=msmpeg4v3 --enable-decoder=wmv1 --enable-decoder=wmv2 --enable-decoder=wmv3
+Enabled decoders:
+aac			cscd			mjpegb
+aac_latm		cyuv			mlp
+aasc			dca			mmvideo
+ac3			dfa			motionpixels
+adpcm_4xm		dirac			mp1
+adpcm_adx		dnxhd			mp1float
+adpcm_ct		dpx			mp2
+adpcm_ea		dsicinaudio		mp2float
+adpcm_ea_maxis_xa	dsicinvideo		mp3
+adpcm_ea_r1		dvbsub			mp3adu
+adpcm_ea_r2		dvdsub			mp3adufloat
+adpcm_ea_r3		dvvideo			mp3float
+adpcm_ea_xas		dxtory			mp3on4
+adpcm_g722		eac3			mp3on4float
+adpcm_g726		eacmv			mpc7
+adpcm_ima_amv		eamad			mpc8
+adpcm_ima_apc		eatgq			mpeg1video
+adpcm_ima_dk3		eatgv			mpeg2video
+adpcm_ima_dk4		eatqi			mpeg4
+adpcm_ima_ea_eacs	eightbps		mpegvideo
+adpcm_ima_ea_sead	eightsvx_exp		msmpeg4v1
+adpcm_ima_iss		eightsvx_fib		msmpeg4v2
+adpcm_ima_qt		escape124		msmpeg4v3
+adpcm_ima_smjpeg	escape130		msrle
+adpcm_ima_wav		ffv1			msvideo1
+adpcm_ima_ws		ffvhuff			mszh
+adpcm_ms		ffwavesynth		mxpeg
+adpcm_sbpro_2		flac			nellymoser
+adpcm_sbpro_3		flic			nuv
+adpcm_sbpro_4		flv			pam
+adpcm_swf		fourxm			pbm
+adpcm_thp		fraps			pcm_alaw
+adpcm_xa		frwu			pcm_bluray
+adpcm_yamaha		g723_1			pcm_dvd
+alac			g729			pcm_f32be
+als			gif			pcm_f32le
+amrnb			gsm			pcm_f64be
+amrwb			gsm_ms			pcm_f64le
+amv			h261			pcm_lxf
+anm			h263			pcm_mulaw
+ansi			h263i			pcm_s16be
+ape			h264			pcm_s16le
+ass			huffyuv			pcm_s16le_planar
+asv1			idcin			pcm_s24be
+asv2			idf			pcm_s24daud
+atrac1			iff_byterun1		pcm_s24le
+atrac3			iff_ilbm		pcm_s32be
+aura			imc			pcm_s32le
+aura2			indeo2			pcm_s8
+avrp			indeo3			pcm_s8_planar
+avs			indeo4			pcm_u16be
+bethsoftvid		indeo5			pcm_u16le
+bfi			interplay_dpcm		pcm_u24be
+bink			interplay_video		pcm_u24le
+binkaudio_dct		jpeg2000		pcm_u32be
+binkaudio_rdft		jpegls			pcm_u32le
+bintext			jv			pcm_u8
+bmp			kgv1			pcm_zork
+bmv_audio		kmvc			pcx
+bmv_video		lagarith		pgm
+c93			loco			pgmyuv
+cavs			mace3			pgssub
+cdgraphics		mace6			pictor
+cinepak			mdec			ppm
+cljr			mimic			prores
+cook			mjpeg			prores_lgpl
+ptx			sunrast			vorbis
+qcelp			svq1			vp3
+qdm2			svq3			vp5
+qdraw			targa			vp6
+qpeg			theora			vp6a
+qtrle			thp			vp6f
+r10k			tiertexseqvideo		vp8
+r210			tiff			vqa
+ra_144			tmv			wavpack
+ra_288			truehd			wmalossless
+rawvideo		truemotion1		wmapro
+rl2			truemotion2		wmav1
+roq			truespeech		wmav2
+roq_dpcm		tta			wmavoice
+rpza			twinvq			wmv1
+rv10			txd			wmv2
+rv20			ulti			wmv3
+rv30			utvideo			wmv3image
+rv40			v210			wnv1
+s302m			v210x			ws_snd1
+sgi			v308			xan_dpcm
+shorten			v410			xan_wc3
+sipr			vb			xan_wc4
+smackaud		vble			xbin
+smacker			vc1			xl
+smc			vc1image		xsub
+snow			vcr1			xwd
+sol_dpcm		vmdaudio		y41p
+sonic			vmdvideo		yop
+sp5x			vmnc			yuv4
+srt
+
+Enabled encoders:
+a64multi		h263p			pcm_u8
+a64multi5		huffyuv			pcx
+aac			jpeg2000		pgm
+ac3			jpegls			pgmyuv
+ac3_fixed		ljpeg			ppm
+adpcm_adx		mjpeg			prores
+adpcm_g722		mp2			qtrle
+adpcm_g726		mpeg1video		r10k
+adpcm_ima_qt		mpeg2video		r210
+adpcm_ima_wav		mpeg4			ra_144
+adpcm_ms		msmpeg4v2		rawvideo
+adpcm_swf		msmpeg4v3		roq
+adpcm_yamaha		msvideo1		roq_dpcm
+alac			nellymoser		rv10
+amv			pam			rv20
+ass			pbm			sgi
+asv1			pcm_alaw		snow
+asv2			pcm_f32be		sonic
+avrp			pcm_f32le		sonic_ls
+bmp			pcm_f64be		srt
+cljr			pcm_f64le		svq1
+dca			pcm_mulaw		targa
+dnxhd			pcm_s16be		tiff
+dpx			pcm_s16le		v210
+dvbsub			pcm_s24be		v308
+dvdsub			pcm_s24daud		v410
+dvvideo			pcm_s24le		vorbis
+eac3			pcm_s32be		wmav1
+ffv1			pcm_s32le		wmav2
+ffvhuff			pcm_s8			wmv1
+flac			pcm_u16be		wmv2
+flv			pcm_u16le		xsub
+g723_1			pcm_u24be		xwd
+gif			pcm_u24le		y41p
+h261			pcm_u32be		yuv4
+h263			pcm_u32le
+
+Enabled hwaccels:
+
+
+
+Enabled parsers:
+aac			dvdsub			mpegaudio
+aac_latm		flac			mpegvideo
+ac3			gsm			pnm
+adx			h261			rv30
+cavsvideo		h263			rv40
+dca			h264			vc1
+dirac			mjpeg			vp3
+dnxhd			mlp			vp8
+dvbsub			mpeg4video
+
+
+--enable-demuxer aac
+--enable-demuxer ac3
+--enable-demuxer avi
+--enable-demuxer avs
+--enable-demuxer h264
+--enable-demuxer m4v
+--enable-demuxer mp3
+--enable-demuxer mov
+--enable-demuxer wc3
+--enable-demuxer rm
+--enable-demuxer wav
+
+Enabled demuxers:
+aac			iff			pcm_u24le
+ac3			image2			pcm_u32be
+act			image2pipe		pcm_u32le
+adf			ingenient		pcm_u8
+adx			ipmovie			pmp
+aea			iss			pva
+aiff			iv8			qcp
+amr			ivf			r3d
+anm			jv			rawvideo
+apc			latm			rl2
+ape			lmlm4			rm
+applehttp		loas			roq
+asf			lxf			rpl
+ass			m4v			rso
+au			matroska		rtp
+avi			microdvd		rtsp
+avs			mjpeg			sap
+bethsoftvid		mlp			sbg
+bfi			mm			sdp
+bink			mmf			segafilm
+bintext			mov			shorten
+bit			mp3			siff
+bmv			mpc			smacker
+c93			mpc8			smjpeg
+caf			mpegps			sol
+cavsvideo		mpegts			sox
+cdg			mpegtsraw		spdif
+daud			mpegvideo		srt
+dfa			msnwc_tcp		str
+dirac			mtv			swf
+dnxhd			mvi			thp
+dsicin			mxf			tiertexseq
+dts			mxg			tmv
+dv			nc			truehd
+dxa			nsv			tta
+ea			nut			tty
+ea_cdata		nuv			txd
+eac3			ogg			vc1
+ffm			oma			vc1t
+ffmetadata		pcm_alaw		vmd
+filmstrip		pcm_f32be		voc
+flac			pcm_f32le		vqf
+flic			pcm_f64be		w64
+flv			pcm_f64le		wav
+fourxm			pcm_mulaw		wc3
+g722			pcm_s16be		wsaud
+g723_1			pcm_s16le		wsvqa
+g729			pcm_s24be		wtv
+gsm			pcm_s24le		wv
+gxf			pcm_s32be		xa
+h261			pcm_s32le		xbin
+h263			pcm_s8			xmv
+h264			pcm_u16be		xwma
+ico			pcm_u16le		yop
+idcin			pcm_u24be		yuv4mpegpipe
+idf
+
+Enabled muxers:
+a64			ipod			pcm_s16be
+ac3			ismv			pcm_s16le
+adts			ivf			pcm_s24be
+adx			latm			pcm_s24le
+aiff			m4v			pcm_s32be
+amr			matroska		pcm_s32le
+asf			matroska_audio		pcm_s8
+asf_stream		md5			pcm_u16be
+ass			microdvd		pcm_u16le
+au			mjpeg			pcm_u24be
+avi			mkvtimestamp_v2		pcm_u24le
+avm2			mlp			pcm_u32be
+bit			mmf			pcm_u32le
+caf			mov			pcm_u8
+cavsvideo		mp2			psp
+crc			mp3			rawvideo
+daud			mp4			rm
+dirac			mpeg1system		roq
+dnxhd			mpeg1vcd		rso
+dts			mpeg1video		rtp
+dv			mpeg2dvd		rtsp
+eac3			mpeg2svcd		sap
+ffm			mpeg2video		segment
+ffmetadata		mpeg2vob		smjpeg
+filmstrip		mpegts			sox
+flac			mpjpeg			spdif
+flv			mxf			srt
+framecrc		mxf_d10			swf
+framemd5		null			tg2
+g722			nut			tgp
+g723_1			ogg			truehd
+gif			oma			vc1t
+gxf			pcm_alaw		voc
+h261			pcm_f32be		wav
+h263			pcm_f32le		webm
+h264			pcm_f64be		wtv
+image2			pcm_f64le		yuv4mpegpipe
+image2pipe		pcm_mulaw
+
+Enabled protocols:
+applehttp		httpproxy		rtmps
+cache			md5			rtmpt
+concat			mmsh			rtmpte
+crypto			mmst			rtp
+file			pipe			tcp
+gopher			rtmp			udp
+http			rtmpe
+
+Enabled filters:
+abuffer			drawbox			overlay
+abuffersink		earwax			pad
+aconvert		fade			pixdesctest
+aevalsrc		fieldorder		rgbtestsrc
+aformat			fifo			select
+amerge			format			setdar
+amovie			gradfun			setpts
+anull			hflip			setsar
+anullsink		life			settb
+anullsrc		lut			showinfo
+aresample		lutrgb			silencedetect
+ashowinfo		lutyuv			slicify
+asplit			mandelbrot		split
+astreamsync		movie			testsrc
+buffersink		negate			thumbnail
+cellauto		noformat		transpose
+color			null			unsharp
+copy			nullsink		vflip
+crop			nullsrc			volume
+deshake
+
+Enabled bsfs:
+aac_adtstoasc		mjpeg2jpeg		mp3_header_decompress
+chomp			mjpega_dump_header	noise
+dump_extradata		mov2textsub		remove_extradata
+h264_mp4toannexb	mp3_header_compress	text2movsub
+imx_dump_header
+
+Enabled indevs:
+dv1394			oss			v4l2
+fbdev			v4l
+
+Enabled outdevs:
+oss

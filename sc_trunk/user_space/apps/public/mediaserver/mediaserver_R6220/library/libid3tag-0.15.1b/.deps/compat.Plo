@@ -1,0 +1,18 @@
+compat.lo: compat.c config.h global.h id3tag.h compat.h frame.h field.h \
+ parse.h ucs4.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+compat.h:
+
+frame.h:
+
+field.h:
+
+parse.h:
+
+ucs4.h:

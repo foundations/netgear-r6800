@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation>次へ</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>キャンセル</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>はい。</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>いいえ</translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IPアドレス</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>サブネットマスク</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>プライマリDNS</translation>
+<variable>Primary DNS</variable>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>セカンダリDNS</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>ログイン</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>ファームウェア更新アシスタント</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>ファームウェアバージョンチェック</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>戻る</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>セットアップウィザード</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>ワイヤレス設定</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>ワイヤレス</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>接続タイプ</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>サブネットマスク</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>デフォルトゲートウェイ</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>やり直す</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>新しいファームウェアバージョンはありません。</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>ダイナミック IP (DHCP) を検出しました</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>セットアップウィザードは、ご利用のインターネットの接続タイプを検出します。</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>今すぐセットアップウィザードでインターネット接続タイプを検出しますか？</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>いいえ、自分でルータを設定します。</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- 正しくケーブル接続されているか確認してください。 ルータのインストールガイドをご参照ください。</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- ブロードバンドモデムの電源を一旦切り、再起動してください。ご利用のモデムがバッテリー利用の場合、バッテリーを一度取り外してからもう一度挿入し、モデムの電源を入れなおしてください。</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(書式：AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>* = 必須項目</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  モデムの電源が入っていません。</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  イーサネットケーブルが完全に接続されていないか、または間違った場所に接続されています。</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>MACアドレスは機器固有の番号です。  コンピュータやルータのMACアドレスは製品ラベルに記載されています。</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>イーサネットケーブルを確認した後、&lt;b&gt;［やり直す］&lt;/b&gt;をクリックしてください。</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>別のDNSサーバ</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>回答（半角の英数字）</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>インターネット接続設定を適用する</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>戻る</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>以前に保存したルータ設定のバックアップファイルを選択し、&lt;b&gt;［次へ］&lt;/b&gt;をクリックします。</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>インターネット接続をチェックしています。; お待ちください…</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>ここをクリック</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>インターネット接続を設定しています。</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>おめでとうございます！</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>接続 ID/名前</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>続ける</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>インターネット接続を検出しています。</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>ご利用のサービスプロバイダは、あなたに固定 (スタティック) IPアドレスを提供していますか？ 多くの場合、IPアドレスは固定ではなく、プロバイダから自動的に配布されます。 </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>NETGEAR Genieをご利用になりますか？</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>もう一度NETGEAR Ginieをご利用になりますか？</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>パスワード復元を有効にする</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>インターネットプロバイダから提供された固定IP設定を入力し、&lt;b&gt;［次へ］&lt;/b&gt;をクリックします。</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>ここにMACアドレスを入力します。</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>必要な情報をもう一度入力してください。</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>必要な情報を以下に力してください。</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>エラー</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>固定インターネットIP設定;</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>ゲートウェイ IP アドレス</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>イーサネットケーブルの問題を修正しました。</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>わかりません。 </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>保存してあるルータ設定を使用して、設定を復元します。</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>モデムの電源を入れなおし、2分間待ちました。</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>インターネット接続を自分で設定します。</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;b&gt;アイドルタイムアウト&lt;/b&gt;(分)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>コンピュータまたは他のルータでインターネットサービスに接続したことがある場合、NETGEAR Genieは以前使用したものと同じMACアドレスを使用することができます。</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>重要な更新</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>あなたの父親が生まれた都市は？</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>あなたの母親が生まれた都市は？</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>あなたが生まれた都市は？</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>高校を卒業したのは西暦何年 (YYYY)？</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>プロバイダのユーザ名とパスワードが間違っています。</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>ケーブルがブロードバンドモデムポートとルータインターネットポートの両方にしっかりと接続されていることを確認してください。</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>マイ IP アドレス</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>ネットワーク接続の問題</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>ネットワークキー (パスワード)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>ネットワークキー (パスワード)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>次へ</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>ルータのインターネットポートにイーサネットケーブルが接続されていません。</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>いいえ。プロバイダから固定 (スタティック) IPアドレスは取得していません。</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>いいえ。インターネット接続を自分で設定します。</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>いずれでもない</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>パスワード</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>以下のアイテムをご覧ください。</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>しばらくお待ちください...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>PPPoE DSLインターネット接続が検出されました。</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>PPTPインターネット接続が検出されました。</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>推奨されるDNSサーバ</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>これを印刷</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>インターネット接続を検出中に問題が生じました - IPアドレス</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>インターネット接続を検出中に問題が生じました - MACアドレス</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>インターネット接続を検出中に問題が生じました</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>ルータ設定の復元</translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>ルータ設定を復元中</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>ルータのファームウェアバージョン</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>セキュリティの質問 #1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>セキュリティの質問 #2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>質問を選択</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>オプションを選択し、&lt;b&gt;［次へ］&lt;/b&gt;をクリックします。</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>サーバアドレス</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>インターネットに接続する</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>ルータは現在の設定ではインターネットに接続できません。</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>次の理由が原因である可能性があります：</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>このプロセスには数分かかります。お待ちください …</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>このプロセスには1～2分かかります。お待ちください...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>このルータは次のワイヤレスネットワーク名 (SSID) であらかじめ設定されており、 </translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>この画面は数秒後に前の画面に戻ります...</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>プロバイダとの競合を避けるため、ご利用のルータのIPアドレスを次のように更新してください：</translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>この問題を解決するには、イーサネットケーブルがブロードバンドモデムポートとルータのインターネットポートの両方にしっかりと接続されていることを確認してください。</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>この問題を解決するには、ブロードバンドモデムの電源を一旦切り、再起動してください。ご利用のモデムがバッテリー利用の場合、バッテリーを一度取り外してから再度挿入し、モデムの電源を入れなおしてください。</translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>やり直す</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>ユーザ名</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>ルータの管理者パスワードを復元させることができます。 以下の情報を記入し、&lt;b&gt;［続ける］&lt;/b&gt;をクリックしてください。</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>あなたの初めての勤め先は？</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>あなたの親友の下の名前は？</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>あなたの父親のミドルネームは？</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>あなたのおじいさんの下の名前は？</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>あなたのおばあさんの下の名前は？</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>あなたの母親のミドルネームは？</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>あなたの一番上のお兄さんの下の名前は？</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>あなたの一番上のお姉さんの下の名前は？</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>あなたの一番下の弟の下の名前は？</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>あなたの一番下の妹の下の名前は？</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>あなたの初めての上司の名前（名）は？</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>あなたが最初に購入したNETGEAR製品の名前は？</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>あなたが最初に通った学校の名前は？</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>ワイヤレスネットワーク名 (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>ワイヤレス</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>はい。</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>はい。 プロバイダから固定 (スタティック) IPアドレスを割り当てられています。</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>まだインターネットに接続していません。</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>インターネットに接続しました。</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>ご利用のルータには、不正なアクセスからネットワークを保護するためのWPA2-PSKワイヤレスセキュリティが設定されています。 このワイヤレスネットワークに接続するには、ネットワークキー (パスワード) が必要になります。 初期設定のネットワークキー（パスワード）は、シリアルナンバーのようにこのルータ固有のものです。  変更したい場合は、ルータ管理画面のワイヤレス設定画面で行えます。</translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>ワイヤレスセキュリティはこのルータでは有効になっていません。 NETGEARは、ワイヤレスセキュリティを有効にし、</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>ネットワークを保護することを推奨します。</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>自動検出</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>［次へ］をクリックして続けてください。</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>APモード</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>戻る</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>次のルーターアプリをダウンロードします：</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Genie アプリ。 ホームネットワークのモニタリング、管理、修復を行うソフトウェアです。</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>ReadySHARE Vault アプリ（Windowsのみ）。Windowsコンピューターのデータをルーターに接続したUSBドライブへ自動的にバックアップします。</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>ダウンロード中・・・</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>ダウンロード完了後に Genie アプリをインストールします。</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Genie アプリをインストールしたら、[次へ] ボタンをクリックしてルーターの設定を完了します。</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>ダウンロードが完了後に ReadySHARE Vault アプリをインストールします。</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>ReadySHARE Vault アプリをインストールしたら、[次へ] ボタンをクリックしてルーターの設定を完了します。</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>リクエストを処理しています…</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>インストール後、[次へ] をクリックしてください。</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>システムは</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>[実行] をクリックしてインストールを開始します</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>ファームウェア更新アシスタント</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>現在、ルータのファームウェアを更新しています。" お待ちください。</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>注意: ファームウェアのアップグレードには約</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>分かかります。&lt;br&gt;この間は、電源をオフにしたり、リセットボタンを押したりしないでください。</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>お待ちください...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>キャンセル</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>ルータは新しいバージョンのファームウェアをダウンロードしています。 お待ちください...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>新しいファームウェアバージョンが検出されました。 今すぐ新しいバージョンにアップグレードしますか？</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>現在のバージョン</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>新しいファームウェアバージョン</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>このプロセスには1～2分かかります。お待ちください...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>ファームウェアバージョンチェック</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>新しいファームウェアバージョンはありません。</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>OK</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>ネットワーク設定を確認しています。お待ちください…</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>ネットワークに既存のルーターまたはゲートウェイが検出されました</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>ご利用の NETGEAR ルーターは既に別のルーターが存在するネットワークに接続されています。最初のルーターを接続したままにしたい場合、NETGEAR genie は NETGEAR ルーターにアクセスポイントモードを使用することを推奨します。NETGEAR ルーターがアクセスポイントモードのとき、それを使用してネットワークに接続でき、別のルーターもそれまでと同じネットワークタスクの実行を継続します。</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>このデバイスをアクセスポイントモードに設定してもよろしいですか?</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>はい（推奨）</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>いいえ、ルーターとしてデフォルトモードで実行します</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>このルーターをネットワークにアクセスポイントモードで追加するには</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>この新しいデバイスの IP アドレス</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>IP アドレスを既存のルータから動的に取得</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>固定 IP アドレスを使用（推奨しません）</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>注意: [次へ] をクリックした後、このルーターには新しい IP アドレスが割り当てられます。このときご利用のブラウザーがネットワークから切断されることがあります。ルーターに再接続するには、ウィンドウを閉じてから再度ブラウザーを起動してください。</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>ルーターモード</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>アクセスポイントモード</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>詳細情報</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>警告</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>新しい NETGEAR ルーターでアクセスポイントモードの設定がまもなく完了します。NETGEAR ルーターと子機が既存のルーターから新しい IP アドレスを取得するために短いネットワークの中断が発生する場合があります。 ネットワーク接続が中断された場合は、新しい NETGEAR ルーターに手動で接続して&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;にアクセスします。</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>アクセスポイントモードを選択すると次のルーター機能が利用できません：</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>ペアレンタルコントロール</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>ブロックサイト</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>ブロックサービス</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>ポート転送</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>ポートトリガー</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>静的ルート</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>トラフィックメーター</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>リモート管理</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>ゲストネットワーク</translation>
+<variable>Guest network</variable>
+</message>
+
+<message>
+<tag_code>4459</tag_code>
+<translation>インターネットプロバイダーの無線 LAN ルーターまたはゲートウェイが存在します。ルーターを違う操作モードでインストールするかどうか選択できます。</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>選択する</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>選択のヘルプ</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>いくつかの質問に答えることで最適な操作モードを表示させることができます。</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(セットアップウィザードを再度実行することでいつでも操作モードを変更することができます。)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(ここをクリックしてイラストを表示させる。)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>このモードは常に NETGEAR の&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;ルーター機能&lt;/a&gt;を最大限に利用することができます。 NETGEAR ルーターは既存のルーターやゲートウェイの内側で通常の無線 LAN ルーターとして設定されます。このモードではすべての機器を既存のルーターやゲートウェイではなく、新しい NETGEAR ルーターに接続することが必要になります。</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>このモードは機器がすでに既存のルーターやゲートウェイに接続されている場合や、この NETGEAR ルーターを既存の無線 LAN カバレッジの拡張に使用したい場合に最適です。アクセスポイントモードではいくつかの &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;ルーター機能&lt;/a&gt; が利用できません。</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>ルーター機能</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>アクセス制御</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>高度な機能</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>ポート転送（またはポートマッピング）はインターネット経由でのホームネットワークへのアクセスを許可します。登録したホスト名（通常はダイナミック DNS サービス経由）または IP アドレスを使って他の人がリモートアクセスできるウェブサーバーのような機器がご家庭にある場合は、恐らくポート転送機能を有効にしているでしょう。この機能について聞いたことがない場合は、ご家庭でリモートアクセスを使用している場合でも、この機能は使用しないでしょう。</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>ルーター vs. アクセスポイント</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>新しいNETGEAR ルーターが、無線LAN/VoIP（Voice over Internel)インターネットプロバイダーDSLやケーブルゲートウェイのような別のゲートウェイの内側にインストールされようとしていることが検出されました。NETGEAR ルーターを2つの異なる操作モードでインストールできます。</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>このモードは NETGEAR ルーターをゲートウェイの内側の通常の無線 LAN ルーターとして設定し、ゲートウェイの内側に別の無線 LAN ネットワークを作成します。これらのルーターの高度な機能を最大限に利用するために、NETGEAR はルーターモードを使用することを推奨します。ルーターモードでは、既存のゲートウェイに接続できる機器は NETGEAR ルーターのみです。すべての機器を新しい NETGEAR ルーターに接続する必要があります。既存のゲートウェイに無線 LAN 機能がある場合は、無効にします。</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>リモート管理のような &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;高度な機能&lt;/a&gt; ではゲートウェイの設定が必要になります。詳しくは、ゲートウェイのドキュメントをご覧ください。</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>新しいルーターで既存のゲートウェイ以上の無線LANパフォーマンスを実現するには、アクセスポイントモードが最適です。 NETGEAR は既存のゲートウィに無線 LAN 機能が付属している場合、それを無効にすることを推奨します。 このモードでは、有線機器からゲートウェイに接続し、有線または無線機器からNETGEAR ルーターに接続できます。</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>このモードでは、デフォルトでルーターの IP アドレスはゲートウェイにより動的に割り当てられ、 192.168.1.1 にはなりません。 しかしながら、ルーターに接続された機器のブラウザーで &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; を使ってルーターの管理画面にアクセスすることはできます。このモードではいくつかの&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;ルーター機能&lt;/a&gt;が利用できません、これらの機能を使用したい場合はルーターモードを使用する必要があります。</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>次のルーター機能はルーターモードの場合のみ利用可能ですが、既存のゲートウェイの設定が必要です：</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>VPN termination</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>アクセスポイントモードを有効にする</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>ルーターモードを正しく操作するためには、ゲートウェイに接続するTVセットトップボックス、コードレス電話などのインターネットサービスプロバイダー(ISP)から提供される機器以外のすべての無線、有線機器をルーターに接続する必要があります。</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>すべてのその他機器（有線、無線）を既存のゲートウェイから取り外し、それらを NETGEAR ルーターに接続してください。</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>NETGEAR はこのルーターをルーターモードで設定することを推奨します。</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>ルーターモードでは NETGEAR ルーターのすべての高度な機能を使用することができます。セットアップウイザードを実行して後でモードを変更することができます。</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+
+<message>
+<tag_code>4485</tag_code>
+<translation>2.4GHz 無線LANネットワーク名 (SSID)：</translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>2.4GHz 無線LANネットワークパスワード （ネットワークキー）：</translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>5GHz 無線LANネットワーク名 (SSID)：</translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>5GHz 無線LANネットワークパスワード（ネットワークキー）：</translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>ワイヤレスネットワークキー（パスワード）</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>警告：機器をルーターへ再接続するまで&lt;b&gt;完了&lt;/b&gt;ボタンをクリックしないでください。</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&lt;/b&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>完了</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>このルーターの無線 LAN 設定が変更されました。次の無線LANネットワーク名 (SSID) とネットワークキー（パスワード）を使って機器をルーターに接続します、下記の &lt;b&gt;完了&lt;/b&gt; ボタンをクリックしてインストールを完了します。</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>これらの問題を回避するために既存のゲートウェイの無線 LAN を無効にすることを推奨します：</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>新しい NETGEAR ルーターではなく既存のゲートウェイへの偶然の接続</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>NETGEARルーターと既存のゲートウェイの無線 LAN の干渉</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>無線 LAN パフォーマンスを下げる無線 LAN の干渉を防ぐために、NETGEAR は既存のゲートウェイの無線 LAN を無効にすることを推奨します。</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>既存のゲートウェイの無線 LAN を無効にしますか？</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>現在の無線 LAN 設定を既存のゲートウェイからコピーしてここに入力します。その後既存のゲートウェイの無線 LAN を無効にします。</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>無線 LAN 機器が既存のゲートウェイに接続されるのを防ぐために、次のネットワーク名 (SSID) とパスワード（ネットワークキー）を使ってすべての無線 LAN 機器をこのルーターに接続します。</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>パスワード保護</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>注意：ReadySHAREのデータを保護するため、［パスワード保護］を有効にすることを推奨します。 デフォルトの管理者パスワードを使用されている場合も、変更することを推奨します。</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>管理者アカウント設定</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>管理者パスワードはルーターのウェブ管理画面にログインするために使用されます。 ネットワークのセキュリティを高めるために、管理者パスワードを変更してください。</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>新しいパスワード</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>新しいパスワードの確認</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>ルーターの管理者ユーザー名:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>ルーターの管理者パスワード:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>ルーター設定を復元中:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>現在のネットワーク</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>NETGEAR genie はインターネット接続にゲートウェイを検出しました。すべての新しいルーター機能を利用したい場合は、ルーターモードを推奨します。ルーターモードが適切かどうかを確認するためのいくつかの質問が NETGEAR genie に表示されます。</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>既存のゲートウェイで現在&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;ポート転送&lt;/a&gt;&#40;ポートマッピングとも呼ばれます&#41;のような&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;高度な機能&lt;/a&gt;を使用しているか、またはホームネットワークの機器に固定IPアドレスを割り当てていますか？これらの機能は、通常ネットワークに関する知識の豊富なユーザーが使用します。これらの機能について聞いたことが無ければ、&lt;b&gt;いいえ&lt;/b&gt;を選択してください。</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>この新しいルーターをアクセスポイントモードで設定することを推奨します、ゲートウェイの設定を変更する必要がないからです。</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>ネットワークに関する知識をお持ちで、ゲートウェイこれらの高度な機能に対応する設定方法をご存じの場合は、 &lt;b&gt;戻る&lt;/b&gt;ボタンをクリックしてルーターをルーターモードで設定できます。</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>

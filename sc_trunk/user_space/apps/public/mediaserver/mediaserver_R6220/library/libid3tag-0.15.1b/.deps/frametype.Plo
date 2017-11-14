@@ -1,0 +1,9 @@
+frametype.lo: frametype.c config.h global.h id3tag.h frametype.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+frametype.h:

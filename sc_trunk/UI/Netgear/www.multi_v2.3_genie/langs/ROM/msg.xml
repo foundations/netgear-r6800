@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<message>
+		<err_code>1</err_code>
+		<translation> nu trebuie sã fie necompletat.[NEL]</translation>
+		<variable>gsm_msg_blank</variable>
+	</message>
+	<message>
+		<err_code>2</err_code>
+		<translation>Nu sunt permise spaţii goale în</translation>
+		<variable>gsm_msg_space</variable>
+	</message>
+	<message>
+		<err_code>3</err_code>
+		<translation>Nu sunt permise spaţii goale în</translation>
+		<variable>gsm_msg_blank_in</variable>
+	</message>
+	<message>
+		<err_code>4</err_code>
+		<translation>Caracter sau caractere invalide în</translation>
+		<variable>gsm_msg_invalid</variable>
+	</message>
+	<message>
+		<err_code>5</err_code>
+		<translation>conţine un număr invalid.</translation>
+		<variable>gsm_msg_check_invalid</variable>
+	</message>
+	<message>
+		<err_code>8</err_code>
+		<translation>%s is out of range [%s ~ %s]</translation>
+		<variable>gsm_msg_outofrange</variable>
+	</message>
+	<message>
+		<err_code>9</err_code>
+		<translation>Caracter sau caractere invalide în</translation>
+		<variable>gsm_msg_invalid2</variable>
+	</message>
+	<message>
+		<err_code>10</err_code>
+		<translation>Primul</translation>
+		<variable>gsm_msg_first</variable>
+	</message>
+	<message>
+		<err_code>11</err_code>
+		<translation>Al doilea</translation>
+		<variable>gsm_msg_second</variable>
+	</message>
+	<message>
+		<err_code>12</err_code>
+		<translation>Al treilea</translation>
+		<variable>gsm_msg_third</variable>
+	</message>
+	<message>
+		<err_code>13</err_code>
+		<translation>Al patrulea</translation>
+		<variable>gsm_msg_fourth</variable>
+	</message>
+	<message>
+		<err_code>25</err_code>
+		<translation>Nume utilizator</translation>
+		<variable>gsm_msg_un</variable>
+	</message>
+	<message>
+		<err_code>26</err_code>
+		<translation>Parolã</translation>
+		<variable>gsm_msg_pw</variable>
+	</message>
+	<message>
+		<err_code>27</err_code>
+		<translation>Nume reţea wireless (SSID)</translation>
+		<variable>gsm_msg_ssid</variable>
+	</message>
+	<message>
+		<err_code>28</err_code>
+		<translation>Consultaþi manualul utilizatorului ºi cutia de cadou a clientului wireless pentru a vedea dacã acceptã funcþia WPS.</translation>
+		<variable>gsm_msg_wlpw</variable>
+	</message>
+	<message>
+		<err_code>29</err_code>
+		<translation>Numele de utilizator nu poate fi necompletat.</translation>
+		<variable>gsm_msg_username_blank</variable>
+	</message>
+	<message>
+		<err_code>30</err_code>
+		<translation>Parola nu poate fi necompletatã.</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>31</err_code>
+		<translation>user name can only be letter or number!</translation>
+		<variable>gsm_msg_username_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>32</err_code>
+		<translation>password can only be letter or number!</translation>
+		<variable>gsm_msg_passwd_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>33</err_code>
+		<translation>există deja</translation>
+		<variable>gsm_msg_user_exist</variable>
+	</message>
+	<message>
+		<err_code>34</err_code>
+		<translation>Parola introdusã nu este corectã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_nomatch_pwd</variable>
+	</message>
+	<message>
+		<err_code>35</err_code>
+		<translation>group name can only be letter or number!</translation>
+		<variable>gsm_msg_groupname_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>36</err_code>
+		<translation>group exist!</translation>
+		<variable>gsm_msg_group_exist</variable>
+	</message>
+	<message>
+		<err_code>37</err_code>
+		<translation>group name is blank!</translation>
+		<variable>gsm_msg_group_blank</variable>
+	</message>
+	<message>
+		<err_code>38</err_code>
+		<translation>Nume de reţea/dispozitiv</translation>
+		<variable>gsm_msg_network_name</variable>
+	</message>
+	<message>
+		<err_code>39</err_code>
+		<translation>Grup de lucru</translation>
+		<variable>gsm_msg_workgroup</variable>
+	</message>
+	<message>
+		<err_code>40</err_code>
+		<translation>Access Port</translation>
+		<variable>gsm_msg_shr_fld_port</variable>
+	</message>
+	<message>
+		<err_code>41</err_code>
+		<translation>Dosar partajat</translation>
+		<variable>gsm_msg_share_folder</variable>
+	</message>
+	<message>
+		<err_code>42</err_code>
+		<translation>Nume de partajare</translation>
+		<variable>gsm_msg_share_name</variable>
+	</message>
+	<message>
+		<err_code>43</err_code>
+		<translation>Cheie invalidă.[NEL][NEL]Cheile trebuie să conţină 10 caractere hexazecimale (0~9 şi A~F)</translation>
+		<variable>gsm_msg_key64_type</variable>
+	</message>
+	<message>
+		<err_code>44</err_code>
+		<translation>Cheie invalidă.[NEL][NEL]Cheile trebuie să conţină 26 caractere hexazecimale (0~9 şi A~F)</translation>
+		<variable>gsm_msg_key128_type</variable>
+	</message>
+	<message>
+		<err_code>45</err_code>
+		<translation>Cheie invalidă.[NEL][NEL]Cheile trebuie să conţină 10 caractere hexazecimale (0~9 şi A~F)</translation>
+		<variable>gsm_msg_key64_atype</variable>
+	</message>
+	<message>
+		<err_code>46</err_code>
+		<translation>Cheie invalidă.[NEL][NEL]Cheile trebuie să conţină 26 caractere hexazecimale (0~9 şi A~F)</translation>
+		<variable>gsm_msg_key128_atype</variable>
+	</message>
+	<message>
+		<err_code>47</err_code>
+		<translation>AVERTISMENT: Selectarea unei regiuni incorecte poate rezulta într-o încălcare a legislaţiei în vigoare. [NEL]Sunteţi de acord să acţionaţi conform acestor setări</translation>
+		<variable>gsm_msg_change_wl_region</variable>
+	</message>
+	<message>
+		<err_code>48</err_code>
+		<translation>Avertisment! Repornirea va întrerupe orice conexiuni existente fie la router (precum aceasta) fie prin router (de exemplu, utilizatorii LAN care accesează Internetul)</translation>
+		<variable>gsm_msg_restart</variable>
+	</message>
+	<message>
+		<err_code>49</err_code>
+		<translation>DEPANARE</translation>
+		<variable>gsm_msg_pub_debug</variable>
+	</message>
+	<message>
+		<err_code>50</err_code>
+		<translation>(Lista selectată) are o valoare nevalidă</translation>
+		<variable>gsm_msg_pub_inv_sel</variable>
+	</message>
+	<message>
+		<err_code>51</err_code>
+		<translation>Se va selecta primul element în locul acesteia</translation>
+		<variable>gsm_msg_pub_1st_instead</variable>
+	</message>
+	<message>
+		<err_code>54</err_code>
+		<translation>Reconfirmaţi parola</translation>
+		<variable>gsm_msg_pub_re_cfm_pw</variable>
+	</message>
+	<message>
+		<err_code>55</err_code>
+		<translation>Valoarea portului de oprire trebuie sã fie mai mare sau egalã cu valoarea portului de pornire.</translation>
+		<variable>gsm_msg_pub_port_range</variable>
+	</message>
+	<message>
+		<err_code>56</err_code>
+		<translation>Aţi salvat această pagină</translation>
+		<variable>gsm_msg_pub_cfm_save</variable>
+	</message>
+	<message>
+		<err_code>57</err_code>
+		<translation>Opþiunile de securitate wireless WPA-PSK (TKIP), WPA2-PSK (AES) ºi WPA-PSK (TKIP) + WPA-PSK (AES) nu sunt disponibile dacã activaþi funcþia de repetare wireless. [NEL]Modificaþi opþiunile de securitate înainte de a activa funcþia de repetare wireless. </translation>
+		<variable>gsm_msg_wds_sec_opt</variable>
+	</message>
+	<message>
+		<err_code>58</err_code>
+		<translation>Funcþia de repetare wireless nu poate fi utilizatã cu opþiunea Canal automat (Auto Channel).[NEL]Modificaþi setãrile de canal înainte a activa funcþia de repetare wireless. </translation>
+		<variable>gsm_msg_wds_auto_no_rpt</variable>
+	</message>
+	<message>
+		<err_code>61</err_code>
+		<translation>Pentru aplicare sau anulare Faceţi clic pe Aplicare pentru a salva noile setări în router. Faceţi clic pe Anulare pentru a ignora toate modificările nesalvate.</translation>
+		<variable>gsm_msg_wds_update_only</variable>
+	</message>
+	<message>
+		<err_code>62</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_wds_inv_ip_range</variable>
+	</message>
+	<message>
+		<err_code>63</err_code>
+		<translation>Pentru a funcţiona ca repetor, configuraţi o adresă IP nouă pentru acest dispozitiv, apoi puteţi configura dispozitivul prin intermediul acestei adrese IP noi</translation>
+		<variable>gsm_msg_wds_set_new_ip</variable>
+	</message>
+	<message>
+		<err_code>64</err_code>
+		<translation>Un PIN este un ºir de 4 sau 8 cifre.</translation>
+		<variable>gsm_msg_wds_pin_format</variable>
+	</message>
+	<message>
+		<err_code>65</err_code>
+		<translation>Cifra de control pentru PIN nu este corectã. Verificaþi din nou PIN-ul.[NEL]</translation>
+		<variable>gsm_msg_wds_inv_pin</variable>
+	</message>
+	<message>
+		<err_code>66</err_code>
+		<translation>Lungime insuficientã cod de acces. Trebuie sã aibã minimum 8 caractere.</translation>
+		<variable>gsm_msg_wls_inv_phrase_char</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>Această adresă IP trebuie să fie în aceeaşi subreţea cu adresa IP LAN sau în aceeaşi subreţea cu adresa IP WAN!</translation>
+		<variable>gsm_msg_wls_inv_radius_ip</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>Portul de server RADIUS trebuie să se situeze în domeniul [1- 65535]!</translation>
+		<variable>gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>68</err_code>
+		<translation>Lungimea maximã a cheii este de </translation>
+		<variable>gsm_msg_wls_max_key_length_1</variable>
+	</message>
+	<message>
+		<err_code>69</err_code>
+		<translation> caractere.</translation>
+		<variable>gsm_msg_wls_max_key_length_2</variable>
+	</message>
+	<message>
+		<err_code>70</err_code>
+		<translation>Funcþia de repetare wireless nu poate fi utilizatã cu opþiunea Canal automat (Auto Channel).[NEL]Modificaþi setãrile de canal înainte a activa funcþia de repetare wireless. </translation>
+		<variable>gsm_msg_wls_no_auto_channel</variable>
+	</message>
+	<message>
+		<err_code>71</err_code>
+		<translation>Nume dispozitiv nevalid.</translation>
+		<variable>gsm_msg_wls_inv_dev_name</variable>
+	</message>
+	<message>
+		<err_code>72</err_code>
+		<translation>Adresã MAC nevalidã.</translation>
+		<variable>gsm_msg_wls_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>73</err_code>
+		<translation>Lungimea maximã a parolei este 32 caractere!</translation>
+		<variable>gsm_msg_wls_max_pw</variable>
+	</message>
+	<message>
+		<err_code>75</err_code>
+		<translation>Securitatea WEP cu autentificare automatã bazatã pe cheie partajatã nu funcþioneazã cu WPS. WPS va fi inaccesibil. Continuaþi?</translation>
+		<variable>gsm_msg_wls_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>76</err_code>
+		<translation>WPA/WPA2 Enterprise nu pot funcţiona cu WPS. WPS va deveni inaccesibil. Continuaţi?</translation>
+		<variable>gsm_msg_wls_wpax_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>77</err_code>
+		<translation>WPA / WPA2 cu Radius nu poate funcţiona cu WPS. WPS va deveni inaccesibil. Continuaţi?</translation>
+		<variable>gsm_msg_wls_wpa2x_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>78</err_code>
+		<translation>WPA / WPA2 cu Radius nu poate funcţiona cu WPS. WPS va deveni inaccesibil. Continuaţi?</translation>
+		<variable>gsm_msg_wls_wpa_mix_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>79</err_code>
+		<translation>Securitatea WEP cu autentificare automatã bazatã pe cheie partajatã nu funcþioneazã cu WPS. WPS va fi inaccesibil. Continuaþi?</translation>
+		<variable>gsm_msg_wls_open_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>80</err_code>
+		<translation>Click on [Save] if you only want to update the settings. Click [Apply] if you want to activate the new settings. [NEL][NEL]If you would like to set other SSIDs, please click [Save].[NEL][NEL]If this is the only SSID you want to modify, click [Apply] to ac</translation>
+		<variable>gsm_msg_wls_cfm_ssid_apply</variable>
+	</message>
+	<message>
+		<err_code>81</err_code>
+		<translation>Adresă IP server RADIUS:</translation>
+		<variable>gsm_msg_wls_sever_name_ip</variable>
+	</message>
+	<message>
+		<err_code>82</err_code>
+		<translation>Nume</translation>
+		<variable>gsm_msg_wls_name</variable>
+	</message>
+	<message>
+		<err_code>83</err_code>
+		<translation>Port server RADIUS:</translation>
+		<variable>unknown_gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>84</err_code>
+		<translation>Cheie partajatã</translation>
+		<variable>gsm_msg_wls_shared_key</variable>
+	</message>
+	<message>
+		<err_code>85</err_code>
+		<translation>Lungime insuficientã cod de acces. Trebuie sã aibã minimum 8 caractere.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_8</variable>
+	</message>
+	<message>
+		<err_code>86</err_code>
+		<translation>Auto</translation>
+		<variable>gsm_msg_wls_auto</variable>
+	</message>
+	<message>
+		<err_code>87</err_code>
+		<translation>Selectaþi regiunea curentã pentru locaþia dvs.</translation>
+		<variable>gsm_msg_wls_inv_region</variable>
+	</message>
+	<message>
+		<err_code>88</err_code>
+		<translation>Un cod de acces constă din 8~63 caractere ASCII sau exact 64 de cifre hexazecimale. O cifră hexazecimală este unul dintre caracterele următoare: 0, 1, 2, ..., 8, 9, A, B, C, D, E, F.</translation>
+		<variable>gsm_msg_wls_passphrase_limit</variable>
+	</message>
+	<message>
+		<err_code>89</err_code>
+		<translation>Valoarea lungimii de fragmentare este în afara intervalului 256–2346.</translation>
+		<variable>gsm_msg_wls_fragm_throd</variable>
+	</message>
+	<message>
+		<err_code>90</err_code>
+		<translation>Valoarea pragului CTS/RTS este în afara intervalului 1–2347.</translation>
+		<variable>gsm_msg_wls_crts_throd</variable>
+	</message>
+	<message>
+		<err_code>91</err_code>
+		<translation>Nume gazdã</translation>
+		<variable>gsm_msg_ddns_host_name</variable>
+	</message>
+	<message>
+		<err_code>92</err_code>
+		<translation>Nume utilizator</translation>
+		<variable>gsm_msg_ddns_user_name</variable>
+	</message>
+	<message>
+		<err_code>93</err_code>
+		<translation>Parolã</translation>
+		<variable>gsm_msg_ddns_pw</variable>
+	</message>
+	<message>
+		<err_code>94</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_mail_inv_ip_or_domain</variable>
+	</message>
+	<message>
+		<err_code>95</err_code>
+		<translation>Eroare: adresã e-mail nevalidã.</translation>
+		<variable>gsm_msg_mail_inv_email_ad</variable>
+	</message>
+	<message>
+		<err_code>96</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_eth_inv_ip</variable>
+	</message>
+	<message>
+		<err_code>97</err_code>
+		<translation>Masca de subreþea este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>98</err_code>
+		<translation>Adresã IP gateway nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_gateway</variable>
+	</message>
+	<message>
+		<err_code>99</err_code>
+		<translation>Adresa primarã DNS este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_prime_dns</variable>
+	</message>
+	<message>
+		<err_code>100</err_code>
+		<translation>Adresa secundarã DNS este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_sec_dns</variable>
+	</message>
+	<message>
+		<err_code>101</err_code>
+		<translation>Adresã MAC nevalidã.</translation>
+		<variable>gsm_msg_eth_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>102</err_code>
+		<translation>Nu este detectatã o conexiune la Internet.</translation>
+		<variable>gsm_msg_eth_warn_nat_allow_all</variable>
+	</message>
+	<message>
+		<err_code>103</err_code>
+		<translation>When the firewall is disabled protections normally provided to your network will be disabled! [NEL][NEL]Turn off the firewall only if you are sure you want to do this.</translation>
+		<variable>gsm_msg_eth_warn_no_fw_prot</variable>
+	</message>
+	<message>
+		<err_code>104</err_code>
+		<translation>cuvânt cheie</translation>
+		<variable>gsm_msg_kwd_keyword</variable>
+	</message>
+	<message>
+		<err_code>105</err_code>
+		<translation>This Keyword already exists</translation>
+		<variable>gsm_msg_kwd_keyword_exist</variable>
+	</message>
+	<message>
+		<err_code>106</err_code>
+		<translation>No keyword selected</translation>
+		<variable>gsm_msg_kwd_no_keyword_sel</variable>
+	</message>
+	<message>
+		<err_code>107</err_code>
+		<translation>Adresa IP intrã în conflict cu subreþeaua IP WAN. Introduceþi o altã adresã IP.</translation>
+		<variable>gsm_msg_lan_inv_ip_same_wan</variable>
+	</message>
+	<message>
+		<err_code>109</err_code>
+		<translation>Masca de subreþea este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>110</err_code>
+		<translation>Adresa IP DHCP de pornire este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_strat_ip</variable>
+	</message>
+	<message>
+		<err_code>111</err_code>
+		<translation>Adresa IP DHCP de oprire este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_end_ip</variable>
+	</message>
+	<message>
+		<err_code>112</err_code>
+		<translation>Additional Management Port</translation>
+		<variable>gsm_msg_lan_add_mng_port</variable>
+	</message>
+	<message>
+		<err_code>113</err_code>
+		<translation>Timp de inactivitate invalid. Trebuie să fie sub 99 de minute.</translation>
+		<variable>gsm_msg_pw_inv_idle_range</variable>
+	</message>
+	<message>
+		<err_code>114</err_code>
+		<translation>Parola introdusã nu este corectã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>115</err_code>
+		<translation>Conectare</translation>
+		<variable>gsm_msg_ppp_login</variable>
+	</message>
+	<message>
+		<err_code>116</err_code>
+		<translation>Interval aşteptare (în minute)</translation>
+		<variable>gsm_msg_ppp_idle_time</variable>
+	</message>
+	<message>
+		<err_code>119</err_code>
+		<translation>Invalid IP in list</translation>
+		<variable>gsm_msg_rmt_inv_ip_in_list</variable>
+	</message>
+	<message>
+		<err_code>121</err_code>
+		<translation>The setting list</translation>
+		<variable>gsm_msg_rmt_setting_list</variable>
+	</message>
+	<message>
+		<err_code>122</err_code>
+		<translation>and</translation>
+		<variable>gsm_msg_rmt_setting_and</variable>
+	</message>
+	<message>
+		<err_code>124</err_code>
+		<translation>Non set any IP address, please enter again.[NEL]</translation>
+		<variable>gsm_msg_rmt_non_set_ip</variable>
+	</message>
+	<message>
+		<err_code>125</err_code>
+		<translation>Adresa IP iniţială trebuie să fie mai mică decât adresa IP finală</translation>
+		<variable>gsm_msg_rmt_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>126</err_code>
+		<translation>Numãr port</translation>
+		<variable>gsm_msg_rmt_port_num</variable>
+	</message>
+	<message>
+		<err_code>128</err_code>
+		<translation>Nume dispozitiv</translation>
+		<variable>gsm_msg_resv_device_name</variable>
+	</message>
+	<message>
+		<err_code>129</err_code>
+		<translation>Introduceţi un nume pentru cardul wireless</translation>
+		<variable>gsm_msg_resv_enter_name</variable>
+	</message>
+	<message>
+		<err_code>130</err_code>
+		<translation>Nume</translation>
+		<variable>gsm_msg_resv_name</variable>
+	</message>
+	<message>
+		<err_code>131</err_code>
+		<translation>Nume rutã</translation>
+		<variable>gsm_msg_rout_route_name</variable>
+	</message>
+	<message>
+		<err_code>132</err_code>
+		<translation>Metric</translation>
+		<variable>gsm_msg_rout_metric</variable>
+	</message>
+	<message>
+		<err_code>133</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_rule_inv_lan_ip</variable>
+	</message>
+	<message>
+		<err_code>134</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_rule_inv_wan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>135</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_rule_inv_wan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>136</err_code>
+		<translation>Adresa IP iniţială trebuie să fie mai mică decât adresa IP finală</translation>
+		<variable>gsm_msg_rule_wan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>137</err_code>
+		<translation>IP iniţial LAN nevalid, reintroduceţi</translation>
+		<variable>gsm_msg_rule_inv_lan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>138</err_code>
+		<translation>IP final LAN nevalid, reintroduceţi</translation>
+		<variable>gsm_msg_rule_inv_lan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>139</err_code>
+		<translation>IP-ul iniţial LAN trebuie să fie mai mic decât IP-ul final</translation>
+		<variable>gsm_msg_rule_lan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>140</err_code>
+		<translation>IP iniţial nevalid, reintroduceţi</translation>
+		<variable>gsm_msg_rule_inv_dest_ip</variable>
+	</message>
+	<message>
+		<err_code>141</err_code>
+		<translation>IP final nevalid, reintroduceţi</translation>
+		<variable>gsm_msg_rule_inv_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>142</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>gsm_msg_sch_inv_start_hr</variable>
+	</message>
+	<message>
+		<err_code>143</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>gsm_msg_sch_inv_start_min</variable>
+	</message>
+	<message>
+		<err_code>144</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>gsm_msg_sch_inv_end_hr</variable>
+	</message>
+	<message>
+		<err_code>145</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>gsm_msg_sch_inv_time</variable>
+	</message>
+	<message>
+		<err_code>146</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>gsm_msg_sch_inv_end_min</variable>
+	</message>
+	<message>
+		<err_code>148</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>gsm_msg_sch_end_time_small</variable>
+	</message>
+	<message>
+		<err_code>149</err_code>
+		<translation>Nume serviciu</translation>
+		<variable>gsm_msg_sev_service_name</variable>
+	</message>
+	<message>
+		<err_code>150</err_code>
+		<translation>Port pornire</translation>
+		<variable>gsm_msg_sev_start_port</variable>
+	</message>
+	<message>
+		<err_code>151</err_code>
+		<translation>Port oprire</translation>
+		<variable>gsm_msg_sev_finish_port</variable>
+	</message>
+	<message>
+		<err_code>152</err_code>
+		<translation>Valoarea portului de oprire trebuie sã fie mai mare sau egalã cu valoarea portului de pornire.</translation>
+		<variable>gsm_msg_sev_end_port_small</variable>
+	</message>
+	<message>
+		<err_code>153</err_code>
+		<translation>Nume dispozitiv nevalid.</translation>
+		<variable>gsm_msg_sev_inv_char_device_name</variable>
+	</message>
+	<message>
+		<err_code>154</err_code>
+		<translation>Numele fiºierului nu poate fi necompletat.</translation>
+		<variable>gsm_msg_bku_no_blank_filename</variable>
+	</message>
+	<message>
+		<err_code>155</err_code>
+		<translation>Avertisment! [NEL]Restabilirea setãrilor dintr-o configuraþie va ºterge toate setãrile curente. [NEL]Sigur efectuaþi aceastã operaþie?</translation>
+		<variable>gsm_msg_bku_cfm_restore</variable>
+	</message>
+	<message>
+		<err_code>156</err_code>
+		<translation>Please check the LEDs to see if the Router is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish</variable>
+	</message>
+	<message>
+		<err_code>157</err_code>
+		<translation>Please check the LEDs to see if the</translation>
+		<variable>gsm_msg_bku_finish_1</variable>
+	</message>
+	<message>
+		<err_code>158</err_code>
+		<translation>is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish_2</variable>
+	</message>
+	<message>
+		<err_code>159</err_code>
+		<translation>Continuaţi?[NEL]Toate conexiunile la Internet existente vor fi întrerupte</translation>
+		<variable>gsm_msg_bku_cfm_proceed</variable>
+	</message>
+	<message>
+		<err_code>161</err_code>
+		<translation>Internet name can not be blank</translation>
+		<variable>gsm_msg_dig_no_blank_int_name</variable>
+	</message>
+	<message>
+		<err_code>162</err_code>
+		<translation>Nume de Internet nevalid, introduceţi din nou</translation>
+		<variable>gsm_msg_dig_inv_int_name</variable>
+	</message>
+	<message>
+		<err_code>163</err_code>
+		<translation>Adresa DNS trebuie specificată</translation>
+		<variable>gsm_msg_eth_dns_before_ip</variable>
+	</message>
+	<message>
+		<err_code>164</err_code>
+		<translation>Poziţie nevalidă. Reintroduceţi noua poziţie</translation>
+		<variable>gsm_msg_fw_inv_position</variable>
+	</message>
+	<message>
+		<err_code>165</err_code>
+		<translation>Nicio înregistrare selectată. [NEL]Faceţi clic pe un buton radio pentru a selecta o înregistrare</translation>
+		<variable>gsm_msg_fw_no_select</variable>
+	</message>
+	<message>
+		<err_code>166</err_code>
+		<translation>PERMITERE întotdeauna</translation>
+		<variable>gsm_msg_fw_allow_always</variable>
+	</message>
+	<message>
+		<err_code>167</err_code>
+		<translation>Dacã doriþi sã trimiteþi un e-mail de înºtiinþare, activaþi opþiunea Înºtiinþare prin e-mail (E-mail notification), din ecranul E-mail.</translation>
+		<variable>gsm_msg_log_en_send_log</variable>
+	</message>
+	<message>
+		<err_code>168</err_code>
+		<translation>Nicio înregistrare selectată. [NEL]Faceţi clic pe un buton radio pentru a selecta o înregistrare</translation>
+		<variable>gsm_msg_pfw_no_app_sel</variable>
+	</message>
+	<message>
+		<err_code>169</err_code>
+		<translation>Nume de serviciu nevalid.</translation>
+		<variable>gsm_msg_pfw_no_cus_service_name</variable>
+	</message>
+	<message>
+		<err_code>170</err_code>
+		<translation>Port iniţial conexiune recepţie</translation>
+		<variable>gsm_msg_pfw_port_start</variable>
+	</message>
+	<message>
+		<err_code>171</err_code>
+		<translation>is invalid</translation>
+		<variable>gsm_msg_pfw_inv_input</variable>
+	</message>
+	<message>
+		<err_code>172</err_code>
+		<translation>Port final conexiune recepţie</translation>
+		<variable>gsm_msg_pfw_port_end</variable>
+	</message>
+	<message>
+		<err_code>173</err_code>
+		<translation>Interval de porturi</translation>
+		<variable>gsm_msg_pfw_port_range</variable>
+	</message>
+	<message>
+		<err_code>174</err_code>
+		<translation>Custom Rule</translation>
+		<variable>gsm_msg_pfw_custom_rule</variable>
+	</message>
+	<message>
+		<err_code>175</err_code>
+		<translation>Nume serviciu</translation>
+		<variable>gsm_msg_pfw_service_name</variable>
+	</message>
+	<message>
+		<err_code>176</err_code>
+		<translation>Tip serviciu</translation>
+		<variable>gsm_msg_pfw_service_type</variable>
+	</message>
+	<message>
+		<err_code>177</err_code>
+		<translation>Port pornire</translation>
+		<variable>gsm_msg_pfw_starting_port</variable>
+	</message>
+	<message>
+		<err_code>178</err_code>
+		<translation>Port oprire</translation>
+		<variable>gsm_msg_pfw_ending_port</variable>
+	</message>
+	<message>
+		<err_code>179</err_code>
+		<translation>Adresã IP server</translation>
+		<variable>gsm_msg_pfw_server_ip_add</variable>
+	</message>
+	<message>
+		<err_code>180</err_code>
+		<translation>Pre-set Port Forwarding Rule</translation>
+		<variable>gsm_msg_pfw_preset_pfw_rule</variable>
+	</message>
+	<message>
+		<err_code>181</err_code>
+		<translation>IP_Phone</translation>
+		<variable>gsm_msg_pfw_ip_phone</variable>
+	</message>
+	<message>
+		<err_code>182</err_code>
+		<translation>News</translation>
+		<variable>gsm_msg_pfw_news</variable>
+	</message>
+	<message>
+		<err_code>183</err_code>
+		<translation>Declanºare port</translation>
+		<variable>gsm_msg_pft_port</variable>
+	</message>
+	<message>
+		<err_code>184</err_code>
+		<translation>Timeout</translation>
+		<variable>gsm_msg_pft_timeout</variable>
+	</message>
+	<message>
+		<err_code>185</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>186</err_code>
+		<translation>You have just modified the policy.[NEL]Before editing policy, you need to click on [Apply] to keep the changes or [Cancel] to restore the original policy settings.</translation>
+		<variable>gsm_msg_qos_apply_or_cancel</variable>
+	</message>
+	<message>
+		<err_code>187</err_code>
+		<translation>, trebuie sã fie în intervalul 1–65535, excluzând 80.[NEL]</translation>
+		<variable>gsm_msg_pfw_inv_range</variable>
+	</message>
+	<message>
+		<err_code>200</err_code>
+		<translation>Adresã MAC duplicatã.</translation>
+		<variable>gsm_msg_qos_mac_conflicts</variable>
+	</message>
+	<message>
+		<err_code>202</err_code>
+		<translation>Adresã MAC nevalidã.</translation>
+		<variable>gsm_msg_qos_inv_mac_format</variable>
+	</message>
+	<message>
+		<err_code>205</err_code>
+		<translation>nu poate avea valoare nulă</translation>
+		<variable>gsm_msg_qos_no_rule</variable>
+	</message>
+	<message>
+		<err_code>206</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>207</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_qos_fail_parse_mac</variable>
+	</message>
+	<message>
+		<err_code>208</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_qos_fail_parse_game</variable>
+	</message>
+	<message>
+		<err_code>216</err_code>
+		<translation>Nume de politicã duplicat.</translation>
+		<variable>gsm_msg_qos_conflict_predef_name</variable>
+	</message>
+	<message>
+		<err_code>217</err_code>
+		<translation>Nume politică deja existent</translation>
+		<variable>gsm_msg_qos_conflict_policy_name</variable>
+	</message>
+	<message>
+		<err_code>219</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_qos_inv_user_policy</variable>
+	</message>
+	<message>
+		<err_code>220</err_code>
+		<translation>Conflicte de porturi cu o altă regulă.</translation>
+		<variable>gsm_msg_qos_exist_port</variable>
+	</message>
+	<message>
+		<err_code>221</err_code>
+		<translation>Lãþime de bandã de upload</translation>
+		<variable>gsm_msg_qos_uplink_bandwidth</variable>
+	</message>
+	<message>
+		<err_code>222</err_code>
+		<translation>Politicã QoS</translation>
+		<variable>gsm_msg_qos_policy</variable>
+	</message>
+	<message>
+		<err_code>223</err_code>
+		<translation>Prioritate</translation>
+		<variable>gsm_msg_qos_priority</variable>
+	</message>
+	<message>
+		<err_code>224</err_code>
+		<translation>Descriere</translation>
+		<variable>gsm_msg_qos_description</variable>
+	</message>
+	<message>
+		<err_code>225</err_code>
+		<translation>aplicaţie</translation>
+		<variable>gsm_msg_qos_application</variable>
+	</message>
+	<message>
+		<err_code>226</err_code>
+		<translation>Jocuri online</translation>
+		<variable>gsm_msg_qos_on_line_gaming</variable>
+	</message>
+	<message>
+		<err_code>227</err_code>
+		<translation>Port LAN</translation>
+		<variable>gsm_msg_qos_lan_port</variable>
+	</message>
+	<message>
+		<err_code>228</err_code>
+		<translation>Fără</translation>
+		<variable>gsm_msg_qos_none</variable>
+	</message>
+	<message>
+		<err_code>229</err_code>
+		<translation>Nume dispozitiv</translation>
+		<variable>gsm_msg_qos_device_name</variable>
+	</message>
+	<message>
+		<err_code>230</err_code>
+		<translation>Adresã MAC</translation>
+		<variable>gsm_msg_qos_mac_ad</variable>
+	</message>
+	<message>
+		<err_code>231</err_code>
+		<translation>Nume politică QoS</translation>
+		<variable>gsm_msg_qos_policy_name</variable>
+	</message>
+	<message>
+		<err_code>232</err_code>
+		<translation>With your current connection method, this setting has no effect.</translation>
+		<variable>gsm_msg_wan_sec_inv_conn_method</variable>
+	</message>
+	<message>
+		<err_code>233</err_code>
+		<translation>Encapsulation mode on the Basic Settings page must be changed to PPPoE to enable PPPoE Relay.</translation>
+		<variable>gsm_msg_wan_sec_must_pppoe_mode</variable>
+	</message>
+	<message>
+		<err_code>234</err_code>
+		<translation>Dimensiune MTU</translation>
+		<variable>gsm_msg_wan_sec_mtu_value</variable>
+	</message>
+	<message>
+		<err_code>235</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_tree_err_geteleid</variable>
+	</message>
+	<message>
+		<err_code>236</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_tree_inv_id_use_ext_id</variable>
+	</message>
+	<message>
+		<err_code>237</err_code>
+		<translation>Numele fiºierului este nul. Localizaþi ºi selectaþi fiºierul de actualizare de pe hard disk.</translation>
+		<variable>gsm_msg_upg_no_file</variable>
+	</message>
+	<message>
+		<err_code>238</err_code>
+		<translation>Asociaþi fiºierul corect. Formatul fiºierului este *.</translation>
+		<variable>gsm_msg_upg_inv_file_type</variable>
+	</message>
+	<message>
+		<err_code>239</err_code>
+		<translation>Upgrade-ul de firmware poate conþine îmbunãtãþiri importante.[NEL]Sigur opriþi verificarea automatã?[NEL] Dupã ce o opriþi, o puteþi reactiva prin ecranul Upgrade router (Router Upgrade).</translation>
+		<variable>gsm_msg_upg_cfm_fw_upg</variable>
+	</message>
+	<message>
+		<err_code>240</err_code>
+		<translation>nu poate avea valoare nulă</translation>
+		<variable>gsm_msg_upnp_cannot_empty</variable>
+	</message>
+	<message>
+		<err_code>241</err_code>
+		<translation>trebuie să fie un număr</translation>
+		<variable>gsm_msg_upnp_must_num</variable>
+	</message>
+	<message>
+		<err_code>242</err_code>
+		<translation>trebuie să fie mai mare decât 0 şi mai mic sau egal cu 1440 de minute</translation>
+		<variable>gsm_msg_upnp_must_min_range</variable>
+	</message>
+	<message>
+		<err_code>243</err_code>
+		<translation>trebuie să fie mai mare decât 0 şi mai mic sau egal cu 255</translation>
+		<variable>gsm_msg_upnp_must_great_less</variable>
+	</message>
+	<message>
+		<err_code>244</err_code>
+		<translation>Nicio înregistrare selectată. [NEL]Faceţi clic pe un buton radio pentru a selecta o înregistrare</translation>
+		<variable>gsm_msg_usb_no_sel_radio</variable>
+	</message>
+	<message>
+		<err_code>245</err_code>
+		<translation>Nepartajat</translation>
+		<variable>gsm_msg_usb_not_shared</variable>
+	</message>
+	<message>
+		<err_code>246</err_code>
+		<translation>Port</translation>
+		<variable>gsm_msg_usb_port</variable>
+	</message>
+	<message>
+		<err_code>247</err_code>
+		<translation>Caracter nepermis</translation>
+		<variable>gsm_msg_usb_inv_char_network_name</variable>
+	</message>
+	<message>
+		<err_code>248</err_code>
+		<translation>Aceste elemente vor fi ºterse. Sigur doriþi sã le ºtergeþi?</translation>
+		<variable>gsm_msg_usb_cfm_delete</variable>
+	</message>
+	<message>
+		<err_code>249</err_code>
+		<translation>Selectaţi o opţiune şi faceţi clic pe Continuare pentru a continua.</translation>
+		<variable>gsm_msg_wiz_no_sel</variable>
+	</message>
+	<message>
+		<err_code>250</err_code>
+		<translation>Un cod de acces constă din 8~63 caractere ASCII sau exact 64 de cifre hexazecimale. O cifră hexazecimală este unul dintre caracterele următoare: 0, 1, 2, ..., 8, 9, A, B, C, D, E, F.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_63</variable>
+	</message>
+	<message>
+		<err_code>251</err_code>
+		<translation>Caracterul nu este permis în codul de acces</translation>
+		<variable>gsm_msg_wls_wpa_key_forbid</variable>
+	</message>
+	<message>
+		<err_code>252</err_code>
+		<translation>IMPORTANTWPA-PSK [TKIP] poate funcţiona numai la rata "Până la 54 Mbps", nu la rata N.NETGEAR vă recomandă să utilizaţi WPA2-PSK [AES] pentru a obţine compatibilitate completă cu rata de transfer N.</translation>
+		<variable>gsm_msg_wls_wpa_work_mode_warn</variable>
+	</message>
+	<message>
+		<err_code>253</err_code>
+		<translation>Introduceţi între 1 şi 128 de caractere (octeţi) în câmpul Secret partajare server RADIUS!</translation>
+		<variable>gsm_msg_wls_radius_key_val_len</variable>
+	</message>
+	<message>
+		<err_code>254</err_code>
+		<translation>Caracter nepermis</translation>
+		<variable>gsm_msg_not_printable</variable>
+	</message>
+	<message>
+		<err_code>255</err_code>
+		<translation>Numele dispozitivului nu poate fi nul.</translation>
+		<variable>gsm_msg_dev_name_blank</variable>
+	</message>
+	<message>
+		<err_code>256</err_code>
+		<translation>Nume dispozitiv nevalid.</translation>
+		<variable>gsm_msg_dev_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>257</err_code>
+		<translation>Introduceþi durata de inactivitate.[NEL]</translation>
+		<variable>gsm_msg_idle_time_blank</variable>
+	</message>
+	<message>
+		<err_code>258</err_code>
+		<translation>Timp de inactivitate invalid, introduceţi un număr corect.</translation>
+		<variable>gsm_msg_idle_time_invalid</variable>
+	</message>
+	<message>
+		<err_code>259</err_code>
+		<translation>Adresa serverului este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_pptp_fqdn</variable>
+	</message>
+	<message>
+		<err_code>260</err_code>
+		<translation>Adresa serverului este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_pptp_server_addr_invalid</variable>
+	</message>
+	<message>
+		<err_code>261</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou sau lãsaþi spaþiul liber.</translation>
+		<variable>gsm_msg_pptp_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>262</err_code>
+		<translation>Eºec</translation>
+		<variable>gsm_msg_qos_rule_fail_parse</variable>
+	</message>
+	<message>
+		<err_code>263</err_code>
+		<translation>Jocuri online</translation>
+		<variable>gsm_msg_qos_gaming</variable>
+	</message>
+	<message>
+		<err_code>264</err_code>
+		<translation>Datele de intrare sunt duplicate cu înregistrarea curentă,[NEL]continuare pentru suprascriere</translation>
+		<variable>gsm_msg_rev_confirm_overwrite</variable>
+	</message>
+	<message>
+		<err_code>265</err_code>
+		<translation>Pentru a restabili conexiunea, faceþi clic pe butonul Conectare (Connect).</translation>
+		<variable>gsm_msg_st_poe_disconnect_warning</variable>
+	</message>
+	<message>
+		<err_code>266</err_code>
+		<translation>Valoare nevalidã a portului de pornire sau deoprire.</translation>
+		<variable>gsm_msg_blk_serv_port_invalid</variable>
+	</message>
+	<message>
+		<err_code>267</err_code>
+		<translation>Valoare nevalidã port de pornire.</translation>
+		<variable>gsm_msg_blk_serv_sport_invalid</variable>
+	</message>
+	<message>
+		<err_code>268</err_code>
+		<translation>Valoare nevalidã port de oprire.</translation>
+		<variable>gsm_msg_blk_serv_eport_invalid</variable>
+	</message>
+	<message>
+		<err_code>269</err_code>
+		<translation>Valoarea portului de oprire trebuie sã fie mai mare sau egalã cu valoarea portului de pornire.</translation>
+		<variable>gsm_msg_blk_serv_port_range_err</variable>
+	</message>
+	<message>
+		<err_code>270</err_code>
+		<translation>Tip de serviciu nevalid definit de utilizator.</translation>
+		<variable>gsm_msg_blk_serv_type_invalid</variable>
+	</message>
+	<message>
+		<err_code>271</err_code>
+		<translation>Nume de serviciu nevalid.</translation>
+		<variable>gsm_msg_blk_serv_resv</variable>
+	</message>
+	<message>
+		<err_code>272</err_code>
+		<translation>Serviciu duplicat detectat!</translation>
+		<variable>gsm_msg_blk_serv_dup_detected</variable>
+	</message>
+	<message>
+		<err_code>273</err_code>
+		<translation>Interval de adrese IP nevalid.</translation>
+		<variable>gsm_msg_blk_serv_ip_rng_err</variable>
+	</message>
+	<message>
+		<err_code>274</err_code>
+		<translation>Traffic Meter is Enabled in 'Connection time control' Mode.[NEL] Can't select DHCP and StaticIP Mode.</translation>
+		<variable>gsm_msg_tm_en_wan_mode_error</variable>
+	</message>
+	<message>
+		<err_code>275</err_code>
+		<translation>Valorile valide pentru intervalul Pool sunt între 5 ºi 86400 secunde. </translation>
+		<variable>gsm_msg_tm_intvl_err</variable>
+	</message>
+	<message>
+		<err_code>276</err_code>
+		<translation>Limita lunară pentru contorul de trafic (</translation>
+		<variable>gsm_msg_tm_limnit_sub1</variable>
+	</message>
+	<message>
+		<err_code>277</err_code>
+		<translation>a fost atinsă.</translation>
+		<variable>gsm_msg_tm_limnit_sub2</variable>
+	</message>
+	<message>
+		<err_code>278</err_code>
+		<translation>Contorul de trafic este </translation>
+		<variable>gsm_msg_tm_water_mark_sub1</variable>
+	</message>
+	<message>
+		<err_code>279</err_code>
+		<translation>înainte de atingerea limitei lunare.</translation>
+		<variable>gsm_msg_tm_water_mark_sub2</variable>
+	</message>
+	<message>
+		<err_code>280</err_code>
+		<translation>Mbytes</translation>
+		<variable>gsm_msg_mbytes</variable>
+	</message>
+	<message>
+		<err_code>281</err_code>
+		<translation> minute.</translation>
+		<variable>gsm_msg_minutes</variable>
+	</message>
+	<message>
+		<err_code>282</err_code>
+		<translation>Ore</translation>
+		<variable>gsm_msg_hours</variable>
+	</message>
+	<message>
+		<err_code>283</err_code>
+		<translation>Zile</translation>
+		<variable>gsm_msg_days</variable>
+	</message>
+	<message>
+		<err_code>284</err_code>
+		<translation>Valoare numerică invalidă pentru Limita lunară.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_vol</variable>
+	</message>
+	<message>
+		<err_code>285</err_code>
+		<translation>Valoare numerică invalidă pentru Limita lunară.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_time</variable>
+	</message>
+	<message>
+		<err_code>286</err_code>
+		<translation>Valoarea orelor în timpul de resetare a contorului de trafic este invalidă.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_hour</variable>
+	</message>
+	<message>
+		<err_code>287</err_code>
+		<translation>Valoarea minutelor în timpul de resetare a contorului de trafic este invalidă.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_min</variable>
+	</message>
+	<message>
+		<err_code>288</err_code>
+		<translation>Traffic meter reset Day of Month</translation>
+		<variable>gsm_msg_tm_rst_day</variable>
+	</message>
+	<message>
+		<err_code>289</err_code>
+		<translation>Valoare numerică invalidă pentru Marcaj la controlul traficului.[NEL]</translation>
+		<variable>gsm_msg_tm_water_mark</variable>
+	</message>
+	<message>
+		<err_code>290</err_code>
+		<translation>Valoarea rotunjită trebuie să fie mai mică decât Limita lunară.[NEL]</translation>
+		<variable>gsm_msg_tm_rd_vol</variable>
+	</message>
+	<message>
+		<err_code>291</err_code>
+		<translation>Valoarea rotunjită trebuie să fie mai mică decât Limita lunară.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err1</variable>
+	</message>
+	<message>
+		<err_code>292</err_code>
+		<translation>Valoarea Marcaj trebuie să fie mai mică decât Limita lunară.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err2</variable>
+	</message>
+	<message>
+		<err_code>293</err_code>
+		<translation>Valoarea Marcaj trebuie să fie mai mică decât Limita lunară.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err3</variable>
+	</message>
+	<message>
+		<err_code>294</err_code>
+		<translation>Time of restart traffic counter changed. It will clear the Traffic Statistics</translation>
+		<variable>gsm_msg_tm_counter_chg_confm</variable>
+	</message>
+	<message>
+		<err_code>295</err_code>
+		<translation>Număr max. de elemente în lista de acces atins</translation>
+		<variable>gsm_msg_m_accs_client_max_num</variable>
+	</message>
+	<message>
+		<err_code>296</err_code>
+		<translation>Proces WPS în derulare, aplicaţi modificările mai târziu.</translation>
+		<variable>gsm_msg_wps_in_prog_warn</variable>
+	</message>
+	<message>
+		<err_code>297</err_code>
+		<translation>Introduceþi adresa MAC a staþiei bazã.</translation>
+		<variable>gsm_msg_wds_station_mac</variable>
+	</message>
+	<message>
+		<err_code>298</err_code>
+		<translation>Introduceþi o adresã MAC repetoare.</translation>
+		<variable>gsm_msg_wds_repeater_mac</variable>
+	</message>
+	<message>
+		<err_code>299</err_code>
+		<translation>Expirarea declanºãrii portului nu poate fi nulã.</translation>
+		<variable>gsm_msg_pft_timeout_null</variable>
+	</message>
+	<message>
+		<err_code>300</err_code>
+		<translation>Adresã IP gateway nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_pptp_gw_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>301</err_code>
+		<translation>Nume de gazdã nevalid.</translation>
+		<variable>gsm_msg_ddns_host_invalid</variable>
+	</message>
+	<message>
+		<err_code>302</err_code>
+		<translation>Adresa secundarã DNS este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>gsm_msg_two_fix_dns_same_err</variable>
+	</message>
+	<message>
+		<err_code>303</err_code>
+		<translation>Caracter sau caractere invalide în</translation>
+		<variable>gsm_msg_inc_colon_err</variable>
+	</message>
+	<message>
+		<err_code>304</err_code>
+		<translation>Caracterul nu este permis în SSID</translation>
+		<variable>gsm_msg_inv_ssid</variable>
+	</message>
+	<message>
+		<err_code>305</err_code>
+		<translation>Număr max. de elemente în lista de acces atins</translation>
+		<variable>gsm_msg_wl_acl_tbl_full</variable>
+	</message>
+	<message>
+		<err_code>306</err_code>
+		<translation>Nume de serviciu invalid, trebuie să conţină doar litere, cifre, '_' şi '-'</translation>
+		<variable>gsm_msg_FW_char_not_alw_sev_nm</variable>
+	</message>
+	<message>
+		<err_code>307</err_code>
+		<translation>Adresa de port iniţial trebuie să fie mai mică decât 65535</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>308</err_code>
+		<translation>Adresa de port final trebuie să fie mai mică decât 65535</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>309</err_code>
+		<translation>Adresa de port iniţial trebuie să fie mai mare decât 1</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>310</err_code>
+		<translation>Adresa de port final trebuie să fie mai mare decât 1</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>311</err_code>
+		<translation>Valoarea portului de oprire trebuie sã fie mai mare sau egalã cu valoarea portului de pornire.</translation>
+		<variable>gsm_msg_FW_st_port_mst_ls_nd_post_ad</variable>
+	</message>
+	<message>
+		<err_code>312</err_code>
+		<translation>Eroare: Adresă de server SMTP invalidă</translation>
+		<variable>gsm_msg_mail_inv_smtp_address</variable>
+	</message>
+	<message>
+		<err_code>ALSE04</err_code>
+		<translation>Adresele DHCP de pornire ºi oprire sunt nevalide. Introduceþi-le din nou.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_ip</variable>
+	</message>
+	<message>
+		<err_code>m_defkey</err_code>
+		<translation>[NEL]Cheia implicită este obligatorie, alte chei sunt opţionale</translation>
+		<variable>gsm_defkey</variable>
+	</message>
+	<message>
+		<err_code>APPE02</err_code>
+		<translation>Adresa de port final trebuie să fie mai mică decât 65535</translation>
+		<variable>gsm_appe02</variable>
+	</message>
+	<message>
+		<err_code>AQSE05</err_code>
+		<translation>Numele politicii QoS nu poate fi necompletat.</translation>
+		<variable>gsm_qos_blnk</variable>
+	</message>
+	<message>
+		<err_code>APPE13</err_code>
+		<translation>Nevalid </translation>
+		<variable>gsm_invalid</variable>
+	</message>
+	<message>
+		<err_code>APPE14</err_code>
+		<translation>Interval porturi conexiune intrare nevalid.[NEL]</translation>
+		<variable>gsm_inv_in_port_range</variable>
+	</message>
+	<message>
+		<err_code>10101</err_code>
+		<translation>%s is NULL</translation>
+		<variable>10101</variable>
+	</message>
+	<message>
+		<err_code>10201</err_code>
+		<translation>This service is used by the rules function, you can not edit/delete it! Please delete corresponding rules first.</translation>
+		<variable>10201</variable>
+	</message>
+	<message>
+		<err_code>10202</err_code>
+		<translation>Numele serviciului nu poate fi nul.</translation>
+		<variable>10202</variable>
+	</message>
+	<message>
+		<err_code>10203</err_code>
+		<translation>Nume de serviciu deja utilizat.</translation>
+		<variable>10203</variable>
+	</message>
+	<message>
+		<err_code>10204</err_code>
+		<translation>User defined Service is full</translation>
+		<variable>10204</variable>
+	</message>
+	<message>
+		<err_code>10205</err_code>
+		<translation>Rule table is full!</translation>
+		<variable>10205</variable>
+	</message>
+	<message>
+		<err_code>10206</err_code>
+		<translation>Serviciul blocat există deja!</translation>
+		<variable>10206</variable>
+	</message>
+	<message>
+		<err_code>10207</err_code>
+		<translation>Selectaţi un element pentru ştergere.</translation>
+		<variable>10207</variable>
+	</message>
+	<message>
+		<err_code>10208</err_code>
+		<translation>Numărul portului este incorect, intervalul trebuie să fie 1 ~ 65534.</translation>
+		<variable>10208</variable>
+	</message>
+	<message>
+		<err_code>10209</err_code>
+		<translation>Portul pentru serviciu este deja utilizat de un alt serviciu.</translation>
+		<variable>10209</variable>
+	</message>
+	<message>
+		<err_code>10210</err_code>
+		<translation>Routerul poate accepta doar 20 de reguli de servicii.</translation>
+		<variable>10210</variable>
+	</message>
+	<message>
+		<err_code>10211</err_code>
+		<translation>Outbound rule is full!</translation>
+		<variable>10211</variable>
+	</message>
+	<message>
+		<err_code>10212</err_code>
+		<translation>Inbound rule is full!</translation>
+		<variable>10212</variable>
+	</message>
+	<message>
+		<err_code>10213</err_code>
+		<translation>Invalid position!</translation>
+		<variable>10213</variable>
+	</message>
+	<message>
+		<err_code>10214</err_code>
+		<translation>Caracterul nu este permis în cuvântul cheie</translation>
+		<variable>10214</variable>
+	</message>
+	<message>
+		<err_code>10216</err_code>
+		<translation>Spaţiu pentru adăugarea de cuvinte cheie epuizat</translation>
+		<variable>10216</variable>
+	</message>
+	<message>
+		<err_code>10217</err_code>
+		<translation>Intrare orã nevalidã.</translation>
+		<variable>10217</variable>
+	</message>
+	<message>
+		<err_code>10218</err_code>
+		<translation>Nume de serviciu duplicat.</translation>
+		<variable>10218</variable>
+	</message>
+	<message>
+		<err_code>10219</err_code>
+		<translation>Caracterul nu este permis în cuvântul cheie</translation>
+		<variable>10219</variable>
+	</message>
+	<message>
+		<err_code>10701</err_code>
+		<translation>Fişierul firmware este incorect! Preluaţi din nou fişierul firmware şi asiguraţi-vă că este firmware-ul corect pentru acest produs.</translation>
+		<variable>10701</variable>
+	</message>
+	<message>
+		<err_code>10702</err_code>
+		<translation>Memorie insuficientă pentru upgrade de firmware</translation>
+		<variable>10702</variable>
+	</message>
+	<message>
+		<err_code>10703</err_code>
+		<translation>Actualizarea firmware-ului a eşuat</translation>
+		<variable>10703</variable>
+	</message>
+	<message>
+		<err_code>10704</err_code>
+		<translation>Actualizare firmware router în curs. Aşteptaţi</translation>
+		<variable>10704</variable>
+	</message>
+	<message>
+		<err_code>10804</err_code>
+		<translation>Timp de inactivitate invalid, introduceţi un număr corect.</translation>
+		<variable>10804</variable>
+	</message>
+	<message>
+		<err_code>11004</err_code>
+		<translation>Adresa IP trebuie sã fie cuprinsã în intervalul DHCP. </translation>
+		<variable>11004</variable>
+	</message>
+	<message>
+		<err_code>11006</err_code>
+		<translation>Adresa IP rezervată nu poate fi identică cu adresa IP LAN a routerului.</translation>
+		<variable>11006</variable>
+	</message>
+	<message>
+		<err_code>11009</err_code>
+		<translation>Masca de subreþea este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>11009</variable>
+	</message>
+	<message>
+		<err_code>11010</err_code>
+		<translation>Executaţi ipconfig /release şi ipconfig /renew şi introduceţi adresa IP nouă în browser pentru a accesa din nou interfaţa grafică dacă adresa IP de subreţea LAN va fi modificată.</translation>
+		<variable>11010</variable>
+	</message>
+	<message>
+		<err_code>11011</err_code>
+		<translation>Warning!DHCP subnet has been changed.</translation>
+		<variable>11011</variable>
+	</message>
+	<message>
+		<err_code>11012</err_code>
+		<translation>Nume de dispozitiv duplicat.</translation>
+		<variable>11012</variable>
+	</message>
+	<message>
+		<err_code>11013</err_code>
+		<translation>Pentru a evita un conflict cu furnizorul de servicii de Internet, adresa IP a routerului a fost actualizată la valoarea </translation>
+		<variable>11013</variable>
+	</message>
+	<message>
+		<err_code>11014</err_code>
+		<translation>Acum, trebuie să actualizaţi adresele IP din setările de configurare a routerului pentru fiecare serviciu relevant, precum redirecţionarea porturilor şi rezervarea adreselor IP.</translation>
+		<variable>11014</variable>
+	</message>
+	<message>
+		<err_code>11101</err_code>
+		<translation>Interval de adrese IP nevalid.</translation>
+		<variable>11101</variable>
+	</message>
+	<message>
+		<err_code>11102</err_code>
+		<translation>Numãr metric nevalid.</translation>
+		<variable>11102</variable>
+	</message>
+	<message>
+		<err_code>11103</err_code>
+		<translation>Adresã IP gateway nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>11103</variable>
+	</message>
+	<message>
+		<err_code>11104</err_code>
+		<translation>Numele rutei nu poate fi necompletat.</translation>
+		<variable>11104</variable>
+	</message>
+	<message>
+		<err_code>11105</err_code>
+		<translation>Spaţiu pentru adăugarea traseelor statice epuizat.</translation>
+		<variable>11105</variable>
+	</message>
+	<message>
+		<err_code>11107</err_code>
+		<translation>Nume rutã duplicat.</translation>
+		<variable>11107</variable>
+	</message>
+	<message>
+		<err_code>11108</err_code>
+		<translation>Condiþie rutã duplicat.</translation>
+		<variable>11108</variable>
+	</message>
+	<message>
+		<err_code>11109</err_code>
+		<translation>Gateway-ul trebuie sã fie în aceeaºi subreþea ca ºi interfaþa WAN sau interfaþa LAN.</translation>
+		<variable>11109</variable>
+	</message>
+	<message>
+		<err_code>11901</err_code>
+		<translation>Parola introdusã nu este corectã. Introduceþi-o din nou.</translation>
+		<variable>11901</variable>
+	</message>
+	<message>
+		<err_code>11902</err_code>
+		<translation>Lungimea maximã a parolei este 32 caractere!</translation>
+		<variable>11902</variable>
+	</message>
+	<message>
+		<err_code>11903</err_code>
+		<translation>Parola veche este incorectă!</translation>
+		<variable>11903</variable>
+	</message>
+	<message>
+		<err_code>11904</err_code>
+		<translation>Timp de inactivitate invalid. Trebuie să fie sub 99 de minute.</translation>
+		<variable>11904</variable>
+	</message>
+	<message>
+		<err_code>11905</err_code>
+		<translation>Parolã nevalidã.</translation>
+		<variable>11905</variable>
+	</message>
+	<message>
+		<err_code>11906</err_code>
+		<translation>Parola veche este incorectă!</translation>
+		<variable>11906</variable>
+	</message>
+	<message>
+		<err_code>12001</err_code>
+		<translation>Introduceţi un nume pentru cardul wireless</translation>
+		<variable>12001</variable>
+	</message>
+	<message>
+		<err_code>12002</err_code>
+		<translation>Număr max. de elemente în lista de acces atins</translation>
+		<variable>12002</variable>
+	</message>
+	<message>
+		<err_code>12003</err_code>
+		<translation>Numele de conectare nu trebuie să aibă mai mult de 32 de caractere</translation>
+		<variable>12003</variable>
+	</message>
+	<message>
+		<err_code>12004</err_code>
+		<translation>Numele serviciului nu poate fi nul.</translation>
+		<variable>12004</variable>
+	</message>
+	<message>
+		<err_code>12005</err_code>
+		<translation>Adresã MAC nevalidã.</translation>
+		<variable>12005</variable>
+	</message>
+	<message>
+		<err_code>12006</err_code>
+		<translation>Adresã MAC nevalidã.</translation>
+		<variable>12006</variable>
+	</message>
+	<message>
+		<err_code>12007</err_code>
+		<translation>Adresã MAC nevalidã.</translation>
+		<variable>12007</variable>
+	</message>
+	<message>
+		<err_code>12008</err_code>
+		<translation>Adresa IP trebuie să se situeze în domeniul [%s , %s].</translation>
+		<variable>12008</variable>
+	</message>
+	<message>
+		<err_code>12010</err_code>
+		<translation>SSID name too long, must less than 32 characters!</translation>
+		<variable>12010</variable>
+	</message>
+	<message>
+		<err_code>12011</err_code>
+		<translation>Adresã MAC duplicatã.</translation>
+		<variable>12011</variable>
+	</message>
+	<message>
+		<err_code>12012</err_code>
+		<translation>The WEP key that you entered is not valid.</translation>
+		<variable>12012</variable>
+	</message>
+	<message>
+		<err_code>12013</err_code>
+		<translation>SSID-ul este duplicat, utilizaţi un altul.</translation>
+		<variable>12013</variable>
+	</message>
+	<message>
+		<err_code>12015</err_code>
+		<translation>Caracterul nu este permis în SSID</translation>
+		<variable>12015</variable>
+	</message>
+	<message>
+		<err_code>12016</err_code>
+		<translation>Adresă IP repetor invalidă</translation>
+		<variable>12016</variable>
+	</message>
+	<message>
+		<err_code>12101</err_code>
+		<translation>Unul sau mai multe porturi specificate sunt utilizate de alte configuraþii. Verificaþi setãrile pentru gestionare de la distanþã, trimiterea portului, declanºarea portului, tabelul de mapare a porturilor UPnP, RIP ºi tipul de conexiune la Internet.</translation>
+		<variable>12101</variable>
+	</message>
+	<message>
+		<err_code>12102</err_code>
+		<translation>Conflicte de porturi cu o altă regulă.</translation>
+		<variable>12102</variable>
+	</message>
+	<message>
+		<err_code>12301</err_code>
+		<translation>USB Share Nework Folder is full.</translation>
+		<variable>12301</variable>
+	</message>
+	<message>
+		<err_code>12302</err_code>
+		<translation>Acest nume de partajare era deja existent, modificaţi la altă valoare.</translation>
+		<variable>12302</variable>
+	</message>
+	<message>
+		<err_code>12303</err_code>
+		<translation>Disc absent</translation>
+		<variable>12303</variable>
+	</message>
+	<message>
+		<err_code>12304</err_code>
+		<translation>No Volume Name</translation>
+		<variable>12304</variable>
+	</message>
+	<message>
+		<err_code>12305</err_code>
+		<translation>Dispozitivul nu poate fi oprit acum. Reîncercaţi oprirea dispozitivului mai târziu.</translation>
+		<variable>12305</variable>
+	</message>
+	<message>
+		<err_code>12306</err_code>
+		<translation>Acum puteţi elimina acest dispozitiv.</translation>
+		<variable>12306</variable>
+	</message>
+	<message>
+		<err_code>12401</err_code>
+		<translation>Routerul poate accepta doar 20 de reguli de declanºare pentru port.</translation>
+		<variable>12401</variable>
+	</message>
+	<message>
+		<err_code>12402</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>12402</variable>
+	</message>
+	<message>
+		<err_code>12403</err_code>
+		<translation>Nume de serviciu duplicat.</translation>
+		<variable>12403</variable>
+	</message>
+	<message>
+		<err_code>12404</err_code>
+		<translation>Domeniul porturilor pentru conexiunea de recepţie se suprapune cu alte servicii.</translation>
+		<variable>12404</variable>
+	</message>
+	<message>
+		<err_code>12405</err_code>
+		<translation>Portul de declanşare este deja utilizat de un alt serviciu.</translation>
+		<variable>12405</variable>
+	</message>
+	<message>
+		<err_code>12501</err_code>
+		<translation>Routerul poate accepta doar 64 de reguli de trimitere.</translation>
+		<variable>12501</variable>
+	</message>
+	<message>
+		<err_code>12502</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>12502</variable>
+	</message>
+	<message>
+		<err_code>12503</err_code>
+		<translation>Nume de serviciu deja utilizat.</translation>
+		<variable>12503</variable>
+	</message>
+	<message>
+		<err_code>12504</err_code>
+		<translation>Portul pentru serviciu este deja utilizat de un alt serviciu.</translation>
+		<variable>12504</variable>
+	</message>
+	<message>
+		<err_code>12601</err_code>
+		<translation>Tabel de politici VPN plin</translation>
+		<variable>12601</variable>
+	</message>
+	<message>
+		<err_code>12602</err_code>
+		<translation>Nume politică deja existent</translation>
+		<variable>12602</variable>
+	</message>
+	<message>
+		<err_code>12603</err_code>
+		<translation>Warning! %s IP range is not supported changed to %s - %s</translation>
+		<variable>12603</variable>
+	</message>
+	<message>
+		<err_code>12604</err_code>
+		<translation>Eroare! Datele nu au putut fi salvate.[NEL]Doar o singură politică VPN poate utiliza o adresă IP dinamică pentru[NEL]punctul final la distanţă.[NEL]Pot fi salvate mai multe politici, dar numai una poate fi activată.</translation>
+		<variable>12604</variable>
+	</message>
+	<message>
+		<err_code>12605</err_code>
+		<translation>Eroare! Datele nu au putut fi salvate.[NEL]Doar o singură politică VPN poate utiliza ORICE adresă IP pentru LAN local sau LAN la distanţă.</translation>
+		<variable>12605</variable>
+	</message>
+	<message>
+		<err_code>12606</err_code>
+		<translation>Mască LAN la distanţă nevalidă</translation>
+		<variable>12606</variable>
+	</message>
+	<message>
+		<err_code>12607</err_code>
+		<translation>Mască LAN locală nevalidă</translation>
+		<variable>12607</variable>
+	</message>
+	<message>
+		<err_code>13001</err_code>
+		<translation>Porturile specificate sunt utilizate de alte configuraţii. Verificaţi configuraţiile pentru Administrare de la distanţă, Transmitere porturi, Declanşare porturi, Tabel de cartografiere porturi UPnP, RIP şi Tip de conexiune Internet</translation>
+		<variable>13001</variable>
+	</message>
+	<message>
+		<err_code>13002</err_code>
+		<translation>Porturile specificate sunt utilizate de sistem. Configuraţia nu va intra în vigoare decât după repornirea routerului. Întrerupeţi şi reluaţi alimentarea routerului pentru a-l reporni.</translation>
+		<variable>13002</variable>
+	</message>
+	<message>
+		<err_code>13101</err_code>
+		<translation>Serviciul DNS dinamic nu este activat.</translation>
+		<variable>13101</variable>
+	</message>
+	<message>
+		<err_code>13102</err_code>
+		<translation>%s updated successfully at %s.</translation>
+		<variable>13102</variable>
+	</message>
+	<message>
+		<err_code>13103</err_code>
+		<translation>Fãrã acþiune de actualizare. Nu existã adresã IP la portul Internet.</translation>
+		<variable>13103</variable>
+	</message>
+	<message>
+		<err_code>13104</err_code>
+		<translation>Autentificarea a eºuat. Numele de utilizator sau parola nu sunt corecte.</translation>
+		<variable>13104</variable>
+	</message>
+	<message>
+		<err_code>13105</err_code>
+		<translation>Actualizarea a eºuat. Numele gazdei nu este corect.</translation>
+		<variable>13105</variable>
+	</message>
+	<message>
+		<err_code>13106</err_code>
+		<translation>Update failed at %s.</translation>
+		<variable>13106</variable>
+	</message>
+	<message>
+		<err_code>13107</err_code>
+		<translation>Imposibil de accesat furnizorul serviciului.</translation>
+		<variable>13107</variable>
+	</message>
+	<message>
+		<err_code>13201</err_code>
+		<translation>Nu este disponibilă nicio conexiune la Internet</translation>
+		<variable>13201</variable>
+	</message>
+	<message>
+		<err_code>13202</err_code>
+		<translation>Gateway-ul nu răspunde la comenzile PING sau traceroute</translation>
+		<variable>13202</variable>
+	</message>
+	<message>
+		<err_code>13301</err_code>
+		<translation>Warning. The server ip and local ip are not in the same subnet.</translation>
+		<variable>13301</variable>
+	</message>
+	<message>
+		<err_code>13302</err_code>
+		<translation>Nume de cont nevalid.</translation>
+		<variable>gsm_msg_account_invalid</variable>
+	</message>
+	<message>
+		<err_code>13303</err_code>
+		<translation>Nume de domeniu nevalid.</translation>
+		<variable>gsm_msg_domain_invalid</variable>
+	</message>
+	<message>
+		<err_code>13304</err_code>
+		<translation>Repornire contor?</translation>
+		<variable>gsm_msg_tm_reset</variable>
+	</message>
+<message>
+		<err_code>13401</err_code>
+		<translation>Nu a fost selectat niciun element!</translation>
+		<variable>gsm_msg_gd_action</variable>
+	</message>
+	<message>
+		<err_code>13402</err_code>
+		<translation>No item!</translation>
+		<variable>gsm_msg_gd_rm_tab</variable>
+	</message>
+	<message>
+		<err_code>13403</err_code>
+		<translation>Viteză descărcare</translation>
+		<variable>gsm_msg_gd_down_speed</variable>
+	</message>
+	<message>
+		<err_code>13404</err_code>
+		<translation>Viteză încărcare</translation>
+		<variable>gsm_msg_gd_up_speed</variable>
+	</message>
+	<message>
+		<err_code>13405</err_code>
+		<translation>Sarcină maximă de descărcare</translation>
+		<variable>gsm_msg_gd_max_task_num</variable>
+	</message>
+	<message>
+		<err_code>13408</err_code>
+		<translation>Introduceţi un URL valid de FTP/HTTP pentru legătura de descărcare.</translation>
+		<variable>gsm_msg_gd_ftp_valid_add</variable>
+	</message>
+	<message>
+		<err_code>13410</err_code>
+		<translation>Nu a fost selectat niciun fişier torent!</translation>
+		<variable>gsm_msg_gd_bt_file_sel</variable>
+	</message>
+	<message>
+		<err_code>13411</err_code>
+		<translation>Asociaþi fiºierul corect. Formatul fiºierului este *.</translation>
+		<variable>gsm_msg_gd_bt_file_format</variable>
+	</message>
+	<message>
+		<err_code>13413</err_code>
+		<translation>Fişierul exista deja! </translation>
+		<variable>13413</variable>
+	</message>
+	<message>
+		<err_code>13414</err_code>
+		<translation>USB BT torrent path invliad!</translation>
+		<variable>13414</variable>
+	</message>
+	<message>
+		<err_code>13415</err_code>
+		<translation>Acest URL există deja !</translation>
+		<variable>13415</variable>
+	</message>
+	<message>
+		<err_code>13416</err_code>
+		<translation>Număr max. de activităţi de descărcare atins!</translation>
+		<variable>13416</variable>
+	</message>
+	<message>
+		<err_code>13417</err_code>
+		<translation>Fişier torrent corupt. Nu poate fi descărcat!</translation>
+		<variable>13417</variable>
+	</message>
+	<message>
+		<err_code>13418</err_code>
+		<translation>FAT (format curent de stocare USB) poate accepta numai fişiere de până la maxim 4 GB!</translation>
+		<variable>13418</variable>
+	</message>
+	<message>
+		<err_code>13419</err_code>
+		<translation>Eşec – Spaţiu insuficient</translation>
+		<variable>13419</variable>
+	</message>
+	<message>
+		<err_code>13420</err_code>
+		<translation>Add task fail!</translation>
+		<variable>13420</variable>
+	</message>
+	<message>
+		<err_code>13421</err_code>
+		<translation>Selectaţi mai întâi o opţiune.</translation>
+		<variable>bh_select_an_option</variable>
+	</message>
+	<message>
+		<err_code>13422</err_code>
+		<translation>Numele de utilizator nu poate fi necompletat.</translation>
+		<variable>bh_login_name_null</variable>
+	</message>
+	<message>
+		<err_code>13423</err_code>
+		<translation>Parolã nevalidã.</translation>
+		<variable>bh_password_error</variable>
+	</message>
+	<message>
+		<err_code>13424</err_code>
+		<translation>Introduceţi durata de inactivitate.[NEL]</translation>
+		<variable>bh_idle_time_null</variable>
+	</message>
+	<message>
+		<err_code>13425</err_code>
+		<translation>Duratã de inactivitate nevalidã. Introduceþi un numãr corect.[NEL]</translation>
+		<variable>bh_invalid_idle_time</variable>
+	</message>
+	<message>
+		<err_code>13426</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou sau lãsaþi spaþiul liber.</translation>
+		<variable>bh_invalid_myip</variable>
+	</message>
+	<message>
+		<err_code>13427</err_code>
+		<translation>Adresã IP gateway nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>bh_invalid_gateway</variable>
+	</message>
+	<message>
+		<err_code>13428</err_code>
+		<translation>Computerul nu acceptă o imprimantă.</translation>
+		<variable>bh_not_support_print</variable>
+	</message>
+	<message>
+		<err_code>13429</err_code>
+		<translation>Numele fiºierului nu poate fi necompletat.</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13430</err_code>
+		<translation>Asociaþi fiºierul corect. Formatul fiºierului este *.</translation>
+		<variable>bh_not_correct_file</variable>
+	</message>
+	<message>
+		<err_code>13431</err_code>
+		<translation>Adresã IP nevalidã. Introduceþi-o din nou.</translation>
+		<variable>bh_invalid_ip</variable>
+	</message>
+	<message>
+		<err_code>13432</err_code>
+		<translation>Masca de subreþea este nevalidã. Introduceþi-o din nou.[NEL]</translation>
+		<variable>bh_invalid_mask</variable>
+	</message>
+	<message>
+		<err_code>13433</err_code>
+		<translation>Adresa IP LAN ºi adresa IP WAN trebuie sã fie în aceeaºi subreþea.[NEL]</translation>
+		<variable>bh_same_lan_wan_subnet</variable>
+	</message>
+	<message>
+		<err_code>13434</err_code>
+		<translation>Numele fiºierului nu poate fi necompletat.</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13435</err_code>
+		<translation>Configurarea conexiunii la Internet necesită experienţă în reţele. Sigur doriţi să continuaţi?</translation>
+		<variable>bh_no_genie_help_confirm</variable>
+	</message>
+	<message>
+		<err_code>13436</err_code>
+		<translation>Avertisment! [NEL]Restabilirea setãrilor dintr-o configuraþie va ºterge toate setãrile curente. [NEL]Sigur efectuaþi aceastã operaþie?</translation>
+		<variable>bh_ask_for_restore</variable>
+	</message>
+	<message>
+		<err_code>13437</err_code>
+		<translation>Please do not use the directory as save path.</translation>
+		<variable>gsm_msg_gd_unexpect_path</variable>
+	</message>
+	<message>
+		<err_code>13438</err_code>
+		<translation>Adresã MAC nevalidã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_invalid_mac</variable>
+	</message>
+	<message>
+		<err_code>13439</err_code>
+		<translation>Nicio unitate USB</translation>
+		<variable>13439</variable>
+	</message>
+	<message>
+		<err_code>13440</err_code>
+		<translation>Selectaţi o întrebare.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13441</err_code>
+		<translation>Introduceţi răspunsul pentru fiecare întrebare.</translation>
+		<variable>gsm_msg_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13442</err_code>
+		<translation>Informaţiile pe care le-aţi introdus nu corespund celor salvate pe router. Introduceţi-le din nou.</translation>
+		<variable>gsm_msg_rsave_not_match</variable>
+	</message>
+	<message>
+		<err_code>13443</err_code>
+		<translation>Selectaţi fişierul de configurare corect.</translation>
+		<variable>gsm_msg_restore_fail</variable>
+	</message>
+	<message>
+		<err_code>13444</err_code>
+		<translation>Reiniţializarea routerului va întrerupe traficul activ din reţea. Sigur doriţi să continuaţi?</translation>
+		<variable>gsm_msg_confirm_reboot</variable>
+	</message>
+    <message>
+		<err_code>13445</err_code>
+		<translation>Routerul acceptă numai 21 de perioade.</translation>
+		<variable>13445</variable>
+	</message>
+	<message>
+		<err_code>13448</err_code>
+		<translation>Notă: Pentru a partaja fişiere prin DLNA/UPnP AV utilizând funcţia Media Server, cel puţin unul din dosarele partajate trebuie să aibă setarea Acces citire (Read Access) la valoarea "Toate - fără parolă (All – no password)"</translation>
+		<variable>gsm_msg_usb_no_read_access</variable>
+	</message>
+	<message>
+		<err_code>13502</err_code>
+		<translation>Autentificarea de securitate WEP sau WPA-PSK [TKIP] nu poate funcţiona cu WPS. WPS va deveni inaccesibil. Continuaţi?</translation>
+		<variable>gsm_msg_wep_wpa_conflict_wps</variable>
+	</message>
+	<message>
+		<err_code>13503</err_code>
+		<translation>WPS necesită transmisie SSID pentru a funcţiona. Dacă efectuaţi această modificare, WPS va deveni inaccesibil. Continuaţi?</translation>
+		<variable>gsm_msg_wps_need_ssid_broadcast</variable>
+	</message>
+	<message>
+		<err_code>13504</err_code>
+		<translation>Sunteţi sigur că nu doriţi niciun tip de securitate wireless pe reţeaua dvs.? Această setare este utilizată de obicei pentru hot spot-uri wireless care sunt deschise accesului public. Continuaţi?</translation>
+		<variable>gsm_msg_wireless_none_security</variable>
+	</message>
+	<message>
+		<err_code>13550</err_code>
+		<translation>Niciun ID VLAN configurat</translation>
+		<variable>gsm_msg_vlan_no_vid_configured</variable>
+	</message>
+	<message>
+		<err_code>13551</err_code>
+		<translation>Valoare 802.1p incorectă.</translation>
+		<variable>gsm_msg_vlan_incorrect_8021p</variable>
+	</message>
+	<message>
+		<err_code>13552</err_code>
+		<translation>Valoare ID VLAN incorectă; valorile corecte sunt de la 1 la 4094.</translation>
+		<variable>gsm_msg_vlan_incorrect_vid</variable>
+	</message>
+	<message>
+		<err_code>13553</err_code>
+		<translation>Numele grupului</translation>
+		<variable>gsm_msg_vlan_group_name</variable>
+	</message>
+	<message>
+		<err_code>13554</err_code>
+		<translation>există deja.</translation>
+		<variable>gsm_msg_vlan_already_exist</variable>
+	</message>
+	<message>
+		<err_code>13555</err_code>
+		<translation>TREBUIE ales cel puţin un port.</translation>
+		<variable>gsm_msg_vlan_port_need_checked</variable>
+	</message>
+	<message>
+		<err_code>13556</err_code>
+		<translation>TREBUIE debifat cel puţin un port.</translation>
+		<variable>gsm_msg_vlan_port_need_unchecked</variable>
+	</message>
+	<message>
+		<err_code>13557</err_code>
+		<translation>Nu mai pot fi create grupuri; nr. maxim de grupuri este de 10.</translation>
+		<variable>gsm_msg_vlan_group_num_overflow</variable>
+	</message>
+	<message>
+		<err_code>13558</err_code>
+		<translation>Nu mai pot fi activate grupuri; nr. maxim de grupuri este de 6.</translation>
+		<variable>gsm_msg_vlan_group_enable_overflow</variable>
+	</message>
+	<message>
+		<err_code>13559</err_code>
+		<translation>Numele grupului trebuie să conţină maxim 10 caractere.</translation>
+		<variable>gsm_msg_vlan_group_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>13560</err_code>
+		<translation>Eliminare</translation>
+		<variable>gsm_msg_vlan_remove</variable>
+	</message>
+	<message>
+		<err_code>13600</err_code>
+		<translation>Nume server media nevalid!</translation>
+		<variable>gsm_msg_invalid_mediaserver_name</variable>
+	</message>
+	<message> 
+        <err_code>13603</err_code> 
+        <translation>Comutaþi de la</translation> 
+        <variable>gsm_msg_switch_language_from</variable> 
+    </message> 
+    <message> 
+        <err_code>13604</err_code> 
+        <translation>( limba curentã ) la</translation> 
+        <variable>gsm_msg_switch_language_to</variable> 
+    </message> 
+	<message>
+		<err_code>13613</err_code>
+		<translation>Nu puteţi bloca dispozitivul pe care îl utilizaţi acum pentru a vă conecta la router. Pentru a bloca acest dispozitiv, trebuie să vă conectaţi la router de pe alt dispozitiv.</translation>
+		<variable>gsm_msg_block_manage_device</variable>
+	</message>
+		<message>
+		<err_code>13614</err_code>
+		<translation>Numele gazdei nu este valid. Caracterele permise aici sunt '0'~'9', 'a'~'z', 'A'~'Z', şi cratima '-'</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_hostname</variable>
+	</message>
+	<message>
+		<err_code>13615</err_code>
+		<translation>Adresa de e-mail nu este validă</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_email</variable>
+	</message>
+		<message>
+		<err_code>13616</err_code>
+		<translation>Parola dvs. trebuie să conţină cel puţin 6 caractere şi cel mult 32</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_password</variable>
+	</message>
+	<message>
+		<err_code>13617</err_code>
+		<translation>Conexiunea la Internet a căzut, conectaţi-vă mai întâi la Internet</translation>
+		<variable>gsm_msg_wan_down</variable>
+	</message>
+	<message>
+		<err_code>13618</err_code>
+		<translation>Serverul DDNS nu a putut fi accesat, verificaţi conexiunea la Internet sau încercaţi din nou mai târziu</translation>
+		<variable>gsm_msg_ddns_unreach_server</variable>
+	</message>
+	<message>
+		<err_code>13619</err_code>
+		<translation>Numele de gazdă specificat nu este un nume DNS valid</translation>
+		<variable>gsm_msg_hostname_invalid_dnsname</variable>
+	</message>
+	<message>
+		<err_code>13620</err_code>
+		<translation>Email-ul/contul specificat nu există</translation>
+		<variable>gsm_msg_email_account_not_exist</variable>
+	</message>
+	<message>
+		<err_code>13621</err_code>
+		<translation>Email-ul a fost deja înregistrat cu o parolă diferită</translation>
+		<variable>gsm_msg_eamil_already_register</variable>
+	</message>
+	<message>
+		<err_code>13622</err_code>
+		<translation>Autentificarea contului a eşuat</translation>
+		<variable>gsm_msg_account_auth_fail</variable>
+	</message>
+	<message>
+		<err_code>13623</err_code>
+		<translation>Numele de gazdă specificat nu este disponibil</translation>
+		<variable>gsm_msg_hostname_unavailable</variable>
+	</message>
+		<message>
+		<err_code>13624</err_code>
+		<translation>Aţi atins numărul maxim de nume de gazdă pe care le puteţi crea pentru acest cont, puteţi face</translation>
+		<variable>gsm_msg_max_ddns_host</variable>
+	</message>
+		<message>
+		<err_code>13625</err_code>
+		<translation>clic aici</translation>
+		<variable>gsm_msg_click_here</variable>
+	</message>
+		<message>
+		<err_code>13626</err_code>
+		<translation>pentru a vă conecta la contul dvs. pentru a efectua un upgrade al contului sau pentru a şterge un nume gazdă nedorit</translation>
+		<variable>gsm_msg_login_upgrade_ddns_account</variable>
+	</message>
+		<message>
+		<err_code>13627</err_code>
+		<translation>Nu se poate finaliza activitatea din următorul motiv:</translation>
+		<variable>gsm_msg_ddns_fail_reason</variable>
+	</message>
+			<message>
+		<err_code>13628</err_code>
+		<translation>În curând veţi primi o confirmare prin e-mail!</translation>
+		<variable>gsm_msg_ddns_ngr_email1</variable>
+	</message>
+			<message>
+		<err_code>13629</err_code>
+		<translation>O confirmare prin e-mail a fost trimisă la adresa de e-mail furnizată. E-mail-ul de confirmare va include o legătură pe care trebuie să faceţi clic pentru a vă verifica adresa de e-mail. Odată ce contul a fost confirmat vă veţi putea conecta şi veţi putea utiliza serviciile noastre.</translation>
+		<variable>gsm_msg_ddns_ngr_email2</variable>
+	</message>
+	<message>
+		<err_code>13700</err_code>
+		<translation>Serviciul VPN trebuie să activeze DDNS sau să utilizeze adresa IP statică pentru conexiunea dvs. la internet</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_1</variable>
+	</message>
+	<message>
+		<err_code>13701</err_code>
+		<translation>Vă rugăm să activaţi serviciul VPN şi să faceţi clic mai întâi pe butonul "Aplicare".</translation>
+		<variable>gsm_msg_openvpn_apply</variable>
+	</message>
+	<message>
+		<err_code>13702</err_code>
+		<translation>Serviciul VPN nu funcţionează cu o conexiune la Internet IPv6. Dacă doriţi să utilizaţi IPv6, trebuie să dezactivaţi mai întâi serviciul VPN. (În ecranul serviciului VPN, debifaţi caseta de validate Activare serviciu VPN şi faceţi clic pe butonul Aplicare.)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6</variable>
+	</message>
+	<message>
+		<err_code>13703</err_code>
+		<translation>Serviciul VPN nu funcţionează cu o conexiune la Internet IPv6. Dacă doriţi să utilizaţi Serviciul VPN, trebuie să dezactivaţi mai întâi conexiunea la Internet IPv6. (În ecranul IPv6, selectaţi Dezactivare şi faceţi clic pe butonul Aplicare.)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6_2</variable>
+	</message>
+	<message>
+		<err_code>13704</err_code>
+		<translation>Se recomandă ca serviciul DNS dinamic să fie utilizat cu serviciul VPN. Asiguraţi-vă că activaţi serviciul DNS dinamic sau utilizaţi adresa IP statică pentru conexiunea dvs. la Internet.</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_2</variable>
+	</message>
+	<message>
+		<err_code>13705</err_code>
+		<translation>În prezent, serviciul DNS dinamic nu este activat, iar adresa IP pentru conexiunea dvs. la Internet va fi utilizată pentru configurările clientului. Atunci când este schimbată adresa IP pentru conexiunea dvs. la Internet, trebuie să descărcaţi şi să instalaţi fişierele de configurare din nou.</translation>
+		<variable>gsm_msg_openvpn_ddns_not_enable</variable>
+	</message>
+	<message>
+		<err_code>13706</err_code>
+		<translation>Aţi modificat configurările serviciului VPN, urmaţi Pasul 2 şi Pasul 3 pentru a descărca şi instala fişierele de configurare pe fiecare dintre dispozitivele de client VPN (suprascrie fişierele de configurare existente).</translation>
+		<variable>gsm_msg_openvpn_change_settings</variable>
+	</message>
+	<message>
+		<err_code>13707</err_code>
+		<translation>Aţi modificat adresa de IP statică pentru conexiunea la Internet, utilizată de serviciul VPN. Urmaţi Pasul 2 şi Pasul 3 pentru instalarea clientului VPN pentru a descărca şi instala fişierele de configurare pe fiecare dintre dispozitivele de client VPN (suprascrie fişierele de configurare existente)</translation>
+		<variable>gsm_msg_openvpn_change_static_ip</variable>
+	</message>
+	<message>
+		<err_code>13708</err_code>
+		<translation>Aţi modificat setările DNS dinamic utilizat de serviciul VPN. Urmaţi Pasul 2 şi Pasul 3 pentru instalarea clientului VPN pentru a descărca şi instala fişierele de configurare pe fiecare dintre dispozitivele de client VPN (suprascrie fişierele de configurare existente).</translation>
+		<variable>gsm_msg_openvpn_change_ddns</variable>
+	</message>
+	<message>
+		<err_code>13709</err_code>
+		<translation>Portul pentru serviciu trebuie să fie mai mic sau egal cu 65534</translation>
+		<variable>gsm_msg_openvpn_wrong_port</variable>
+	</message>
+	<message>
+		<err_code>13710</err_code>
+		<translation>Nume partajat nu poate rămâne necompletat</translation>
+		<variable>gsm_msg_share_name_blank</variable>
+	</message>
+	<message>
+		<err_code>13711</err_code>
+		<translation>Serviciul VPN are nevoie de adresa IP statică sau de DDNS. Doriţi să continuaţi şi să dezactivaţi serviciul VPN?</translation>
+		<variable>gsm_msg_openvpn_disabled_fixedip</variable>
+	</message>
+	<message>
+		<err_code>13712</err_code>
+		<translation>Fişierul de configurare client VPN nu corespunde setării DNS dinamic sau adresei IP pentru conexiunea dvs. la Internet. Urmaţi Pasul 2 şi Pasul 3 pentru a descărca şi instala fişierele de configurare pe fiecare dintre dispozitivele de client VPN (suprascrie fişierele de configurare existente).</translation>
+		<variable>gsm_msg_openvpn_conf_change</variable>
+	</message>
+	<message>
+		<err_code>13713</err_code>
+		<translation>Funcţia Repetor wireless (Wireless Repeater) nu funcţionează pe canalele DFS, asiguraţi-vă că staţia de bază este setată pe canalele fără DFS.</translation>
+		<variable>gsm_msg_wds_not_work_in_dfs_ch</variable>
+	</message>
+    <message>
+		<err_code>13714</err_code>
+		<translation>Dacă nu activaţi recuperarea parolei şi uitaţi nou parolă, singurul mod de a recupera parola este să resetaţi dispozitivul la valorile implicite din fabrică.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13715</err_code>
+		<translation> nu trebuie sã fie necompletat.[NEL]</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>13716</err_code>
+		<translation>Dacă nu activaţi recuperarea parolei şi uitaţi nou parolă, singurul mod de a recupera parola este să resetaţi dispozitivul la valorile implicite din fabrică.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13717</err_code>
+		<translation>Sigur doriţi să schimbaţi parola de administrare fără opţiune de recuperare?</translation>
+		<variable>gsm_msg_pwd_rec_chk</variable>
+	</message>
+	<message>
+		<err_code>13718</err_code>
+		<translation>Lungimea maximã a cheii este de </translation>
+		<variable>gsm_msg_wls_max_pw_1</variable>
+	</message>
+	<message>
+		<err_code>13719</err_code>
+		<translation> caractere.</translation>
+		<variable>gsm_msg_wls_max_pw_2</variable>
+	</message>
+	<message>
+		<err_code>13720</err_code>
+		<translation>Parola introdusã nu este corectã. Introduceþi-o din nou.</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>13721</err_code>
+		<translation>Selectaţi o întrebare.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13722</err_code>
+		<translation>Introduceţi răspunsul pentru fiecare întrebare.</translation>
+		<variable>gsm_msg_pwd_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13723</err_code>
+		<translation>În prezent, aveţi setări WiFi diferite pentru transmisiile radio de 2,4 GHz şi cele de 5 GHz. Odată ce faceţi clic pe butonul Aplicare, vom suprascrie setările pentru radio de 5 GHz cu setările pentru radio de 2,4 GHz.</translation>
+		<variable>gsm_msg_smart_conn</variable>
+	</message>
+	<message>
+		<err_code>13724</err_code>
+		<translation>Deoarece transmisia de 5GHz nu acceptă WEP, SMART CONNECT nu poate fi activat.</translation>
+		<variable>gsm_msg_smart_conn_wep</variable>
+	</message>
+</error_msg>

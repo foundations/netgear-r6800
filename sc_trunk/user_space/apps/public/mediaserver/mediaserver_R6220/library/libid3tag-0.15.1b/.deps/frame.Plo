@@ -1,0 +1,22 @@
+frame.lo: frame.c config.h global.h id3tag.h frame.h frametype.h compat.h \
+ field.h render.h parse.h util.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+frame.h:
+
+frametype.h:
+
+compat.h:
+
+field.h:
+
+render.h:
+
+parse.h:
+
+util.h:

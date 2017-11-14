@@ -1,0 +1,84 @@
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/openssl.cnf src_new/easy-rsa/EasyRSA-2.2.2/openssl.cnf
+--- src/easy-rsa/EasyRSA-2.2.2/openssl.cnf	2017-06-23 23:47:24.372694192 +0800
++++ src_new/easy-rsa/EasyRSA-2.2.2/openssl.cnf	2017-06-24 00:14:42.208938375 +0800
+@@ -8,7 +8,7 @@
+ # This definition stops the following lines choking if HOME isn't
+ # defined.
+ HOME			= .
+-RANDFILE		= $ENV::HOME/.rnd
++RANDFILE		= /tmp/.rnd
+ 
+ # Extra OBJECT IDENTIFIER info:
+ #oid_file		= $ENV::HOME/.oid
+@@ -89,7 +89,7 @@
+ [ req ]
+ default_bits		= $ENV::KEY_SIZE
+ default_keyfile 	= privkey.pem
+-default_md		= sha256
++default_md		= md5
+ distinguished_name	= req_distinguished_name
+ attributes		= req_attributes
+ x509_extensions	= v3_ca	# The extentions to add to the self signed cert
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/pkitool src_new/easy-rsa/EasyRSA-2.2.2/pkitool
+--- src/easy-rsa/EasyRSA-2.2.2/pkitool	2017-06-23 23:47:24.372694192 +0800
++++ src_new/easy-rsa/EasyRSA-2.2.2/pkitool	2017-06-23 23:53:56.640939641 +0800
+@@ -247,18 +247,14 @@
+ fi
+ 
+ # If undefined, set default key expiration intervals
+-#if [ -z "$KEY_EXPIRE" ]; then
+-#    KEY_EXPIRE=19950
+-#fi
+-#if [ -z "$CA_EXPIRE" ]; then
+-#    CA_EXPIRE=19950
+-#fi
+-#if [ $(date +%Y) = "1970" ]; then
+-#        KEY_EXPIRE=19950
+-#        CA_EXPIRE=19950
+-#fi
+-        KEY_EXPIRE=19950
+-        CA_EXPIRE=19950
++if [ -z "$KEY_EXPIRE" ]; then
++    KEY_EXPIRE=3650
++fi
++if [ -z "$CA_EXPIRE" ]; then
++    CA_EXPIRE=3650
++fi
++
++       
+ # Set organizational unit to empty string if undefined
+ if [ -z "$KEY_OU" ]; then
+     KEY_OU=""
+diff -aNru src/easy-rsa/EasyRSA-2.2.2/vars src_new/easy-rsa/EasyRSA-2.2.2/vars
+--- src/easy-rsa/EasyRSA-2.2.2/vars	2017-06-23 23:47:24.373689021 +0800
++++ src_new/easy-rsa/EasyRSA-2.2.2/vars	2017-06-24 00:05:12.418941527 +0800
+@@ -61,12 +61,12 @@
+ # These are the default values for fields
+ # which will be placed in the certificate.
+ # Don't leave any of these fields blank.
+-export KEY_COUNTRY="CN"
+-export KEY_PROVINCE="SH"
+-export KEY_CITY="PD"
+-export KEY_ORG="OpenVPN"
+-export KEY_EMAIL="yekexin0919@126.com"
+-export KEY_OU="MyOrganizationalUnit"
++export KEY_COUNTRY="TW"
++export KEY_PROVINCE="TW"
++export KEY_CITY="Taipei"
++export KEY_ORG="netgear"
++export KEY_EMAIL="mail@netgear.com"
++export KEY_OU="netgear"
+ 
+ # X509 Subject Field
+ export KEY_NAME="EasyRSA"
+diff -aNru src/Makefile src_new/Makefile
+--- src/Makefile	2017-06-23 23:47:24.396689397 +0800
++++ src_new/Makefile	2017-06-24 00:07:57.095689811 +0800
+@@ -883,6 +883,7 @@
+ 	#$(MAKE) $(AM_MAKEFLAGS) install-recursive
+ 	$(STRIP) src/openvpn/openvpn
+ 	cp src/openvpn/openvpn $(ROOT)/target/sbin
++	chmod +x easy-rsa/EasyRSA-2.2.2/*
+ 	cp -af easy-rsa/EasyRSA-2.2.2/keys/*  $(ROOT)/target/usr/etc/openvpn/.
+ 	cp -af easy-rsa/EasyRSA-2.2.2/openssl.cnf $(ROOT)/target/usr/etc/openvpn/.
+ 	cp -af easy-rsa/EasyRSA-2.2.2/vars $(ROOT)/target/usr/etc/openvpn/.

@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<message>
+		<err_code>1</err_code>
+		<translation> nesmie byť prázdny.[NEL]</translation>
+		<variable>gsm_msg_blank</variable>
+	</message>
+	<message>
+		<err_code>2</err_code>
+		<translation>Voľné miesta ani medzery nie sú povolené v</translation>
+		<variable>gsm_msg_space</variable>
+	</message>
+	<message>
+		<err_code>3</err_code>
+		<translation>Voľné miesta nie sú povolené v</translation>
+		<variable>gsm_msg_blank_in</variable>
+	</message>
+	<message>
+		<err_code>4</err_code>
+		<translation>Neplatný znak alebo znaky v</translation>
+		<variable>gsm_msg_invalid</variable>
+	</message>
+	<message>
+		<err_code>5</err_code>
+		<translation>obsahuje neplatné číslo.</translation>
+		<variable>gsm_msg_check_invalid</variable>
+	</message>
+	<message>
+		<err_code>8</err_code>
+		<translation>%s is out of range [%s ~ %s]</translation>
+		<variable>gsm_msg_outofrange</variable>
+	</message>
+	<message>
+		<err_code>9</err_code>
+		<translation>Neplatný znak alebo znaky v</translation>
+		<variable>gsm_msg_invalid2</variable>
+	</message>
+	<message>
+		<err_code>10</err_code>
+		<translation>Prvé</translation>
+		<variable>gsm_msg_first</variable>
+	</message>
+	<message>
+		<err_code>11</err_code>
+		<translation>Druhé</translation>
+		<variable>gsm_msg_second</variable>
+	</message>
+	<message>
+		<err_code>12</err_code>
+		<translation>Tretie</translation>
+		<variable>gsm_msg_third</variable>
+	</message>
+	<message>
+		<err_code>13</err_code>
+		<translation>Štvrté</translation>
+		<variable>gsm_msg_fourth</variable>
+	</message>
+	<message>
+		<err_code>25</err_code>
+		<translation>Meno používateľa</translation>
+		<variable>gsm_msg_un</variable>
+	</message>
+	<message>
+		<err_code>26</err_code>
+		<translation>Heslo</translation>
+		<variable>gsm_msg_pw</variable>
+	</message>
+	<message>
+		<err_code>27</err_code>
+		<translation>Názov bezdrôtovej siete (SSID)</translation>
+		<variable>gsm_msg_ssid</variable>
+	</message>
+	<message>
+		<err_code>28</err_code>
+		<translation>V používateľskej príručke a na obale bezdrôtového klienta si pozrite, či podporuje funkciu WPS.</translation>
+		<variable>gsm_msg_wlpw</variable>
+	</message>
+	<message>
+		<err_code>29</err_code>
+		<translation>Meno používateľa nesmie byť prázdne.</translation>
+		<variable>gsm_msg_username_blank</variable>
+	</message>
+	<message>
+		<err_code>30</err_code>
+		<translation>Heslo nesmie byť prázdne.</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>31</err_code>
+		<translation>user name can only be letter or number!</translation>
+		<variable>gsm_msg_username_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>32</err_code>
+		<translation>password can only be letter or number!</translation>
+		<variable>gsm_msg_passwd_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>33</err_code>
+		<translation>už existuje</translation>
+		<variable>gsm_msg_user_exist</variable>
+	</message>
+	<message>
+		<err_code>34</err_code>
+		<translation>Zadané heslo sa nezhoduje. Zadajte ho znova.</translation>
+		<variable>gsm_msg_nomatch_pwd</variable>
+	</message>
+	<message>
+		<err_code>35</err_code>
+		<translation>group name can only be letter or number!</translation>
+		<variable>gsm_msg_groupname_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>36</err_code>
+		<translation>group exist!</translation>
+		<variable>gsm_msg_group_exist</variable>
+	</message>
+	<message>
+		<err_code>37</err_code>
+		<translation>group name is blank!</translation>
+		<variable>gsm_msg_group_blank</variable>
+	</message>
+	<message>
+		<err_code>38</err_code>
+		<translation>Názov siete/zariadenia</translation>
+		<variable>gsm_msg_network_name</variable>
+	</message>
+	<message>
+		<err_code>39</err_code>
+		<translation>Pracovná skupina</translation>
+		<variable>gsm_msg_workgroup</variable>
+	</message>
+	<message>
+		<err_code>40</err_code>
+		<translation>Access Port</translation>
+		<variable>gsm_msg_shr_fld_port</variable>
+	</message>
+	<message>
+		<err_code>41</err_code>
+		<translation>Zdieľaný priečinok</translation>
+		<variable>gsm_msg_share_folder</variable>
+	</message>
+	<message>
+		<err_code>42</err_code>
+		<translation>Názov zdieľaného prostriedku</translation>
+		<variable>gsm_msg_share_name</variable>
+	</message>
+	<message>
+		<err_code>43</err_code>
+		<translation>Neplatný kľúč.[NEL][NEL]Dĺžka kľúčov by mala byť 10 Hex (0 až 9 a A až F) znakov</translation>
+		<variable>gsm_msg_key64_type</variable>
+	</message>
+	<message>
+		<err_code>44</err_code>
+		<translation>Neplatný kľúč.[NEL][NEL]Dĺžka kľúčov by mala byť 26 Hex (0 až 9 a A až F) znakov</translation>
+		<variable>gsm_msg_key128_type</variable>
+	</message>
+	<message>
+		<err_code>45</err_code>
+		<translation>Neplatný kľúč.[NEL][NEL]Dĺžka kľúčov by mala byť 10 Hex (0 až 9 a A až F) znakov</translation>
+		<variable>gsm_msg_key64_atype</variable>
+	</message>
+	<message>
+		<err_code>46</err_code>
+		<translation>Neplatný kľúč.[NEL][NEL]Dĺžka kľúčov by mala byť 26 Hex (0 až 9 a A až F) znakov</translation>
+		<variable>gsm_msg_key128_atype</variable>
+	</message>
+	<message>
+		<err_code>47</err_code>
+		<translation>VAROVANIE: Zvolenie nesprávneho regiónu môže spôsobiť porušenie platných zákonov. [NEL]Súhlasíte s tým, že budete konať v súlade s týmito nastaveniami</translation>
+		<variable>gsm_msg_change_wl_region</variable>
+	</message>
+	<message>
+		<err_code>48</err_code>
+		<translation>Varovanie! Pri reštarte sa prerušia všetky nadviazané pripojenia k smerovaču (ako je toto) alebo sprostredkúvané smerovačom (napríklad prístup používateľov siete LAN k Internetu)</translation>
+		<variable>gsm_msg_restart</variable>
+	</message>
+	<message>
+		<err_code>49</err_code>
+		<translation>LADIŤ</translation>
+		<variable>gsm_msg_pub_debug</variable>
+	</message>
+	<message>
+		<err_code>50</err_code>
+		<translation>(Výberový zoznam) obsahuje neplatnú hodnotu</translation>
+		<variable>gsm_msg_pub_inv_sel</variable>
+	</message>
+	<message>
+		<err_code>51</err_code>
+		<translation>Vyberá sa namiesto toho 1. položka</translation>
+		<variable>gsm_msg_pub_1st_instead</variable>
+	</message>
+	<message>
+		<err_code>54</err_code>
+		<translation>Overenie hesla</translation>
+		<variable>gsm_msg_pub_re_cfm_pw</variable>
+	</message>
+	<message>
+		<err_code>55</err_code>
+		<translation>Koncová hodnota portu by mala byť väčšia alebo rovná ako počiatočná hodnota portu.</translation>
+		<variable>gsm_msg_pub_port_range</variable>
+	</message>
+	<message>
+		<err_code>56</err_code>
+		<translation>Uložili ste túto stránku</translation>
+		<variable>gsm_msg_pub_cfm_save</variable>
+	</message>
+	<message>
+		<err_code>57</err_code>
+		<translation>Typy zabezpečenia bezdrôtovej siete WPA-PSK (TKIP), WPA2-PSK (AES) a WPA-PSK (TKIP) + WPA-PSK (AES) nie sú k dispozícii pri zapnutej funkcii opakovania bezdrôtového signálu. [NEL]Skôr než zapnete funkciu opakovania bezdrôtového signálu, zmeňte typ zabezpečenia. </translation>
+		<variable>gsm_msg_wds_sec_opt</variable>
+	</message>
+	<message>
+		<err_code>58</err_code>
+		<translation>Funkciu opakovania bezdrôtového signálu nemožno používať spolu s funkciou Automatický kanál.[NEL]Skôr než zapnete funkciu opakovania bezdrôtového signálu, zmeňte nastavenie kanála. </translation>
+		<variable>gsm_msg_wds_auto_no_rpt</variable>
+	</message>
+	<message>
+		<err_code>61</err_code>
+		<translation>Použitie alebo zrušenie Kliknutím na tlačidlo Použiť uložíte nové nastavenia do smerovača. Kliknutím na tlačidlo Zrušiť zrušíte všetky neuložené zmeny.</translation>
+		<variable>gsm_msg_wds_update_only</variable>
+	</message>
+	<message>
+		<err_code>62</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>gsm_msg_wds_inv_ip_range</variable>
+	</message>
+	<message>
+		<err_code>63</err_code>
+		<translation>Ak chcete spustiť prevádzku v režime opakovača, nastavte pre zariadenie novú IP adresu, aby ste ho mohli prostredníctvom tejto novej IP adresy v budúcnosti konfigurovať</translation>
+		<variable>gsm_msg_wds_set_new_ip</variable>
+	</message>
+	<message>
+		<err_code>64</err_code>
+		<translation>Kód PIN je reťazec obsahujúci 4 alebo 8 číslic.</translation>
+		<variable>gsm_msg_wds_pin_format</variable>
+	</message>
+	<message>
+		<err_code>65</err_code>
+		<translation>Kontrolný súčet kódu PIN nie je správny. Znova skontrolujte kód PIN.[NEL]</translation>
+		<variable>gsm_msg_wds_inv_pin</variable>
+	</message>
+	<message>
+		<err_code>66</err_code>
+		<translation>Prístupová fráza je príliš krátka. Mala by obsahovať minimálne 8 znakov.</translation>
+		<variable>gsm_msg_wls_inv_phrase_char</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>Táto adresa IP by mala byť v rovnakej podsieti ako adresa IP v sieti LAN alebo v rovnakej podsieti ako adresa IP v sieti WAN!</translation>
+		<variable>gsm_msg_wls_inv_radius_ip</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>Port servera RADIUS musí byť v rozsahu [1 – 65535]!</translation>
+		<variable>gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>68</err_code>
+		<translation>Maximálna dĺžka kľúča je </translation>
+		<variable>gsm_msg_wls_max_key_length_1</variable>
+	</message>
+	<message>
+		<err_code>69</err_code>
+		<translation> znakov.</translation>
+		<variable>gsm_msg_wls_max_key_length_2</variable>
+	</message>
+	<message>
+		<err_code>70</err_code>
+		<translation>Funkciu opakovania bezdrôtového signálu nemožno používať spolu s funkciou Automatický kanál.[NEL]Skôr než zapnete funkciu opakovania bezdrôtového signálu, zmeňte nastavenie kanála. </translation>
+		<variable>gsm_msg_wls_no_auto_channel</variable>
+	</message>
+	<message>
+		<err_code>71</err_code>
+		<translation>Neplatný názov zariadenia.</translation>
+		<variable>gsm_msg_wls_inv_dev_name</variable>
+	</message>
+	<message>
+		<err_code>72</err_code>
+		<translation>Neplatná adresa MAC.</translation>
+		<variable>gsm_msg_wls_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>73</err_code>
+		<translation>Maximálna dĺžka hesla je 32 znakov!</translation>
+		<variable>gsm_msg_wls_max_pw</variable>
+	</message>
+	<message>
+		<err_code>75</err_code>
+		<translation>Zabezpečenie WEP s automatickým overením zdieľaného kľúča nefunguje s protokolom WPS. Protokol WPS nebude k dispozícii. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wls_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>76</err_code>
+		<translation>Zabezpečenie WPA/WPA2 Enterprise nefunguje s protokolom WPS. Protokol WPS nebude dostupný. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wls_wpax_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>77</err_code>
+		<translation>WPA/WPA2 s okruhom nemôže pracovať s WPS. Protokol WPS nebude dostupný. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wls_wpa2x_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>78</err_code>
+		<translation>WPA/WPA2 s okruhom nemôže pracovať s WPS. Protokol WPS nebude dostupný. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wls_wpa_mix_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>79</err_code>
+		<translation>Zabezpečenie WEP s automatickým overením zdieľaného kľúča nefunguje s protokolom WPS. Protokol WPS nebude k dispozícii. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wls_open_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>80</err_code>
+		<translation>Click on [Save] if you only want to update the settings. Click [Apply] if you want to activate the new settings. [NEL][NEL]If you would like to set other SSIDs, please click [Save].[NEL][NEL]If this is the only SSID you want to modify, click [Apply] to ac</translation>
+		<variable>gsm_msg_wls_cfm_ssid_apply</variable>
+	</message>
+	<message>
+		<err_code>81</err_code>
+		<translation>Adresa IP servera RADIUS:</translation>
+		<variable>gsm_msg_wls_sever_name_ip</variable>
+	</message>
+	<message>
+		<err_code>82</err_code>
+		<translation>Názov</translation>
+		<variable>gsm_msg_wls_name</variable>
+	</message>
+	<message>
+		<err_code>83</err_code>
+		<translation>Port servera RADIUS:</translation>
+		<variable>unknown_gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>84</err_code>
+		<translation>Zdieľaný kľúč</translation>
+		<variable>gsm_msg_wls_shared_key</variable>
+	</message>
+	<message>
+		<err_code>85</err_code>
+		<translation>Prístupová fráza je príliš krátka. Mala by obsahovať minimálne 8 znakov.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_8</variable>
+	</message>
+	<message>
+		<err_code>86</err_code>
+		<translation>Automaticky</translation>
+		<variable>gsm_msg_wls_auto</variable>
+	</message>
+	<message>
+		<err_code>87</err_code>
+		<translation>Vyberte správny región pre vašu oblasť.</translation>
+		<variable>gsm_msg_wls_inv_region</variable>
+	</message>
+	<message>
+		<err_code>88</err_code>
+		<translation>Prístupová fráza obsahuje 8 až 63 znakov ASCII alebo presne 64 hexadecimálnych číslic. Hexadecimálna číslica je niektorý z nasledujúcich znakov: 0, 1, 2, ..., 8, 9, A, B, C, D, E a F.</translation>
+		<variable>gsm_msg_wls_passphrase_limit</variable>
+	</message>
+	<message>
+		<err_code>89</err_code>
+		<translation>Hodnota Dĺžka fragmentácie je mimo rozsahu 256 – 2346.</translation>
+		<variable>gsm_msg_wls_fragm_throd</variable>
+	</message>
+	<message>
+		<err_code>90</err_code>
+		<translation>Hodnota Prah CTS/RTS je mimo rozsahu 1 – 2347.</translation>
+		<variable>gsm_msg_wls_crts_throd</variable>
+	</message>
+	<message>
+		<err_code>91</err_code>
+		<translation>Názov hostiteľa</translation>
+		<variable>gsm_msg_ddns_host_name</variable>
+	</message>
+	<message>
+		<err_code>92</err_code>
+		<translation>Meno používateľa</translation>
+		<variable>gsm_msg_ddns_user_name</variable>
+	</message>
+	<message>
+		<err_code>93</err_code>
+		<translation>Heslo</translation>
+		<variable>gsm_msg_ddns_pw</variable>
+	</message>
+	<message>
+		<err_code>94</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>gsm_msg_mail_inv_ip_or_domain</variable>
+	</message>
+	<message>
+		<err_code>95</err_code>
+		<translation>Chyba: neplatná e-mailová adresa.</translation>
+		<variable>gsm_msg_mail_inv_email_ad</variable>
+	</message>
+	<message>
+		<err_code>96</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>gsm_msg_eth_inv_ip</variable>
+	</message>
+	<message>
+		<err_code>97</err_code>
+		<translation>Neplatná maska podsiete. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>98</err_code>
+		<translation>Neplatná adresa IP brány. Zadajte ju znova.</translation>
+		<variable>gsm_msg_eth_inv_gateway</variable>
+	</message>
+	<message>
+		<err_code>99</err_code>
+		<translation>Neplatná adresa primárneho servera DNS. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_prime_dns</variable>
+	</message>
+	<message>
+		<err_code>100</err_code>
+		<translation>Neplatná adresa sekundárneho servera DNS. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_sec_dns</variable>
+	</message>
+	<message>
+		<err_code>101</err_code>
+		<translation>Neplatná adresa MAC.</translation>
+		<variable>gsm_msg_eth_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>102</err_code>
+		<translation>Nezistilo sa žiadne internetové pripojenie.</translation>
+		<variable>gsm_msg_eth_warn_nat_allow_all</variable>
+	</message>
+	<message>
+		<err_code>103</err_code>
+		<translation>When the firewall is disabled protections normally provided to your network will be disabled! [NEL][NEL]Turn off the firewall only if you are sure you want to do this.</translation>
+		<variable>gsm_msg_eth_warn_no_fw_prot</variable>
+	</message>
+	<message>
+		<err_code>104</err_code>
+		<translation>kľúčové slovo</translation>
+		<variable>gsm_msg_kwd_keyword</variable>
+	</message>
+	<message>
+		<err_code>105</err_code>
+		<translation>This Keyword already exists</translation>
+		<variable>gsm_msg_kwd_keyword_exist</variable>
+	</message>
+	<message>
+		<err_code>106</err_code>
+		<translation>No keyword selected</translation>
+		<variable>gsm_msg_kwd_no_keyword_sel</variable>
+	</message>
+	<message>
+		<err_code>107</err_code>
+		<translation>Adresa IP je v konflikte s podsieťou protokolu IP v sieti WAN. Zadajte inú adresu IP.</translation>
+		<variable>gsm_msg_lan_inv_ip_same_wan</variable>
+	</message>
+	<message>
+		<err_code>109</err_code>
+		<translation>Neplatná maska podsiete. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>110</err_code>
+		<translation>Neplatná počiatočná adresa IP servera DHCP. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_strat_ip</variable>
+	</message>
+	<message>
+		<err_code>111</err_code>
+		<translation>Neplatná koncová adresa IP servera DHCP. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_end_ip</variable>
+	</message>
+	<message>
+		<err_code>112</err_code>
+		<translation>Additional Management Port</translation>
+		<variable>gsm_msg_lan_add_mng_port</variable>
+	</message>
+	<message>
+		<err_code>113</err_code>
+		<translation>Neplatná doba nečinnosti. Mala by byť kratšia ako 99 minút.</translation>
+		<variable>gsm_msg_pw_inv_idle_range</variable>
+	</message>
+	<message>
+		<err_code>114</err_code>
+		<translation>Zadané heslo sa nezhoduje. Zadajte ho znova.</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>115</err_code>
+		<translation>Prihlásenie</translation>
+		<variable>gsm_msg_ppp_login</variable>
+	</message>
+	<message>
+		<err_code>116</err_code>
+		<translation>Časový limit nečinnosti (v minútach)</translation>
+		<variable>gsm_msg_ppp_idle_time</variable>
+	</message>
+	<message>
+		<err_code>119</err_code>
+		<translation>Invalid IP in list</translation>
+		<variable>gsm_msg_rmt_inv_ip_in_list</variable>
+	</message>
+	<message>
+		<err_code>121</err_code>
+		<translation>The setting list</translation>
+		<variable>gsm_msg_rmt_setting_list</variable>
+	</message>
+	<message>
+		<err_code>122</err_code>
+		<translation>and</translation>
+		<variable>gsm_msg_rmt_setting_and</variable>
+	</message>
+	<message>
+		<err_code>124</err_code>
+		<translation>Non set any IP address, please enter again.[NEL]</translation>
+		<variable>gsm_msg_rmt_non_set_ip</variable>
+	</message>
+	<message>
+		<err_code>125</err_code>
+		<translation>Začiatočná IP musí byť menšia ako koncová IP</translation>
+		<variable>gsm_msg_rmt_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>126</err_code>
+		<translation>Číslo portu</translation>
+		<variable>gsm_msg_rmt_port_num</variable>
+	</message>
+	<message>
+		<err_code>128</err_code>
+		<translation>Názov zariadenia</translation>
+		<variable>gsm_msg_resv_device_name</variable>
+	</message>
+	<message>
+		<err_code>129</err_code>
+		<translation>Zadajte názov zvolenej bezdrôtovej PC karty</translation>
+		<variable>gsm_msg_resv_enter_name</variable>
+	</message>
+	<message>
+		<err_code>130</err_code>
+		<translation>Názov</translation>
+		<variable>gsm_msg_resv_name</variable>
+	</message>
+	<message>
+		<err_code>131</err_code>
+		<translation>Názov trasy</translation>
+		<variable>gsm_msg_rout_route_name</variable>
+	</message>
+	<message>
+		<err_code>132</err_code>
+		<translation>Metrické</translation>
+		<variable>gsm_msg_rout_metric</variable>
+	</message>
+	<message>
+		<err_code>133</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>gsm_msg_rule_inv_lan_ip</variable>
+	</message>
+	<message>
+		<err_code>134</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>gsm_msg_rule_inv_wan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>135</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>gsm_msg_rule_inv_wan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>136</err_code>
+		<translation>Začiatočná IP musí byť menšia ako koncová IP</translation>
+		<variable>gsm_msg_rule_wan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>137</err_code>
+		<translation>Neplatná začiatočná IP LAN, zadajte ju znova</translation>
+		<variable>gsm_msg_rule_inv_lan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>138</err_code>
+		<translation>Neplatná koncová IP LAN, zadajte ju znova</translation>
+		<variable>gsm_msg_rule_inv_lan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>139</err_code>
+		<translation>Začiatočná IP LAN musí byť menšia ako koncová IP</translation>
+		<variable>gsm_msg_rule_lan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>140</err_code>
+		<translation>Neplatná cieľová začiatočná IP, zadajte ju znova</translation>
+		<variable>gsm_msg_rule_inv_dest_ip</variable>
+	</message>
+	<message>
+		<err_code>141</err_code>
+		<translation>Neplatná začiatočná IP, zadajte ju znova</translation>
+		<variable>gsm_msg_rule_inv_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>142</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>gsm_msg_sch_inv_start_hr</variable>
+	</message>
+	<message>
+		<err_code>143</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>gsm_msg_sch_inv_start_min</variable>
+	</message>
+	<message>
+		<err_code>144</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>gsm_msg_sch_inv_end_hr</variable>
+	</message>
+	<message>
+		<err_code>145</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>gsm_msg_sch_inv_time</variable>
+	</message>
+	<message>
+		<err_code>146</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>gsm_msg_sch_inv_end_min</variable>
+	</message>
+	<message>
+		<err_code>148</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>gsm_msg_sch_end_time_small</variable>
+	</message>
+	<message>
+		<err_code>149</err_code>
+		<translation>Názov služby</translation>
+		<variable>gsm_msg_sev_service_name</variable>
+	</message>
+	<message>
+		<err_code>150</err_code>
+		<translation>Počiatočný port</translation>
+		<variable>gsm_msg_sev_start_port</variable>
+	</message>
+	<message>
+		<err_code>151</err_code>
+		<translation>Koncový port</translation>
+		<variable>gsm_msg_sev_finish_port</variable>
+	</message>
+	<message>
+		<err_code>152</err_code>
+		<translation>Koncová hodnota portu by mala byť väčšia alebo rovná ako počiatočná hodnota portu.</translation>
+		<variable>gsm_msg_sev_end_port_small</variable>
+	</message>
+	<message>
+		<err_code>153</err_code>
+		<translation>Neplatný názov zariadenia.</translation>
+		<variable>gsm_msg_sev_inv_char_device_name</variable>
+	</message>
+	<message>
+		<err_code>154</err_code>
+		<translation>Názov súboru nesmie byť prázdny.</translation>
+		<variable>gsm_msg_bku_no_blank_filename</variable>
+	</message>
+	<message>
+		<err_code>155</err_code>
+		<translation>Varovanie! [NEL]Pri obnovení nastavení z konfiguračného súboru sa vymažú všetky aktuálne nastavenia. [NEL]Naozaj to chcete urobiť?</translation>
+		<variable>gsm_msg_bku_cfm_restore</variable>
+	</message>
+	<message>
+		<err_code>156</err_code>
+		<translation>Please check the LEDs to see if the Router is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish</variable>
+	</message>
+	<message>
+		<err_code>157</err_code>
+		<translation>Please check the LEDs to see if the</translation>
+		<variable>gsm_msg_bku_finish_1</variable>
+	</message>
+	<message>
+		<err_code>158</err_code>
+		<translation>is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish_2</variable>
+	</message>
+	<message>
+		<err_code>159</err_code>
+		<translation>Pokračovať?[NEL]Všetky zavedené internetové pripojenia sa prerušia</translation>
+		<variable>gsm_msg_bku_cfm_proceed</variable>
+	</message>
+	<message>
+		<err_code>161</err_code>
+		<translation>Internet name can not be blank</translation>
+		<variable>gsm_msg_dig_no_blank_int_name</variable>
+	</message>
+	<message>
+		<err_code>162</err_code>
+		<translation>Neplatný internetový názov, zadajte ho znovu</translation>
+		<variable>gsm_msg_dig_inv_int_name</variable>
+	</message>
+	<message>
+		<err_code>163</err_code>
+		<translation>Musíte špecifikovať adresu DNS</translation>
+		<variable>gsm_msg_eth_dns_before_ip</variable>
+	</message>
+	<message>
+		<err_code>164</err_code>
+		<translation>Neplatná pozícia. Zadajte novú pozíciu</translation>
+		<variable>gsm_msg_fw_inv_position</variable>
+	</message>
+	<message>
+		<err_code>165</err_code>
+		<translation>Nebola zvolená žiadna položka. [NEL]Kliknutím na výberové tlačidlo zvoľte položku</translation>
+		<variable>gsm_msg_fw_no_select</variable>
+	</message>
+	<message>
+		<err_code>166</err_code>
+		<translation>Vždy POVOLIŤ</translation>
+		<variable>gsm_msg_fw_allow_always</variable>
+	</message>
+	<message>
+		<err_code>167</err_code>
+		<translation>Ak chcete odoslať e-mailové upozornenie, zapnite e-mailové upozornenia na obrazovke E-mail.</translation>
+		<variable>gsm_msg_log_en_send_log</variable>
+	</message>
+	<message>
+		<err_code>168</err_code>
+		<translation>Nebola zvolená žiadna položka. [NEL]Kliknutím na výberové tlačidlo zvoľte položku</translation>
+		<variable>gsm_msg_pfw_no_app_sel</variable>
+	</message>
+	<message>
+		<err_code>169</err_code>
+		<translation>Neplatný názov služby.</translation>
+		<variable>gsm_msg_pfw_no_cus_service_name</variable>
+	</message>
+	<message>
+		<err_code>170</err_code>
+		<translation>Začiatočný port pre prichádzajúce pripojenia.</translation>
+		<variable>gsm_msg_pfw_port_start</variable>
+	</message>
+	<message>
+		<err_code>171</err_code>
+		<translation>is invalid</translation>
+		<variable>gsm_msg_pfw_inv_input</variable>
+	</message>
+	<message>
+		<err_code>172</err_code>
+		<translation>Koncový port pre prichádzajúce pripojenia.</translation>
+		<variable>gsm_msg_pfw_port_end</variable>
+	</message>
+	<message>
+		<err_code>173</err_code>
+		<translation>Port Rozsah</translation>
+		<variable>gsm_msg_pfw_port_range</variable>
+	</message>
+	<message>
+		<err_code>174</err_code>
+		<translation>Custom Rule</translation>
+		<variable>gsm_msg_pfw_custom_rule</variable>
+	</message>
+	<message>
+		<err_code>175</err_code>
+		<translation>Názov služby</translation>
+		<variable>gsm_msg_pfw_service_name</variable>
+	</message>
+	<message>
+		<err_code>176</err_code>
+		<translation>Typ služby</translation>
+		<variable>gsm_msg_pfw_service_type</variable>
+	</message>
+	<message>
+		<err_code>177</err_code>
+		<translation>Počiatočný port</translation>
+		<variable>gsm_msg_pfw_starting_port</variable>
+	</message>
+	<message>
+		<err_code>178</err_code>
+		<translation>Koncový port</translation>
+		<variable>gsm_msg_pfw_ending_port</variable>
+	</message>
+	<message>
+		<err_code>179</err_code>
+		<translation>Adresa IP servera</translation>
+		<variable>gsm_msg_pfw_server_ip_add</variable>
+	</message>
+	<message>
+		<err_code>180</err_code>
+		<translation>Pre-set Port Forwarding Rule</translation>
+		<variable>gsm_msg_pfw_preset_pfw_rule</variable>
+	</message>
+	<message>
+		<err_code>181</err_code>
+		<translation>IP_Phone</translation>
+		<variable>gsm_msg_pfw_ip_phone</variable>
+	</message>
+	<message>
+		<err_code>182</err_code>
+		<translation>Správy</translation>
+		<variable>gsm_msg_pfw_news</variable>
+	</message>
+	<message>
+		<err_code>183</err_code>
+		<translation>Spúšťací port</translation>
+		<variable>gsm_msg_pft_port</variable>
+	</message>
+	<message>
+		<err_code>184</err_code>
+		<translation>Timeout</translation>
+		<variable>gsm_msg_pft_timeout</variable>
+	</message>
+	<message>
+		<err_code>185</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>186</err_code>
+		<translation>You have just modified the policy.[NEL]Before editing policy, you need to click on [Apply] to keep the changes or [Cancel] to restore the original policy settings.</translation>
+		<variable>gsm_msg_qos_apply_or_cancel</variable>
+	</message>
+	<message>
+		<err_code>187</err_code>
+		<translation>, musí byť v rozsahu 1 – 65535 okrem 80.[NEL]</translation>
+		<variable>gsm_msg_pfw_inv_range</variable>
+	</message>
+	<message>
+		<err_code>200</err_code>
+		<translation>Duplicitná adresa MAC.</translation>
+		<variable>gsm_msg_qos_mac_conflicts</variable>
+	</message>
+	<message>
+		<err_code>202</err_code>
+		<translation>Neplatná adresa MAC.</translation>
+		<variable>gsm_msg_qos_inv_mac_format</variable>
+	</message>
+	<message>
+		<err_code>205</err_code>
+		<translation>nemôže zostať prázdne</translation>
+		<variable>gsm_msg_qos_no_rule</variable>
+	</message>
+	<message>
+		<err_code>206</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>207</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_qos_fail_parse_mac</variable>
+	</message>
+	<message>
+		<err_code>208</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_qos_fail_parse_game</variable>
+	</message>
+	<message>
+		<err_code>216</err_code>
+		<translation>Duplicitný názov politiky.</translation>
+		<variable>gsm_msg_qos_conflict_predef_name</variable>
+	</message>
+	<message>
+		<err_code>217</err_code>
+		<translation>Názov politiky už existuje</translation>
+		<variable>gsm_msg_qos_conflict_policy_name</variable>
+	</message>
+	<message>
+		<err_code>219</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_qos_inv_user_policy</variable>
+	</message>
+	<message>
+		<err_code>220</err_code>
+		<translation>Port je v konflikte s iným pravidlom.</translation>
+		<variable>gsm_msg_qos_exist_port</variable>
+	</message>
+	<message>
+		<err_code>221</err_code>
+		<translation>Šírka pásma pre odovzdávanie údajov</translation>
+		<variable>gsm_msg_qos_uplink_bandwidth</variable>
+	</message>
+	<message>
+		<err_code>222</err_code>
+		<translation>Politika služby QoS</translation>
+		<variable>gsm_msg_qos_policy</variable>
+	</message>
+	<message>
+		<err_code>223</err_code>
+		<translation>Priorita</translation>
+		<variable>gsm_msg_qos_priority</variable>
+	</message>
+	<message>
+		<err_code>224</err_code>
+		<translation>Popis</translation>
+		<variable>gsm_msg_qos_description</variable>
+	</message>
+	<message>
+		<err_code>225</err_code>
+		<translation>aplikácia</translation>
+		<variable>gsm_msg_qos_application</variable>
+	</message>
+	<message>
+		<err_code>226</err_code>
+		<translation>Hranie online</translation>
+		<variable>gsm_msg_qos_on_line_gaming</variable>
+	</message>
+	<message>
+		<err_code>227</err_code>
+		<translation>Port siete LAN</translation>
+		<variable>gsm_msg_qos_lan_port</variable>
+	</message>
+	<message>
+		<err_code>228</err_code>
+		<translation>Žiadne</translation>
+		<variable>gsm_msg_qos_none</variable>
+	</message>
+	<message>
+		<err_code>229</err_code>
+		<translation>Názov zariadenia</translation>
+		<variable>gsm_msg_qos_device_name</variable>
+	</message>
+	<message>
+		<err_code>230</err_code>
+		<translation>Adresa MAC</translation>
+		<variable>gsm_msg_qos_mac_ad</variable>
+	</message>
+	<message>
+		<err_code>231</err_code>
+		<translation>Názov politiky QoS</translation>
+		<variable>gsm_msg_qos_policy_name</variable>
+	</message>
+	<message>
+		<err_code>232</err_code>
+		<translation>With your current connection method, this setting has no effect.</translation>
+		<variable>gsm_msg_wan_sec_inv_conn_method</variable>
+	</message>
+	<message>
+		<err_code>233</err_code>
+		<translation>Encapsulation mode on the Basic Settings page must be changed to PPPoE to enable PPPoE Relay.</translation>
+		<variable>gsm_msg_wan_sec_must_pppoe_mode</variable>
+	</message>
+	<message>
+		<err_code>234</err_code>
+		<translation>Veľkosť jednotky MTU</translation>
+		<variable>gsm_msg_wan_sec_mtu_value</variable>
+	</message>
+	<message>
+		<err_code>235</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_tree_err_geteleid</variable>
+	</message>
+	<message>
+		<err_code>236</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_tree_inv_id_use_ext_id</variable>
+	</message>
+	<message>
+		<err_code>237</err_code>
+		<translation>Názov súboru je prázdny. Vyhľadajte a vyberte súbor s inováciou na pevnom disku.</translation>
+		<variable>gsm_msg_upg_no_file</variable>
+	</message>
+	<message>
+		<err_code>238</err_code>
+		<translation>Priraďte správny súbor. Formát súboru je *.</translation>
+		<variable>gsm_msg_upg_inv_file_type</variable>
+	</message>
+	<message>
+		<err_code>239</err_code>
+		<translation>Inovácia softvéru môže obsahovať hodnotné vylepšenia.[NEL] Naozaj chcete vypnúť automatické zisťovanie dostupnosti?[NEL] Ak ho vypnete, môžete ho znova zapnúť na obrazovke Inovácia smerovača.</translation>
+		<variable>gsm_msg_upg_cfm_fw_upg</variable>
+	</message>
+	<message>
+		<err_code>240</err_code>
+		<translation>nemôže zostať prázdne</translation>
+		<variable>gsm_msg_upnp_cannot_empty</variable>
+	</message>
+	<message>
+		<err_code>241</err_code>
+		<translation>musí obsahovať len čísla</translation>
+		<variable>gsm_msg_upnp_must_num</variable>
+	</message>
+	<message>
+		<err_code>242</err_code>
+		<translation>musí byť väčšie ako 0 a menšie alebo rovné 1 440 minútam</translation>
+		<variable>gsm_msg_upnp_must_min_range</variable>
+	</message>
+	<message>
+		<err_code>243</err_code>
+		<translation>musí byť väčšie ako 0 a menšie alebo rovné 255</translation>
+		<variable>gsm_msg_upnp_must_great_less</variable>
+	</message>
+	<message>
+		<err_code>244</err_code>
+		<translation>Nebola zvolená žiadna položka. [NEL]Kliknutím na výberové tlačidlo zvoľte položku</translation>
+		<variable>gsm_msg_usb_no_sel_radio</variable>
+	</message>
+	<message>
+		<err_code>245</err_code>
+		<translation>Nezdieľané</translation>
+		<variable>gsm_msg_usb_not_shared</variable>
+	</message>
+	<message>
+		<err_code>246</err_code>
+		<translation>Port</translation>
+		<variable>gsm_msg_usb_port</variable>
+	</message>
+	<message>
+		<err_code>247</err_code>
+		<translation>Znak nie je povolený</translation>
+		<variable>gsm_msg_usb_inv_char_network_name</variable>
+	</message>
+	<message>
+		<err_code>248</err_code>
+		<translation>Všetky tieto položky sa odstránia. Naozaj ich chcete odstrániť?</translation>
+		<variable>gsm_msg_usb_cfm_delete</variable>
+	</message>
+	<message>
+		<err_code>249</err_code>
+		<translation>Vyberte niektorú možnosť a pokračujte kliknutím na Ďalej.</translation>
+		<variable>gsm_msg_wiz_no_sel</variable>
+	</message>
+	<message>
+		<err_code>250</err_code>
+		<translation>Prístupová fráza obsahuje 8 až 63 znakov ASCII alebo presne 64 hexadecimálnych číslic. Hexadecimálna číslica je niektorý z nasledujúcich znakov: 0, 1, 2, ..., 8, 9, A, B, C, D, E a F.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_63</variable>
+	</message>
+	<message>
+		<err_code>251</err_code>
+		<translation>Znak nie je povolený v prístupovej fráze</translation>
+		<variable>gsm_msg_wls_wpa_key_forbid</variable>
+	</message>
+	<message>
+		<err_code>252</err_code>
+		<translation>DÔLEŽITÉWPA-PSK [TKIP] môže fungovať len pri rýchlosti "Do 54 Mb/s", teda nie pri rýchlosti podľa štandardu N.Spoločnosť NETGEAR vám pre získanie plnej podpory rýchlosti podľa štandardu N odporúča použiť šifrovanie WPA2-PSK [AES].</translation>
+		<variable>gsm_msg_wls_wpa_work_mode_warn</variable>
+	</message>
+	<message>
+		<err_code>253</err_code>
+		<translation>Do poľa Zdieľané tajomstvo servera RADIUS zadajte 1 až 128 znakov (oktetov)!</translation>
+		<variable>gsm_msg_wls_radius_key_val_len</variable>
+	</message>
+	<message>
+		<err_code>254</err_code>
+		<translation>Znak nie je povolený</translation>
+		<variable>gsm_msg_not_printable</variable>
+	</message>
+	<message>
+		<err_code>255</err_code>
+		<translation>Názov zariadenia nesmie byť prázdny.</translation>
+		<variable>gsm_msg_dev_name_blank</variable>
+	</message>
+	<message>
+		<err_code>256</err_code>
+		<translation>Neplatný názov zariadenia.</translation>
+		<variable>gsm_msg_dev_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>257</err_code>
+		<translation>Zadajte čas nečinnosti.[NEL]</translation>
+		<variable>gsm_msg_idle_time_blank</variable>
+	</message>
+	<message>
+		<err_code>258</err_code>
+		<translation>Neplatný časový limit nečinnosti, zadajte správne číslo.</translation>
+		<variable>gsm_msg_idle_time_invalid</variable>
+	</message>
+	<message>
+		<err_code>259</err_code>
+		<translation>Neplatná adresa servera. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_pptp_fqdn</variable>
+	</message>
+	<message>
+		<err_code>260</err_code>
+		<translation>Neplatná adresa servera. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_pptp_server_addr_invalid</variable>
+	</message>
+	<message>
+		<err_code>261</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova alebo ju nechajte prázdnu.</translation>
+		<variable>gsm_msg_pptp_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>262</err_code>
+		<translation>Zlyhanie</translation>
+		<variable>gsm_msg_qos_rule_fail_parse</variable>
+	</message>
+	<message>
+		<err_code>263</err_code>
+		<translation>Hranie online</translation>
+		<variable>gsm_msg_qos_gaming</variable>
+	</message>
+	<message>
+		<err_code>264</err_code>
+		<translation>Vstupné dáta sú rovnaké ako aktuálny záznam,[NEL]pokračovaním záznam prepíšete</translation>
+		<variable>gsm_msg_rev_confirm_overwrite</variable>
+	</message>
+	<message>
+		<err_code>265</err_code>
+		<translation>Na obnovenie pripojenia kliknite na tlačidlo Pripojiť.</translation>
+		<variable>gsm_msg_st_poe_disconnect_warning</variable>
+	</message>
+	<message>
+		<err_code>266</err_code>
+		<translation>Neplatná počiatočná alebo koncová hodnota portu.</translation>
+		<variable>gsm_msg_blk_serv_port_invalid</variable>
+	</message>
+	<message>
+		<err_code>267</err_code>
+		<translation>Neplatná počiatočná hodnota portu.</translation>
+		<variable>gsm_msg_blk_serv_sport_invalid</variable>
+	</message>
+	<message>
+		<err_code>268</err_code>
+		<translation>Neplatná koncová hodnota portu.</translation>
+		<variable>gsm_msg_blk_serv_eport_invalid</variable>
+	</message>
+	<message>
+		<err_code>269</err_code>
+		<translation>Koncová hodnota portu by mala byť väčšia alebo rovná ako počiatočná hodnota portu.</translation>
+		<variable>gsm_msg_blk_serv_port_range_err</variable>
+	</message>
+	<message>
+		<err_code>270</err_code>
+		<translation>Neplatný používateľom definovaný typ služby.</translation>
+		<variable>gsm_msg_blk_serv_type_invalid</variable>
+	</message>
+	<message>
+		<err_code>271</err_code>
+		<translation>Neplatný názov služby.</translation>
+		<variable>gsm_msg_blk_serv_resv</variable>
+	</message>
+	<message>
+		<err_code>272</err_code>
+		<translation>Rozpoznala sa duplicitná služba!</translation>
+		<variable>gsm_msg_blk_serv_dup_detected</variable>
+	</message>
+	<message>
+		<err_code>273</err_code>
+		<translation>Neplatný rozsah adries IP.</translation>
+		<variable>gsm_msg_blk_serv_ip_rng_err</variable>
+	</message>
+	<message>
+		<err_code>274</err_code>
+		<translation>Traffic Meter is Enabled in 'Connection time control' Mode.[NEL] Can't select DHCP and StaticIP Mode.</translation>
+		<variable>gsm_msg_tm_en_wan_mode_error</variable>
+	</message>
+	<message>
+		<err_code>275</err_code>
+		<translation>Platný rozsah intervalu výziev je od 5 do 86400 sekúnd. </translation>
+		<variable>gsm_msg_tm_intvl_err</variable>
+	</message>
+	<message>
+		<err_code>276</err_code>
+		<translation>Mesačný limit indikátora objemu prenesených údajov (</translation>
+		<variable>gsm_msg_tm_limnit_sub1</variable>
+	</message>
+	<message>
+		<err_code>277</err_code>
+		<translation>bol presiahnutý.</translation>
+		<variable>gsm_msg_tm_limnit_sub2</variable>
+	</message>
+	<message>
+		<err_code>278</err_code>
+		<translation>Váš indikátor objemu prenesených údajov je </translation>
+		<variable>gsm_msg_tm_water_mark_sub1</variable>
+	</message>
+	<message>
+		<err_code>279</err_code>
+		<translation>pred dosiahnutím mesačného limitu.</translation>
+		<variable>gsm_msg_tm_water_mark_sub2</variable>
+	</message>
+	<message>
+		<err_code>280</err_code>
+		<translation>MB</translation>
+		<variable>gsm_msg_mbytes</variable>
+	</message>
+	<message>
+		<err_code>281</err_code>
+		<translation> minút(y).</translation>
+		<variable>gsm_msg_minutes</variable>
+	</message>
+	<message>
+		<err_code>282</err_code>
+		<translation>Hodiny</translation>
+		<variable>gsm_msg_hours</variable>
+	</message>
+	<message>
+		<err_code>283</err_code>
+		<translation>Dni</translation>
+		<variable>gsm_msg_days</variable>
+	</message>
+	<message>
+		<err_code>284</err_code>
+		<translation>Neplatná číselná hodnota pre mesačný limit.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_vol</variable>
+	</message>
+	<message>
+		<err_code>285</err_code>
+		<translation>Neplatná číselná hodnota pre mesačný limit.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_time</variable>
+	</message>
+	<message>
+		<err_code>286</err_code>
+		<translation>Hodinová hodnota v čase vynulovania indikátora objemu prenesených údajov je neplatná.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_hour</variable>
+	</message>
+	<message>
+		<err_code>287</err_code>
+		<translation>Minútová hodnota v čase vynulovania indikátora objemu prenesených údajov je neplatná.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_min</variable>
+	</message>
+	<message>
+		<err_code>288</err_code>
+		<translation>Traffic meter reset Day of Month</translation>
+		<variable>gsm_msg_tm_rst_day</variable>
+	</message>
+	<message>
+		<err_code>289</err_code>
+		<translation>Neplatná numerická hodnota pre vodoznak na ovládaní prenesených údajov.[NEL]</translation>
+		<variable>gsm_msg_tm_water_mark</variable>
+	</message>
+	<message>
+		<err_code>290</err_code>
+		<translation>Zaokrúhlená hodnota by mala byť nižšia ako mesačný limit.[NEL]</translation>
+		<variable>gsm_msg_tm_rd_vol</variable>
+	</message>
+	<message>
+		<err_code>291</err_code>
+		<translation>Zaokrúhlená hodnota by mala byť nižšia ako mesačný limit.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err1</variable>
+	</message>
+	<message>
+		<err_code>292</err_code>
+		<translation>Hodnota vodoznaku by mala byť nižšia ako mesačný limit.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err2</variable>
+	</message>
+	<message>
+		<err_code>293</err_code>
+		<translation>Hodnota vodoznaku by mala byť nižšia ako mesačný limit.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err3</variable>
+	</message>
+	<message>
+		<err_code>294</err_code>
+		<translation>Time of restart traffic counter changed. It will clear the Traffic Statistics</translation>
+		<variable>gsm_msg_tm_counter_chg_confm</variable>
+	</message>
+	<message>
+		<err_code>295</err_code>
+		<translation>Bol presiahnutý maximálny počet položiek v zozname prístupov</translation>
+		<variable>gsm_msg_m_accs_client_max_num</variable>
+	</message>
+	<message>
+		<err_code>296</err_code>
+		<translation>„Prebieha proces WPS. Zmeny použite neskôr.“</translation>
+		<variable>gsm_msg_wps_in_prog_warn</variable>
+	</message>
+	<message>
+		<err_code>297</err_code>
+		<translation>Zadajte adresu MAC základňovej stanice.</translation>
+		<variable>gsm_msg_wds_station_mac</variable>
+	</message>
+	<message>
+		<err_code>298</err_code>
+		<translation>Zadajte adresu MAC opakovača.</translation>
+		<variable>gsm_msg_wds_repeater_mac</variable>
+	</message>
+	<message>
+		<err_code>299</err_code>
+		<translation>Časový limit spúšťania portov nesmie byť prázdny.</translation>
+		<variable>gsm_msg_pft_timeout_null</variable>
+	</message>
+	<message>
+		<err_code>300</err_code>
+		<translation>Neplatná adresa IP brány. Zadajte ju znova.</translation>
+		<variable>gsm_msg_pptp_gw_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>301</err_code>
+		<translation>Neplatný názov hostiteľa.</translation>
+		<variable>gsm_msg_ddns_host_invalid</variable>
+	</message>
+	<message>
+		<err_code>302</err_code>
+		<translation>Neplatná adresa sekundárneho servera DNS. Zadajte ju znova.[NEL]</translation>
+		<variable>gsm_msg_two_fix_dns_same_err</variable>
+	</message>
+	<message>
+		<err_code>303</err_code>
+		<translation>Neplatný znak alebo znaky v</translation>
+		<variable>gsm_msg_inc_colon_err</variable>
+	</message>
+	<message>
+		<err_code>304</err_code>
+		<translation>Znak nie je povolený v SSID</translation>
+		<variable>gsm_msg_inv_ssid</variable>
+	</message>
+	<message>
+		<err_code>305</err_code>
+		<translation>Bol presiahnutý maximálny počet položiek v zozname prístupov</translation>
+		<variable>gsm_msg_wl_acl_tbl_full</variable>
+	</message>
+	<message>
+		<err_code>306</err_code>
+		<translation>Neplatný názov služby, mal by obsahovať len abecedné znaky, číslice,  „_“ a „-“</translation>
+		<variable>gsm_msg_FW_char_not_alw_sev_nm</variable>
+	</message>
+	<message>
+		<err_code>307</err_code>
+		<translation>Adresa začiatočného portu musí byť menšia ako 65535</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>308</err_code>
+		<translation>Adresa koncového portu musí byť menšia ako 65535</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>309</err_code>
+		<translation>Adresa začiatočného portu musí byť väčšia ako 1</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>310</err_code>
+		<translation>Adresa koncového portu musí byť väčšia ako 1</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>311</err_code>
+		<translation>Koncová hodnota portu by mala byť väčšia alebo rovná ako počiatočná hodnota portu.</translation>
+		<variable>gsm_msg_FW_st_port_mst_ls_nd_post_ad</variable>
+	</message>
+	<message>
+		<err_code>312</err_code>
+		<translation>Chyba: neplatná adresa servera SMTP.</translation>
+		<variable>gsm_msg_mail_inv_smtp_address</variable>
+	</message>
+	<message>
+		<err_code>ALSE04</err_code>
+		<translation>Neplatná počiatočná a koncová adresa IP servera DHCP. Zadajte ich znova.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_ip</variable>
+	</message>
+	<message>
+		<err_code>m_defkey</err_code>
+		<translation>[NEL]Požaduje sa predvolený kľúč, ostatné kľúče sú voliteľné</translation>
+		<variable>gsm_defkey</variable>
+	</message>
+	<message>
+		<err_code>APPE02</err_code>
+		<translation>Adresa koncového portu musí byť menšia ako 65535</translation>
+		<variable>gsm_appe02</variable>
+	</message>
+	<message>
+		<err_code>AQSE05</err_code>
+		<translation>Názov politiky QoS nesmie byť prázdny.</translation>
+		<variable>gsm_qos_blnk</variable>
+	</message>
+	<message>
+		<err_code>APPE13</err_code>
+		<translation>Neplatné </translation>
+		<variable>gsm_invalid</variable>
+	</message>
+	<message>
+		<err_code>APPE14</err_code>
+		<translation>Neplatný rozsah portov pre prichádzajúce pripojenia.[NEL]</translation>
+		<variable>gsm_inv_in_port_range</variable>
+	</message>
+	<message>
+		<err_code>10101</err_code>
+		<translation>%s is NULL</translation>
+		<variable>10101</variable>
+	</message>
+	<message>
+		<err_code>10201</err_code>
+		<translation>This service is used by the rules function, you can not edit/delete it! Please delete corresponding rules first.</translation>
+		<variable>10201</variable>
+	</message>
+	<message>
+		<err_code>10202</err_code>
+		<translation>Názov služby nesmie byť prázdny.</translation>
+		<variable>10202</variable>
+	</message>
+	<message>
+		<err_code>10203</err_code>
+		<translation>Názov služby sa už používa.</translation>
+		<variable>10203</variable>
+	</message>
+	<message>
+		<err_code>10204</err_code>
+		<translation>User defined Service is full</translation>
+		<variable>10204</variable>
+	</message>
+	<message>
+		<err_code>10205</err_code>
+		<translation>Rule table is full!</translation>
+		<variable>10205</variable>
+	</message>
+	<message>
+		<err_code>10206</err_code>
+		<translation>Blokovaná služba už existuje!</translation>
+		<variable>10206</variable>
+	</message>
+	<message>
+		<err_code>10207</err_code>
+		<translation>Zvoľte položku, ktorú chcete odstrániť.</translation>
+		<variable>10207</variable>
+	</message>
+	<message>
+		<err_code>10208</err_code>
+		<translation>Číslo portu je nesprávne. Rozsah by mal byť 1 až 65534.</translation>
+		<variable>10208</variable>
+	</message>
+	<message>
+		<err_code>10209</err_code>
+		<translation>Port služby už používa iné zariadenie.</translation>
+		<variable>10209</variable>
+	</message>
+	<message>
+		<err_code>10210</err_code>
+		<translation>Smerovač podporuje iba 20 pravidiel služieb.</translation>
+		<variable>10210</variable>
+	</message>
+	<message>
+		<err_code>10211</err_code>
+		<translation>Outbound rule is full!</translation>
+		<variable>10211</variable>
+	</message>
+	<message>
+		<err_code>10212</err_code>
+		<translation>Inbound rule is full!</translation>
+		<variable>10212</variable>
+	</message>
+	<message>
+		<err_code>10213</err_code>
+		<translation>Invalid position!</translation>
+		<variable>10213</variable>
+	</message>
+	<message>
+		<err_code>10214</err_code>
+		<translation>Znak nie je povolený v kľúčovom slove</translation>
+		<variable>10214</variable>
+	</message>
+	<message>
+		<err_code>10216</err_code>
+		<translation>Nedostatok priestoru na pridanie nových kľúčových slov</translation>
+		<variable>10216</variable>
+	</message>
+	<message>
+		<err_code>10217</err_code>
+		<translation>Neplatný zadaný čas.</translation>
+		<variable>10217</variable>
+	</message>
+	<message>
+		<err_code>10218</err_code>
+		<translation>Duplicitný názov služby.</translation>
+		<variable>10218</variable>
+	</message>
+	<message>
+		<err_code>10219</err_code>
+		<translation>Znak nie je povolený v kľúčovom slove</translation>
+		<variable>10219</variable>
+	</message>
+	<message>
+		<err_code>10701</err_code>
+		<translation>Tento súbor firmvéru je nesprávny! Získajte znovu súbor firmvéru a dbajte pritom na to, aby to bol správny firmvér pre tento produkt.</translation>
+		<variable>10701</variable>
+	</message>
+	<message>
+		<err_code>10702</err_code>
+		<translation>Nedostatok pamäte na aktualizáciu firmvéru</translation>
+		<variable>10702</variable>
+	</message>
+	<message>
+		<err_code>10703</err_code>
+		<translation>Aktualizácia firmvéru zlyhala</translation>
+		<variable>10703</variable>
+	</message>
+	<message>
+		<err_code>10704</err_code>
+		<translation>Teraz prebieha aktualizácia firmvéru smerovača. Čakajte, prosím</translation>
+		<variable>10704</variable>
+	</message>
+	<message>
+		<err_code>10804</err_code>
+		<translation>Neplatný časový limit nečinnosti, zadajte správne číslo.</translation>
+		<variable>10804</variable>
+	</message>
+	<message>
+		<err_code>11004</err_code>
+		<translation>Adresa IP by mala byť v rozsahu DHCP. </translation>
+		<variable>11004</variable>
+	</message>
+	<message>
+		<err_code>11006</err_code>
+		<translation>Vyhradená IP nesmie byť rovnaká ako LAN IP smerovača.</translation>
+		<variable>11006</variable>
+	</message>
+	<message>
+		<err_code>11009</err_code>
+		<translation>Neplatná maska podsiete. Zadajte ju znova.[NEL]</translation>
+		<variable>11009</variable>
+	</message>
+	<message>
+		<err_code>11010</err_code>
+		<translation>Vykonajte príkaz ipconfig /release a ipconfig /renew a zadajte do prehľadávača novú IP, aby ste znovu získali prístup ku grafickému rozhraniu v prípade zmeny IP podsiete LAN.</translation>
+		<variable>11010</variable>
+	</message>
+	<message>
+		<err_code>11011</err_code>
+		<translation>Warning!DHCP subnet has been changed.</translation>
+		<variable>11011</variable>
+	</message>
+	<message>
+		<err_code>11012</err_code>
+		<translation>Duplicitný názov zariadenia.</translation>
+		<variable>11012</variable>
+	</message>
+	<message>
+		<err_code>11013</err_code>
+		<translation>Na zabránenie konfliktu s poskytovateľom internetových služieb sa adresa IP smerovača zmenila na </translation>
+		<variable>11013</variable>
+	</message>
+	<message>
+		<err_code>11014</err_code>
+		<translation>V konfiguračných nastaveniach smerovača teraz musíte zaktualizovať adresu IP pre každú relevantnú službu, napríklad presmerovanie portov a rezerváciu adries IP.</translation>
+		<variable>11014</variable>
+	</message>
+	<message>
+		<err_code>11101</err_code>
+		<translation>Neplatný rozsah adries IP.</translation>
+		<variable>11101</variable>
+	</message>
+	<message>
+		<err_code>11102</err_code>
+		<translation>Neplatné metrické číslo.</translation>
+		<variable>11102</variable>
+	</message>
+	<message>
+		<err_code>11103</err_code>
+		<translation>Neplatná adresa IP brány. Zadajte ju znova.</translation>
+		<variable>11103</variable>
+	</message>
+	<message>
+		<err_code>11104</err_code>
+		<translation>Názov trasy nesmie byť prázdny.</translation>
+		<variable>11104</variable>
+	</message>
+	<message>
+		<err_code>11105</err_code>
+		<translation>Nedostatok priestoru na pridanie statických trás.</translation>
+		<variable>11105</variable>
+	</message>
+	<message>
+		<err_code>11107</err_code>
+		<translation>Duplicitný názov trasy.</translation>
+		<variable>11107</variable>
+	</message>
+	<message>
+		<err_code>11108</err_code>
+		<translation>Duplicitný stav trasy.</translation>
+		<variable>11108</variable>
+	</message>
+	<message>
+		<err_code>11109</err_code>
+		<translation>Brána by mala byť v rovnakej podsieti ako rozhranie siete WAN alebo LAN.</translation>
+		<variable>11109</variable>
+	</message>
+	<message>
+		<err_code>11901</err_code>
+		<translation>Zadané heslo sa nezhoduje. Zadajte ho znova.</translation>
+		<variable>11901</variable>
+	</message>
+	<message>
+		<err_code>11902</err_code>
+		<translation>Maximálna dĺžka hesla je 32 znakov!</translation>
+		<variable>11902</variable>
+	</message>
+	<message>
+		<err_code>11903</err_code>
+		<translation>Staré heslo je nesprávne!</translation>
+		<variable>11903</variable>
+	</message>
+	<message>
+		<err_code>11904</err_code>
+		<translation>Neplatná doba nečinnosti. Mala by byť kratšia ako 99 minút.</translation>
+		<variable>11904</variable>
+	</message>
+	<message>
+		<err_code>11905</err_code>
+		<translation>Neplatné heslo</translation>
+		<variable>11905</variable>
+	</message>
+	<message>
+		<err_code>11906</err_code>
+		<translation>Staré heslo je nesprávne!</translation>
+		<variable>11906</variable>
+	</message>
+	<message>
+		<err_code>12001</err_code>
+		<translation>Zadajte názov zvolenej bezdrôtovej PC karty</translation>
+		<variable>12001</variable>
+	</message>
+	<message>
+		<err_code>12002</err_code>
+		<translation>Bol presiahnutý maximálny počet položiek v zozname prístupov</translation>
+		<variable>12002</variable>
+	</message>
+	<message>
+		<err_code>12003</err_code>
+		<translation>Prihlasovacie meno by nemalo mať viac ako 32 znakov</translation>
+		<variable>12003</variable>
+	</message>
+	<message>
+		<err_code>12004</err_code>
+		<translation>Názov služby nesmie byť prázdny.</translation>
+		<variable>12004</variable>
+	</message>
+	<message>
+		<err_code>12005</err_code>
+		<translation>Neplatná adresa MAC.</translation>
+		<variable>12005</variable>
+	</message>
+	<message>
+		<err_code>12006</err_code>
+		<translation>Neplatná adresa MAC.</translation>
+		<variable>12006</variable>
+	</message>
+	<message>
+		<err_code>12007</err_code>
+		<translation>Neplatná adresa MAC.</translation>
+		<variable>12007</variable>
+	</message>
+	<message>
+		<err_code>12008</err_code>
+		<translation>IP adresa by mala byť v rozsahu [%s , %s].</translation>
+		<variable>12008</variable>
+	</message>
+	<message>
+		<err_code>12010</err_code>
+		<translation>SSID name too long, must less than 32 characters!</translation>
+		<variable>12010</variable>
+	</message>
+	<message>
+		<err_code>12011</err_code>
+		<translation>Duplicitná adresa MAC.</translation>
+		<variable>12011</variable>
+	</message>
+	<message>
+		<err_code>12012</err_code>
+		<translation>The WEP key that you entered is not valid.</translation>
+		<variable>12012</variable>
+	</message>
+	<message>
+		<err_code>12013</err_code>
+		<translation>Identifikátor SSID je duplicitný, zmeňte ho na iný.</translation>
+		<variable>12013</variable>
+	</message>
+	<message>
+		<err_code>12015</err_code>
+		<translation>Znak nie je povolený v SSID</translation>
+		<variable>12015</variable>
+	</message>
+	<message>
+		<err_code>12016</err_code>
+		<translation>Neplatná adresa IP opakovača</translation>
+		<variable>12016</variable>
+	</message>
+	<message>
+		<err_code>12101</err_code>
+		<translation>Niektoré zo zadaných portov sú použité v iných konfiguráciách. Skontrolujte nastavenie vzdialenej správy, presmerovania portov, spúšťania portov, tabuľky mapovania portov UPnP, RIP a typu internetového pripojenia.</translation>
+		<variable>12101</variable>
+	</message>
+	<message>
+		<err_code>12102</err_code>
+		<translation>Port je v konflikte s iným pravidlom.</translation>
+		<variable>12102</variable>
+	</message>
+	<message>
+		<err_code>12301</err_code>
+		<translation>USB Share Nework Folder is full.</translation>
+		<variable>12301</variable>
+	</message>
+	<message>
+		<err_code>12302</err_code>
+		<translation>Tento názov zdieľaného prostriedku už existuje, zmeňte ho na iný.</translation>
+		<variable>12302</variable>
+	</message>
+	<message>
+		<err_code>12303</err_code>
+		<translation>Žiaden disk</translation>
+		<variable>12303</variable>
+	</message>
+	<message>
+		<err_code>12304</err_code>
+		<translation>No Volume Name</translation>
+		<variable>12304</variable>
+	</message>
+	<message>
+		<err_code>12305</err_code>
+		<translation>Zariadenie sa teraz nedá zastaviť. Zariadenie skúste zastaviť neskôr.</translation>
+		<variable>12305</variable>
+	</message>
+	<message>
+		<err_code>12306</err_code>
+		<translation>Teraz môžete toto zariadenie odpojiť.</translation>
+		<variable>12306</variable>
+	</message>
+	<message>
+		<err_code>12401</err_code>
+		<translation>Smerovač podporuje iba 20 pravidiel spúšťania portov.</translation>
+		<variable>12401</variable>
+	</message>
+	<message>
+		<err_code>12402</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>12402</variable>
+	</message>
+	<message>
+		<err_code>12403</err_code>
+		<translation>Duplicitný názov služby.</translation>
+		<variable>12403</variable>
+	</message>
+	<message>
+		<err_code>12404</err_code>
+		<translation>Rozsah portov pre prichádzajúce spojenia sa prekrýva s inými službami.</translation>
+		<variable>12404</variable>
+	</message>
+	<message>
+		<err_code>12405</err_code>
+		<translation>Aktivačný port už používa iné zariadenie.</translation>
+		<variable>12405</variable>
+	</message>
+	<message>
+		<err_code>12501</err_code>
+		<translation>Smerovač podporuje iba 64 pravidiel presmerovania portov.</translation>
+		<variable>12501</variable>
+	</message>
+	<message>
+		<err_code>12502</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>12502</variable>
+	</message>
+	<message>
+		<err_code>12503</err_code>
+		<translation>Názov služby sa už používa.</translation>
+		<variable>12503</variable>
+	</message>
+	<message>
+		<err_code>12504</err_code>
+		<translation>Port služby už používa iné zariadenie.</translation>
+		<variable>12504</variable>
+	</message>
+	<message>
+		<err_code>12601</err_code>
+		<translation>Tabuľka politík VPN je plná</translation>
+		<variable>12601</variable>
+	</message>
+	<message>
+		<err_code>12602</err_code>
+		<translation>Názov politiky už existuje</translation>
+		<variable>12602</variable>
+	</message>
+	<message>
+		<err_code>12603</err_code>
+		<translation>Warning! %s IP range is not supported changed to %s - %s</translation>
+		<variable>12603</variable>
+	</message>
+	<message>
+		<err_code>12604</err_code>
+		<translation>Chyba! Údaje nebolo možné uložiť.[NEL]Len jedna politika VPN môže využívať dynamickú IP adresu pre[NEL]vzdialený koncový bod.[NEL]Môžete mať uložených niekoľko politík, ale aktívna môže byť len jedna</translation>
+		<variable>12604</variable>
+	</message>
+	<message>
+		<err_code>12605</err_code>
+		<translation>Chyba! Údaje nebolo možné uložiť. Len jedna politika VPN môže využívať AKÚKOĽVEK IP adresu pre lokálnu sieť LAN alebo vzdialenú sieť LAN.</translation>
+		<variable>12605</variable>
+	</message>
+	<message>
+		<err_code>12606</err_code>
+		<translation>Maska vzdialenej siete LAN je neplatná</translation>
+		<variable>12606</variable>
+	</message>
+	<message>
+		<err_code>12607</err_code>
+		<translation>Maska lokálnej siete LAN je neplatná</translation>
+		<variable>12607</variable>
+	</message>
+	<message>
+		<err_code>13001</err_code>
+		<translation>Špecifikované porty sú využívané inými konfiguráciami. Skontrolujte konfigurácie vzdialenej správy, presmerovania portov, spúšťania portov, tabuľky mapovania portov UPnP, RIP a typu internetového pripojenia.</translation>
+		<variable>13001</variable>
+	</message>
+	<message>
+		<err_code>13002</err_code>
+		<translation>Špecifikované porty sa v systéme už používajú. Konfigurácia nevstúpi do platnosti, kým sa smerovač nereštartuje. Smerovač reštartujte jeho vypnutím a opakovaným zapnutím.</translation>
+		<variable>13002</variable>
+	</message>
+	<message>
+		<err_code>13101</err_code>
+		<translation>Služba Dynamické DNS nie je zapnutá.</translation>
+		<variable>13101</variable>
+	</message>
+	<message>
+		<err_code>13102</err_code>
+		<translation>%s updated successfully at %s.</translation>
+		<variable>13102</variable>
+	</message>
+	<message>
+		<err_code>13103</err_code>
+		<translation>Žiadna aktualizácia. Na internetovom porte nie je žiadna adresa IP.</translation>
+		<variable>13103</variable>
+	</message>
+	<message>
+		<err_code>13104</err_code>
+		<translation>Overenie zlyhalo. Meno používateľa alebo heslo nie je správne.</translation>
+		<variable>13104</variable>
+	</message>
+	<message>
+		<err_code>13105</err_code>
+		<translation>Aktualizácia zlyhala. Názov hostiteľa nie je správny.</translation>
+		<variable>13105</variable>
+	</message>
+	<message>
+		<err_code>13106</err_code>
+		<translation>Update failed at %s.</translation>
+		<variable>13106</variable>
+	</message>
+	<message>
+		<err_code>13107</err_code>
+		<translation>Poskytovateľ služieb je nedostupný.</translation>
+		<variable>13107</variable>
+	</message>
+	<message>
+		<err_code>13201</err_code>
+		<translation>Žiadne dostupné internetové pripojenie</translation>
+		<variable>13201</variable>
+	</message>
+	<message>
+		<err_code>13202</err_code>
+		<translation>Brána nereaguje na príkaz PING alebo traceroute</translation>
+		<variable>13202</variable>
+	</message>
+	<message>
+		<err_code>13301</err_code>
+		<translation>Warning. The server ip and local ip are not in the same subnet.</translation>
+		<variable>13301</variable>
+	</message>
+	<message>
+		<err_code>13302</err_code>
+		<translation>Neplatný názov konta.</translation>
+		<variable>gsm_msg_account_invalid</variable>
+	</message>
+	<message>
+		<err_code>13303</err_code>
+		<translation>Neplatný názov domény.</translation>
+		<variable>gsm_msg_domain_invalid</variable>
+	</message>
+	<message>
+		<err_code>13304</err_code>
+		<translation>Vynulovať počítadlo?</translation>
+		<variable>gsm_msg_tm_reset</variable>
+	</message>
+<message>
+		<err_code>13401</err_code>
+		<translation>Nie je zvolená žiadna položka!</translation>
+		<variable>gsm_msg_gd_action</variable>
+	</message>
+	<message>
+		<err_code>13402</err_code>
+		<translation>No item!</translation>
+		<variable>gsm_msg_gd_rm_tab</variable>
+	</message>
+	<message>
+		<err_code>13403</err_code>
+		<translation>Rýchlosť preberania</translation>
+		<variable>gsm_msg_gd_down_speed</variable>
+	</message>
+	<message>
+		<err_code>13404</err_code>
+		<translation>Rýchlosť odovzdávania</translation>
+		<variable>gsm_msg_gd_up_speed</variable>
+	</message>
+	<message>
+		<err_code>13405</err_code>
+		<translation>Maximálny počet úloh preberania</translation>
+		<variable>gsm_msg_gd_max_task_num</variable>
+	</message>
+	<message>
+		<err_code>13408</err_code>
+		<translation>Zadajte platnú adresu URL FTP/HTTP pre prepojenie na preberanie.</translation>
+		<variable>gsm_msg_gd_ftp_valid_add</variable>
+	</message>
+	<message>
+		<err_code>13410</err_code>
+		<translation>Nie je zvolený žiadny súbor torrent!</translation>
+		<variable>gsm_msg_gd_bt_file_sel</variable>
+	</message>
+	<message>
+		<err_code>13411</err_code>
+		<translation>Priraďte správny súbor. Formát súboru je *.</translation>
+		<variable>gsm_msg_gd_bt_file_format</variable>
+	</message>
+	<message>
+		<err_code>13413</err_code>
+		<translation>Súbor už existuje! </translation>
+		<variable>13413</variable>
+	</message>
+	<message>
+		<err_code>13414</err_code>
+		<translation>USB BT torrent path invliad!</translation>
+		<variable>13414</variable>
+	</message>
+	<message>
+		<err_code>13415</err_code>
+		<translation>Adresa URL už existuje!</translation>
+		<variable>13415</variable>
+	</message>
+	<message>
+		<err_code>13416</err_code>
+		<translation>Dosiahol sa max. počet úloh preberania!</translation>
+		<variable>13416</variable>
+	</message>
+	<message>
+		<err_code>13417</err_code>
+		<translation>Nesprávny súbor torrent. Nedá sa preberať!</translation>
+		<variable>13417</variable>
+	</message>
+	<message>
+		<err_code>13418</err_code>
+		<translation>FAT (aktuálny formát zariadenia USB) podporuje maximálnu veľkosť súboru 4 gigabajty!</translation>
+		<variable>13418</variable>
+	</message>
+	<message>
+		<err_code>13419</err_code>
+		<translation>Chyba – Nedostatok miesta</translation>
+		<variable>13419</variable>
+	</message>
+	<message>
+		<err_code>13420</err_code>
+		<translation>Add task fail!</translation>
+		<variable>13420</variable>
+	</message>
+	<message>
+		<err_code>13421</err_code>
+		<translation>Najskôr zvoľte niektorú možnosť.</translation>
+		<variable>bh_select_an_option</variable>
+	</message>
+	<message>
+		<err_code>13422</err_code>
+		<translation>Meno používateľa nesmie byť prázdne.</translation>
+		<variable>bh_login_name_null</variable>
+	</message>
+	<message>
+		<err_code>13423</err_code>
+		<translation>Neplatné heslo</translation>
+		<variable>bh_password_error</variable>
+	</message>
+	<message>
+		<err_code>13424</err_code>
+		<translation>Zadajte čas nečinnosti.[NEL]</translation>
+		<variable>bh_idle_time_null</variable>
+	</message>
+	<message>
+		<err_code>13425</err_code>
+		<translation>Neplatný čas nečinnosti. Zadajte správne číslo.[NEL]</translation>
+		<variable>bh_invalid_idle_time</variable>
+	</message>
+	<message>
+		<err_code>13426</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova alebo ju nechajte prázdnu.</translation>
+		<variable>bh_invalid_myip</variable>
+	</message>
+	<message>
+		<err_code>13427</err_code>
+		<translation>Neplatná adresa IP brány. Zadajte ju znova.</translation>
+		<variable>bh_invalid_gateway</variable>
+	</message>
+	<message>
+		<err_code>13428</err_code>
+		<translation>Počítač nepodporuje tlačiareň.</translation>
+		<variable>bh_not_support_print</variable>
+	</message>
+	<message>
+		<err_code>13429</err_code>
+		<translation>Názov súboru nesmie byť prázdny.</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13430</err_code>
+		<translation>Priraďte správny súbor. Formát súboru je *.</translation>
+		<variable>bh_not_correct_file</variable>
+	</message>
+	<message>
+		<err_code>13431</err_code>
+		<translation>Neplatná adresa IP. Zadajte ju znova.</translation>
+		<variable>bh_invalid_ip</variable>
+	</message>
+	<message>
+		<err_code>13432</err_code>
+		<translation>Neplatná maska podsiete. Zadajte ju znova.[NEL]</translation>
+		<variable>bh_invalid_mask</variable>
+	</message>
+	<message>
+		<err_code>13433</err_code>
+		<translation>Adresa IP v sieti LAN a adresa IP v sieti WAN nesmú byť v rovnakej podsieti.[NEL]</translation>
+		<variable>bh_same_lan_wan_subnet</variable>
+	</message>
+	<message>
+		<err_code>13434</err_code>
+		<translation>Názov súboru nesmie byť prázdny.</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13435</err_code>
+		<translation>Konfigurácia internetového pripojenia si vyžaduje skúsenosti s nastavovaním siete. Ste si istí?</translation>
+		<variable>bh_no_genie_help_confirm</variable>
+	</message>
+	<message>
+		<err_code>13436</err_code>
+		<translation>Varovanie! [NEL]Pri obnovení nastavení z konfiguračného súboru sa vymažú všetky aktuálne nastavenia. [NEL]Naozaj to chcete urobiť?</translation>
+		<variable>bh_ask_for_restore</variable>
+	</message>
+	<message>
+		<err_code>13437</err_code>
+		<translation>Please do not use the directory as save path.</translation>
+		<variable>gsm_msg_gd_unexpect_path</variable>
+	</message>
+	<message>
+		<err_code>13438</err_code>
+		<translation>Neplatná adresa MAC. Zadajte ju znova.</translation>
+		<variable>gsm_msg_invalid_mac</variable>
+	</message>
+	<message>
+		<err_code>13439</err_code>
+		<translation>Žiadna jednotka USB</translation>
+		<variable>13439</variable>
+	</message>
+	<message>
+		<err_code>13440</err_code>
+		<translation>Vyberte otázku.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13441</err_code>
+		<translation>Zadajte odpoveď na každú otázku.</translation>
+		<variable>gsm_msg_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13442</err_code>
+		<translation>Zadané údaje sa nezhodujú s údajmi uloženými v smerovači. Zadajte ich znova.</translation>
+		<variable>gsm_msg_rsave_not_match</variable>
+	</message>
+	<message>
+		<err_code>13443</err_code>
+		<translation>Zvoľte správny konfiguračný súbor.</translation>
+		<variable>gsm_msg_restore_fail</variable>
+	</message>
+	<message>
+		<err_code>13444</err_code>
+		<translation>Reštart smerovača preruší aktívne prenosy v sieti. Pokračovať?</translation>
+		<variable>gsm_msg_confirm_reboot</variable>
+	</message>
+    <message>
+		<err_code>13445</err_code>
+		<translation>Smerovač podporuje iba 21 období.</translation>
+		<variable>13445</variable>
+	</message>
+	<message>
+		<err_code>13448</err_code>
+		<translation>Poznámka: Aby ste zdieľali svoje súbory prostredníctvom DLNA/UPnP AV pomocou funkcie Server médií, aspoň jeden zo zdieľaných priečinkov musí mať prístup pre čítanie s možnosťou "Všetky – bez hesla"</translation>
+		<variable>gsm_msg_usb_no_read_access</variable>
+	</message>
+	<message>
+		<err_code>13502</err_code>
+		<translation>Overenie zabezpečenia WEP alebo WPA-PSK [TKIP] nemôže fungovať s protokolom WPS. Protokol WPS nebude dostupný. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wep_wpa_conflict_wps</variable>
+	</message>
+	<message>
+		<err_code>13503</err_code>
+		<translation>Protokol WPS pre fungovanie vyžaduje vysielanie identifikátora SSID. Ak vykonáte túto zmenu, protokol WPS nebude dostupný. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wps_need_ssid_broadcast</variable>
+	</message>
+	<message>
+		<err_code>13504</err_code>
+		<translation>Ste si istí, že nechcete žiadne zabezpečenie bezdrôtového pripojenia pre vašu sieť? Toto nastavenie sa väčšinou používa pre verejné bezdrôtové prístupové body. Chcete pokračovať?</translation>
+		<variable>gsm_msg_wireless_none_security</variable>
+	</message>
+	<message>
+		<err_code>13550</err_code>
+		<translation>Nie je nakonfigurované žiadne ID siete VLAN.</translation>
+		<variable>gsm_msg_vlan_no_vid_configured</variable>
+	</message>
+	<message>
+		<err_code>13551</err_code>
+		<translation>Nesprávna hodnota 802.1p.</translation>
+		<variable>gsm_msg_vlan_incorrect_8021p</variable>
+	</message>
+	<message>
+		<err_code>13552</err_code>
+		<translation>Nesprávna hodnota ID siete VLAN. Správne hodnoty sú v rozsahu od 1 do 4094.</translation>
+		<variable>gsm_msg_vlan_incorrect_vid</variable>
+	</message>
+	<message>
+		<err_code>13553</err_code>
+		<translation>Názov skupiny</translation>
+		<variable>gsm_msg_vlan_group_name</variable>
+	</message>
+	<message>
+		<err_code>13554</err_code>
+		<translation>už existuje.</translation>
+		<variable>gsm_msg_vlan_already_exist</variable>
+	</message>
+	<message>
+		<err_code>13555</err_code>
+		<translation>MUSÍ byť vybraný aspoň jeden port.</translation>
+		<variable>gsm_msg_vlan_port_need_checked</variable>
+	</message>
+	<message>
+		<err_code>13556</err_code>
+		<translation>MUSÍ byť zrušený výber aspoň jedného portu.</translation>
+		<variable>gsm_msg_vlan_port_need_unchecked</variable>
+	</message>
+	<message>
+		<err_code>13557</err_code>
+		<translation>Nie je možné vytvoriť ďalšie skupiny. Maximálny počet je 10 skupín.</translation>
+		<variable>gsm_msg_vlan_group_num_overflow</variable>
+	</message>
+	<message>
+		<err_code>13558</err_code>
+		<translation>Nie je možné povoliť ďalšie skupiny. Maximálny počet je 6 skupín.</translation>
+		<variable>gsm_msg_vlan_group_enable_overflow</variable>
+	</message>
+	<message>
+		<err_code>13559</err_code>
+		<translation>Názov skupiny môže pozostávať najviac z 10 znakov.</translation>
+		<variable>gsm_msg_vlan_group_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>13560</err_code>
+		<translation>Odstrániť</translation>
+		<variable>gsm_msg_vlan_remove</variable>
+	</message>
+	<message>
+		<err_code>13600</err_code>
+		<translation>Neplatný názov servera médií!</translation>
+		<variable>gsm_msg_invalid_mediaserver_name</variable>
+	</message>
+	<message> 
+        <err_code>13603</err_code> 
+        <translation>Chcete zmeniť jazyk</translation> 
+        <variable>gsm_msg_switch_language_from</variable> 
+    </message> 
+    <message> 
+        <err_code>13604</err_code> 
+        <translation>(aktuálny jazyk) na jazyk</translation> 
+        <variable>gsm_msg_switch_language_to</variable> 
+    </message> 
+	<message>
+		<err_code>13613</err_code>
+		<translation>Nemôžete zablokovať zariadenie, ktoré sa teraz používa na pripojenie k smerovaču. Ak chcete zariadenie zablokovať, mali by ste sa prihlásiť k smerovaču z iného zariadenia.</translation>
+		<variable>gsm_msg_block_manage_device</variable>
+	</message>
+		<message>
+		<err_code>13614</err_code>
+		<translation>Názov hostiteľa nie je platný. Povolené sú znaky '0'~'9', 'a'~'z', 'A'~'Z' a spojovník '-'</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_hostname</variable>
+	</message>
+	<message>
+		<err_code>13615</err_code>
+		<translation>E-mailová adresa nie je platná</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_email</variable>
+	</message>
+		<message>
+		<err_code>13616</err_code>
+		<translation>Dĺžka hesla musí byť min. 6 a max. 32 znakov</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_password</variable>
+	</message>
+	<message>
+		<err_code>13617</err_code>
+		<translation>Internetové pripojenie zlyhalo. Najskôr sa pripojte na internet</translation>
+		<variable>gsm_msg_wan_down</variable>
+	</message>
+	<message>
+		<err_code>13618</err_code>
+		<translation>Server DDNS je nedostupný, overte pripojenie na internet alebo to skúste znova neskôr</translation>
+		<variable>gsm_msg_ddns_unreach_server</variable>
+	</message>
+	<message>
+		<err_code>13619</err_code>
+		<translation>Zadaný názov hostiteľa nie je platným názvom DNS</translation>
+		<variable>gsm_msg_hostname_invalid_dnsname</variable>
+	</message>
+	<message>
+		<err_code>13620</err_code>
+		<translation>Zadaný e-mail/konto neexistuje</translation>
+		<variable>gsm_msg_email_account_not_exist</variable>
+	</message>
+	<message>
+		<err_code>13621</err_code>
+		<translation>E-mail už bol zaregistrovaný s iným heslom</translation>
+		<variable>gsm_msg_eamil_already_register</variable>
+	</message>
+	<message>
+		<err_code>13622</err_code>
+		<translation>Overovanie konta zlyhalo</translation>
+		<variable>gsm_msg_account_auth_fail</variable>
+	</message>
+	<message>
+		<err_code>13623</err_code>
+		<translation>Zadaný názov hostiteľa nie je k dispozícii</translation>
+		<variable>gsm_msg_hostname_unavailable</variable>
+	</message>
+		<message>
+		<err_code>13624</err_code>
+		<translation>Dosiahli ste maximálny počet názvov hostiteľov, ktoré môžete pre toto konto vytvoriť.</translation>
+		<variable>gsm_msg_max_ddns_host</variable>
+	</message>
+		<message>
+		<err_code>13625</err_code>
+		<translation>Kliknite sem</translation>
+		<variable>gsm_msg_click_here</variable>
+	</message>
+		<message>
+		<err_code>13626</err_code>
+		<translation>a prihláste sa do svojho konta, aby ste mohli konto aktualizovať alebo odstrániť nepotrebné názvy hostiteľov</translation>
+		<variable>gsm_msg_login_upgrade_ddns_account</variable>
+	</message>
+		<message>
+		<err_code>13627</err_code>
+		<translation>Úlohu sa nepodarilo dokončiť. Dôvod:</translation>
+		<variable>gsm_msg_ddns_fail_reason</variable>
+	</message>
+			<message>
+		<err_code>13628</err_code>
+		<translation>Potvrdzujúci e-mail je na ceste!</translation>
+		<variable>gsm_msg_ddns_ngr_email1</variable>
+	</message>
+			<message>
+		<err_code>13629</err_code>
+		<translation>Na adresu, ktorú ste poskytli, bol odoslaný potvrdzujúci e-mail. Potvrdzujúci e-mail bude zahrnovať prepojenie, na ktoré musíte kliknúť, aby sa overila vaša e-mailová adresa. Po potvrdení vášho konta sa budete môcť prihlásiť a využívať naše služby.</translation>
+		<variable>gsm_msg_ddns_ngr_email2</variable>
+	</message>
+	<message>
+		<err_code>13700</err_code>
+		<translation>Služba VPN vyžaduje na pripojenie k internetu zapnutie služby DDNS alebo používanie statickej adresy IP</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_1</variable>
+	</message>
+	<message>
+		<err_code>13701</err_code>
+		<translation>Najskôr zapnite službu VPN a kliknite na tlačidlo "Použiť".</translation>
+		<variable>gsm_msg_openvpn_apply</variable>
+	</message>
+	<message>
+		<err_code>13702</err_code>
+		<translation>Služba VPN nefunguje s internetovým pripojením s protokolom IPv6. Ak chcete používať protokol IPv6, musíte najprv zakázať službu VPN. (Na obrazovke služby VPN odznačte začiarkavacie políčko Povoliť službu VPN a kliknite na tlačidlo Použiť.)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6</variable>
+	</message>
+	<message>
+		<err_code>13703</err_code>
+		<translation>Služba VPN nefunguje s internetovým pripojením s protokolom IPv6. Ak chcete používať službu VPN, musíte najprv zakázať internetové pripojenie s protokolom IPv6. (Na obrazovke protokolu IPv6 vyberte položku Zakázané a kliknite na tlačidlo Použiť.)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6_2</variable>
+	</message>
+	<message>
+		<err_code>13704</err_code>
+		<translation>So službou VPN odporúčame použiť iba službu DDNS. Uistite sa, že ste pre internetové pripojenie povolili službu DDNS alebo používate statickú adresu IP.</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_2</variable>
+	</message>
+	<message>
+		<err_code>13705</err_code>
+		<translation>Aktuálne nemáte povolenú službu DDNS a pre klientskú konfiguráciu bude použitá adresa IP vášho internetového pripojenia. Ak si zmeníte adresu IP internetového pripojenia, budete si musieť znova prevziať a nainštalovať konfiguračné súbory.</translation>
+		<variable>gsm_msg_openvpn_ddns_not_enable</variable>
+	</message>
+	<message>
+		<err_code>13706</err_code>
+		<translation>Zmenili ste konfiguráciu svojej služby VPN. Postupujte podľa krokov 2 a 3 a prevezmite si a nainštalujte konfiguračné súbory do každého klientskeho zariadenia VPN (prepíšte existujúce konfiguračné súbory)</translation>
+		<variable>gsm_msg_openvpn_change_settings</variable>
+	</message>
+	<message>
+		<err_code>13707</err_code>
+		<translation>Zmenili ste svoju statickú adresu IP internetového pripojenia, ktorá sa používa v službe VPN. Postupujte podľa krokov 2 a 3 a prevezmite si a nainštalujte konfiguračné súbory do každého klientskeho zariadenia VPN (prepíšte existujúce konfiguračné súbory).</translation>
+		<variable>gsm_msg_openvpn_change_static_ip</variable>
+	</message>
+	<message>
+		<err_code>13708</err_code>
+		<translation>Zmenili ste nastavenia služby DDNS, ktorá sa používa v službe VPN. Postupujte podľa krokov 2 a 3 a prevezmite si a nainštalujte konfiguračné súbory do každého klientskeho zariadenia VPN (prepíšte existujúce konfiguračné súbory)</translation>
+		<variable>gsm_msg_openvpn_change_ddns</variable>
+	</message>
+	<message>
+		<err_code>13709</err_code>
+		<translation>Port služby musí mať číslo 65534 alebo nižšie</translation>
+		<variable>gsm_msg_openvpn_wrong_port</variable>
+	</message>
+	<message>
+		<err_code>13710</err_code>
+		<translation>Názov zdieľania nemôže zostať prázdny</translation>
+		<variable>gsm_msg_share_name_blank</variable>
+	</message>
+	<message>
+		<err_code>13711</err_code>
+		<translation>Služba VPN vyžaduje statickú adresu IP alebo DDNS. Chcete pokračovať a vypnúť službu VPN?</translation>
+		<variable>gsm_msg_openvpn_disabled_fixedip</variable>
+	</message>
+	<message>
+		<err_code>13712</err_code>
+		<translation>Konfiguračné súbory vášho klienta VPN sa nezhodujú s nastaveniami služby DDNS alebo adresou IP internetového pripojenia. Postupujte podľa krokov 2 a 3 a prevezmite si a nainštalujte konfiguračné súbory do každého klientskeho zariadenia VPN (prepíšte existujúce konfiguračné súbory).</translation>
+		<variable>gsm_msg_openvpn_conf_change</variable>
+	</message>
+	<message>
+		<err_code>13713</err_code>
+		<translation>Funkcia rozširovania dosahu bezdrôtovej siete nefunguje v spojení s kanálmi s dynamickým výberom frekvencie. Uistite sa, že základňa je nastavená na kanály bez dynamického výberu frekvencie.</translation>
+		<variable>gsm_msg_wds_not_work_in_dfs_ch</variable>
+	</message>
+    <message>
+		<err_code>13714</err_code>
+		<translation>Ak nepovolíte obnovu hesla a nové heslo zabudnete, heslo je možné obnoviť len resetom zariadenia na predvolené nastavenia.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13715</err_code>
+		<translation> nesmie byť prázdny.[NEL]</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>13716</err_code>
+		<translation>Ak nepovolíte obnovu hesla a nové heslo zabudnete, heslo je možné obnoviť len resetom zariadenia na predvolené nastavenia.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13717</err_code>
+		<translation>Naozaj chcete zmeniť heslo správcu bez možnosti obnovy?</translation>
+		<variable>gsm_msg_pwd_rec_chk</variable>
+	</message>
+	<message>
+		<err_code>13718</err_code>
+		<translation>Maximálna dĺžka kľúča je </translation>
+		<variable>gsm_msg_wls_max_pw_1</variable>
+	</message>
+	<message>
+		<err_code>13719</err_code>
+		<translation> znakov.</translation>
+		<variable>gsm_msg_wls_max_pw_2</variable>
+	</message>
+	<message>
+		<err_code>13720</err_code>
+		<translation>Zadané heslo sa nezhoduje. Zadajte ho znova.</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>13721</err_code>
+		<translation>Vyberte otázku.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13722</err_code>
+		<translation>Zadajte odpoveď na každú otázku.</translation>
+		<variable>gsm_msg_pwd_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13723</err_code>
+		<translation>Momentálne máte rôzne nastavenia siete WiFi pre rádiové pásmo 2,4 GHz a rádiové pásmo 5 GHz. Jedným kliknutím na tlačidlo Použiť prepíšeme nastavenia pre rádiové pásmo 5 GHz nastaveniami pre rádiové pásmo 2,4 GHz.</translation>
+		<variable>gsm_msg_smart_conn</variable>
+	</message>
+	<message>
+		<err_code>13724</err_code>
+		<translation>Funkcia INTELIGENTNÉ PRIPOJENIE sa nedá zapnúť, pretože 5 GHz zabezpečenie nepodporuje protokol WEP.</translation>
+		<variable>gsm_msg_smart_conn_wep</variable>
+	</message>
+</error_msg>

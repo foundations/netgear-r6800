@@ -1,0 +1,23 @@
+lookup.lo: lookup.c lookup.h lookup_data.h os.h ../config.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/os_types.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/config_types.h \
+ misc.h ../include/vorbis/codec.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/ogg.h
+
+lookup.h:
+
+lookup_data.h:
+
+os.h:
+
+../config.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/os_types.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/config_types.h:
+
+misc.h:
+
+../include/vorbis/codec.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/ogg.h:

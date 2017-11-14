@@ -1,0 +1,16 @@
+parse.lo: parse.c config.h global.h id3tag.h parse.h latin1.h utf16.h \
+ utf8.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+parse.h:
+
+latin1.h:
+
+utf16.h:
+
+utf8.h:

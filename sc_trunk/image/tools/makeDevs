@@ -1,0 +1,236 @@
+#!/bin/bash
+
+ROOTFS=$1
+
+# function to create BSD pseudo-terminal pairs
+create_dev_BSD_ptp() {
+ptyX=(p q r s t u v w x y z a b c d e)
+ptyY=(0 1 2 3 4 5 6 7 8 9 a b c d e f)
+PTYP='/usr/dev/pty'
+TTYP='/usr/dev/tty'
+ptpCount=0
+for pX in ${ptyX[@]}
+do
+for pY in ${ptyY[@]}
+do
+mknod $ROOTFS$PTYP$pX$pY c 2 $ptpCount
+mknod $ROOTFS$TTYP$pX$pY c 3 $ptpCount
+let "ptpCount+=1"
+if(($ptpCount >= $1))
+then
+return
+fi
+done
+done
+}
+
+
+
+# Create FIFO devices
+
+mknod $ROOTFS/usr/dev/initctl p
+
+
+#Create character devices
+mknod $ROOTFS/usr/dev/mem c 1 1
+mknod $ROOTFS/usr/dev/kmem c 1 2
+mknod $ROOTFS/usr/dev/null c 1 3
+mknod $ROOTFS/usr/dev/port c 1 4
+mknod $ROOTFS/usr/dev/zero c 1 5
+create_dev_BSD_ptp 16
+mknod $ROOTFS/usr/dev/tty0 c 4 0
+mknod $ROOTFS/usr/dev/tty1 c 4 1
+mknod $ROOTFS/usr/dev/ttyS0 c 4 64
+mknod $ROOTFS/dev/ttyS0 c 4 64
+mknod $ROOTFS/usr/dev/ttyS1 c 4 65
+mknod $ROOTFS/usr/dev/tty c 5 0
+mknod $ROOTFS/dev/tty c 5 0
+mknod $ROOTFS/usr/dev/console c 5 1
+mknod $ROOTFS/dev/console c 5 1
+mknod $ROOTFS/usr/dev/ppp c 108 0
+mknod $ROOTFS/usr/dev/printer0 c 180 0
+mknod $ROOTFS/usr/dev/urandom c 1 9
+mknod $ROOTFS/usr/dev/i2c-0 c 89 0
+mknod $ROOTFS/usr/dev/mtd0 c 90 0
+mknod $ROOTFS/usr/dev/mtd1 c 90 2
+mknod $ROOTFS/usr/dev/mtd2 c 90 4
+mknod $ROOTFS/usr/dev/mtd3 c 90 6
+mknod $ROOTFS/usr/dev/mtd4 c 90 8
+mknod $ROOTFS/usr/dev/mtd5 c 90 10
+mknod $ROOTFS/usr/dev/mtd6 c 90 12
+mknod $ROOTFS/usr/dev/mtd7 c 90 14
+mknod $ROOTFS/usr/dev/mtd8 c 90 16
+mknod $ROOTFS/usr/dev/mtd9 c 90 18
+mknod $ROOTFS/usr/dev/mtd10 c 90 20
+mknod $ROOTFS/usr/dev/mtd11 c 90 22
+mknod $ROOTFS/usr/dev/mtd12 c 90 24
+mknod $ROOTFS/usr/dev/mtd13 c 90 26
+mknod $ROOTFS/usr/dev/mtd14 c 90 28
+mknod $ROOTFS/usr/dev/ubi0 c 254 0
+mknod $ROOTFS/usr/dev/ubi_ctrl c 10 63
+mknod $ROOTFS/usr/dev/random c 1 8
+mknod $ROOTFS/usr/dev/hwrandom c 10 183
+mknod $ROOTFS/usr/dev/ptm c 128 1
+mkdir $ROOTFS/usr/dev/pts/
+mknod $ROOTFS/usr/dev/pts/0 c 136 0
+mknod $ROOTFS/usr/dev/pts/1 c 136 1
+mknod $ROOTFS/usr/dev/sc_led c 225 0
+
+
+# Create Broadcom specific devices
+mknod $ROOTFS/usr/dev/dect c 197 0
+mknod $ROOTFS/usr/dev/dectdbg c 197 1
+mknod $ROOTFS/usr/dev/dectshim c 198 0
+mknod $ROOTFS/usr/dev/bcmatm0 c 205 0
+mknod $ROOTFS/usr/dev/brcmboard c 206 0
+mknod $ROOTFS/usr/dev/bcmvdsl0 c 207 0
+mknod $ROOTFS/usr/dev/bcmadsl0 c 208 0
+mknod $ROOTFS/usr/dev/bcmadsl1 c 208 1
+mknod $ROOTFS/usr/dev/bcmendpoint0 c 209 0
+mknod $ROOTFS/usr/dev/bcmaal20 c 210 0
+mknod $ROOTFS/usr/dev/bcmles0 c 211 0
+mknod $ROOTFS/usr/dev/bcm c 212 0
+mknod $ROOTFS/usr/dev/bounce c 213 0
+mknod $ROOTFS/usr/dev/pmon c 214 0
+mknod $ROOTFS/usr/dev/ac97 c 222 0
+mknod $ROOTFS/usr/dev/slac c 223 0
+mknod $ROOTFS/usr/dev/bcmprof c 224 0
+mknod $ROOTFS/usr/dev/si3215 c 225 0
+mknod $ROOTFS/usr/dev/bcmatmb0 c 226 0
+mknod $ROOTFS/usr/dev/p8021ag0 c 227 0
+mknod $ROOTFS/usr/dev/bcmxtmcfg0 c 228 0
+mknod $ROOTFS/usr/dev/pktcmf c 232 0
+mknod $ROOTFS/usr/dev/spu c 233 0
+mknod $ROOTFS/usr/dev/bcmmoca0 c 234 0
+mknod $ROOTFS/usr/dev/bcmmoca10 c 234 1
+mknod $ROOTFS/usr/dev/bcm_user_ploam c 235 0
+mknod $ROOTFS/usr/dev/bcm_omci c 236 0
+mknod $ROOTFS/usr/dev/bcm_ploam c 237 0
+mknod $ROOTFS/usr/dev/bcmvlan c 238 0
+mknod $ROOTFS/usr/dev/pwrmngt c 240 0
+mknod $ROOTFS/usr/dev/bcmfap c 241 0
+mknod $ROOTFS/usr/dev/fcache c 242 0
+mknod $ROOTFS/usr/dev/ingqos c 243 0
+mknod $ROOTFS/usr/dev/bpm c 244 0
+mknod $ROOTFS/usr/dev/bcmarl c 245 0
+
+mknod $ROOTFS/usr/dev/capi20 c 68 0
+mknod $ROOTFS/usr/dev/isdninfo c 45 255
+mknod $ROOTFS/usr/dev/ippp0 c 45 128
+mknod $ROOTFS/usr/dev/ippp1 c 45 129
+mknod $ROOTFS/usr/dev/isdnctrl0 c 45 64
+mknod $ROOTFS/usr/dev/isdnctrl c 45 64
+mknod $ROOTFS/usr/dev/isdn c 45 0
+mknod $ROOTFS/usr/dev/linux-uk-proxy c 125 0
+mknod $ROOTFS/usr/dev/linux-user-bde c 126 0
+
+
+# Create block devices
+
+mknod $ROOTFS/usr/dev/ram0 b 1 0
+mknod $ROOTFS/usr/dev/ram1 b 1 1
+mknod $ROOTFS/usr/dev/ram2 b 1 2
+mknod $ROOTFS/usr/dev/ram3 b 1 3
+ln -s ram1 $ROOTFS/usr/dev/ram
+
+mknod $ROOTFS/usr/dev/mtdblock0 b 31 0
+mknod $ROOTFS/usr/dev/mtdblock1 b 31 1
+mknod $ROOTFS/usr/dev/mtdblock2 b 31 2
+mknod $ROOTFS/usr/dev/mtdblock3 b 31 3
+mknod $ROOTFS/usr/dev/mtdblock4 b 31 4
+mknod $ROOTFS/usr/dev/mtdblock5 b 31 5
+mknod $ROOTFS/usr/dev/mtdblock6 b 31 6
+mknod $ROOTFS/usr/dev/mtdblock7 b 31 7
+mknod $ROOTFS/usr/dev/mtdblock8 b 31 8
+mknod $ROOTFS/usr/dev/mtdblock9 b 31 9
+mknod $ROOTFS/usr/dev/mtdblock10 b 31 10
+mknod $ROOTFS/usr/dev/mtdblock11 b 31 11
+mknod $ROOTFS/usr/dev/mtdblock12 b 31 12
+mknod $ROOTFS/usr/dev/mtdblock13 b 31 13
+mknod $ROOTFS/usr/dev/mtdblock14 b 31 14
+
+# USB Mass Storage Devices
+mknod $ROOTFS/usr/dev/sda  b 8 0
+mknod $ROOTFS/usr/dev/sda1 b 8 1
+mknod $ROOTFS/usr/dev/sda2 b 8 2
+mknod $ROOTFS/usr/dev/sda3 b 8 3
+mknod $ROOTFS/usr/dev/sda4 b 8 4
+mknod $ROOTFS/usr/dev/sdb  b 8 16
+mknod $ROOTFS/usr/dev/sdb1 b 8 17
+mknod $ROOTFS/usr/dev/sdb2 b 8 18
+mknod $ROOTFS/usr/dev/sdb3 b 8 19
+mknod $ROOTFS/usr/dev/sdb4 b 8 20
+mknod $ROOTFS/usr/dev/sdc  b 8 32
+mknod $ROOTFS/usr/dev/sdc1 b 8 33
+mknod $ROOTFS/usr/dev/sdc2 b 8 34
+mknod $ROOTFS/usr/dev/sdc3 b 8 35
+mknod $ROOTFS/usr/dev/sdc4 b 8 36
+mknod $ROOTFS/usr/dev/sdd  b 8 48
+mknod $ROOTFS/usr/dev/sdd1 b 8 49
+mknod $ROOTFS/usr/dev/sdd2 b 8 50
+mknod $ROOTFS/usr/dev/sdd3 b 8 51
+mknod $ROOTFS/usr/dev/sdd4 b 8 52
+mknod $ROOTFS/usr/dev/sde  b 8 64
+mknod $ROOTFS/usr/dev/sde1 b 8 65
+mknod $ROOTFS/usr/dev/sde2 b 8 66
+mknod $ROOTFS/usr/dev/sde3 b 8 67
+mknod $ROOTFS/usr/dev/sde4 b 8 68
+mknod $ROOTFS/usr/dev/sdf  b 8 80
+mknod $ROOTFS/usr/dev/sdf1 b 8 81
+mknod $ROOTFS/usr/dev/sdf2 b 8 82
+mknod $ROOTFS/usr/dev/sdf3 b 8 83
+mknod $ROOTFS/usr/dev/sdf4 b 8 84
+mknod $ROOTFS/usr/dev/sdg  b 8 96
+mknod $ROOTFS/usr/dev/sdg1 b 8 97
+mknod $ROOTFS/usr/dev/sdg2 b 8 98
+mknod $ROOTFS/usr/dev/sdg3 b 8 99
+mknod $ROOTFS/usr/dev/sdg4 b 8 100
+mknod $ROOTFS/usr/dev/sdh  b 8 112
+mknod $ROOTFS/usr/dev/sdh1 b 8 113
+mknod $ROOTFS/usr/dev/sdh2 b 8 114
+mknod $ROOTFS/usr/dev/sdh3 b 8 115
+mknod $ROOTFS/usr/dev/sdh4 b 8 116
+mknod $ROOTFS/usr/dev/ttyUSB0 c 188 0
+mknod $ROOTFS/usr/dev/ttyUSB1 c 188 1
+mknod $ROOTFS/usr/dev/ttyUSB2 c 188 2
+mknod $ROOTFS/usr/dev/ttyUSB3 c 188 3
+mknod $ROOTFS/usr/dev/ttyUSB4 c 188 4
+mknod $ROOTFS/usr/dev/ttyUSB5 c 188 5
+mknod $ROOTFS/usr/dev/ttyUSB6 c 188 6
+mknod $ROOTFS/usr/dev/ttyUSB7 c 188 7
+mknod $ROOTFS/usr/dev/ttyUSB8 c 188 8
+mknod $ROOTFS/usr/dev/ttyUSB9 c 188 9
+mknod $ROOTFS/usr/dev/ttyUSB10 c 188 10
+mknod $ROOTFS/usr/dev/ttyHS0 c  249 0
+mknod $ROOTFS/usr/dev/ttyHS1 c  249 1
+mknod $ROOTFS/usr/dev/ttyHS2 c  249 2
+mknod $ROOTFS/usr/dev/ttyHS3 c  249 3
+
+mknod $ROOTFS/usr/dev/bcmomcipm c 231 0
+mknod $ROOTFS/usr/dev/bcmrdpa c 251 0
+mknod $ROOTFS/usr/dev/bcm_user_tod c 248 0
+mknod $ROOTFS/usr/dev/bdmf_shell c 215 0
+mknod $ROOTFS/usr/dev/buzzz c 253 0
+mknod $ROOTFS/usr/dev/chipinfo c 246 0
+mknod $ROOTFS/usr/dev/detector c 190 0
+mknod $ROOTFS/usr/dev/epon_stack_shell c 247 0
+mknod $ROOTFS/usr/dev/ext_bonding c 255 0
+mknod $ROOTFS/usr/dev/fbond c 204 0
+mknod $ROOTFS/usr/dev/gmac c 249 0
+mknod $ROOTFS/usr/dev/laser_dev c 239 0
+mknod $ROOTFS/usr/dev/otp c 253 0
+mknod $ROOTFS/usr/dev/pcmshim0 c 217 0
+mknod $ROOTFS/usr/dev/pktrunner c 252 0
+mknod $ROOTFS/usr/dev/rgs_logger c 216 0
+mknod $ROOTFS/usr/dev/tms c 250 0
+mknod $ROOTFS/usr/dev/usblp0 -m 666 c 180 0
+mknod $ROOTFS/usr/dev/usblp1 -m 666 c 180 1
+mknod $ROOTFS/usr/dev/usblp2 -m 666 c 180 2
+mknod $ROOTFS/usr/dev/usblp3 -m 666 c 180 3
+mknod $ROOTFS/usr/dev/usblp4 -m 666 c 180 4
+mknod $ROOTFS/usr/dev/usblp5 -m 666 c 180 5
+mknod $ROOTFS/usr/dev/usblp6 -m 666 c 180 6
+mknod $ROOTFS/usr/dev/usblp7 -m 666 c 180 7
+mknod $ROOTFS/usr/dev/usblp8 -m 666 c 180 8
+mknod $ROOTFS/usr/dev/usblp9 -m 666 c 180 9
+   

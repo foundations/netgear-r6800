@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Setting Up The Proxy</title>
+  <link rel="stylesheet" href="doc-ns4.css" type="text/css" />
+  <style type="text/css">
+    @import url("doc.css");
+  </style>
+  <meta name="Author" content="Mark P. Cooke" />
+  <meta name="Version" content="$Id: setup.html,v 1.6 2003/03/27 14:39:37 mark-c Exp $" />
+</head>
+<body>
+<div class="page">
+<a href="index.html"><img src="back.gif" width="20" height="20" class="back" /></a><h1>Setting Up The Proxy</h1>
+
+<h2>Basic Requirements</h2>
+
+<p>The proxy is designed to transparently proxy and massage AIM and MSN
+messages.  To do this, -and still be able to know the original destination-,
+I use a Linux 2.4.x kernel on the firewall, built with iptables.</p>
+
+<p>Linux 2.4.x with ipchains -does not work-, as the original destination
+is not available.  Rumour has it that Linux 2.2.x with ipchains provides a
+mechanism to retrieve the original destination, but I haven't checked into
+this yet.</p>
+
+<p class="last">I have put together a basic script to setup firewalling, with a fair
+amount of hand-holding checks along the way.  It's available in CVS, and
+will be included in the fifth release.</p>
+
+<h2>Local LAN (eth0) Interface</h2>
+
+<p>The proxy expects to receive redirected AIM and MSN messages on ports
+5190 and 1863 respectively.</p>
+
+<ul>
+<li>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 5190 -j REDIRECT --to-ports 5190</li>
+<li>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 1863 -j REDIRECT --to-ports 1863</li>
+</ul>
+
+<p>If you have the firewall port restricted, you also need to allow the
+redirected connections to be received.</p>
+
+<ul>
+<li>iptables -A INPUT -i eth0 -p tcp --dport 5190 -j ACCEPT</li>
+<li>iptables -A INPUT -i eth0 -p tcp --dport 1863 -j ACCEPT</li>
+</ul>
+
+<p class="last">That's it for the inside, other than your usual rules for
+allowing other outbound connections.</p>
+
+<h2>External Network (ppp0) Interface</h2>
+
+<p>The proxy will massage the redirected AIM and MSN messages, and AIM Share,
+so that direct connections appear to be from the external IP address, on the
+port range 40000-40099.  However, this is not enough - the AIM software
+does not honour the overrides ReAim uses, so we also listen to ports
+4443 and 5566.  For good measure, we listen to the MSN port too.</p>
+
+<p>So, the very basic setup, in addition to you current ruleset, is to
+permit connections to these ports.</p>
+
+<ul>
+<li>iptables -A INPUT -i ppp0 -p tcp --dport 1863:1864   -j ACCEPT</li>
+<li>iptables -A INPUT -i ppp0 -p tcp --dport 4443        -j ACCEPT</li>
+<li>iptables -A INPUT -i ppp0 -p tcp --dport 5566        -j ACCEPT</li>
+<li>iptables -A INPUT -i ppp0 -p tcp --dport 40000:40099 -j ACCEPT</li>
+</ul>
+
+<p class="last">All done.</p>
+
+<h2>Troubleshooting</h2>
+
+<ol>
+<li>Start up with 'reaim -d' and check for obvious error messages.</li>
+<li>Check that there are no [FATAL] lines showing listenning socket errors.  This shows that reaim is listenning for connections.</li>
+<li>Connect to AIM from a machine inside your lan.  This should have [CONN_BH] and [CONN_NB] lines creating and establishing connections.  This shows your firewall is redirecting correctly.</li>
+<li>If reaim takes 100% cpu during step 3, it is likely you have redirected reaim back to itself.  Check you can 'telnet login.oscar.aol.com 5190' from the firewall without reaim running.</li>
+<li>With reaim running, try a direct connect to a friend who is not behind a firewall.  If this fails, check the incoming firewall rules are allowing connections as shown above.</li>
+<li>Try a file transfer, instead of a direct connect.</li>
+<li>Report a possible bug, with versions of clients, network setups, etc.</li>
+</ol>
+<p class="last"></p>
+
+<br>
+<center><A href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=40800" width="88" height="31" border="0" alt="SourceForge Logo"></A></center>
+
+</div>
+</body>
+</html>

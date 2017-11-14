@@ -1,0 +1,11 @@
+utf8.lo: utf8.c config.h global.h id3tag.h utf8.h ucs4.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+utf8.h:
+
+ucs4.h:

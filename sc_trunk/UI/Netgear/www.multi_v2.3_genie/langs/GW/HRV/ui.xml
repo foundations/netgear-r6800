@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation>Sljedeće</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Cancel</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Da</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>No</translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP adresa</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP Subnet Mask</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Primary DNS</translation>
+<variable>Primary DNS</variable>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Secondary DNS</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Prijava</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Firmware Upgrade Assistant</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Firmware Version Check</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Natrag</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Setup Wizard</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Wireless Settings</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Bežično</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Connection Type</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Maska podmreže</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Zadani pristupnik</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Pokušaj ponovo</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>No new firmware version available.</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynamic IP (DHCP) detected</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>The Smart Setup Wizard can detect the type of Internet connection that you have.</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Do you want the Smart Setup Wizard to try and detect the connection type now?</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>No. I want to configure the router myself.</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Provjerite jesu li kabelske veze ispravne. Upute potražite u priručniku za instalaciju usmjerivača.</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Provjerite je li napajanje širokopojasnog modema ispravno isključeno i ponovo uključeno. Ako vaš modem ima rezervno baterijsko napajanje, izvadite i ponovo umetnite bateriju kako biste isključili i ponovo uključili napajanje modema.</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(format AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*=obavezne informacije</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>”1.  Napajanje modema nije isključeno i uključeno tijekom postupka kabliranja.”;</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Žuti Ethernet kabel nije do kraja umetnut ili nije umetnut u ispravan priključak.</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>MAC adresa je jedinstven broj.  MAC adresu računala ili usmjerivača možete pronaći na oznaci proizvoda.</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Nakon što provjerite Ethernet kabel, pritisnite &lt;b&gt;Pokušaj ponovo&lt;/b&gt;.</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Alternativni DNS poslužitelj</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Odgovor</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Primjena postavki internetske veze</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Natrag</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Pronađite datoteku sigurnosne kopije postavki usmjerivača koju ste ranije spremili i za nastavak pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;.</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Provjerava se internetska veza, pričekajte …</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Pritisnite ovdje</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Konfigurira se internetska veza</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Čestitamo!</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>ID/naziv veze</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Nastavi</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>U tijeku je prepoznavanje internetske veze</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Je li vam vaš davatelj internetskih usluga (ISP) dodijelio fiksnu (statičku) IP adresu? To je &lt;b&gt;vrlo rijetka&lt;/b&gt; posebna primjena. </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Želite li da vam značajka NETGEAR Genie pomogne?</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Želite li da značajka NETGEAR Genie pokuša ponovo?</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Omogući oporavak lozinke</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Unesite fiksne IP postavke koje vam je dodijelio vaš davatelj internetskih usluga i za nastavak pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;.</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Ovdje unesite MAC adresu.</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>U nastavku unesite potrebne podatke.</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>U nastavku unesite potrebne podatke.</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Neuspjeh</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Fiksne internetske IP postavke</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>IP adresa pristupnika</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>“Ispravio sam problem s Ethernet kabelom.”;</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Ne znam. </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Spremio sam postavke usmjerivača u datoteku i želim usmjerivač ponovo postaviti na te vrijednosti.</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Isključio sam i uključio napajanje modema, nakon čega sam pričekao 2 minute.</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Sam ću konfigurirati internetsku vezu.</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Ako ste se ranije povezali s internetskom uslugom putem računala ili drugog usmjerivača, značajka NETGEAR Genie može koristiti istu MAC koja je ranije radila.</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Važno ažuriranje</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>U kojem je gradu rođen vaš otac?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>U kojem je gradu rođena vaša majka?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>U kojem ste gradu rođeni?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>Koje ste godine (GGGG) završili srednju školu?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Neispravno ISP korisničko ime ili lozinka</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Provjerite je li kabel ispravno priključen i na priključak širokopojasnog modema i na internetski priključak usmjerivača.</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Moja IP adresa</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problem s mrežnom vezom</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>mrežni ključ (lozinka)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>mrežni ključ (lozinka)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Sljedeće</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Na internetski priključak usmjerivača nije priključen Ethernet kabel.</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Ne, od svog davatelja internetskih usluga nisam dobio fiksnu (statičku) IP adresu.</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Ne, sam ću konfigurirati internetsku vezu.</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>“Ništa od navedenog.”;</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Lozinka</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Pregledajte sljedeće stavke.</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Pričekajte...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>Pronađena je PPPoE DSL internetska veza</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>Pronađena je PPTP internetska veza</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Preferirani DNS poslužitelj</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Ispiši</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Došlo je do problema prilikom prepoznavanja internetske veze - IP adresa</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Došlo je do problema prilikom prepoznavanja internetske veze - MAC adresa</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Došlo je do problema prilikom prepoznavanja internetske veze</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Vraćanje postavki usmjerivača </translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Vraćanje postavki usmjerivača</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Verzija programskih datoteka usmjerivača</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Sigurnosno pitanje br.1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Sigurnosno pitanje br.2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Odaberite pitanje</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Za nastavak odaberite opciju i pritisnite &lt;b&gt;Sljedeće&lt;/b&gt;.</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Adresa poslužitelja</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Prebaci me na Internet</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Usmjerivač se ne može povezati s Internetom pomoću trenutnih postavki.</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Razlog je vjerojatno nešto od sljedećeg:</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Postupak može potrajati nekoliko minuta; pričekajte...</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Ovaj postupak može potrajati minutu ili dvije; pričekajte...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Na ovom usmjerivaču unaprijed je postavljen sljedeći jedinstveni naziv bežične mreže (SSID) i </translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Ovaj zaslon automatski će se za nekoliko sekundi vratiti na prethodni zaslon...</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Kako bi se izbjegla neusklađenost s davateljem internetskih usluga, IP adresa vašeg usmjerivača ažurirana je na </translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>”Kako biste riješili ovaj problem, provjerite je li žuti Ethernet kabel ispravno umetnut i priključak širokopojasnog modema i internetski priključak na usmjerivaču.”;</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>, </translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Pokušaj ponovo</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Korisničko ime</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Možemo vam pomoći pri oporavku administratorske lozinke usmjerivača. Unesite informacije u nastavku i pritisnite &lt;b&gt;Nastavi&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Kako se zove vaš prvi poslodavac?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Kako se zove vaš najbolji prijatelj?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Koje je srednje ime vašeg oca?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Kako se zove vaš djed?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Kako se zove vaša baka?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Koje je srednje ime vaše majke?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Kako se zove vaš najstariji brat?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Kako se zove vaša najstarija sestra?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Kako se zove vaš najmlađi brat?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Kako se zove vaša najmlađa sestra?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Kako se zove vaš prvi šef?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Koji ste NETGEAR proizvod prvi kupili?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Kako se zove prva škola koju ste pohađali?</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Naziv bežične mreže (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Bežično</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Da</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Da. Moj ISP dodijelio mi je fiksnu (statičku) IP adresu.</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Još niste povezani s Internetom.</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Uspješno ste uspostavili vezu s Internetom.</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Na vašem usmjerivaču unaprijed je postavljena WPA2-PSK bežična zaštita koja vas štiti od neovlaštenog pristupa. Za pristup mreži morate unijeti mrežni ključ (lozinku). Unaprijed određene postavke jedinstvene su za ovaj uređaj, poput serijskog broja.  Ako ih želite promijeniti, to možete učiniti kasnije na zaslonu Postavke bežične mreže u web korisničkom sučelju usmjerivača.</translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Zaštita bežične mreže nije omogućena na ovom usmjerivaču. NETGEAR vam preporučuje</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>kako biste omogućili zaštitu bežične mreže i na taj način osigurali sigurnost mreže.</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Auto-Detect</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Za nastavak pritisnite "Sljedeće".</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP Mode</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Prethodno</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Preuzmi sljedeće aplikacije za usmjerivač:</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Aplikacija Genie. Osobna upravljačka ploča koja omogućava nadziranje, kontrolu i popravak kućne mreže.</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>Aplikacija ReadySHARE Vault (samo za računala s operacijskim sustavom Windows). Omogućava automatsko kontinuirano sigurnosno kopiranje podataka s računala s operacijskim sustavom Windows na USB pogon koji je povezan s vašim usmjerivačem.</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Preuzimanje…</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Nakon dovršetka preuzimanja instaliraj aplikaciju Genie.</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Kako biste dovršili konfiguriranje usmjerivača, nakon instalacije aplikacije Genie pritisnite gumb Sljedeće.</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Nakon dovršetka preuzimanja instaliraj aplikaciju ReadySHARE Vault.</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Kako biste dovršili konfiguriranje usmjerivača, nakon instalacije aplikacije ReadySHARE Vault pritisnite gumb Sljedeće.</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Zahtjev se obrađuje…</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Nakon instalacije pritisnite Sljedeće.</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Sustav će instalirati</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Pritisnite Pokreni kako biste pokrenuli instalaciju</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>Firmware Upgrade Assistant</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>Upgrading Router Firmware now. Please Wait</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>Note: It will take about</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>Please wait ...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Cancel</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>The router is downloading the new version now. Please wait...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>A new version has been found. Do You want to upgrade to the new version now?</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Current Version</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>New Firmware Version</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>Ovaj postupak može potrajati minutu ili dvije; pričekajte...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>Firmware Version Check</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>No new firmware version available.</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>OK</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>Provjeravaju se postavke vaše mreže, pričekajte…</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>Na vašoj mreži prepoznat je postojeći usmjerivač ili pristupnik</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Vaš NETGEAR usmjerivač povezan je s mrežom na kojoj već postoji drugi usmjerivač. Ako želite napustiti prvi priključeni usmjerivač, genie preporuča da za NETGEAR usmjerivač koristite način rada pristupne točke. Kada NETGEAR usmjerivač koristi način rada pristupne točke možete ga koristiti za pridruživanje mreži, a drugi usmjerivač može nastaviti izvršavati mrežne zadatke koje je ranije izvršavao.</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Želite li ovaj uređaj postaviti na način rada pristupne točke</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>Da (preporučeno)</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>Ne, želim ga pokrenuti u zadanom načinu rada kao usmjerivač</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>Dodavanje ovog usmjerivača u mrežu u načinu rada s pristupnom točkom</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>IP adresa novog uređaja</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>Dinamički dohvati IP adresu s postojećeg usmjerivača</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>Koristi fiksnu IP adresu (ne preporučuje se)</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>Napomena: Kada pritisnete Sljedeće, ovom usmjerivaču dodijelit će se nova IP adresa. U tom trenutku vaš preglednik mogao bi izgubiti vezu s mrežom. Kako biste ponovo uspostavili vezu s usmjerivačem, zatvorite prozor i ponovo pokrenite preglednik.</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>Način usmjerivača</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>Način pristupne točke</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>Saznajte više</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>Upozorenje</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>Novi NETGEAR usmjerivač postavit ćete u načinu pristupne točke. Može doći do kratkog prekida u radu mreže jer NETGEAR usmjerivač i klijent moraju pribaviti novu IP adresu s postojećeg usmjerivača. Ako izgubite mrežnu vezu, NETGEAR usmjerivač možete povezati ručno tako da posjetite &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>Sljedeće funkcije usmjerivača neće biti dostupne ako odaberete način pristupne točke:</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>Roditeljska kontrola</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>Block sites</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>Block services</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>Port forwarding</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>Port triggering</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>Static route</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>Traffic meter</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>Remote management</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>Guest network</translation>
+<variable>Guest network</variable>
+</message>
+
+<message>
+<tag_code>4459</tag_code>
+<translation>Izgleda da NETGEAR usmjerivač instalirate iza postojećeg Wi-Fi usmjerivača ili pristupnika dobavljača internetskih usluga. Usmjerivač možete instalirati u različitim načinima rada.</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>Odabrat ću sam</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>Pomozi mi pri odabiru</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>genie će vam postaviti nekoliko pitanja, a zatim vam predložiti način rada koji vam najbolje odgovara.</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(Način rada u bilo kojem trenutku možete promijeniti tako da ponovo pokrenete Čarobnjak za postavljanje.)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(Pritisnite ovdje za prikaz ilustracije.)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>Ovaj način rada omogućuje vam da iskoristite funkcije  NETGEAR&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt; usmjerivača.&lt;/a&gt; NETGEAR usmjerivač postavlja se kao uobičajeni Wi-Fi usmjerivač iza postojećeg usmjerivača ili pristupnika. Za ovaj način rada svi vaši uređaji moraju se povezati s NETGEAR usmjerivačem, a ne s postojećim pristupnikom.</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>Ovaj način rada prikladan je za jednostavno postavljanje ako su uređaji već povezani s postojećim usmjerivačem ili pristupnikom ili ako pomoću novog NETGEAR usmjerivača samo želite proširiti pokrivenost Wi-Fi mrežom. Neke &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funkcije usmjerivača&lt;/a&gt; neće biti dostupne u načinu pristupne točke.</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>Funkcije usmjerivača</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>Kontrola pristupa</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>Napredne funkcije</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>Prosljeđivanje priključka (naziva se i mapiranje priključka) omogućuje vam da kućnoj mreži pristupite putem interneta. Ako kod kuće imate uređaj kao što je web-poslužitelj kojem drugi korisnici pristupaju pomoću registriranog naziva glavnog računala (obično putem dinamičke DNS usluge) ili pomoću IP adrese, vjerojatno ste omogućili funkciju prosljeđivanja priključka. Ako nikada niste čuli za tu funkciju, čak i ako imate daljinski pristup kućnom uređaju, vjerojatno ne koristite ovu funkciju.</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>Usporedba usmjerivača i pristupne točke</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>genie je prepoznao da novi NETGEAR usmjerivač pokušavate instalirati iza drugog pristupnika, na primjer, DSL ili kabelskog pristupnika koji ste dobili od davatelja internetskih usluga. Pristupnik se obično koristi i za Wi-Fi ili Voice over Internet (VoIP) funkcije. NETGEAR usmjerivač možete instalirati u dva različita načina rada.</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>U ovom načinu rada NETGEAR usmjerivač konfigurirat će se kao uobičajeni Wi-Fi usmjerivač iza vašeg pristupnika te će iza pristupnika napraviti zasebnu Wi-Fi mrežu. Kako biste iskoristili sve napredne značajke ovog usmjerivača, NETGEAR preporuča da koristite način usmjerivača. U načinu usmjerivača s vašim postojećim pristupnikom može se povezati samo vaš novi NETGEAR usmjerivač. Svi ostali uređaji moraju se povezati s novim NETGEAR usmjerivačem. Ako postojeći pristupnik ima Wi-Fi funkciju, onemogućite je.</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>Neke &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;napredne funkcije&lt;/a&gt; kao što su daljinsko upravljanje trebaju se i dalje konfigurirati na pristupniku. Dodatne informacije potražite u dokumentaciji pristupnika.</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>Ako pomoću novog usmjerivača želite poboljšati značajke Wi-Fi mreže preko postojećeg pristupnika, to najjednostavnije možete ostvariti u načinu pristupne točke. NETGEAR preporučuje da na postojećem pristupniku onemogućite Wi-Fi funkciju ako na pristupniku postoji Wi-Fi funkcija. U ovom načinu rada s pristupnikom možete povezati žične uređaje, a s novim NETGEAR usmjerivačem možete povezati žične i Wi-Fi uređaje.</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>U ovom načinu rada IP adresu novog usmjerivača prema zadanim postavkama dinamički dodjeljuje vaš pristupnik i ona vjerojatno neće biti 192.168.1.1. I dalje, međutim, možete koristiti URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; kako biste pristupili korisničkom sučelju za upravljanje usmjerivačem putem uređaja koji je povezan s usmjerivačem. Neke &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funkcije usmjerivača&lt;/a&gt; nisu dostupne u ovom načinu rada te, ako želite koristiti te funkcije, morate upotrijebiti način usmjerivača.</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>Sljedeće funkcije usmjerivača dostupne su samo u načinu usmjerivača, no zahtijevaju konfiguraciju na postojećem pristupniku:</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>VPN prekid</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>Omogući način rada s pristupnom točkom</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>Kako bi način usmjerivača ispravno radio, sve Wi-Fi i žične uređaje morate povezati s NETGEAR usmjerivačem, osim opreme koju ste dobili od davatelja internetskih usluga, primjerice TV set-top box uređaja ili bežičnog telefona koji je povezan s pristupnikom.</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>Možete li sve ostale uređaje (žične i bežične) iskopčati iz postojećeg pristupnika i povezati ih s NETGEAR usmjerivačem?</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>NETGEAR preporuča da novi usmjerivač postavite u načinu usmjerivača.</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>Način usmjerivača omogućuje vam da koristite napredne značajke NETGEAR usmjerivača. Ako kasnije poželite promijeniti način rada, u bilo kojem trenutku možete ponovo pokrenuti Čarobnjak za postavljanje.</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+
+<message>
+<tag_code>4485</tag_code>
+<translation>Naziv bežične mreže od 2,4 GHz (SSID): </translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>Lozinka bežične mreže od 2,4 GHz (mrežni ključ): </translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>Naziv bežične mreže od 5 GHz (SSID): </translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>Lozinka bežične mreže od 5 GHz (mrežni ključ): </translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>Ključ bežične mreže (lozinka)</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>UPOZORENJE: Gumb &lt;b&gt;Završi&lt;/b&gt; nemojte pritiskati sve dok uređaj ponovo ne povežete s usmjerivačem.</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&lt;/b&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>Završi</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>Promijenjene su postavke bežične mreže ovog usmjerivača. Za ponovno povezivanje uređaja s usmjerivačem upotrijebite sljedeći naziv bežične mreže (SSID) i mrežni ključ (lozinku), a zatim pritisnite gumb &lt;b&gt;Završi&lt;/b&gt; koji se nalazi u nastavku kako biste dovršili instalaciju.</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>NETGEAR preporučuje da onemogućite Wi-Fi na postojećem pristupniku kako biste izbjegli sljedeće probleme:</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>Slučajno povezivanje s postojećim pristupnikom umjesto s novim NETGEAR usmjerivačem</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>Smetnje između NETGEAR usmjerivača i Wi-Fi mreže postojećeg pristupnika</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>Kako ne bi došlo do Wi-Fi smetnji koje mogu negativno utjecati na rad Wi-Fi mreže, NETGEAR preporučuje da onemogućite Wi-Fi na postojećem pristupniku</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>Možete li onemogućiti Wi-Fi na postojećem pristupniku?</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>Kopirajte trenutne Wi-Fi postavke s postojećeg pristupnika i unesite ih ovdje. Zatim onemogućite Wi-Fi na postojećem pristupniku.</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>Kako se Wi-Fi uređaji ne bi povezivali s postojećim pristupnikom, za povezivanje svih Wi-Fi uređaja s usmjerivačem koristite sljedeći naziv (SSID) i lozinku (mrežni ključ).</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Zaštita administratorskom lozinkom</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Upozorenje: izričito preporučamo da omogućite Zaštitu administratorskom lozinkom kako biste zaštitili svoje ReadySHARE podatke. Ako niste promijenili zadanu administratorsku lozinku, preporučamo vam i da je promijenite kako biste zaštitili svoju mrežu.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Postavke administratorskog računa</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Administratorska lozinka upotrebljava se za prijavu na web-sučelje usmjerivača. Promijenite administratorsku lozinku kako biste zaštitili svoju mrežu.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Nova lozinka</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Potvrdi novu lozinku</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Korisničko ime administratora usmjerivača:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Lozinka administratora usmjerivača:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Vraćanje postavki usmjerivača:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>Trenutna mreža</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>genie je prepoznao da za internetsku vezu koristite pristupnik. Ako želite iskoristiti sve funkcije novog usmjerivača, NETGEAR preporuča da koristite način usmjerivača. genie vam mora postaviti nekoliko pitanja kako bismo provjerili odgovara li vam način usmjerivača.</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>Koristite li na postojećem pristupniku &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;napredne funkcije&lt;/a&gt; kao što je &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;prosljeđivanje ulaza&lt;/a&gt; &#40;naziva se i mapiranjem ulaza&#41; te dodjeljujete li statičku IP adresu uređaju na kućnoj mreži? Te funkcije obično koriste napredni korisnici. Ako niste upoznati s tim funkcijama, odaberite &lt;b&gt;Ne&lt;/b&gt; jer ih vjerojatno ne koristite.</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>NETGEAR preporuča da novi usmjerivač postavite u načinu pristupne točke jer u tom slučaju ne morate mijenjati konfiguraciju pristupnika.</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>Ako ste napredni korisnik i znate konfigurirati pristupnik kako bi on podržavao neke od naprednih funkcija, možete pritisnuti gumb &lt;b&gt;Natrag&lt;/b&gt; i NETGEAR usmjerivač konfigurirati u načinu usmjerivača.</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>

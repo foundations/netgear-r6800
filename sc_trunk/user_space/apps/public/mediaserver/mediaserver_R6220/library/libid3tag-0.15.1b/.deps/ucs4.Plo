@@ -1,0 +1,15 @@
+ucs4.lo: ucs4.c config.h global.h id3tag.h ucs4.h latin1.h utf16.h utf8.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+ucs4.h:
+
+latin1.h:
+
+utf16.h:
+
+utf8.h:

@@ -1,0 +1,11 @@
+latin1.lo: latin1.c config.h global.h id3tag.h latin1.h ucs4.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+latin1.h:
+
+ucs4.h:

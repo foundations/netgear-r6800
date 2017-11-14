@@ -1,0 +1,92 @@
+    H1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 17pt;
+	text-align: right;
+	color: black;
+	background-color: white;
+	padding-left:  6px;
+	padding-right: 6px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	margin-bottom: 4px;
+    }
+
+    H2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: left;
+	color: white;
+        background-image:       url("clear.gif");
+        background-repeat:      no-repeat;
+        background-position:    100% 0%;
+	background-color: rgb(51, 102, 153);
+	padding-left: 10px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	border-style: none;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+    }
+
+    DIV.page {
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	background-image: url("white.gif");
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+       }
+
+    A:link {
+	color: rgb(0, 0, 255);
+	background-color: transparent;
+	}
+
+    A:visited {
+	color: rgb(0, 0, 128);
+	background-color: transparent;
+	}
+
+    A:active {
+	color: rgb(255, 0, 0);
+	background-color: transparent;
+	}
+
+    BODY {
+	color: rgb(0,0,0);
+	background-color: rgb(102, 153, 153);
+    }
+
+    P {
+	text-align: justify;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+    }
+
+    IMG.back {
+	float: left;
+	border-style: none;
+	margin-left: 3px;
+	margin-right: 3px;
+    }

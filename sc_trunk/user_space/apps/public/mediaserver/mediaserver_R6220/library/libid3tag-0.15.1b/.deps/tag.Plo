@@ -1,0 +1,30 @@
+tag.lo: tag.c config.h global.h id3tag.h tag.h frame.h compat.h parse.h \
+ render.h latin1.h ucs4.h genre.h crc.h field.h util.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+tag.h:
+
+frame.h:
+
+compat.h:
+
+parse.h:
+
+render.h:
+
+latin1.h:
+
+ucs4.h:
+
+genre.h:
+
+crc.h:
+
+field.h:
+
+util.h:

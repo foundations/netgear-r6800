@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<message>
+		<err_code>1</err_code>
+		<translation> ei voi olla tyhjä.[NEL]</translation>
+		<variable>gsm_msg_blank</variable>
+	</message>
+	<message>
+		<err_code>2</err_code>
+		<translation>Tyhjää tai välilyöntejä ei sallita kohteessa</translation>
+		<variable>gsm_msg_space</variable>
+	</message>
+	<message>
+		<err_code>3</err_code>
+		<translation>Tyhjää ei sallita kohteessa</translation>
+		<variable>gsm_msg_blank_in</variable>
+	</message>
+	<message>
+		<err_code>4</err_code>
+		<translation>Virheellisiä merkkejä kohteessa</translation>
+		<variable>gsm_msg_invalid</variable>
+	</message>
+	<message>
+		<err_code>5</err_code>
+		<translation>sisältää virheellisen numeron.</translation>
+		<variable>gsm_msg_check_invalid</variable>
+	</message>
+	<message>
+		<err_code>8</err_code>
+		<translation>%s is out of range [%s ~ %s]</translation>
+		<variable>gsm_msg_outofrange</variable>
+	</message>
+	<message>
+		<err_code>9</err_code>
+		<translation>Virheellisiä merkkejä kohteessa</translation>
+		<variable>gsm_msg_invalid2</variable>
+	</message>
+	<message>
+		<err_code>10</err_code>
+		<translation>Ensimmäinen</translation>
+		<variable>gsm_msg_first</variable>
+	</message>
+	<message>
+		<err_code>11</err_code>
+		<translation>Toinen</translation>
+		<variable>gsm_msg_second</variable>
+	</message>
+	<message>
+		<err_code>12</err_code>
+		<translation>Kolmas</translation>
+		<variable>gsm_msg_third</variable>
+	</message>
+	<message>
+		<err_code>13</err_code>
+		<translation>Neljäs</translation>
+		<variable>gsm_msg_fourth</variable>
+	</message>
+	<message>
+		<err_code>25</err_code>
+		<translation>Käyttäjätunnus</translation>
+		<variable>gsm_msg_un</variable>
+	</message>
+	<message>
+		<err_code>26</err_code>
+		<translation>Salasana</translation>
+		<variable>gsm_msg_pw</variable>
+	</message>
+	<message>
+		<err_code>27</err_code>
+		<translation>Langattoman verkon nimi (SSID)</translation>
+		<variable>gsm_msg_ssid</variable>
+	</message>
+	<message>
+		<err_code>28</err_code>
+		<translation>Tarkista langattoman työaseman käyttöoppaasta ja pakkauksesta, tukeeko se WPS-toimintoa.</translation>
+		<variable>gsm_msg_wlpw</variable>
+	</message>
+	<message>
+		<err_code>29</err_code>
+		<translation>Käyttäjätunnus ei voi olla tyhjä.</translation>
+		<variable>gsm_msg_username_blank</variable>
+	</message>
+	<message>
+		<err_code>30</err_code>
+		<translation>Salasana ei voi olla tyhjä.</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>31</err_code>
+		<translation>user name can only be letter or number!</translation>
+		<variable>gsm_msg_username_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>32</err_code>
+		<translation>password can only be letter or number!</translation>
+		<variable>gsm_msg_passwd_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>33</err_code>
+		<translation>on jo olemassa</translation>
+		<variable>gsm_msg_user_exist</variable>
+	</message>
+	<message>
+		<err_code>34</err_code>
+		<translation>Kirjoittamasi salasana ei ole sama. Anna se uudelleen.</translation>
+		<variable>gsm_msg_nomatch_pwd</variable>
+	</message>
+	<message>
+		<err_code>35</err_code>
+		<translation>group name can only be letter or number!</translation>
+		<variable>gsm_msg_groupname_only_letterornumber</variable>
+	</message>
+	<message>
+		<err_code>36</err_code>
+		<translation>group exist!</translation>
+		<variable>gsm_msg_group_exist</variable>
+	</message>
+	<message>
+		<err_code>37</err_code>
+		<translation>group name is blank!</translation>
+		<variable>gsm_msg_group_blank</variable>
+	</message>
+	<message>
+		<err_code>38</err_code>
+		<translation>Verkon/laitteen nimi</translation>
+		<variable>gsm_msg_network_name</variable>
+	</message>
+	<message>
+		<err_code>39</err_code>
+		<translation>Työryhmä</translation>
+		<variable>gsm_msg_workgroup</variable>
+	</message>
+	<message>
+		<err_code>40</err_code>
+		<translation>Access Port</translation>
+		<variable>gsm_msg_shr_fld_port</variable>
+	</message>
+	<message>
+		<err_code>41</err_code>
+		<translation>Jaettava kansio</translation>
+		<variable>gsm_msg_share_folder</variable>
+	</message>
+	<message>
+		<err_code>42</err_code>
+		<translation>Jaetun aseman nimi</translation>
+		<variable>gsm_msg_share_name</variable>
+	</message>
+	<message>
+		<err_code>43</err_code>
+		<translation>Virheellinen avain.[NEL][NEL]Avaimen pituuden on oltava 10 heksadesimaalimerkkiä (0~9 ja A~F)</translation>
+		<variable>gsm_msg_key64_type</variable>
+	</message>
+	<message>
+		<err_code>44</err_code>
+		<translation>Virheellinen avain.[NEL][NEL]Avaimen pituuden on oltava 26 heksadesimaalimerkkiä (0~9 ja A~F)</translation>
+		<variable>gsm_msg_key128_type</variable>
+	</message>
+	<message>
+		<err_code>45</err_code>
+		<translation>Virheellinen avain.[NEL][NEL]Avaimen pituuden on oltava 10 heksadesimaalimerkkiä (0~9 ja A~F)</translation>
+		<variable>gsm_msg_key64_atype</variable>
+	</message>
+	<message>
+		<err_code>46</err_code>
+		<translation>Virheellinen avain.[NEL][NEL]Avaimen pituuden on oltava 26 heksadesimaalimerkkiä (0~9 ja A~F)</translation>
+		<variable>gsm_msg_key128_atype</variable>
+	</message>
+	<message>
+		<err_code>47</err_code>
+		<translation>VAROITUS: väärän alueen valitseminen voi johtaa sovellettavien lakien loukkaamiseen. [NEL]Sitoudutko noudattamaan näitä asetuksia?</translation>
+		<variable>gsm_msg_change_wl_region</variable>
+	</message>
+	<message>
+		<err_code>48</err_code>
+		<translation>Varoitus! Uudelleenkäynnistys katkaisee kaikki reitittimen nykyiset yhteydet (esimerkiksi tämän) tai reitittimen kautta kulkevat yhteydet (esimerkiksi lähiverkon Internet-yhteydet)</translation>
+		<variable>gsm_msg_restart</variable>
+	</message>
+	<message>
+		<err_code>49</err_code>
+		<translation>VIRHEENKORJAUS</translation>
+		<variable>gsm_msg_pub_debug</variable>
+	</message>
+	<message>
+		<err_code>50</err_code>
+		<translation>(Valittu luettelo) sisältää virheellisen arvon</translation>
+		<variable>gsm_msg_pub_inv_sel</variable>
+	</message>
+	<message>
+		<err_code>51</err_code>
+		<translation>Valitaan sen sijaan 1. kohde</translation>
+		<variable>gsm_msg_pub_1st_instead</variable>
+	</message>
+	<message>
+		<err_code>54</err_code>
+		<translation>Vahvista salasana uudelleen</translation>
+		<variable>gsm_msg_pub_re_cfm_pw</variable>
+	</message>
+	<message>
+		<err_code>55</err_code>
+		<translation>Päättävä portti -arvon on oltava suurempi tai yhtä suuri kuin Aloittava portti -arvo.</translation>
+		<variable>gsm_msg_pub_port_range</variable>
+	</message>
+	<message>
+		<err_code>56</err_code>
+		<translation>Tallensitko tämän sivun?</translation>
+		<variable>gsm_msg_pub_cfm_save</variable>
+	</message>
+	<message>
+		<err_code>57</err_code>
+		<translation>Langattoman verkon suojausasetukset WPA-PSK (TKIP), WPA2-PSK (AES) ja WPA-PSK (TKIP) + WPA-PSK (AES) eivät ole käytettävissä, jos otat käyttöön langattoman toistotoiminnon. [NEL]Muuta suojausasetuksia, ennen kuin otat käyttöön langattoman toistotoiminnon. </translation>
+		<variable>gsm_msg_wds_sec_opt</variable>
+	</message>
+	<message>
+		<err_code>58</err_code>
+		<translation>Langatonta toistotoimintoa ei voi käyttää automaattisen kanavan kanssa.[NEL]Muuta kanava-asetuksia, ennen kuin otat käyttöön langattoman toistotoiminnon. </translation>
+		<variable>gsm_msg_wds_auto_no_rpt</variable>
+	</message>
+	<message>
+		<err_code>61</err_code>
+		<translation>Ottaminen käyttöön tai peruuttaminen Tallenna uudet asetukset reitittimeen valitsemalla Käytä. Hylkää tallentamattomat muutokset napsauttamalla Peruuta-painiketta.</translation>
+		<variable>gsm_msg_wds_update_only</variable>
+	</message>
+	<message>
+		<err_code>62</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_wds_inv_ip_range</variable>
+	</message>
+	<message>
+		<err_code>63</err_code>
+		<translation>Jos haluat määrittää laitteen toistimeksi, määritä laitteelle uusi IP-osoite. Tämän jälkeen voit määrittää tämän laitteen vastaisuudessa tällä uudella IP-osoitteella.</translation>
+		<variable>gsm_msg_wds_set_new_ip</variable>
+	</message>
+	<message>
+		<err_code>64</err_code>
+		<translation>PIN on merkkijono, jossa on 4 tai 8 numeroa.</translation>
+		<variable>gsm_msg_wds_pin_format</variable>
+	</message>
+	<message>
+		<err_code>65</err_code>
+		<translation>PIN-koodin tarkistussumma ei ole oikein. Tarkista PIN uudelleen.[NEL]</translation>
+		<variable>gsm_msg_wds_inv_pin</variable>
+	</message>
+	<message>
+		<err_code>66</err_code>
+		<translation>Liian lyhyt salasana. Salasanan on oltava vähintään 8 merkkiä pitkä.</translation>
+		<variable>gsm_msg_wls_inv_phrase_char</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>IP-osoitteen on oltava samassa aliverkossa LAN-IP-osoitteen tai WAN-IP-osoitteen kanssa.</translation>
+		<variable>gsm_msg_wls_inv_radius_ip</variable>
+	</message>
+	<message>
+		<err_code>67</err_code>
+		<translation>RADIUS-palvelimen portin on oltava [1 - 65535].</translation>
+		<variable>gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>68</err_code>
+		<translation>Avaimen enimmäispituus on </translation>
+		<variable>gsm_msg_wls_max_key_length_1</variable>
+	</message>
+	<message>
+		<err_code>69</err_code>
+		<translation> merkkiä.</translation>
+		<variable>gsm_msg_wls_max_key_length_2</variable>
+	</message>
+	<message>
+		<err_code>70</err_code>
+		<translation>Langatonta toistotoimintoa ei voi käyttää automaattisen kanavan kanssa.[NEL]Muuta kanava-asetuksia, ennen kuin otat käyttöön langattoman toistotoiminnon. </translation>
+		<variable>gsm_msg_wls_no_auto_channel</variable>
+	</message>
+	<message>
+		<err_code>71</err_code>
+		<translation>Virheellinen laitteen nimi.</translation>
+		<variable>gsm_msg_wls_inv_dev_name</variable>
+	</message>
+	<message>
+		<err_code>72</err_code>
+		<translation>Virheellinen MAC-osoite.</translation>
+		<variable>gsm_msg_wls_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>73</err_code>
+		<translation>Salasanan enimmäispituus on 32 merkkiä.</translation>
+		<variable>gsm_msg_wls_max_pw</variable>
+	</message>
+	<message>
+		<err_code>75</err_code>
+		<translation>WEP-suojaus, jossa käytetään automaattista jaetun avaimen todennusta, ei toimi WPS:n kanssa. WPS ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wls_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>76</err_code>
+		<translation>WPA/WPA2 Enterprise -suojaus ei toimi WPS-määrityksen kanssa. WPS-määritys ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wls_wpax_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>77</err_code>
+		<translation>WPA/WPA2 Enterprise -suojaus ei toimi WPS-määrityksen kanssa. WPS-määritys ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wls_wpa2x_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>78</err_code>
+		<translation>WPA/WPA2 Enterprise -suojaus ei toimi WPS-määrityksen kanssa. WPS-määritys ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wls_wpa_mix_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>79</err_code>
+		<translation>WEP-suojaus, jossa käytetään automaattista jaetun avaimen todennusta, ei toimi WPS:n kanssa. WPS ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wls_open_wep_conflict_wds</variable>
+	</message>
+	<message>
+		<err_code>80</err_code>
+		<translation>Click on [Save] if you only want to update the settings. Click [Apply] if you want to activate the new settings. [NEL][NEL]If you would like to set other SSIDs, please click [Save].[NEL][NEL]If this is the only SSID you want to modify, click [Apply] to ac</translation>
+		<variable>gsm_msg_wls_cfm_ssid_apply</variable>
+	</message>
+	<message>
+		<err_code>81</err_code>
+		<translation>RADIUS-palvelimen IP-osoite:</translation>
+		<variable>gsm_msg_wls_sever_name_ip</variable>
+	</message>
+	<message>
+		<err_code>82</err_code>
+		<translation>Nimi</translation>
+		<variable>gsm_msg_wls_name</variable>
+	</message>
+	<message>
+		<err_code>83</err_code>
+		<translation>RADIUS-palvelimen portti:</translation>
+		<variable>unknown_gsm_msg_wls_radius_port</variable>
+	</message>
+	<message>
+		<err_code>84</err_code>
+		<translation>Jaettu avain</translation>
+		<variable>gsm_msg_wls_shared_key</variable>
+	</message>
+	<message>
+		<err_code>85</err_code>
+		<translation>Liian lyhyt salasana. Salasanan on oltava vähintään 8 merkkiä pitkä.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_8</variable>
+	</message>
+	<message>
+		<err_code>86</err_code>
+		<translation>Automaattinen</translation>
+		<variable>gsm_msg_wls_auto</variable>
+	</message>
+	<message>
+		<err_code>87</err_code>
+		<translation>Valitse oikea alue sijaintisi mukaan.</translation>
+		<variable>gsm_msg_wls_inv_region</variable>
+	</message>
+	<message>
+		<err_code>88</err_code>
+		<translation>Salasana koostuu joko 8~63 ASCII-merkistä tai täsmälleen 64 heksadesimaaliluvusta. Heksadesimaaliluku on jokin näistä merkeistä: 0, 1, 2, ..., 8, 9, A, B, C, D, E, F.</translation>
+		<variable>gsm_msg_wls_passphrase_limit</variable>
+	</message>
+	<message>
+		<err_code>89</err_code>
+		<translation>Lohkomispituusarvo ei ole 256–2 346.</translation>
+		<variable>gsm_msg_wls_fragm_throd</variable>
+	</message>
+	<message>
+		<err_code>90</err_code>
+		<translation>CTS/RTS-raja-arvo ei ole 1–2 347.</translation>
+		<variable>gsm_msg_wls_crts_throd</variable>
+	</message>
+	<message>
+		<err_code>91</err_code>
+		<translation>Isäntänimi</translation>
+		<variable>gsm_msg_ddns_host_name</variable>
+	</message>
+	<message>
+		<err_code>92</err_code>
+		<translation>Käyttäjätunnus</translation>
+		<variable>gsm_msg_ddns_user_name</variable>
+	</message>
+	<message>
+		<err_code>93</err_code>
+		<translation>Salasana</translation>
+		<variable>gsm_msg_ddns_pw</variable>
+	</message>
+	<message>
+		<err_code>94</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_mail_inv_ip_or_domain</variable>
+	</message>
+	<message>
+		<err_code>95</err_code>
+		<translation>Virhe: virheellinen sähköpostiosoite.</translation>
+		<variable>gsm_msg_mail_inv_email_ad</variable>
+	</message>
+	<message>
+		<err_code>96</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_eth_inv_ip</variable>
+	</message>
+	<message>
+		<err_code>97</err_code>
+		<translation>Virheellinen aliverkon peite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>98</err_code>
+		<translation>Virheellinen yhdyskäytävän IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_eth_inv_gateway</variable>
+	</message>
+	<message>
+		<err_code>99</err_code>
+		<translation>Virheellinen ensisijainen DNS-osoite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_prime_dns</variable>
+	</message>
+	<message>
+		<err_code>100</err_code>
+		<translation>Virheellinen toissijainen DNS-osoite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_eth_inv_sec_dns</variable>
+	</message>
+	<message>
+		<err_code>101</err_code>
+		<translation>Virheellinen MAC-osoite.</translation>
+		<variable>gsm_msg_eth_inv_mac</variable>
+	</message>
+	<message>
+		<err_code>102</err_code>
+		<translation>Internet-yhteyttä ei tunnisteta.</translation>
+		<variable>gsm_msg_eth_warn_nat_allow_all</variable>
+	</message>
+	<message>
+		<err_code>103</err_code>
+		<translation>When the firewall is disabled protections normally provided to your network will be disabled! [NEL][NEL]Turn off the firewall only if you are sure you want to do this.</translation>
+		<variable>gsm_msg_eth_warn_no_fw_prot</variable>
+	</message>
+	<message>
+		<err_code>104</err_code>
+		<translation>avainsana</translation>
+		<variable>gsm_msg_kwd_keyword</variable>
+	</message>
+	<message>
+		<err_code>105</err_code>
+		<translation>This Keyword already exists</translation>
+		<variable>gsm_msg_kwd_keyword_exist</variable>
+	</message>
+	<message>
+		<err_code>106</err_code>
+		<translation>No keyword selected</translation>
+		<variable>gsm_msg_kwd_no_keyword_sel</variable>
+	</message>
+	<message>
+		<err_code>107</err_code>
+		<translation>IP-osoite on ristiriidassa laajaverkon IP-aliverkon kanssa. Anna eri IP-osoite.</translation>
+		<variable>gsm_msg_lan_inv_ip_same_wan</variable>
+	</message>
+	<message>
+		<err_code>109</err_code>
+		<translation>Virheellinen aliverkon peite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_mask</variable>
+	</message>
+	<message>
+		<err_code>110</err_code>
+		<translation>Virheellinen DHCP:n IP-alueen alkuosoite Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_strat_ip</variable>
+	</message>
+	<message>
+		<err_code>111</err_code>
+		<translation>Virheellinen DHCP:n IP-alueen loppuosoite Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_end_ip</variable>
+	</message>
+	<message>
+		<err_code>112</err_code>
+		<translation>Additional Management Port</translation>
+		<variable>gsm_msg_lan_add_mng_port</variable>
+	</message>
+	<message>
+		<err_code>113</err_code>
+		<translation>Virheellinen aikakatkaisuaika. Sen on oltava alle 99 minuuttia.</translation>
+		<variable>gsm_msg_pw_inv_idle_range</variable>
+	</message>
+	<message>
+		<err_code>114</err_code>
+		<translation>Kirjoittamasi salasana ei ole sama. Anna se uudelleen.</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>115</err_code>
+		<translation>Käyttäjätunnus</translation>
+		<variable>gsm_msg_ppp_login</variable>
+	</message>
+	<message>
+		<err_code>116</err_code>
+		<translation>Aikakatkaisu (minuutteina)</translation>
+		<variable>gsm_msg_ppp_idle_time</variable>
+	</message>
+	<message>
+		<err_code>119</err_code>
+		<translation>Invalid IP in list</translation>
+		<variable>gsm_msg_rmt_inv_ip_in_list</variable>
+	</message>
+	<message>
+		<err_code>121</err_code>
+		<translation>The setting list</translation>
+		<variable>gsm_msg_rmt_setting_list</variable>
+	</message>
+	<message>
+		<err_code>122</err_code>
+		<translation>and</translation>
+		<variable>gsm_msg_rmt_setting_and</variable>
+	</message>
+	<message>
+		<err_code>124</err_code>
+		<translation>Non set any IP address, please enter again.[NEL]</translation>
+		<variable>gsm_msg_rmt_non_set_ip</variable>
+	</message>
+	<message>
+		<err_code>125</err_code>
+		<translation>Aloittavan IP:n on oltava pienempi kuin päättävän IP:n</translation>
+		<variable>gsm_msg_rmt_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>126</err_code>
+		<translation>Porttinumero</translation>
+		<variable>gsm_msg_rmt_port_num</variable>
+	</message>
+	<message>
+		<err_code>128</err_code>
+		<translation>Laitteen nimi</translation>
+		<variable>gsm_msg_resv_device_name</variable>
+	</message>
+	<message>
+		<err_code>129</err_code>
+		<translation>Anna nimi valitulle langattomalle PC-kortille</translation>
+		<variable>gsm_msg_resv_enter_name</variable>
+	</message>
+	<message>
+		<err_code>130</err_code>
+		<translation>Nimi</translation>
+		<variable>gsm_msg_resv_name</variable>
+	</message>
+	<message>
+		<err_code>131</err_code>
+		<translation>Reitin nimi</translation>
+		<variable>gsm_msg_rout_route_name</variable>
+	</message>
+	<message>
+		<err_code>132</err_code>
+		<translation>Metrinen</translation>
+		<variable>gsm_msg_rout_metric</variable>
+	</message>
+	<message>
+		<err_code>133</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_rule_inv_lan_ip</variable>
+	</message>
+	<message>
+		<err_code>134</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_rule_inv_wan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>135</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_rule_inv_wan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>136</err_code>
+		<translation>Aloittavan IP:n on oltava pienempi kuin päättävän IP:n</translation>
+		<variable>gsm_msg_rule_wan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>137</err_code>
+		<translation>Virheellinen lähiverkon aloittava IP-osoite, anna osoite uudelleen</translation>
+		<variable>gsm_msg_rule_inv_lan_start_ip</variable>
+	</message>
+	<message>
+		<err_code>138</err_code>
+		<translation>Virheellinen lähiverkon päättävä IP-osoite, anna osoite uudelleen</translation>
+		<variable>gsm_msg_rule_inv_lan_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>139</err_code>
+		<translation>Lähiverkon aloittavan IP-osoitteen on oltava pienempi kuin päättävän IP-osoitteen</translation>
+		<variable>gsm_msg_rule_lan_end_ip_small</variable>
+	</message>
+	<message>
+		<err_code>140</err_code>
+		<translation>Virheellinen kohteen aloittava IP-osoite, anna osoite uudelleen</translation>
+		<variable>gsm_msg_rule_inv_dest_ip</variable>
+	</message>
+	<message>
+		<err_code>141</err_code>
+		<translation>Virheellinen päättävä IP-osoite, anna osoite uudelleen</translation>
+		<variable>gsm_msg_rule_inv_finish_ip</variable>
+	</message>
+	<message>
+		<err_code>142</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>gsm_msg_sch_inv_start_hr</variable>
+	</message>
+	<message>
+		<err_code>143</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>gsm_msg_sch_inv_start_min</variable>
+	</message>
+	<message>
+		<err_code>144</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>gsm_msg_sch_inv_end_hr</variable>
+	</message>
+	<message>
+		<err_code>145</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>gsm_msg_sch_inv_time</variable>
+	</message>
+	<message>
+		<err_code>146</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>gsm_msg_sch_inv_end_min</variable>
+	</message>
+	<message>
+		<err_code>148</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>gsm_msg_sch_end_time_small</variable>
+	</message>
+	<message>
+		<err_code>149</err_code>
+		<translation>Palvelun nimi</translation>
+		<variable>gsm_msg_sev_service_name</variable>
+	</message>
+	<message>
+		<err_code>150</err_code>
+		<translation>Aloittava portti</translation>
+		<variable>gsm_msg_sev_start_port</variable>
+	</message>
+	<message>
+		<err_code>151</err_code>
+		<translation>Päättävä portti</translation>
+		<variable>gsm_msg_sev_finish_port</variable>
+	</message>
+	<message>
+		<err_code>152</err_code>
+		<translation>Päättävä portti -arvon on oltava suurempi tai yhtä suuri kuin Aloittava portti -arvo.</translation>
+		<variable>gsm_msg_sev_end_port_small</variable>
+	</message>
+	<message>
+		<err_code>153</err_code>
+		<translation>Virheellinen laitteen nimi.</translation>
+		<variable>gsm_msg_sev_inv_char_device_name</variable>
+	</message>
+	<message>
+		<err_code>154</err_code>
+		<translation>Tiedostonimi ei voi olla tyhjä.</translation>
+		<variable>gsm_msg_bku_no_blank_filename</variable>
+	</message>
+	<message>
+		<err_code>155</err_code>
+		<translation>Varoitus! [NEL]Asetusten palauttaminen määritystiedostosta poistaa kaikki nykyiset asetukset. [NEL]Haluatko varmasti tehdä tämän?</translation>
+		<variable>gsm_msg_bku_cfm_restore</variable>
+	</message>
+	<message>
+		<err_code>156</err_code>
+		<translation>Please check the LEDs to see if the Router is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish</variable>
+	</message>
+	<message>
+		<err_code>157</err_code>
+		<translation>Please check the LEDs to see if the</translation>
+		<variable>gsm_msg_bku_finish_1</variable>
+	</message>
+	<message>
+		<err_code>158</err_code>
+		<translation>is ready, [NEL]then click OK to re-connect.</translation>
+		<variable>gsm_msg_bku_finish_2</variable>
+	</message>
+	<message>
+		<err_code>159</err_code>
+		<translation>Haluatko jatkaa?[NEL]Kaikki käytössä olevat Internet-yhteydet katkaistaan</translation>
+		<variable>gsm_msg_bku_cfm_proceed</variable>
+	</message>
+	<message>
+		<err_code>161</err_code>
+		<translation>Internet name can not be blank</translation>
+		<variable>gsm_msg_dig_no_blank_int_name</variable>
+	</message>
+	<message>
+		<err_code>162</err_code>
+		<translation>Virheellinen Internet-nimi, anna nimi uudelleen</translation>
+		<variable>gsm_msg_dig_inv_int_name</variable>
+	</message>
+	<message>
+		<err_code>163</err_code>
+		<translation>DNS-osoite on määritettävä</translation>
+		<variable>gsm_msg_eth_dns_before_ip</variable>
+	</message>
+	<message>
+		<err_code>164</err_code>
+		<translation>Virheellinen sijainti. Anna uusi sijainti uudelleen</translation>
+		<variable>gsm_msg_fw_inv_position</variable>
+	</message>
+	<message>
+		<err_code>165</err_code>
+		<translation>Mitään kohdetta ei ole valittu. [NEL]Valitse kohde napsauttamalla valintanappia</translation>
+		<variable>gsm_msg_fw_no_select</variable>
+	</message>
+	<message>
+		<err_code>166</err_code>
+		<translation>SALLI aina</translation>
+		<variable>gsm_msg_fw_allow_always</variable>
+	</message>
+	<message>
+		<err_code>167</err_code>
+		<translation>Jos haluat lähettää sähköposti-ilmoituksen, ota sähköposti-ilmoitustoiminto käyttöön Sähköposti-näytössä.</translation>
+		<variable>gsm_msg_log_en_send_log</variable>
+	</message>
+	<message>
+		<err_code>168</err_code>
+		<translation>Mitään kohdetta ei ole valittu. [NEL]Valitse kohde napsauttamalla valintanappia</translation>
+		<variable>gsm_msg_pfw_no_app_sel</variable>
+	</message>
+	<message>
+		<err_code>169</err_code>
+		<translation>Virheellinen palvelun nimi.</translation>
+		<variable>gsm_msg_pfw_no_cus_service_name</variable>
+	</message>
+	<message>
+		<err_code>170</err_code>
+		<translation>Tulevan yhteyden aloittava portti</translation>
+		<variable>gsm_msg_pfw_port_start</variable>
+	</message>
+	<message>
+		<err_code>171</err_code>
+		<translation>is invalid</translation>
+		<variable>gsm_msg_pfw_inv_input</variable>
+	</message>
+	<message>
+		<err_code>172</err_code>
+		<translation>Tulevan yhteyden päättävä portti</translation>
+		<variable>gsm_msg_pfw_port_end</variable>
+	</message>
+	<message>
+		<err_code>173</err_code>
+		<translation>Portin alue</translation>
+		<variable>gsm_msg_pfw_port_range</variable>
+	</message>
+	<message>
+		<err_code>174</err_code>
+		<translation>Custom Rule</translation>
+		<variable>gsm_msg_pfw_custom_rule</variable>
+	</message>
+	<message>
+		<err_code>175</err_code>
+		<translation>Palvelun nimi</translation>
+		<variable>gsm_msg_pfw_service_name</variable>
+	</message>
+	<message>
+		<err_code>176</err_code>
+		<translation>Palvelutyyppi</translation>
+		<variable>gsm_msg_pfw_service_type</variable>
+	</message>
+	<message>
+		<err_code>177</err_code>
+		<translation>Aloittava portti</translation>
+		<variable>gsm_msg_pfw_starting_port</variable>
+	</message>
+	<message>
+		<err_code>178</err_code>
+		<translation>Päättävä portti</translation>
+		<variable>gsm_msg_pfw_ending_port</variable>
+	</message>
+	<message>
+		<err_code>179</err_code>
+		<translation>Palvelimen IP-osoite</translation>
+		<variable>gsm_msg_pfw_server_ip_add</variable>
+	</message>
+	<message>
+		<err_code>180</err_code>
+		<translation>Pre-set Port Forwarding Rule</translation>
+		<variable>gsm_msg_pfw_preset_pfw_rule</variable>
+	</message>
+	<message>
+		<err_code>181</err_code>
+		<translation>IP_Phone</translation>
+		<variable>gsm_msg_pfw_ip_phone</variable>
+	</message>
+	<message>
+		<err_code>182</err_code>
+		<translation>Uutiset</translation>
+		<variable>gsm_msg_pfw_news</variable>
+	</message>
+	<message>
+		<err_code>183</err_code>
+		<translation>Portin laukaiseminen</translation>
+		<variable>gsm_msg_pft_port</variable>
+	</message>
+	<message>
+		<err_code>184</err_code>
+		<translation>Timeout</translation>
+		<variable>gsm_msg_pft_timeout</variable>
+	</message>
+	<message>
+		<err_code>185</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>186</err_code>
+		<translation>You have just modified the policy.[NEL]Before editing policy, you need to click on [Apply] to keep the changes or [Cancel] to restore the original policy settings.</translation>
+		<variable>gsm_msg_qos_apply_or_cancel</variable>
+	</message>
+	<message>
+		<err_code>187</err_code>
+		<translation>, on oltava alueella 1–65 535, mutta ei 80.[NEL]</translation>
+		<variable>gsm_msg_pfw_inv_range</variable>
+	</message>
+	<message>
+		<err_code>200</err_code>
+		<translation>Toistuva MAC-osoite.</translation>
+		<variable>gsm_msg_qos_mac_conflicts</variable>
+	</message>
+	<message>
+		<err_code>202</err_code>
+		<translation>Virheellinen MAC-osoite.</translation>
+		<variable>gsm_msg_qos_inv_mac_format</variable>
+	</message>
+	<message>
+		<err_code>205</err_code>
+		<translation>ei voi olla tyhjä</translation>
+		<variable>gsm_msg_qos_no_rule</variable>
+	</message>
+	<message>
+		<err_code>206</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_qos_fail_parse_app</variable>
+	</message>
+	<message>
+		<err_code>207</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_qos_fail_parse_mac</variable>
+	</message>
+	<message>
+		<err_code>208</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_qos_fail_parse_game</variable>
+	</message>
+	<message>
+		<err_code>216</err_code>
+		<translation>Toistuva käytännön nimi.</translation>
+		<variable>gsm_msg_qos_conflict_predef_name</variable>
+	</message>
+	<message>
+		<err_code>217</err_code>
+		<translation>Käytännön nimi on jo olemassa</translation>
+		<variable>gsm_msg_qos_conflict_policy_name</variable>
+	</message>
+	<message>
+		<err_code>219</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_qos_inv_user_policy</variable>
+	</message>
+	<message>
+		<err_code>220</err_code>
+		<translation>Portti on ristiriidassa toisen säännön kanssa.</translation>
+		<variable>gsm_msg_qos_exist_port</variable>
+	</message>
+	<message>
+		<err_code>221</err_code>
+		<translation>Tietokoneesta verkkolaitteeseen -tiedonsiirron kaistanleveys</translation>
+		<variable>gsm_msg_qos_uplink_bandwidth</variable>
+	</message>
+	<message>
+		<err_code>222</err_code>
+		<translation>QoS-käytäntö</translation>
+		<variable>gsm_msg_qos_policy</variable>
+	</message>
+	<message>
+		<err_code>223</err_code>
+		<translation>Prioriteetti</translation>
+		<variable>gsm_msg_qos_priority</variable>
+	</message>
+	<message>
+		<err_code>224</err_code>
+		<translation>Kuvaus</translation>
+		<variable>gsm_msg_qos_description</variable>
+	</message>
+	<message>
+		<err_code>225</err_code>
+		<translation>sovellus</translation>
+		<variable>gsm_msg_qos_application</variable>
+	</message>
+	<message>
+		<err_code>226</err_code>
+		<translation>Online-pelaaminen</translation>
+		<variable>gsm_msg_qos_on_line_gaming</variable>
+	</message>
+	<message>
+		<err_code>227</err_code>
+		<translation>LAN-portti</translation>
+		<variable>gsm_msg_qos_lan_port</variable>
+	</message>
+	<message>
+		<err_code>228</err_code>
+		<translation>Ei mitään</translation>
+		<variable>gsm_msg_qos_none</variable>
+	</message>
+	<message>
+		<err_code>229</err_code>
+		<translation>Laitteen nimi</translation>
+		<variable>gsm_msg_qos_device_name</variable>
+	</message>
+	<message>
+		<err_code>230</err_code>
+		<translation>MAC-osoite</translation>
+		<variable>gsm_msg_qos_mac_ad</variable>
+	</message>
+	<message>
+		<err_code>231</err_code>
+		<translation>QoS-käytännön nimi</translation>
+		<variable>gsm_msg_qos_policy_name</variable>
+	</message>
+	<message>
+		<err_code>232</err_code>
+		<translation>With your current connection method, this setting has no effect.</translation>
+		<variable>gsm_msg_wan_sec_inv_conn_method</variable>
+	</message>
+	<message>
+		<err_code>233</err_code>
+		<translation>Encapsulation mode on the Basic Settings page must be changed to PPPoE to enable PPPoE Relay.</translation>
+		<variable>gsm_msg_wan_sec_must_pppoe_mode</variable>
+	</message>
+	<message>
+		<err_code>234</err_code>
+		<translation>MTU:n koko</translation>
+		<variable>gsm_msg_wan_sec_mtu_value</variable>
+	</message>
+	<message>
+		<err_code>235</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_tree_err_geteleid</variable>
+	</message>
+	<message>
+		<err_code>236</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_tree_inv_id_use_ext_id</variable>
+	</message>
+	<message>
+		<err_code>237</err_code>
+		<translation>Tiedoston nimi on nolla. Etsi ja valitse päivitystiedosto kiintolevyltä.</translation>
+		<variable>gsm_msg_upg_no_file</variable>
+	</message>
+	<message>
+		<err_code>238</err_code>
+		<translation>Määritä oikea tiedosto. Tiedostomuoto on *.</translation>
+		<variable>gsm_msg_upg_inv_file_type</variable>
+	</message>
+	<message>
+		<err_code>239</err_code>
+		<translation>Laiteohjelman päivitys saattaa sisältää tärkeitä parannuksia.[NEL] Haluatko varmasti poistaa käytöstä automaattisen tarkistuksen?[NEL] Kun olet poistanut sen käytöstä, voit ottaa sen uudelleen käyttöön Reitittimen päivitys -näytön kautta.</translation>
+		<variable>gsm_msg_upg_cfm_fw_upg</variable>
+	</message>
+	<message>
+		<err_code>240</err_code>
+		<translation>ei voi olla tyhjä</translation>
+		<variable>gsm_msg_upnp_cannot_empty</variable>
+	</message>
+	<message>
+		<err_code>241</err_code>
+		<translation>on oltava numero</translation>
+		<variable>gsm_msg_upnp_must_num</variable>
+	</message>
+	<message>
+		<err_code>242</err_code>
+		<translation>on oltava suurempi kuin 0 ja pienempi tai yhtä suuri kuin 1440 minuuttia</translation>
+		<variable>gsm_msg_upnp_must_min_range</variable>
+	</message>
+	<message>
+		<err_code>243</err_code>
+		<translation>on oltava suurempi kuin 0 ja pienempi tai yhtä suuri kuin 255</translation>
+		<variable>gsm_msg_upnp_must_great_less</variable>
+	</message>
+	<message>
+		<err_code>244</err_code>
+		<translation>Mitään kohdetta ei ole valittu. [NEL]Valitse kohde napsauttamalla valintanappia</translation>
+		<variable>gsm_msg_usb_no_sel_radio</variable>
+	</message>
+	<message>
+		<err_code>245</err_code>
+		<translation>Ei jaettu</translation>
+		<variable>gsm_msg_usb_not_shared</variable>
+	</message>
+	<message>
+		<err_code>246</err_code>
+		<translation>Portti</translation>
+		<variable>gsm_msg_usb_port</variable>
+	</message>
+	<message>
+		<err_code>247</err_code>
+		<translation>Merkkiä ei voi käyttää.</translation>
+		<variable>gsm_msg_usb_inv_char_network_name</variable>
+	</message>
+	<message>
+		<err_code>248</err_code>
+		<translation>Kaikki nämä kohdat poistetaan. Haluatko varmasti poistaa ne?</translation>
+		<variable>gsm_msg_usb_cfm_delete</variable>
+	</message>
+	<message>
+		<err_code>249</err_code>
+		<translation>Valitse vaihtoehto ja jatka valitsemalla Seuraava.</translation>
+		<variable>gsm_msg_wiz_no_sel</variable>
+	</message>
+	<message>
+		<err_code>250</err_code>
+		<translation>Salasana koostuu joko 8~63 ASCII-merkistä tai täsmälleen 64 heksadesimaaliluvusta. Heksadesimaaliluku on jokin näistä merkeistä: 0, 1, 2, ..., 8, 9, A, B, C, D, E, F.</translation>
+		<variable>gsm_msg_wls_wpa_key_must_63</variable>
+	</message>
+	<message>
+		<err_code>251</err_code>
+		<translation>Merkkiä ei saa käyttää salasanassa</translation>
+		<variable>gsm_msg_wls_wpa_key_forbid</variable>
+	</message>
+	<message>
+		<err_code>252</err_code>
+		<translation>TÄRKEÄÄWPA-PSK [TKIP] voi toimia "enintään 54Mbps:n taajuudella", ei N-taajuudella.NETGEAR suosittelee käyttämään suojausasetusta WPA2-PSK [AES], jotta voit hyödyntää N-taajuuden täyttä tukea.</translation>
+		<variable>gsm_msg_wls_wpa_work_mode_warn</variable>
+	</message>
+	<message>
+		<err_code>253</err_code>
+		<translation>Syötä 1 - 128 merkkiä (oktettia) RADIUS-palvelimen Shared Secret -kenttään.</translation>
+		<variable>gsm_msg_wls_radius_key_val_len</variable>
+	</message>
+	<message>
+		<err_code>254</err_code>
+		<translation>Merkkiä ei voi käyttää.</translation>
+		<variable>gsm_msg_not_printable</variable>
+	</message>
+	<message>
+		<err_code>255</err_code>
+		<translation>Laitteen nimi ei voi olla tyhjä.</translation>
+		<variable>gsm_msg_dev_name_blank</variable>
+	</message>
+	<message>
+		<err_code>256</err_code>
+		<translation>Virheellinen laitteen nimi.</translation>
+		<variable>gsm_msg_dev_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>257</err_code>
+		<translation>Anna aikakatkaisuaika.[NEL]</translation>
+		<variable>gsm_msg_idle_time_blank</variable>
+	</message>
+	<message>
+		<err_code>258</err_code>
+		<translation>Virheellinen aikakatkaisuaika, määritä aika oikeassa muodossa.</translation>
+		<variable>gsm_msg_idle_time_invalid</variable>
+	</message>
+	<message>
+		<err_code>259</err_code>
+		<translation>Virheellinen palvelimen osoite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_pptp_fqdn</variable>
+	</message>
+	<message>
+		<err_code>260</err_code>
+		<translation>Virheellinen palvelimen osoite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_pptp_server_addr_invalid</variable>
+	</message>
+	<message>
+		<err_code>261</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen tai jätä se tyhjäksi.</translation>
+		<variable>gsm_msg_pptp_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>262</err_code>
+		<translation>Epäonnistui</translation>
+		<variable>gsm_msg_qos_rule_fail_parse</variable>
+	</message>
+	<message>
+		<err_code>263</err_code>
+		<translation>Online-pelaaminen</translation>
+		<variable>gsm_msg_qos_gaming</variable>
+	</message>
+	<message>
+		<err_code>264</err_code>
+		<translation>Annetut tiedot ovat samanlaiset kuin nykyisessä tietueessa,[NEL]jatka korvaamista</translation>
+		<variable>gsm_msg_rev_confirm_overwrite</variable>
+	</message>
+	<message>
+		<err_code>265</err_code>
+		<translation>Jos haluat muodostaa yhteyden uudelleen, napsauta Yhdistä-painiketta.</translation>
+		<variable>gsm_msg_st_poe_disconnect_warning</variable>
+	</message>
+	<message>
+		<err_code>266</err_code>
+		<translation>Virheellinen Aloittava portti- tai Päättävä portti -arvo.</translation>
+		<variable>gsm_msg_blk_serv_port_invalid</variable>
+	</message>
+	<message>
+		<err_code>267</err_code>
+		<translation>Virheellinen Aloittava portti -arvo.</translation>
+		<variable>gsm_msg_blk_serv_sport_invalid</variable>
+	</message>
+	<message>
+		<err_code>268</err_code>
+		<translation>Virheellinen Päättävä portti -arvo.</translation>
+		<variable>gsm_msg_blk_serv_eport_invalid</variable>
+	</message>
+	<message>
+		<err_code>269</err_code>
+		<translation>Päättävä portti -arvon on oltava suurempi tai yhtä suuri kuin Aloittava portti -arvo.</translation>
+		<variable>gsm_msg_blk_serv_port_range_err</variable>
+	</message>
+	<message>
+		<err_code>270</err_code>
+		<translation>Virheellinen käyttäjän määrittämä palvelutyyppi.</translation>
+		<variable>gsm_msg_blk_serv_type_invalid</variable>
+	</message>
+	<message>
+		<err_code>271</err_code>
+		<translation>Virheellinen palvelun nimi.</translation>
+		<variable>gsm_msg_blk_serv_resv</variable>
+	</message>
+	<message>
+		<err_code>272</err_code>
+		<translation>Havaittu toinen samanlainen palvelu!</translation>
+		<variable>gsm_msg_blk_serv_dup_detected</variable>
+	</message>
+	<message>
+		<err_code>273</err_code>
+		<translation>Virheellinen IP-osoitealue.</translation>
+		<variable>gsm_msg_blk_serv_ip_rng_err</variable>
+	</message>
+	<message>
+		<err_code>274</err_code>
+		<translation>Traffic Meter is Enabled in 'Connection time control' Mode.[NEL] Can't select DHCP and StaticIP Mode.</translation>
+		<variable>gsm_msg_tm_en_wan_mode_error</variable>
+	</message>
+	<message>
+		<err_code>275</err_code>
+		<translation>Varantovälin kelvollinen alue on 5 - 86 400 sekuntia. </translation>
+		<variable>gsm_msg_tm_intvl_err</variable>
+	</message>
+	<message>
+		<err_code>276</err_code>
+		<translation>Liikennemittarin kuukausirajoitus (</translation>
+		<variable>gsm_msg_tm_limnit_sub1</variable>
+	</message>
+	<message>
+		<err_code>277</err_code>
+		<translation>on saavutettu.</translation>
+		<variable>gsm_msg_tm_limnit_sub2</variable>
+	</message>
+	<message>
+		<err_code>278</err_code>
+		<translation>Liikennemittarin lukema on </translation>
+		<variable>gsm_msg_tm_water_mark_sub1</variable>
+	</message>
+	<message>
+		<err_code>279</err_code>
+		<translation>ennen kuin kuukausirajoitus ylitetään.</translation>
+		<variable>gsm_msg_tm_water_mark_sub2</variable>
+	</message>
+	<message>
+		<err_code>280</err_code>
+		<translation>megatavua</translation>
+		<variable>gsm_msg_mbytes</variable>
+	</message>
+	<message>
+		<err_code>281</err_code>
+		<translation> minuutissa.</translation>
+		<variable>gsm_msg_minutes</variable>
+	</message>
+	<message>
+		<err_code>282</err_code>
+		<translation>Tuntia</translation>
+		<variable>gsm_msg_hours</variable>
+	</message>
+	<message>
+		<err_code>283</err_code>
+		<translation>Päivää</translation>
+		<variable>gsm_msg_days</variable>
+	</message>
+	<message>
+		<err_code>284</err_code>
+		<translation>Virheellinen kuukausirajoituksen numeroarvo.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_vol</variable>
+	</message>
+	<message>
+		<err_code>285</err_code>
+		<translation>Virheellinen kuukausirajoituksen numeroarvo.[NEL]</translation>
+		<variable>gsm_msg_tm_limit_time</variable>
+	</message>
+	<message>
+		<err_code>286</err_code>
+		<translation>Virheellinen liikennemittarin nollausajan tuntiarvo.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_hour</variable>
+	</message>
+	<message>
+		<err_code>287</err_code>
+		<translation>Virheellinen liikennemittarin nollausajan minuuttiarvo.[NEL]</translation>
+		<variable>gsm_msg_tm_rst_min</variable>
+	</message>
+	<message>
+		<err_code>288</err_code>
+		<translation>Traffic meter reset Day of Month</translation>
+		<variable>gsm_msg_tm_rst_day</variable>
+	</message>
+	<message>
+		<err_code>289</err_code>
+		<translation>Virheellinen vesileiman numeroarvo liikenteen hallinnassa.[NEL]</translation>
+		<variable>gsm_msg_tm_water_mark</variable>
+	</message>
+	<message>
+		<err_code>290</err_code>
+		<translation>Pyöristetyn arvon pitäisi olla kuukausirajoitusta pienempi.[NEL]</translation>
+		<variable>gsm_msg_tm_rd_vol</variable>
+	</message>
+	<message>
+		<err_code>291</err_code>
+		<translation>Pyöristetyn arvon pitäisi olla kuukausirajoitusta pienempi.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err1</variable>
+	</message>
+	<message>
+		<err_code>292</err_code>
+		<translation>Vesileiman arvon pitäisi olla kuukausirajoitusta pienempi.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err2</variable>
+	</message>
+	<message>
+		<err_code>293</err_code>
+		<translation>Vesileiman arvon pitäisi olla kuukausirajoitusta pienempi.[NEL]</translation>
+		<variable>gsm_msg_tm_mon_limit_val_err3</variable>
+	</message>
+	<message>
+		<err_code>294</err_code>
+		<translation>Time of restart traffic counter changed. It will clear the Traffic Statistics</translation>
+		<variable>gsm_msg_tm_counter_chg_confm</variable>
+	</message>
+	<message>
+		<err_code>295</err_code>
+		<translation>Käyttöoikeusluettelon kohtien enimmäismäärä saavutettu</translation>
+		<variable>gsm_msg_m_accs_client_max_num</variable>
+	</message>
+	<message>
+		<err_code>296</err_code>
+		<translation>WPS-prosessi on käynnissä. Ota muutokset käyttöön myöhemmin.</translation>
+		<variable>gsm_msg_wps_in_prog_warn</variable>
+	</message>
+	<message>
+		<err_code>297</err_code>
+		<translation>Anna tukiaseman MAC-osoite.</translation>
+		<variable>gsm_msg_wds_station_mac</variable>
+	</message>
+	<message>
+		<err_code>298</err_code>
+		<translation>Anna toistimen MAC-osoite.</translation>
+		<variable>gsm_msg_wds_repeater_mac</variable>
+	</message>
+	<message>
+		<err_code>299</err_code>
+		<translation>Portin laukaisun aikakatkaisuarvo ei voi olla nolla.</translation>
+		<variable>gsm_msg_pft_timeout_null</variable>
+	</message>
+	<message>
+		<err_code>300</err_code>
+		<translation>Virheellinen yhdyskäytävän IP-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_pptp_gw_ip_invalid</variable>
+	</message>
+	<message>
+		<err_code>301</err_code>
+		<translation>Virheellinen isäntänimi.</translation>
+		<variable>gsm_msg_ddns_host_invalid</variable>
+	</message>
+	<message>
+		<err_code>302</err_code>
+		<translation>Virheellinen toissijainen DNS-osoite. Anna se uudelleen.[NEL]</translation>
+		<variable>gsm_msg_two_fix_dns_same_err</variable>
+	</message>
+	<message>
+		<err_code>303</err_code>
+		<translation>Virheellisiä merkkejä kohteessa</translation>
+		<variable>gsm_msg_inc_colon_err</variable>
+	</message>
+	<message>
+		<err_code>304</err_code>
+		<translation>Merkkiä ei saa käyttää SSID-tunnuksessa</translation>
+		<variable>gsm_msg_inv_ssid</variable>
+	</message>
+	<message>
+		<err_code>305</err_code>
+		<translation>Käyttöoikeusluettelon kohtien enimmäismäärä saavutettu</translation>
+		<variable>gsm_msg_wl_acl_tbl_full</variable>
+	</message>
+	<message>
+		<err_code>306</err_code>
+		<translation>Virheellinen palvelun nimi, voi sisältää vain kirjaimia, numeroita, alaviivoja (_) ja tavuviivoja (-)</translation>
+		<variable>gsm_msg_FW_char_not_alw_sev_nm</variable>
+	</message>
+	<message>
+		<err_code>307</err_code>
+		<translation>Aloittavan portin osoitteen on oltava pienempi kuin 65535</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>308</err_code>
+		<translation>Päättävän portin osoitteen on oltava pienempi kuin 65535</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_ls</variable>
+	</message>
+	<message>
+		<err_code>309</err_code>
+		<translation>Aloittavan portin osoitteen on oltava suurempi kuin 1</translation>
+		<variable>gsm_msg_FW_st_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>310</err_code>
+		<translation>Päättävän portin osoitteen on oltava suurempi kuin 1</translation>
+		<variable>gsm_msg_FW_nd_port_ad_mst_bg</variable>
+	</message>
+	<message>
+		<err_code>311</err_code>
+		<translation>Päättävä portti -arvon on oltava suurempi tai yhtä suuri kuin Aloittava portti -arvo.</translation>
+		<variable>gsm_msg_FW_st_port_mst_ls_nd_post_ad</variable>
+	</message>
+	<message>
+		<err_code>312</err_code>
+		<translation>Virhe: virheellinen SMTP-palvelimen osoite</translation>
+		<variable>gsm_msg_mail_inv_smtp_address</variable>
+	</message>
+	<message>
+		<err_code>ALSE04</err_code>
+		<translation>Virheelliset DHCP:n IP-alueen loppu- ja alkuosoitteet. Anna ne uudelleen.[NEL]</translation>
+		<variable>gsm_msg_lan_inv_dhcp_ip</variable>
+	</message>
+	<message>
+		<err_code>m_defkey</err_code>
+		<translation>[NEL]Oletusavain vaaditaan, muut avaimet ovat valinnaisia</translation>
+		<variable>gsm_defkey</variable>
+	</message>
+	<message>
+		<err_code>APPE02</err_code>
+		<translation>Päättävän portin osoitteen on oltava pienempi kuin 65535</translation>
+		<variable>gsm_appe02</variable>
+	</message>
+	<message>
+		<err_code>AQSE05</err_code>
+		<translation>QoS-käytännön nimi ei voi olla tyhjä.</translation>
+		<variable>gsm_qos_blnk</variable>
+	</message>
+	<message>
+		<err_code>APPE13</err_code>
+		<translation>Virheellinen </translation>
+		<variable>gsm_invalid</variable>
+	</message>
+	<message>
+		<err_code>APPE14</err_code>
+		<translation>Virheellinen tulevan yhteyden porttialue.[NEL]</translation>
+		<variable>gsm_inv_in_port_range</variable>
+	</message>
+	<message>
+		<err_code>10101</err_code>
+		<translation>%s is NULL</translation>
+		<variable>10101</variable>
+	</message>
+	<message>
+		<err_code>10201</err_code>
+		<translation>This service is used by the rules function, you can not edit/delete it! Please delete corresponding rules first.</translation>
+		<variable>10201</variable>
+	</message>
+	<message>
+		<err_code>10202</err_code>
+		<translation>Palvelun nimi ei voi olla tyhjä.</translation>
+		<variable>10202</variable>
+	</message>
+	<message>
+		<err_code>10203</err_code>
+		<translation>Palvelun nimi on jo käytössä.</translation>
+		<variable>10203</variable>
+	</message>
+	<message>
+		<err_code>10204</err_code>
+		<translation>User defined Service is full</translation>
+		<variable>10204</variable>
+	</message>
+	<message>
+		<err_code>10205</err_code>
+		<translation>Rule table is full!</translation>
+		<variable>10205</variable>
+	</message>
+	<message>
+		<err_code>10206</err_code>
+		<translation>Estetty palvelu on jo olemassa!</translation>
+		<variable>10206</variable>
+	</message>
+	<message>
+		<err_code>10207</err_code>
+		<translation>Valitse poistettava kohde.</translation>
+		<variable>10207</variable>
+	</message>
+	<message>
+		<err_code>10208</err_code>
+		<translation>Portin numero on väärä, alueen on oltava 1 - 65534.</translation>
+		<variable>10208</variable>
+	</message>
+	<message>
+		<err_code>10209</err_code>
+		<translation>Toinen palvelu käyttää jo palvelun porttia.</translation>
+		<variable>10209</variable>
+	</message>
+	<message>
+		<err_code>10210</err_code>
+		<translation>Reititin tukee vain 20 palvelusääntöä.</translation>
+		<variable>10210</variable>
+	</message>
+	<message>
+		<err_code>10211</err_code>
+		<translation>Outbound rule is full!</translation>
+		<variable>10211</variable>
+	</message>
+	<message>
+		<err_code>10212</err_code>
+		<translation>Inbound rule is full!</translation>
+		<variable>10212</variable>
+	</message>
+	<message>
+		<err_code>10213</err_code>
+		<translation>Invalid position!</translation>
+		<variable>10213</variable>
+	</message>
+	<message>
+		<err_code>10214</err_code>
+		<translation>Merkkiä ei saa käyttää avainsanassa</translation>
+		<variable>10214</variable>
+	</message>
+	<message>
+		<err_code>10216</err_code>
+		<translation>Ei tilaa lisätä uusia avainsanoja</translation>
+		<variable>10216</variable>
+	</message>
+	<message>
+		<err_code>10217</err_code>
+		<translation>Virheellinen aikasyöte.</translation>
+		<variable>10217</variable>
+	</message>
+	<message>
+		<err_code>10218</err_code>
+		<translation>Toinen samanlainen palvelun nimi.</translation>
+		<variable>10218</variable>
+	</message>
+	<message>
+		<err_code>10219</err_code>
+		<translation>Merkkiä ei saa käyttää avainsanassa</translation>
+		<variable>10219</variable>
+	</message>
+	<message>
+		<err_code>10701</err_code>
+		<translation>Tämä laiteohjelmatiedosto on virheellinen! Nouda laiteohjelmatiedosto uudelleen ja varmista, että se on tämän tuotteen laiteohjelma.</translation>
+		<variable>10701</variable>
+	</message>
+	<message>
+		<err_code>10702</err_code>
+		<translation>Muisti ei riitä laiteohjelman päivitykseen</translation>
+		<variable>10702</variable>
+	</message>
+	<message>
+		<err_code>10703</err_code>
+		<translation>Laiteohjelman päivitys epäonnistui</translation>
+		<variable>10703</variable>
+	</message>
+	<message>
+		<err_code>10704</err_code>
+		<translation>Reitittimen laiteohjelmistoa päivitetään. Odota</translation>
+		<variable>10704</variable>
+	</message>
+	<message>
+		<err_code>10804</err_code>
+		<translation>Virheellinen aikakatkaisuaika, määritä aika oikeassa muodossa.</translation>
+		<variable>10804</variable>
+	</message>
+	<message>
+		<err_code>11004</err_code>
+		<translation>IP-osoitteen on oltava DHCP:n alueella. </translation>
+		<variable>11004</variable>
+	</message>
+	<message>
+		<err_code>11006</err_code>
+		<translation>Varattu IP-osoite ei voi olla sama kuin reitittimen lähiverkon IP-osoite.</translation>
+		<variable>11006</variable>
+	</message>
+	<message>
+		<err_code>11009</err_code>
+		<translation>Virheellinen aliverkon peite. Anna se uudelleen.[NEL]</translation>
+		<variable>11009</variable>
+	</message>
+	<message>
+		<err_code>11010</err_code>
+		<translation>Jos LAN IP -aliverkko vaihdetaan, pääset käyttöliittymään suorittamalla komennot ipconfig /release ja ipconfig /renew ja kirjoittamalla selaimeen uuden IP-osoitteen.</translation>
+		<variable>11010</variable>
+	</message>
+	<message>
+		<err_code>11011</err_code>
+		<translation>Warning!DHCP subnet has been changed.</translation>
+		<variable>11011</variable>
+	</message>
+	<message>
+		<err_code>11012</err_code>
+		<translation>Toistuva laitteen nimi.</translation>
+		<variable>11012</variable>
+	</message>
+	<message>
+		<err_code>11013</err_code>
+		<translation>Jotta reitittimesi IP-osoite ei ole ristiriidassa Internet-palveluntarjoajan määritysten kanssa, IP-osoitteeksi on vaihdettu </translation>
+		<variable>11013</variable>
+	</message>
+	<message>
+		<err_code>11014</err_code>
+		<translation>Päivitä reitittimen kokoonpanoasetusten IP-osoitteet jokaiseen palveluun, kuten portin uudelleenohjauspalveluun ja IP-osoitteen varauspalveluun.</translation>
+		<variable>11014</variable>
+	</message>
+	<message>
+		<err_code>11101</err_code>
+		<translation>Virheellinen IP-osoitealue.</translation>
+		<variable>11101</variable>
+	</message>
+	<message>
+		<err_code>11102</err_code>
+		<translation>Virheellinen metrisen järjestelmän numero.</translation>
+		<variable>11102</variable>
+	</message>
+	<message>
+		<err_code>11103</err_code>
+		<translation>Virheellinen yhdyskäytävän IP-osoite. Anna se uudelleen.</translation>
+		<variable>11103</variable>
+	</message>
+	<message>
+		<err_code>11104</err_code>
+		<translation>Reitin nimi ei voi olla tyhjä.</translation>
+		<variable>11104</variable>
+	</message>
+	<message>
+		<err_code>11105</err_code>
+		<translation>Ei enää tilaa lisätä kiinteitä reittejä.</translation>
+		<variable>11105</variable>
+	</message>
+	<message>
+		<err_code>11107</err_code>
+		<translation>Toistuva reitin nimi.</translation>
+		<variable>11107</variable>
+	</message>
+	<message>
+		<err_code>11108</err_code>
+		<translation>Toistuva reitin ehto.</translation>
+		<variable>11108</variable>
+	</message>
+	<message>
+		<err_code>11109</err_code>
+		<translation>Yhdyskäytävän on oltava samassa aliverkossa kuin WAN-liittymä tai LAN-liittymä.</translation>
+		<variable>11109</variable>
+	</message>
+	<message>
+		<err_code>11901</err_code>
+		<translation>Kirjoittamasi salasana ei ole sama. Anna se uudelleen.</translation>
+		<variable>11901</variable>
+	</message>
+	<message>
+		<err_code>11902</err_code>
+		<translation>Salasanan enimmäispituus on 32 merkkiä.</translation>
+		<variable>11902</variable>
+	</message>
+	<message>
+		<err_code>11903</err_code>
+		<translation>Vanha salasana on virheellinen!</translation>
+		<variable>11903</variable>
+	</message>
+	<message>
+		<err_code>11904</err_code>
+		<translation>Virheellinen aikakatkaisuaika. Sen on oltava alle 99 minuuttia.</translation>
+		<variable>11904</variable>
+	</message>
+	<message>
+		<err_code>11905</err_code>
+		<translation>Virheellinen salasana.</translation>
+		<variable>11905</variable>
+	</message>
+	<message>
+		<err_code>11906</err_code>
+		<translation>Vanha salasana on virheellinen!</translation>
+		<variable>11906</variable>
+	</message>
+	<message>
+		<err_code>12001</err_code>
+		<translation>Anna nimi valitulle langattomalle PC-kortille</translation>
+		<variable>12001</variable>
+	</message>
+	<message>
+		<err_code>12002</err_code>
+		<translation>Käyttöoikeusluettelon kohtien enimmäismäärä saavutettu</translation>
+		<variable>12002</variable>
+	</message>
+	<message>
+		<err_code>12003</err_code>
+		<translation>Kirjautumistunnuksessa voi olla enintään 32 merkkiä</translation>
+		<variable>12003</variable>
+	</message>
+	<message>
+		<err_code>12004</err_code>
+		<translation>Palvelun nimi ei voi olla tyhjä.</translation>
+		<variable>12004</variable>
+	</message>
+	<message>
+		<err_code>12005</err_code>
+		<translation>Virheellinen MAC-osoite.</translation>
+		<variable>12005</variable>
+	</message>
+	<message>
+		<err_code>12006</err_code>
+		<translation>Virheellinen MAC-osoite.</translation>
+		<variable>12006</variable>
+	</message>
+	<message>
+		<err_code>12007</err_code>
+		<translation>Virheellinen MAC-osoite.</translation>
+		<variable>12007</variable>
+	</message>
+	<message>
+		<err_code>12008</err_code>
+		<translation>IP-osoitteen on oltava alueella [%s, %s].</translation>
+		<variable>12008</variable>
+	</message>
+	<message>
+		<err_code>12010</err_code>
+		<translation>SSID name too long, must less than 32 characters!</translation>
+		<variable>12010</variable>
+	</message>
+	<message>
+		<err_code>12011</err_code>
+		<translation>Toistuva MAC-osoite.</translation>
+		<variable>12011</variable>
+	</message>
+	<message>
+		<err_code>12012</err_code>
+		<translation>The WEP key that you entered is not valid.</translation>
+		<variable>12012</variable>
+	</message>
+	<message>
+		<err_code>12013</err_code>
+		<translation>SSID toistuu. Määritä jokin toinen SSID.</translation>
+		<variable>12013</variable>
+	</message>
+	<message>
+		<err_code>12015</err_code>
+		<translation>Merkkiä ei saa käyttää SSID-tunnuksessa</translation>
+		<variable>12015</variable>
+	</message>
+	<message>
+		<err_code>12016</err_code>
+		<translation>Virheellinen toistimen IP-osoite.</translation>
+		<variable>12016</variable>
+	</message>
+	<message>
+		<err_code>12101</err_code>
+		<translation>Muissa kokoonpanoissa käytetään yhtä tai useaa määritettyä porttia. Tarkista etähallinta-asetukset, portin välitysasetukset, portin laukaisuasetukset, UPnP-portin kartoitustaulukon asetukset, RIP-asetukset sekä Internet-yhteyden tyyppi.</translation>
+		<variable>12101</variable>
+	</message>
+	<message>
+		<err_code>12102</err_code>
+		<translation>Portti on ristiriidassa toisen säännön kanssa.</translation>
+		<variable>12102</variable>
+	</message>
+	<message>
+		<err_code>12301</err_code>
+		<translation>USB Share Nework Folder is full.</translation>
+		<variable>12301</variable>
+	</message>
+	<message>
+		<err_code>12302</err_code>
+		<translation>Jaetun aseman nimi on jo olemassa. Määritä jokin toinen nimi.</translation>
+		<variable>12302</variable>
+	</message>
+	<message>
+		<err_code>12303</err_code>
+		<translation>Ei levyä</translation>
+		<variable>12303</variable>
+	</message>
+	<message>
+		<err_code>12304</err_code>
+		<translation>No Volume Name</translation>
+		<variable>12304</variable>
+	</message>
+	<message>
+		<err_code>12305</err_code>
+		<translation>Laitetta ei voi nyt pysäyttää. Yritä pysäyttää laite myöhemmin.</translation>
+		<variable>12305</variable>
+	</message>
+	<message>
+		<err_code>12306</err_code>
+		<translation>Voit nyt poistaa tämän laitteen.</translation>
+		<variable>12306</variable>
+	</message>
+	<message>
+		<err_code>12401</err_code>
+		<translation>Reititin tukee vain 20 portin laukaisusääntöä.</translation>
+		<variable>12401</variable>
+	</message>
+	<message>
+		<err_code>12402</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>12402</variable>
+	</message>
+	<message>
+		<err_code>12403</err_code>
+		<translation>Toinen samanlainen palvelun nimi.</translation>
+		<variable>12403</variable>
+	</message>
+	<message>
+		<err_code>12404</err_code>
+		<translation>Tulevan yhteyden portin alue on päällekkäinen muiden palvelujen kanssa.</translation>
+		<variable>12404</variable>
+	</message>
+	<message>
+		<err_code>12405</err_code>
+		<translation>Toinen palvelu käyttää jo laukaisevaa porttia.</translation>
+		<variable>12405</variable>
+	</message>
+	<message>
+		<err_code>12501</err_code>
+		<translation>Reititin tukee vain 64 portin välityssääntöä.</translation>
+		<variable>12501</variable>
+	</message>
+	<message>
+		<err_code>12502</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>12502</variable>
+	</message>
+	<message>
+		<err_code>12503</err_code>
+		<translation>Palvelun nimi on jo käytössä.</translation>
+		<variable>12503</variable>
+	</message>
+	<message>
+		<err_code>12504</err_code>
+		<translation>Toinen palvelu käyttää jo palvelun porttia.</translation>
+		<variable>12504</variable>
+	</message>
+	<message>
+		<err_code>12601</err_code>
+		<translation>VPN-käytäntötaulukko on täynnä</translation>
+		<variable>12601</variable>
+	</message>
+	<message>
+		<err_code>12602</err_code>
+		<translation>Käytännön nimi on jo olemassa</translation>
+		<variable>12602</variable>
+	</message>
+	<message>
+		<err_code>12603</err_code>
+		<translation>Warning! %s IP range is not supported changed to %s - %s</translation>
+		<variable>12603</variable>
+	</message>
+	<message>
+		<err_code>12604</err_code>
+		<translation>Virhe! Tietoja ei voitu tallentaa.[NEL]Vain yksi VPN-käytäntö voi käyttää dynaamista IP-osoitetta [NEL]etäyhteyden loppupisteessä.[NEL]Useita käytäntöjä voidaan tallentaa, mutta vain yksi voi olla käytössä</translation>
+		<variable>12604</variable>
+	</message>
+	<message>
+		<err_code>12605</err_code>
+		<translation>Virhe! Tietoja ei voitu tallentaa. Vain yksi VPN-käytäntö voi käyttää MITÄ TAHANSA IP-osoitetta paikalliselle tai etälähiverkolle.</translation>
+		<variable>12605</variable>
+	</message>
+	<message>
+		<err_code>12606</err_code>
+		<translation>Etä-LAN-verkon peite on virheellinen</translation>
+		<variable>12606</variable>
+	</message>
+	<message>
+		<err_code>12607</err_code>
+		<translation>Paikallisen-LAN-verkon peite on virheellinen</translation>
+		<variable>12607</variable>
+	</message>
+	<message>
+		<err_code>13001</err_code>
+		<translation>Muissa kokoonpanoissa käytetään määritettyjä portteja. Tarkista etähallintamääritykset, portin välitysasetukset, portin laukaisuasetukset, UPnP-portin kartoitustaulukon asetukset, RIP-asetukset sekä Internet-yhteyden tyyppi.</translation>
+		<variable>13001</variable>
+	</message>
+	<message>
+		<err_code>13002</err_code>
+		<translation>Järjestelmä käyttää määritettyjä portteja. Määritys ei tule voimaan, ennen kuin reititin käynnistyy uudelleen. Käynnistä reititin uudelleen.</translation>
+		<variable>13002</variable>
+	</message>
+	<message>
+		<err_code>13101</err_code>
+		<translation>Dynaamista DNS-palvelua ei ole otettu käyttöön.</translation>
+		<variable>13101</variable>
+	</message>
+	<message>
+		<err_code>13102</err_code>
+		<translation>%s updated successfully at %s.</translation>
+		<variable>13102</variable>
+	</message>
+	<message>
+		<err_code>13103</err_code>
+		<translation>Ei päivitystoimintoa. Internet-portissa ei ole IP-osoitetta.</translation>
+		<variable>13103</variable>
+	</message>
+	<message>
+		<err_code>13104</err_code>
+		<translation>Todennus epäonnistui. Käyttäjätunnus tai salasana ei ole oikea.</translation>
+		<variable>13104</variable>
+	</message>
+	<message>
+		<err_code>13105</err_code>
+		<translation>Päivitys epäonnistui. Isäntänimi ei ole oikea.</translation>
+		<variable>13105</variable>
+	</message>
+	<message>
+		<err_code>13106</err_code>
+		<translation>Update failed at %s.</translation>
+		<variable>13106</variable>
+	</message>
+	<message>
+		<err_code>13107</err_code>
+		<translation>Palveluntarjoaja ei ole saatavilla.</translation>
+		<variable>13107</variable>
+	</message>
+	<message>
+		<err_code>13201</err_code>
+		<translation>Internet-yhteyttä ei käytettävissä.</translation>
+		<variable>13201</variable>
+	</message>
+	<message>
+		<err_code>13202</err_code>
+		<translation>Yhdyskäytävä ei vastaa PING-kutsuun eikä Traceroutelle</translation>
+		<variable>13202</variable>
+	</message>
+	<message>
+		<err_code>13301</err_code>
+		<translation>Warning. The server ip and local ip are not in the same subnet.</translation>
+		<variable>13301</variable>
+	</message>
+	<message>
+		<err_code>13302</err_code>
+		<translation>Virheellinen tilin nimi.</translation>
+		<variable>gsm_msg_account_invalid</variable>
+	</message>
+	<message>
+		<err_code>13303</err_code>
+		<translation>Virheellinen toimialueen nimi.</translation>
+		<variable>gsm_msg_domain_invalid</variable>
+	</message>
+	<message>
+		<err_code>13304</err_code>
+		<translation>Nollataanko laskuri?</translation>
+		<variable>gsm_msg_tm_reset</variable>
+	</message>
+<message>
+		<err_code>13401</err_code>
+		<translation>Ei valittuja kohteita!</translation>
+		<variable>gsm_msg_gd_action</variable>
+	</message>
+	<message>
+		<err_code>13402</err_code>
+		<translation>No item!</translation>
+		<variable>gsm_msg_gd_rm_tab</variable>
+	</message>
+	<message>
+		<err_code>13403</err_code>
+		<translation>Latausnopeus (verkosta)</translation>
+		<variable>gsm_msg_gd_down_speed</variable>
+	</message>
+	<message>
+		<err_code>13404</err_code>
+		<translation>Latausnopeus (verkkoon)</translation>
+		<variable>gsm_msg_gd_up_speed</variable>
+	</message>
+	<message>
+		<err_code>13405</err_code>
+		<translation>Enimmäislataustehtävä</translation>
+		<variable>gsm_msg_gd_max_task_num</variable>
+	</message>
+	<message>
+		<err_code>13408</err_code>
+		<translation>Kirjoita kelvollinen latauslinkin FTP/HTTP-URL.</translation>
+		<variable>gsm_msg_gd_ftp_valid_add</variable>
+	</message>
+	<message>
+		<err_code>13410</err_code>
+		<translation>Ei valittua torrent-tiedostoa!</translation>
+		<variable>gsm_msg_gd_bt_file_sel</variable>
+	</message>
+	<message>
+		<err_code>13411</err_code>
+		<translation>Määritä oikea tiedosto. Tiedostomuoto on *.</translation>
+		<variable>gsm_msg_gd_bt_file_format</variable>
+	</message>
+	<message>
+		<err_code>13413</err_code>
+		<translation>Tiedosto on jo olemassa. </translation>
+		<variable>13413</variable>
+	</message>
+	<message>
+		<err_code>13414</err_code>
+		<translation>USB BT torrent path invliad!</translation>
+		<variable>13414</variable>
+	</message>
+	<message>
+		<err_code>13415</err_code>
+		<translation>URL-osoite on jo olemassa.</translation>
+		<variable>13415</variable>
+	</message>
+	<message>
+		<err_code>13416</err_code>
+		<translation>Lataustehtävien enimm.määrä saavutettu!</translation>
+		<variable>13416</variable>
+	</message>
+	<message>
+		<err_code>13417</err_code>
+		<translation>Väärä torrent-tiedosto. Ei voi ladata.</translation>
+		<variable>13417</variable>
+	</message>
+	<message>
+		<err_code>13418</err_code>
+		<translation>FAT:n (nykyinen USB-tallennusmuoto) tukema tiedoston enimmäiskoko on enintään 4 Gt.</translation>
+		<variable>13418</variable>
+	</message>
+	<message>
+		<err_code>13419</err_code>
+		<translation>Virhe – Tila ei riitä</translation>
+		<variable>13419</variable>
+	</message>
+	<message>
+		<err_code>13420</err_code>
+		<translation>Add task fail!</translation>
+		<variable>13420</variable>
+	</message>
+	<message>
+		<err_code>13421</err_code>
+		<translation>Valitse ensin vaihtoehto.</translation>
+		<variable>bh_select_an_option</variable>
+	</message>
+	<message>
+		<err_code>13422</err_code>
+		<translation>Käyttäjätunnus ei voi olla tyhjä.</translation>
+		<variable>bh_login_name_null</variable>
+	</message>
+	<message>
+		<err_code>13423</err_code>
+		<translation>Virheellinen salasana.</translation>
+		<variable>bh_password_error</variable>
+	</message>
+	<message>
+		<err_code>13424</err_code>
+		<translation>Määritä aikakatkaisuaika.[NEL]</translation>
+		<variable>bh_idle_time_null</variable>
+	</message>
+	<message>
+		<err_code>13425</err_code>
+		<translation>Virheellinen aikakatkaisuaika. Anna oikea numero.[NEL]</translation>
+		<variable>bh_invalid_idle_time</variable>
+	</message>
+	<message>
+		<err_code>13426</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen tai jätä se tyhjäksi.</translation>
+		<variable>bh_invalid_myip</variable>
+	</message>
+	<message>
+		<err_code>13427</err_code>
+		<translation>Virheellinen yhdyskäytävän IP-osoite. Anna se uudelleen.</translation>
+		<variable>bh_invalid_gateway</variable>
+	</message>
+	<message>
+		<err_code>13428</err_code>
+		<translation>Tietokone ei tue tulostinta.</translation>
+		<variable>bh_not_support_print</variable>
+	</message>
+	<message>
+		<err_code>13429</err_code>
+		<translation>Tiedostonimi ei voi olla tyhjä.</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13430</err_code>
+		<translation>Määritä oikea tiedosto. Tiedostomuoto on *.</translation>
+		<variable>bh_not_correct_file</variable>
+	</message>
+	<message>
+		<err_code>13431</err_code>
+		<translation>Virheellinen IP-osoite. Anna se uudelleen.</translation>
+		<variable>bh_invalid_ip</variable>
+	</message>
+	<message>
+		<err_code>13432</err_code>
+		<translation>Virheellinen aliverkon peite. Anna se uudelleen.[NEL]</translation>
+		<variable>bh_invalid_mask</variable>
+	</message>
+	<message>
+		<err_code>13433</err_code>
+		<translation>Lähiverkon IP-osoite ja laajaverkon IP-osoite eivät voi olla samassa aliverkossa.[NEL]</translation>
+		<variable>bh_same_lan_wan_subnet</variable>
+	</message>
+	<message>
+		<err_code>13434</err_code>
+		<translation>Tiedostonimi ei voi olla tyhjä.</translation>
+		<variable>bh_filename_null</variable>
+	</message>
+	<message>
+		<err_code>13435</err_code>
+		<translation>Internet-yhteyden määrittäminen vaatii asiantuntemusta. Oletko varma?</translation>
+		<variable>bh_no_genie_help_confirm</variable>
+	</message>
+	<message>
+		<err_code>13436</err_code>
+		<translation>Varoitus! [NEL]Asetusten palauttaminen määritystiedostosta poistaa kaikki nykyiset asetukset. [NEL]Haluatko varmasti tehdä tämän?</translation>
+		<variable>bh_ask_for_restore</variable>
+	</message>
+	<message>
+		<err_code>13437</err_code>
+		<translation>Please do not use the directory as save path.</translation>
+		<variable>gsm_msg_gd_unexpect_path</variable>
+	</message>
+	<message>
+		<err_code>13438</err_code>
+		<translation>Virheellinen MAC-osoite. Anna se uudelleen.</translation>
+		<variable>gsm_msg_invalid_mac</variable>
+	</message>
+	<message>
+		<err_code>13439</err_code>
+		<translation>Ei USB-asemaa</translation>
+		<variable>13439</variable>
+	</message>
+	<message>
+		<err_code>13440</err_code>
+		<translation>Valitse kysymys.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13441</err_code>
+		<translation>Vastaa kaikkiin kysymyksiin.</translation>
+		<variable>gsm_msg_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13442</err_code>
+		<translation>Antamasi tiedot eivät vastaa reitittimeen tallennettuja tietoja. Anna tiedot uudelleen.</translation>
+		<variable>gsm_msg_rsave_not_match</variable>
+	</message>
+	<message>
+		<err_code>13443</err_code>
+		<translation>Valitse oikea määritystiedosto.</translation>
+		<variable>gsm_msg_restore_fail</variable>
+	</message>
+	<message>
+		<err_code>13444</err_code>
+		<translation>Reitittimen käynnistäminen uudelleen keskeyttää verkossa käynnissä olevan tiedonsiirron. Haluatko varmasti jatkaa?</translation>
+		<variable>gsm_msg_confirm_reboot</variable>
+	</message>
+	<message>
+		<err_code>13445</err_code>
+		<translation>Reitittimeen voi määrittää vain 21 aikaväliä.</translation>
+		<variable>13445</variable>
+	</message>
+	<message>
+		<err_code>13448</err_code>
+		<translation>Ilmoitus: tiedostojen jakaminen DLNA/UPnP AV -yhteyden kautta Mediapalvelun-toiminnolla edellyttää, että vähintään yhdessä jaetussa kansiossa on lukuoikeutena Kaikki – ei salasanaa</translation>
+		<variable>gsm_msg_usb_no_read_access</variable>
+	</message>
+	<message>
+		<err_code>13502</err_code>
+		<translation>WEP- tai WPA-PSK [TKIP] -suojaustodennus ei toimi WPS:n kanssa. WPS-määritys ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wep_wpa_conflict_wps</variable>
+	</message>
+	<message>
+		<err_code>13503</err_code>
+		<translation>WPS vaatii toimiakseen SSID-lähetyksen. Jos teet tämän muutoksen, WPS ei ole käytettävissä. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wps_need_ssid_broadcast</variable>
+	</message>
+	<message>
+		<err_code>13504</err_code>
+		<translation>Oletko varma, ettet halua verkkoon langatonta suojausta? Tätä asetusta käytetään tavallisesti julkisessa käytössä olevien langattomien tukiasemien kohdalla. Haluatko jatkaa?</translation>
+		<variable>gsm_msg_wireless_none_security</variable>
+	</message>
+	<message>
+		<err_code>13550</err_code>
+		<translation>VLAN-tunnusta ei ole määritetty.</translation>
+		<variable>gsm_msg_vlan_no_vid_configured</variable>
+	</message>
+	<message>
+		<err_code>13551</err_code>
+		<translation>Virheellinen 802.1p-arvo.</translation>
+		<variable>gsm_msg_vlan_incorrect_8021p</variable>
+	</message>
+	<message>
+		<err_code>13552</err_code>
+		<translation>Virheellinen VLAN-tunnus-arvo. Oikea arvot ovat 1 - 4094.</translation>
+		<variable>gsm_msg_vlan_incorrect_vid</variable>
+	</message>
+	<message>
+		<err_code>13553</err_code>
+		<translation>Ryhmän nimi</translation>
+		<variable>gsm_msg_vlan_group_name</variable>
+	</message>
+	<message>
+		<err_code>13554</err_code>
+		<translation>on jo olemassa.</translation>
+		<variable>gsm_msg_vlan_already_exist</variable>
+	</message>
+	<message>
+		<err_code>13555</err_code>
+		<translation>Vähintään yksi portti on valittava.</translation>
+		<variable>gsm_msg_vlan_port_need_checked</variable>
+	</message>
+	<message>
+		<err_code>13556</err_code>
+		<translation>Vähintään yhden portin valinta on poistettava.</translation>
+		<variable>gsm_msg_vlan_port_need_unchecked</variable>
+	</message>
+	<message>
+		<err_code>13557</err_code>
+		<translation>Ei voi luoda enempää ryhmiä. Enimmäismäärä on 10 ryhmää.</translation>
+		<variable>gsm_msg_vlan_group_num_overflow</variable>
+	</message>
+	<message>
+		<err_code>13558</err_code>
+		<translation>Ei voi ottaa käyttöön enempää ryhmiä. Enimmäismäärä on 6 ryhmää.</translation>
+		<variable>gsm_msg_vlan_group_enable_overflow</variable>
+	</message>
+	<message>
+		<err_code>13559</err_code>
+		<translation>Ryhmän nimessä saa olla enintään 10 merkkiä.</translation>
+		<variable>gsm_msg_vlan_group_name_invalid</variable>
+	</message>
+	<message>
+		<err_code>13560</err_code>
+		<translation>Poista</translation>
+		<variable>gsm_msg_vlan_remove</variable>
+	</message>
+	<message>
+		<err_code>13600</err_code>
+		<translation>Mediapalvelimen nimi virheellinen.</translation>
+		<variable>gsm_msg_invalid_mediaserver_name</variable>
+	</message>
+	<message> 
+        <err_code>13603</err_code> 
+        <translation>Haluatko vaihtaa kielestä</translation> 
+        <variable>gsm_msg_switch_language_from</variable> 
+    </message> 
+    <message> 
+        <err_code>13604</err_code> 
+        <translation>(nykyinen kieli) kieleen</translation> 
+        <variable>gsm_msg_switch_language_to</variable> 
+    </message> 
+	<message>
+		<err_code>13613</err_code>
+		<translation>Et voi estää tällä hetkellä käyttämääsi laitetta muodostamatta yhteyttä reitittimeen. Jos haluat estää tämän laitteen, kirjaudu reitittimeen toisesta laitteesta.</translation>
+		<variable>gsm_msg_block_manage_device</variable>
+	</message>
+		<message>
+		<err_code>13614</err_code>
+		<translation>Isäntänimi ei kelpaa. Sallitut merkit ovat '0'~'9', 'a'~'z', 'A'~'Z' ja yhdysmerkki '-'</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_hostname</variable>
+	</message>
+	<message>
+		<err_code>13615</err_code>
+		<translation>Sähköpostiosoite ei kelpaa</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_email</variable>
+	</message>
+		<message>
+		<err_code>13616</err_code>
+		<translation>Salasanassa on oltava vähintään 6 ja enintään 32 merkkiä</translation>
+		<variable>gsm_msg_ngr_ddns_invalid_password</variable>
+	</message>
+	<message>
+		<err_code>13617</err_code>
+		<translation>Internet-yhteys ei toimi. Muodosta Internet-yhteys ensin</translation>
+		<variable>gsm_msg_wan_down</variable>
+	</message>
+	<message>
+		<err_code>13618</err_code>
+		<translation>Yhteyden muodostaminen DDNS-palvelimeen ei onnistu. Tarkista Internet-yhteys ja yritä myöhemmin uudelleen</translation>
+		<variable>gsm_msg_ddns_unreach_server</variable>
+	</message>
+	<message>
+		<err_code>13619</err_code>
+		<translation>Määritetty isäntänimi ei ole kelvollinen DNS-nimi</translation>
+		<variable>gsm_msg_hostname_invalid_dnsname</variable>
+	</message>
+	<message>
+		<err_code>13620</err_code>
+		<translation>Määritettyä sähköpostiosoitetta/tiliä ei ole</translation>
+		<variable>gsm_msg_email_account_not_exist</variable>
+	</message>
+	<message>
+		<err_code>13621</err_code>
+		<translation>Sähköpostiosoite on jo rekisteröity eri salasanan kanssa</translation>
+		<variable>gsm_msg_eamil_already_register</variable>
+	</message>
+	<message>
+		<err_code>13622</err_code>
+		<translation>Tilin todennus epäonnistui</translation>
+		<variable>gsm_msg_account_auth_fail</variable>
+	</message>
+	<message>
+		<err_code>13623</err_code>
+		<translation>Määritetty isäntänimi ei ole käytettävissä</translation>
+		<variable>gsm_msg_hostname_unavailable</variable>
+	</message>
+		<message>
+		<err_code>13624</err_code>
+		<translation>Olet saavuttanut tälle tilille luotavien isäntänimien enimmäismäärän</translation>
+		<variable>gsm_msg_max_ddns_host</variable>
+	</message>
+		<message>
+		<err_code>13625</err_code>
+		<translation>Napsauttamalla tätä</translation>
+		<variable>gsm_msg_click_here</variable>
+	</message>
+		<message>
+		<err_code>13626</err_code>
+		<translation>voit kirjautua sisään tiliisi ja päivittää sen tai poistaa ei-toivotun isäntänimen</translation>
+		<variable>gsm_msg_login_upgrade_ddns_account</variable>
+	</message>
+		<message>
+		<err_code>13627</err_code>
+		<translation>Työn suorittaminen loppuun ei onnistu. Syy:</translation>
+		<variable>gsm_msg_ddns_fail_reason</variable>
+	</message>
+		<message>
+		<err_code>13628</err_code>
+		<translation>Vahvistusviesti on lähetetty!</translation>
+		<variable>gsm_msg_ddns_ngr_email1</variable>
+	</message>
+			<message>
+		<err_code>13629</err_code>
+		<translation>Vahvistusviesti on lähetetty antamaasi sähköpostiosoitteeseen. Viestissä on linkki, jota napsauttamalla sinun on vahvistettava sähköpostiosoitteesi. Kun tili on vahvistettu, voit kirjautua sisään ja käyttää palvelujamme.</translation>
+		<variable>gsm_msg_ddns_ngr_email2</variable>
+	</message>
+	<message>
+		<err_code>13700</err_code>
+		<translation>VPN-palvelun on otettava DDNS käyttöön tai käytettävä kiinteää IP-osoitetta Internet-yhteydessä</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_1</variable>
+	</message>
+	<message>
+		<err_code>13701</err_code>
+		<translation>Ota käyttöön VPN-palvelu ja napsauta ensin "Käytä"-painiketta.</translation>
+		<variable>gsm_msg_openvpn_apply</variable>
+	</message>
+	<message>
+		<err_code>13702</err_code>
+		<translation>VPN-palvelu ei toimi, jos käytössä on IPv6-Internet-yhteys. Jos haluat käyttää IPv6-yhteyttä, sinun on ensin poistettava VPN-palvelu käytöstä. (Tyhjennä VPN-palvelunäytössä Ota VPN-palvelu käyttöön -ruutu ja napsauta Käytä-painiketta.)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6</variable>
+	</message>
+	<message>
+		<err_code>13703</err_code>
+		<translation>VPN-palvelu ei toimi, jos käytössä on IPv6-Internet-yhteys. Jos haluat käyttää VPN-palvelua, sinun on ensin poistettava IPv6-Internet-yhteys käytöstä. (Valitse IPv6-näytössä Poistettu käytöstä ja napsauta sitten Käytä-painiketta.)</translation>
+		<variable>gsm_msg_openvpn_not_with_ipv6_2</variable>
+	</message>
+	<message>
+		<err_code>13704</err_code>
+		<translation>On suositeltavaa käyttää dynaamista DNS-palvelua yksin VPN-palvelun kanssa. Varmista, että otat käyttöön dynaamisen DNS-palvelun tai käytät Internet-yhteydessä kiinteää IP-osoitetta.</translation>
+		<variable>gsm_msg_openvpn_need_ddns_or_static_ip_2</variable>
+	</message>
+	<message>
+		<err_code>13705</err_code>
+		<translation>Dynaaminen DNS-palvelu ei ole tällä hetkellä käytössä. Työasemien määrityksissä käytetään IP-osoitettasi. Kun IP-osoitteesi vaihtuu, sinun on ladattava ha asennettava määritystiedostot uudelleen.</translation>
+		<variable>gsm_msg_openvpn_ddns_not_enable</variable>
+	</message>
+	<message>
+		<err_code>13706</err_code>
+		<translation>Olet muuttanut VPN-palvelusi määrityksiä. Korvaa nykyiset määritystiedostot lataamalla ja asentamalla määritystiedostot kuhunkin VPN-työasemalaitteeseesi vaiheiden 2 ja 3 ohjeiden mukaisesti</translation>
+		<variable>gsm_msg_openvpn_change_settings</variable>
+	</message>
+	<message>
+		<err_code>13707</err_code>
+		<translation>Olet vaihtanut VPN-palvelun käyttämän kiinteän IP-osoitteesi. Korvaa nykyiset määritystiedostot lataamalla ja asentamalla määritystiedostot kuhunkin VPN-työasemalaitteeseesi VPN-työasema-asennuksen vaiheiden 2 ja 3 ohjeiden mukaisesti</translation>
+		<variable>gsm_msg_openvpn_change_static_ip</variable>
+	</message>
+	<message>
+		<err_code>13708</err_code>
+		<translation>Olet muuttanut VPN-palvelussa käytettäviä dynaamisia DNS-asetuksia. Korvaa nykyiset määritystiedostot lataamalla ja asentamalla määritystiedostot kuhunkin VPN-työasemalaitteeseesi VPN-työasema-asennuksen vaiheiden 2 ja 3 ohjeiden mukaisesti.</translation>
+		<variable>gsm_msg_openvpn_change_ddns</variable>
+	</message>
+	<message>
+		<err_code>13709</err_code>
+		<translation>Palvelun portti saa olla enintään 65534.</translation>
+		<variable>gsm_msg_openvpn_wrong_port</variable>
+	</message>
+	<message>
+		<err_code>13710</err_code>
+		<translation>Jaetun aseman nimi ei voi olla tyhjä</translation>
+		<variable>gsm_msg_share_name_blank</variable>
+	</message>
+	<message>
+		<err_code>13711</err_code>
+		<translation>VPN-palvelu vaatii kiinteän IP-osoitteen tai DDNS:n. Haluatko jatkaa ja poistaa VPN-palvelun käytöstä?</translation>
+		<variable>gsm_msg_openvpn_disabled_fixedip</variable>
+	</message>
+	<message>
+		<err_code>13712</err_code>
+		<translation>VPN-työasemasi määritystiedosto ei vastaa dynaamista DNS-asetusta tai IP-osoitettasi. Korvaa nykyiset määritystiedostot lataamalla ja asentamalla määritystiedostot kuhunkin VPN-työasemalaitteeseesi vaiheiden 2 ja 3 ohjeiden mukaisesti.</translation>
+		<variable>gsm_msg_openvpn_conf_change</variable>
+	</message>
+    <message>
+        <err_code>13713</err_code>
+        <translation>Langaton toistin ei toimi DFS-kanavilla. Varmista, että tukiasemaasi on märitetty muut kuin DFS-kanavat.</translation>
+        <variable>gsm_msg_wds_not_work_in_dfs_ch</variable>
+    </message>
+    <message>
+		<err_code>13714</err_code>
+		<translation>Se você não habilitar a recuperação de senha e esquecer sua nova senha, a única maneira de recuperar a senha será redefinir o dispositivo para o padrão de fábrica.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13715</err_code>
+		<translation> ei voi olla tyhjä.[NEL]</translation>
+		<variable>gsm_msg_password_blank</variable>
+	</message>
+	<message>
+		<err_code>13716</err_code>
+		<translation>Jos et ota salasanan palautusta käyttöön ja unohdat uuden salasanasi, salasana voidaan palauttaa ainoastaan palauttamalla laitteen tehdasasetukset.</translation>
+		<variable>gsm_msg_pwd_rec_war</variable>
+	</message>
+	<message>
+		<err_code>13717</err_code>
+		<translation>Haluatko varmasti vaihtaa järjestelmänvalvojan salasanan ilman palautustoimintoa?</translation>
+		<variable>gsm_msg_pwd_rec_chk</variable>
+	</message>
+	<message>
+		<err_code>13718</err_code>
+		<translation>Avaimen enimmäispituus on </translation>
+		<variable>gsm_msg_wls_max_pw_1</variable>
+	</message>
+	<message>
+		<err_code>13719</err_code>
+		<translation> merkkiä.</translation>
+		<variable>gsm_msg_wls_max_pw_2</variable>
+	</message>
+	<message>
+		<err_code>13720</err_code>
+		<translation>Kirjoittamasi salasana ei ole sama. Anna se uudelleen.</translation>
+		<variable>gsm_msg_pw_not_match_password</variable>
+	</message>
+	<message>
+		<err_code>13721</err_code>
+		<translation>Valitse kysymys.</translation>
+		<variable>gsm_msg_pwd_sec_sel</variable>
+	</message>
+	<message>
+		<err_code>13722</err_code>
+		<translation>Vastaa kaikkiin kysymyksiin.</translation>
+		<variable>gsm_msg_pwd_sec_ans</variable>
+	</message>
+	<message>
+		<err_code>13723</err_code>
+		<translation>2,4 GHz:n ja 5 GHz:n lähettimissä on eri WiFi -asetukset. Kun napsautat Käytä-painiketta, 2,4 GHz:n lähettimen asetukset korvaavat 5 GHz:n lähettimen asetukset.</translation>
+		<variable>gsm_msg_smart_conn</variable>
+	</message>
+	<message>
+		<err_code>13724</err_code>
+		<translation>Koska 5 GHz ei tue WEP-salausta, SMART CONNECT -toimintoa ei voi ottaa käyttöön.</translation>
+		<variable>gsm_msg_smart_conn_wep</variable>
+	</message>
+</error_msg>

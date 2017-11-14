@@ -1,0 +1,23 @@
+
+LIBS = libusb.a 
+
+all:
+
+ifeq ($(BUILD_TYPE), embedded)
+	./configure --host=mips-linux
+else
+	./configure
+endif
+	$(MAKE)
+	cp -rf ./.libs/$(LIBS) ./$(LIBS)
+	make clean
+	rm -rfv .deps/
+	cp -rfv Makefile.bk Makefile
+    
+clean:
+	rm -rfv $(LIBS)
+	cp -rfv Makefile.bk Makefile 
+
+install:
+	echo "lib-usb has been installed OK"
+	

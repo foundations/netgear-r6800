@@ -1,0 +1,28 @@
+#
+# SC_HOOKS point configuration
+# hook from arch/xxx/Kconfig
+#
+
+menu "SC_HOOKS point"
+
+config SC_USB_LED
+	bool "SC USB LED support"
+	default y
+	help
+	  as title.
+config CNAPT
+       bool "SC cone nat support"
+       depends on NF_NAT
+       default y
+       help
+         as title.
+config SPI_FIRWALL
+       bool "SC SPI firewall support"
+       default y
+       help
+         as title.
+
+endmenu
+
+
+

@@ -1,0 +1,11 @@
+--- user_space/apps/public/openvpn/openvpn-2.3.11/src/src/openvpn/options.c	2016-05-10 14:02:33.000000000 +0800
++++ user_space/apps/public/openvpn/openvpn-2.3.11/src/src/openvpn_new/options.c	2016-10-28 22:14:05.000000000 +0800
+@@ -781,7 +781,7 @@
+   o->ce.connect_retry_max = 0;
+   o->ce.local_port = o->ce.remote_port = OPENVPN_PORT;
+   o->verbosity = 1;
+-  o->status_file_update_freq = 60;
++  o->status_file_update_freq = 10; /*change freq from 60 to 10 in order to update status more frequently*/
+   o->status_file_version = 1;
+   o->ce.bind_local = true;
+   o->ce.tun_mtu = TUN_MTU_DEFAULT;

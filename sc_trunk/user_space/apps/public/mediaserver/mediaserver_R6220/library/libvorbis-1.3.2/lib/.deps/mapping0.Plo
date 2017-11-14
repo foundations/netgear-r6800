@@ -1,0 +1,49 @@
+mapping0.lo: mapping0.c \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/ogg.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/os_types.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/config_types.h \
+ ../include/vorbis/codec.h codec_internal.h envelope.h mdct.h codebook.h \
+ psy.h smallft.h backends.h bitrate.h os.h ../config.h misc.h highlevel.h \
+ window.h registry.h lpc.h lsp.h scales.h
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/ogg.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/os_types.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sc_trunk/user_space/apps/public/mediaserver/mediaserver_R6220/library/libvorbis-1.3.2/lib/../../..//library/libogg-1.3.0/include/ogg/config_types.h:
+
+../include/vorbis/codec.h:
+
+codec_internal.h:
+
+envelope.h:
+
+mdct.h:
+
+codebook.h:
+
+psy.h:
+
+smallft.h:
+
+backends.h:
+
+bitrate.h:
+
+os.h:
+
+../config.h:
+
+misc.h:
+
+highlevel.h:
+
+window.h:
+
+registry.h:
+
+lpc.h:
+
+lsp.h:
+
+scales.h:

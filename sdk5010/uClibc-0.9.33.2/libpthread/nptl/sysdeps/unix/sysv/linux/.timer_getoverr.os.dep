@@ -1,0 +1,144 @@
+libpthread/nptl/sysdeps/unix/sysv/linux/timer_getoverr.os: \
+ libpthread/nptl/sysdeps/unix/sysv/linux/timer_getoverr.c \
+ include/libc-symbols.h include/bits/uClibc_arch_features.h \
+ include/errno.h include/features.h include/bits/uClibc_config.h \
+ include/sys/cdefs.h include/libc-internal.h include/bits/errno.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/linux/errno.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/asm/errno.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/asm-generic/errno-base.h \
+ include/time.h \
+ /opt/buildroot-gcc463_NPTLSHAREDLIBGCC/usr/lib/gcc/mipsel-buildroot-linux-uclibc/4.6.3/include/stddef.h \
+ include/bits/time.h include/bits/uClibc_clk_tck.h include/bits/types.h \
+ include/bits/wordsize.h include/bits/kernel_types.h \
+ include/bits/typesizes.h include/bits/pthreadtypes.h include/endian.h \
+ include/bits/endian.h include/byteswap.h include/bits/byteswap.h \
+ include/bits/byteswap-common.h include/sgidefs.h \
+ libc/sysdeps/linux/mips/sysdep.h libc/sysdeps/linux/common/sysdep.h \
+ include/sys/syscall.h include/bits/sysnum.h include/bits/syscalls.h \
+ include/alloca.h include/bits/stackinfo.h include/bits/syscalls-common.h \
+ include/bits/kernel-features.h \
+ /home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/linux/version.h \
+ libpthread/nptl/sysdeps/unix/sysv/linux/kernel-posix-timers.h \
+ libpthread/nptl/sysdeps/unix/sysv/linux/../../../../../../librt/kernel-posix-timers.h \
+ include/setjmp.h include/bits/setjmp.h include/bits/sigset.h \
+ include/signal.h include/bits/signum.h include/bits/siginfo.h \
+ include/bits/sigaction.h include/bits/sigcontext.h \
+ include/bits/sigstack.h include/sys/ucontext.h include/bits/sigthread.h \
+ include/sys/types.h include/sys/select.h include/bits/select.h \
+ include/sys/sysmacros.h include/pthread.h include/sched.h \
+ include/bits/sched.h include/bits/uClibc_pthread.h
+
+include/libc-symbols.h:
+
+include/bits/uClibc_arch_features.h:
+
+include/errno.h:
+
+include/features.h:
+
+include/bits/uClibc_config.h:
+
+include/sys/cdefs.h:
+
+include/libc-internal.h:
+
+include/bits/errno.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/linux/errno.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/asm/errno.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/asm-generic/errno-base.h:
+
+include/time.h:
+
+/opt/buildroot-gcc463_NPTLSHAREDLIBGCC/usr/lib/gcc/mipsel-buildroot-linux-uclibc/4.6.3/include/stddef.h:
+
+include/bits/time.h:
+
+include/bits/uClibc_clk_tck.h:
+
+include/bits/types.h:
+
+include/bits/wordsize.h:
+
+include/bits/kernel_types.h:
+
+include/bits/typesizes.h:
+
+include/bits/pthreadtypes.h:
+
+include/endian.h:
+
+include/bits/endian.h:
+
+include/byteswap.h:
+
+include/bits/byteswap.h:
+
+include/bits/byteswap-common.h:
+
+include/sgidefs.h:
+
+libc/sysdeps/linux/mips/sysdep.h:
+
+libc/sysdeps/linux/common/sysdep.h:
+
+include/sys/syscall.h:
+
+include/bits/sysnum.h:
+
+include/bits/syscalls.h:
+
+include/alloca.h:
+
+include/bits/stackinfo.h:
+
+include/bits/syscalls-common.h:
+
+include/bits/kernel-features.h:
+
+/home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/linux/version.h:
+
+libpthread/nptl/sysdeps/unix/sysv/linux/kernel-posix-timers.h:
+
+libpthread/nptl/sysdeps/unix/sysv/linux/../../../../../../librt/kernel-posix-timers.h:
+
+include/setjmp.h:
+
+include/bits/setjmp.h:
+
+include/bits/sigset.h:
+
+include/signal.h:
+
+include/bits/signum.h:
+
+include/bits/siginfo.h:
+
+include/bits/sigaction.h:
+
+include/bits/sigcontext.h:
+
+include/bits/sigstack.h:
+
+include/sys/ucontext.h:
+
+include/bits/sigthread.h:
+
+include/sys/types.h:
+
+include/sys/select.h:
+
+include/bits/select.h:
+
+include/sys/sysmacros.h:
+
+include/pthread.h:
+
+include/sched.h:
+
+include/bits/sched.h:
+
+include/bits/uClibc_pthread.h:
+cmd_libpthread_nptl_sysdeps_unix_sysv_linux_timer_getoverr.os := /opt/buildroot-gcc463_NPTLSHAREDLIBGCC/usr/bin/mipsel-linux-gcc -c libpthread/nptl/sysdeps/unix/sysv/linux/timer_getoverr.c -o libpthread/nptl/sysdeps/unix/sysv/linux/timer_getoverr.os -include include/libc-symbols.h -Wstrict-prototypes -Wstrict-aliasing -funsigned-char -fno-builtin -fno-asm -std=gnu99 -march=mips32r2 -mtune=mips32r2 -mabi=32 -fno-stack-protector -nostdinc -Iinclude -Iinclude -I. -Ilibc/sysdeps/linux -Ilibc/sysdeps/linux/mips -Os -funit-at-a-time -fmerge-all-constants -fstrict-aliasing -fno-tree-loop-optimize -fno-tree-dominator-opts -fno-strength-reduce -mno-split-addresses -DHAVE_FORCED_UNWIND -Ilibpthread/nptl -Ilibpthread/nptl -Ilibpthread/nptl/sysdeps/unix/sysv/linux/mips/ -Ilibpthread/nptl/sysdeps/unix/sysv/linux/mips -Ilibpthread/nptl/sysdeps/mips -Ilibpthread/nptl/sysdeps/mips -Ilibpthread/nptl/sysdeps/unix/sysv/linux -Ilibpthread/nptl/sysdeps/unix/sysv/linux -Ilibpthread/nptl/sysdeps/pthread -Ilibpthread/nptl/sysdeps/pthread/bits -Ilibpthread/nptl/sysdeps/generic -Ildso/ldso/mips -Ildso/include -Ilibc/sysdeps/linux/common -I/home/disk2/eason/eason_disk3/R6950_1042/sdk5010/linux-2.6.36.x/include/ -isystem /opt/buildroot-gcc463_NPTLSHAREDLIBGCC/usr/lib/gcc/mipsel-buildroot-linux-uclibc/4.6.3/include-fixed -isystem /opt/buildroot-gcc463_NPTLSHAREDLIBGCC/usr/lib/gcc/mipsel-buildroot-linux-uclibc/4.6.3/include -DNDEBUG -D__USE_STDIO_FUTEXES__ -fPIC -DNOT_IN_libc -Ilibrt -DIS_IN_librt -MT libpthread/nptl/sysdeps/unix/sysv/linux/timer_getoverr.os -MD -MP -MF libpthread/nptl/sysdeps/unix/sysv/linux/.timer_getoverr.os.dep

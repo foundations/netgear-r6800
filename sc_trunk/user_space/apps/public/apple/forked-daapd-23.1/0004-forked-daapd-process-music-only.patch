@@ -1,0 +1,51 @@
+From b53eba0a66e8b3826573ca128b45ca6b8b8146c6 Mon Sep 17 00:00:00 2001
+From: root <root@localhost.localdomain>
+Date: Fri, 19 Jun 2015 15:26:59 +0800
+Subject: [PATCH 4/6] forked daapd process music only
+
+---
+ src/filescanner.c |   21 +++++++++++++++++++++
+ 1 files changed, 21 insertions(+), 0 deletions(-)
+
+diff --git a/src/filescanner.c b/src/filescanner.c
+index 68fcd67..1505918 100644
+--- a/src/filescanner.c
++++ b/src/filescanner.c
+@@ -98,6 +98,7 @@ struct filescanner_command
+ #define F_SCAN_FAST    (1 << 2)
+ #define F_SCAN_MOVED   (1 << 3)
+ #define MAX_NUM_MEDIA_FILE   25000
++#define PROCESS_MUSIC_ONLY
+ 
+ enum file_type {
+   FILE_UNKNOWN = 0,
+@@ -662,6 +663,26 @@ filescanner_process_media(char *path, time_t mtime, off_t size, int type, struct
+   else
+     filename++;
+ 
++  char *ext = strrchr(path, '.');
++  if (ext)
++    {
++#ifdef PROCESS_MUSIC_ONLY
++      /* According to NTGR SPEC Rev 12
++       * 16.15.4 Engineering Spec:
++       * 4. Support music format: MP3, AAC, FLAC, WAV, WMA.
++       */
++      if ((strcasecmp(ext, ".mp3") != 0)
++          && (strcasecmp(ext, ".aac") != 0)
++          && (strcasecmp(ext, ".m4a") != 0)
++          && (strcasecmp(ext, ".flac") != 0)
++          && (strcasecmp(ext, ".wav") != 0)
++          && (strcasecmp(ext, ".wma") != 0))
++	{
++	  return;
++	}
++#endif
++    }
++
+   db_file_stamp_bypath(path, &stamp, &id);
+ 
+   if (stamp && (stamp >= mtime))
+-- 
+1.6.5.2
+

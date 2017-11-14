@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation>Înainte</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Anulare</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Da</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>Nu</translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>Adresă IP</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP mascã subreþea</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>DNS primar</translation>
+<variable>Primary DNS</variable>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>DNS secundar</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Conectare</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Asistent actualizare firmware</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Verificare versiune firmware</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Înapoi</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Expert configurare</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Setãri wireless</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Wireless</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Tip conexiune</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Mascã de subreþea</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Gateway implicit</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Reîncercare</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Nu existã versiune firmware mai nouã.</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>IP dinamic (DHCP) detectat</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Programul expert pentru configurare poate detecta tipul de conexiune la Internet pe care îl aveþi.</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Doriþi ca programul expert pentru configurare sã încerce sã detecteze tipul de conexiune acum?</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Nu. Doresc sã configurez personal routerul.</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Verificaţi corectitudinea conexiunilor de cablu. Consultaţi ghidul de instalare al routerului pentru instrucţiuni.</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Verificaţi dacă modemul de bandă largă este oprit şi pornit în mod corect. Dacă aveţi un modem cu baterie de rezervă, scoateţi şi reintroduceţi bateria pentru a opri şi a reporni modemul.</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(în format AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*= informaţii obligatorii</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Modemul nu a fost oprit şi pornit în timpul etapei de cablare.</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Cablul Ethernet galben nu este introdus complet sau este introdus incorect.</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>O adresă MAC reprezintă un număr unic.  Puteţi găsi adresa MAC a computerului sau a routerului pe eticheta respectivului produs.</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>După ce aţi verificat cablul Ethernet, faceţi clic pe &lt;b&gt;Încercaţi din nou&lt;/b&gt;.</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Server DNS alternativ</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Răspuns</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Se aplică setările de conexiune la Internet</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Înapoi</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Navigaţi la fişierul de backup cu setările routerului salvate anterior şi faceţi clic pe &lt;b&gt;Continuare&lt;/b&gt; pentru a continua.</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Se verifică conexiunea la Internet; vă rugăm aşteptaţi…</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Faceţi clic aici</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Se configurează conexiunea la Internet</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Felicitări!</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>ID/nume conexiune</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Continuare</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Se detectează conexiunea la Internet</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Furnizorul de servicii de Internet (ISP) v-a alocat o adresă IP fixă (statică)? Aceasta este o implementare specială &lt;b&gt;foarte rară&lt;/b&gt;. </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Doriţi asistenţa NETGEAR Genie?</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Doriţi ca NETGEAR Genie să încerce din nou?</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Activare recuperare parolă</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Introduceţi setările de adresă IP fixă alocate de furnizorul de servicii de Internet şi faceţi clic pe &lt;b&gt;Continuare&lt;/b&gt; pentru a continua.</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Introduceţi adresa MAC aici.</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Introduceţi din nou informaţiile necesare.</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Introduceţi informaţiile necesare mai jos.</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Eºec</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Setări adresă IP fixă de Internet</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>Adresã IP gateway</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Am corectat problema cu cablul Ethernet</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Nu ştiu. </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Am salvat setările routerului într-un fişier şi doresc să readuc routerul la respectivele setări.</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Tocmai am oprit şi am repornit modemul şi am aşteptat 2 minute.</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Doresc să configurez personal conexiunea la Internet</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Interval aşteptare&lt;/B&gt; (în minute)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Dacă v-aţi conectat anterior la serviciul de Internet cu un computer sau cu un alt router, NETGEAR Genie poate utiliza aceeaşi adresă MAC care a funcţionat anterior.</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Actualizare importantă</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>În ce localitate s-a născut tatăl dvs.?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>În ce localitate s-a născut mama dvs.?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>În ce localitate v-aţi născut?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>În ce an (AAAA) aţi absolvit liceul?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Nume de utilizator incorect sau parolă incorectă pentru ISP</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Asiguraţi-vă de introducerea corectă a cablului în portul de bandă largă al modemului şi în portul de Internet al routerul.</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Adresã IP personalã</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problemă de conectare la reţea</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>următoarea cheie de reţea (parolă)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>următoarea cheie de reţea (parolă)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Înainte</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Nu este introdus niciun cablu Ethernet în portul de Internet al routerului</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Nu, nu am obţinut o adresă IP fixă (statică) de la ISP.</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Nu, doresc să configurez personal conexiunea la Internet.</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Niciuna din alternativele de mai sus.</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Parolã</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Revedeţi următoarele elemente:</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Aºteptaþi...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>S-a detectat o conexiune la Internet PPPoE DSL</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>S-a detectat o conexiune la Internet PPTP</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Server DNS preferat</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Tipărire</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>A apărut o problemă la detectarea conexiunii la Internet - Adresa IP</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>A apărut o problemă la detectarea conexiunii la Internet - Adresa MAC</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>A apărut o problemă la detectarea conexiunii la Internet</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Restabilire setări router</translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Restabilire setări router</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Versiune firmware router</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Întrebarea de securitate nr. 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Întrebarea de securitate nr. 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Selectaţi o întrebare</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Selectaţi o opţiune şi faceţi clic pe &lt;b&gt;Continuare&lt;/b&gt; pentru a continua.</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Adresã server</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Accesare Internet</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Routerul nu se poate conecta la Internet cu setările curente.</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Acest fapt se datorează, cel mai probabil, unuia din următoarele motive:</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Acest proces poate dura câteva minute; aşteptaţi…</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Acest proces poate dura unul-două minute; aşteptaţi...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Acest router este presetat cu următorul nume unic de reţea wireless (SSID) şi </translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Se va reveni automat la ecranul anterior în câteva secunde...</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Pentru a evita un conflict cu furnizorul de servicii de Internet, adresa IP a routerului a fost actualizată la valoarea </translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Pentru a rezolva această problemă, asiguraţi-vă de introducerea corectă a cablului Ethernet galben în portul modemului de bandă largă şi în portul de Internet al routerului.</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Pentru a rezolva această problemă, opriţi şi porniţi modemul. Pentru a opri şi a reporni un modem cu baterie de rezervă, poate fi necesară scoaterea şi reintroducerea bateriei. După oprire şi repornire, aşteptaţi 2 minute pentru iniţializarea completă a modemului.</translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Reîncercare</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Nume utilizator</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Vă putem ajuta să recuperaţi parola de administrare a routerului. Completaţi informaţiile de mai jos şi faceţi clic pe &lt;b&gt;Continuare&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Care este numele primului dvs. angajator?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Care este numele celui mai bun prieten al dvs.?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Care este al doilea nume al tatălui dvs.?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Care este numele bunicului dvs.?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Care este numele bunicii dvs.?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Care este al doilea nume al mamei dvs.?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Care este numele fratelui dvs. cel mai mare?</translation>
+
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Care este numele surorii dvs. cea mai mare?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Care este numele fratelui dvs. cel mai mare?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Care este numele surorii dvs. celei mai mici?</translation>
+
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Care era numele primului dvs. manager?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Care era numele primului produs NETGEAR pe care l-aţi achiziţionat?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Care era numele primei şcoli pe care aţi absolvit-o?</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Nume reţea wireless (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Wireless</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Da</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Da. ISP-ul mi-a alocat o adresă IP fixă (statică).</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Deocamdată nu sunteţi conectat(ă) la Internet.</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>V-aţi conectat cu succes la Internet.</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Routerul dvs. este presetat cu securitate wireless WPA2-PSK pentru a proteja reţeaua împotriva accesului nedorit. Pentru a accesa reţeaua wireless, trebuie să introduceţi cheia de reţea (parola). Aceste setări sunt unice pentru dispozitiv, ca un număr de serie.  Dacă doriţi să le modificaţi, o puteţi face mai târziu în ecranul Setări wireless din interfaţa grafică a routerului.</translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Securitatea wireless nu este activată pe acest router. NETGEAR recomandă</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>să activaţi securitatea wireless şi să vă protejaţi reţeaua.</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Detectare automată</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Faceţi clic pe "Înainte" pentru a continua.</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>Mod AP</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Înapoi</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Descărcaţi următoarele aplicaţii ale routerului:</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>aplicaţia Genie. Un tablou de bord personal care vă permite să monitorizaţi, controlaţi şi să vă reparaţi reţeaua de domiciliu.</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>Aplicaţia ReadySHARE Vault (Numai pentru computere Windows). Activează copierea de rezervă automată continuă a computerului Windows computer printr-o unitate USB conectată la routerul dvs.</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>În curs de descărcare…</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Instalaţi aplicaţia Genie după finalizarea descărcării.</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Faceţi clic pe butonul Înainte după ce instalaţi aplicaţia Genie pentru a finaliza configurarea routerului.</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Instalaţi aplicaţia ReadySHARE Vault după finalizarea descărcării.</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Faceţi clic pe butonul Înainte după ce instalaţi aplicaţia ReadySHARE Vault pentru a finaliza configurarea routerului.</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Se procesează solicitarea dvs…</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>După instalare, faceţi clic pe Next (Înainte).</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Sistemul se va instala</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Faceţi clic pe Rulare pentru a porni instalarea</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>Asistent actualizare firmware</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>Actualizare firmware router în curs. Aşteptaţi</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>Notă: Actualizarea firmware-ului va dura circa</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>minute pentru upgrade-ul de firmware.&lt;br&gt;Nu întrerupeţi alimentare şi nu apăsaţi butonul de resetare.</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>Aºteptaþi ...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Anulare</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Routerul descarcã noua versiune. Aºteptaþi...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>A fost gãsitã o versiune nouã de firmware. Actualizaþi cu noua versiune acum?</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Versiune curentã</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>Versiune de firmware nouă</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>Acest proces poate dura unul-două minute; aşteptaţi...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>Verificare versiune firmware</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>Nu existã versiune firmware mai nouã.</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>OK</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>Verificare configuraţie de reţea, vă rugăm aşteptaţi…</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>Routerul existent sau gateway detectate în reţea</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Routerul NETGEAR este conectat la o reţea în care există deja un alt router. Dacă doriţi să lăsaţi conectat primul router, genie vă recomandă să utilizaţi modul Punct de acces pentru routerul NETGEAR. Atunci când routerul NETGEAR se află în modul Punct de acces, îl puteţi utiliza pentru a vă conecta la reţea, iar celălalt router continuă să efectueze aceleaşi sarcini ca înainte.</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Doriţi să configuraţi acest dispozitiv în modul Punct de acces</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>Da (recomandat)</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>Nu, vreau să funcţioneze în modul implicit ca router</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>Pentru a adăuga acest router la reţeaua dvs. în modul Punct de acces</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>Adresa IP a acestui dispozitiv nou</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>Preluare dinamică adresă IP de la routerul actual</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>Utilizaţi o adresă IP fixă (nerecomandat)</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>Notă: după ce apăsaţi Următorul, routerul va obţine o adresă IP nouă. Dacă se întâmplă acest lucru, browserul poate fi deconectat de la reţea. Pentru a reconecta routerul, închideţi fereastra şi reporniţi browserul.</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>Mod Router</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>Mod Punct de acces</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>Aflaţi mai multe</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>Avertisment</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>Noul dvs. router NETGEAR este pe cale de a fi configurat în modul Punct de acces. Este posibil să existe o scurtă întrerupere a reţelei, deoarece noul dvs. router şi client NETGEAR trebuie să obţină noua adresă IP de la routerul dvs. existent. Dacă aţi pierdut conexiunea de reţea, conectaţi-vă din nou, manual, la noul dvs. router NETGEAR vizitând &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>Următoarele caracteristici ale routerului nu sunt disponibile dacă alegeţi modul Punct de acces:</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>Comenzi parentale</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>Blocare site-uri</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>Blocare servicii</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>Redirecþionare porturi</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>Declanºare porturi</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>Rute statice</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>Contor trafic</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>Administrare de la distanþã</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>Reþea de utilizatori vizitatori</translation>
+<variable>Guest network</variable>
+</message>
+
+<message>
+<tag_code>4459</tag_code>
+<translation>Se pare că instalaţi routerul NETGEAR în spatele routerului sau al gateway-ului furnizorului dvs. de servicii internet existent. Puteţi alege să instalaţi routerul în diferite moduri de operare.</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>Lasă-mă să aleg</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>Ajută-mă să aleg</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>genie vă prezintă câteva întrebări şi apoi propune modul de operare cel mai adecvat pentru dvs.</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(Puteţi întotdeauna să modificaţi modul prin executarea din nou a aplicaţiei Expert configurare.)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(Faceţi clic aici pentru a vedea o ilustraţie.)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>Acest mod vă permite să beneficiaţi de funcţiile routerului&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;NETGEAR.&lt;/a&gt; Routerul NETGEAR este configurat ca un router WiFi normal, situat în spatele routerului sau al gateway-ului dvs. existent. Pentru acest mod este necesar ca toate dispozitivele dvs. să fie conectate la noul router NETGEAR şi nu la gateway-ul dvs. existent.</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>Acest mod este adecvat pentru configurare uşoară dacă dispozitivele sunt deja conectate la routerul sau la gateway-ul dvs. existent sau dacă nu doriţi decât să utilizaţi acest nou router NETGEAR pentru a vă extinde acoperirea WiFi. Unele &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funcţii ale routerului&lt;/a&gt; nu sunt disponibile în modul punct de acces.</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>Funcţii ale routerului</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>Control acces</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>Funcţii avansate</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>Redirecţionarea porturilor (denumită uneori cartografierea porturilor) permite accesul la reţeaua dvs. de domiciliu prin internet. Dacă dispuneţi, la domiciliu, de un dispozitiv de genul unui server web pe care alţi utilizatori îl accesează de la distanţă utilizând un nume de gazdă pe care l-aţi înregistrat (de regulă, prin intermediul unui serviciu DNS dinamic) sau utilizând o adresă IP, probabil că funcţia de redirecţionare a porturilor este activată. Dacă nu aţi auzit niciodată de această funcţie, chiar dacă aveţi acces de la distanţă la un dispozitiv de la domiciliu, există probabilitatea să nu utilizaţi această funcţie.</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>Router vs. punct de acces</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>genie a detectat că aţi încercat să instalaţi noul dvs. router NETGEAR în spatele altui gateway, ca de exemplu, gateway-ul sau cablul DSL al furnizorului dvs. de Internet. De obicei, un gateway oferă şi funcţia  WiFi sau Voice over Internet (VoIP). Puteţi instala routerul dvs. NETGEAR în două moduri de operare diferite.</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>Acest mod configurează noul dvs. router NETGEAR ca router WiFi normal în spatele gateway-ului dvs. şi creează o reţea WiFi separată în spatele gateway-ului. Pentru a beneficia la maximum de aceste funcţii avansate ale routerului, NETGEAR recomandă utilizarea modului router. În modul router, singurul dispozitiv care poate fi conectat la gateway-ul dvs. existent este noul dvs. router NETGEAR. Trebuie să vă conectaţi toate dispozitivele dvs. la noul router NETGEAR. Dacă gateway-ul dvs. dispune de o funcţie WiFi, dezactivaţi-o.</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>Unele &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funcţii avansate&lt;/a&gt;, precum Gestionare la distanţă, necesită în continuare configurarea la gateway. Pentru mai multe informaţii, consultaţi documentaţia gateway-ului dvs.</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>Dacă doriţi să utilizaţi noul router pentru a obţine performanţe Wi-Fi îmbunătăţite în afara celor obţinute cu gateway-ul dvs. existent, modul punct de acces este cea mai simplă modalitate de a proceda. NETGEAR recomandă dezactivarea funcţiei WiFi de la gateway-ul existent, dacă acesta dispune de funcţionalitate WiFi. Acest mod permite conectarea dispozitivelor cu fir la gateway şi conectarea dispozitivelor cu fir şi WiFi la noul dvs. router gateway.</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>În acest mod, în mod implicit, adresa IP a noului router este atribuită în mod dinamic de către gateway-ul dvs. şi este puţin probabil să fie 192.168.1.1. Totuşi, puteţi utiliza în continuare adresa &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; pentru a accesa interfaţa grafică de gestionare a routerului de la un dispozitiv conectat la router. Unele &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funcţii ale routerului&lt;/a&gt; nu sunt disponibile în acest mod şi trebuie să utilizaţi modul router dacă doriţi să le folosiţi.</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>Următoarele funcţii ale routerului sunt disponibile numai în modul router, dar necesită configurarea la gateway-ul dvs. existent:</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>Terminare VPN</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>Activare mod Punct de acces</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>Pentru ca modul router să funcţioneze corespunzător, trebuie să conectaţi toate dispozitivele dvs. WiFi şi cablate la routerul NETGEAR, cu excepţia echipamentelor oferite de furnizorul dvs. de servicii internet, precum un receptor de satelit TV sau telefoane fără fir conectate la gateway-ul dvs.</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>Puteţi deconecta toate celelalte dispozitive (cu fir şi wireless) de la gateway-ul existent şi apoi să le conectaţi la routerul NETGEAR?</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>NETGEAR recomandă configurarea acestui nou router în modul router.</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>Modul router permite utilizarea tuturor caracteristicilor avansate ale routerului dvs. NETGEAR. Puteţi întotdeauna aplicaţia Expert configurare pentru a schimba ulterior modul.</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+
+<message>
+<tag_code>4485</tag_code>
+<translation>Nume de reţea wireless de 2,4 GHz (SSID): </translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>Parolă de reţea wireless de 2,4 GHz (Cheie de reţea): </translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>Nume de reţea wireless de 5 GHz (SSID): </translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>Parolă de reţea wireless de 5 GHz (Cheie de reţea): </translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>Cheie de reţea (Parolă )</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>AVERTISMENT: Nu faceţi clic pe butonul &lt;b&gt;Finalizare&gt; decât după reconectarea dispozitivului dvs. la router.</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>Finalizare</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>Setările wireless ale acestui router au fost modificate. Utilizaţi următorul nume de reţea wireless (SSID) şi următoarea cheie de reţea (parolă) pentru reconectarea dispozitivului la rpouter şi apoi clic pe butonul &lt;b&gt;Finalizare&lt;/b&gt;&lt;b&gt; &lt;/b&gt;de mai jos pentru a finaliza instalarea.</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>NETGEAR recomandă dezactivarea funcţiei WiFi a gateway-ului dvs. existent, pentru a evita următoarele probleme:</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>Conexiune accidentală la gateway-ul existent, în loc de noul router NETGEAR</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>Interferenţă între noul router NETGEAR şi funcţia WiFi a gateway-ului existent</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>Pentru a evita interferenţele WiFi care pot compromite performanţele WiFi, NETGEAR recomandă dezactivarea funcţiei WiFi a gateway-ului dvs. existent</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>Puteţi dezactiva funcţia WiFi a gateway-ului dvs. existent?</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>Copiaţi setările dvs. WiFi curente din gateway-ul existent şi introduceţi-le aici. Apoi, dezactivaţi funcţia WiFi a gateway-ului dvs. existent.</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>Pentru a preveni conectarea dispozitivelor dvs. WiFi la gateway-ul existent, utilizaţi următorul nume (SSID) şi următoarea parolă (cheie de reţea) pentru conectarea tuturor dispozitivelor dvs. WiFi la acest router.</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Protecţie parolă admin</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Avertisment: Vă recomandăm să activaţi protecţia parolei admin pentru a vă securiza datele ReadySHARE. Dacă nu aţi modificat parola implicită de admin, vă recomandăm, de asemenea, să o modificaţi pentru a vă securiza reţeaua.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Setări cont admin</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Parola admin este utilizată pentru conectarea la interfaţa web a routerului. Asiguraţi-vă reţeaua prin modificarea parolei admin.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Parolă nouă</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Confirmaţi parola nouă</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Nume utilizator admin:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Parolă nouă admin:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Setări admin router:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>Reţeaua dvs. curentă</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>genie a detectat că utilizaţi un gateway pentru conexiunea dvs. la internet. Dacă doriţi să utilizaţi toate funcţiile noului dvs. router, NETGEAR recomandă modul Router. genie trebuie să vă pună câteva întrebări pentru a verifica dacă modul router este corespunzător pentru dvs.</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>Utilizaţi în prezent&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;funcţii avansate&lt;/a&gt; cum ar fi &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;redirecţionarea porturilor&lt;/a&gt; &#40;uneori denumită maparea porturilor&#41; pe gateway-ul existent sau alocaţi o adresă IP statică unui dispozitiv din reţeaua dvs. de domiciliu? De regulă, aceste funcţii sunt folosite de utilizatorii cu experienţă. Dacă nu aţi auzit niciodată de aceste funcţii, selectaţi &lt;b&gt;Nu&lt;/b&gt; deoarece probabil nu le veţi utiliza.</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>NETGEAR recomandă configurarea acestui nou router în modul punct de acces, deoarece nu necesită modificări de configuraţie la gateway-ul dvs.</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>Dacă sunteţi un utilizator cu experienţă şi cunoaşteţi modul de configurare al gateway-ului astfel încât să suporte unele dintre aceste funcţii avansate, puteţi face clic pe butonul &lt;b&gt;&lt;b&gt;Înapoi&lt;/b&gt;&lt;/b&gt; şi puteţi configura routerul NETGEAR în modul router.</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>

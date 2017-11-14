@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation>Seuraava</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Peruuta</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Kyllä</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>Ei</translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP-osoite</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>Aliverkon peitteen IP-osoite</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Ensisijainen DNS</translation>
+<variable>Primary DNS</variable>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Toissijainen DNS</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Käyttäjätunnus</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Ohjattu laiteohjelman päivitystoiminto</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Laiteohjelman version tarkistus</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Edellinen</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Ohjattu asennustoiminto</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Langattomat asetukset</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Langaton</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Yhteystyyppi</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Aliverkon peite</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Oletusyhdyskäytävä</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Yritä uudelleen</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Uutta laiteohjelman versiota ei ole saatavilla.</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynaaminen IP (DHCP) on havaittu</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Smart Setup Wizard -toiminto pystyy tunnistamaan Internet-yhteytesi tyypin.</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Haluatko Smart Setup Wizard -toiminnon yrittävän tunnistaa yhteystyypin nyt?</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Ei. Haluan määrittää reitittimen itse.</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Varmista, että kaapelit on liitetty oikein. Katso lisätietoja reitittimen asennusoppaasta.</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Varmista, että laajakaistamodeemin virta on katkaistu ja kytketty uudelleen oikein. Jos modeemissa on varaparisto, poista ja aseta se takaisin paikalleen, jotta modeemin virta katkeaa ja kytkeytyy uudelleen.</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(muodossa AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>pakolliset tiedot on merkitty tähdellä (*)</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Modeemin virtaa ei katkaistu ja kytketty uudelleen kaapeleiden liittämisen jälkeen.</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Keltaista Ethernet-kaapelia ei ole liitetty kunnolla tai se on kiinnitetty väärään paikkaan.</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>MAC-osoite on yksilöllinen numero.  Voit tarkistaa tietokoneen tai reitittimen MAC-osoitteen laitteen tuotetarrasta.</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Kun olet tarkistanut Ethernet-kaapelin, valitse &lt;b&gt;Yritä uudestaan&lt;/b&gt;.</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Vaihtoehtoinen DNS-palvelin</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Vastaus</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Internet-yhteysasetusten käyttäminen</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Edellinen</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Etsi aiemmin tallentamasi reitittimen asetusten varmuuskopiotiedosto selaamalla, ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;.</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Tarkistetaan Internet-yhteyttä. Odota...</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Napsauta tätä</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Määritetään Internet-yhteyttä</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Onnittelut!</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Yhteyden tunnus/nimi</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Jatka</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Tunnistetaan Internet-yhteyttä</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Onko Internet-palveluntarjoaja määrittänyt sinulle kiinteän (staattisen) IP-osoitteen? Tämä on &lt;b&gt;erittäin harvinaista&lt;/b&gt;. </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Haluatko käyttää apuna NETGEAR Genie -määritystä?</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Haluatko yrittää uudelleen NETGEAR Genie -määritystä?</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Ota salasanan palautus käyttöön</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Anna Internet-palveluntarjoajalta saadut kiinteät IP-asetukset ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;.</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Kirjoita MAC-osoite tähän.</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Määritä tarvittavat tiedot uudelleen.</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Määritä alla tarvittavat tiedot.</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Epäonnistui</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Kiinteät Internet-IP-asetukset</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>Yhdyskäytävän IP-osoite</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Korjasin Ethernet-kaapelin ongelman.</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>En tiedä. </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Olen tallentanut reitittimen asetukset tiedostoon ja haluan palauttaa ne reitittimeen.</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Katkaisin modeemista virran, kytkin sen uudelleen ja odotin kaksi minuuttia.</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Haluan määrittää Internet-yhteyden itse</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Aikakatkaisu&lt;/B&gt; (minuutteina)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Jos olet aikaisemmin muodostanut Internet-yhteyden tietokoneella tai toisella reitittimellä, NETGEAR Genie voi käyttää tuolloin toiminutta MAC-osoitetta.</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Tärkeä päivitys</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>Missä kaupungissa isäsi on syntynyt?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>Missä kaupungissa äitisi on syntynyt?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>Missä kaupungissa synnyit?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>Minä vuonna (VVVV) kirjoitit ylioppilaaksi?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Internet-palveluntarjoajalta saatu käyttäjätunnus tai salasana on virheellinen</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Varmista, että kaapeli on liitetty kunnolla sekä laajakaistamodeemin porttiin että reitittimen Internet-porttiin.</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Oma IP-osoite</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Ongelma verkkoyhteydessä</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>verkkoavain (salasana)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>verkkoavain (salasana)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Seuraava</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Reitittimen Internet-porttiin ei ole liitetty Ethernet-kaapelia</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Ei, en ole saanut kiinteää (staattista) IP-osoitetta palveluntarjoajalta.</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Ei, haluan määrittää Internet-yhteyden itse.</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Ei mikään näistä.</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Salasana</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Tarkista seuraavat seikat:</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Odota hetki...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>PPPoE DSL -Internet-yhteys on tunnistettu</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>PPTP-Internet-yhteys on tunnistettu</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Ensisijainen DNS-palvelin</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Tulosta tämä</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Ongelma Internet-yhteyden tunnistamisessa - IP-osoite</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Ongelma Internet-yhteyden tunnistamisessa - MAC-osoite</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Ongelma Internet-yhteyden tunnistamisessa</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Reitittimen asetusten palauttaminen</translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Palautetaan reitittimen asetukset</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Reitittimen laiteohjelman versio</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Turvakysymys 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Turvakysymys 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Valitse kysymys</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Valitse vaihtoehto ja jatka valitsemalla &lt;b&gt;Seuraava&lt;/b&gt;.</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Palvelimen osoite</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Käytä Internet-yhteyttä</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Reititin ei voi muodostaa verkkoyhteyttä käyttämällä nykyisiä asetuksia.</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Tämä johtuu todennäköisesti jostakin seuraavista syistä:</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Tämä voi kestää muutaman minuutin. Odota.</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Tämä voi kestää pari minuuttia. Odota...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Tälle reitittimelle on määritetty valmiiksi seuraava yksilöllinen langattoman verkon nimi (SSID) ja </translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Tämä näyttö palautuu automaattisesti edelliseen näyttöön muutaman sekunnin kuluttua...</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Jotta reitittimesi IP-osoite ei ole ristiriidassa Internet-palveluntarjoajan määritysten kanssa, IP-osoitteeksi on vaihdettu </translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Ratkaise ongelma varmistamalla, että keltainen Ethernet-kaapeli on liitetty kunnolla sekä laajakaistamodeemin porttiin että reitittimen Internet-porttiin.</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Ratkaise ongelma katkaisemalla modeemin virta ja kytkemällä se uudelleen. Jos modeemissa on varaparisto, se pitää ehkä poistaa ja asettaa takaisin, jotta modeemin virta katkeaa. Kun olet katkaissut modeemista virran ja kytkenyt sen uudelleen, odota kaksi minuuttia, jotta modeemi ehtii käynnistyä kunnolla.</translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Yritä uudelleen</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Käyttäjätunnus</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Voimme auttaa reitittimen järjestelmänvalvojan salasanan palauttamisessa. Täytä alla olevat tiedot ja valitse &lt;b&gt;Jatka&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Mikä on ensimmäisen työnantajasi nimi?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Mikä on parhaan ystäväsi etunimi?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Mikä on isäsi toinen nimi?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Mikä on isoisäsi etunimi?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Mikä on isoäitisi etunimi?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Mikä on äitisi toinen nimi?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Mikä on isoveljesi etunimi?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Mikä on isosiskosi etunimi?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Mikä on pikkuveljesi etunimi?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Mikä on pikkusiskosi etunimi?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Mikä on ensimmäisen esimiehesi etunimi?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Minkä niminen oli ensimmäinen ostamasi NETGEAR-tuote?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Minkä niminen oli ensimmäinen koulusi?</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Langattoman verkon nimi (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Langaton</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Kyllä</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Kyllä. Internet-palveluntarjoaja määritti minulle kiinteän (staattisen) IP-osoitteen.</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Et ole vielä muodostanut yhteyttä Internetiin.</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Olet muodostanut langattoman Internet-yhteyden.</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Reitittimeen on määritetty valmiiksi WPA2-PSK-salaus langattoman yhteyden suojaamiseksi luvattomilta käyttäjiltä. Yhteyden muodostaminen langattomaan verkkoon vaatii verkkoavaimen (salasanan). Valmiiksi määritetyt asetukset ovat yksilölliset tälle laitteelle sarjanumeron tapaan.  Halutessasi voit muuttaa asetuksia myöhemmin Langattomat asetukset -näytössä reitittimen Web-käyttöliittymässä. </translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Langattoman verkon suojaus ei ole käytössä tässä reitittimessä. NETGEAR suosittelee painokkaasti</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>langattoman verkon suojaamista.</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Automaattinen tunnistus</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Jatka valitsemalla Seuraava.</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP-tila</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Edellinen</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Lataa seuraavat reitittimen sovellukset:</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Genie-sovellus. Henkilökohtainen hallintaohjelma, jolla voit tarkkailla ja ohjata kotiverkkoasi ja korjata sen.</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>ReadySHARE Vault -sovellus (Vain Windows-tietokoneille). Sallii Windows-tietokoneen automaattisen ja jatkuvan varmuuskopioinnin reitittimeen kytkettyyn USB-asemaan.</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Lataa...</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Asenna Genie-sovellus latauksen päätyttyä.</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Päätä reitittimen asetusten määrittely Genie-sovelluksen asennuksen jälkeen napsauttamalla Seuraava-painiketta.</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Asenna ReadySHARE Vault -sovellus latauksen päätyttyä.</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Päätä reitittimen asetusten määrittely ReadySHARE Vault -sovelluksen asennuksen jälkeen napsauttamalla Seuraava-painiketta.</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Pyyntöä käsitellään…</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Kun asennus on valmis, valitse Seuraava.</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Järjestelmä asentaa</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Käynnistä asennus valitsemalla Suorita</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>Ohjattu laiteohjelman päivitystoiminto</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>Reitittimen laiteohjelmistoa päivitetään. Odota</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>Huomautus: Laiteohjelman päivitys kestää noin</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>minuuttia kestää laiteohjelman päivitys.&lt;br&gt;Älä katkaise laitteesta virtaa tai paina palautuspainiketta.</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>Odota...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Peruuta</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Reititin lataa nyt uutta versiota. Odota ...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Uusi laiteohjelman versio on löydetty. Haluatko päivittää uuteen versioon nyt?</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Nykyinen versio</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>Uusi laiteohjelman versio</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>Tämä voi kestää pari minuuttia. Odota...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>Laiteohjelman version tarkistus</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>Uutta laiteohjelman versiota ei ole saatavilla.</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>OK</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>Kontrollerer din netværkskonfiguration. Vent et øjeblik…</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>Verkossasi havaittiin olevan reititin tai yhdyskäytävä</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>NETGEAR-reititin on liitetty verkkoon, jossa on jo reititin. Jos haluat säilyttää ensimmäisen reitittimen verkossa, genie suosittelee NETGEAR-reitittimelle Tukiasematilaa. Kun NETGEAR-reititin on Tukiasematilassa, voit muodostaa sen avulla yhteyden verkkoon, ja toisen reitittimen tehtävät säilyvät ennallaan.</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Haluatko määrittää tämän laitteen Tukiasematilaan</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>Kyllä (suositus)</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>En, haluan käyttää sitä oletustilassa reitittimenä</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>Tämän reitittimen lisääminen verkkoon tukiasematilassa</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>Tämän uuden laitteen IP-osoite</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>Hae IP-osoite dynaamisesti olemassa olevasta reitittimestä</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>Käytä kiinteää IP-osoitetta (ei suositella)</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>Huomautus: Kun valitset Seuraava, tälle reitittimelle määritetään uusi IP-osoite. Sen aikana selaimesi verkkoyhteys voi katketa. Muodosta reitittimen yhteys uudelleen sulkemalla ikkuna ja käynnistämällä selain uudelleen.</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>Reititintila</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>Tukiasematila</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>Lisätietoja</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>Varoitus</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>Uusi NETGEAR-reitittimesi määritetään tukiasematilaan. Verkon toiminnassa saattaa ilmetä lyhyt häiriö, koska uuden NETGEAR-reitittimen ja työaseman on haettava uusi IP-osoite nykyisestä reitittimestä. Jos verkkoyhteys katkeaa kokonaan, muodosta yhteys uuteen NETGEAR-reitittimeen osoitteessa &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>Seuraavat reitittimen toiminnot eivät ole käytettävissä tukiasematilassa:</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>Parental Controls</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>Estä sivustot</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>Estä palvelut</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>Portin välitys</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>Portin laukaisu</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>Kiinteät reitit</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>Liikennemittari</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>Etähallinta</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>Vierasverkko</translation>
+<variable>Guest network</variable>
+</message>
+
+<message>
+<tag_code>4459</tag_code>
+<translation>Vaikuttaa siltä, että asennat NETGEAR-reititintä nykyisen Internet-palveluntarjoajasi WiFi-reitittimen tai -yhdyskäytävän taakse. Voit asentaa reitittimen eri käyttötiloissa.</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>Anna minun valita</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>Auta minua valitsemaan</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>genie selvittää muutamia asioita ja ehdottaa sitten parasta käyttötilaa.</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(Voit vaihtaa tilaa milloin tahansa suorittamalla ohjatun asennustoiminnon uudelleen.)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(Näytä kuva napsauttamalla tätä.)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>Tässä tilassa voit hyödyntää NETGEAR&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;-reitittimen toimintoja.&lt;/a&gt; NETGEAR-reititin on määritetty tavalliseksi WiFi-reitittimeksi nykyisen reitittimen tai yhdyskäytävän taakse. Tämä tila edellyttää, että kaikki laitteet ovat yhteydessä uuteen NETGEAR-reitittimeen eivätkä nykyiseen yhdyskäytävään.</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>Tämä tila sopii helppoon asennukseen, jos laitteet ovat jo yhteydessä nykyiseen reitittimeen tai yhdyskäytävään tai jos haluat vain laajentaa WiFi-kantamaa tällä uudella NETGEAR-reitittimellä. Kaikki &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;reitittimen toiminnot&lt;/a&gt; eivät ole käytettävissä tukiasematilassa.</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>Reitittimen toiminnot</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>Käytön valvonta</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>Lisätoiminnot</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>Portin välitys (tai portin kartoitus) sallii kotiverkon käytön Internetin kautta. Jos kotonasi on verkkopalvelin, jota toiset etäkäyttävät rekisteröimäsi isäntänimen (tavallisesti dynaamisen DNS-palvelun kautta) tai IP-osoitteen avulla, portin välitys on luultavasti jo käytössä. Jos et ole koskaan kuullutkaan tästä toiminnosta, vaikka voit etäkäyttää kotona olevaa laitetta, tämä toiminto ei luultavasti ole käytössä.</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>Reititin vs. tukiasema</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>genie havaitsi, että yrität asentaa uutta NETGEAR-reititintä toisen yhdyskäytävän, esimerkiksi Internet-palveluntarjoajan DSL- tai kaapeliyhdyskäytävän, taakse. Yhdyskäytävässä on tavallisesti myös WiFi- tai Voice over Internet (VoIP) -toiminto. Voit asentaa NETGEAR-reitittimen kahdessa eri käyttötilassa.</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>Tämä tila määrittää uuden NETGEAR-reitittimen tavalliseksi WiFi-reitittimeksi yhdyskäytävän taakse ja luo sinne erillisen WiFi-verkon. Saat täyden hyödyn irti reitittimen lisätoiminnoista, jos käytät NETGEARin suosittelemaa reititintilaa. Reititintilassa ainoa laite, joka voi muodostaa yhteyden nykyiseen yhdyskäytävään, on uusi NETGEAR-reititin. Kaikki laitteet on liitettävä uuteen NETGEAR-reitittimeen. Jos nykyisessä yhdyskäytävässä on WiFi-toiminto, poista se käytöstä.</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>Jotkin &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;lisätoiminnot&lt;/a&gt;, kuten Etähallinta, on edelleen määritettävä yhdyskäytävässä. Lisätietoja on yhdyskäytävän oppaissa.</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>Jos haluat saada uudella reitittimellä paremman WiFi-suorituskyvyn kuin nykyisellä yhdyskäytävällä, kannattaa käyttää tukiasematilaa. NETGEAR suosittelee, että poistat käytöstä nykyisen yhdyskäytävän WiFi-toiminnon, jos siinä on sellainen. Tässä tilassa voit liittää langallisia laitteita yhdyskäytävään ja langallisia ja WiFi-laitteita uuteen NETGEAR-reitittimeen.</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>Tässä tilassa yhdyskäytävä määrittää uuden reitittimen IP-osoitteen dynaamisesti, eikä se luultavasti ole 192.168.1.1. Voit silti edelleen hallita reititintä siihen liitetystä laitteesta osoitteessa &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt;. Kaikki &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;reitittimen toiminnot&lt;/a&gt; eivät ole käytettävissä tässä tilassa. Niitä on käytettävä reititintilassa.</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>Seuraavat reitittimen toiminnot ovat käytettävissä vain reititintilassa, mutta ne edellyttävät nykyisen yhdyskäytävän määrittämistä:</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>VPN-lopetus</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>Ota käyttöön tukiasematila</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>Jotta reititintila toimii oikein, NETGEAR-reitittimeen on liitettävä kaikki WiFi- ja langalliset laitteet, paitsi Internet-palveluntarjoajalta saadut laitteet, kuten yhdyskäytävään liitetty digisovitin tai langaton puhelin.</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>Pystytkö irrottamaan kaikki muut laitteet (langalliset ja langattomat) nykyisestä yhdyskäytävästä ja liittämään ne NETGEAR-reitittimeen?</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>NETGEAR suosittelee uuden reitittimen määrittämistä reititintilassa.</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>Reititintilassa voit käyttää kaikkia NETGEAR-reitittimen lisätoimintoja. Voit vaihtaa tilaa milloin tahansa suorittamalla ohjatun asennustoiminnon uudelleen.</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+
+<message>
+<tag_code>4485</tag_code>
+<translation>2,4 GHz:n langattoman verkon nimi (SSID): </translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>2,4 GHz:n langattoman verkon salasana (verkkoavain): </translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>5 GHz:n langattoman verkon nimi (SSID): </translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>5 GHz:n langattoman verkon salasana (verkkoavain): </translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>Langaton verkkoavain (salasana)</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>VAROITUS: älä valitse &lt;b&gt;Valmis&lt;/b&gt;-painiketta, ennen kuin yhdistät laitteen uudelleen reitittimeen.</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&lt;/b&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>Valmis</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>Tämän reitittimen langattomia asetuksia on muutettu. Käytä seuraavaa langattoman verkon nimeä (SSID) ja verkkoavainta (salasana), kun muodostat uudelleen yhteyden laitteesta reitittimeen. Viimeistele sitten asennus napsauttamalla &lt;b&gt;Valmis&lt;/b&gt;-painiketta.</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>NETGEAR suosittelee nykyisen yhdyskäytävän WiFi-verkon poistamista käytöstä, jotta vältät seuraavat ongelmat:</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>yhteyden muodostaminen vahingossa nykyiseen yhdyskäytävään uuden NETGEAR-reitittimen sijaan</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>NETGEAR-reitittimen ja nykyiset yhdyskäytävän WiFi-verkon väliset häiriöt.</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>WiFi-verkon toimintahäiriöiden estämiseksi NETGEAR suosittelee nykyisen yhdyskäytävän WiFi-verkon poistamista käytöstä</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>Voitko poistaa nykyisen yhdyskäytävän WiFi-verkon käytöstä?</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>Kopioi nykyisen yhdyskäytävän WiFi-asetukset ja lisää ne tähän. Poista sitten nykyisen yhdyskäytävän WiFi-verkko käytöstä.</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>Voit estää WiFi-laitteita muodostamasta yhteyttä nykyiseen yhdyskäytävään käyttämällä seuraavaa nimeä (SSID) ja salasanaa (verkkoavain), kun muodostat yhteyttä kaikista WiFi-laitteista tähän reitittimeen.</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Järjestelmänvalvojan salasanan suojaus</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Varoitus: Suosittelemme, että suojaat ReadySHARE-tietosi ottamalla käyttöön Järjestelmänvalvojan salasanan suojauksen. Jos et ole vaihtanut järjestelmänvalvoja oletussalasanaa, suosittelemme, että suojaat verkon vaihtamalla salasanan.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Järjestelmänvalvojatilin asetukset</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Järjestelmänvalvojan salasanalla kirjaudutaan sisään reitittimen verkkoliittymään. Suojaa verkko vaihtamalla järjestelmänvalvojan salasana.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Uusi salasana</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Vahvista uusi salasana</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Järjestelmänvalvojan käyttäjätunnus:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Uusi järjestelmänvalvojan salasana:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Reitittimen järjestelmänvalvojan asetukset:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>Nykyinen verkko</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>genie havaitsi, että muodostat Internet-yhteyden yhdyskäytävällä. Jos haluat käyttää kaikkia uuden reitittimen toimintoja, NETGEAR suosittelee reititintilaa. genien on kysyttävä muutama kysymys ja vahvistettava, että reititintila on hyvä valinta.</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>Käytätkö tällä hetkellä oletusyhdyskäytävässäsi &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;lisätoimintoja&lt;/a&gt;, kuten &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;portin välitystä&lt;/a&gt; &#40;tai portin kartoitusta&#41;, tai käytätkö staattista kotiverkon laitteiden IP-määritystä? Näitä toimintoja käyttävät tavallisesti kokeneet käyttäjät. Jos et ole koskaan kuullut näistä toiminnoista, valitse &lt;b&gt;Ei&lt;/b&gt;, sillä et todennäköisesti tarvitse niitä.</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>NETGEAR suosittelee uuden reitittimen määrittämistä tukiasematilassa, koska silloin yhdyskäytävän asetuksia ei tarvitse muuttaa.</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>Jos olet kokenut käyttäjä ja tiedät, miten yhdyskäytävä määritetään käyttämään näitä lisätoimintoja, napsauta &lt;b&gt;Edellinen&lt;/b&gt;-painiketta ja määritä NETGEAR-reititin reititintilassa.</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>

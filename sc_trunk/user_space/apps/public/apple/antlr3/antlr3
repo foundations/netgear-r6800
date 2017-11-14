@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Replace this with the location of the antlr jar on your system.
+ANTLR_JAR=`pwd`/../../../antlr3/antlr-3.2.jar
+
+java -jar $ANTLR_JAR "$@"

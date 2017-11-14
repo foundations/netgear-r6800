@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation>Næste</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Annuller</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>Ja</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>Nej</translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>IP-adresse</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>IP-undernetmaske</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Primær DNS</translation>
+<variable>Primary DNS</variable>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Sekundær DNS</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Login</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Opgradering af firmware</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Kontrol af firmware-version</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Tilbage</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Installationsguide</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Trådløse indstillinger</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Trådløs</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Forbindelsestype</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Subnetmaske</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Standard gateway</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Prøv igen</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Der er ingen ny tilgængelig firmware.</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Dynamisk IP (DHCP) registreret</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Smart Setup Wizard kan registrere, hvilken type internetforbindelse du har.</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Skal Smart Setup Wizard prøve at registrere, hvilken type forbindelse du har nu?</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Nej. Jeg vil selv konfigurere routeren.</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Kontroller, at kabelforbindelserne er korrekte. Se installationsvejledningen til routeren for at få instruktioner.</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Kontroller, at der er tændt og slukket korrekt for dit bredbåndsmodem. Hvis du har et modem med batteribackup, skal du fjerne og genindsætte batteriet for at tænde og slukke for dit modem.</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(format AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*=obligatorisk oplysning</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Der blev ikke tændt og slukket for modemet under kabelføringstrinnet.</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Det gule Ethernet-kabel er ikke sat helt i, eller det er sat i det forkerte sted.</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>En MAC-adresse er et entydigt nummer.  Du kan finde computerens eller routerens MAC-adresse på produktetiketten.</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Når du har kontrolleret Ethernet-kablet, skal du klikke på &lt;b&gt;Prøv igen&lt;/b&gt;.</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Alternativ DNS-server</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Svar</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Anvender indstillinger for internetforbindelse</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Tilbage</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Gå til backupfilen med routerindstillinger, som du tidligere har gemt, og klik på &lt;b&gt;Næste&lt;/b&gt; for at fortsætte.</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Kontrol af internetforbindelsen; vent …</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Klik her</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Konfigurerer internetforbindelsen</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Tillykke!</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Forbindelses-id/Navn</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Fortsæt</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Registrerer internetforbindelsen</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Tildelte din internetudbyder (ISP) dig en fast (statisk) IP-adresse? Det er en &lt;b&gt;meget sjælden&lt;/b&gt; særlig implementering. </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Ønsker du, at NETGEAR Genie skal hjælpe?</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Ønsker du, at NETGEAR Genie skal forsøge igen?</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Aktiver gendannelse af adgangskode</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Indtast de faste IP-indstillinger, der er tildelt af din internetudbyder, og klik på &lt;b&gt;Næste&lt;/b&gt; for at fortsætte.</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Indtast MAC-adressen her.</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Indtast de nødvendige oplysninger igen.</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Indtast de nødvendige oplysninger nedenfor.</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Fejl</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Faste IP-indstillinger på internettet</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>Gateway-IP-adresse</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Jeg rettede et problem med Ethernet-kablet.</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Det ved jeg ikke. </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Jeg har gemt routerens indstillinger i en fil, og jeg vil gendanne routerens indstillinger til disse indstillinger.</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Jeg har lige tændt og slukket modemet og ventet i 2 minutter.</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Jeg vil selv konfigurere internetforbindelsen.</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Timeoutgrænse for inaktivitet&lt;/B&gt; (i minutter)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Hvis du tidligere tilsluttede til din internettjeneste med en computer eller en anden router,  kan NETGEAR Genie bruge den samme MAC-adresse, som tidligere har fungeret.</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Vigtig opdatering</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>I hvilken by blev din far født?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>I hvilken by blev din mor født?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>I hvilken by blev du født?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>I hvilket år (ÅÅÅÅ) gik du ud af gymnasiet?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Forkert ISP-brugernavn eller adgangskode</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Sørg for, at kablet er sikkert tilsluttet til både porten på bredbåndsmodemmet og routerens internetport.</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Min IP-adresse</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problem med netværksforbindelse</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>netværksnøgle (adgangskode)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>netværksnøgle (adgangskode)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>Næste</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Der er ikke tilsluttet et Ethernet-kabel til routerens internetport</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Nej, jeg har ikke fået en fast (statisk) IP-adresse fra min internetudbyder.</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Nej, jeg vil selv konfigurere internetforbindelsen.</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Ingen af disse.</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Adgangskode</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Kontroller følgende elementer:</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Vent et øjeblik...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>PPPoE DSL-internetforbindelse registreret</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>PPTP-internetforbindelse registreret</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Foretrukket DNS-server</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Udskriv dette</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Problem med registrering af internetforbindelsen - IP-adresse</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Problem med registrering af internetforbindelsen - MAC-adresse</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Problem med registrering af internetforbindelsen</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Gendan routerindstillinger</translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Gendanner routerindstillinger</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Version af routerfirmware</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Sikkerhedsspørgsmål nr. 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Sikkerhedsspørgsmål nr. 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Vælg et spørgsmål</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Vælg en indstilling og klik på &lt;b&gt;Næste&lt;/b&gt; for at fortsætte.</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Serveradresse</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Tag mig til internettet</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Routeren kan ikke opnå forbindelse til internettet med de aktuelle indstillinger.</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Det skyldes sandsynligvis en af følgende årsager:</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Denne proces kan tage nogle minutter; vent …</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Denne proces kan tage et minut eller to, vent venligst...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Denne router er forudindstillet med det følgende entydige trådløse netværksnavn (SSID) og </translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Skærmen vil automatisk vise det forrige skærmbillede efter et par sekunder…</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>For at undgå konflikt med din internetudbyder er routerens IP-adresse blevet opdateret til </translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>For at løse dette problem skal du kontrollere, at det gule Ethernet-kabel er sat helt i bredbåndsmodemporten og routerens internetport.</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+
+
+
+
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>For at løse dette problem, skal du tænde og slukke modemet. For at tænde og slukke et modem med batteribackup skal du måske fjerne og genindsætte dets batteri. Efter at der er tændt og slukket skal du vente i to minutter på, at modemet starter igen.</translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Prøv igen</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Brugernavn</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Vi kan hjælpe dig med at gendanne routerens admin-adgangskode. Udfyld nedenstående oplysninger, og klik på &lt;b&gt;Fortsæt&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Hvad er navnet på din første arbejdsgiver?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Hvad hedder din bedste ven til fornavn?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Hvad hedder din far til mellemnavn?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Hvad hedder din bedstefar til fornavn?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Hvad hedder din bedstemor til fornavn?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Hvad hedder din mor til mellemnavn?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Hvad hedder din ældste bror til fornavn?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Hvad hedder din ældste søster til fornavn?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Hvad hedder din yngste bror til fornavn?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Hvad hedder din yngste søster til fornavn?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Hvad hedder din første chef til fornavn?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Hvad var navnet på det første NETGEAR-produkt, du købte?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Hvad var navnet på den første skole, du har gået på?</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Navn på trådløst netværk (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Trådløs</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>Ja</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Ja. Min ISP tildelte mig en fast (statisk) IP-adresse.</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Du er endnu ikke tilsluttet til internettet.</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Du har nu oprettet forbindelse til internettet.</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Din router er forudindstillet med WPA2-PSK trådløs sikkerhed til at beskytte dit netværk mod uønsket adgang. For at få adgang til det trådløse netværk skal du indtaste netværksnøglen (adgangskoden). Disse forudindstillede indstillinger er entydige på denne enhed, som et serienummer.  Hvis du vil ændre dem, kan du gøre det senere på skærmen Trådløse indstillinger i routerens brugergrænseflade.</translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Trådløs sikkerhed er ikke aktiveret på denne router. NETGEAR anbefaler kraftigt, at du</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>for at aktivere trådløs sikkerhed og beskytte dit netværk</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Automatisk registrering</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Klik på "Næste" for at fortsætte.</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>AP-tilstand</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Forrige</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Download følgende router-apps:</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Genie-appen. Et personligt instrumentbræt, som giver dig mulighed for at overvåge, kontrollere og reparere dit hjemmenetværk.</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>ReadySHARE Vault-appen (kun for Windows-computere). Aktiverer automatisk kontinuerlig sikkerhedskopiering af en Windows-computer til et USB-drev, der er sluttet til routeren.</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Overfører…</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Installer Genie-appen når overførslen er fuldført.</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Klik på knappen Næste, når du har installeret Genie-appen, for at afslutte konfigurationen af routeren.</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Installer ReadySHARE Vault-appen når overførslen er fuldført.</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Klik på knappen Næste, når du har installeret ReadySHARE Vault-appen, for at afslutte konfigurationen af routeren.</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Behandler din forespørgsel…</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Klik på Næste efter installationen.</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>System installerer</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Klik på Kør for at påbegynde installationen</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>Opgradering af firmware</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>Opgraderer routerfirmware nu. Vent venligst</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>Bemærk: Firmwareopgraderingen tager ca.</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>minutter til firmware-opgradering.&lt;br&gt;Sluk ikke for strømmen, og tryk ikke på nulstillingsknappen.</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>Vent...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Annuller</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Routeren downloader den nye version. Vent...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Der blev fundet en ny version af firmwaren. Vil du opgradere til den nye version nu?</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Aktuel version</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>Ny firmwareversion</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>Denne proces kan tage et minut eller to, vent venligst...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>Kontrol af firmware-version</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>Der er ingen ny tilgængelig firmware.</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>OK</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>Kontrollerer din netværkskonfiguration. Vent et øjeblik…</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>En eksisterende router eller gateway er registreret i dit netværk</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Din NETGEAR-router har forbindelse til et netværk, som allerede har en anden router. Hvis du ønsker at forlade den første router, som du havde forbindelse til, anbefaler Genie at du bruger Access Point-tilstand til NETGEAR-routeren. Når NETGEAR-routeren er i Access Point-tilstand, kan du bruge den til at slutte til et netværk, og den anden router fortsætter med at udføre de samme netværksopgaver som tidligere.</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Vil du konfigurere denne enhed i Access Point-tilstand</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>Ja (anbefales)</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>Nej, jeg vil gerne køre den i standardtilstand som en router</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>Sådan tilføjer du denne router til dit netværk i adgangspunkt-tilstand</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>IP-adresse for denne nye enhed</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>Hent IP-adresse dynamisk fra eksisterende router</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>Brug fast IP-adresse (anbefales ikke)</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>Bemærk: Når du har klikket på Næste, vil denne router få tildelt en ny IP-adresse. Når det sker, vil din browser muligvis blive koblet fra netværket. For at oprette forbindelse til routeren igen, skal du lukke vinduet og genstarte browseren.</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>"Router-tilstand"</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>Adgangspunkttilstand</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>Læs mere</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>Advarsel</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>Din nye NETGEAR-router er ved at blive konfigureret til adgangspunkttilstand. Du kan opleve en kortvarig netværksafbrydelse, fordi din nye NETGEAR-router og klient skal hente nye IP-adresser fra din eksisterende router. Hvis du har mistet netværksforbindelsen, skal du oprette forbindelse til din nye NETGEAR-router manuelt ved at besøge&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>Følgende router-funktioner er ikke tilgængelige, hvis du vælger adgangspunkttilstand:</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>Parental Controls</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>Bloker sider</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>Bloker tjenester</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>Videresendelse fra port</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>Portudløsning</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>Statiske ruter</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>Trafikmåler</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>Fjernadministration</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>Gæstenetværk</translation>
+<variable>Guest network</variable>
+</message>
+
+
+<message>
+<tag_code>4459</tag_code>
+<translation>Det ser ud til, at du installerer NETGEAR-routeren bag din eksisterende internetudbyders WiFi-router eller gateway. Du kan vælge at installere routeren i forskellige driftstilstande.</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>Lad mig vælge</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>Hjælp mig med at vælge</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>genie gennemgår nogle spørgsmål og foreslår derefter den driftstilstand, der passer bedst til dig.</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(Du kan altid skifte tilstand ved at køre installationsguiden igen.)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(Klik her for at se en illustration.)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>Denne tilstand giver dig mulighed for at drage fordel af NETGEAR&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router-funktioner.&lt;/a&gt; NETGEAR-routeren er konfigureret som en normal WiFi-router bag din eksisterende router eller gateway. Denne tilstand kræver, at alle enheder er tilsluttet til den nye NETGEAR-router og ikke til din eksisterende gateway.</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>Denne tilstand er velegnet til nem konfiguration, hvis enhederne allerede er tilsluttet til din eksisterende router eller gateway, eller hvis du bare vil bruge denne nye NETGEAR-router til at udvide din WiFi-dækning. Visse &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router-funktioner&lt;/a&gt; er ikke tilgængelige i adgangspunkttilstand.</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>Router-funktioner</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>Adgangskontrol</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>Avancerede funktioner</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>Viderestilling af porte (kaldes undertiden porttilknytning) giver adgang til dit hjemmenetværk via internettet. Hvis du har en enhed som f.eks. en webserver i dit hjem, som andre kan få fjernadgang til via et værtsnavn, som du har registreret (typisk via en dynamisk DNS-service), eller ved hjælp af en IP-adresse, har du sikkert funktionen til viderestilling af porte aktiveret. Hvis du aldrig har hørt om denne funktion, selvom du har fjernadgang til en enhed i hjemmet, bruger du højst sandsynligt ikke denne funktion.</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>Router vs. adgangspunkt</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>genie registrerede, at du forsøger at installere din nye NETGEAR-router bag en anden gateway, f.eks. DSL- eller kabel-gateway fra din internetudbyder. Normalt leverer en gateway også funktionerne WiFi eller Voice over Internet (VoIP). Du kan installere din NETGEAR-router i to forskellige driftstilstande.</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>Denne tilstand konfigurerer din nye NETGEAR-router som en normal WiFi-router bag din gateway og opretter et separat WiFi-netværk bag din gateway. For at få fuldt udbytte af disse avancerede routerfunktioner anbefaler NETGEAR, at du bruger router-tilstand. I router-tilstand er den eneste enhed, der kan være tilsluttet til din eksisterende gateway, din nye NETGEAR-router. Du skal tilslutte alle dine enheder til den nye NETGEAR-router. Hvis din eksisterende gateway har en WiFi-funktion, skal du deaktivere den.</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>Nogle&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;avancerede funktioner&lt;/a&gt; som f.eks. fjernadministration skal stadig konfigureres på gatewayen. Du kan finde flere oplysninger i gateway-dokumentationen.</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>Hvis du vil bruge den nye router til at få bedre WiFi-ydeevne ud over det, du har med din eksisterende gateway, er adgangspunkttilstand den nemmeste måde at gøre det på. NETGEAR anbefaler, at du deaktiverer WiFi-funktionen på din eksisterende gateway, hvis den har WiFi-funktionalitet. Med denne tilstand kan du tilslutte kabelbaserede enheder til gatewayen og tilslutte kabelbaserede og trådløse enheder til din nye NETGEAR-router.</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>I denne tilstand tildeles den nye routers IP-adresse som standard dynamisk af din gateway og vil næppe være 192.168.1.1. Du kan imidlertid stadig bruge URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; til at få adgang til routerens administrationsbrugerflade fra en enhed, der er tilsluttet til routeren. Visse&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router-funktioner&lt;/a&gt; er ikke tilgængelige i denne tilstand, og du skal bruge router-tilstand, hvis du vil bruge disse funktioner.</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>Følgende router-funktioner er kun tilgængelige i router-tilstand, men de kræver konfiguration på din eksisterende gateway:</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>VPN-terminering</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>Aktiver adgangspunkt-tilstand</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>For at router-tilstanden kan fungere korrekt, skal du tilslutte alle dine trådløse og kabelbaserede enheder til NETGEAR-routeren, bortset fra udstyr, der leveres af din internetudbyder, f.eks. en tv-modtagerboks eller trådløse telefoner tilsluttet til gatewayen.</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>Kan du frakoble alle dine andre enheder (kablede og trådløse) fra den eksisterende gateway og derefter tilslutte dem til NETGEAR-routeren?</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>NETGEAR anbefaler, at du konfigurerer denne nye router i router-tilstand.</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>Router-tilstand giver dig mulighed for at bruge alle de avancerede funktioner i din NETGEAR-router. Du kan altid køre installationsguiden igen for at ændre tilstanden senere.</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+<message>
+<tag_code>4485</tag_code>
+<translation>Navn på 2,4 GHz trådløst netværk (SSID):</translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>Adgangskode til 2,4 GHz trådløst netværk (netværksnøgle): </translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>Navn på 5 GHz trådløst netværk (SSID):</translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>Adgangskode til 5 GHz trådløst netværk (netværksnøgle): </translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>Trådløs netværksnøgle (adgangskode):</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>ADVARSEL: Undlad at klikke på knappen &lt;b&gt;Udfør&lt;/b&gt;, indtil du har genoprettet forbindelsen fra enheden til routeren.</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&lt;/b&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>Afslut</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>Denne routers trådløse indstillinger er blevet ændret. Brug følgende navn på det trådløse netværk (SSID) og netværksnøgle (adgangskode) til at genoprette enhedens forbindelse til routeren, og klik derefter på knappen &lt;b&gt;Udfør&lt;/b&gt; nedenfor for at udføre installationen.</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>NETGEAR anbefaler, at du deaktiverer din eksisterende gateways WiFi for at undgå disse problemer:</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>Utilsigtet tilslutning til eksisterende gateway i stedet for til den nye NETGEAR-router</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>Interferens mellem den nye NETGEAR-router og den eksisterende gateways WiFi</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>For at undgå trådløs interferens, som kan forringe WiFi-ydelsen, anbefaler NETGEAR, at du deaktiverer din eksisterende gateways WiFi</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>Kan du deaktivere din eksisterende gateways WiFi?</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>Kopier dine aktuelle trådløse indstillinger fra den eksisterende gateway, og indtast dem her. Deaktiver derefter din eksisterende gateways WiFi.</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>For at undgå, at dine WiFi-enheder opretter forbindelse til den eksisterende gateway, skal du bruge følgende navn (SSID) og adgangskode (netværksnøgle) til at tilslutte alle dine WiFi-enheder til routeren.</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Admin-adgangskodebeskyttelse</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Advarsel: Vi anbefaler, at du aktiverer admin-adgangskodebeskyttelse for at sikre dine ReadySHARE-data. Hvis du ikke ændrede standard admin-adgangskoden, anbefaler vi desuden, at du ændre den for at sikre dit netværk.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Admin-kontoindstillinger</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Admin-adgangskoden bruges til at logge på din routers webgrænseflade. Sikre dit netværk ved at ændre admin-adgangskoden.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Ny adgangskode</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Bekræft ny adgangskode</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Admin-brugernavn:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Ny admin-adgangskode:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Admin-indstillinger for router:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>Dit nuværende netværk</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>genie har registreret, at du bruger en gateway til din internetforbindelse. Hvis du vil bruge alle af din nye routers funktioner, anbefaler NETGEAR router-tilstand. genie stiller dig et par spørgsmål for at kontrollere, at router-tilstand er passende for dig.</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>Bruger du i øjeblikket&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;avancerede funktioner&lt;/a&gt; såsom &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;omdirigering af port&lt;/a&gt; &#40;nogle gange benævnt porttilknytning&#41; på din eksisterende gateway, eller tildeler du en statisk IP-adresse til en enhed på dit hjemmenetværk? Disse funktioner bruges normalt af avancerede brugere. Hvis du aldrig har hørt om disse funktioner, skal du vælge &lt;b&gt;Nej&lt;/b&gt;, fordi det er sandsynligt, at du ikke bruger dem.</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>NETGEAR anbefaler, at du konfigurerer denne nye router i adgangspunkttilstand, fordi det ikke kræver nogen ændringer af konfigurationen på din gateway.</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>Hvis du er avanceret bruger og ved, hvordan du konfigurerer gatewayen til at understøtte nogle af disse avancerede funktioner, kan du klikke på knappen &lt;b&gt;Tilbage&lt;/b&gt; og konfigurere NETGEAR-routeren i router-tilstand.</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>

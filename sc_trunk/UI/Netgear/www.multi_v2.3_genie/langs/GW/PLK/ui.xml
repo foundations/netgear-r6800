@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation> Dalej </translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>Anuluj</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation> Tak </translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation> Nie </translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>Adres IP</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>Maska podsieci IP</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>Podstawowy serwer DNS</translation>
+<variable>Primary DNS</variable>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>Pomocniczy serwer DNS</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>Identyfikator logowania</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>Asystent uaktualniania oprogramowania sprzętowego</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>Sprawdzanie wersji oprogramowania sprzętowego</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>Wstecz</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>Kreator instalacji</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>Ust. sieci bezprzewod.</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>Sieć bezprzewodowa</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>Typ połączenia</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>Maska podsieci</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>Brama domyślna</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>Spróbuj ponownie</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>Nie jest dostępna żadna nowa wersja oprogramowania sprzętowego.</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>Wykryto dynamiczny adres IP (DHCP)</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>Kreator inteligentnej instalacji może wykryć typ używanego połączenia internetowego.</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>Czy chcesz, aby kreator spróbował teraz wykryć typ połączenia?</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>Nie. Chcę samodzielnie skonfigurować router.</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- Sprawdź, czy wszystkie kable są poprawnie podłączone. Instrukcje znajdziesz w podręczniku instalacji routera.</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- Sprawdź, czy modem został poprawnie wyłączony, a następnie ponownie uruchomiony. Jeśli w modemie jest bateria, może zajść konieczność usunięcia jej i ponownego włożenia, aby włączyć i wyłączyć modem.</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(format AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>* oznacza informacje wymagane</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  Modem nie został odłączony i podłączony ponownie do zasilania podczas podłączania kabli.</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  Żółty kabel Ethernet nie został do końca podłączony lub został podłączony w złym miejscu.</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>Adres MAC to unikalny numer.  Adres MAC komputera lub routera można znaleźć na etykiecie urządzenia.</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>Po sprawdzeniu kabla Ethernet, kliknij &lt;b&gt;Spróbuj ponownie&lt;/b&gt;.</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>Alternatywny serwer DNS</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>Odpowiedź</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>Przywracanie ustawień połączenia internetowego</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>Wstecz</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>Przejdź do miejsca, w którym zapisany jest plik kopii zapasowej ustawień routera, a następnie kliknij przycisk &lt;b&gt;Dalej&lt;/b&gt;, aby kontynuować.</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>Sprawdzanie połączenia internetowego; czekaj …</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>Kliknij tutaj</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>Konfigurowanie połączenia internetowego</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>Gratulacje!</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>Identyfikator/nazwa połączenia</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>Kontynuuj</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>Wykrywanie połączenia internetowego</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>Czy Twój usługodawca internetowy (ISP) przypisał Ci stały (statyczny) adres IP? To &lt;b&gt;bardzo rzadka&lt;/b&gt; usługa specjalna. </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>Czy chcesz, aby NETGEAR genie pomógł Ci to zrobić?</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>Czy chcesz, aby NETGEAR Genie spróbował ponownie?</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>Włącz odzyskiwanie hasła</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>Wpisz statyczny adres IP przypisany przez usługodawcę internetowego i naciśnij przycisk &lt;b&gt;Dalej&lt;/b&gt;, aby kontynuować.</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>Wpisz adres MAC tutaj.</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>Wprowadź ponownie wymagane informacje.</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>Wprowadź wymagane informacje poniżej.</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>Błąd</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+<translation>Ustawienia statycznego adresu IP</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>Adres IP bramy</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>Problem z kablem Ethernet został usunięty.</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>Nie wiem. </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>Udało mi się zapisać ustawienia routera w pliku i chcę przywrócić te ustawienia w routerze.</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>Modem został wyłączony i włączony ponownie, a od włączenia upłynęły 2 minuty.</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>Chcę samodzielnie skonfigurować połączenie internetowe</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;B&gt;Limit czasu bezczynności&lt;/B&gt; (w minutach)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>Jeżeli wcześniej łączyłeś(-aś) się z Internetem za pomocą komputera lub innego routera, NETGEAR Genie może użyć tego samego adresu MAC, który działał wcześniej.</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>Ważne</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>W jakim mieście urodził się Twój ojciec?</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>W jakim mieście urodziła się Twoja matka?</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>W jakim mieście się urodziłeś?</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>W którym roku ukończyłeś studia (rrrr)?</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>Nieprawidłowa nazwa użytkownika lub hasło usługodawcy internetowego</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>Upewnij się, że kabel jest prawidłowo podłączony do modemu szerokopasmowego i portu Internet routera.</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>Mój adres IP</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>Problem z połączeniem sieciowym</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>klucz sieci (hasło)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>klucz sieci (hasło)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation> Dalej </translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>Kabel Ethernet nie jest podłączony do portu Internet routera</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>Nie, mój usługodawca internetowy nie przypisał mi statycznego adresu IP.</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>Nie, chcę samodzielnie skonfigurować połączenie internetowe.</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>Żadne z powyższych.</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>Hasło</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>Sprawdź następujące elementy:</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>Proszę czekać...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>Wykryto połączenie internetowe PPPoE DSL</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>Wykryto połączenie internetowe PPTP</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>Preferowany serwer DNS</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>Wydrukuj</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>Problem z wykryciem połączenia internetowego - adres IP</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>Problem z wykryciem połączenia internetowego - adres MAC</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>Problem z wykryciem połączenia internetowego</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>Przywróć ustawienia routera </translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>Przywracanie ustawień routera</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>Wersja oprogramowania sprzętowego routera</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>Pytanie zabezpieczające nr 1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>Pytanie zabezpieczające nr 2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>Wybierz pytanie</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>Wybierz opcję i naciśnij przycisk &lt;b&gt;Dalej&lt;/b&gt;, aby kontynuować.</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>Adres serwera</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>Połącz mnie z Internetem</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>Router nie może połączyć się z Internetem korzystając z bieżących ustawień.</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>Przyczyny tego stanu mogą być następujące:</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>Proces może potrwać kilka minut; czekaj …</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>Ten proces może potrwać kilka minut; czekaj...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>Ten router ma wstępnie ustawioną, unikalną nazwę sieci (SSID) i </translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>Za kilka sekund nastąpi powrót do poprzedniej strony...</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>Aby uniknąć konfliktu z usługodawcą internetowym, adres IP routera został zaktualizowany do postaci </translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>Aby rozwiązać problem, upewnij się, że żółty kabel Ethernet jest prawidłowo podłączony do portu modemu szerokopasmowego i portu Internet routera.</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>Aby rozwiązać problem, odłącz i ponownie podłącz modem (wyłącz go, a następnie włącz). Do wyłączenia i włączenia modemu z baterią pomocniczą konieczne może się okazać wyjęcie i ponowne włożenie baterii. Po odłączeniu i podłączeniu modemu odczekaj 2 minuty, co powinno wystarczyć na pełne uruchomienie urządzenia.</translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>Spróbuj ponownie</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>Nazwa użytkownika</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>Możemy pomóc Ci odzyskać hasło administratora. W tym celu podaj informacje wymienione poniżej i kliknij &lt;b&gt;Kontynuuj&lt;/b&gt;</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>Jak nazywał się Twój pierwszy pracodawca?</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>Jak ma na imię Twój najlepszy przyjaciel?</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>Jak ma na drugie imię Twój ojciec?</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>Jak ma na imię Twój dziadek?</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>Jak ma na imię Twoja babcia?</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>Jak ma na drugie imię Twoja matka?</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>Jak ma na imię Twój najstarszy brat?</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>Jak ma na imię Twoja najstarsza siostra?</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>Jak ma na imię Twój najmłodszy brat?</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>Jak ma na imię Twoja najmłodsza siostra?</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>Jak miał na imię Twój pierwszy przełożony?</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>Jak nazywał się Twój pierwszy produkt firmy NETGEAR?</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>Jak nazywała się Twoja pierwsza szkoła?</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>Nazwa sieci bezprzewodowej (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>Sieć bezprzewodowa</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation> Tak </translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>Tak. Mój usługodawca internetowy (ISP) przypisał mi stały (statyczny) adres IP.</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>Nie udało się połączyć z Internetem.</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>Udało się połączyć z Internetem.</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>Twój router został wstępnie skonfigurowany wraz z zabezpieczeniem komunikacji bezprzewodowej WPA2-PSK, które zabezpiecza Twoją sieć przed włamaniem. Aby wejść do sieci bezprzewodowej należy najpierw wprowadzić słowo-klucz (hasło). Opisane ustawienia wstępne są unikatowe dla urządzenia, podobnie jak numer seryjny.  Aby je zmienić, należy przejść do ekranu Ustawienia komunikacji bezprzewodowej sieciowego graficznego interfejsu użytkownika routera.</translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>Zabezpieczenia sieci bezprzewodowej nie są włączone w tym routerze." Firma NETGEAR zdecydowanie zaleca</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>włączyć zabezpieczenia sieci bezprzewodowej i chronić sieć.</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>Automatyczne wykrywanie</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>Kliknij „Dalej”, aby kontynuować.</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>Tryb AP</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>Wstecz</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>Pobierz następujące aplikacje do obsługi routera:</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>Aplikacja Genie Osobisty panel sterowania, dzięki któremu możesz monitorować, kontrolować oraz przeprowadzać naprawy sieci domowej.</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>Aplikacja ReadySHARE Vault (tylko do komputerów z systemem Windows). Umożliwia stałe, automatyczne tworzenie kopii zapasowej komputera z systemem Windows na napędzie USB podłączonym do routera.</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>Trwa pobieranie…</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>Zainstaluj aplikację Genie po zakończeniu pobierania.</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>Kliknij przycisk Next (Dalej) po zainstalowaniu aplikacji Genie, aby zakończyć konfigurację routera.</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>Zainstaluj aplikację ReadySHARE Vault po zakończeniu pobierania.</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>Kliknij przycisk Next (Dalej) po zainstalowaniu aplikacji ReadySHARE Vault, aby zakończyć konfigurację routera.</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>Przetwarzanie żądania…</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>Po zakończeniu instalacji kliknij przycisk Dalej.</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>Zostanie zainstalowane oprogramowanie</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>Kliknij Uruchom, aby rozpocząć instalację</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>Asystent uaktualniania oprogramowania sprzętowego</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>Trwa uaktualnianie oprogramowania sprzętowego routera. Proszę czekać</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>Uwaga:Uaktualnianie oprogramowania sprzętowego zajmie około</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>minut do zakończenia aktualizacji oprogramowania sprzętowego.&lt;br&gt;W tym czasie nie należy wyłączać zasilania ani resetować urządzenia.</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>Proszę czekać...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>Anuluj</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>Router pobiera nową wersję. Proszę czekać...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>Znaleziono nową wersję oprogramowania sprzętowego. Czy chcesz teraz uaktualnić do nowej wersji?</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>Bieżąca wersja</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>Nowa wersja oprogramowania sprzętowego</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>Ten proces może potrwać kilka minut; czekaj...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>Sprawdzanie wersji oprogramowania sprzętowego</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>Nie jest dostępna żadna nowa wersja oprogramowania sprzętowego.</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>OK</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>Trwa sprawdzanie ustawień sieciowych, proszę czekać…</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>W sieci wykryto istniejący router lub bramę</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>Router NETGEAR jest podłączony do sieci, do której przypisany jest inny router. Jeśli chcesz, by pierwszy router pozostał podłączony, aplikacja genie zaleci zastosowane trybu punktu dostępowego w ustawieniach routera NETGEAR. Gdy router NETGEAR znajduje się w trybie punktu dostępowego, można dołączyć go do sieci bez zakłócania pracy pierwszego routera.</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>Czy chcesz skonfigurować urządzenie w trybie punktu dostępowego?</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>Tak (zalecane)</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>Nie, uruchom urządzenie w trybie domyślnym jako router</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>Aby dodać router do sieci działającej w Trybie punktu dostępowego</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>Adres IP nowego urządzenia</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>Uzyskaj adres IP dynamicznie od istniejącego routera</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>Użyj stałego adresu IP (niezalecane)</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>Uwaga: Po kliknięciu przycisku Dalej, do routera zostanie przypisany nowy adres IP. Gdy tak się stanie, przeglądarka internetowa może zostać odłączona od sieci. Aby ponownie połączyć się z routerem, zamknij okno i ponownie uruchom przeglądarkę.</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>Tryb routera</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>Tryb punktu dostępowego</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>Dowiedz się więcej</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>Ostrzeżenie</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>Nowy router NETGEAR zostanie przestawiony w tryb punktu dostępowego. Możesz zauważyć krótką przerwę w działaniu sieci, podczas której nowy router NETGEAR oraz klient uzyskują nowe adresy IP z istniejącego routera. Jeśli utracisz połączenie sieciowe, nawiąż połączenie z nowym routerem NETGEAR, odwiedzając stronę &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>W trybie punktu dostępowego niedostępne są następujące funkcje routera:</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>Ochrona rodzicielska</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>Blokowanie witryn</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>Blokowanie usług</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>Przekierowywanie portów</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>Inicjowanie portów</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>Trasy statyczne</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>Miernik ruchu</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>Zdalne zarządzanie</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>Gościnny dostęp do sieci</translation>
+<variable>Guest network</variable>
+</message>
+
+<message>
+<tag_code>4459</tag_code>
+<translation>Wygląda na to, że próbujesz zainstalować router marki NETGEAR za istniejącym urządzeniem WiFi lub bramy, dostarczonym przez dostawcę usług internetowych. Możesz wybrać jeden z kilku trybów pracy routera.</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>Chcę wybrać tryb</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>Pomóż mi wybrać</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>Program genie zada ci kilka pytań, a następnie zasugeruje tryb działania najlepiej dopasowany do Twoich potrzeb.</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(Zawsze możesz zmienić tryb działania routera, uruchamiając ponownie kreatora instalacji.)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(Kliknij tutaj, aby zobaczyć ilustrację.)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>Ten tryb pozwala korzystać z &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funkcji routera&lt;/a&gt; NETGEAR. W tym trybie router NETGEAR funkcjonuje jako normalny router WiFi, działający za istniejącym urządzeniem routera lub bramy. W takiej sytuacji należy podłączyć wszystkie urządzenia sieciowe do nowego routera NETGEAR, a nie do istniejącego urządzenia bramy.</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>Ten tryb ułatwia konfigurację, gdy urządzenia są już podłączone do istniejącego urządzenia routera lub bramy, bądź gdy chcesz użyć nowego routera NETGEAR do rozszerzenia zasięgu istniejącej sieci WiFi. Nie wszystkie &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funkcje routera&lt;/a&gt; są dostępne w trybie punktu dostępowego.</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>Funkcje routera</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>Kontrola dostępu</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>Funkcje zaawansowane</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>Przekierowywanie portów (mapowanie portów) umożliwia dostęp do sieci domowej przez Internet. Jeśli w sieci domowej funkcjonuje urządzenie, takie jak serwer sieci Web, z którym użytkownicy Internetu nawiązują połączenie używając zarejestrowanej nazwy hosta (zazwyczaj przez dynamiczny DNS) lub adresu IP, najprawdopodobniej funkcja przekierowywania portów jest włączona. Jeśli nie wiesz, do czego służy ta funkcja, nawet jeśli korzystasz ze zdalnego dostępu do domowych urządzeń, najprawdopodobniej nie korzystasz z tej funkcji.</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>Router kontra punkt dostępowy</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>Program genie wykrył, że próbujesz zainstalować nowy router NETGEAR za innym urządzeniem bramy, na przykład dostarczoną przez usługodawcę Internetu bramą DSL lub sieci kablowej z obsługą łączności Wi-Fi lub protokołu VoIP.</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>W tym trybie nowy router NETGEAR funkcjonuje jako normalny router WiFi, działający za istniejącym urządzeniem bramy, tworząc oddzielną sieć WiFi za urządzeniem bramy. Firma NETGEAR zaleca włączenie trybu routera, który umożliwia czerpanie pełni korzyści z jego zaawansowanych funkcji. Gdy router NETGEAR pracuje w trybie routera, powinien być jedynym urządzeniem podłączonym do istniejącego urządzenia bramy sieciowej. Wszelkie pozostałe urządzenia sieciowe należy podłączyć do routera NETGEAR. Jeśli istniejące urządzenie bramy sieciowej działa jako urządzenie dostępu do sieci WiFi, należy wyłączyć tę funkcję.</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>Niektóre &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;zaawansowane funkcje&lt;/a&gt;, takie jak zarządzanie zdalne, wymagają skonfigurowania w urządzeniu bramy. Więcej informacji można znaleźć w dokumentacji urządzenia bramy.</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>Jeśli chcesz wykorzystać nowy router do uzyskania większej wydajności sieci WiFi, niż osiągana przy istniejącym urządzeniu bramy, najłatwiejszym rozwiązaniem jest użycie trybu punktu dostępowego. Firma NETGEAR zaleca wyłączenie funkcji obsługi sieci WiFi w istniejącym urządzeniu bramy, jeśli jest ono wyposażone w taką funkcję. W tym trybie urządzenie bramy i nowy router NETGEAR będą obsługiwać połączenia przewodowe, a ponadto router NETGEAR będzie obsługiwać połączenia WiFi.</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>W tym trybie, według ustawień domyślnych, nowy adres IP routera jest przypisywany dynamicznie przez urządzenie bramy. Dlatego adres routera będzie inny niż 192.168.1.1. Aby uzyskać dostęp do interfejsu użytkownika routera, odwiedź stronę &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; za pomocą urządzenia podłączonego do tego routera. W tym trybie niektóre &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;funkcje routera&lt;/a&gt; są niedostępne. Aby z nich skorzystać, należy przestawić urządzenie w tryb routera.</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>Następujące funkcje routera są dostępne tylko w trybie routera, ale wymagają dodatkowej konfiguracji w istniejącym urządzeniu bramy:</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>Terminal końcowy VPN</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>Włącz Tryb punktu dostępowego</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>Aby tryb routera pracował poprawnie, należy podłączyć wszystkie urządzenia bezprzewodowe i przewodowe do routera NETGEAR, za wyjątkiem oprzyrządowania dostarczonego przez dostawcę usług internetowych, tj. zestawu set-top-box lub telefonów bezprzewodowych podłączanych do urządzenia bramy.</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>Czy możesz odłączyć pozostałe urządzenia (przewodowe i bezprzewodowe) od istniejącego urządzenia bramy, a następnie podłączyć je do routera NETGEAR?</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>Firma NETGEAR zaleca przestawienie nowego urządzenia w tryb routera</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>Tryb routera zapewnia dostęp do wszystkich zaawansowanych funkcji routera NETGEAR. Zawsze możesz zmienić tryb pracy urządzenia później, uruchamiając ponownie kreatora instalacji.</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+
+<message>
+<tag_code>4485</tag_code>
+<translation>Nazwa sieci bezprzewodowej w paśmie 2,4 GHz (identyfikator SSID): </translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>Hasło sieci bezprzewodowej w paśmie 2,4 Ghz (klucz sieciowy): </translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>Nazwa sieci bezprzewodowej w paśmie 5GHz (identyfikator SSID): </translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>Hasło sieci bezprzewodowej w paśmie 5 Ghz (klucz sieciowy): </translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>Klucz sieci bezprzewodowej (hasło)</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>UWAGA: Nie klikaj przycisku &lt;b&gt;Zakończ&lt;/b&gt; przed ponownym połączeniem urządzenia do routera.</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&lt;/b&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>Zakończ</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>Ustawienia łączności bezprzewodowej w tym routerze uległy zmianie. Połącz urządzenie WiFi z routerem za pomocą następującego identyfikatora SSID i hasła, a następnie kliknij przycisk &lt;b&gt;Zakończ&lt;/b&gt;, aby zakończyć instalację.</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>Firma NETGEAR zaleca wyłączenie funkcji WiFi w istniejącym urządzeniu bramy, co pozwoli na uniknięcie następujących problemów:</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>Przypadkowe łączenie się urządzeń z istniejącym urządzeniem bramy zamiast z nowym routerem NETGEAR</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>Konflikt między nowym routerem NETGEAR a funkcją WiFi w istniejącym urządzeniu bramy</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>Firma NETGEAR zaleca wyłączenie funkcji WiFi w istniejącym urządzeniu bramy, aby zapobiec zakłóceniom mogącym pogorszyć wydajność połączenia bezprzewodowego</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>Czy możesz wyłączyć funkcję WiFi w istniejącym urządzeniu bramy?</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>Skopiuj bieżące ustawienia sieci WiFi z istniejącego urządzenia bramy i wprowadź je w tym miejscu. Następnie wyłącz funkcję WiFi w istniejącym urządzeniu bramy.</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>Aby uniemożliwić urządzeniom nawiązywanie połączeń z istniejącym urządzeniem bramy, połącz wszystkie urządzenia WiFi z routerem za pomocą następującego identyfikatora SSID i hasła (klucza sieciowego).</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>Ochrona hasła administratora</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>Ostrzeżenie: stanowczo zalecamy włączenie funkcji ochrony hasła administratora w celu zabezpieczenia danych ReadySHARE. Jeśli domyślne hasło administratora nie zostało zmienione, zalecamy zmienić je w celu zabezpieczenia sieci.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>Ustawienia konta administratora</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>Hasło administratora jest używane do zalogowania się do interfejsu sieciowego routera. Zabezpiecz sieć, zmieniając hasło administratora.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>Nowe hasło</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>Potwierdź nowe hasło</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>Nazwa użytkownika administratora:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>Nowe hasło administratora:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>Ustawienia administratora routera:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>Bieżąca sieć</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>Program genie wykrył, że uzyskujesz dostęp do Internetu za pomocą urządzenia bramy. Jeśli chcesz korzystać ze wszystkich funkcji nowego routera, włącz tryb routera. Odpowiedz na pytania zadawane przez program genie, aby potwierdzić, czy tryb routera odpowiada Twoim potrzebom.</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>Czy w aktualnie używanej bramie korzystasz z &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;zaawansowanych funkcji&lt;/a&gt;, takich jak &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;przekierowywanie portów&lt;/a&gt; &#40;czasem zwane mapowaniem portów&#41;, czy przypisujesz statyczny adres IP urządzeniu w sieci domowej? Z tych funkcji korzystają zwykle zaawansowani użytkownicy. Jeśli nazwy tych funkcji nie brzmią znajomo, wybierz opcję &lt;b&gt;Nie&lt;/b&gt;, ponieważ najprawdopodobniej z nich nie korzystasz.</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>Firma NETGEAR zaleca przestawienie nowego routera w tryb punktu dostępowego, ponieważ nie wymaga on wprowadzania jakichkolwiek zmian w konfiguracji urządzenia bramy.</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>Jeśli jesteś zaawansowanym użytkownikiem i wiesz, jak skonfigurować urządzenie bramy do obsługi tych zaawansowanych funkcji, możesz kliknąć przycisk &lt;b&gt;Wstecz&lt;/b&gt; i przestawić urządzenie NETGEAR w tryb routera.</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>

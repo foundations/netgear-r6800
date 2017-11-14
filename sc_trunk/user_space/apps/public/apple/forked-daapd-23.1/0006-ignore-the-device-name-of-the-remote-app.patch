@@ -1,0 +1,39 @@
+From 046d997ff40c045bf576224d75a4ca08deb4689b Mon Sep 17 00:00:00 2001
+From: root <root@localhost.localdomain>
+Date: Fri, 19 Jun 2015 15:33:05 +0800
+Subject: [PATCH 6/6] ignore the device name of the remote app
+
+---
+ src/remote_pairing.c |    9 +++++++++
+ 1 files changed, 9 insertions(+), 0 deletions(-)
+
+diff --git a/src/remote_pairing.c b/src/remote_pairing.c
+index e658ea3..6a23a94 100644
+--- a/src/remote_pairing.c
++++ b/src/remote_pairing.c
+@@ -368,6 +368,14 @@ add_remote_pin_data(char *devname, char *pin)
+ 
+   for (ri = remote_list; ri; ri = ri->next)
+     {
++      if (ri->pin)
++	free(ri->pin);
++      ri->pin = pin;
++    }
++
++#if 0
++  for (ri = remote_list; ri; ri = ri->next)
++    {
+       if (strcmp(ri->pi.name, devname) == 0)
+ 	break;
+     }
+@@ -385,6 +393,7 @@ add_remote_pin_data(char *devname, char *pin)
+     free(ri->pin);
+ 
+   ri->pin = pin;
++#endif
+ 
+   return 0;
+ }
+-- 
+1.6.5.2
+

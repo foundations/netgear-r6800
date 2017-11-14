@@ -1,0 +1,18 @@
+:R6950_boot_1010.bin			&00000000
+:uImage.bin					 	&00200000
+:rootfs.bin					 	&00600000
+:ENU.pkg						&02e00000
+:CHS.pkg						&03000000
+:RUS.pkg						&03200000
+:DEU.pkg						&03400000
+:ESP.pkg						&03600000
+:NLD.pkg						&03800000
+:KOR.pkg						&03a00000
+:FRA.pkg						&03c00000
+:SVE.pkg						&03e00000
+:CSY.pkg						&04000000
+:TUR.pkg						&04200000
+:ITA.pkg						&04400000
+%R6950.pid				 &000effff &04e1fff0	
+#$size					     &20000
+$size					     &14000

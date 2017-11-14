@@ -1,0 +1,20 @@
+field.lo: field.c config.h global.h id3tag.h field.h frame.h render.h \
+ ucs4.h latin1.h parse.h
+
+config.h:
+
+global.h:
+
+id3tag.h:
+
+field.h:
+
+frame.h:
+
+render.h:
+
+ucs4.h:
+
+latin1.h:
+
+parse.h:

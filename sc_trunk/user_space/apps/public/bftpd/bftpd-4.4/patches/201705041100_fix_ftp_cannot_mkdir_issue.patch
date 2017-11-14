@@ -1,0 +1,65 @@
+diff -aNru bftpd-4.4/bftpd/bftpd.fw.conf bftpd-4.4_new/bftpd/bftpd.fw.conf
+--- bftpd-4.4/bftpd/bftpd.fw.conf	2017-05-04 10:51:24.000000000 +0800
++++ bftpd-4.4_new/bftpd/bftpd.fw.conf	2017-05-02 17:31:51.000000000 +0800
+@@ -304,8 +304,8 @@
+   directory "/" {
+     ALLOWCOMMAND_DELE="no"
+     ALLOWCOMMAND_STOR="no"
+-    ALLOWCOMMAND_XMKD="no"
+-    ALLOWCOMMAND_MKD="no"
++    ALLOWCOMMAND_XMKD="yes"
++    ALLOWCOMMAND_MKD="yes"
+     ALLOWCOMMAND_APPE="no"
+     ALLOWCOMMAND_XRMD="no"
+     ALLOWCOMMAND_RMD="no"
+@@ -315,8 +315,8 @@
+   directory "/shares" {
+     ALLOWCOMMAND_DELE="no"
+     ALLOWCOMMAND_STOR="no"
+-    ALLOWCOMMAND_XMKD="no"
+-    ALLOWCOMMAND_MKD="no"
++    ALLOWCOMMAND_XMKD="yes"
++    ALLOWCOMMAND_MKD="yes"
+     ALLOWCOMMAND_APPE="no"
+     ALLOWCOMMAND_XRMD="no"
+     ALLOWCOMMAND_RMD="no"
+diff -aNru bftpd-4.4/bftpd/commands.c bftpd-4.4_new/bftpd/commands.c
+--- bftpd-4.4/bftpd/commands.c	2017-05-04 10:51:24.000000000 +0800
++++ bftpd-4.4_new/bftpd/commands.c	2017-05-04 11:02:19.000000000 +0800
+@@ -1617,7 +1617,6 @@
+ 	sync();
+ #endif
+ }
+-
+ void command_mkd(char *dirname)
+ {
+ 	char *mapped = bftpd_cwd_mappath(dirname);
+@@ -1628,6 +1627,13 @@
+         }
+         if (pre_write_script)
+            run_script(pre_write_script, mapped);
++    
++	// forbid mkdir in "/" or "/shares/" directory.
++	if (strlen(mapped) <= (strlen(dirname) + 8))
++	{
++        control_printf(SL_FAILURE, "451 Error: Unable to create directory.");
++        return;
++	}
+ 
+ 	if (mkdir(mapped, 0777)) {
+ 		bftpd_log("Error: '%s' while trying to create directory '%s'.\n",
+@@ -1833,6 +1833,14 @@
+         }
+ 	/* mapped = bftpd_cwd_mappath(strdup(strchr(params, ' ') + 1)); */
+         mapped = bftpd_cwd_mappath(my_string);
++
++    // forbid chmod in "/" or "/shares/" directory.
++	if (strlen(mapped) <= (strlen(my_string) + 8))
++	{
++		free(my_string);
++        control_printf(SL_FAILURE, "550: An error occured on the server trying to CHMOD.");
++        return;
++	}
+         free(my_string);
+        
+         if (pre_write_script)

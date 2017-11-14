@@ -1,0 +1,92 @@
+<html>
+<head>
+  <title>ReAIM - A transparent AOL Instant Messenger Proxy</title>
+  <link rel="stylesheet" href="doc-ns4.css" type="text/css" />
+  <style type="text/css">
+    @import url("doc.css");
+  </style>
+  <meta name="Author" content="Mark P. Cooke" />
+  <meta name="Version" content="$Id: index.html,v 1.10 2002/12/09 23:30:21 mark-c Exp $" />
+</head>
+<body>
+<div class="page">
+<h1>ReAIM - AOL Instant Messenger Proxy</h1>
+<h2>What is ReAIM ?</h2>
+
+<p>ReAIM is a compact transparent proxy designed to be run on or behind a
+Linux IPTables based firewall.  When run behind a simple address-translating
+firewall, the current AIM client software does not allow direct-connections
+between users to work.  AIM requires direct-connections for file and image
+transfers.</p>
+
+<p>This proxy is designed to transparently intercept AIM client messages
+and pass them through a configurable filter/rewrite chain.  This allows
+selective modification of the source address provided in direct-connection
+setup packets, and so remote users can be told to use the global internet
+routable address, rather than the actual IP address of the client on the
+local network.</p>
+
+<p>I have written a <a href="dcc.html">basic introduction</a> to how the
+AIM software sends messages, and the problems it encounters with address
+translation and firewalls.  It's worth looking over for a top level 
+overview if the previous paragraph didn't make a lot of sense.</p>
+
+<p class="last">Because the code seemed to be coming together nicely in a
+modular structure, I've added in support for MS Messenger's file transfer
+in a very similar way!</p>
+
+<h2>Current Status</h2>
+
+<p>The current code is alpha quality.  This means that it works for me,
+but has many rough edges and plenty of things still to finish and properly
+design.</p>
+
+<p class="last">I regularly use the proxy for AIM messaging and file
+sharing.  It also has preliminary support for MS Messenger file
+transfers.</p>
+
+<h2>Download</h2>
+
+<p class="last">The <a href="http://sourceforge.net/project/showfiles.php?group_id=40800">File
+List page</a> at sourceforge holds links to all the released code.  In
+general you should use the most recent release, and if you are having
+trouble with an earlier release, please try the latest before filling out
+a bug report.</p>
+
+<h2>Configuration</h2>
+
+<p class="last">I have written a basic overview for setting up the
+<a href="setup.html">appropriate firewall rules</a>.  Included in the distribution is a
+sample firewall setup script.</p>
+
+<h2>CVS</h2>
+
+<p class="last">The current code can be downloaded from the CVS server at
+sourceforge in the usual way.  Instructions are <a
+href="http://sourceforge.net/cvs/?group_id=40800">available here</a>.</p>
+
+<h2>Credits</h2>
+
+<p>My thanks to everyone that has worked on decoding the OSCAR protocol
+used by AIM.  Without your work, this program would have taken much longer
+to produce.</p>
+
+<p>To the Linux Hackers for providing transparent port interception and
+redirection - way to go!  iptables is an incredibly powerful framework.</p>
+
+<p class="last">To my friends who introduced me to instant messaging, and
+the problems which exist in the current clients and their handling of
+firewalls and address translation.</p>
+
+<h2>Contacting The Author</h2>
+
+<p class="last">My name is Tyler Dur...err, I mean Mark Cooke.  Bugs,
+comments, feedback can be sent to me at <a href="mailto:mark-c@users.sourceforge.net">
+mark-c@users.sourceforge.net</a></p>
+
+<br>
+<center><A href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=40800" width="88" height="31" border="0" alt="SourceForge Logo"></A></center>
+
+</div>
+</body>
+</html>

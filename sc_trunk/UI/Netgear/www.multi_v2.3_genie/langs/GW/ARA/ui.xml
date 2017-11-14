@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tag_msg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<message>
+<tag_code>25</tag_code>
+<translation>التالي</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>51</tag_code>
+<translation>إلغاء</translation>
+</message>
+<message>
+<tag_code>61</tag_code>
+<translation>نعم</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>62</tag_code>
+<translation>لا</translation>
+<variable>No</variable>
+</message>
+<message>
+<tag_code>71</tag_code>
+<translation>عنوان IP</translation>
+<variable>IP Address</variable>
+</message>
+<message>
+<tag_code>75</tag_code>
+<translation>قناع الشبكة الفرعية لـ IP</translation>
+<variable>IP Subnet Mask</variable>
+</message>
+<message>
+<tag_code>80</tag_code>
+<translation>DNS الأساسي</translation>
+</message>
+<message>
+<tag_code>81</tag_code>
+<translation>DNS الثانوي</translation>
+<variable>Secondary DNS</variable>
+</message>
+<message>
+<tag_code>91</tag_code>
+<translation>تسجيل الدخول</translation>
+<variable>Login</variable>
+</message>
+<message>
+<tag_code>169</tag_code>
+<translation>مساعد ترقية البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>173</tag_code>
+<translation>التحقق من إصدار البرنامج الثابت</translation>
+</message>
+<message>
+<tag_code>175</tag_code>
+<translation>السابق</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>466</tag_code>
+<translation>معالج الإعداد</translation>
+<variable>Setup Wizard</variable>
+</message>
+<message>
+<tag_code>494</tag_code>
+<translation>الإعدادات اللاسلكية</translation>
+<variable>Wireless Settings</variable>
+</message>
+<message>
+<tag_code>552</tag_code>
+<translation>لاسلكي</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>597</tag_code>
+<translation>نوع الاتصال</translation>
+<variable>Connection Type</variable>
+</message>
+<message>
+<tag_code>708</tag_code>
+<translation>قناع الشبكة الفرعية</translation>
+<variable>Subnet Mask</variable>
+</message>
+<message>
+<tag_code>709</tag_code>
+<translation>البوابة الافتراضية</translation>
+<variable>Default Gateway</variable>
+</message>
+<message>
+<tag_code>753</tag_code>
+<translation>حاول مجدداً</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>832</tag_code>
+<translation>لا يتوفر إصدار جديد للبرنامج الثابت.</translation>
+</message>
+<message>
+<tag_code>860</tag_code>
+<translation>تم اكتشاف IP حيوي (DHCP)</translation>
+<variable>Dynamic IP (DHCP) detected</variable>
+</message>
+<message>
+<tag_code>875</tag_code>
+<translation>يستطيع معالج الإعداد الذكي اكتشاف نوع اتصال الإنترنت لديك.</translation>
+<variable>The Smart Setup Wizard can detect the type of Internet connection that you have.</variable>
+</message>
+<message>
+<tag_code>876</tag_code>
+<translation>هل تريد أن يحاول معالج الإعداد الذكي اكتشاف نوع الاتصال الآن؟</translation>
+<variable>Do you want the Smart Setup Wizard to try and detect the connection type now?</variable>
+</message>
+<message>
+<tag_code>877</tag_code>
+<translation>لا. أريد تكوين الموجه بنفسي.</translation>
+<variable>No. I want to configure the router myself.</variable>
+</message>
+<message>
+<tag_code>3000</tag_code>
+<translation>- تحقق من صحة اتصالات الكبل. راجع دليل تثبيت الموجه بحثاً عن الإرشادات.</translation>
+<variable>- Check that the cable connections are correct. Refer to the router Installation Guide for instructions.</variable>
+</message>
+<message>
+<tag_code>3001</tag_code>
+<translation>- تحقق من تشغيل دورة المودم ذات النطاق الترددي السريع بشكل صحيح. إذا كان لديك مودم مدعوم ببطارية، إنزع البطارية وأعد إدخالها لتشغيل دورة المودم.</translation>
+<variable>- Check that your broadband modem is power cycled correctly. If you have a battery-backed modem, remove and reinsert the battery to power cycle your modem.</variable>
+</message>
+<message>
+<tag_code>3003</tag_code>
+<translation>(تنسيق AABBCCDDEEFF)</translation>
+<variable>(format AABBCCDDEEFF)</variable>
+</message>
+<message>
+<tag_code>3005</tag_code>
+<translation>*=المعلومات المطلوبة</translation>
+</message>
+<message>
+<tag_code>3006</tag_code>
+<translation>1.  لم يتم تشغيل دورة المودم خلال خطوة مد الكبلات.</translation>
+<variable>1.  The modem was not power cycled during the cabling step.</variable>
+</message>
+<message>
+<tag_code>3007</tag_code>
+<translation>2.  لم يتم إدخال كبل إيثرنت الأصفر بالكامل أو تم إدخاله في المكان الخطأ.</translation>
+<variable>2.  The yellow Ethernet cable is not fully inserted, or is inserted in the wrong place.</variable>
+</message>
+<message>
+<tag_code>3008</tag_code>
+<translation>ويُعتبر عنوان MAC رقماً فريداً.  يمكنك إيجاد عنوان MAC الخاص بالكمبيوتر أو الموجه على ملصق المنتج الخاص به.</translation>
+<variable>A MAC address is a unique number.  You can find the MAC address of the computer or router on its product label.</variable>
+</message>
+<message>
+<tag_code>3014</tag_code>
+<translation>بعد التحقق من كبل إيثرنت، انقر فوق &lt;b&gt;حاول مجدداً&lt;/b&gt;.</translation>
+<variable>After you have checked the Ethernet cable, click &lt;b&gt;Try again&lt;/b&gt;.</variable>
+</message>
+<message>
+<tag_code>3015</tag_code>
+<translation>خادم DNS بديل</translation>
+<variable>Alternate DNS Server</variable>
+</message>
+<message>
+<tag_code>3016</tag_code>
+<translation>الجواب</translation>
+</message>
+<message>
+<tag_code>3017</tag_code>
+<translation>تطبيق إعدادات اتصال الإنترنت</translation>
+<variable>Applying Internet Connection Settings</variable>
+</message>
+<message>
+<tag_code>3020</tag_code>
+<translation>السابق</translation>
+<variable>Back</variable>
+</message>
+<message>
+<tag_code>3023</tag_code>
+<translation>استعرض وصولاً إلى ملف النسخ الاحتياطي لإعدادات الموجه الذي قمت بحفظه سابقاً، وانقر فوق &lt;b&gt;التالي&lt;/b&gt;للمتابعة.</translation>
+<variable>Browse to the router settings backup file you previously saved, and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3024</tag_code>
+<translation>التحقق من اتصال إنترنت؛ يرجى الانتظار ...</translation>
+<variable>Checking the Internet connection; please wait …</variable>
+</message>
+<message>
+<tag_code>3025</tag_code>
+<translation>انقر هنا</translation>
+<variable>Click here</variable>
+</message>
+<message>
+<tag_code>3028</tag_code>
+<translation>تكوين اتصال إنترنت</translation>
+<variable>Configuring the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3029</tag_code>
+<translation>تهانينا!</translation>
+<variable>Congratulations!</variable>
+</message>
+<message>
+<tag_code>3030</tag_code>
+<translation>اسم/معرّف الاتصال</translation>
+<variable>Connection ID/Name</variable>
+</message>
+<message>
+<tag_code>3031</tag_code>
+<translation>متابعة</translation>
+<variable>Continue</variable>
+</message>
+<message>
+<tag_code>3034</tag_code>
+<translation>اكتشاف اتصال الإنترنت</translation>
+<variable>Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3035</tag_code>
+<translation>هل قام موفر خدمة الإنترنت (ISP) بتعيين عنوان IP (ساكن) ثابت لك؟ هذا نشر خاص &lt;b&gt;نادر للغاية&lt;/b&gt;. </translation>
+<variable>Did your Internet Service Provider (ISP) assign to you a fixed (static) IP address? This is a &lt;b&gt;very rare&lt;/b&gt; special deployment. </variable>
+</message>
+<message>
+<tag_code>3037</tag_code>
+<translation>;</translation>
+<variable>Do you want NETGEAR Genie to help?</variable>
+</message>
+<message>
+<tag_code>3038</tag_code>
+<translation>هل تريد أن يحاول NETGEAR Genie مجدداً؟</translation>
+<variable>Do you want NETGEAR Genie to try again?</variable>
+</message>
+<message>
+<tag_code>3040</tag_code>
+<translation>تمكين استرداد كلمة المرور</translation>
+</message>
+<message>
+<tag_code>3043</tag_code>
+<translation>أدخل إعدادات IP الثابت المعينة من قبل موفر خدمة إنترنت وانقر فوق &lt;b&gt;التالي&lt;/b&gt; للمتابعة.</translation>
+<variable>Enter the fixed IP settings assigned by your Internet Service Provider and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3044</tag_code>
+<translation>أدخل عنوان MAC هنا.</translation>
+<variable>Enter the MAC address here.</variable>
+</message>
+<message>
+<tag_code>3045</tag_code>
+<translation>أدخل المعلومات المطلوبة مجدداً.</translation>
+<variable>Enter the required information again.</variable>
+</message>
+<message>
+<tag_code>3046</tag_code>
+<translation>أدخل المعلومات المطلوبة أدناه.</translation>
+<variable>Enter the required information below.</variable>
+</message>
+<message>
+<tag_code>3049</tag_code>
+<translation>فشل</translation>
+<variable>Failure</variable>
+</message>
+<message>
+<tag_code>3053</tag_code>
+
+
+
+
+<translation>إعدادات IP الإنترنت الثابت</translation>
+<variable>Fixed Internet IP Settings</variable>
+</message>
+<message>
+<tag_code>3054</tag_code>
+<translation>عنوان IP الخاص بالبوابة</translation>
+<variable>Gateway IP Address</variable>
+</message>
+<message>
+<tag_code>3060</tag_code>
+<translation>قمت بتصحيح مشكلة في كبل إيثرنت.</translation>
+<variable>I corrected a problem with the Ethernet cable.</variable>
+</message>
+<message>
+<tag_code>3061</tag_code>
+<translation>لا أعرف. </translation>
+<variable>I don't know. </variable>
+</message>
+<message>
+<tag_code>3062</tag_code>
+<translation>قمت بحفظ إعدادات الموجه في ملف وأريد استعادة الموجه إلى تلك الإعدادات.</translation>
+<variable>I have saved the router settings in a file and I want to restore the router to those settings.</variable>
+</message>
+<message>
+<tag_code>3063</tag_code>
+<translation>قمت للتو بتشغيل دورة المودم وانتظرت مدة دقيقتين.</translation>
+<variable>I just power cycled the modem and waited for 2 minutes.</variable>
+</message>
+<message>
+<tag_code>3064</tag_code>
+<translation>أريد تكوين اتصال الإنترنت بنفسي</translation>
+<variable>I want to configure the Internet connection myself</variable>
+</message>
+<message>
+<tag_code>3065</tag_code>
+<translation>&lt;b&gt;مهلة الخمول&lt;/b&gt;(بالدقائق)</translation>
+<variable>&lt;b&gt;Idle Timeout&lt;/b&gt;(In Minutes)</variable>
+</message>
+<message>
+<tag_code>3067</tag_code>
+<translation>إذا قمت سابقاً بتوصيل بخدمة إنترنت بواسطة كمبيوتر أو موجه آخر،  يمكن أن يستخدم  NETGEAR Genie نفس عنوان MAC الذي كان يعمل سابقاً.</translation>
+<variable>If you previously connected to your Internet service with a computer or another router,  NETGEAR Genie can use the same MAC address that worked before.</variable>
+</message>
+<message>
+<tag_code>3068</tag_code>
+<translation>تحديث هام</translation>
+<variable>Important Update</variable>
+</message>
+<message>
+<tag_code>3069</tag_code>
+<translation>في أي مدينة وُلد والدك؟</translation>
+</message>
+<message>
+<tag_code>3070</tag_code>
+<translation>في أي مدينة وُلدت والدتك؟</translation>
+</message>
+<message>
+<tag_code>3071</tag_code>
+<translation>في أي مدينة وُلدت؟</translation>
+</message>
+<message>
+<tag_code>3072</tag_code>
+<translation>في أي سنة (س س س س) تخرجت من الثانوية؟</translation>
+</message>
+<message>
+<tag_code>3073</tag_code>
+<translation>اسم مستخدم أو كلمة مرور ISP غير صحيحة</translation>
+<variable>Incorrect ISP User name or Password</variable>
+</message>
+<message>
+<tag_code>3094</tag_code>
+<translation>تأكد من أن الكبل موصول بأمان بمنفذ المودم ذات النطاق الترددي السريع ومنفذ إنترنت الموجه.</translation>
+<variable>Make sure that the cable is securely plugged into both the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3095</tag_code>
+<translation>عنوان IP الخاص بي</translation>
+<variable>My IP Address</variable>
+</message>
+<message>
+<tag_code>3097</tag_code>
+<translation>مشكلة اتصال الشبكة</translation>
+<variable>Network Connection Issue</variable>
+</message>
+<message>
+<tag_code>3098</tag_code>
+<translation>مفتاح الشبكة (كلمة المرور)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3099</tag_code>
+<translation>مفتاح الشبكة (كلمة المرور)</translation>
+<variable>network key (password)</variable>
+</message>
+<message>
+<tag_code>3100</tag_code>
+<translation>التالي</translation>
+<variable>Next</variable>
+</message>
+<message>
+<tag_code>3101</tag_code>
+<translation>لم يتم توصيل كبل إيثرنت بمنفذ إنترنت الموجه</translation>
+<variable>No Ethernet Cable Is Plugged into the Router Internet Port</variable>
+</message>
+<message>
+<tag_code>3103</tag_code>
+<translation>لا، لم أحصل على عنوان IP ثابت (ساكن) من ISP.</translation>
+<variable>No, I did not get a fixed (static) IP address from my ISP.</variable>
+</message>
+<message>
+<tag_code>3104</tag_code>
+<translation>لا، أريد تكوين اتصال إنترنت بنفسي.</translation>
+<variable>No, I want to configure the Internet connection myself.</variable>
+</message>
+<message>
+<tag_code>3106</tag_code>
+<translation>لا شيء مما تقدم.</translation>
+<variable>None of the above.</variable>
+</message>
+<message>
+<tag_code>3113</tag_code>
+<translation>كلمة المرور</translation>
+<variable>Password</variable>
+</message>
+<message>
+<tag_code>3118</tag_code>
+<translation>يرجى مراجعة العناصر التالية:</translation>
+<variable>Please review the following items:</variable>
+</message>
+<message>
+<tag_code>3121</tag_code>
+<translation>يرجى الانتظار لحظة...</translation>
+<variable>Please wait a moment...</variable>
+</message>
+<message>
+<tag_code>3122</tag_code>
+<translation>تم اكتشاف اتصال إنترنت DSL من PPPoE</translation>
+<variable>PPPoE DSL Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3123</tag_code>
+<translation>تم اكتشاف اتصال إنترنت PPTP</translation>
+<variable>PPTP Internet Connection Detected</variable>
+</message>
+<message>
+<tag_code>3124</tag_code>
+<translation>خادم DNS المفضل</translation>
+<variable>Preferred DNS Server</variable>
+</message>
+<message>
+<tag_code>3125</tag_code>
+<translation>اطبع هذا</translation>
+<variable>Print this</variable>
+</message>
+<message>
+<tag_code>3126</tag_code>
+<translation>حصلت مشكلة أثناء اكتشاف اتصال الإنترنت - عنوان IP</translation>
+<variable>Problem Detecting the Internet Connection - IP Address</variable>
+</message>
+<message>
+<tag_code>3127</tag_code>
+<translation>حصلت مشكلة أثناء اكتشاف اتصال الإنترنت - عنوان MAC</translation>
+<variable>Problem Detecting the Internet Connection - MAC Address</variable>
+</message>
+<message>
+<tag_code>3128</tag_code>
+<translation>حصلت مشكلة أثناء اكتشاف اتصال الإنترنت</translation>
+<variable>Problem Detecting the Internet Connection</variable>
+</message>
+<message>
+<tag_code>3130</tag_code>
+<translation>استعادة إعدادات الموجه </translation>
+<variable>Restore Router Settings </variable>
+</message>
+<message>
+<tag_code>3131</tag_code>
+<translation>استعادة إعدادات الموجه</translation>
+<variable>Restoring Router Settings</variable>
+</message>
+<message>
+<tag_code>3135</tag_code>
+<translation>إصدار برنامج الموجه الثابت</translation>
+<variable>Router Firmware Version</variable>
+</message>
+<message>
+<tag_code>3140</tag_code>
+<translation>البحث عن دعم NETGEAR</translation>
+</message>
+<message>
+<tag_code>3141</tag_code>
+<translation>سؤال الأمان #1</translation>
+</message>
+<message>
+<tag_code>3142</tag_code>
+<translation>سؤال الأمان #2</translation>
+</message>
+<message>
+<tag_code>3143</tag_code>
+<translation>تحديد سؤال</translation>
+</message>
+<message>
+<tag_code>3144</tag_code>
+<translation>حدد خياراً وانقر فوق &lt;b&gt;التالي&lt;/b&gt; للمتابعة.</translation>
+<variable>Select an option and click &lt;b&gt;Next&lt;/b&gt; to proceed.</variable>
+</message>
+<message>
+<tag_code>3147</tag_code>
+<translation>عنوان الخادم</translation>
+<variable>Server Address</variable>
+</message>
+<message>
+<tag_code>3150</tag_code>
+<translation>انقلني إلى الإنترنت</translation>
+<variable>Take me to the Internet</variable>
+</message>
+<message>
+<tag_code>3155</tag_code>
+<translation>يتعذر على الموجه الاتصال بالإنترنت بواسطة الإعدادات الحالية.</translation>
+<variable>The router cannot connect to the Internet with the current settings.</variable>
+</message>
+<message>
+<tag_code>3156</tag_code>
+<translation>يعود هذا على الأرجح إلى أحد الأسباب التالية:</translation>
+<variable>This is most likely due to one of the following reasons:</variable>
+</message>
+<message>
+<tag_code>3157</tag_code>
+<translation>قد تستغرق هذه العملية بضع دقائق؛ يرجى الانتظار ...</translation>
+<variable>This process can take a few minutes; please wait …</variable>
+</message>
+<message>
+<tag_code>3158</tag_code>
+<translation>يمكن أن تستغرق هذه العملية دقيقة أو دقيقتين؛ يرجى الانتظار...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>3159</tag_code>
+<translation>تم تعيين هذا الموجه مسبقاً بواسطة اسم الشبكة اللاسلكية الفريد التالي (SSID) و</translation>
+<variable>This router is preset with the following unique wireless network name (SSID) and </variable>
+</message>
+<message>
+<tag_code>3160</tag_code>
+<translation>سيتم إرجاع هذه الشاشة تلقائيًا إلى الشاشة السابقة خلال ثوانٍ قليلة...</translation>
+<variable>This screen will automatically return to the previous screen in a few seconds...</variable>
+</message>
+<message>
+<tag_code>3161</tag_code>
+<translation>لتجنب التعارض مع موفر خدمة الإنترنت، تم تحديث عنوان IP الخاص بالموجه إلى </translation>
+<variable>To avoid a conflict with your Internet Service Provider, your router's IP address has been updated to </variable>
+</message>
+<message>
+<tag_code>3163</tag_code>
+<translation>لحل هذه المشكلة، تأكد من توصيل كبل إيثرنت الأصفر بإحكام بمنفذ مودم ذات نطاق ترددي سريع ومنفذ إنترنت الموجه.</translation>
+<variable>To solve this problem, make sure that the yellow Ethernet cable is securely plugged in to the broadband modem port and the router Internet port.</variable>
+</message>
+<message>
+<tag_code>3164</tag_code>
+<translation>لحل هذه المشكلة، قم بتشغيل دورة المودم (قم بإيقاف تشغيلها وتشغيلها). لتشغيل دورة مودم بواسطة بطارية احتياطية، قد تحتاج لإزالة بطاريته وإعادة إدخالها. بعد دورة التشغيل، انتظر مدة دقيقتين ليشتغل المودم بشكل كامل.</translation>
+<variable>To solve this problem, power cycle the modem (turn it off and on). To power cycle a modem with battery backup, you might need to remove and reinsert its battery. After the power cycle, wait 2 minutes for the modem to completely start up.</variable>
+</message>
+<message>
+<tag_code>3165</tag_code>
+<translation>حاول مجدداً</translation>
+<variable>Try again</variable>
+</message>
+<message>
+<tag_code>3168</tag_code>
+<translation>اسم المستخدم</translation>
+<variable>User Name</variable>
+</message>
+<message>
+<tag_code>3171</tag_code>
+<translation>يمكننا مساعدتك على استرداد كلمة مرور مسؤول الموجه. يرجى إكمال المعلومات أدناه والنقر فوق &lt;b&gt;متابعة&lt;/b&gt;.</translation>
+</message>
+<message>
+<tag_code>3172</tag_code>
+<translation>ما هو اسم أول صاحب عمل عملت لديه؟</translation>
+</message>
+<message>
+<tag_code>3173</tag_code>
+<translation>ما هو الاسم الأول لصديقك المفضل؟</translation>
+</message>
+<message>
+<tag_code>3174</tag_code>
+<translation>ما هو الاسم الأوسط لوالدك؟</translation>
+</message>
+<message>
+<tag_code>3175</tag_code>
+<translation>ما هو الاسم الأول لجدك؟</translation>
+</message>
+<message>
+<tag_code>3176</tag_code>
+<translation>ما هو الاسم الأول لجدتك؟</translation>
+</message>
+<message>
+<tag_code>3177</tag_code>
+<translation>ما هو الاسم الأوسط لوالدتك؟</translation>
+</message>
+<message>
+<tag_code>3178</tag_code>
+<translation>ما هو الاسم الأول لشقيقك الأكبر؟</translation>
+</message>
+<message>
+<tag_code>3179</tag_code>
+<translation>ما هو الاسم الأول لشقيقتك الكبرى؟</translation>
+</message>
+<message>
+<tag_code>3180</tag_code>
+<translation>ما هو الاسم الأول لشقيقك الأصغر؟</translation>
+</message>
+<message>
+<tag_code>3181</tag_code>
+<translation>ما هو الاسم الأول لشقيقتك الصغرى؟</translation>
+</message>
+<message>
+<tag_code>3182</tag_code>
+<translation>ما كان الاسم الأول لمديرك الأول؟</translation>
+</message>
+<message>
+<tag_code>3183</tag_code>
+<translation>ما كان اسم أول منتج NETGEAR اشتريته؟</translation>
+</message>
+<message>
+<tag_code>3184</tag_code>
+<translation>ما كان اسم أول مدرسة  ذهبت إليها؟</translation>
+</message>
+<message>
+<tag_code>3187</tag_code>
+<translation>اسم الشبكة اللاسلكية (SSID)</translation>
+<variable>Wireless Network Name (SSID)</variable>
+</message>
+<message>
+<tag_code>3189</tag_code>
+<translation>لاسلكي</translation>
+<variable>Wireless</variable>
+</message>
+<message>
+<tag_code>3190</tag_code>
+<translation>نعم</translation>
+<variable>Yes</variable>
+</message>
+<message>
+<tag_code>3191</tag_code>
+<translation>نعم. قام ISP بتعيين عنوان IP (ساكن) ثابت لي.</translation>
+<variable>Yes. My ISP assigned a fixed (static) IP address to me.</variable>
+</message>
+<message>
+<tag_code>3193</tag_code>
+<translation>أنت غير متصل بانترنت.</translation>
+<variable>You are not yet connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3194</tag_code>
+<translation>أنت متصل بالإنترنت بنجاح.</translation>
+<variable>You are successfully connected to the Internet.</variable>
+</message>
+<message>
+<tag_code>3197</tag_code>
+<translation>تم تعيين الموجه مسبقاً بواسطة أمان WPA2-PSK اللاسلكي لحماية الشبكة من الوصول غير المرغوب فيه. للانضمام إلى الشبكة اللاسلكية، يجب إدخال مفتاح الشبكة (كلمة المرور). تُعتبر إعدادات التعيين المسبق هذه فريدة لهذا الجهاز، مثل رقم تسلسلي.  وإذا أردت تغييرها، يمكنك القيام بذلك لاحقاً في شاشة الإعدادات اللاسلكية على GUI للموجه على ويب.</translation>
+<variable>Your router is preset with WPA2-PSK wireless security to protect your network from unwanted access. To join the wireless network, you must enter the network key (password). These preset settings are unique to this device, like a serial number.  If you want to change them, you can do so later in the Wireless Settings screen on the router web GUI.</variable>
+</message>
+<message>
+<tag_code>3198</tag_code>
+<translation>لم يتم تمكين الأمان اللاسلكي على هذا الموجه. تنصحك NETGEAR بشدة بأن</translation>
+<variable>Wireless security is not enabled on this router. NETGEAR highly recommends that you</variable>
+</message>
+<message>
+<tag_code>3199</tag_code>
+<translation>لتمكين الأمان اللاسلكي وحماية شبكتك.</translation>
+<variable>to enable wireless security and protect your network.</variable>
+</message>
+<message>
+<tag_code>3210</tag_code>
+<translation>اكتشاف تلقائي</translation>
+<variable>Auto-Detect</variable>
+</message>
+<message>
+<tag_code>3212</tag_code>
+<translation>انقر فوق "التالي" للمتابعة.</translation>
+<variable>Click "Next" to continue.</variable>
+</message>
+<message>
+<tag_code>3440</tag_code>
+<translation>وضع AP</translation>
+<variable>AP Mode</variable>
+</message>
+<message>
+<tag_code>4400</tag_code>
+<translation>السابق</translation>
+<variable>Previous</variable>
+</message>
+<message>
+<tag_code>4401</tag_code>
+<translation>قم بتنزيل تطبيقات الموجه التالية:</translation>
+<variable>Downloading the following router apps:</variable>
+</message>
+<message>
+<tag_code>4402</tag_code>
+<translation>تطبيق Genie. لوحة معلومات خاصة تسمح لك بمراقبة الشبكة المنزلية الخاصة بك والتحكم فيها وإصلاحها.</translation>
+<variable>Genie app. A personal dashboard that lets you monitor, control, and repair your home network.</variable>
+</message>
+<message>
+<tag_code>4403</tag_code>
+<translation>تطبيق ReadySHARE Vault (لأجهزة الكمبيوتر التي تعمل بنظام Windows فقط). تمكين النسخ الاحتياطي التلقائي المستمر لكمبيوتر يعمل بنظام Windows إلى محرك أقراص USB متصل بالموجه الخاص بك.</translation>
+<variable>ReadySHARE Vault app (Only for Windows computers). Enables automatic continuous backup of a Windows computer to a USB drive that’s connected to your router.</variable>
+</message>
+<message>
+<tag_code>4404</tag_code>
+<translation>يتم التنزيل...</translation>
+<variable>Downloading…</variable>
+</message>
+<message>
+<tag_code>4405</tag_code>
+<translation>ثبِّت تطبيق Genie بعد اكتمال التنزيل.</translation>
+<variable>Install the Genie app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4406</tag_code>
+<translation>انقر فوق الزر التالي بعد تثبيت تطبيق Genie لإنهاء تكوين الموجه.</translation>
+<variable>Click the Next button after you install the Genie app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4407</tag_code>
+<translation>ثبِّت تطبيق ReadySHARE Vault بعد اكتمال التنزيل.</translation>
+<variable>Install the ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4408</tag_code>
+<translation>انقر فوق الزر التالي بعد تثبيت تطبيق ReadySHARE Vault لإنهاء تكوين الموجه.</translation>
+<variable>Click the Next button after you Install the ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4409</tag_code>
+<translation>جارٍ معالجة طلبك...</translation>
+<variable>Processing your request…</variable>
+</message>
+<message>
+<tag_code>4410</tag_code>
+<translation>Install the Genie app and ReadySHARE Vault app after the download completes.</translation>
+<variable>Install the Genie app and ReadySHARE Vault app after the download completes.</variable>
+</message>
+<message>
+<tag_code>4411</tag_code>
+<translation>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</translation>
+<variable>Click the Next button after you install the Genie app and ReadySHARE Vault app to finish configuring the router.</variable>
+</message>
+<message>
+<tag_code>4412</tag_code>
+<translation>بعد التثبيت، يرجى النقر فوق التالي</translation>
+<variable>After the installation, please click Next.</variable>
+</message>
+<message>
+<tag_code>4413</tag_code>
+<translation>سيتم تثبيت النظام</translation>
+<variable>System will install</variable>
+</message>
+<message>
+<tag_code>4414</tag_code>
+<translation>انقر فوق تشغيل لبدء التثبيت</translation>
+<variable>Click Run to start installing</variable>
+</message>
+<message>
+<tag_code>4415</tag_code>
+<translation>مساعد ترقية البرنامج الثابت</translation>
+<variable>Firmware Upgrade Assistant</variable>
+</message>
+<message>
+<tag_code>4416</tag_code>
+<translation>جارِ ترقية البرنامج الثابت للموجه الآن. يرجى الانتظار</translation>
+<variable>Upgrading Router Firmware now. Please Wait</variable>
+</message>
+<message>
+<tag_code>4417</tag_code>
+<translation>ملاحظة: سيستغرق هذا حوالي</translation>
+<variable>Note: It will take about</variable>
+</message>
+<message>
+<tag_code>4418</tag_code>
+<translation>دقائق لترقية البرنامج الثابت.&lt;br&gt;يرجى عدم إيقاف تشغيل الطاقة أو الضغط على زر إعادة التعيين.</translation>
+<variable>minutes for firmware upgrade.&lt;br&gt;Please don't turn off the power or press reset button.</variable>
+</message>
+<message>
+<tag_code>4419</tag_code>
+<translation>يرجى الانتظار...</translation>
+<variable>Please wait ...</variable>
+</message>
+<message>
+<tag_code>4420</tag_code>
+<translation>إلغاء</translation>
+<variable>Cancel</variable>
+</message>
+<message>
+<tag_code>4421</tag_code>
+<translation>يقوم الموجه بتنزيل الإصدار الجديد الآن. يرجى الانتظار...</translation>
+<variable>The Router is downloading the new version now. Please wait...</variable>
+</message>
+<message>
+<tag_code>4422</tag_code>
+<translation>تم العثور على إصدار جديد. هل ترغب في الترقية إلى الإصدار الجديد الآن?</translation>
+<variable>A new version has been found. Do You want to upgrade to the new version now?</variable>
+</message>
+<message>
+<tag_code>4423</tag_code>
+<translation>الإصدار الحالي</translation>
+<variable>Current Version</variable>
+</message>
+<message>
+<tag_code>4424</tag_code>
+<translation>إصدار جديد للبرنامج الثابت</translation>
+<variable>New Firmware Version</variable>
+</message>
+<message>
+<tag_code>4425</tag_code>
+<translation>يمكن أن تستغرق هذه العملية دقيقة أو دقيقتين؛ يرجى الانتظار...</translation>
+<variable>This process can take a minute or two; please wait...</variable>
+</message>
+<message>
+<tag_code>4426</tag_code>
+<translation>التحقق من إصدار البرنامج الثابت</translation>
+<variable>Firmware Version Check</variable>
+</message>
+<message>
+<tag_code>4427</tag_code>
+<translation>لا يتوفر إصدار جديد للبرنامج الثابت.</translation>
+<variable>No new firmware version available.</variable>
+</message>
+<message>
+<tag_code>4428</tag_code>
+<translation>موافق</translation>
+<variable>OK</variable>
+</message>
+<message>
+<tag_code>4429</tag_code>
+<translation>جارٍ التحقق من إعداد الشبكة، يرجى الانتظار...</translation>
+<variable>Checking your network setup,please wait...</variable>
+</message>
+<message>
+<tag_code>4430</tag_code>
+<translation>تم كشف موجه أو بوابة في شبكتك</translation>
+<variable>An existing router or gateway is detected in your network</variable>
+</message>
+<message>
+<tag_code>4431</tag_code>
+<translation>ن موجه NETGEAR متصل بشبكة لها موجه آخر بالفعل. إذا رغبت في ترك الموجه الأول متصلاً، ينصحك نظام genie باستخدام وضع نقطة الوصول لموجه NETGEAR. عندما يكون موجه NETGEAR في وضع نقطة الوصول، يمكنك استخدمه للانضمام إلى الشبكة ويستمر الموجه الآخر بأداء مهام الشبكة نفسها كما كان يفعل.</translation>
+<variable>Your NETGEAR router is connected to a network that already has another router. If you want to leave the first router connected, genie recommends using Access Point mode for the NETGEAR router. When the NETGEAR router is in Access Point mode, you can use it to join the network and the other router continues to perform the same network tasks as before.</variable>
+</message>
+<message>
+<tag_code>4432</tag_code>
+<translation>هل تريد إعداد هذا الجهاز في وضع نقطة الوصول</translation>
+<variable>Do you want to setup this device in Access Point mode</variable>
+</message>
+<message>
+<tag_code>4433</tag_code>
+<translation>نعم (موصى به)</translation>
+<variable>Yes (recommended)</variable>
+</message>
+<message>
+<tag_code>4434</tag_code>
+<translation>لا، أرغب في تشغيله في الوضع الافتراضي كموجه</translation>
+<variable>No, I would like to run it in default mode as a router</variable>
+</message>
+<message>
+<tag_code>4435</tag_code>
+<translation>إضافة هذا الموجه إلى الشبكة في وضع نقطة الوصول</translation>
+<variable>To add this router to your network in Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4436</tag_code>
+<translation>عنوان IP الخاص بهذا الجهاز الجديد</translation>
+<variable>IP Address of this new device</variable>
+</message>
+<message>
+<tag_code>4437</tag_code>
+<translation>الحصول على عنوان IP ديناميكيًا من الموجه الحالي</translation>
+<variable>Get IP Address dynamically from existing router</variable>
+</message>
+<message>
+<tag_code>4438</tag_code>
+<translation>استخدام عنوان IP الثابت (غير موصى به)</translation>
+<variable>Use fixed IP Address (not recommended)</variable>
+</message>
+<message>
+<tag_code>4439</tag_code>
+<translation>ملاحظة: بعد النقر فوق "\التالي"\، يتم تعيين عنوان IP جديد لهذا الموجه. عندئذ، قد يتم قطع اتصال المتصفح عن الشبكة. لإعادة اتصال الموجه، أغلق النافذة وأعد تشغيل المتصفح.</translation>
+<variable>Note: After you click Next, this router will be assigned a new IP address. When it happens your browser might be disconnected from the network. To reconnect to the router, close the window and launch your browser again.</variable>
+</message>
+<message>
+<tag_code>4441</tag_code>
+<translation></translation>
+<variable>Your NETGEAR router is connected to a network that already has another router.This means that you must select an operation mode:</variable>
+</message>
+<message>
+<tag_code>4442</tag_code>
+<translation>وضع الموجه</translation>
+<variable>Router Mode</variable>
+</message>
+<message>
+<tag_code>4443</tag_code>
+<translation></translation>
+<variable>Router mode gives you two different networks:The existing network from the original router,and another network form your new NETGEAR router.If all of your devices connect to NETGEAR router,recommend to use Router Mode.</variable>
+</message>
+<message>
+<tag_code>4444</tag_code>
+<translation>وضع نقطة الوصول</translation>
+<variable>Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4445</tag_code>
+<translation></translation>
+<variable>This mode keeps the existing network from the original router only.Not all of the NETGEAR router's features are available in Access Point mode.If you have devices connect to both existing router and NETGEAR router,recommend to use Access Point Mode.</variable>
+</message>
+<message>
+<tag_code>4446</tag_code>
+<translation>معرفة المزيد</translation>
+<variable>Learn More</variable>
+</message>
+<message>
+<tag_code>4447</tag_code>
+<translation>تحذير</translation>
+<variable>WARNING</variable>
+</message>
+<message>
+<tag_code>4448</tag_code>
+<translation>إن موجه NETGEAR الجديد على وشك أن يتم إعداده إلى وضع نقطة الوصول. قد يحدث انقطاع قصير في الاتصال بالشبكة لأن على موجه NETGEAR الجديد والعميل الحصول على عنوان IP جديد من الموجه الموجود. إذا فقدت الاتصال بالشبكة، فقم بتوصيل موجه NETGEAR الجديد يدويًا من جديد عبر زيارة الموقع&lt;a style='text-decoration:underline;color:&#35;0000ff;' href='http://www.routerlogin.net' target='_blank'&gt;&lt;u&gt;www.routerlogin.net&lt;/u&gt;&lt;/a&gt;</translation>
+<variable>Your router is about to setup to Access Point Mode.You may experience short network interruption due to your router and client will need to obtain new IP address from your existing Router.If you lost network connection,you may manually connect to router again by visiting www.routerlogin.net.</variable>
+</message>
+<message>
+<tag_code>4449</tag_code>
+<translation>لا تتوفر ميزات الموجه التالية إذا اخترت وضع نقطة الوصول:</translation>
+<variable>The following router features are not available if you choose Access Point mode:</variable>
+</message>
+<message>
+<tag_code>4450</tag_code>
+<translation>عناصر تحكم الوالدين</translation>
+<variable>Parental control</variable>
+</message>
+<message>
+<tag_code>4451</tag_code>
+<translation>حظر المواقع</translation>
+<variable>Block sites</variable>
+</message>
+<message>
+<tag_code>4452</tag_code>
+<translation>حظر الخدمات</translation>
+<variable>Block services</variable>
+</message>
+<message>
+<tag_code>4453</tag_code>
+<translation>إعادة توجيه المنفذ</translation>
+<variable>Port forwarding</variable>
+</message>
+<message>
+<tag_code>4454</tag_code>
+<translation>تشغيل المنفذ</translation>
+<variable>Port triggering</variable>
+</message>
+<message>
+<tag_code>4455</tag_code>
+<translation>التوجيهات الثابتة</translation>
+<variable>Static route</variable>
+</message>
+<message>
+<tag_code>4456</tag_code>
+<translation>"مقياس حركة المرور</translation>
+<variable>Traffic meter</variable>
+</message>
+<message>
+<tag_code>4457</tag_code>
+<translation>الإدارة عن بُعد</translation>
+<variable>Remote management</variable>
+</message>
+<message>
+<tag_code>4458</tag_code>
+<translation>شبكة الضيف</translation>
+<variable>Guest network</variable>
+</message>
+<message>
+<tag_code>4459</tag_code>
+<translation>يبدو أنك تثبّت موجه NETGEAR خلف موجه WiFi الخاص بموفر الإنترنت الموجود أو البوابة الموجودة. يمكنك اختيار تثبيت الموجه في أوضاع تشغيل مختلفة.</translation>
+<variable>It appers that you are installing the NETGEAR router behind your existing Internet provider WiFi router or gateway. You can choose to install your router in different operation modes.</variable>
+</message>
+<message>
+<tag_code>4460</tag_code>
+<translation>دعني أختار</translation>
+<variable>Let Me Choose</variable>
+</message>
+<message>
+<tag_code>4461</tag_code>
+<translation>ساعدني في الاختيار</translation>
+<variable>Help Me Choose</variable>
+</message>
+<message>
+<tag_code>4462</tag_code>
+<translation>يجعلك تطبيق genie تجيب عن بعض الأسئلة، ثم يقترح وضع التشغيل الأفضل لك.</translation>
+<variable>genie walks you through a few questions and then suggests the operation mode that is best for you.</variable>
+</message>
+<message>
+<tag_code>4463</tag_code>
+<translation>(يمكنك دائمًا تغيير الوضع عبر تشغيل معالج الإعداد مجددًا.)</translation>
+<variable>(You can always change the mode by running the Setup Wizard again.)</variable>
+</message>
+<message>
+<tag_code>4465</tag_code>
+<translation>(انقر هنا لرؤية صورة.)</translation>
+<variable>(Click here to see an illustration.)</variable>
+</message>
+<message>
+<tag_code>4466</tag_code>
+<translation>يتيح لك هذا الوضع الاستفادة من &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;وظائف موجه&lt;/a&gt;NETGEAR&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;.&lt;/a&gt; تم إعداد موجه NETGEAR كموجه WiFi عادي خلف الموجه الموجود أو البوابة الموجودة. يتطلب هذا الوضع أن تكون كافة الأجهزة متصلة بموجه NETGEAR الجديد وليس بالبوابة الموجودة."</translation>
+<variable>This mode allows you to take advantage of NETGEAR &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions.&lt;/a&gt; The NETGEAR router is set up as a normal WiFi router behind your existing router or gateway. This mode requires that all of your devices be connected to the new NETGEAR router and not to your existing gateway.</variable>
+</message>
+<message>
+<tag_code>4467</tag_code>
+<translation>يعتبر هذا الوضع مناسبًا للإعداد السهل إذا كانت الأجهزة متصلة بالفعل بالموجه الموجود أو البوابة الموجودة أو إذا كنت تريد فقط استخدام موجه NETGEAR الجديد هذا لتوسيع نطاق تغطية WiFi. لا تتوفر بعض &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;وظائف الموجه&lt;/a&gt; في وضع نقطة الوصول.</translation>
+<variable>This mode is apporpriate for easy setup if devices are already connected to your existing router or gateway, or if you just want to use this new NETGEAR router to extend your WiFi coverage. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in access point mode</variable>
+</message>
+<message>
+<tag_code>4468</tag_code>
+<translation>وظائف الموجه</translation>
+<variable>Router Functions</variable>
+</message>
+<message>
+<tag_code>4469</tag_code>
+<translation>التحكم بالوصول</translation>
+<variable>Access Control</variable>
+</message>
+<message>
+<tag_code>4470</tag_code>
+<translation>الوظائف المتقدمة</translation>
+<variable>Advanced Functions</variable>
+</message>
+<message>
+<tag_code>4471</tag_code>
+<translation>تسمح إعادة توجيه المنفذ (تدعى أحيانًا تعيين المنفذ) بالوصول إلى الشبكة المنزلية عبر الإنترنت. إذا كان لديك جهاز مثل خادم ويب في المنزل يمكن للآخرين الوصول إليه عن بُعد باستخدام اسم مضيف سجّلته (عادةً عبر خدمة DNS الحيوي) أو باستخدام عنوان IP، فعلى الأرجح أن وظيفة إعادة توجيه المنفذ ممكّنة لديك. إذا لم تسمع قط بهذه الوظيفة، حتى وإن كان لديك إمكانية الوصول عن بُعد إلى جهاز في المنزل، فمن المرجح أنك لا تستخدم هذه الوظيفة.</translation>
+<variable>Port forwarding(sometimes called port mapping) allows access to your home network through the Internet. If you have a device like a web server at home that others access remotely using a host name that you registered (usually through a dynamic DNS service) or using an IP address, you probably have the port forwarding function enabled. If you have never heard of this function, even if you have remote access to a device at home, It's likely you don't use this function.</variable>
+</message>
+<message>
+<tag_code>4472</tag_code>
+<translation>الموجه مقابل نقطة الوصول</translation>
+<variable>Router vs. Access Point</variable>
+</message>
+<message>
+<tag_code>4473</tag_code>
+<translation>كشف genie أنك تحاول تثبيت موجه NETGEAR الجديد خلف بوابة أخرى، مثلاً بوابة كبل أو DSL من موفر خدمة الإنترنت. عادة، توفر البوابة أيضًا WiFi أو وظيفة الصوت عبر الإنترنت (VoIP). يمكنك تثبيت موجه NETGEAR في وضعَي تشغيل مختلفين.</translation>
+<variable>genie detected that you are trying to install your new NETGEAR router behind another gateway, for example, the DSL or cable gateway from your Internet service provider. Usually a gateway also provides WiFi or Voice over Internet (VoIP) function. You can install your NETGEAR router in two different operation modes.</variable>
+</message>
+<message>
+<tag_code>4474</tag_code>
+<translation>يؤدي هذا الوضع إلى تكوين موجه NETGEAR الجديد كموجه WiFi عادي خلف البوابة وينشئ شبكة WiFi منفصلة خلف البوابة. للاستفادة بشكل كامل من وظائف الموجه المتقدمة هذه، توصي NETGEAR باستخدام وضع الموجه. في وضع الموجه، يكون الجهاز الوحيد الذي يمكن توصيله بالبوابة الموجودة هو موجه NETGEAR الجديد. عليك توصيل كافة الأجهزة بموجه NETGEAR الجديد. إذا كانت البوابة الموجودة مزوّدة بوظيفة WiFi، فقم بتعطيلها.</translation>
+<variable>This mode configures your new NETGEAR router as a normal WiFi router behind your gateway and creates a separate network behind your gateway. To take full advantage of these router's advanced funcstions, NETGEAR recommends that you use router mode. In router mode, the only device that can be connetcted to your existing gateway is your new NETGEAR router. You must connect all of your devices to the new NETGEAR router. If your existing gateway has a WiFi function, disable it.</variable>
+</message>
+<message>
+<tag_code>4475</tag_code>
+<translation>لا تزال بعض&lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;الوظائف المتقدمة&lt;/a&gt; مثل الإدارة عن بُعد بحاجة إلى تكوين على البوابة. لمزيد من المعلومات، راجع الوثائق حول البوابة.</translation>
+<variable>Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;advanced functions&lt;/a&gt; like Remote Management still neeed configuration on the gateway. For more information, see your gateway's documentation</variable>
+</message>
+<message>
+<tag_code>4476</tag_code>
+<translation>إذا أردت استخدام الموجه الجديد للحصول على أداء أفضل لشبكة WiFi من ذلك الذي تحصل عليه باستخدام البوابة الموجودة، يكون وضع نقطة الوصول هو الطريقة الأسهل للقيام بذلك. توصي NETGEAR بتعطيل وظيفة WiFi على البوابة الموجودة، في حال كانت هذه الأخيرة مزوّدة بوظيفة WiFi. في هذا الوضع، يمكنك توصيل أجهزة سلكية بالبوابة وتوصيل أجهزة سلكية وأجهزة WiFi بموجه NETGEAR الجديد.</translation>
+<variable>If you want ot use the new router to get better WiFi performance beyond what you have with your existing gateway, access point mode is the easiest way to do that. NETGEAR recommends that you disable the WiFi function on your existing gwateway, if it has WiFi functionality. With this mode, you can connet wired devices to the gateway and connect wired and WiFi devices to your new NETGEAR router.</variable>
+</message>
+<message>
+<tag_code>4477</tag_code>
+<translation>في هذا الوضع، يكون عنوان IP الخاص بالموجه الجديد معيّنًا بشكل ديناميكي من خلال البوابة ومن غير المرجح أن يكون 192.168.1.1. مع ذلك، لا يزال بإمكانك استخدام عنوان URL‏ &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; للوصول إلى GUI الخاصة بإدارة الموجه من جهاز متصل بالموجه. لا تتوفر بعض &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;وظائف الموجه&lt;/a&gt; في هذا الوضع وعليك استخدام وضع الموجه إذا أردت استخدام تلك الوظائف</translation>
+<variable>In this mode, by default, the new router's IP address is assigned by your gateway dynamically and is unlikely to be 192.168.1.1. However, you can still use the URL &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='http://www.routerlogin.net'&gt;http://www.routerlogin.net&lt;/a&gt; to access the router's management GUI from a device connected to the router. Some &lt;a style=text-decoration:underline;color:#0000ff; target='_blank' href='./BRS_ap_msg1.html'&gt;router functions&lt;/a&gt; are not available in this mode, and you must use router mode if you want to use those functions.</variable>
+</message>
+<message>
+<tag_code>4478</tag_code>
+<translation>تتوفر وظائف الموجه التالية فقط في وضع الموجه، لكنها تتطلب تكوينًا على البوابة الموجودة:</translation>
+<variable>The following router functions are only available in router mode, but they require configuration on your existing gateway:</variable>
+</message>
+<message>
+<tag_code>4479</tag_code>
+<translation>إنهاء VPN</translation>
+<variable>VPN termination</variable>
+</message>
+<message>
+<tag_code>4480</tag_code>
+<translation>تمكين وضع نقطة الوصول</translation>
+<variable>Enable Access Point Mode</variable>
+</message>
+<message>
+<tag_code>4481</tag_code>
+<translation>ليتم تشغيل وضع الموجه بشكل صحيح، عليك توصيل كل أجهزة WiFi والأجهزة السلكية بموجه NETGEAR، باستثناء الأجهزة التي يوفرها موفر خدمة الإنترنت، مثل جهاز فك تشفير التلفاز أو الهواتف اللاسلكية المتصلة بالبوابة.</translation>
+<variable>For the router mode to operate correctly, you must connect all your WiFi and wired devices to the NETGEAR router, except equipment provided by your Internet service provider, such as a TV set-top-box or cordless phones connected to your gateway.</variable>
+</message>
+<message>
+<tag_code>4482</tag_code>
+<translation>هل يمكنك فصل كل الأجهزة الأخرى (السلكية واللاسلكية) عن البوابة الموجودة وتوصيلها بموجه NETGEAR؟</translation>
+<variable>Can you disconnect all your other devices (wired and wireless) from the existing gateway and then connect them to the NETGEAR router?</variable>
+</message>
+<message>
+<tag_code>4483</tag_code>
+<translation>توصي NETGEAR بإعداد هذا الموجه الجديد في وضع الموجه.</translation>
+<variable>NETGEAR recommends that you set up this new router in router mode.</variable>
+</message>
+<message>
+<tag_code>4484</tag_code>
+<translation>يسمح لك وضع الموجه باستخدام كل الميزات المتقدمة لموجه NETGEAR. يمكنك دائمًا تشغيل معالج الإعداد مجددًا لتغيير الوضع لاحقًا.</translation>
+<variable>Router mode allows you to use all the advanced features of your NETGEAR router. You can always run the Setup Wizard again to change the mode later.</variable>
+</message>
+<message>
+<tag_code>4485</tag_code>
+<translation>اسم الشبكة اللاسلكية ذات التردد 2.4 غيغا هرتز: </translation>
+<variable>2.4GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4486</tag_code>
+<translation>كلمة مرور الشبكة اللاسلكية ذات التردد 2.4 غيغا هرتز (مفتاح الشبكة): </translation>
+<variable>2.4GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4487</tag_code>
+<translation>اسم الشبكة اللاسلكية ذات التردد 5 غيغا هرتز: </translation>
+<variable>5GHz Wireless Network Name (SSID):</variable>
+</message>
+<message>
+<tag_code>4488</tag_code>
+<translation>كلمة مرور الشبكة اللاسلكية ذات التردد 5 غيغا هرتز (مفتاح الشبكة): </translation>
+<variable>5GHz Wireless Network Password (Network Key):</variable>
+</message>
+<message>
+<tag_code>4489</tag_code>
+<translation>مفتاح الشبكة اللاسلكية (كلمة المرور)</translation>
+<variable>Wireless Network Key (Password)</variable>
+</message>
+<message>
+<tag_code>4490</tag_code>
+<translation>تحذير: لا تنقر فوق الزر &lt;b&gt;إنهاء&lt;/b&gt; حتى تصل من جديد الجهاز بالموجه.</translation>
+<variable>WARNING: Do not click the &lt;b&gt;Finish&lt;/b&gt; button until you reconnect your device to the router.</variable>
+</message>
+<message>
+<tag_code>4491</tag_code>
+<translation>إنهاء</translation>
+<variable>Finish</variable>
+</message>
+<message>
+<tag_code>4492</tag_code>
+<translation>لقد تغيّرت إعدادات هذا الموجه. استخدم اسم الشبكة اللاسلكية التالية (SSID) ومفتاح الشبكة (كلمة المرور) لإعادة توصيل الجهاز بالموجه، ثم انقر فوق الزر&lt;b&gt;إنهاء&lt;/b&gt; أدناه لإكمال التثبيت.</translation>
+<variable>This router's wireless settings have been changed. Use the following wireless network name (SSID) and network key (password) to reconnect your device to the router, then click the &lt;b&gt;Finish&lt;/b&gt; button below to complete the installation.</variable>
+</message>
+<message>
+<tag_code>4493</tag_code>
+<translation>توصي NETGEAR بتعطيل شبكة WiFi الموجودة الخاصة بالبوابة الموجودة لتجنب هذه المشاكل:</translation>
+<variable>NETGEAR recommends that you disable your existing gateway's WiFi to avoid these problems:</variable>
+</message>
+<message>
+<tag_code>4494</tag_code>
+<translation>اتصال عرضي بالبوابة الموجودة بدلاً من موجه NETGEAR الجديد</translation>
+<variable>Accidental connection to the existing gateway instead of the new NETGEAR router</variable>
+</message>
+<message>
+<tag_code>4495</tag_code>
+<translation>تداخل بين موجه NETGEAR الجديد وشبكة WiFi الخاصة بالبوابة الموجودة</translation>
+<variable>Interference between the new NETGEAR router and the existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4496</tag_code>
+<translation>لتجنب حدوث تداخل مع شبكة Wifi، الأمر الذي قد يؤدي إلى تراجع أداء هذه الشبكة، توصي NETGEAR بتعطيل شبكة WiFi الخاصة بالبوابة الموجودة</translation>
+<variable>To avoid Wifi interference that might compromise WiFi performance, NETGEAR recommends that you disable your existing gateway's WiFi</variable>
+</message>
+<message>
+<tag_code>4497</tag_code>
+<translation>هل يمكنك تعطيل شبكة WiFi الخاصة بالبوابة الموجودة؟</translation>
+<variable>Can you disable your existing gateway's WiFi?</variable>
+</message>
+<message>
+<tag_code>4498</tag_code>
+<translation>انسخ إعدادات شبكة WiFi الحالية من البوابة الموجودة وأدخلها هنا. ثم قم بتعطيل شبكة WiFi الخاصة بالبوابة الموجودة.</translation>
+<variable>Copy your current WiFi settings from the existing gateway and enter them here. Then disable your existing gateway's WiFi.</variable>
+</message>
+<message>
+<tag_code>4499</tag_code>
+<translation>لمنع أجهزة WiFi من الاتصال بالبوابة الموجودة، استخدم الاسم التالي (SSID) وكلمة المرور (مفتاح الشبكة) لتوصيل كافة أجهزة WiFi بهذا الموجه.</translation>
+<variable>To prevent your WiFi devices from connection to the existing gateway, use the following name (SSID) and password  (network key) to connect all your WiFi devices to this router.</variable>
+</message>
+<message>
+<tag_code>10714</tag_code>
+<translation>حماية كلمة مرور المسؤول</translation>
+<variable>Admin Password Protection</variable>
+</message>
+<message>
+<tag_code>10715</tag_code>
+<translation>تحذير: نوصي بشدة بتمكين حماية كلمة مرور المسؤول لتأمين بيانات ReadySHARE. إذا لم تغيّر كلمة مرور المسؤول الافتراضية، نوصي أيضًا بتغييرها لتأمين شبكتك.</translation>
+<variable>Warning: We strongly recommend that you enable Admin Password Protection to secure your ReadySHARE data. If you did not change the default admin password, we also recommend that you change it to secure your network.</variable>
+</message>
+<message>
+<tag_code>10716</tag_code>
+<translation>إعدادات حساب المسؤول</translation>
+<variable>Admin Account Settings</variable>
+</message>
+<message>
+<tag_code>10717</tag_code>
+<translation>يتم استخدام كلمة مرور المسؤول لتسجيل الدخول إلى واجهة ويب الموجه. يمكنك تأمين شبكتك من خلال تغيير كلمة مرور المسؤول.</translation>
+<variable>The admin password is used to log in to your router’s web interface. Secure your Network by changing the admin password.</variable>
+</message>
+<message>
+<tag_code>10718</tag_code>
+<translation>كلمة المرور الجديدة</translation>
+<variable>New Password</variable>
+</message>
+<message>
+<tag_code>10719</tag_code>
+<translation>تأكيد كلمة المرور الجديدة</translation>
+<variable>Confirm New Password</variable>
+</message>
+<message>
+<tag_code>10720</tag_code>
+<translation>اسم مستخدم مسؤول الموجه:</translation>
+<variable>Admin User Name:</variable>
+</message>
+<message>
+<tag_code>10721</tag_code>
+<translation>استعادة إعدادات الموجه:</translation>
+<variable>New Admin Password:</variable>
+</message>
+<message>
+<tag_code>10722</tag_code>
+<translation>كلمة مرور مسؤول الموجه:</translation>
+<variable>Router Admin Settings:</variable>
+</message>
+<message>
+<tag_code>10800</tag_code>
+<translation>شبكتك الحالية</translation>
+<variable>Your Current Network</variable>
+</message>
+<message>
+<tag_code>10801</tag_code>
+<translation>اكتشف تطبيق genie أنك تستخدم بوابة للاتصال بالإنترنت. إذا أردت استخدام كافة وظائف الموجه الجديد، توصي NETGEAR بوضع الموجه. يريد تطبيق genie أن يطرح عليك بعض الأسئلة للتحقق من أن وضع الموجه مناسب لك.</translation>
+<variable>genie detected that you use a gateway for your Internet connection. If you want ot use all of your new router's functions, NETGEAR recommends router mode. genie needs to ask you a few questions to verify that router mode is appropriate for you.</variable>
+</message>
+<message>
+<tag_code>10802</tag_code>
+<translation>هل تستخدم حاليًا &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;وظائف متقدمة&lt;/a&gt; مثل &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;إعادة توجيه المنفذ&lt;/a&gt; &#40;يعرف أحيانًا بتعيين منفذ&#41; على البوابة الحالية أو تعيّن عنوان IP ساكنًا إلى جهاز على الشبكة المنزلية؟ تُستخدم هذه الوظائف عادةً من قبل المستخدمين المتقدمين. إذا لم تسمع بهذه الوظائف قط، فحدد &lt;b&gt;لا&lt;/b&gt; لأنه من المرجح أنك لا تستخدمها.</translation>
+<variable>Do you currently use &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg1.html' target='_blank'&gt;advanced functions&lt;/a&gt; like &lt;a style='text-decoration:underline;color:&#35;0000ff;' href='./BRS_ap_msg3.html' target='_blank'&gt;port forwarding&lt;/a&gt; &#40;sometimes called port mapping&#41; on your existing gateway, or do you assign a static IP address to a device on your home network? These functions are usually used by advanced users. If you have never heard of these functions, select &lt;b&gt;No&lt;/b&gt; because it's likely that you don't use them.</variable>
+</message>
+<message>
+<tag_code>10803</tag_code>
+<translation>توصي NETGEAR بإعداد هذا الموجه الجديد في وضع نقطة الوصول لأن ذلك لا يتطلب تغيير أي تكوين على البوابة.</translation>
+<variable>NETGEAR recommends that you set up this new router in access point mode because it does not require any configuration changes on your gateway.</variable>
+</message>
+<message>
+<tag_code>10804</tag_code>
+<translation>إذا كنت مستخدمًا متقدمًا وتعلم كيفية تكوين البوابة لدعم بعض هذه الوظائف المتقدمة، يمكنك النقر فوق الزر&lt;b&gt;السابق&lt;/b&gt; وتكوين موجه NETGEAR في وضع الموجه.</translation>
+<variable>If you are advanced user and know how to configure your gateway to support some of these advanced functions, you can click the &lt;b&gt;Back&lt;/b&gt; button and configure the NETGEAR router in router mode.</variable>
+</message>
+</tag_msg>
